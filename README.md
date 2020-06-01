@@ -1,29 +1,9 @@
-# README #
+# The ONE
 
-This README would normally document whatever steps are necessary to get your application up and running.
+The Opportunistic Network Environment simulator.
 
-### What is this repository for? ###
+For introduction and releases, see [the ONE homepage at GitHub](http://akeranen.github.io/the-one/).
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+For instructions on how to get started, see [the README](https://github.com/akeranen/the-one/wiki/README).
 
-### How do I get set up? ###
-
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+The [wiki page](https://github.com/akeranen/the-one/wiki) has the latest information.
