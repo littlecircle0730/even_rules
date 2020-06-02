@@ -1,0 +1,24 @@
+# Compiled files
+*.class
+
+# Simulation report files
+*reports*/*.txt
+
+# Javadocs
+*.html
+doc/stylesheet.css
+doc/resources/*.gif
+doc/package-list
+
+# Eclipse IDE files
+.classpath
+.project
+/target/
+.settings/org.eclipse.*
+
+# IntelliJ IDE files
+.idea
+TheONE.iml
+
+# Visual Studio Code files
+.vscode
