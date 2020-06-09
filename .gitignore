@@ -16,9 +16,5 @@ doc/package-list
 /target/
 .settings/org.eclipse.*
 
-# IntelliJ IDE files
-.idea
-TheONE.iml
-
 # Visual Studio Code files
 .vscode
