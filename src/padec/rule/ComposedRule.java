@@ -23,6 +23,7 @@ public class ComposedRule extends Rule {
     private LogicalOperator operator;
 
     public ComposedRule(Rule a, Rule b, LogicalOperator operator) {
+        assert a != null;
         this.a = a;
         this.b = b;
         this.operator = operator;
@@ -34,7 +35,9 @@ public class ComposedRule extends Rule {
         // Esentially, the query is propagated downwards.
         Set<Attribute> dupRemover = new HashSet<>(); // No duplicates.
         dupRemover.addAll(a.getAttributes());
-        dupRemover.addAll(b.getAttributes());
+        if(b != null) {
+            dupRemover.addAll(b.getAttributes());
+        }
         // Remove duplicates
         List<Attribute> attributes = new ArrayList<>(); // A list is returned.
         attributes.addAll(dupRemover);
@@ -44,6 +47,11 @@ public class ComposedRule extends Rule {
     @Override
     public boolean check(Map<String, Object> values) {
         // Checks are propagated downwards, then the operator is applied.
-        return operator.operate(a.check(values), b.check(values));
+        if(b != null) {
+            return operator.operate(a.check(values), b.check(values));
+        }
+        else{
+            return operator.operate(a.check(values), null);
+        }
     }
 }
