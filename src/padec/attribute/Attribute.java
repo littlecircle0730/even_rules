@@ -7,7 +7,7 @@ package padec.attribute;
  * Attribute from an user's context
  * @param <T> Attribute type
  */
-public abstract class Attribute<T> {
+public class Attribute<T> {
 
     /**
      * Value of the attribute, to be updated over time.
