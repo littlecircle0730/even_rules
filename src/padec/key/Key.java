@@ -4,6 +4,7 @@ import padec.attribute.Attribute;
 import padec.attribute.PADECContext;
 import padec.lock.Keyhole;
 
+import java.util.LinkedHashMap;
 import java.util.Map;
 
 /**
@@ -22,20 +23,19 @@ public class Key {
      */
     private String purpose;
 
-    public Key(Keyhole keyhole){
-        //TODO PADECContext should be initialized outside this class (probably by TheONE). Here we should obtain just an instance
-        PADECContext context = new PADECContext();
+    public Key(Keyhole keyhole, PADECContext context){
+        //TODO Is LinkedHashMap the most appropriate?
+        data = new LinkedHashMap<>();
 
-        for (Attribute attr: keyhole.getAttributes()) {
-            Attribute provAttr = context.getAttribute(attr.getInnerClass()); //TODO I am not sure if the InnerClass should be used to obtain an attribute
+        for (Class<? extends Attribute> attr: keyhole.getAttributes()) {
+            Attribute provAttr = context.getAttribute(attr);
 
             //TODO Here, I think that we should filter the data. But, to do that we need information about the precision in the keyhole, right?
             //and a method to select the right filtering technique depending on the precision, the data to process, etc.
             //I think that we agreed that this will be done in the second version :-)
-            attr.setValue(provAttr.getValue());
 
             //TODO I think that the string in the map should be provided in the Keyhole or should be a standard value. For now, I used the attribute name
-            data.put(attr.getAttrName(), attr);
+            data.put(provAttr.getAttrName(), provAttr.getValue());
         }
 
         // For each attribute contained in the keyhole:

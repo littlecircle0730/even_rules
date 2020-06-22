@@ -12,13 +12,13 @@ public class Keyhole {
     /**
      * Attributes required by the keyhole
      */
-    protected List<? extends Attribute> attributes;
+    protected List<Class<? extends Attribute>> attributes;
 
-    public Keyhole(List<? extends Attribute> attributes) {
+    public Keyhole(List<Class<? extends Attribute>> attributes) {
         this.attributes = attributes;
     }
 
-    public List<? extends Attribute> getAttributes() {
+    public List<Class<? extends Attribute>> getAttributes() {
         return attributes;
     }
 }

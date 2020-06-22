@@ -1,5 +1,6 @@
 package padec.attribute;
 
+import java.util.LinkedHashMap;
 import java.util.Map;
 
 /**
@@ -10,7 +11,7 @@ public class PADECContext{ // It's not called "Context" so we don't clash with A
     private Map<String, Attribute> attributeMap;//
 
     public PADECContext(){
-        //Initialize inner attribute data structure
+        attributeMap = new LinkedHashMap<>(); //TODO Is LinkedHashMap the most appropriate?
     }
 
     public PADECContext(Map<String, Attribute> attributeMap){
@@ -23,9 +24,14 @@ public class PADECContext{ // It's not called "Context" so we don't clash with A
      * @param type Attribute type.
      */
     public void registerAttribute(Class<? extends Attribute> type){
-        String attributeName = type.getName();
         //Create an attribute with the specified name in the structure.
-        attributeMap.put(attributeName, new Attribute(type, attributeName));
+        try {
+            Attribute attr = type.newInstance();
+            String attributeName = attr.getAttrName();
+            attributeMap.put(attributeName, attr);
+        } catch (InstantiationException | IllegalAccessException e) {
+            e.printStackTrace();
+        }
     }
 
     /**
@@ -34,7 +40,12 @@ public class PADECContext{ // It's not called "Context" so we don't clash with A
      * @return Attribute, if registered.
      */
     public Attribute getAttribute(Class<? extends Attribute> type){
-        String attributeName = type.getName();
+        String attributeName = null;
+        try {
+            attributeName = type.newInstance().getAttrName();
+        } catch (InstantiationException | IllegalAccessException e) {
+            e.printStackTrace();
+        }
         //Retrieve created attribute with the specified name from the structure.
         return attributeMap.get(attributeName);
     }

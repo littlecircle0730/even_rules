@@ -30,16 +30,16 @@ public class ComposedRule extends Rule {
     }
 
     @Override
-    public List<? extends Attribute> getAttributes() {
+    public List<Class<? extends Attribute>> getAttributes() {
         // Attributes of a plus attributes of b.
         // Esentially, the query is propagated downwards.
-        Set<Attribute> dupRemover = new HashSet<>(); // No duplicates.
+        Set<Class<? extends Attribute>> dupRemover = new HashSet<>(); // No duplicates.
         dupRemover.addAll(a.getAttributes());
         if(b != null) {
             dupRemover.addAll(b.getAttributes());
         }
         // Remove duplicates
-        List<Attribute> attributes = new ArrayList<>(); // A list is returned.
+        List<Class<? extends Attribute>> attributes = new ArrayList<>(); // A list is returned.
         attributes.addAll(dupRemover);
         return attributes;
     }

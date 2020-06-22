@@ -14,7 +14,7 @@ public class BaseRule extends Rule {
     /**
      * Attribute whose value is to be compared.
      */
-    private Attribute attribute;
+    private Class<? extends Attribute> attribute;
     /**
      * Values to compare the attribute with.
      */
@@ -24,23 +24,30 @@ public class BaseRule extends Rule {
      */
     private ComparisonOperator operator;
 
-    public BaseRule(Attribute attribute, Object[] values, ComparisonOperator operator) {
+    public BaseRule(Class<? extends Attribute> attribute, Object[] values, ComparisonOperator operator) {
         this.attribute = attribute;
         this.values = values;
         this.operator = operator;
     }
 
     @Override
-    public List<Attribute> getAttributes(){
+    public List<Class<? extends Attribute>> getAttributes(){
         // Extremely simple: only the attribute being used.
-        List<Attribute> res = new ArrayList<>();
+        List<Class<? extends Attribute>> res = new ArrayList<>();
         res.add(attribute);
         return res;
     }
 
     @Override
     public boolean check(Map<String, Object> values) {
-        Object value = values.get(attribute.getAttrName());
-        return operator.operate(value, this.values);
+        boolean result = false;
+        try {
+            Attribute attr = attribute.newInstance();
+            Object value = values.get(attr.getAttrName());
+            result =  operator.operate(value, this.values);
+        } catch (InstantiationException | IllegalAccessException e) {
+            e.printStackTrace();
+        }
+        return result;
     }
 }

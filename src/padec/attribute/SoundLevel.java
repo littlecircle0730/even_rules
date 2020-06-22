@@ -1,9 +1,10 @@
 package padec.attribute;
 
-public class SoundLevel {
-    double soundLevel;
+public class SoundLevel extends Attribute<Double> {
 
-    public SoundLevel(double soundLevel){
-        this.soundLevel = soundLevel;
+    private static final String SOUND_LEVEL_NAME = "soundLevel";
+
+    public SoundLevel(){
+        super(Double.class, SOUND_LEVEL_NAME);
     }
 }

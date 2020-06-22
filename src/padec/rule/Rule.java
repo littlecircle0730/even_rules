@@ -14,7 +14,7 @@ public abstract class Rule {
      * Method to get access to the attributes of the rule (to generate a keyhole).
      * @return List of attributes that the rule uses.
      */
-    public abstract List<? extends Attribute> getAttributes();
+    public abstract List<Class<? extends Attribute>> getAttributes();
 
     /**
      * Method to check if a set of values pass the rule or not.
