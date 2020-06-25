@@ -18,32 +18,22 @@ public abstract class Attribute<T> {
      * Type of the attribute, required to perform some checks.
      */
     protected Class<T> innerClass;
-
-    /**
-     * Name of the attribute (e.g. location, sound level...)
-     */
-    protected String attrName;
-
     /**
      * Base constructor for attribute providing a value.
      * @param innerClass Type of the attribute.
      * @param value Current value for the attribute.
-     * @param attrName Name of the attribute.
      */
-    public Attribute(Class<T> innerClass, T value, String attrName) {
+    public Attribute(Class<T> innerClass, T value) {
         this.value = value;
         this.innerClass = innerClass;
-        this.attrName = attrName;
     }
 
     /**
      * Base constructor for attribute not providing a value.
      * @param innerClass Type of the attribute.
-     * @param attrName Name of the attribute.
      */
-    public Attribute(Class<T> innerClass, String attrName) {
+    public Attribute(Class<T> innerClass) {
         this.innerClass = innerClass;
-        this.attrName = attrName;
     }
 
     public T getValue() {
@@ -58,16 +48,12 @@ public abstract class Attribute<T> {
         return innerClass;
     }
 
-    public String getAttrName(){
-        return attrName;
-    }
-
     /**
      * Overridden toString method for convenience.
      * @return Stringified version of an attribute.
      */
     @Override
     public String toString() {
-        return "<"+attrName+": "+value.toString()+">";
+        return "<"+this.getClass().getName()+": "+value.toString()+">";
     }
 }

@@ -40,14 +40,9 @@ public class BaseRule extends Rule {
 
     @Override
     public boolean check(Map<String, Object> values) {
-        boolean result = false;
-        try {
-            Attribute attr = attribute.newInstance();
-            Object value = values.get(attr.getAttrName());
-            result =  operator.operate(value, this.values);
-        } catch (InstantiationException | IllegalAccessException e) {
-            e.printStackTrace();
-        }
+        boolean result;
+        Object value = values.get(attribute.getName());
+        result =  operator.operate(value, this.values);
         return result;
     }
 }

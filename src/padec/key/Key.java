@@ -34,15 +34,8 @@ public class Key {
             //and a method to select the right filtering technique depending on the precision, the data to process, etc.
             //I think that we agreed that this will be done in the second version :-)
 
-            //TODO I think that the string in the map should be provided in the Keyhole or should be a standard value. For now, I used the attribute name
-            data.put(provAttr.getAttrName(), provAttr.getValue());
+            data.put(attr.getName(), provAttr.getValue());
         }
-
-        // For each attribute contained in the keyhole:
-            // Retrieve attribute value from PADECContext.
-            // Filter value accordingly.
-            // Put value in the data attribute, with its key being the attribute name.
-        // Should we filter this data? We agreed on not letting the provider get it anyways.
     }
 
     /**

@@ -27,7 +27,7 @@ public class PADECContext{ // It's not called "Context" so we don't clash with A
         //Create an attribute with the specified name in the structure.
         try {
             Attribute attr = type.newInstance();
-            String attributeName = attr.getAttrName();
+            String attributeName = type.getName();
             attributeMap.put(attributeName, attr);
         } catch (InstantiationException | IllegalAccessException e) {
             e.printStackTrace();
@@ -40,12 +40,7 @@ public class PADECContext{ // It's not called "Context" so we don't clash with A
      * @return Attribute, if registered.
      */
     public Attribute getAttribute(Class<? extends Attribute> type){
-        String attributeName = null;
-        try {
-            attributeName = type.newInstance().getAttrName();
-        } catch (InstantiationException | IllegalAccessException e) {
-            e.printStackTrace();
-        }
+        String attributeName = type.getName();
         //Retrieve created attribute with the specified name from the structure.
         return attributeMap.get(attributeName);
     }
