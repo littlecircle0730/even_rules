@@ -28,14 +28,14 @@ public class Lock {
 
     public AccessLevel getAccessLevel(int index){
         AccessLevel ret = null;
-        if (index < levels.size()){
+        if (index < levels.size() && index > 0){
             ret = levels.get(index);
         }
         return ret;
     }
 
     public void replaceAccessLevel(int index, AccessLevel level){
-        if (index < levels.size()){
+        if (index < levels.size() && index > 0){
             levels.remove(index);
             levels.add(index, level);
         }
@@ -45,14 +45,6 @@ public class Lock {
         AccessLevel ret = null;
         if (levels.size() > 0) {
             ret = levels.get(levels.size() - 1);
-        }
-        return ret;
-    }
-
-    public AccessLevel getMinAccessLevel(){
-        AccessLevel ret = null;
-        if (levels.size() > 0){
-            ret = levels.get(0);
         }
         return ret;
     }
