@@ -23,7 +23,7 @@ public abstract class Attribute<T> {
      * @param innerClass Type of the attribute.
      * @param value Current value for the attribute.
      */
-    public Attribute(Class<T> innerClass, T value) {
+    Attribute(Class<T> innerClass, T value) {
         this.value = value;
         this.innerClass = innerClass;
     }
@@ -32,7 +32,7 @@ public abstract class Attribute<T> {
      * Base constructor for attribute not providing a value.
      * @param innerClass Type of the attribute.
      */
-    public Attribute(Class<T> innerClass) {
+    Attribute(Class<T> innerClass) {
         this.innerClass = innerClass;
     }
 

@@ -2,7 +2,7 @@ package padec.attribute;
 
 public class SoundLevel extends Attribute<Double> {
 
-    public SoundLevel(){
+    SoundLevel(){
         super(Double.class);
     }
 }
