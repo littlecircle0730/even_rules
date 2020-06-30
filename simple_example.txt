@@ -1,0 +1,50 @@
+# Características del escenario:
+Scenario.name = Test-5-nodos
+Scenario.simulateConnections = true
+Scenario.updateInterval = 1.0
+Scenario.endTime = 5000
+Scenario.nrofHostGroups = 1
+
+# Características de la interfaz.
+# Interfaz de Bluetooth para todos los nodos.
+btInterface.type = SimpleBroadcastInterface
+btInterface.transmitSpeed = 250k
+btInterface.transmitRange = 10
+
+# Características communes para todos los grupos.
+Group.nrofInterfaces = 1
+Group.interface1 = btInterface
+
+
+Group.movementModel = RandomWaypoint
+Group.speed = 0.5, 1.5
+
+Group.router = EpidemicRouter
+Group.bufferSize = 5M
+Group.msgTtl = 300
+Group.nrofHosts = 5
+Group.groupID = n
+
+
+# Características del modelo de movimiento.
+MovementModel.rngSeed = 1
+MovementModel.worldSize = 450, 340
+
+# Parámetros de creación de los mensajes.
+Events.nrof = 1
+Events1.class = MessageEventGenerator
+Events1.interval = 5
+Events1.hosts= 0,4
+Events1.tohosts = 3,5
+Events1.prefix = M
+Events1.size = 500k, 1M
+
+
+# Informes de salida.
+Report.nrofReports = 1
+Report.reportDir = reports/Test-5-nodos
+Report.report1 = MessageStatsReport
+
+# Características de optimización.
+Optimization.cellSizeMult = 5
+Optimization.randomizeUpdateOrder = true 
