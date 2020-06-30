@@ -16,7 +16,7 @@ public class PADECContext{ // It's not called "Context" so we don't clash with A
 
     public PADECContext(Map<String, Attribute> attributeMap){
         //Initialize inner attribute data structure
-        this.attributeMap = attributeMap;//
+        this.attributeMap = attributeMap;
     }
 
     /**

@@ -1,0 +1,45 @@
+# This configuration file adds PADEC application for all the nodes and
+
+# Define new application
+padecAppPro.type = PADECApp
+padecAppPro.interval = 500
+padecAppPro.destinationRange = 0,125
+padecAppPro.provider = true
+padecAppPro.consumer = false
+
+padecAppCon.type = PADECApp
+padecAppCon.interval = 500
+padecAppCon.destinationRange = 0,125
+padecAppCon.provider = true
+padecAppCon.consumer = false
+
+# long range, interface
+padecInterface.type = SimpleBroadcastInterface
+padecInterface.transmitSpeed = 1M
+padecInterface.transmitRange = 1000000
+
+# Define 2 different node groups
+Scenario.nrofHostGroups = 2
+
+# Group-specific settings:
+Group.nrofHosts = 1
+Group.nrofInterfaces = 2
+Group.interface2 = padecInterface
+
+# group1 (provider) specific settings
+Group1.groupID = p
+Group1.nrofApplications = 1
+# group2 (consumer) specific settings
+Group2.groupID = c
+Group2.nrofApplications = 1
+
+# Set PADEC app for all nodes
+Group1.application1 = padecAppPro
+Group2.application1 = padecAppCon
+
+# Message creation parameters
+Events1.hosts = 0, 2
+
+# Add report for PADEC app
+#Report.nrofReports = 2
+#Report.report2 = PADECAppReporter
