@@ -1,3 +1,4 @@
+
 set targetdir=target
 
 IF NOT EXIST "%targetdir%" mkdir %targetdir%
