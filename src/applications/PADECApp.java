@@ -8,6 +8,7 @@ import padec.attribute.PADECContext;
 import padec.attribute.Pair;
 import padec.filtering.FilteredData;
 import padec.filtering.techniques.BasicFuzzy;
+import padec.filtering.techniques.PairFuzzy;
 import padec.key.Key;
 import padec.lock.AccessLevel;
 import padec.lock.Keyhole;
@@ -29,8 +30,8 @@ public class PADECApp extends Application {
         private static final int IN_0_100_RANGE_RULE = 0;
 
         private static Rule in0_100Range(){
-            Rule withinAreaMax = new BaseRule(Location.class, new Pair[]{new Pair<>(20., 15.)}, new LessThanOperator());
-            Rule withinAreaMin = new BaseRule(Location.class, new Pair[]{new Pair<>(-1., -1.)}, new GreaterThanOperator());
+            Rule withinAreaMax = new BaseRule(Location.class, new Pair[]{new Pair<>(200000000000., 200000000000.)}, new LessThanOperator());
+            Rule withinAreaMin = new BaseRule(Location.class, new Pair[]{new Pair<>(-200000000000., -200000000000.)}, new GreaterThanOperator());
             return new ComposedRule(withinAreaMax, withinAreaMin, new AndOperator());
         }
 
@@ -236,16 +237,20 @@ public class PADECApp extends Application {
                 m.addProperty(KEY_KEY, key);
                 m.addProperty(KEY_ENDPOINT_PARAMS, new Object[]{});
                 m.addProperty(KEY_ACCESS_LEVEL, ACCESS_LEVEL_MAX);
+                m.setAppID(APP_ID);
+                super.sendEventToListeners("GotKeyhole", null, host);
                 host.createNewMessage(m);
                 break;
             case MSG_TYPE_INFO:
                 FilteredData data = (FilteredData) msg.getProperty(INFO_DATA);
                 System.out.println("Host "+host.getAddress()+": Access granted. Info: " + data.getData() + ". Precision: " + data.getPrecision());
                 lastRequest.put(host.getAddress(), -1*lastRequest.get(host.getAddress()));
+                super.sendEventToListeners("AccessGranted", null, host);
                 break;
             case MSG_TYPE_DENIED:
                 System.out.println("Host "+host.getAddress()+": Access denied.");
                 lastRequest.put(host.getAddress(), -1*lastRequest.get(host.getAddress()));
+                super.sendEventToListeners("AccessDenied", null, host);
                 break;
         }
         return msg;
@@ -257,7 +262,7 @@ public class PADECApp extends Application {
                 endpoints.put(host.getAddress(), new LocationEndpoint()); // Create it
             }
             Rule mRule = RuleProvider.getRule(defaultRule); // Get the default rule
-            AccessLevel al = new AccessLevel(new BasicFuzzy(),
+            AccessLevel al = new AccessLevel(new PairFuzzy(),
                     endpoints.get(host.getAddress()), new Double[]{1.0}, mRule); // Create an access level with that rule
             Lock lock = new Lock(); // Create a lock
             lock.addAccessLevel(al); // Add the access level to the lock
@@ -282,7 +287,9 @@ public class PADECApp extends Application {
                 Message m = new Message(host, msg.getFrom(), id, 1);
                 m.addProperty(MSG_TYPE, MSG_TYPE_KEYHOLE);
                 m.addProperty(KH_ANSW_KEYHOLE, retKh);
+                m.setAppID(APP_ID);
                 host.createNewMessage(m);
+                super.sendEventToListeners("GotKeyholeRequest", null, host);
                 break;
             case MSG_TYPE_KEY:
                 Key k = (Key) msg.getProperty(KEY_KEY);
@@ -311,7 +318,9 @@ public class PADECApp extends Application {
                 else{ // Key rejected
                     m.addProperty(MSG_TYPE, MSG_TYPE_DENIED);
                 }
+                m.setAppID(APP_ID);
                 host.createNewMessage(m);
+                super.sendEventToListeners("GotKey", null, host);
                 break;
         }
         return msg;
@@ -362,11 +371,13 @@ public class PADECApp extends Application {
      */
     private DTNHost randomHost() {
         int destaddr = 0;
+        World w = SimScenario.getInstance().getWorld();
         if (destMax == destMin) {
             destaddr = destMin;
         }
-        destaddr = destMin + rng.nextInt(destMax - destMin);
-        World w = SimScenario.getInstance().getWorld();
+        else {
+            destaddr = destMin + rng.nextInt(destMax - destMin);
+        }
         return w.getNodeByAddress(destaddr);
     }
 
@@ -396,6 +407,9 @@ public class PADECApp extends Application {
             Message m = new Message(host, destination, id, 1);
             m.addProperty(MSG_TYPE, MSG_TYPE_KEYHOLE_REQUEST);
             m.addProperty(KH_REQ_ACCESS_LEVEL, ACCESS_LEVEL_MAX);
+            m.setAppID(APP_ID);
+            super.sendEventToListeners("PADECRequest", null, host);
+            host.createNewMessage(m);
             lastRequest.put(host.getAddress(), -1*curTime); // The message is sent, waiting for an answer
         }
     }
