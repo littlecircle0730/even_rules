@@ -7,13 +7,12 @@ import padec.attribute.Location;
 import padec.attribute.PADECContext;
 import padec.attribute.Pair;
 import padec.filtering.FilteredData;
-import padec.filtering.techniques.BasicFuzzy;
 import padec.filtering.techniques.PairFuzzy;
 import padec.key.Key;
 import padec.lock.AccessLevel;
 import padec.lock.Keyhole;
 import padec.lock.Lock;
-import padec.rule.BaseRule;
+import padec.rule.ConsumerRule;
 import padec.rule.ComposedRule;
 import padec.rule.Rule;
 import padec.rule.operator.AndOperator;
@@ -30,8 +29,8 @@ public class PADECApp extends Application {
         private static final int IN_0_100_RANGE_RULE = 0;
 
         private static Rule in0_100Range(){
-            Rule withinAreaMax = new BaseRule(Location.class, new Pair[]{new Pair<>(200000000000., 200000000000.)}, new LessThanOperator());
-            Rule withinAreaMin = new BaseRule(Location.class, new Pair[]{new Pair<>(-200000000000., -200000000000.)}, new GreaterThanOperator());
+            Rule withinAreaMax = new ConsumerRule(Location.class, new Pair[]{new Pair<>(200000000000., 200000000000.)}, new LessThanOperator());
+            Rule withinAreaMin = new ConsumerRule(Location.class, new Pair[]{new Pair<>(-200000000000., -200000000000.)}, new GreaterThanOperator());
             return new ComposedRule(withinAreaMax, withinAreaMin, new AndOperator());
         }
 

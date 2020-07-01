@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Simulate The ONE" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="core.DTNSim" />
+    <module name="padec_theone" />
+    <option name="PROGRAM_PARAMETERS" value="example_settings/padec_app_setting.txt" />
+    <method v="2">
+      <option name="MakeProject" enabled="true" />
+    </method>
+  </configuration>
+</component>

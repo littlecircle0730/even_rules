@@ -9,7 +9,7 @@ import padec.filtering.techniques.BasicFuzzy;
 import padec.key.Key;
 import padec.lock.AccessLevel;
 import padec.lock.Lock;
-import padec.rule.BaseRule;
+import padec.rule.ConsumerRule;
 import padec.rule.ComposedRule;
 import padec.rule.Rule;
 import padec.rule.operator.AndOperator;
@@ -28,8 +28,8 @@ public class BNBExample {
         Location conLoc = (Location) consumerContext.getAttribute(Location.class);
         conLoc.setValue(new Pair<>(15.5, 0.0));
 
-        Rule withinAreaMax = new BaseRule(Location.class, new Pair[]{new Pair<>(20., 15.)}, new LessThanOperator());
-        Rule withinAreaMin = new BaseRule(Location.class, new Pair[]{new Pair<>(-1., -1.)}, new GreaterThanOperator());
+        Rule withinAreaMax = new ConsumerRule(Location.class, new Pair[]{new Pair<>(20., 15.)}, new LessThanOperator());
+        Rule withinAreaMin = new ConsumerRule(Location.class, new Pair[]{new Pair<>(-1., -1.)}, new GreaterThanOperator());
         Rule alRule = new ComposedRule(withinAreaMax, withinAreaMin, new AndOperator());
 
         BasicFuzzy filter = new BasicFuzzy();
