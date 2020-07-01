@@ -7,37 +7,34 @@ import padec.attribute.Pair;
 import padec.filtering.FilteredData;
 import padec.filtering.techniques.BasicFuzzy;
 import padec.key.Key;
-import padec.lock.AccessLevel;
 import padec.lock.Lock;
-import padec.rule.ConsumerRule;
-import padec.rule.ComposedRule;
+import padec.rule.DualRule;
 import padec.rule.Rule;
-import padec.rule.operator.AndOperator;
-import padec.rule.operator.GreaterThanOperator;
 import padec.rule.operator.LessThanOperator;
+import padec.rule.operator.RangeOperator;
 
-/**
- * Simple, Bread-and-Butter example to test access control
- */
-public class BNBExample {
+public class DualExample {
 
     public static void main(String[] args) {
         PADECContext consumerContext = new PADECContext();
+        PADECContext providerContext = new PADECContext();
 
         consumerContext.registerAttribute(Location.class);
         Location conLoc = (Location) consumerContext.getAttribute(Location.class);
-        conLoc.setValue(new Pair<>(15.5, 0.0));
+        conLoc.setValue(new Pair<>(43.58898, 90.0));
 
-        Rule withinAreaMax = new ConsumerRule(Location.class, new Pair[]{new Pair<>(20., 15.)}, new LessThanOperator());
-        Rule withinAreaMin = new ConsumerRule(Location.class, new Pair[]{new Pair<>(-1., -1.)}, new GreaterThanOperator());
-        Rule alRule = new ComposedRule(withinAreaMax, withinAreaMin, new AndOperator());
+        providerContext.registerAttribute(Location.class);
+        Location provLoc = (Location) providerContext.getAttribute(Location.class);
+        provLoc.setValue(new Pair<>(0.0, 0.0));
+
+        Rule withinRange = new DualRule(Location.class, new Double[]{100.0}, new RangeOperator(), new LessThanOperator(), providerContext);
 
         BasicFuzzy filter = new BasicFuzzy();
 
         Endpoint mockEndpoint = (Endpoint<Double>) parameters -> 15.0;
 
         Lock lock = new Lock(mockEndpoint);
-        lock.addAccessLevel(filter, new Double[]{1.0}, alRule);
+        lock.addAccessLevel(filter, new Double[]{1.0}, withinRange);
 
         Key conKey = new Key(lock.getMaxAccessLevel().getKeyhole(), consumerContext);
         FilteredData result = lock.getMaxAccessLevel().testAccess(new Object[]{}, conKey);

@@ -261,10 +261,8 @@ public class PADECApp extends Application {
                 endpoints.put(host.getAddress(), new LocationEndpoint()); // Create it
             }
             Rule mRule = RuleProvider.getRule(defaultRule); // Get the default rule
-            AccessLevel al = new AccessLevel(new PairFuzzy(),
-                    endpoints.get(host.getAddress()), new Double[]{1.0}, mRule); // Create an access level with that rule
-            Lock lock = new Lock(); // Create a lock
-            lock.addAccessLevel(al); // Add the access level to the lock
+            Lock lock = new Lock(endpoints.get(host.getAddress())); // Create a lock
+            lock.addAccessLevel(new PairFuzzy(), new Double[]{1.0}, mRule); // Add the access level to the lock
             locks.put(host.getAddress(), lock); // Save the access level
         }
         Integer type = (Integer) msg.getProperty(MSG_TYPE);
@@ -326,7 +324,15 @@ public class PADECApp extends Application {
     }
 
     private Message attackerHandle(Message msg, DTNHost host){
-        //TODO Choose attacker behavior
+        if(isConsumer()){
+            //Consumer attacks
+        }
+        if(isProvider()){
+            //Provider attacks
+        }
+        if(!isConsumer() && !isProvider()){
+            //Third-party attacks
+        }
         return msg;
     }
 
@@ -348,17 +354,19 @@ public class PADECApp extends Application {
         if (type == null || msg.getTo() != host){
             return msg; // Not a PADEC message, or not directed to that host
         }
-        if (isConsumer() && isProvider()){
-            return providerAndConsumerHandle(msg, host);
-        }
-        if (isConsumer()){
-            return consumerHandle(msg, host);
-        }
-        if (isProvider()){
-            return providerHandle(msg, host);
-        }
         if (isAttacker()){
             return attackerHandle(msg, host);
+        }
+        else {
+            if (isConsumer() && isProvider()) {
+                return providerAndConsumerHandle(msg, host);
+            }
+            if (isConsumer()) {
+                return consumerHandle(msg, host);
+            }
+            if (isProvider()) {
+                return providerHandle(msg, host);
+            }
         }
         return msg;
     }

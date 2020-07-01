@@ -1,5 +1,9 @@
 package padec.lock;
 
+import padec.application.Endpoint;
+import padec.filtering.FilterTechnique;
+import padec.rule.Rule;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -8,18 +12,22 @@ import java.util.List;
  */
 public class Lock {
     private List<AccessLevel> levels;
+    private Endpoint endpoint;
 
-    public Lock(){
+    public Lock(Endpoint endpoint){
         levels = new ArrayList<>(); //ArrayList looks the best for this task to me.
         // Levels will be quite dynamic, but will not be deleted as often.
+        this.endpoint = endpoint;
     }
 
-    public void addAccessLevel(AccessLevel level){
-        levels.add(level);
+    public void addAccessLevel(FilterTechnique filter, Object[] filterParams, Rule accessRule){
+        AccessLevel al = new AccessLevel(filter, endpoint, filterParams, accessRule);
+        levels.add(al);
     }
 
-    public void addAccessLevel(AccessLevel level, int position){
-        levels.add(position, level);
+    public void addAccessLevel(FilterTechnique filter, Object[] filterParams, Rule accessRule, int position){
+        AccessLevel al = new AccessLevel(filter, endpoint, filterParams, accessRule);
+        levels.add(position, al);
     }
 
     public int getTotalAccessLevels(){
@@ -32,13 +40,6 @@ public class Lock {
             ret = levels.get(index);
         }
         return ret;
-    }
-
-    public void replaceAccessLevel(int index, AccessLevel level){
-        if (index < levels.size() && index > 0){
-            levels.remove(index);
-            levels.add(index, level);
-        }
     }
 
     public AccessLevel getMaxAccessLevel(){
