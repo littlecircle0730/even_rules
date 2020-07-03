@@ -36,7 +36,7 @@ public class Lock {
 
     public AccessLevel getAccessLevel(int index){
         AccessLevel ret = null;
-        if (index < levels.size() && index > 0){
+        if (index < levels.size() && index >= 0){
             ret = levels.get(index);
         }
         return ret;

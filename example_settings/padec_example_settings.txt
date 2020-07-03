@@ -1,0 +1,84 @@
+# This configuration file adds PADEC application for all the nodes
+
+# Define new application
+padecAppPro.type = PADECApp
+padecAppPro.provider = true
+padecAppPro.deflock = 2
+
+padecAppConA.type = PADECApp
+padecAppConA.destinationRange = 0,0
+padecAppConA.consumer = true
+padecAppConA.interval = 50
+padecAppConA.accesslevel = -1
+
+padecAppConB.type = PADECApp
+padecAppConB.destinationRange = 0,0
+padecAppConB.consumer = true
+padecAppConB.interval = 50
+padecAppConB.accesslevel = 1
+
+padecAppConC.type = PADECApp
+padecAppConC.destinationRange = 0,0
+padecAppConC.consumer = true
+padecAppConC.interval = 50
+padecAppConC.accesslevel = 0
+
+# long range, interface
+padecInterface.type = SimpleBroadcastInterface
+padecInterface.transmitSpeed = 1M
+padecInterface.transmitRange = 1000000
+
+# Define 2 different node groups
+Scenario.nrofHostGroups = 4
+
+# Group-specific settings:
+Group.nrofHosts = 1
+Group.nrofInterfaces = 1
+Group.nrofApplications = 1
+Group.interface1 = padecInterface
+Group.movementModel = ShortestPathMapBasedMovement
+
+# Group 4 settings (it is broken for some reason)
+Group4.nrofHosts = 1
+Group4.nrofInterfaces = 1
+Group4.nrofApplications = 1
+Group4.interface1 = padecInterface
+Group4.movementModel = ShortestPathMapBasedMovement
+
+# Movement settings
+MapBasedMovement.nrofMapFiles = 1
+MapBasedMovement.mapFile1 = data/Campus.osm.wkt
+
+# POI Settings
+PointsOfInterest.poiFile1 = padec_movement/EPCCPOI.wkt
+PointsOfInterest.poiFile2 = padec_movement/FrontEPCCPOI.wkt
+PointsOfInterest.poiFile3 = padec_movement/UpperWestRoundaboutPOI.wkt
+
+# POI probabilities per group
+Group1.pois = 1,1.0
+Group2.pois = 2,1.0
+Group3.pois = 2,1.0
+Group4.pois = 3,1.0
+
+# group1 (provider) specific settings
+Group1.groupID = p
+# group2 (consumer close friend) specific settings
+Group2.groupID = cA
+# group3 (consumer not a friend) specific settings
+Group3.groupID = cB
+# group4 (consumer far away) specific settings
+Group4.groupID = cC
+
+# Set PADEC app for all nodes
+Group1.application1 = padecAppPro
+Group2.application1 = padecAppConA
+Group3.application1 = padecAppConB
+Group4.application1 = padecAppConC
+
+# Message creation parameters
+Events1.tohosts = 1, 1
+Events1.hosts = 0, 1
+
+# Add report for PADEC app
+Report.nrofReports = 1
+Report.report1 = PADECAppReporter

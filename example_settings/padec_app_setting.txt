@@ -2,13 +2,12 @@
 
 # Define new application
 padecAppPro.type = PADECApp
-padecAppPro.interval = 500
 padecAppPro.provider = true
 
 padecAppCon.type = PADECApp
-padecAppCon.interval = 500
 padecAppCon.destinationRange = 0,0
 padecAppCon.consumer = true
+padecAppCon.interval = 50
 
 # long range, interface
 padecInterface.type = SimpleBroadcastInterface
@@ -21,6 +20,7 @@ Scenario.nrofHostGroups = 2
 # Group-specific settings:
 Group.nrofHosts = 1
 Group.nrofInterfaces = 1
+Group.nrofApplications = 1
 Group.interface1 = padecInterface
 
 # group1 (provider) specific settings
@@ -29,7 +29,6 @@ Group1.groupID = p
 Group2.groupID = c
 
 # Set PADEC app for all nodes
-Group.nrofApplications = 1
 Group1.application1 = padecAppPro
 Group2.application1 = padecAppCon
 
@@ -38,5 +37,5 @@ Events1.tohosts = 1, 1
 Events1.hosts = 0, 1
 
 # Add report for PADEC app
-Report.nrofReports = 2
-Report.report2 = PADECAppReporter
+Report.nrofReports = 1
+Report.report1 = PADECAppReporter

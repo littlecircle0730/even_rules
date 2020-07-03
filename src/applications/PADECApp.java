@@ -6,18 +6,20 @@ import padec.application.LocationEndpoint;
 import padec.attribute.Location;
 import padec.attribute.PADECContext;
 import padec.attribute.Pair;
+import padec.attribute.SoundLevel;
 import padec.filtering.FilteredData;
 import padec.filtering.techniques.PairFuzzy;
 import padec.key.Key;
 import padec.lock.AccessLevel;
 import padec.lock.Keyhole;
 import padec.lock.Lock;
-import padec.rule.ConsumerRule;
 import padec.rule.ComposedRule;
+import padec.rule.DualRule;
 import padec.rule.Rule;
 import padec.rule.operator.AndOperator;
-import padec.rule.operator.GreaterThanOperator;
+import padec.rule.operator.EqualOperator;
 import padec.rule.operator.LessThanOperator;
+import padec.rule.operator.RangeOperator;
 
 import java.util.LinkedHashMap;
 import java.util.Map;
@@ -26,18 +28,62 @@ import java.util.Random;
 public class PADECApp extends Application {
 
     private abstract static class RuleProvider{
-        private static final int IN_0_100_RANGE_RULE = 0;
 
-        private static Rule in0_100Range(){
-            Rule withinAreaMax = new ConsumerRule(Location.class, new Pair[]{new Pair<>(200000000000., 200000000000.)}, new LessThanOperator());
-            Rule withinAreaMin = new ConsumerRule(Location.class, new Pair[]{new Pair<>(-200000000000., -200000000000.)}, new GreaterThanOperator());
-            return new ComposedRule(withinAreaMax, withinAreaMin, new AndOperator());
+        private static Rule in0_100Range(PADECContext context){
+            return new DualRule(Location.class, new Double[]{10000.0}, new RangeOperator(), new LessThanOperator(), context);
         }
 
-        public static Rule getRule(Integer defRule){
-            switch (defRule){
-                case IN_0_100_RANGE_RULE:
-                    return in0_100Range();
+        private static Rule closeBy(PADECContext context){
+            return new DualRule(Location.class, new Double[]{500.0}, new RangeOperator(), new LessThanOperator(), context);
+        }
+
+        private static Rule in0_100RangePlusSameSound(PADECContext context){
+            Rule base = new DualRule(Location.class, new Double[]{500.0}, new RangeOperator(), new LessThanOperator(), context);
+            Rule sameSound = new DualRule(SoundLevel.class, new Boolean[]{Boolean.TRUE}, new EqualOperator(), new EqualOperator(), context);
+            return new ComposedRule(base, sameSound, new AndOperator());
+        }
+    }
+
+    private abstract static class LockProvider{
+        private static final int LOCK_BASE = 0;
+        private static final int LOCK_2_AL = 1;
+        private static final int LOCK_3_AL = 2;
+
+        private static Lock baseLock(Endpoint endpoint, PADECContext context){
+            Rule mRule = RuleProvider.in0_100Range(context);
+            Lock lock = new Lock(endpoint);
+            lock.addAccessLevel(new PairFuzzy(), new Double[]{1.0}, mRule);
+            return lock;
+        }
+
+        private static Lock lock2Al(Endpoint endpoint, PADECContext context){
+            Rule botRule = RuleProvider.in0_100Range(context);
+            Rule topRule = RuleProvider.in0_100RangePlusSameSound(context);
+            Lock lock = new Lock(endpoint);
+            lock.addAccessLevel(new PairFuzzy(), new Double[]{50.0}, botRule);
+            lock.addAccessLevel(new PairFuzzy(), new Double[]{1.0}, topRule);
+            return lock;
+        }
+
+        private static Lock lock3Al(Endpoint endpoint, PADECContext context){
+            Rule botRule = RuleProvider.in0_100Range(context);
+            Rule midRule = RuleProvider.closeBy(context);
+            Rule topRule = RuleProvider.in0_100RangePlusSameSound(context);
+            Lock lock = new Lock(endpoint);
+            lock.addAccessLevel(new PairFuzzy(), new Double[]{50.0}, botRule);
+            lock.addAccessLevel(new PairFuzzy(), new Double[]{20.0}, midRule);
+            lock.addAccessLevel(new PairFuzzy(), new Double[]{0.0}, topRule);
+            return lock;
+        }
+
+        public static Lock getLock(Endpoint endpoint, PADECContext context, int lock){
+            switch (lock) {
+                case LOCK_BASE:
+                    return baseLock(endpoint, context);
+                case LOCK_2_AL:
+                    return lock2Al(endpoint, context);
+                case LOCK_3_AL:
+                    return lock3Al(endpoint, context);
                 default:
                     return null;
             }
@@ -55,9 +101,11 @@ public class PADECApp extends Application {
     /** Act as attacker **/
     public static final String PADEC_ATTACKER = "attacker";
     /** Defines the rule to be used as default **/
-    public static final String PADEC_DEFAULT_RULE = "defrule";
+    public static final String PADEC_DEFAULT_LOCK = "deflock";
     /** (Minimum) interval between consumer requests **/
     public static final String PADEC_REQUEST_INTERVAL = "interval";
+    /** Requested access level **/
+    public static final String PADEC_REQUESTED_AL = "accesslevel";
 
     /** Key that stores the message type **/
     public static final String MSG_TYPE = "type";
@@ -99,7 +147,8 @@ public class PADECApp extends Application {
     private int seed = 0;
     private int destMin = 0;
     private int destMax = 1;
-    private int defaultRule = 0;
+    private int defaultLock = 0;
+    private int requestedAl = -1;
     private boolean provider = false;
     private boolean consumer = false;
     private boolean attacker = false;
@@ -131,8 +180,11 @@ public class PADECApp extends Application {
         if (s.contains(PADEC_ATTACKER)){
             this.attacker = s.getBoolean(PADEC_ATTACKER);
         }
-        if (s.contains(PADEC_DEFAULT_RULE)){
-            this.defaultRule = s.getInt(PADEC_DEFAULT_RULE);
+        if (s.contains(PADEC_DEFAULT_LOCK)){
+            this.defaultLock = s.getInt(PADEC_DEFAULT_LOCK);
+        }
+        if (s.contains(PADEC_REQUESTED_AL)){
+            this.requestedAl = s.getInt(PADEC_REQUESTED_AL);
         }
         if (s.contains(PADEC_REQUEST_INTERVAL)){
             this.interval = s.getDouble(PADEC_REQUEST_INTERVAL);
@@ -166,16 +218,8 @@ public class PADECApp extends Application {
         return destMin;
     }
 
-    public void setDestMin(int destMin) {
-        this.destMin = destMin;
-    }
-
     public int getDestMax() {
         return destMax;
-    }
-
-    public void setDestMax(int destMax) {
-        this.destMax = destMax;
     }
 
     public boolean isProvider() {
@@ -190,12 +234,16 @@ public class PADECApp extends Application {
         return attacker;
     }
 
-    public int getDefaultRule() {
-        return defaultRule;
+    public int getDefaultLock() {
+        return defaultLock;
     }
 
     public double getInterval() {
         return interval;
+    }
+
+    public int getRequestedAl() {
+        return requestedAl;
     }
 
     /**
@@ -211,7 +259,8 @@ public class PADECApp extends Application {
         this.attacker = a.isAttacker();
         this.destMin = a.getDestMin();
         this.destMax = a.getDestMax();
-        this.defaultRule = a.getDefaultRule();
+        this.defaultLock = a.getDefaultLock();
+        this.requestedAl = a.getRequestedAl();
         this.interval = a.getInterval();
         this.rng = new Random(this.seed);
     }
@@ -220,6 +269,7 @@ public class PADECApp extends Application {
         if(!contexts.containsKey(host.getAddress())){ //If there is no context yet
             PADECContext cntxt = new PADECContext(); // Create it
             cntxt.registerAttribute(Location.class); // Register location
+            cntxt.registerAttribute(SoundLevel.class); // Register Sound Level
             contexts.put(host.getAddress(), cntxt); // Save it
         }
         Integer type = (Integer) msg.getProperty(MSG_TYPE);
@@ -229,13 +279,14 @@ public class PADECApp extends Application {
                 PADECContext cntxt = contexts.get(host.getAddress());
                 cntxt.getAttribute(Location.class).setValue(
                         new Pair<>(host.getLocation().getX(), host.getLocation().getY())); // Update location
+                cntxt.getAttribute(SoundLevel.class).setValue(15.0); // Update sound level
                 Key key = new Key(kh, cntxt);
                 String id = "k-"+host.getAddress()+"-"+msg.getFrom().getAddress()+"@"+SimClock.getIntTime();
                 Message m = new Message(host, msg.getFrom(), id, 1);
                 m.addProperty(MSG_TYPE, MSG_TYPE_KEY);
                 m.addProperty(KEY_KEY, key);
                 m.addProperty(KEY_ENDPOINT_PARAMS, new Object[]{});
-                m.addProperty(KEY_ACCESS_LEVEL, ACCESS_LEVEL_MAX);
+                m.addProperty(KEY_ACCESS_LEVEL, requestedAl);
                 m.setAppID(APP_ID);
                 super.sendEventToListeners("GotKeyhole", null, host);
                 host.createNewMessage(m);
@@ -260,9 +311,13 @@ public class PADECApp extends Application {
             if(!endpoints.containsKey(host.getAddress())){ // If there is no endpoint yet
                 endpoints.put(host.getAddress(), new LocationEndpoint()); // Create it
             }
-            Rule mRule = RuleProvider.getRule(defaultRule); // Get the default rule
-            Lock lock = new Lock(endpoints.get(host.getAddress())); // Create a lock
-            lock.addAccessLevel(new PairFuzzy(), new Double[]{1.0}, mRule); // Add the access level to the lock
+            if(!contexts.containsKey(host.getAddress())){ //If there is no context yet
+                PADECContext cntxt = new PADECContext(); // Create it
+                cntxt.registerAttribute(Location.class); // Register location
+                cntxt.registerAttribute(SoundLevel.class); // Register Sound Level
+                contexts.put(host.getAddress(), cntxt); // Save it
+            }
+            Lock lock = LockProvider.getLock(endpoints.get(host.getAddress()), contexts.get(host.getAddress()), defaultLock);
             locks.put(host.getAddress(), lock); // Save the access level
         }
         Integer type = (Integer) msg.getProperty(MSG_TYPE);
@@ -301,9 +356,16 @@ public class PADECApp extends Application {
                 }
                 Object[] params = (Object[]) msg.getProperty(KEY_ENDPOINT_PARAMS);
 
-                // Update location endpoint - just in case
+                // Update location endpoint
                 ((LocationEndpoint) endpoints.get(host.getAddress())).updateLocation(
                         new Pair<>(host.getLocation().getX(), host.getLocation().getY()));
+
+                // Update location context
+                contexts.get(host.getAddress()).getAttribute(Location.class).setValue(
+                        new Pair<>(host.getLocation().getX(), host.getLocation().getY()));
+
+                // Update sound level context
+                contexts.get(host.getAddress()).getAttribute(SoundLevel.class).setValue(15.0);
 
                 FilteredData result = rAl.testAccess(params, k);
                 id = "resp-"+host.getAddress()+"-"+msg.getFrom().getAddress()+"@"+SimClock.getIntTime();
@@ -413,7 +475,7 @@ public class PADECApp extends Application {
             String id = "khr-"+host.getAddress()+"-"+destination.getAddress()+"@"+SimClock.getIntTime();
             Message m = new Message(host, destination, id, 1);
             m.addProperty(MSG_TYPE, MSG_TYPE_KEYHOLE_REQUEST);
-            m.addProperty(KH_REQ_ACCESS_LEVEL, ACCESS_LEVEL_MAX);
+            m.addProperty(KH_REQ_ACCESS_LEVEL, requestedAl);
             m.setAppID(APP_ID);
             super.sendEventToListeners("PADECRequest", null, host);
             host.createNewMessage(m);
