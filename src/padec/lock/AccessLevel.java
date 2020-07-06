@@ -28,7 +28,7 @@ public class AccessLevel {
      */
     private Rule accessRule;
 
-    public AccessLevel(FilterTechnique filter, Endpoint endpoint, Object[] filterParams, Rule accessRule) {
+    AccessLevel(FilterTechnique filter, Endpoint endpoint, Object[] filterParams, Rule accessRule) {
         this.filter = filter;
         this.endpoint = endpoint;
         this.filterParams = filterParams;

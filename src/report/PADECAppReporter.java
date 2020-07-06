@@ -1,6 +1,6 @@
 package report;
 
-import applications.PingApplication;
+import applications.PADECApp;
 import core.Application;
 import core.ApplicationListener;
 import core.DTNHost;
@@ -13,7 +13,7 @@ public class PADECAppReporter extends Report implements ApplicationListener {
     public void gotEvent(String event, Object params, Application app,
                          DTNHost host) {
         // Check that the event is sent by correct application type
-        if (!(app instanceof PingApplication)) return;
+        if (!(app instanceof PADECApp)) return;
 
         // Increment the counters based on the event type
         if (event.equalsIgnoreCase("PADECRequest")) {

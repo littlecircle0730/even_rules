@@ -7,9 +7,9 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Base rule, based on a comparison of the value of an attribute with other values.
+ * Base consumer rule, based on a comparison of the value of an attribute of the consumer with other values.
  */
-public class BaseRule extends Rule {
+public class ConsumerRule extends Rule {
 
     /**
      * Attribute whose value is to be compared.
@@ -24,7 +24,7 @@ public class BaseRule extends Rule {
      */
     private ComparisonOperator operator;
 
-    public BaseRule(Class<? extends Attribute> attribute, Object[] values, ComparisonOperator operator) {
+    public ConsumerRule(Class<? extends Attribute> attribute, Object[] values, ComparisonOperator operator) {
         this.attribute = attribute;
         this.values = values;
         this.operator = operator;
