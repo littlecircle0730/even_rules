@@ -1,7 +1,10 @@
 package padec.attribute;
 
-public class Pair<T, U> implements Comparable {
+import java.io.Serializable;
 
+public class Pair<T, U> implements Comparable, Serializable {
+
+    private static final long serialVersionUID = 7659291834859850839L;
     private T a;
     private U b;
 

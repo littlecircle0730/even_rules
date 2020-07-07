@@ -23,12 +23,15 @@ padecAppConC.consumer = true
 padecAppConC.interval = 50
 padecAppConC.accesslevel = 0
 
+#padecAppAtt.type = PADECApp
+#padecAppAtt.attacker = true
+
 # long range, interface
 padecInterface.type = SimpleBroadcastInterface
 padecInterface.transmitSpeed = 1M
 padecInterface.transmitRange = 1000000
 
-# Define 2 different node groups
+# Define 4 different node groups
 Scenario.nrofHostGroups = 4
 
 # Group-specific settings:
@@ -45,6 +48,13 @@ Group4.nrofApplications = 1
 Group4.interface1 = padecInterface
 Group4.movementModel = ShortestPathMapBasedMovement
 
+# Group 5 settings (it is broken for some reason)
+#Group5.nrofHosts = 1
+#Group5.nrofInterfaces = 1
+#Group5.nrofApplications = 1
+#Group5.interface1 = padecInterface
+#Group5.movementModel = ShortestPathMapBasedMovement
+
 # Movement settings
 MapBasedMovement.nrofMapFiles = 1
 MapBasedMovement.mapFile1 = data/Campus.osm.wkt
@@ -59,6 +69,7 @@ Group1.pois = 1,1.0
 Group2.pois = 2,1.0
 Group3.pois = 2,1.0
 Group4.pois = 3,1.0
+#Group5.pois = 1,0.4, 2,0.3, 3,0.3
 
 # group1 (provider) specific settings
 Group1.groupID = p
@@ -68,12 +79,15 @@ Group2.groupID = cA
 Group3.groupID = cB
 # group4 (consumer far away) specific settings
 Group4.groupID = cC
+# group5 (attacker) specific settings
+#Group5.groupID = a
 
 # Set PADEC app for all nodes
 Group1.application1 = padecAppPro
 Group2.application1 = padecAppConA
 Group3.application1 = padecAppConB
 Group4.application1 = padecAppConC
+#Group5.application1 = padecAppAtt
 
 # Message creation parameters
 Events1.tohosts = 1, 1

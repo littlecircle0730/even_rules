@@ -9,6 +9,9 @@ public class PADECAppReporter extends Report implements ApplicationListener {
     private int requestsSent=0, requestsReceived=0;
     private int keyholesReceived=0, keysReceived=0;
     private int granted=0, denied=0;
+    private int attacks=0, correct=0;
+    private int tparty=0, successful=0;
+    private int rejected=0;
 
     public void gotEvent(String event, Object params, Application app,
                          DTNHost host) {
@@ -34,6 +37,21 @@ public class PADECAppReporter extends Report implements ApplicationListener {
         if (event.equalsIgnoreCase("AccessDenied")) {
             denied++;
         }
+        if (event.equalsIgnoreCase("AttackedKeyhole")){
+            attacks++;
+        }
+        if(event.equalsIgnoreCase("AttackSuccessful")){
+            correct++;
+        }
+        if (event.equalsIgnoreCase("TPartyInfoReveal")){
+            tparty++;
+        }
+        if (event.equalsIgnoreCase("TPartyRevealSuccessful")){
+            successful++;
+        }
+        if (event.equalsIgnoreCase("AttackRejected")){
+            rejected++;
+        }
 
     }
 
@@ -48,7 +66,12 @@ public class PADECAppReporter extends Report implements ApplicationListener {
                 "\nKeyholes received: " + this.keyholesReceived +
                 "\nKeys received: " + this.keysReceived +
                 "\nGranted accesses: " + this.granted +
-                "\nDenied accesses: " + this.denied
+                "\nDenied accesses: " + this.denied +
+                "\nAttacks performed: " + this.attacks +
+                "\nSuccessful attacks: " + this.correct +
+                "\nThird-party info reveal attempts: " + this.tparty +
+                "\nSuccessful info reveals: " + this.successful +
+                "\nRejected attacks: " + this.rejected
                 ;
 
         write(statsText);
