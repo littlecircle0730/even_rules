@@ -7,6 +7,7 @@ import padec.attribute.Location;
 import padec.attribute.PADECContext;
 import padec.attribute.Pair;
 import padec.attribute.SoundLevel;
+import padec.crypto.SimpleCrypto;
 import padec.filtering.FilteredData;
 import padec.filtering.techniques.PairFuzzy;
 import padec.key.Key;
@@ -21,6 +22,7 @@ import padec.rule.operator.EqualOperator;
 import padec.rule.operator.LessThanOperator;
 import padec.rule.operator.RangeOperator;
 
+import java.security.KeyPair;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Random;
@@ -158,6 +160,8 @@ public class PADECApp extends Application {
     //Static vars for managing PADEC-specific entities
     /** Maps contexts by address. Lets the app get the context of a host, avoiding context collision between hosts **/
     private static Map<Integer, PADECContext> contexts = null;
+    /** Maps crypto-keypairs by address **/
+    private static Map<Integer, KeyPair> cryptoKeys = null;
     /** Maps locks by address **/
     private static Map<Integer, Lock> locks = null;
     /** Maps endpoints by address **/
@@ -210,6 +214,9 @@ public class PADECApp extends Application {
         }
         if (lastRequest == null){
             lastRequest = new LinkedHashMap<>();
+        }
+        if (cryptoKeys == null){
+            cryptoKeys = new LinkedHashMap<>();
         }
         super.setAppID(APP_ID);
     }
@@ -273,9 +280,11 @@ public class PADECApp extends Application {
             contexts.put(host.getAddress(), cntxt); // Save it
         }
         Integer type = (Integer) msg.getProperty(MSG_TYPE);
+        SimpleCrypto sc = SimpleCrypto.getInstance();
         switch (type){
             case MSG_TYPE_KEYHOLE:
-                Keyhole kh = (Keyhole) msg.getProperty(KH_ANSW_KEYHOLE);
+                byte[] encKh = (byte[]) msg.getProperty(KH_ANSW_KEYHOLE);
+                Keyhole kh = (Keyhole) sc.decrypt(encKh, cryptoKeys.get(host.getAddress()).getPrivate());
                 PADECContext cntxt = contexts.get(host.getAddress());
                 cntxt.getAttribute(Location.class).setValue(
                         new Pair<>(host.getLocation().getX(), host.getLocation().getY())); // Update location
@@ -284,7 +293,7 @@ public class PADECApp extends Application {
                 String id = "k-"+host.getAddress()+"-"+msg.getFrom().getAddress()+"@"+SimClock.getIntTime();
                 Message m = new Message(host, msg.getFrom(), id, 1);
                 m.addProperty(MSG_TYPE, MSG_TYPE_KEY);
-                m.addProperty(KEY_KEY, key);
+                m.addProperty(KEY_KEY, sc.encrypt(key, cryptoKeys.get(msg.getFrom().getAddress()).getPublic()));
                 m.addProperty(KEY_ENDPOINT_PARAMS, new Object[]{});
                 m.addProperty(KEY_ACCESS_LEVEL, requestedAl);
                 m.setAppID(APP_ID);
@@ -292,7 +301,8 @@ public class PADECApp extends Application {
                 host.createNewMessage(m);
                 break;
             case MSG_TYPE_INFO:
-                FilteredData data = (FilteredData) msg.getProperty(INFO_DATA);
+                byte[] dataEnc = (byte[]) msg.getProperty(INFO_DATA);
+                FilteredData data = (FilteredData) sc.decrypt(dataEnc, cryptoKeys.get(host.getAddress()).getPrivate());
                 System.out.println("Host "+host.getAddress()+": Access granted. Info: " + data.getData() + ". Precision: " + data.getPrecision());
                 lastRequest.put(host.getAddress(), -1*lastRequest.get(host.getAddress()));
                 super.sendEventToListeners("AccessGranted", null, host);
@@ -321,6 +331,7 @@ public class PADECApp extends Application {
             locks.put(host.getAddress(), lock); // Save the access level
         }
         Integer type = (Integer) msg.getProperty(MSG_TYPE);
+        SimpleCrypto sc = SimpleCrypto.getInstance();
         switch (type){
             case MSG_TYPE_KEYHOLE_REQUEST:
                 Integer al = (Integer) msg.getProperty(KH_REQ_ACCESS_LEVEL);
@@ -337,14 +348,16 @@ public class PADECApp extends Application {
                 }
                 String id = "kha-"+host.getAddress()+"-"+msg.getFrom().getAddress()+"@"+SimClock.getIntTime();
                 Message m = new Message(host, msg.getFrom(), id, 1);
+                byte[] encKh = sc.encrypt(retKh, cryptoKeys.get(msg.getFrom().getAddress()).getPublic());
                 m.addProperty(MSG_TYPE, MSG_TYPE_KEYHOLE);
-                m.addProperty(KH_ANSW_KEYHOLE, retKh);
+                m.addProperty(KH_ANSW_KEYHOLE, encKh);
                 m.setAppID(APP_ID);
                 host.createNewMessage(m);
                 super.sendEventToListeners("GotKeyholeRequest", null, host);
                 break;
             case MSG_TYPE_KEY:
-                Key k = (Key) msg.getProperty(KEY_KEY);
+                byte[] encK = (byte[]) msg.getProperty(KEY_KEY);
+                Key k = (Key) sc.decrypt(encK, cryptoKeys.get(host.getAddress()).getPrivate());
                 al = (Integer) msg.getProperty(KEY_ACCESS_LEVEL);
                 AccessLevel rAl;
                 if (al == ACCESS_LEVEL_MAX){
@@ -372,7 +385,8 @@ public class PADECApp extends Application {
                 m = new Message(host, msg.getFrom(), id, 1);
                 if (result != null){ // Key accepted
                     m.addProperty(MSG_TYPE, MSG_TYPE_INFO);
-                    m.addProperty(INFO_DATA, result);
+                    byte[] encRes = sc.encrypt(result, cryptoKeys.get(msg.getFrom().getAddress()).getPublic());
+                    m.addProperty(INFO_DATA, encRes);
                 }
                 else{ // Key rejected
                     m.addProperty(MSG_TYPE, MSG_TYPE_DENIED);
@@ -412,6 +426,10 @@ public class PADECApp extends Application {
      */
     @Override
     public Message handle(Message msg, DTNHost host){
+        if(!cryptoKeys.containsKey(host.getAddress())){
+            SimpleCrypto sc = SimpleCrypto.getInstance();
+            cryptoKeys.put(host.getAddress(), sc.generateKeys());
+        }
         Integer type = (Integer) msg.getProperty(MSG_TYPE);
         if (type == null || msg.getTo() != host){
             return msg; // Not a PADEC message, or not directed to that host
@@ -463,6 +481,10 @@ public class PADECApp extends Application {
     @Override
     public void update(DTNHost host) {
         if (isConsumer()){
+            if(!cryptoKeys.containsKey(host.getAddress())){
+                SimpleCrypto sc = SimpleCrypto.getInstance();
+                cryptoKeys.put(host.getAddress(), sc.generateKeys());
+            }
             double curTime = SimClock.getTime();
             if (lastRequest.containsKey(host.getAddress())){ // If I have sent a request previously
                 double lastReq = lastRequest.get(host.getAddress());
@@ -472,6 +494,10 @@ public class PADECApp extends Application {
             }
             // In any other case, send a keyhole request
             DTNHost destination = randomHost();
+            if(!cryptoKeys.containsKey(destination.getAddress())){
+                SimpleCrypto sc = SimpleCrypto.getInstance();
+                cryptoKeys.put(destination.getAddress(), sc.generateKeys());
+            }
             String id = "khr-"+host.getAddress()+"-"+destination.getAddress()+"@"+SimClock.getIntTime();
             Message m = new Message(host, destination, id, 1);
             m.addProperty(MSG_TYPE, MSG_TYPE_KEYHOLE_REQUEST);

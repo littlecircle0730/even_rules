@@ -4,14 +4,16 @@ import padec.attribute.Attribute;
 import padec.attribute.PADECContext;
 import padec.lock.Keyhole;
 
+import java.io.Serializable;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
 /**
  * Consumer key.
  */
-public class Key {
+public class Key implements Serializable {
 
+    private static final long serialVersionUID = -2257607054470962832L;
     /**
      * Values of the key. We cannot use static attributes since keys are fully dynamic.
      */

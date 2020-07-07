@@ -1,10 +1,13 @@
 package padec.filtering;
 
+import java.io.Serializable;
+
 /**
  * Class to represent data that has been filtered.
  */
-public class FilteredData<T> {
+public class FilteredData<T> implements Serializable {
 
+    private static final long serialVersionUID = -3460771304024749768L;
     /**
      * Filtered data.
      */
