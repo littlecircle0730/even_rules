@@ -41,7 +41,7 @@ public class SimpleCrypto {
         }
         catch (NoSuchAlgorithmException ex){
             System.err.println("Algorithm " + KEYGEN_ALGORITHM +" not found!");
-            ex.printStackTrace();
+            //ex.printStackTrace();
             throw new RuntimeException("Invalid keygen algorithm " + KEYGEN_ALGORITHM);
         }
     }
@@ -148,27 +148,27 @@ public class SimpleCrypto {
         }
         catch (NoSuchAlgorithmException ex){
             System.err.println("Algorithm " + ENCRYPT_ALGORITHM +" not found!");
-            ex.printStackTrace();
+            //ex.printStackTrace();
             throw new RuntimeException("Invalid encryption algorithm " + ENCRYPT_ALGORITHM);
         } catch (NoSuchPaddingException ex) {
             System.err.println("Padding of algorithm " + ENCRYPT_ALGORITHM + " not found!");
-            ex.printStackTrace();
+            //ex.printStackTrace();
             throw new RuntimeException("Invalid padding " + ENCRYPT_ALGORITHM);
         } catch (InvalidKeyException ex) {
             System.err.println("Invalid key!");
-            ex.printStackTrace();
+            //ex.printStackTrace();
             throw new RuntimeException("Invalid key for encryption");
         } catch (IOException ex) {
             System.err.println("Exception in encryption I/O");
-            ex.printStackTrace();
+            //ex.printStackTrace();
             throw new RuntimeException(ex.getMessage());
         } catch (BadPaddingException ex) {
             System.err.println("Bad padding!");
-            ex.printStackTrace();
+            //ex.printStackTrace();
             throw new RuntimeException("Bad padding in encryption I/O");
         } catch (IllegalBlockSizeException ex) {
             System.err.println("Illegal blocksize!");
-            ex.printStackTrace();
+            //ex.printStackTrace();
             throw new RuntimeException("Illegal blocksize in encryption I/O");
         }
     }
@@ -205,27 +205,27 @@ public class SimpleCrypto {
         }
         catch (NoSuchAlgorithmException ex){
             System.err.println("Algorithm " + ENCRYPT_ALGORITHM +" not found!");
-            ex.printStackTrace();
+            //ex.printStackTrace();
             throw new RuntimeException("Invalid encryption algorithm " + ENCRYPT_ALGORITHM);
         } catch (NoSuchPaddingException ex) {
             System.err.println("Padding of algorithm " + ENCRYPT_ALGORITHM + " not found!");
-            ex.printStackTrace();
+            //ex.printStackTrace();
             throw new RuntimeException("Invalid padding " + ENCRYPT_ALGORITHM);
         } catch (InvalidKeyException ex) {
             System.err.println("Invalid key!");
-            ex.printStackTrace();
+            //ex.printStackTrace();
             throw new RuntimeException("Invalid key for encryption");
         } catch (IOException ex) {
             System.err.println("Exception in encryption I/O");
-            ex.printStackTrace();
+            //ex.printStackTrace();
             throw new RuntimeException(ex.getMessage());
         } catch (BadPaddingException ex) {
             System.err.println("Bad padding!");
-            ex.printStackTrace();
+            //ex.printStackTrace();
             throw new RuntimeException("Bad padding in encryption I/O");
         } catch (IllegalBlockSizeException ex) {
             System.err.println("Illegal blocksize!");
-            ex.printStackTrace();
+            //ex.printStackTrace();
             throw new RuntimeException("Illegal blocksize in encryption I/O");
         }
     }

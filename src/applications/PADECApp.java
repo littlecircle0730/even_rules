@@ -401,13 +401,86 @@ public class PADECApp extends Application {
 
     private Message attackerHandle(Message msg, DTNHost host){
         if(isConsumer()){
-            //Consumer attacks
+            if(!contexts.containsKey(host.getAddress())){ //If there is no context yet
+                PADECContext cntxt = new PADECContext(); // Create it
+                // Do not register a thing
+                contexts.put(host.getAddress(), cntxt); // Save it
+            }
+            Integer type = (Integer) msg.getProperty(MSG_TYPE);
+            SimpleCrypto sc = SimpleCrypto.getInstance();
+            switch (type){
+                case MSG_TYPE_KEYHOLE:
+                    byte[] encKh = (byte[]) msg.getProperty(KH_ANSW_KEYHOLE);
+                    Keyhole kh = (Keyhole) sc.decrypt(encKh, cryptoKeys.get(host.getAddress()).getPrivate());
+                    PADECContext cntxt = contexts.get(host.getAddress());
+                    Key key = new Key(kh, cntxt);
+                    String id = "k-"+host.getAddress()+"-"+msg.getFrom().getAddress()+"@"+SimClock.getIntTime();
+                    Message m = new Message(host, msg.getFrom(), id, 1);
+                    m.addProperty(MSG_TYPE, MSG_TYPE_KEY);
+                    m.addProperty(KEY_KEY, sc.encrypt(key, cryptoKeys.get(msg.getFrom().getAddress()).getPublic()));
+                    m.addProperty(KEY_ENDPOINT_PARAMS, new Object[]{});
+                    m.addProperty(KEY_ACCESS_LEVEL, requestedAl);
+                    m.setAppID(APP_ID);
+                    super.sendEventToListeners("AttackedKeyhole", null, host);
+                    host.createNewMessage(m);
+                    break;
+                case MSG_TYPE_INFO:
+                    byte[] dataEnc = (byte[]) msg.getProperty(INFO_DATA);
+                    FilteredData data = (FilteredData) sc.decrypt(dataEnc, cryptoKeys.get(host.getAddress()).getPrivate());
+                    super.sendEventToListeners("AttackSuccessful", null, host);
+                    lastRequest.put(host.getAddress(), -1*lastRequest.get(host.getAddress()));
+                    break;
+                case MSG_TYPE_DENIED:
+                    super.sendEventToListeners("AttackRejected", null, host);
+                    lastRequest.put(host.getAddress(), -1*lastRequest.get(host.getAddress()));
+                    break;
+            }
+            return msg;
         }
         if(isProvider()){
             //Provider attacks
+            //TODO Do we even have these? The key is not stored or accessed by underlying apps.
         }
         if(!isConsumer() && !isProvider()){
-            //Third-party attacks
+            Integer type = (Integer) msg.getProperty(MSG_TYPE);
+            SimpleCrypto sc = SimpleCrypto.getInstance();
+            switch (type){
+                case MSG_TYPE_KEYHOLE_REQUEST:
+                    //No attack to be performed
+                    break;
+                case MSG_TYPE_KEYHOLE:
+                    super.sendEventToListeners("TPartyInfoReveal", null, host);
+                    try{
+                        byte[] encKh = (byte[]) msg.getProperty(KH_ANSW_KEYHOLE);
+                        Keyhole kh = (Keyhole) sc.decrypt(encKh, cryptoKeys.get(host.getAddress()).getPrivate());
+                        if (kh != null) {
+                            super.sendEventToListeners("TPartyRevealSuccessful", null, host);
+                        }
+                        else{
+                            super.sendEventToListeners("AttackRejected", null, host);
+                        }
+                    }
+                    catch (Exception ex){
+                        super.sendEventToListeners("AttackRejected", null, host);
+                    }
+                    break;
+                case MSG_TYPE_INFO:
+                    super.sendEventToListeners("TPartyInfoReveal", null, host);
+                    try{
+                        byte[] dataEnc = (byte[]) msg.getProperty(INFO_DATA);
+                        FilteredData data = (FilteredData) sc.decrypt(dataEnc, cryptoKeys.get(host.getAddress()).getPrivate());
+                        if (data != null) {
+                            super.sendEventToListeners("TPartyRevealSuccessful", null, host);
+                        }
+                        else{
+                            super.sendEventToListeners("AttackRejected", null, host);
+                        }
+                    }
+                    catch (Exception ex){
+                        super.sendEventToListeners("AttackRejected", null, host);
+                    }
+                    break;
+            }
         }
         return msg;
     }
@@ -431,22 +504,20 @@ public class PADECApp extends Application {
             cryptoKeys.put(host.getAddress(), sc.generateKeys());
         }
         Integer type = (Integer) msg.getProperty(MSG_TYPE);
-        if (type == null || msg.getTo() != host){
-            return msg; // Not a PADEC message, or not directed to that host
+        if (type == null || (msg.getTo() != host && !attacker)){
+            return msg; // Not a PADEC message, or not directed to that host and host is not malicious
         }
         if (isAttacker()){
             return attackerHandle(msg, host);
         }
-        else {
-            if (isConsumer() && isProvider()) {
-                return providerAndConsumerHandle(msg, host);
-            }
-            if (isConsumer()) {
-                return consumerHandle(msg, host);
-            }
-            if (isProvider()) {
-                return providerHandle(msg, host);
-            }
+        if (isConsumer() && isProvider()) {
+            return providerAndConsumerHandle(msg, host);
+        }
+        if (isConsumer()) {
+            return consumerHandle(msg, host);
+        }
+        if (isProvider()) {
+            return providerHandle(msg, host);
         }
         return msg;
     }
