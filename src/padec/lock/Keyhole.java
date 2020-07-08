@@ -15,12 +15,21 @@ public class Keyhole implements Serializable {
      * Attributes required by the keyhole
      */
     protected List<Class<? extends Attribute>> attributes;
+    /**
+     * Precision of the keyhole
+     */
+    protected Double precision;
 
-    public Keyhole(List<Class<? extends Attribute>> attributes) {
+    public Keyhole(List<Class<? extends Attribute>> attributes, Double precision) {
         this.attributes = attributes;
+        this.precision = precision;
     }
 
     public List<Class<? extends Attribute>> getAttributes() {
         return attributes;
+    }
+
+    public Double getPrecision() {
+        return precision;
     }
 }

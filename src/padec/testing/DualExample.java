@@ -34,7 +34,7 @@ public class DualExample {
         Endpoint mockEndpoint = (Endpoint<Double>) parameters -> 15.0;
 
         Lock lock = new Lock(mockEndpoint);
-        lock.addAccessLevel(filter, new Double[]{1.0}, withinRange);
+        lock.addAccessLevel(filter, 1.0, withinRange);
 
         Key conKey = new Key(lock.getMaxAccessLevel().getKeyhole(), consumerContext);
         FilteredData result = lock.getMaxAccessLevel().testAccess(new Object[]{}, conKey);

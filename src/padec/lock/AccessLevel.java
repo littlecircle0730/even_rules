@@ -24,13 +24,26 @@ public class AccessLevel {
      */
     private Object[] filterParams;
     /**
+     * Precision
+     */
+    private Double precision;
+    /**
      * Rule that must be passed to be granted access.
      */
     private Rule accessRule;
 
-    AccessLevel(FilterTechnique filter, Endpoint endpoint, Object[] filterParams, Rule accessRule) {
+    AccessLevel(FilterTechnique filter, Endpoint endpoint, Double precision, Rule accessRule){
         this.filter = filter;
         this.endpoint = endpoint;
+        this.precision = precision;
+        this.filterParams = new Double[]{precision};
+        this.accessRule = accessRule;
+    }
+
+    AccessLevel(FilterTechnique filter, Endpoint endpoint, Double precision, Object[] filterParams, Rule accessRule) {
+        this.filter = filter;
+        this.endpoint = endpoint;
+        this.precision = precision;
         this.filterParams = filterParams;
         this.accessRule = accessRule;
     }
@@ -51,7 +64,7 @@ public class AccessLevel {
      * @return Keyhole for this access level.
      */
     public Keyhole getKeyhole(){
-        return new Keyhole(accessRule.getAttributes());
+        return new Keyhole(accessRule.getAttributes(), precision);
     }
 
 }

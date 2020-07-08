@@ -20,13 +20,23 @@ public class Lock {
         this.endpoint = endpoint;
     }
 
-    public void addAccessLevel(FilterTechnique filter, Object[] filterParams, Rule accessRule){
-        AccessLevel al = new AccessLevel(filter, endpoint, filterParams, accessRule);
+    public void addAccessLevel(FilterTechnique filter, Double precision, Object[] filterParams, Rule accessRule){
+        AccessLevel al = new AccessLevel(filter, endpoint, precision, filterParams, accessRule);
         levels.add(al);
     }
 
-    public void addAccessLevel(FilterTechnique filter, Object[] filterParams, Rule accessRule, int position){
-        AccessLevel al = new AccessLevel(filter, endpoint, filterParams, accessRule);
+    public void addAccessLevel(FilterTechnique filter, Double precision, Rule accessRule){
+        AccessLevel al = new AccessLevel(filter, endpoint, precision, accessRule);
+        levels.add(al);
+    }
+
+    public void addAccessLevel(FilterTechnique filter, Double precision, Object[] filterParams, Rule accessRule, int position){
+        AccessLevel al = new AccessLevel(filter, endpoint, precision, filterParams, accessRule);
+        levels.add(position, al);
+    }
+
+    public void addAccessLevel(FilterTechnique filter, Double precision, Rule accessRule, int position){
+        AccessLevel al = new AccessLevel(filter, endpoint, precision, accessRule);
         levels.add(position, al);
     }
 

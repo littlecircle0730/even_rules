@@ -24,6 +24,7 @@ import padec.rule.operator.RangeOperator;
 
 import java.security.KeyPair;
 import java.util.LinkedHashMap;
+import java.util.List;
 import java.util.Map;
 import java.util.Random;
 
@@ -54,7 +55,7 @@ public class PADECApp extends Application {
         private static Lock baseLock(Endpoint endpoint, PADECContext context){
             Rule mRule = RuleProvider.in0_100Range(context);
             Lock lock = new Lock(endpoint);
-            lock.addAccessLevel(new PairFuzzy(), new Double[]{1.0}, mRule);
+            lock.addAccessLevel(new PairFuzzy(), 1.0, mRule);
             return lock;
         }
 
@@ -62,8 +63,8 @@ public class PADECApp extends Application {
             Rule botRule = RuleProvider.in0_100Range(context);
             Rule topRule = RuleProvider.in0_100RangePlusSameSound(context);
             Lock lock = new Lock(endpoint);
-            lock.addAccessLevel(new PairFuzzy(), new Double[]{50.0}, botRule);
-            lock.addAccessLevel(new PairFuzzy(), new Double[]{1.0}, topRule);
+            lock.addAccessLevel(new PairFuzzy(), 50.0, botRule);
+            lock.addAccessLevel(new PairFuzzy(), 1.0, topRule);
             return lock;
         }
 
@@ -72,9 +73,9 @@ public class PADECApp extends Application {
             Rule midRule = RuleProvider.closeBy(context);
             Rule topRule = RuleProvider.in0_100RangePlusSameSound(context);
             Lock lock = new Lock(endpoint);
-            lock.addAccessLevel(new PairFuzzy(), new Double[]{50.0}, botRule);
-            lock.addAccessLevel(new PairFuzzy(), new Double[]{20.0}, midRule);
-            lock.addAccessLevel(new PairFuzzy(), new Double[]{0.0}, topRule);
+            lock.addAccessLevel(new PairFuzzy(), 50.0, botRule);
+            lock.addAccessLevel(new PairFuzzy(), 20.0, midRule);
+            lock.addAccessLevel(new PairFuzzy(), 0.0, topRule);
             return lock;
         }
 
@@ -106,14 +107,11 @@ public class PADECApp extends Application {
     public static final String PADEC_DEFAULT_LOCK = "deflock";
     /** (Minimum) interval between consumer requests **/
     public static final String PADEC_REQUEST_INTERVAL = "interval";
-    /** Requested access level **/
-    public static final String PADEC_REQUESTED_AL = "accesslevel";
+    /** Requested precision **/
+    public static final String PADEC_REQUESTED_PRECISION = "reqprec";
 
     /** Key that stores the message type **/
     public static final String MSG_TYPE = "type";
-
-    /** Key that stores the access level in a keyhole request **/
-    public static final String KH_REQ_ACCESS_LEVEL = "khr-access-level";
 
     /** Key that stores the keyhole in a keyhole answer **/
     public static final String KH_ANSW_KEYHOLE = "kha-keyhole";
@@ -150,7 +148,7 @@ public class PADECApp extends Application {
     private int destMin = 0;
     private int destMax = 1;
     private int defaultLock = 0;
-    private int requestedAl = -1;
+    private double requestedPrecision = 0.0;
     private boolean provider = false;
     private boolean consumer = false;
     private boolean attacker = false;
@@ -187,8 +185,8 @@ public class PADECApp extends Application {
         if (s.contains(PADEC_DEFAULT_LOCK)){
             this.defaultLock = s.getInt(PADEC_DEFAULT_LOCK);
         }
-        if (s.contains(PADEC_REQUESTED_AL)){
-            this.requestedAl = s.getInt(PADEC_REQUESTED_AL);
+        if (s.contains(PADEC_REQUESTED_PRECISION)){
+            this.requestedPrecision = s.getDouble(PADEC_REQUESTED_PRECISION);
         }
         if (s.contains(PADEC_REQUEST_INTERVAL)){
             this.interval = s.getDouble(PADEC_REQUEST_INTERVAL);
@@ -249,8 +247,8 @@ public class PADECApp extends Application {
         return interval;
     }
 
-    public int getRequestedAl() {
-        return requestedAl;
+    public double getRequestedPrecision() {
+        return requestedPrecision;
     }
 
     /**
@@ -267,9 +265,18 @@ public class PADECApp extends Application {
         this.destMin = a.getDestMin();
         this.destMax = a.getDestMax();
         this.defaultLock = a.getDefaultLock();
-        this.requestedAl = a.getRequestedAl();
+        this.requestedPrecision = a.getRequestedPrecision();
         this.interval = a.getInterval();
         this.rng = new Random(this.seed);
+    }
+
+    private int findFittingKeyhole(List<Keyhole> keyholes, Double requestedPrecision){
+        for (int i=0;i<keyholes.size();i++){
+            if(keyholes.get(i).getPrecision() <= requestedPrecision){
+                return i;
+            }
+        }
+        return ACCESS_LEVEL_MAX;
     }
 
     private Message consumerHandle(Message msg, DTNHost host){
@@ -284,7 +291,9 @@ public class PADECApp extends Application {
         switch (type){
             case MSG_TYPE_KEYHOLE:
                 byte[] encKh = (byte[]) msg.getProperty(KH_ANSW_KEYHOLE);
-                Keyhole kh = (Keyhole) sc.decrypt(encKh, cryptoKeys.get(host.getAddress()).getPrivate());
+                List<Keyhole> keyholes = (List<Keyhole>) sc.decrypt(encKh, cryptoKeys.get(host.getAddress()).getPrivate());
+                int khPos = findFittingKeyhole(keyholes, requestedPrecision);
+                Keyhole kh = khPos == -1 ? keyholes.get(keyholes.size()-1) : keyholes.get(khPos);
                 PADECContext cntxt = contexts.get(host.getAddress());
                 cntxt.getAttribute(Location.class).setValue(
                         new Pair<>(host.getLocation().getX(), host.getLocation().getY())); // Update location
@@ -295,7 +304,7 @@ public class PADECApp extends Application {
                 m.addProperty(MSG_TYPE, MSG_TYPE_KEY);
                 m.addProperty(KEY_KEY, sc.encrypt(key, cryptoKeys.get(msg.getFrom().getAddress()).getPublic()));
                 m.addProperty(KEY_ENDPOINT_PARAMS, new Object[]{});
-                m.addProperty(KEY_ACCESS_LEVEL, requestedAl);
+                m.addProperty(KEY_ACCESS_LEVEL, khPos);
                 m.setAppID(APP_ID);
                 super.sendEventToListeners("GotKeyhole", null, host);
                 host.createNewMessage(m);
@@ -334,21 +343,10 @@ public class PADECApp extends Application {
         SimpleCrypto sc = SimpleCrypto.getInstance();
         switch (type){
             case MSG_TYPE_KEYHOLE_REQUEST:
-                Integer al = (Integer) msg.getProperty(KH_REQ_ACCESS_LEVEL);
-                Keyhole retKh;
-                if (al == ACCESS_LEVEL_MAX){
-                    AccessLevel mAl = locks.get(host.getAddress()).getMaxAccessLevel();
-                    retKh = mAl.getKeyhole();
-                }
-                else{
-                    AccessLevel mAl = locks.get(host.getAddress()).getAccessLevel(al);
-                    mAl = mAl == null ? locks.get(host.getAddress()).getMaxAccessLevel() : mAl; // If they asked for a
-                    // higher access level than the one in existence, get them the maximum one.
-                    retKh = mAl.getKeyhole();
-                }
+                List<Keyhole> keyholes = locks.get(host.getAddress()).getKeyholes();
                 String id = "kha-"+host.getAddress()+"-"+msg.getFrom().getAddress()+"@"+SimClock.getIntTime();
                 Message m = new Message(host, msg.getFrom(), id, 1);
-                byte[] encKh = sc.encrypt(retKh, cryptoKeys.get(msg.getFrom().getAddress()).getPublic());
+                byte[] encKh = sc.encrypt(keyholes, cryptoKeys.get(msg.getFrom().getAddress()).getPublic());
                 m.addProperty(MSG_TYPE, MSG_TYPE_KEYHOLE);
                 m.addProperty(KH_ANSW_KEYHOLE, encKh);
                 m.setAppID(APP_ID);
@@ -358,7 +356,7 @@ public class PADECApp extends Application {
             case MSG_TYPE_KEY:
                 byte[] encK = (byte[]) msg.getProperty(KEY_KEY);
                 Key k = (Key) sc.decrypt(encK, cryptoKeys.get(host.getAddress()).getPrivate());
-                al = (Integer) msg.getProperty(KEY_ACCESS_LEVEL);
+                Integer al = (Integer) msg.getProperty(KEY_ACCESS_LEVEL);
                 AccessLevel rAl;
                 if (al == ACCESS_LEVEL_MAX){
                     rAl = locks.get(host.getAddress()).getMaxAccessLevel();
@@ -411,7 +409,9 @@ public class PADECApp extends Application {
             switch (type){
                 case MSG_TYPE_KEYHOLE:
                     byte[] encKh = (byte[]) msg.getProperty(KH_ANSW_KEYHOLE);
-                    Keyhole kh = (Keyhole) sc.decrypt(encKh, cryptoKeys.get(host.getAddress()).getPrivate());
+                    List<Keyhole> keyholes = (List<Keyhole>) sc.decrypt(encKh, cryptoKeys.get(host.getAddress()).getPrivate());
+                    int khPos = findFittingKeyhole(keyholes, requestedPrecision);
+                    Keyhole kh = khPos == -1 ? keyholes.get(keyholes.size()-1) : keyholes.get(khPos);
                     PADECContext cntxt = contexts.get(host.getAddress());
                     Key key = new Key(kh, cntxt);
                     String id = "k-"+host.getAddress()+"-"+msg.getFrom().getAddress()+"@"+SimClock.getIntTime();
@@ -419,7 +419,7 @@ public class PADECApp extends Application {
                     m.addProperty(MSG_TYPE, MSG_TYPE_KEY);
                     m.addProperty(KEY_KEY, sc.encrypt(key, cryptoKeys.get(msg.getFrom().getAddress()).getPublic()));
                     m.addProperty(KEY_ENDPOINT_PARAMS, new Object[]{});
-                    m.addProperty(KEY_ACCESS_LEVEL, requestedAl);
+                    m.addProperty(KEY_ACCESS_LEVEL, khPos);
                     m.setAppID(APP_ID);
                     super.sendEventToListeners("AttackedKeyhole", null, host);
                     host.createNewMessage(m);
@@ -572,7 +572,6 @@ public class PADECApp extends Application {
             String id = "khr-"+host.getAddress()+"-"+destination.getAddress()+"@"+SimClock.getIntTime();
             Message m = new Message(host, destination, id, 1);
             m.addProperty(MSG_TYPE, MSG_TYPE_KEYHOLE_REQUEST);
-            m.addProperty(KH_REQ_ACCESS_LEVEL, requestedAl);
             m.setAppID(APP_ID);
             super.sendEventToListeners("PADECRequest", null, host);
             host.createNewMessage(m);
