@@ -1,5 +1,7 @@
 package padec.filtering;
 
+import java.util.Map;
+
 /**
  * Technique to perform filtering (obfuscation, abstraction, etc.)
  */
@@ -10,5 +12,5 @@ public interface FilterTechnique<T> {
      * @param parameters Filtering parameters (e.g. precision).
      * @return Filtered data of same type.
      */
-    FilteredData<T> filter(T data, Object[] parameters);
+    FilteredData<T> filter(T data, Map<String, Object> parameters);
 }

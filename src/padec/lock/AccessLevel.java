@@ -6,10 +6,15 @@ import padec.filtering.FilteredData;
 import padec.key.Key;
 import padec.rule.Rule;
 
+import java.util.Collections;
+import java.util.Map;
+
 /**
  * Access level of a lock.
  */
 public class AccessLevel {
+
+    private static final String PRECISION_KEY = "precision";
 
     /**
      * Filtering technique to apply at this access level.
@@ -22,7 +27,7 @@ public class AccessLevel {
     /**
      * Filtering parameters.
      */
-    private Object[] filterParams;
+    private Map<String, Object> filterParams;
     /**
      * Precision
      */
@@ -32,15 +37,15 @@ public class AccessLevel {
      */
     private Rule accessRule;
 
-    AccessLevel(FilterTechnique filter, Endpoint endpoint, Double precision, Rule accessRule){
+    <T> AccessLevel(FilterTechnique<T> filter, Endpoint<T> endpoint, Double precision, Rule accessRule) {
         this.filter = filter;
         this.endpoint = endpoint;
         this.precision = precision;
-        this.filterParams = new Double[]{precision};
+        this.filterParams = Collections.singletonMap(PRECISION_KEY, precision);
         this.accessRule = accessRule;
     }
 
-    AccessLevel(FilterTechnique filter, Endpoint endpoint, Double precision, Object[] filterParams, Rule accessRule) {
+    <T> AccessLevel(FilterTechnique<T> filter, Endpoint<T> endpoint, Double precision, Map<String, Object> filterParams, Rule accessRule) {
         this.filter = filter;
         this.endpoint = endpoint;
         this.precision = precision;
@@ -54,7 +59,7 @@ public class AccessLevel {
      * @param key Key to test access.
      * @return Filtered response, or null if access was denied.
      */
-    public FilteredData testAccess(Object[] endpointParams, Key key){
+    public FilteredData testAccess(Map<String, Object> endpointParams, Key key) {
         return accessRule.check(key.getData()) ?
                 filter.filter(endpoint.execute(endpointParams), filterParams) : null;
     }

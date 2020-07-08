@@ -4,6 +4,7 @@ import padec.filtering.FilterTechnique;
 import padec.filtering.FilteredData;
 
 import java.security.SecureRandom;
+import java.util.Map;
 
 /**
  * Basic fuzzying for Double values.
@@ -11,18 +12,20 @@ import java.security.SecureRandom;
  */
 public class BasicFuzzy implements FilterTechnique<Double> {
 
-    private boolean checkCorrectParams(Object[] parameters){
-        return parameters.length == 1 && parameters[0] instanceof Double;
+    private static final String PRECISION_KEY = "precision";
+
+    private boolean checkCorrectParams(Map<String, Object> parameters) {
+        return parameters.get(PRECISION_KEY) instanceof Double;
     }
 
     /**
      * Fuzzies a double value with a given precision.
      * @param data Data to be fuzzied.
-     * @param parameters 1-item-long array with a Double value for precision
-     * @return
+     * @param parameters Must contain at least a Double with Precision
+     * @return Filtered double
      */
     @Override
-    public FilteredData<Double> filter(Double data, Object[] parameters) {
+    public FilteredData<Double> filter(Double data, Map<String, Object> parameters) {
         FilteredData<Double> postFilter = null;
         if(checkCorrectParams(parameters)){
             SecureRandom rng = new SecureRandom();
@@ -30,8 +33,8 @@ public class BasicFuzzy implements FilterTechnique<Double> {
             if (rng.nextBoolean()){ //Randomly have it be positive or negative
                 precisionToAdd = precisionToAdd * -1;
             }
-            precisionToAdd = precisionToAdd * (Double) parameters[0];
-            postFilter = new FilteredData<>(data+precisionToAdd, (Double) parameters[0]);
+            precisionToAdd = precisionToAdd * (Double) parameters.get(PRECISION_KEY);
+            postFilter = new FilteredData<>(data + precisionToAdd, (Double) parameters.get(PRECISION_KEY));
         }
         return postFilter;
     }

@@ -7,14 +7,15 @@ import padec.attribute.Pair;
 import padec.filtering.FilteredData;
 import padec.filtering.techniques.BasicFuzzy;
 import padec.key.Key;
-import padec.lock.AccessLevel;
 import padec.lock.Lock;
-import padec.rule.ConsumerRule;
 import padec.rule.ComposedRule;
+import padec.rule.ConsumerRule;
 import padec.rule.Rule;
 import padec.rule.operator.AndOperator;
 import padec.rule.operator.GreaterThanOperator;
 import padec.rule.operator.LessThanOperator;
+
+import java.util.HashMap;
 
 /**
  * Simple, Bread-and-Butter example to test access control
@@ -40,7 +41,7 @@ public class BNBExample {
         lock.addAccessLevel(filter, 1.0, alRule);
 
         Key conKey = new Key(lock.getMaxAccessLevel().getKeyhole(), consumerContext);
-        FilteredData result = lock.getMaxAccessLevel().testAccess(new Object[]{}, conKey);
+        FilteredData result = lock.getMaxAccessLevel().testAccess(new HashMap<>(), conKey);
 
         System.out.println("Data: " + result.getData());
         System.out.println("Precision: " + result.getPrecision());

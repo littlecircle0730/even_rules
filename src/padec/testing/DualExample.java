@@ -13,6 +13,8 @@ import padec.rule.Rule;
 import padec.rule.operator.LessThanOperator;
 import padec.rule.operator.RangeOperator;
 
+import java.util.HashMap;
+
 public class DualExample {
 
     public static void main(String[] args) {
@@ -37,7 +39,7 @@ public class DualExample {
         lock.addAccessLevel(filter, 1.0, withinRange);
 
         Key conKey = new Key(lock.getMaxAccessLevel().getKeyhole(), consumerContext);
-        FilteredData result = lock.getMaxAccessLevel().testAccess(new Object[]{}, conKey);
+        FilteredData result = lock.getMaxAccessLevel().testAccess(new HashMap<>(), conKey);
 
         System.out.println("Data: " + result.getData());
         System.out.println("Precision: " + result.getPrecision());

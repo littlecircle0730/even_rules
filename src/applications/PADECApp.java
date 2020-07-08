@@ -23,10 +23,7 @@ import padec.rule.operator.LessThanOperator;
 import padec.rule.operator.RangeOperator;
 
 import java.security.KeyPair;
-import java.util.LinkedHashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Random;
+import java.util.*;
 
 public class PADECApp extends Application {
 
@@ -303,7 +300,7 @@ public class PADECApp extends Application {
                 Message m = new Message(host, msg.getFrom(), id, 1);
                 m.addProperty(MSG_TYPE, MSG_TYPE_KEY);
                 m.addProperty(KEY_KEY, sc.encrypt(key, cryptoKeys.get(msg.getFrom().getAddress()).getPublic()));
-                m.addProperty(KEY_ENDPOINT_PARAMS, new Object[]{});
+                m.addProperty(KEY_ENDPOINT_PARAMS, new HashMap<>());
                 m.addProperty(KEY_ACCESS_LEVEL, khPos);
                 m.setAppID(APP_ID);
                 super.sendEventToListeners("GotKeyhole", null, host);
@@ -365,7 +362,7 @@ public class PADECApp extends Application {
                     rAl = locks.get(host.getAddress()).getAccessLevel(al);
                     rAl = rAl == null ? locks.get(host.getAddress()).getMaxAccessLevel() : rAl;
                 }
-                Object[] params = (Object[]) msg.getProperty(KEY_ENDPOINT_PARAMS);
+                Map<String, Object> params = (Map<String, Object>) msg.getProperty(KEY_ENDPOINT_PARAMS);
 
                 // Update location endpoint
                 ((LocationEndpoint) endpoints.get(host.getAddress())).updateLocation(
@@ -418,7 +415,7 @@ public class PADECApp extends Application {
                     Message m = new Message(host, msg.getFrom(), id, 1);
                     m.addProperty(MSG_TYPE, MSG_TYPE_KEY);
                     m.addProperty(KEY_KEY, sc.encrypt(key, cryptoKeys.get(msg.getFrom().getAddress()).getPublic()));
-                    m.addProperty(KEY_ENDPOINT_PARAMS, new Object[]{});
+                    m.addProperty(KEY_ENDPOINT_PARAMS, new HashMap<>());
                     m.addProperty(KEY_ACCESS_LEVEL, khPos);
                     m.setAppID(APP_ID);
                     super.sendEventToListeners("AttackedKeyhole", null, host);
@@ -528,7 +525,7 @@ public class PADECApp extends Application {
      * @return host
      */
     private DTNHost randomHost() {
-        int destaddr = 0;
+        int destaddr;
         World w = SimScenario.getInstance().getWorld();
         if (destMax == destMin) {
             destaddr = destMin;

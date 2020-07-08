@@ -12,5 +12,5 @@ public interface Endpoint<T> {
      * @param parameters Parameters required by the endpoint to do its logic.
      * @return Result of its logic (i.e. contextual data, possibly processed).
      */
-    T execute(Object[] parameters);
+    T execute(Map<String, Object> parameters);
 }
