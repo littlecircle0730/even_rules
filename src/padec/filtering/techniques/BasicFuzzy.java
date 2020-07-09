@@ -12,7 +12,7 @@ import java.util.Map;
  */
 public class BasicFuzzy implements FilterTechnique<Double> {
 
-    private static final String PRECISION_KEY = "precision";
+    public static final String PRECISION_KEY = "precision";
 
     private boolean checkCorrectParams(Map<String, Object> parameters) {
         return parameters.get(PRECISION_KEY) instanceof Double;
@@ -37,5 +37,13 @@ public class BasicFuzzy implements FilterTechnique<Double> {
             postFilter = new FilteredData<>(data + precisionToAdd, (Double) parameters.get(PRECISION_KEY));
         }
         return postFilter;
+    }
+
+    @Override
+    public Double getPrecision(Map<String, Object> parameters) {
+        if (!checkCorrectParams(parameters)) {
+            return Double.MAX_VALUE;
+        }
+        return (Double) parameters.get(PRECISION_KEY);
     }
 }

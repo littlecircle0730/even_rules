@@ -13,4 +13,6 @@ public interface FilterTechnique<T> {
      * @return Filtered data of same type.
      */
     FilteredData<T> filter(T data, Map<String, Object> parameters);
+
+    Double getPrecision(Map<String, Object> parameters);
 }

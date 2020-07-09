@@ -52,7 +52,7 @@ public class PADECApp extends Application {
         private static Lock baseLock(Endpoint endpoint, PADECContext context){
             Rule mRule = RuleProvider.in0_100Range(context);
             Lock lock = new Lock(endpoint);
-            lock.addAccessLevel(new PairFuzzy(), 1.0, mRule);
+            lock.addAccessLevel(new PairFuzzy(), Collections.singletonMap(PairFuzzy.PRECISION_KEY, 1.0), mRule);
             return lock;
         }
 
@@ -60,8 +60,8 @@ public class PADECApp extends Application {
             Rule botRule = RuleProvider.in0_100Range(context);
             Rule topRule = RuleProvider.in0_100RangePlusSameSound(context);
             Lock lock = new Lock(endpoint);
-            lock.addAccessLevel(new PairFuzzy(), 50.0, botRule);
-            lock.addAccessLevel(new PairFuzzy(), 1.0, topRule);
+            lock.addAccessLevel(new PairFuzzy(), Collections.singletonMap(PairFuzzy.PRECISION_KEY, 50.0), botRule);
+            lock.addAccessLevel(new PairFuzzy(), Collections.singletonMap(PairFuzzy.PRECISION_KEY, 1.0), topRule);
             return lock;
         }
 
@@ -70,9 +70,9 @@ public class PADECApp extends Application {
             Rule midRule = RuleProvider.closeBy(context);
             Rule topRule = RuleProvider.in0_100RangePlusSameSound(context);
             Lock lock = new Lock(endpoint);
-            lock.addAccessLevel(new PairFuzzy(), 50.0, botRule);
-            lock.addAccessLevel(new PairFuzzy(), 20.0, midRule);
-            lock.addAccessLevel(new PairFuzzy(), 0.0, topRule);
+            lock.addAccessLevel(new PairFuzzy(), Collections.singletonMap(PairFuzzy.PRECISION_KEY, 50.0), botRule);
+            lock.addAccessLevel(new PairFuzzy(), Collections.singletonMap(PairFuzzy.PRECISION_KEY, 20.0), midRule);
+            lock.addAccessLevel(new PairFuzzy(), Collections.singletonMap(PairFuzzy.PRECISION_KEY, 0.0), topRule);
             return lock;
         }
 

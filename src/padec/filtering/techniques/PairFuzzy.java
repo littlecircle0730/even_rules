@@ -9,7 +9,7 @@ import java.util.Map;
 
 public class PairFuzzy implements FilterTechnique<Pair<Double, Double>> {
 
-    private static final String PRECISION_KEY = "precision";
+    public static final String PRECISION_KEY = "precision";
 
     private boolean checkCorrectParams(Map<String, Object> parameters) {
         return parameters.get(PRECISION_KEY) instanceof Double;
@@ -39,5 +39,13 @@ public class PairFuzzy implements FilterTechnique<Pair<Double, Double>> {
             postFilter = new FilteredData<>(new Pair<>(data.getA() + precisionToAddA, data.getB() + precisionToAddB), (Double) parameters.get(PRECISION_KEY));
         }
         return postFilter;
+    }
+
+    @Override
+    public Double getPrecision(Map<String, Object> parameters) {
+        if (!checkCorrectParams(parameters)) {
+            return Double.MAX_VALUE;
+        }
+        return (Double) parameters.get(PRECISION_KEY);
     }
 }

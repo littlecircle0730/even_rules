@@ -6,7 +6,6 @@ import padec.filtering.FilteredData;
 import padec.key.Key;
 import padec.rule.Rule;
 
-import java.util.Collections;
 import java.util.Map;
 
 /**
@@ -37,18 +36,10 @@ public class AccessLevel {
      */
     private Rule accessRule;
 
-    <T> AccessLevel(FilterTechnique<T> filter, Endpoint<T> endpoint, Double precision, Rule accessRule) {
+    <T> AccessLevel(FilterTechnique<T> filter, Endpoint<T> endpoint, Map<String, Object> filterParams, Rule accessRule) {
         this.filter = filter;
         this.endpoint = endpoint;
-        this.precision = precision;
-        this.filterParams = Collections.singletonMap(PRECISION_KEY, precision);
-        this.accessRule = accessRule;
-    }
-
-    <T> AccessLevel(FilterTechnique<T> filter, Endpoint<T> endpoint, Double precision, Map<String, Object> filterParams, Rule accessRule) {
-        this.filter = filter;
-        this.endpoint = endpoint;
-        this.precision = precision;
+        this.precision = filter.getPrecision(filterParams);
         this.filterParams = filterParams;
         this.accessRule = accessRule;
     }
