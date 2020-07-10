@@ -2,6 +2,7 @@ package applications;
 
 import core.*;
 import padec.application.Endpoint;
+import padec.application.HistoryEndpoint;
 import padec.application.LocationEndpoint;
 import padec.attribute.Location;
 import padec.attribute.PADECContext;
@@ -9,6 +10,7 @@ import padec.attribute.Pair;
 import padec.attribute.SoundLevel;
 import padec.crypto.SimpleCrypto;
 import padec.filtering.FilteredData;
+import padec.filtering.techniques.HistoryFuzzy;
 import padec.filtering.techniques.PairFuzzy;
 import padec.key.Key;
 import padec.lock.AccessLevel;
@@ -23,6 +25,8 @@ import padec.rule.operator.LessThanOperator;
 import padec.rule.operator.RangeOperator;
 
 import java.security.KeyPair;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.*;
 
 public class PADECApp extends Application {
@@ -48,6 +52,7 @@ public class PADECApp extends Application {
         private static final int LOCK_BASE = 0;
         private static final int LOCK_2_AL = 1;
         private static final int LOCK_3_AL = 2;
+        private static final int LOCK_HISTORY = 3;
 
         private static Lock baseLock(Endpoint endpoint, PADECContext context){
             Rule mRule = RuleProvider.in0_100Range(context);
@@ -76,6 +81,35 @@ public class PADECApp extends Application {
             return lock;
         }
 
+        private static Lock lockHistory(Endpoint endpoint, PADECContext context) {
+            Rule botRule = RuleProvider.in0_100Range(context);
+            Rule midRule = RuleProvider.closeBy(context);
+            Rule topRule = RuleProvider.in0_100RangePlusSameSound(context);
+            Lock lock = new Lock(endpoint);
+
+            Map<String, Object> botParams = new HashMap<>(), midParams = new HashMap<>();
+            botParams.put(HistoryFuzzy.AT_LEAST_TIMES_KEY, 3);
+            try {
+                botParams.put(HistoryFuzzy.BEFORE_DATE_KEY, new SimpleDateFormat("yyyy-MM-dd").parse("2020-03-01"));
+                botParams.put(HistoryFuzzy.AFTER_DATE_KEY, new SimpleDateFormat("yyyy-MM-dd").parse("2020-01-01"));
+            } catch (ParseException e) {
+                e.printStackTrace();
+            }
+
+            lock.addAccessLevel(new HistoryFuzzy(), botParams, botRule);
+
+            midParams.put(HistoryFuzzy.AT_LEAST_TIMES_KEY, 3);
+            try {
+                midParams.put(HistoryFuzzy.AFTER_DATE_KEY, new SimpleDateFormat("yyyy-MM-dd").parse("2020-03-01"));
+            } catch (ParseException e) {
+                e.printStackTrace();
+            }
+            lock.addAccessLevel(new HistoryFuzzy(), midParams, midRule);
+
+            lock.addAccessLevel(new HistoryFuzzy(), null, topRule);
+            return lock;
+        }
+
         public static Lock getLock(Endpoint endpoint, PADECContext context, int lock){
             switch (lock) {
                 case LOCK_BASE:
@@ -84,6 +118,8 @@ public class PADECApp extends Application {
                     return lock2Al(endpoint, context);
                 case LOCK_3_AL:
                     return lock3Al(endpoint, context);
+                case LOCK_HISTORY:
+                    return lockHistory(endpoint, context);
                 default:
                     return null;
             }
@@ -325,7 +361,11 @@ public class PADECApp extends Application {
     private Message providerHandle(Message msg, DTNHost host){
         if(!locks.containsKey(host.getAddress())){ //If there is no lock yet
             if(!endpoints.containsKey(host.getAddress())){ // If there is no endpoint yet
-                endpoints.put(host.getAddress(), new LocationEndpoint()); // Create it
+                if (defaultLock != LockProvider.LOCK_HISTORY) {
+                    endpoints.put(host.getAddress(), new LocationEndpoint()); // Create it
+                } else {
+                    endpoints.put(host.getAddress(), new HistoryEndpoint("padec_history/Histo1.json"));
+                }
             }
             if(!contexts.containsKey(host.getAddress())){ //If there is no context yet
                 PADECContext cntxt = new PADECContext(); // Create it
@@ -365,8 +405,10 @@ public class PADECApp extends Application {
                 Map<String, Object> params = (Map<String, Object>) msg.getProperty(KEY_ENDPOINT_PARAMS);
 
                 // Update location endpoint
-                ((LocationEndpoint) endpoints.get(host.getAddress())).updateLocation(
-                        new Pair<>(host.getLocation().getX(), host.getLocation().getY()));
+                if (defaultLock != LockProvider.LOCK_HISTORY) {
+                    ((LocationEndpoint) endpoints.get(host.getAddress())).updateLocation(
+                            new Pair<>(host.getLocation().getX(), host.getLocation().getY()));
+                }
 
                 // Update location context
                 contexts.get(host.getAddress()).getAttribute(Location.class).setValue(

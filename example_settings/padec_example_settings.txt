@@ -3,25 +3,28 @@
 # Define new application
 padecAppPro.type = PADECApp
 padecAppPro.provider = true
-padecAppPro.deflock = 2
+padecAppPro.deflock = 3
 
 padecAppConA.type = PADECApp
 padecAppConA.destinationRange = 0,0
 padecAppConA.consumer = true
 padecAppConA.interval = 50
-padecAppConA.reqprec = 0.0
+#padecAppConA.reqprec = 0.0
+padecAppConA.reqprec = -50.0
 
 padecAppConB.type = PADECApp
 padecAppConB.destinationRange = 0,0
 padecAppConB.consumer = true
 padecAppConB.interval = 50
-padecAppConB.reqprec = 30.0
+#padecAppConB.reqprec = 30.0
+padecAppConB.reqprec = -30.0
 
 padecAppConC.type = PADECApp
 padecAppConC.destinationRange = 0,0
 padecAppConC.consumer = true
 padecAppConC.interval = 50
-padecAppConC.reqprec = 100.0
+#padecAppConC.reqprec = 100.0
+padecAppConC.reqprec = -20.0
 
 #padecAppAtt.type = PADECApp
 #padecAppAtt.attacker = true
