@@ -1,11 +1,12 @@
 package padec.testing;
 
 import padec.application.Endpoint;
+import padec.application.HistoryEndpoint;
 import padec.attribute.Location;
 import padec.attribute.PADECContext;
 import padec.attribute.Pair;
 import padec.filtering.FilteredData;
-import padec.filtering.techniques.BasicFuzzy;
+import padec.filtering.techniques.HistoryFuzzy;
 import padec.key.Key;
 import padec.lock.Lock;
 import padec.rule.ComposedRule;
@@ -15,15 +16,14 @@ import padec.rule.operator.AndOperator;
 import padec.rule.operator.GreaterThanOperator;
 import padec.rule.operator.LessThanOperator;
 
-import java.util.Collections;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.HashMap;
+import java.util.Map;
 
-/**
- * Simple, Bread-and-Butter example to test access control
- */
-public class BNBExample {
+public class HistoryExample {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws ParseException {
         PADECContext consumerContext = new PADECContext();
 
         consumerContext.registerAttribute(Location.class);
@@ -34,12 +34,15 @@ public class BNBExample {
         Rule withinAreaMin = new ConsumerRule(Location.class, new Pair[]{new Pair<>(-1., -1.)}, new GreaterThanOperator());
         Rule alRule = new ComposedRule(withinAreaMax, withinAreaMin, new AndOperator());
 
-        BasicFuzzy filter = new BasicFuzzy();
+        HistoryFuzzy filter = new HistoryFuzzy();
 
-        Endpoint mockEndpoint = (Endpoint<Double>) parameters -> 15.0;
+        Endpoint myEndpoint = new HistoryEndpoint("padec_history/Histo1.json");
 
-        Lock lock = new Lock(mockEndpoint);
-        lock.addAccessLevel(filter, Collections.singletonMap(BasicFuzzy.PRECISION_KEY, 1.0), alRule);
+        Lock lock = new Lock(myEndpoint);
+        Map<String, Object> params = new HashMap<>();
+        params.put(HistoryFuzzy.AT_LEAST_TIMES_KEY, 3);
+        params.put(HistoryFuzzy.AFTER_DATE_KEY, new SimpleDateFormat("yyyy-MM-dd").parse("2020-03-01"));
+        lock.addAccessLevel(filter, params, alRule);
 
         Key conKey = new Key(lock.getMaxAccessLevel().getKeyhole(), consumerContext);
         FilteredData result = lock.getMaxAccessLevel().testAccess(new HashMap<>(), conKey);
@@ -47,4 +50,5 @@ public class BNBExample {
         System.out.println("Data: " + result.getData());
         System.out.println("Precision: " + result.getPrecision());
     }
+
 }

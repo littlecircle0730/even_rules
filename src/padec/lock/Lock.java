@@ -6,6 +6,7 @@ import padec.rule.Rule;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 
 /**
  * Lock with a multitude of access levels and keyholes.
@@ -20,12 +21,12 @@ public class Lock {
         this.endpoint = endpoint;
     }
 
-    public void addAccessLevel(FilterTechnique filter, Object[] filterParams, Rule accessRule){
+    public void addAccessLevel(FilterTechnique filter, Map<String, Object> filterParams, Rule accessRule) {
         AccessLevel al = new AccessLevel(filter, endpoint, filterParams, accessRule);
         levels.add(al);
     }
 
-    public void addAccessLevel(FilterTechnique filter, Object[] filterParams, Rule accessRule, int position){
+    public void addAccessLevel(FilterTechnique filter, Map<String, Object> filterParams, Rule accessRule, int position) {
         AccessLevel al = new AccessLevel(filter, endpoint, filterParams, accessRule);
         levels.add(position, al);
     }

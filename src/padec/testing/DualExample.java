@@ -13,6 +13,9 @@ import padec.rule.Rule;
 import padec.rule.operator.LessThanOperator;
 import padec.rule.operator.RangeOperator;
 
+import java.util.Collections;
+import java.util.HashMap;
+
 public class DualExample {
 
     public static void main(String[] args) {
@@ -34,10 +37,10 @@ public class DualExample {
         Endpoint mockEndpoint = (Endpoint<Double>) parameters -> 15.0;
 
         Lock lock = new Lock(mockEndpoint);
-        lock.addAccessLevel(filter, new Double[]{1.0}, withinRange);
+        lock.addAccessLevel(filter, Collections.singletonMap(BasicFuzzy.PRECISION_KEY, 1.0), withinRange);
 
         Key conKey = new Key(lock.getMaxAccessLevel().getKeyhole(), consumerContext);
-        FilteredData result = lock.getMaxAccessLevel().testAccess(new Object[]{}, conKey);
+        FilteredData result = lock.getMaxAccessLevel().testAccess(new HashMap<>(), conKey);
 
         System.out.println("Data: " + result.getData());
         System.out.println("Precision: " + result.getPrecision());

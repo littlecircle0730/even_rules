@@ -2,6 +2,8 @@ package padec.application;
 
 import padec.attribute.Pair;
 
+import java.util.Map;
+
 public class LocationEndpoint implements Endpoint<Pair<Double, Double>> {
 
     private Pair<Double, Double> currLocation;
@@ -11,7 +13,7 @@ public class LocationEndpoint implements Endpoint<Pair<Double, Double>> {
     }
 
     @Override
-    public Pair<Double, Double> execute(Object[] parameters) {
+    public Pair<Double, Double> execute(Map<String, Object> parameters) {
         return currLocation;
     }
 }

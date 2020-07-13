@@ -1,24 +1,11 @@
 package padec.crypto;
 
-import padec.application.Endpoint;
-import padec.attribute.Location;
-import padec.attribute.PADECContext;
-import padec.attribute.Pair;
-import padec.filtering.FilteredData;
-import padec.filtering.techniques.BasicFuzzy;
-import padec.key.Key;
-import padec.lock.Keyhole;
-import padec.lock.Lock;
-import padec.rule.ProducerRule;
-import padec.rule.operator.EqualOperator;
-
 import javax.crypto.BadPaddingException;
 import javax.crypto.Cipher;
 import javax.crypto.IllegalBlockSizeException;
 import javax.crypto.NoSuchPaddingException;
 import java.io.*;
 import java.security.*;
-import java.util.Arrays;
 
 /**
  * Utility class, manages cryptography tasks with a simple interface
@@ -59,8 +46,8 @@ public class SimpleCrypto {
 
     private InputStream objectToStream(Object obj){
         ByteArrayOutputStream baos = new ByteArrayOutputStream();
-        ObjectOutputStream out = null;
-        byte[] objBytes = null;
+        ObjectOutputStream out;
+        byte[] objBytes;
         try{
             out = new ObjectOutputStream(baos);
             out.writeObject(obj);
@@ -84,7 +71,7 @@ public class SimpleCrypto {
     private Object byteArrayToObject(byte[] byteArray){
         ByteArrayInputStream bais = new ByteArrayInputStream(byteArray);
         ObjectInput in = null;
-        Object res = null;
+        Object res;
         try{
             in = new ObjectInputStream(bais);
             res = in.readObject();

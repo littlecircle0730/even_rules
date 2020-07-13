@@ -5,20 +5,24 @@ import padec.filtering.FilterTechnique;
 import padec.filtering.FilteredData;
 
 import java.security.SecureRandom;
+import java.util.Map;
 
 public class PairFuzzy implements FilterTechnique<Pair<Double, Double>> {
-    private boolean checkCorrectParams(Object[] parameters){
-        return parameters.length == 1 && parameters[0] instanceof Double;
+
+    public static final String PRECISION_KEY = "precision";
+
+    private boolean checkCorrectParams(Map<String, Object> parameters) {
+        return parameters.get(PRECISION_KEY) instanceof Double;
     }
 
     /**
      * Fuzzies a double value with a given precision.
      * @param data Data to be fuzzied.
-     * @param parameters 1-item-long array with a Double value for precision
-     * @return
+     * @param parameters Must contain at least a Double with Precision
+     * @return Filtered pair
      */
     @Override
-    public FilteredData<Pair<Double, Double>> filter(Pair<Double, Double> data, Object[] parameters) {
+    public FilteredData<Pair<Double, Double>> filter(Pair<Double, Double> data, Map<String, Object> parameters) {
         FilteredData<Pair<Double, Double>> postFilter = null;
         if(checkCorrectParams(parameters)){
             SecureRandom rng = new SecureRandom();
@@ -30,10 +34,18 @@ public class PairFuzzy implements FilterTechnique<Pair<Double, Double>> {
             if (rng.nextBoolean()){ //Randomly have it be positive or negative
                 precisionToAddB = precisionToAddB * -1;
             }
-            precisionToAddA = precisionToAddA * (Double) parameters[0];
-            precisionToAddB = precisionToAddB * (Double) parameters[0];
-            postFilter = new FilteredData<>(new Pair<>(data.getA()+precisionToAddA, data.getB()+precisionToAddB), (Double) parameters[0]);
+            precisionToAddA = precisionToAddA * (Double) parameters.get(PRECISION_KEY);
+            precisionToAddB = precisionToAddB * (Double) parameters.get(PRECISION_KEY);
+            postFilter = new FilteredData<>(new Pair<>(data.getA() + precisionToAddA, data.getB() + precisionToAddB), (Double) parameters.get(PRECISION_KEY));
         }
         return postFilter;
+    }
+
+    @Override
+    public Double getPrecision(Map<String, Object> parameters) {
+        if (!checkCorrectParams(parameters)) {
+            return Double.MAX_VALUE;
+        }
+        return (Double) parameters.get(PRECISION_KEY);
     }
 }
