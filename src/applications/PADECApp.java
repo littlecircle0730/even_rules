@@ -53,6 +53,7 @@ public class PADECApp extends Application {
         private static final int LOCK_2_AL = 1;
         private static final int LOCK_3_AL = 2;
         private static final int LOCK_HISTORY = 3;
+        private static final int LOCK_RESTRICTIVE_HISTORY = 4;
 
         private static Lock baseLock(Endpoint endpoint, PADECContext context){
             Rule mRule = RuleProvider.in0_100Range(context);
@@ -110,6 +111,24 @@ public class PADECApp extends Application {
             return lock;
         }
 
+        private static Lock restrictiveHistory(Endpoint endpoint, PADECContext context) {
+            Rule rule = RuleProvider.in0_100Range(context);
+            Lock lock = new Lock(endpoint);
+
+            Map<String, Object> params = new HashMap<>();
+            params.put(HistoryFuzzy.AT_LEAST_TIMES_KEY, 3);
+            try {
+                params.put(HistoryFuzzy.BEFORE_DATE_KEY, new SimpleDateFormat("yyyy-MM-dd").parse("2020-03-01"));
+                params.put(HistoryFuzzy.AFTER_DATE_KEY, new SimpleDateFormat("yyyy-MM-dd").parse("2020-01-01"));
+            } catch (ParseException e) {
+                e.printStackTrace();
+            }
+
+            lock.addAccessLevel(new HistoryFuzzy(), params, rule);
+
+            return lock;
+        }
+
         public static Lock getLock(Endpoint endpoint, PADECContext context, int lock){
             switch (lock) {
                 case LOCK_BASE:
@@ -120,6 +139,8 @@ public class PADECApp extends Application {
                     return lock3Al(endpoint, context);
                 case LOCK_HISTORY:
                     return lockHistory(endpoint, context);
+                case LOCK_RESTRICTIVE_HISTORY:
+                    return restrictiveHistory(endpoint, context);
                 default:
                     return null;
             }
@@ -339,7 +360,7 @@ public class PADECApp extends Application {
                 m.addProperty(KEY_ENDPOINT_PARAMS, new HashMap<>());
                 m.addProperty(KEY_ACCESS_LEVEL, khPos);
                 m.setAppID(APP_ID);
-                super.sendEventToListeners("GotKeyhole", null, host);
+                super.sendEventToListeners("GotKeyhole", m, host);
                 host.createNewMessage(m);
                 break;
             case MSG_TYPE_INFO:
@@ -388,7 +409,7 @@ public class PADECApp extends Application {
                 m.addProperty(KH_ANSW_KEYHOLE, encKh);
                 m.setAppID(APP_ID);
                 host.createNewMessage(m);
-                super.sendEventToListeners("GotKeyholeRequest", null, host);
+                super.sendEventToListeners("GotKeyholeRequest", m, host);
                 break;
             case MSG_TYPE_KEY:
                 byte[] encK = (byte[]) msg.getProperty(KEY_KEY);
@@ -430,7 +451,7 @@ public class PADECApp extends Application {
                 }
                 m.setAppID(APP_ID);
                 host.createNewMessage(m);
-                super.sendEventToListeners("GotKey", null, host);
+                super.sendEventToListeners("GotKey", m, host);
                 break;
         }
         return msg;
@@ -460,7 +481,7 @@ public class PADECApp extends Application {
                     m.addProperty(KEY_ENDPOINT_PARAMS, new HashMap<>());
                     m.addProperty(KEY_ACCESS_LEVEL, khPos);
                     m.setAppID(APP_ID);
-                    super.sendEventToListeners("AttackedKeyhole", null, host);
+                    super.sendEventToListeners("AttackedKeyhole", m, host);
                     host.createNewMessage(m);
                     break;
                 case MSG_TYPE_INFO:
@@ -612,7 +633,7 @@ public class PADECApp extends Application {
             Message m = new Message(host, destination, id, 1);
             m.addProperty(MSG_TYPE, MSG_TYPE_KEYHOLE_REQUEST);
             m.setAppID(APP_ID);
-            super.sendEventToListeners("PADECRequest", null, host);
+            super.sendEventToListeners("PADECRequest", m, host);
             host.createNewMessage(m);
             lastRequest.put(host.getAddress(), -1*curTime); // The message is sent, waiting for an answer
         }
