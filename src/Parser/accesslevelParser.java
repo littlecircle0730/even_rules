@@ -6,7 +6,7 @@ import Parser.ruleParser.rule;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.InputStream;
-//
+
 public class accesslevelParser {
     public class accesslevel {
         private int position;
