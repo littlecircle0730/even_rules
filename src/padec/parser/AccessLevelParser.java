@@ -1,17 +1,16 @@
-package Parser;
+package padec.parser;
 
 import org.yaml.snakeyaml.Yaml;
-import Parser.ruleParser.rule;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.InputStream;
 
-public class accesslevelParser {
+public class AccessLevelParser {
     public class accesslevel {
         private int position;
         private filter filters;
-        private rule rules;
+        //private rule rules;
     }
 
     public class filter {

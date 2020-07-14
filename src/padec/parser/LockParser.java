@@ -1,15 +1,15 @@
-package Parser;
+package padec.parser;
 
 import org.yaml.snakeyaml.Yaml;
 import padec.application.Endpoint;
-import Parser.accesslevelParser.accesslevel;
+import padec.parser.AccessLevelParser.accesslevel;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.InputStream;
 import java.util.List;
 
-public class lockParser {
+public class LockParser {
     public class lock {
         private Endpoint endpoint;
         private List<accesslevel> accessLevelList;
