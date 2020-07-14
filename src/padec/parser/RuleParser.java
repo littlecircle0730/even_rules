@@ -1,4 +1,4 @@
-package Parser;
+package padec.parser;
 
 import org.yaml.snakeyaml.Yaml;
 
@@ -6,7 +6,7 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.InputStream;
 
-public class ruleParser {
+public class RuleParser {
     public class rule {
         private String type;
         private String attribute;
