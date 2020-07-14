@@ -1,7 +1,6 @@
 package padec.parser;
 
 import org.yaml.snakeyaml.Yaml;
-import padec.parser.RuleParser.rule;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -11,7 +10,7 @@ public class AccessLevelParser {
     public class accesslevel {
         private int position;
         private filter filters;
-        private rule rules;
+        //private rule rules;
     }
 
     public class filter {
