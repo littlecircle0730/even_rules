@@ -1,0 +1,13 @@
+accesslevel:
+  position: 0 # Levels are in a stack. Level 0 is the bottom of the stack (and the worst precision).
+  filter:
+    technique: 'padec.filtering.techniques.PairFuzzy'
+    params:
+      precision: 50.0 # Filter params are already a key-value map, so this should be easy to parse.
+  rule:
+    type: 'Dual' # Not a class name here! We have a fixed amount of rule types: Consumer, Producer, Dual and Composed
+    attribute: 'padec.attribute.Location'
+    values:
+      - 10000.0
+    combinator: 'padec.rule.operator.RangeOperator'
+    operator: 'padec.rule.operator.LessThanOperator'

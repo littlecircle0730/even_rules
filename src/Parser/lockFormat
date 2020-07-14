@@ -1,0 +1,58 @@
+### Location endpoint lock
+### Three access levels:
+### 1) People in a 10 Km range can access my location fuzzied by 50 meters.
+### 2) People in a 500 meters range can access my location fuzzied by 20 meters.
+### 3) People in a 500 meters range AND with the same sound level as me can access my exact location.
+
+lock:
+  endpoint: 'padec.application.LocationEndpoint' # Always fully-qualified Java class name.
+  accesslevels:
+    - level1: # We can put any name in here, it'll be ignored after all.
+        position: 0 # Levels are in a stack. Level 0 is the bottom of the stack (and the worst precision).
+        filter:
+          technique: 'padec.filtering.techniques.PairFuzzy'
+          params:
+            precision: 50.0 # Filter params are already a key-value map, so this should be easy to parse.
+        rule:
+          type: 'Dual' # Not a class name here! We have a fixed amount of rule types: Consumer, Producer, Dual and Composed
+          attribute: 'padec.attribute.Location'
+          values:
+            - 10000.0
+          combinator: 'padec.rule.operator.RangeOperator'
+          operator: 'padec.rule.operator.LessThanOperator'
+    - level2:
+        position: 1
+        filter:
+          technique: 'padec.filtering.techniques.PairFuzzy'
+          params:
+            precision: 20.0
+        rule:
+          type: 'Dual'
+          attribute: 'padec.attribute.Location'
+          values:
+            - 500.0
+          combinator: 'padec.rule.operator.RangeOperator'
+          operator: 'padec.rule.operator.LessThanOperator'
+    - level3:
+        position: 2
+        filter:
+          technique: 'padec.filtering.techniques.PairFuzzy'
+          params:
+            precision: 0.0
+        rule:
+          type: 'Composed'
+          ruleA:
+            type: 'Dual'
+            attribute: 'padec.attribute.Location'
+            values:
+              - 500.0
+            combinator: 'padec.rule.operator.RangeOperator'
+            operator: 'padec.rule.operator.LessThanOperator'
+          ruleB:
+            type: 'Dual'
+            attribute: 'padec.attribute.SoundLevel'
+            values:
+              - true
+            combinator: 'padec.rule.operator.EqualOperator'
+            operator: 'padec.rule.operator.EqualOperator'
+          operator: 'padec.rule.operator.AndOperator'
