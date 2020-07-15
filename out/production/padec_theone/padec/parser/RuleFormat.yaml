@@ -1,0 +1,7 @@
+rule:
+  type: 'Dual' # Not a class name here! We have a fixed amount of rule types: Consumer, Producer, Dual and Composed
+  attribute: 'padec.attribute.Location'
+  values:
+    - 10000.0
+  combinator: 'padec.rule.operator.RangeOperator'
+  operator: 'padec.rule.operator.LessThanOperator'

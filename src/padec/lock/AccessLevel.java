@@ -36,7 +36,7 @@ public class AccessLevel {
      */
     private Rule accessRule;
 
-    <T> AccessLevel(FilterTechnique<T> filter, Endpoint<T> endpoint, Map<String, Object> filterParams, Rule accessRule) {
+    public <T> AccessLevel(FilterTechnique<T> filter, Endpoint<T> endpoint, Map<String, Object> filterParams, Rule accessRule) {
         this.filter = filter;
         this.endpoint = endpoint;
         this.precision = filter.getPrecision(filterParams);

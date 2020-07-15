@@ -19,6 +19,8 @@ public class RuleParser {
     private static final String VALUES_KEY = "values";
     private static final String COMBINATOR_KEY = "combinator";
     private static final String OPERATOR_KEY = "operator";
+    private static final String RULEA_KEY = "ruleA";
+    private static final String RULEB_KEY = "ruleB";
 
     public static Rule parse(String file, PADECContext context) {
         Rule rule = null;
@@ -28,6 +30,21 @@ public class RuleParser {
             Yaml yaml = new Yaml();
             Map<String, Object> yamlObj = yaml.load(inputStream);
             Map<String, Object> iRule = (Map<String, Object>) yamlObj.get(RULE_KEY);
+
+            rule = ruleParse(iRule, context);
+
+        } catch (IOException ex) {
+            ex.printStackTrace();
+        } catch (ClassCastException ex) {
+            System.err.println("Could not cast object properly. " + ex);
+            ex.printStackTrace();
+        }
+        return rule;
+    }
+
+    public static Rule ruleParse(Map<String, Object> iRule, PADECContext context) {
+        Rule rule = null;
+        try {
             switch (((String) iRule.get(TYPE_KEY)).toUpperCase(Locale.getDefault())) {
                 case "PRODUCER":
                     Class attr = ClassLoader.getSystemClassLoader().loadClass((String) iRule.get(ATTRIBUTE_KEY));
@@ -56,9 +73,38 @@ public class RuleParser {
                                     .newInstance();
                     rule = new DualRule(attr, values, comb, op, context);
                     break;
+                case "COMPOSED":
+                    //Rule A
+                    Map<String, Object> iRuleA = (Map<String, Object>) iRule.get(RULEA_KEY);
+                    Class attrA = ClassLoader.getSystemClassLoader().loadClass((String) iRuleA.get(ATTRIBUTE_KEY));
+                    Object[] valuesA = ((List<Object>) iRuleA.get(VALUES_KEY)).toArray();
+                    CombineOperator combA = (CombineOperator)
+                            ClassLoader.getSystemClassLoader().loadClass((String) iRuleA.get(COMBINATOR_KEY))
+                                    .newInstance();
+                    ComparisonOperator opA = (ComparisonOperator)
+                            ClassLoader.getSystemClassLoader().loadClass((String) iRuleA.get(OPERATOR_KEY))
+                                    .newInstance();
+                    Rule ruleA = new DualRule(attrA, valuesA, combA, opA, context);
+
+                    //Rule B
+                    Map<String, Object> iRuleB = (Map<String, Object>) iRule.get(RULEB_KEY);
+                    Class attrB = ClassLoader.getSystemClassLoader().loadClass((String) iRuleB.get(ATTRIBUTE_KEY));
+                    Object[] valuesB = ((List<Object>) iRuleB.get(VALUES_KEY)).toArray();
+                    CombineOperator combB = (CombineOperator)
+                            ClassLoader.getSystemClassLoader().loadClass((String) iRuleB.get(COMBINATOR_KEY))
+                                    .newInstance();
+                    ComparisonOperator opB = (ComparisonOperator)
+                            ClassLoader.getSystemClassLoader().loadClass((String) iRuleB.get(OPERATOR_KEY))
+                                    .newInstance();
+                    Rule ruleB = new DualRule(attrB, valuesB, combB, opB, context);
+
+                    //A & B
+                    LogicalOperator opComb = (LogicalOperator)
+                            ClassLoader.getSystemClassLoader().loadClass((String) iRule.get(OPERATOR_KEY))
+                                    .newInstance();
+                    rule = new ComposedRule(ruleA, ruleB, opComb);
+                    break;
             }
-        } catch (IOException ex) {
-            ex.printStackTrace();
         } catch (ClassCastException ex) {
             System.err.println("Could not cast object properly. " + ex);
             ex.printStackTrace();
