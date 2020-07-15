@@ -5,7 +5,10 @@
 ### 3) People in a 500 meters range AND with the same sound level as me can access my exact location.
 
 lock:
-  endpoint: 'padec.application.LocationEndpoint' # Always fully-qualified Java class name.
+  endpoint: 'padec.application.HistoryEndpoint' # Always fully-qualified Java class name.
+  conparams:
+    - type: 'java.lang.String'
+      value: 'padec_history/Histo1.json'
   accesslevels:
     - accesslevel:
         position: 0 # Levels are in a stack. Level 0 is the bottom of the stack (and the worst precision).

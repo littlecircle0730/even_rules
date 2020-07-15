@@ -31,6 +31,14 @@ public class Lock {
         levels.add(position, al);
     }
 
+    public void addAcessLevel(AccessLevel al) {
+        levels.add(al);
+    }
+
+    public void addAccessLevel(AccessLevel al, int position) {
+        levels.add(position, al);
+    }
+
     public int getTotalAccessLevels(){
         return levels.size();
     }

@@ -31,7 +31,7 @@ public class RuleParser {
             Map<String, Object> yamlObj = yaml.load(inputStream);
             Map<String, Object> iRule = (Map<String, Object>) yamlObj.get(RULE_KEY);
 
-            rule = ruleParse(iRule, context);
+            rule = parse(iRule, context);
 
         } catch (IOException ex) {
             ex.printStackTrace();
@@ -42,7 +42,7 @@ public class RuleParser {
         return rule;
     }
 
-    public static Rule ruleParse(Map<String, Object> iRule, PADECContext context) {
+    public static Rule parse(Map<String, Object> iRule, PADECContext context) {
         Rule rule = null;
         try {
             switch (((String) iRule.get(TYPE_KEY)).toUpperCase(Locale.getDefault())) {
@@ -76,27 +76,12 @@ public class RuleParser {
                 case "COMPOSED":
                     //Rule A
                     Map<String, Object> iRuleA = (Map<String, Object>) iRule.get(RULEA_KEY);
-                    Class attrA = ClassLoader.getSystemClassLoader().loadClass((String) iRuleA.get(ATTRIBUTE_KEY));
-                    Object[] valuesA = ((List<Object>) iRuleA.get(VALUES_KEY)).toArray();
-                    CombineOperator combA = (CombineOperator)
-                            ClassLoader.getSystemClassLoader().loadClass((String) iRuleA.get(COMBINATOR_KEY))
-                                    .newInstance();
-                    ComparisonOperator opA = (ComparisonOperator)
-                            ClassLoader.getSystemClassLoader().loadClass((String) iRuleA.get(OPERATOR_KEY))
-                                    .newInstance();
-                    Rule ruleA = new DualRule(attrA, valuesA, combA, opA, context);
+                    Rule ruleA = parse(iRuleA, context);
 
                     //Rule B
                     Map<String, Object> iRuleB = (Map<String, Object>) iRule.get(RULEB_KEY);
                     Class attrB = ClassLoader.getSystemClassLoader().loadClass((String) iRuleB.get(ATTRIBUTE_KEY));
-                    Object[] valuesB = ((List<Object>) iRuleB.get(VALUES_KEY)).toArray();
-                    CombineOperator combB = (CombineOperator)
-                            ClassLoader.getSystemClassLoader().loadClass((String) iRuleB.get(COMBINATOR_KEY))
-                                    .newInstance();
-                    ComparisonOperator opB = (ComparisonOperator)
-                            ClassLoader.getSystemClassLoader().loadClass((String) iRuleB.get(OPERATOR_KEY))
-                                    .newInstance();
-                    Rule ruleB = new DualRule(attrB, valuesB, combB, opB, context);
+                    Rule ruleB = parse(iRuleB, context);
 
                     //A & B
                     LogicalOperator opComb = (LogicalOperator)

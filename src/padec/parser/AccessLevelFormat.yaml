@@ -1,5 +1,4 @@
 accesslevel:
-  endpoint: 'padec.application.LocationEndpoint'
   filter:
     technique: 'padec.filtering.techniques.PairFuzzy'
     params:
