@@ -29,7 +29,7 @@ public class PADECDetailReporter extends Report implements ApplicationListener {
         }
         if (event.equalsIgnoreCase("GotKeyhole")) {
             Message m = (Message) params;
-            parsedEvent = "Key " + m.getId() + ". From: " + m.getFrom().getAddress() + ", to: " + m.getTo().getAddress() + ". Access level requested: " + m.getProperty(PADECApp.KEY_ACCESS_LEVEL) + ", endpoint params: " + m.getProperty(PADECApp.KEY_ENDPOINT_PARAMS) + ".";
+            parsedEvent = "Key " + m.getId() + ". From: " + m.getFrom().getAddress() + ", to: " + m.getTo().getAddress() + ". Minimum precision requested: " + m.getProperty(PADECApp.KEY_MIN_PRECISION) + ", endpoint params: " + m.getProperty(PADECApp.KEY_ENDPOINT_PARAMS) + ".";
         }
         if (event.equalsIgnoreCase("GotKey")) {
             Message m = (Message) params;
@@ -56,6 +56,12 @@ public class PADECDetailReporter extends Report implements ApplicationListener {
         }
         if (event.equalsIgnoreCase("AttackRejected")) {
             parsedEvent = "Attack from " + host.getAddress() + " rejected";
+        }
+        if (event.equalsIgnoreCase("NoFittingLevel")) {
+            parsedEvent = "No fitting level found in " + host.getAddress();
+        }
+        if (event.equalsIgnoreCase("FittingLevel")) {
+            parsedEvent = "Keyhole in level " + params + " in " + host.getAddress() + " fits the key";
         }
         events.add(parsedEvent);
 

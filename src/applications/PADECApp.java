@@ -47,8 +47,10 @@ public class PADECApp extends Application {
 
     /** Key that stores the key in a key message **/
     public static final String KEY_KEY = "k-key";
-    /** Key that stores the access level in a key message **/
-    public static final String KEY_ACCESS_LEVEL = "k-access-level";
+    /**
+     * Key that stores the minimum precision required in a key message
+     **/
+    public static final String KEY_MIN_PRECISION = "k-min-precision";
     /** Key that stores the endpoint parameters in a key message **/
     public static final String KEY_ENDPOINT_PARAMS = "k-endpoint-params";
 
@@ -233,7 +235,7 @@ public class PADECApp extends Application {
                 m.addProperty(MSG_TYPE, MSG_TYPE_KEY);
                 m.addProperty(KEY_KEY, sc.encrypt(key, cryptoKeys.get(msg.getFrom().getAddress()).getPublic()));
                 m.addProperty(KEY_ENDPOINT_PARAMS, new HashMap<>());
-                m.addProperty(KEY_ACCESS_LEVEL, khPos);
+                m.addProperty(KEY_MIN_PRECISION, requestedPrecision);
                 m.setAppID(APP_ID);
                 super.sendEventToListeners("GotKeyhole", m, host);
                 host.createNewMessage(m);
@@ -284,17 +286,9 @@ public class PADECApp extends Application {
             case MSG_TYPE_KEY:
                 byte[] encK = (byte[]) msg.getProperty(KEY_KEY);
                 Key k = (Key) sc.decrypt(encK, cryptoKeys.get(host.getAddress()).getPrivate());
-                Integer al = (Integer) msg.getProperty(KEY_ACCESS_LEVEL);
-                AccessLevel rAl;
-                if (al == ACCESS_LEVEL_MAX){
-                    rAl = locks.get(host.getAddress()).getMaxAccessLevel();
-                }
-                else{
-                    rAl = locks.get(host.getAddress()).getAccessLevel(al);
-                    rAl = rAl == null ? locks.get(host.getAddress()).getMaxAccessLevel() : rAl;
-                }
+                Double minPrec = (Double) msg.getProperty(KEY_MIN_PRECISION);
+                Lock lock = locks.get(host.getAddress());
                 Map<String, Object> params = (Map<String, Object>) msg.getProperty(KEY_ENDPOINT_PARAMS);
-
                 // Update location endpoint
                 Endpoint endpoint = endpoints.get(host.getAddress());
                 if (endpoint instanceof LocationEndpoint) {
@@ -309,7 +303,30 @@ public class PADECApp extends Application {
                 // Update sound level context
                 contexts.get(host.getAddress()).getAttribute(SoundLevel.class).setValue(15.0);
 
-                FilteredData result = rAl.testAccess(params, k);
+                // Keyhole lookup
+                List<Keyhole> khLookup = lock.getKeyholes();
+                FilteredData result = null;
+                boolean fitting = false;
+                for (int i = khLookup.size() - 1; i >= 0; i--) {
+                    Keyhole kh = khLookup.get(i);
+                    if (kh.getPrecision() > minPrec) { // If this keyhole is too bad for the requestor
+                        if (!fitting) {
+                            super.sendEventToListeners("NoFittingLevel", null, host);
+                        }
+                        break; // No need to keep on looking
+                    } else {
+                        if (kh.fits(k)) { //If the key fits
+                            fitting = true;
+                            AccessLevel al = lock.getAccessLevel(i);
+                            super.sendEventToListeners("FittingLevel", i, host);
+                            result = al.testAccess(params, k); // Test access
+                            if (result != null) { // If access is granted
+                                break; // No need to keep on looking
+                            }
+                        }
+                    }
+                }
+
                 id = "resp-"+host.getAddress()+"-"+msg.getFrom().getAddress()+"@"+SimClock.getIntTime();
                 m = new Message(host, msg.getFrom(), id, 1);
                 if (result != null){ // Key accepted
@@ -350,7 +367,7 @@ public class PADECApp extends Application {
                     m.addProperty(MSG_TYPE, MSG_TYPE_KEY);
                     m.addProperty(KEY_KEY, sc.encrypt(key, cryptoKeys.get(msg.getFrom().getAddress()).getPublic()));
                     m.addProperty(KEY_ENDPOINT_PARAMS, new HashMap<>());
-                    m.addProperty(KEY_ACCESS_LEVEL, khPos);
+                    m.addProperty(KEY_MIN_PRECISION, requestedPrecision);
                     m.setAppID(APP_ID);
                     super.sendEventToListeners("AttackedKeyhole", m, host);
                     host.createNewMessage(m);

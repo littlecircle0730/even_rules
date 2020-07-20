@@ -77,7 +77,6 @@ public class Lock {
         return keyholes;
     }
 
-
     /**
      * Do not use this method outside of TheONE simulator. I'm making sure it breaks if you try to do so.
      * This is only used for updating the endpoint in TheONE.
