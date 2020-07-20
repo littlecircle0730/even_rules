@@ -49,10 +49,15 @@ lock:
             combinator: 'padec.rule.operator.RangeOperator'
             operator: 'padec.rule.operator.LessThanOperator'
           ruleB:
-            type: 'Dual'
-            attribute: 'padec.attribute.SoundLevel'
-            values:
-              - true
+            type: 'Consumer'
+            attribute: 'padec.attribute.Identity'
+            values: # Chosen at random
+              - 124
+              - 118
+              - 107
+              - 106
+              - 125
+              - 123
             combinator: 'padec.rule.operator.EqualOperator'
             operator: 'padec.rule.operator.EqualOperator'
           operator: 'padec.rule.operator.AndOperator'

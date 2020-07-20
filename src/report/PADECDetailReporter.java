@@ -61,7 +61,7 @@ public class PADECDetailReporter extends Report implements ApplicationListener {
             parsedEvent = "No fitting level found in " + host.getAddress();
         }
         if (event.equalsIgnoreCase("FittingLevel")) {
-            parsedEvent = "Keyhole in level " + params + " in " + host.getAddress() + " fits the key";
+            parsedEvent = "Keyhole in level " + ((int[]) params)[0] + " in " + host.getAddress() + " fits the key sent by " + ((int[]) params)[1];
         }
         events.add(parsedEvent);
 
