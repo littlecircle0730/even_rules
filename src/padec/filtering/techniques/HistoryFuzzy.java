@@ -4,6 +4,8 @@ import padec.attribute.Pair;
 import padec.filtering.FilterTechnique;
 import padec.filtering.FilteredData;
 
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
@@ -38,10 +40,10 @@ public class HistoryFuzzy implements FilterTechnique<List<Pair<String, Date>>> {
                 }
             }
         }
-        if (parameters.containsKey(BEFORE_DATE_KEY) && !(parameters.get(BEFORE_DATE_KEY) instanceof Date)) {
+        if (parameters.containsKey(BEFORE_DATE_KEY) && !(parameters.get(BEFORE_DATE_KEY) instanceof Date || parameters.get(BEFORE_DATE_KEY) instanceof String)) {
             correct = false;
         }
-        if (parameters.containsKey(AFTER_DATE_KEY) && !(parameters.get(AFTER_DATE_KEY) instanceof Date)) {
+        if (parameters.containsKey(AFTER_DATE_KEY) && !(parameters.get(AFTER_DATE_KEY) instanceof Date || parameters.get(AFTER_DATE_KEY) instanceof String)) {
             correct = false;
         }
         if (parameters.containsKey(AT_LEAST_TIMES_KEY) && !(parameters.get(AT_LEAST_TIMES_KEY) instanceof Integer)) {
@@ -55,9 +57,24 @@ public class HistoryFuzzy implements FilterTechnique<List<Pair<String, Date>>> {
         if (parameters == null) {
             parameters = new HashMap<>();
         }
+
         if (parameters.containsKey(BETWEEN_DATES_KEY)) {
             normalized.put(BETWEEN_DATES_KEY, parameters.get(BETWEEN_DATES_KEY));
         } else {
+            if (parameters.containsKey(BEFORE_DATE_KEY) && parameters.get(BEFORE_DATE_KEY) instanceof String) {
+                try {
+                    parameters.put(BEFORE_DATE_KEY, new SimpleDateFormat("yyyy-MM-dd").parse((String) parameters.get(BEFORE_DATE_KEY)));
+                } catch (ParseException ex) {
+                    ex.printStackTrace();
+                }
+            }
+            if (parameters.containsKey(AFTER_DATE_KEY) && parameters.get(AFTER_DATE_KEY) instanceof String) {
+                try {
+                    parameters.put(AFTER_DATE_KEY, new SimpleDateFormat("yyyy-MM-dd").parse((String) parameters.get(AFTER_DATE_KEY)));
+                } catch (ParseException ex) {
+                    ex.printStackTrace();
+                }
+            }
             if (parameters.containsKey(BEFORE_DATE_KEY) && parameters.containsKey(AFTER_DATE_KEY)) {
                 Pair<Date, Date> bet = new Pair<>((Date) parameters.get(AFTER_DATE_KEY), (Date) parameters.get(BEFORE_DATE_KEY));
                 normalized.put(BETWEEN_DATES_KEY, bet);

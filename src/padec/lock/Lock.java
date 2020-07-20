@@ -1,5 +1,6 @@
 package padec.lock;
 
+import applications.PADECApp;
 import padec.application.Endpoint;
 import padec.filtering.FilterTechnique;
 import padec.rule.Rule;
@@ -74,5 +75,23 @@ public class Lock {
             keyholes.add(l.getKeyhole());
         }
         return keyholes;
+    }
+
+
+    /**
+     * Do not use this method outside of TheONE simulator. I'm making sure it breaks if you try to do so.
+     * This is only used for updating the endpoint in TheONE.
+     */
+    @Deprecated
+    public Endpoint getEndpointOnlyForTheONE() {
+        try {
+            Class callerClass = Class.forName(Thread.currentThread().getStackTrace()[2].getClassName());
+            if (callerClass == PADECApp.class) {
+                return endpoint;
+            }
+        } catch (ClassNotFoundException ex) {
+            ex.printStackTrace();
+        }
+        return null;
     }
 }

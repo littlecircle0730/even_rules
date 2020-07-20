@@ -1,0 +1,58 @@
+lock:
+  endpoint: 'padec.application.HistoryEndpoint'
+  conparams:
+    - type: 'java.lang.String'
+      value: 'padec_history/Histo1.json'
+  accesslevels:
+    - accesslevel:
+        position: 0
+        filter:
+          technique: 'padec.filtering.techniques.HistoryFuzzy'
+          params:
+            times: 3
+            before: '2020-03-01'
+            after: '2020-01-01'
+        rule:
+          type: 'Dual'
+          attribute: 'padec.attribute.Location'
+          values:
+            - 10000.0
+          combinator: 'padec.rule.operator.RangeOperator'
+          operator: 'padec.rule.operator.LessThanOperator'
+    - accesslevel:
+        position: 1
+        filter:
+          technique: 'padec.filtering.techniques.HistoryFuzzy'
+          params:
+            times: 3
+            after: '2020-01-01'
+        rule:
+          type: 'Dual'
+          attribute: 'padec.attribute.Location'
+          values:
+            - 500.0
+          combinator: 'padec.rule.operator.RangeOperator'
+          operator: 'padec.rule.operator.LessThanOperator'
+    - accesslevel:
+        position: 2
+        filter:
+          technique: 'padec.filtering.techniques.HistoryFuzzy'
+          params:
+            times: 1
+        rule:
+          type: 'Composed'
+          ruleA:
+            type: 'Dual'
+            attribute: 'padec.attribute.Location'
+            values:
+              - 500.0
+            combinator: 'padec.rule.operator.RangeOperator'
+            operator: 'padec.rule.operator.LessThanOperator'
+          ruleB:
+            type: 'Dual'
+            attribute: 'padec.attribute.SoundLevel'
+            values:
+              - true
+            combinator: 'padec.rule.operator.EqualOperator'
+            operator: 'padec.rule.operator.EqualOperator'
+          operator: 'padec.rule.operator.AndOperator'

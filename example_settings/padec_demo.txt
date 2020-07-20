@@ -16,12 +16,12 @@ Scenario.nrofHostGroups = 5
 # Open provider app, for providers open with their data
 openProvider.type = PADECApp
 openProvider.provider = true
-openProvider.deflock = 3
+openProvider.lock = padec_locks/HistoryLock.yaml
 
 # Restrictive provider app
 restProvider.type = PADECApp
 restProvider.provider = true
-restProvider.deflock = 4
+restProvider.deflock = padec_locks/RestrictiveHistoryLock.yaml
 
 # Consumer app
 consumerApp.type = PADECApp
@@ -29,6 +29,12 @@ consumerApp.destinationRange = 2,101
 consumerApp.consumer = true
 consumerApp.interval = 50
 consumerApp.reqprec = -50.0
+
+###################################
+padecInterface.type = SimpleBroadcastInterface
+padecInterface.transmitSpeed = 100M
+padecInterface.transmitRange = 1M
+padecInterface.bufferSize = 100M
 
 ###################################
 ### common settings for all groups
@@ -58,6 +64,9 @@ Group.minGroupSize = 1
 Group.maxGroupSize = 3
 Group.minAfterShoppingStopTime = 3600
 Group.maxAfterShoppingStopTime = 7200
+
+Group.nrofInterfaces = 1
+Group.interface1 = padecInterface
 
 ####################################################
 

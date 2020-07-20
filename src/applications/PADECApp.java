@@ -2,7 +2,6 @@ package applications;
 
 import core.*;
 import padec.application.Endpoint;
-import padec.application.HistoryEndpoint;
 import padec.application.LocationEndpoint;
 import padec.attribute.Location;
 import padec.attribute.PADECContext;
@@ -10,142 +9,16 @@ import padec.attribute.Pair;
 import padec.attribute.SoundLevel;
 import padec.crypto.SimpleCrypto;
 import padec.filtering.FilteredData;
-import padec.filtering.techniques.HistoryFuzzy;
-import padec.filtering.techniques.PairFuzzy;
 import padec.key.Key;
 import padec.lock.AccessLevel;
 import padec.lock.Keyhole;
 import padec.lock.Lock;
-import padec.rule.ComposedRule;
-import padec.rule.DualRule;
-import padec.rule.Rule;
-import padec.rule.operator.AndOperator;
-import padec.rule.operator.EqualOperator;
-import padec.rule.operator.LessThanOperator;
-import padec.rule.operator.RangeOperator;
+import padec.parser.LockParser;
 
 import java.security.KeyPair;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
 import java.util.*;
 
 public class PADECApp extends Application {
-
-    private abstract static class RuleProvider{
-
-        private static Rule in0_100Range(PADECContext context){
-            return new DualRule(Location.class, new Double[]{10000.0}, new RangeOperator(), new LessThanOperator(), context);
-        }
-
-        private static Rule closeBy(PADECContext context){
-            return new DualRule(Location.class, new Double[]{500.0}, new RangeOperator(), new LessThanOperator(), context);
-        }
-
-        private static Rule in0_100RangePlusSameSound(PADECContext context){
-            Rule base = new DualRule(Location.class, new Double[]{500.0}, new RangeOperator(), new LessThanOperator(), context);
-            Rule sameSound = new DualRule(SoundLevel.class, new Boolean[]{Boolean.TRUE}, new EqualOperator(), new EqualOperator(), context);
-            return new ComposedRule(base, sameSound, new AndOperator());
-        }
-    }
-
-    private abstract static class LockProvider{
-        private static final int LOCK_BASE = 0;
-        private static final int LOCK_2_AL = 1;
-        private static final int LOCK_3_AL = 2;
-        private static final int LOCK_HISTORY = 3;
-        private static final int LOCK_RESTRICTIVE_HISTORY = 4;
-
-        private static Lock baseLock(Endpoint endpoint, PADECContext context){
-            Rule mRule = RuleProvider.in0_100Range(context);
-            Lock lock = new Lock(endpoint);
-            lock.addAccessLevel(new PairFuzzy(), Collections.singletonMap(PairFuzzy.PRECISION_KEY, 1.0), mRule);
-            return lock;
-        }
-
-        private static Lock lock2Al(Endpoint endpoint, PADECContext context){
-            Rule botRule = RuleProvider.in0_100Range(context);
-            Rule topRule = RuleProvider.in0_100RangePlusSameSound(context);
-            Lock lock = new Lock(endpoint);
-            lock.addAccessLevel(new PairFuzzy(), Collections.singletonMap(PairFuzzy.PRECISION_KEY, 50.0), botRule);
-            lock.addAccessLevel(new PairFuzzy(), Collections.singletonMap(PairFuzzy.PRECISION_KEY, 1.0), topRule);
-            return lock;
-        }
-
-        private static Lock lock3Al(Endpoint endpoint, PADECContext context){
-            Rule botRule = RuleProvider.in0_100Range(context);
-            Rule midRule = RuleProvider.closeBy(context);
-            Rule topRule = RuleProvider.in0_100RangePlusSameSound(context);
-            Lock lock = new Lock(endpoint);
-            lock.addAccessLevel(new PairFuzzy(), Collections.singletonMap(PairFuzzy.PRECISION_KEY, 50.0), botRule);
-            lock.addAccessLevel(new PairFuzzy(), Collections.singletonMap(PairFuzzy.PRECISION_KEY, 20.0), midRule);
-            lock.addAccessLevel(new PairFuzzy(), Collections.singletonMap(PairFuzzy.PRECISION_KEY, 0.0), topRule);
-            return lock;
-        }
-
-        private static Lock lockHistory(Endpoint endpoint, PADECContext context) {
-            Rule botRule = RuleProvider.in0_100Range(context);
-            Rule midRule = RuleProvider.closeBy(context);
-            Rule topRule = RuleProvider.in0_100RangePlusSameSound(context);
-            Lock lock = new Lock(endpoint);
-
-            Map<String, Object> botParams = new HashMap<>(), midParams = new HashMap<>();
-            botParams.put(HistoryFuzzy.AT_LEAST_TIMES_KEY, 3);
-            try {
-                botParams.put(HistoryFuzzy.BEFORE_DATE_KEY, new SimpleDateFormat("yyyy-MM-dd").parse("2020-03-01"));
-                botParams.put(HistoryFuzzy.AFTER_DATE_KEY, new SimpleDateFormat("yyyy-MM-dd").parse("2020-01-01"));
-            } catch (ParseException e) {
-                e.printStackTrace();
-            }
-
-            lock.addAccessLevel(new HistoryFuzzy(), botParams, botRule);
-
-            midParams.put(HistoryFuzzy.AT_LEAST_TIMES_KEY, 3);
-            try {
-                midParams.put(HistoryFuzzy.AFTER_DATE_KEY, new SimpleDateFormat("yyyy-MM-dd").parse("2020-03-01"));
-            } catch (ParseException e) {
-                e.printStackTrace();
-            }
-            lock.addAccessLevel(new HistoryFuzzy(), midParams, midRule);
-
-            lock.addAccessLevel(new HistoryFuzzy(), null, topRule);
-            return lock;
-        }
-
-        private static Lock restrictiveHistory(Endpoint endpoint, PADECContext context) {
-            Rule rule = RuleProvider.in0_100Range(context);
-            Lock lock = new Lock(endpoint);
-
-            Map<String, Object> params = new HashMap<>();
-            params.put(HistoryFuzzy.AT_LEAST_TIMES_KEY, 3);
-            try {
-                params.put(HistoryFuzzy.BEFORE_DATE_KEY, new SimpleDateFormat("yyyy-MM-dd").parse("2020-03-01"));
-                params.put(HistoryFuzzy.AFTER_DATE_KEY, new SimpleDateFormat("yyyy-MM-dd").parse("2020-01-01"));
-            } catch (ParseException e) {
-                e.printStackTrace();
-            }
-
-            lock.addAccessLevel(new HistoryFuzzy(), params, rule);
-
-            return lock;
-        }
-
-        public static Lock getLock(Endpoint endpoint, PADECContext context, int lock){
-            switch (lock) {
-                case LOCK_BASE:
-                    return baseLock(endpoint, context);
-                case LOCK_2_AL:
-                    return lock2Al(endpoint, context);
-                case LOCK_3_AL:
-                    return lock3Al(endpoint, context);
-                case LOCK_HISTORY:
-                    return lockHistory(endpoint, context);
-                case LOCK_RESTRICTIVE_HISTORY:
-                    return restrictiveHistory(endpoint, context);
-                default:
-                    return null;
-            }
-        }
-    }
 
     /** Seed for the app's random number generator **/
     public static final String PADEC_SEED = "seed";
@@ -157,8 +30,10 @@ public class PADECApp extends Application {
     public static final String PADEC_CONSUMER = "consumer";
     /** Act as attacker **/
     public static final String PADEC_ATTACKER = "attacker";
-    /** Defines the rule to be used as default **/
-    public static final String PADEC_DEFAULT_LOCK = "deflock";
+    /**
+     * Defines the lock file to read
+     **/
+    public static final String PADEC_LOCK_FILE = "lock";
     /** (Minimum) interval between consumer requests **/
     public static final String PADEC_REQUEST_INTERVAL = "interval";
     /** Requested precision **/
@@ -201,7 +76,7 @@ public class PADECApp extends Application {
     private int seed = 0;
     private int destMin = 0;
     private int destMax = 1;
-    private int defaultLock = 0;
+    private String lockFile = "padec_locks/HistoryLock.yaml";
     private double requestedPrecision = 0.0;
     private boolean provider = false;
     private boolean consumer = false;
@@ -236,8 +111,8 @@ public class PADECApp extends Application {
         if (s.contains(PADEC_ATTACKER)){
             this.attacker = s.getBoolean(PADEC_ATTACKER);
         }
-        if (s.contains(PADEC_DEFAULT_LOCK)){
-            this.defaultLock = s.getInt(PADEC_DEFAULT_LOCK);
+        if (s.contains(PADEC_LOCK_FILE)) {
+            this.lockFile = s.getSetting(PADEC_LOCK_FILE);
         }
         if (s.contains(PADEC_REQUESTED_PRECISION)){
             this.requestedPrecision = s.getDouble(PADEC_REQUESTED_PRECISION);
@@ -293,8 +168,8 @@ public class PADECApp extends Application {
         return attacker;
     }
 
-    public int getDefaultLock() {
-        return defaultLock;
+    public String getLockFile() {
+        return lockFile;
     }
 
     public double getInterval() {
@@ -318,7 +193,7 @@ public class PADECApp extends Application {
         this.attacker = a.isAttacker();
         this.destMin = a.getDestMin();
         this.destMax = a.getDestMax();
-        this.defaultLock = a.getDefaultLock();
+        this.lockFile = a.getLockFile();
         this.requestedPrecision = a.getRequestedPrecision();
         this.interval = a.getInterval();
         this.rng = new Random(this.seed);
@@ -381,21 +256,16 @@ public class PADECApp extends Application {
 
     private Message providerHandle(Message msg, DTNHost host){
         if(!locks.containsKey(host.getAddress())){ //If there is no lock yet
-            if(!endpoints.containsKey(host.getAddress())){ // If there is no endpoint yet
-                if (defaultLock != LockProvider.LOCK_HISTORY) {
-                    endpoints.put(host.getAddress(), new LocationEndpoint()); // Create it
-                } else {
-                    endpoints.put(host.getAddress(), new HistoryEndpoint("padec_history/Histo1.json"));
-                }
-            }
             if(!contexts.containsKey(host.getAddress())){ //If there is no context yet
                 PADECContext cntxt = new PADECContext(); // Create it
                 cntxt.registerAttribute(Location.class); // Register location
                 cntxt.registerAttribute(SoundLevel.class); // Register Sound Level
                 contexts.put(host.getAddress(), cntxt); // Save it
             }
-            Lock lock = LockProvider.getLock(endpoints.get(host.getAddress()), contexts.get(host.getAddress()), defaultLock);
+            Lock lock = LockParser.parse(lockFile, contexts.get(host.getAddress()));
             locks.put(host.getAddress(), lock); // Save the access level
+            Endpoint innerEndpoint = lock.getEndpointOnlyForTheONE();
+            endpoints.put(host.getAddress(), innerEndpoint);
         }
         Integer type = (Integer) msg.getProperty(MSG_TYPE);
         SimpleCrypto sc = SimpleCrypto.getInstance();
@@ -426,7 +296,8 @@ public class PADECApp extends Application {
                 Map<String, Object> params = (Map<String, Object>) msg.getProperty(KEY_ENDPOINT_PARAMS);
 
                 // Update location endpoint
-                if (defaultLock != LockProvider.LOCK_HISTORY) {
+                Endpoint endpoint = endpoints.get(host.getAddress());
+                if (endpoint instanceof LocationEndpoint) {
                     ((LocationEndpoint) endpoints.get(host.getAddress())).updateLocation(
                             new Pair<>(host.getLocation().getX(), host.getLocation().getY()));
                 }
