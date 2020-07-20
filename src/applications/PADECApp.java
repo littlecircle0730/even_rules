@@ -6,7 +6,7 @@ import padec.application.LocationEndpoint;
 import padec.attribute.Identity;
 import padec.attribute.Location;
 import padec.attribute.PADECContext;
-import padec.attribute.Pair;
+import padec.util.Pair;
 import padec.crypto.SimpleCrypto;
 import padec.filtering.FilteredData;
 import padec.key.Key;

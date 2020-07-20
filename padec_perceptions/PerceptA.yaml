@@ -1,0 +1,5 @@
+perceptions:
+  - attribute: 'padec.attribute.Location'
+    category: 2
+  - attribute: 'padec.attribute.Identity'
+    category: 3

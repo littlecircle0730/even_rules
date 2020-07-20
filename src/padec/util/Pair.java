@@ -1,4 +1,4 @@
-package padec.attribute;
+package padec.util;
 
 import java.io.Serializable;
 

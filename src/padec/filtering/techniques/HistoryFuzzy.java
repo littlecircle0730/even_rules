@@ -1,6 +1,6 @@
 package padec.filtering.techniques;
 
-import padec.attribute.Pair;
+import padec.util.Pair;
 import padec.filtering.FilterTechnique;
 import padec.filtering.FilteredData;
 

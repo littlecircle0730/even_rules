@@ -1,6 +1,6 @@
 package padec.application;
 
-import padec.attribute.Pair;
+import padec.util.Pair;
 
 import java.util.Map;
 

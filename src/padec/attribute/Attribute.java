@@ -56,14 +56,4 @@ public abstract class Attribute<T> {
     public String toString() {
         return "<"+this.getClass().getName()+": "+value.toString()+">";
     }
-
-    /**
-     * Gets the category of an attribute.
-     * Should ALWAYS be overriden by subclasses! It is not abstract because Java does not allow it.
-     *
-     * @return Category of the attribute.
-     */
-    public static int getCategory() {
-        return -1;
-    }
 }

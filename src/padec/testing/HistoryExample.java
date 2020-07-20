@@ -4,7 +4,7 @@ import padec.application.Endpoint;
 import padec.application.HistoryEndpoint;
 import padec.attribute.Location;
 import padec.attribute.PADECContext;
-import padec.attribute.Pair;
+import padec.util.Pair;
 import padec.filtering.FilteredData;
 import padec.filtering.techniques.HistoryFuzzy;
 import padec.key.Key;

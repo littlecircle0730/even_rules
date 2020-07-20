@@ -81,6 +81,8 @@ public class LockParser {
             Map<String, Object> iLock = (Map<String, Object>) yamlObj.get(LOCK_KEY);
 
             lock = parse(iLock, context);
+
+            inputStream.close();
         } catch (IOException ex) {
             ex.printStackTrace();
         } catch (ClassCastException ex) {

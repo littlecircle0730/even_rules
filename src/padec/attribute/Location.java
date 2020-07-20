@@ -1,14 +1,10 @@
 package padec.attribute;
 
-public class Location extends Attribute<Pair<Double, Double>> {
+import padec.util.Pair;
 
-    private static final int ATTR_CATEGORY = 6;
+public class Location extends Attribute<Pair<Double, Double>> {
 
     Location(){
         super((Class<Pair<Double, Double>>) new Pair<Double, Double>().getClass());
-    }
-
-    public static int getCategory() {
-        return ATTR_CATEGORY;
     }
 }

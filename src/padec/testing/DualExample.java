@@ -3,7 +3,7 @@ package padec.testing;
 import padec.application.Endpoint;
 import padec.attribute.Location;
 import padec.attribute.PADECContext;
-import padec.attribute.Pair;
+import padec.util.Pair;
 import padec.filtering.FilteredData;
 import padec.filtering.techniques.BasicFuzzy;
 import padec.key.Key;

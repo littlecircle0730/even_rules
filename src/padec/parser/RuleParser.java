@@ -33,6 +33,8 @@ public class RuleParser {
 
             rule = parse(iRule, context);
 
+            inputStream.close();
+
         } catch (IOException ex) {
             ex.printStackTrace();
         } catch (ClassCastException ex) {

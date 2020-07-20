@@ -1,6 +1,6 @@
 package padec.rule.operator;
 
-import padec.attribute.Pair;
+import padec.util.Pair;
 import padec.rule.CombineOperator;
 
 /**

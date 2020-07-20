@@ -1,7 +1,7 @@
 package padec.application;
 
 import com.google.gson.Gson;
-import padec.attribute.Pair;
+import padec.util.Pair;
 
 import java.io.FileReader;
 import java.io.IOException;

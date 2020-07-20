@@ -61,6 +61,7 @@ public class AccessLevelParser {
             Map<String, Object> iAccessLevel = (Map<String, Object>) yamlObj.get(ACCESSLEVEL_KEY);
 
             accesslevel = parse(iAccessLevel, context, endpoint);
+            inputStream.close();
         } catch (
                 IOException ex) {
             ex.printStackTrace();
