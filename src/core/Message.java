@@ -4,11 +4,10 @@
  */
 package core;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
+import padec.util.SizeCalc;
+
+import java.io.Serializable;
+import java.util.*;
 
 /**
  * A message that is created at a node or passed between nodes.
@@ -358,6 +357,19 @@ public class Message implements Comparable<Message> {
 	 */
 	public void setAppID(String appID) {
 		this.appID = appID;
+	}
+
+	/**
+	 * Custom method to get payload size.
+	 *
+	 * @return Payload size.
+	 */
+	public long getPayloadSize() {
+		long size = 0;
+		for (Map.Entry entry : properties.entrySet()) {
+			size += SizeCalc.calculateSize((Serializable) entry.getValue());
+		}
+		return size;
 	}
 
 }

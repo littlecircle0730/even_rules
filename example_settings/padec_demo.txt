@@ -31,10 +31,10 @@ consumerApp.interval = 50
 consumerApp.reqprec = -50.0
 
 ###################################
-padecInterface.type = SimpleBroadcastInterface
-padecInterface.transmitSpeed = 100M
-padecInterface.transmitRange = 1M
-padecInterface.bufferSize = 100M
+#padecInterface.type = SimpleBroadcastInterface
+#padecInterface.transmitSpeed = 100M
+#padecInterface.transmitRange = 1M
+#padecInterface.bufferSize = 100M
 
 ###################################
 ### common settings for all groups
@@ -65,8 +65,8 @@ Group.maxGroupSize = 3
 Group.minAfterShoppingStopTime = 3600
 Group.maxAfterShoppingStopTime = 7200
 
-Group.nrofInterfaces = 1
-Group.interface1 = padecInterface
+#Group.nrofInterfaces = 1
+#Group.interface1 = padecInterface
 
 ####################################################
 
@@ -149,16 +149,17 @@ MapBasedMovement.mapFile2 = data/main_roads.wkt
 ## Reports - all report names have to be valid report classes
 
 # how many reports to load
-Report.nrofReports = 1
+Report.nrofReports = 3
 # default directory of reports (can be overriden per Report with output setting)
-Report.reportDir = [reports/Demo/1; reports/Demo/2; reports/Demo/3; reports/Demo/4; reports/Demo/5]
+Report.reportDir = reports/Demo
+#Report.reportDir = [reports/Demo/1; reports/Demo/2; reports/Demo/3; reports/Demo/4; reports/Demo/5]
 #Report.reportDir = [reports/r1; reports/r2]
 #Report.reportDir = reports/
 
 # Report classes to load
 Report.report1 = PADECDetailReporter
-#Report.report2 = ContactTimesReport
-#Report.report3 = UniqueEncountersReport
+Report.report2 = PADECAppReporter
+Report.report3 = PADECMetricReport
 #Report.report4 = TotalEncountersReport
 #Report.report5 = EncountersVSUniqueEncountersReport
 #Report.report6 = ContactsDuringAnICTReport
