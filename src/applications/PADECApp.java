@@ -6,7 +6,6 @@ import padec.application.LocationEndpoint;
 import padec.attribute.Identity;
 import padec.attribute.Location;
 import padec.attribute.PADECContext;
-import padec.util.Pair;
 import padec.crypto.SimpleCrypto;
 import padec.filtering.FilteredData;
 import padec.key.Key;
@@ -14,6 +13,8 @@ import padec.lock.AccessLevel;
 import padec.lock.Keyhole;
 import padec.lock.Lock;
 import padec.parser.LockParser;
+import padec.perception.PrivacyPerception;
+import padec.util.Pair;
 
 import java.security.KeyPair;
 import java.util.*;
@@ -38,6 +39,14 @@ public class PADECApp extends Application {
     public static final String PADEC_REQUEST_INTERVAL = "interval";
     /** Requested precision **/
     public static final String PADEC_REQUESTED_PRECISION = "reqprec";
+    /**
+     * Perception file to read
+     **/
+    public static final String PADEC_PERCEPTION_FILE = "perception";
+    /**
+     * Maximum level of info to release by consumers
+     **/
+    public static final String PADEC_RELEASE_POLICY = "relpolicy";
 
     /** Key that stores the message type **/
     public static final String MSG_TYPE = "type";
@@ -84,6 +93,8 @@ public class PADECApp extends Application {
     private boolean consumer = false;
     private boolean attacker = false;
     private double interval = 500;
+    private int releasePolicy = 3;
+    private String perceptionFile = "padec_perceptions/PerceptA.yaml";
     private Random rng;
 
     //Static vars for managing PADEC-specific entities
@@ -95,6 +106,10 @@ public class PADECApp extends Application {
     private static Map<Integer, Lock> locks = null;
     /** Maps endpoints by address **/
     private static Map<Integer, Endpoint> endpoints = null;
+    /**
+     * Maps perceptions by address
+     */
+    private static Map<Integer, PrivacyPerception> perceptions = null;
     /** Maps the moment of the last request by address **/
     private static Map<Integer, Double> lastRequest = null;
 
@@ -122,6 +137,12 @@ public class PADECApp extends Application {
         if (s.contains(PADEC_REQUEST_INTERVAL)){
             this.interval = s.getDouble(PADEC_REQUEST_INTERVAL);
         }
+        if (s.contains(PADEC_PERCEPTION_FILE)) {
+            this.perceptionFile = s.getSetting(PADEC_PERCEPTION_FILE);
+        }
+        if (s.contains(PADEC_RELEASE_POLICY)) {
+            this.releasePolicy = s.getInt(PADEC_RELEASE_POLICY);
+        }
         if (s.contains(PADEC_SEED)){
             this.seed = s.getInt(PADEC_SEED);
         }
@@ -140,6 +161,9 @@ public class PADECApp extends Application {
         }
         if (endpoints == null){
             endpoints = new LinkedHashMap<>();
+        }
+        if (perceptions == null) {
+            perceptions = new LinkedHashMap<>();
         }
         if (lastRequest == null){
             lastRequest = new LinkedHashMap<>();
@@ -182,6 +206,14 @@ public class PADECApp extends Application {
         return requestedPrecision;
     }
 
+    public int getReleasePolicy() {
+        return releasePolicy;
+    }
+
+    public String getPerceptionFile() {
+        return perceptionFile;
+    }
+
     /**
      * Copy-constructor
      *
@@ -197,17 +229,10 @@ public class PADECApp extends Application {
         this.destMax = a.getDestMax();
         this.lockFile = a.getLockFile();
         this.requestedPrecision = a.getRequestedPrecision();
+        this.perceptionFile = a.getPerceptionFile();
+        this.releasePolicy = a.getReleasePolicy();
         this.interval = a.getInterval();
         this.rng = new Random(this.seed);
-    }
-
-    private int findFittingKeyhole(List<Keyhole> keyholes, Double requestedPrecision){
-        for (int i=0;i<keyholes.size();i++){
-            if(keyholes.get(i).getPrecision() <= requestedPrecision){
-                return i;
-            }
-        }
-        return ACCESS_LEVEL_MAX;
     }
 
     private Message consumerHandle(Message msg, DTNHost host){
@@ -217,15 +242,29 @@ public class PADECApp extends Application {
             cntxt.registerAttribute(Identity.class); // Register Sound Level
             contexts.put(host.getAddress(), cntxt); // Save it
         }
+        if (!perceptions.containsKey(host.getAddress())) { // If perceptions were not loaded
+            PrivacyPerception perception = new PrivacyPerception(4); // Create new perceptions
+            perception.loadFromYamlFile(perceptionFile); // Load them from a file
+            perceptions.put(host.getAddress(), perception); // Save them in the map
+        }
         Integer type = (Integer) msg.getProperty(MSG_TYPE);
         SimpleCrypto sc = SimpleCrypto.getInstance();
         switch (type){
             case MSG_TYPE_KEYHOLE:
                 byte[] encKh = (byte[]) msg.getProperty(KH_ANSW_KEYHOLE);
                 List<Keyhole> keyholes = (List<Keyhole>) sc.decrypt(encKh, cryptoKeys.get(host.getAddress()).getPrivate());
-                //int khPos = findFittingKeyhole(keyholes, requestedPrecision);
-                int khPos = -1;
-                Keyhole kh = khPos == -1 ? keyholes.get(keyholes.size()-1) : keyholes.get(khPos);
+                PrivacyPerception perception = perceptions.get(host.getAddress());
+                Keyhole kh = null;
+                for (int i = keyholes.size() - 1; i >= 0; i--) {
+                    Keyhole khEx = keyholes.get(i);
+                    if (khEx.getCategory(perception) <= releasePolicy) {
+                        kh = khEx;
+                        break;
+                    }
+                }
+                if (kh == null) {
+                    kh = keyholes.get(0);
+                }
                 PADECContext cntxt = contexts.get(host.getAddress());
                 cntxt.getAttribute(Location.class).setValue(
                         new Pair<>(host.getLocation().getX(), host.getLocation().getY())); // Update location
@@ -353,14 +392,29 @@ public class PADECApp extends Application {
                 // Do not register a thing
                 contexts.put(host.getAddress(), cntxt); // Save it
             }
+            if (!perceptions.containsKey(host.getAddress())) { // If perceptions were not loaded
+                PrivacyPerception perception = new PrivacyPerception(4); // Create new perceptions
+                perception.loadFromYamlFile(perceptionFile); // Load them from a file
+                perceptions.put(host.getAddress(), perception); // Save them in the map
+            }
             Integer type = (Integer) msg.getProperty(MSG_TYPE);
             SimpleCrypto sc = SimpleCrypto.getInstance();
             switch (type){
                 case MSG_TYPE_KEYHOLE:
                     byte[] encKh = (byte[]) msg.getProperty(KH_ANSW_KEYHOLE);
                     List<Keyhole> keyholes = (List<Keyhole>) sc.decrypt(encKh, cryptoKeys.get(host.getAddress()).getPrivate());
-                    int khPos = findFittingKeyhole(keyholes, requestedPrecision);
-                    Keyhole kh = khPos == -1 ? keyholes.get(keyholes.size()-1) : keyholes.get(khPos);
+                    PrivacyPerception perception = perceptions.get(host.getAddress());
+                    Keyhole kh = null;
+                    for (int i = keyholes.size() - 1; i >= 0; i--) {
+                        Keyhole khEx = keyholes.get(i);
+                        if (khEx.getCategory(perception) <= releasePolicy) {
+                            kh = khEx;
+                            break;
+                        }
+                    }
+                    if (kh == null) {
+                        kh = keyholes.get(0);
+                    }
                     PADECContext cntxt = contexts.get(host.getAddress());
                     Key key = new Key(kh, cntxt);
                     String id = "k-"+host.getAddress()+"-"+msg.getFrom().getAddress()+"@"+SimClock.getIntTime();

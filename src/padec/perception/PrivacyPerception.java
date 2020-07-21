@@ -16,10 +16,18 @@ public class PrivacyPerception {
 
     private Map<Integer, Set<Class<? extends Attribute>>> innerMap;
     private Map<Class<? extends Attribute>, Integer> lookup;
+    private int defaultCategory;
 
     public PrivacyPerception(){
         innerMap = new LinkedHashMap<>();
         lookup = new LinkedHashMap<>();
+        defaultCategory = 0;
+    }
+
+    public PrivacyPerception(int defaultCategory) {
+        innerMap = new LinkedHashMap<>();
+        lookup = new LinkedHashMap<>();
+        this.defaultCategory = defaultCategory;
     }
 
     public boolean loadFromYamlFile(String file){
@@ -51,15 +59,15 @@ public class PrivacyPerception {
     }
 
     public Set<Class<? extends Attribute>> getAttributesFromCategory(int category){
-        return innerMap.get(category);
+        return innerMap.getOrDefault(category, new LinkedHashSet<>());
     }
 
     public List<Class<? extends Attribute>> getAttributeListFromCategory(int category){
-        return new ArrayList<>(innerMap.get(category));
+        return new ArrayList<>(innerMap.getOrDefault(category, new LinkedHashSet<>()));
     }
 
     public int getCategoryFromAttribute(Class<? extends Attribute> attr){
-        return lookup.get(attr);
+        return lookup.getOrDefault(attr, defaultCategory);
     }
 
     public List<Integer> getCategories(){

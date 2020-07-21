@@ -2,9 +2,9 @@ package padec.lock;
 
 import padec.attribute.Attribute;
 import padec.key.Key;
+import padec.perception.PrivacyPerception;
 
 import java.io.Serializable;
-import java.lang.reflect.InvocationTargetException;
 import java.util.List;
 
 /**
@@ -21,23 +21,10 @@ public class Keyhole implements Serializable {
      * Precision of the keyhole
      */
     protected Double precision;
-    /**
-     * Maximum category of the information required by the keyhole
-     */
-    protected int category;
 
     public Keyhole(List<Class<? extends Attribute>> attributes, Double precision) {
         this.attributes = attributes;
         this.precision = precision;
-        category = attributes.stream().mapToInt(c -> {
-            try {
-                return (int) c.getMethod("getCategory").invoke(null);
-            } catch (IllegalAccessException | InvocationTargetException | NoSuchMethodException ex) {
-                System.err.println("getCategory not correctly re-implemented in attribute class");
-                ex.printStackTrace();
-                return -1;
-            }
-        }).max().getAsInt();
     }
 
     public List<Class<? extends Attribute>> getAttributes() {
@@ -48,8 +35,14 @@ public class Keyhole implements Serializable {
         return precision;
     }
 
-    public int getCategory() {
-        return category;
+    /**
+     * Allows a user to get the maximum information category using their own subjective perceptions.
+     *
+     * @param perception User's privacy perceptions.
+     * @return Maximum category of information required by this keyhole.
+     */
+    public int getCategory(PrivacyPerception perception) {
+        return attributes.stream().mapToInt(perception::getCategoryFromAttribute).max().getAsInt();
     }
 
     public boolean fits(Key k) {
