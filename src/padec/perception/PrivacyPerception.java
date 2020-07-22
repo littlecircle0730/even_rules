@@ -4,7 +4,7 @@ import org.yaml.snakeyaml.Yaml;
 import padec.attribute.Attribute;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.io.InputStream;
 import java.util.*;
 
@@ -36,6 +36,7 @@ public class PrivacyPerception {
             InputStream iStream = new FileInputStream(file);
             Yaml yaml = new Yaml();
             Map<String, Object> yamlObj = yaml.load(iStream);
+            innerMap.clear();
             List<Map<String, Object>> perceptions = (List<Map<String, Object>>) yamlObj.get(PERCEPTIONS_KEY);
             for (Map<String, Object> per : perceptions){
                 String attrName = (String) per.get(ATTRIBUTE_KEY);
@@ -47,8 +48,9 @@ public class PrivacyPerception {
                 innerMap.get(category).add(attr);
                 lookup.put(attr, category);
             }
+            iStream.close();
             success = true;
-        } catch (FileNotFoundException | ClassNotFoundException ex) {
+        } catch (ClassNotFoundException | IOException ex) {
             ex.printStackTrace();
         }
         return success;

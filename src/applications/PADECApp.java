@@ -341,7 +341,7 @@ public class PADECApp extends Application {
                         new Pair<>(host.getLocation().getX(), host.getLocation().getY()));
 
                 // Update sound level context
-                contexts.get(host.getAddress()).getAttribute(Identity.class).setValue(15.0);
+                contexts.get(host.getAddress()).getAttribute(Identity.class).setValue(host.getAddress());
 
                 // Keyhole lookup
                 List<Keyhole> khLookup = lock.getKeyholes();

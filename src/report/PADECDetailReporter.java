@@ -21,19 +21,19 @@ public class PADECDetailReporter extends Report implements ApplicationListener {
         // Increment the counters based on the event type
         if (event.equalsIgnoreCase("PADECRequest")) {
             Message m = (Message) params;
-            parsedEvent = "Request " + m.getId() + ". From: " + m.getFrom().getAddress() + ", to: " + m.getTo().getAddress() + ".";
+            parsedEvent = "Request " + m.getId() + ". From: " + m.getFrom() + ", to: " + m.getTo() + ".";
         }
         if (event.equalsIgnoreCase("GotKeyholeRequest")) {
             Message m = (Message) params;
-            parsedEvent = "Keyhole " + m.getId() + ". From: " + m.getFrom().getAddress() + ", to: " + m.getTo().getAddress() + ".";
+            parsedEvent = "Keyhole " + m.getId() + ". From: " + m.getFrom() + ", to: " + m.getTo() + ".";
         }
         if (event.equalsIgnoreCase("GotKeyhole")) {
             Message m = (Message) params;
-            parsedEvent = "Key " + m.getId() + ". From: " + m.getFrom().getAddress() + ", to: " + m.getTo().getAddress() + ". Minimum precision requested: " + m.getProperty(PADECApp.KEY_MIN_PRECISION) + ", endpoint params: " + m.getProperty(PADECApp.KEY_ENDPOINT_PARAMS) + ".";
+            parsedEvent = "Key " + m.getId() + ". From: " + m.getFrom() + ", to: " + m.getTo() + ". Minimum precision requested: " + m.getProperty(PADECApp.KEY_MIN_PRECISION) + ", endpoint params: " + m.getProperty(PADECApp.KEY_ENDPOINT_PARAMS) + ".";
         }
         if (event.equalsIgnoreCase("GotKey")) {
             Message m = (Message) params;
-            parsedEvent = ((Integer) m.getProperty(PADECApp.MSG_TYPE) == PADECApp.MSG_TYPE_INFO ? "Access granted. From: " : "Access rejected. From: ") + m.getFrom().getAddress() + ", to: " + m.getTo().getAddress() + ".";
+            parsedEvent = ((Integer) m.getProperty(PADECApp.MSG_TYPE) == PADECApp.MSG_TYPE_INFO ? "Access granted. From: " : "Access rejected. From: ") + m.getFrom() + ", to: " + m.getTo() + ".";
         }
         if (event.equalsIgnoreCase("AccessGranted")) {
             return;
@@ -43,25 +43,25 @@ public class PADECDetailReporter extends Report implements ApplicationListener {
         }
         if (event.equalsIgnoreCase("AttackedKeyhole")) {
             Message m = (Message) params;
-            parsedEvent = "Keyhole attacked. From: " + m.getFrom().getAddress() + ", to: " + m.getTo().getAddress() + ".";
+            parsedEvent = "Keyhole attacked. From: " + m.getFrom() + ", to: " + m.getTo() + ".";
         }
         if (event.equalsIgnoreCase("AttackSuccessful")) {
-            parsedEvent = "Keyhole attack from " + host.getAddress() + " successful";
+            parsedEvent = "Keyhole attack from " + host + " successful";
         }
         if (event.equalsIgnoreCase("TPartyInfoReveal")) {
-            parsedEvent = "Reveal attack from " + host.getAddress() + " started";
+            parsedEvent = "Reveal attack from " + host + " started";
         }
         if (event.equalsIgnoreCase("TPartyRevealSuccessful")) {
-            parsedEvent = "Reveal attack from " + host.getAddress() + " successful";
+            parsedEvent = "Reveal attack from " + host + " successful";
         }
         if (event.equalsIgnoreCase("AttackRejected")) {
-            parsedEvent = "Attack from " + host.getAddress() + " rejected";
+            parsedEvent = "Attack from " + host + " rejected";
         }
         if (event.equalsIgnoreCase("NoFittingLevel")) {
-            parsedEvent = "No fitting level found in " + host.getAddress();
+            parsedEvent = "No fitting level found in " + host;
         }
         if (event.equalsIgnoreCase("FittingLevel")) {
-            parsedEvent = "Keyhole in level " + ((int[]) params)[0] + " in " + host.getAddress() + " fits the key sent by " + ((int[]) params)[1];
+            parsedEvent = "Keyhole in level " + ((int[]) params)[0] + " in " + host + " fits the key sent by " + ((int[]) params)[1];
         }
         events.add(parsedEvent);
 
