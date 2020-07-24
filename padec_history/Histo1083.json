@@ -1,0 +1,610 @@
+[
+  {
+    "place": "City4d3490bf2c76a143392c86c7",
+    "time": "2013-01-05"
+  },
+  {
+    "place": "City4e628332d22d509a39a9a788",
+    "time": "2013-01-05"
+  },
+  {
+    "place": "City4c38fe93dfb0e21e9ab3afa8",
+    "time": "2013-01-05"
+  },
+  {
+    "place": "Coffee Shop4bd576817b1876b09fb88a86",
+    "time": "2013-01-05"
+  },
+  {
+    "place": "Miscellaneous Shop4f9a3359e4b040d572591bc0",
+    "time": "2013-01-06"
+  },
+  {
+    "place": "Bus Station4840fe6bf964a52030501fe3",
+    "time": "2013-01-07"
+  },
+  {
+    "place": "Burger Joint4b53cf7df964a52014ac27e3",
+    "time": "2013-01-07"
+  },
+  {
+    "place": "Bus Station4840fe6bf964a52030501fe3",
+    "time": "2013-01-08"
+  },
+  {
+    "place": "City4d3490bf2c76a143392c86c7",
+    "time": "2013-01-08"
+  },
+  {
+    "place": "Neighborhood4ca4e519a6e08cfa884d6c94",
+    "time": "2013-01-08"
+  },
+  {
+    "place": "College Academic Building4c0ed3cad64c0f47d2dc285d",
+    "time": "2013-01-08"
+  },
+  {
+    "place": "Bank4b30f0fdf964a52018fd24e3",
+    "time": "2013-01-08"
+  },
+  {
+    "place": "Plaza49b7ed6df964a52030531fe3",
+    "time": "2013-01-08"
+  },
+  {
+    "place": "Bus Station4840fe6bf964a52030501fe3",
+    "time": "2013-01-08"
+  },
+  {
+    "place": "Furniture / Home Store4f94568d7bebe789688b59a1",
+    "time": "2013-01-08"
+  },
+  {
+    "place": "Bus Station4840fe6bf964a52030501fe3",
+    "time": "2013-01-09"
+  },
+  {
+    "place": "City4d3490bf2c76a143392c86c7",
+    "time": "2013-01-09"
+  },
+  {
+    "place": "Neighborhood4ca4e519a6e08cfa884d6c94",
+    "time": "2013-01-09"
+  },
+  {
+    "place": "Fast Food Restaurant4e7c7dfafa76b7bcf9bcb4b1",
+    "time": "2013-01-09"
+  },
+  {
+    "place": "Bakery4a116a6bf964a52013771fe3",
+    "time": "2013-01-09"
+  },
+  {
+    "place": "Food & Drink Shop4b40bbcaf964a52072ba25e3",
+    "time": "2013-01-10"
+  },
+  {
+    "place": "Subway4b0737c3f964a520e4f922e3",
+    "time": "2013-01-10"
+  },
+  {
+    "place": "Park3fd66200f964a520d7f11ee3",
+    "time": "2013-01-11"
+  },
+  {
+    "place": "Plaza49b7ed6df964a52030531fe3",
+    "time": "2013-01-11"
+  },
+  {
+    "place": "City4d3490bf2c76a143392c86c7",
+    "time": "2013-01-11"
+  },
+  {
+    "place": "College Academic Building4c0ed3cad64c0f47d2dc285d",
+    "time": "2013-01-11"
+  },
+  {
+    "place": "College Academic Building4c0ed3cad64c0f47d2dc285d",
+    "time": "2013-01-11"
+  },
+  {
+    "place": "Burger Joint4c88ea117223b1f7253e2fa8",
+    "time": "2013-01-12"
+  },
+  {
+    "place": "City4ccff17b7f56a1439b79caa6",
+    "time": "2013-01-12"
+  },
+  {
+    "place": "Department Store4ad494d5f964a5203ce820e3",
+    "time": "2013-01-13"
+  },
+  {
+    "place": "Electronics Store4c8949558992236a0821b782",
+    "time": "2013-01-13"
+  },
+  {
+    "place": "City4ccff17b7f56a1439b79caa6",
+    "time": "2013-01-13"
+  },
+  {
+    "place": "Neighborhood4ca4e519a6e08cfa884d6c94",
+    "time": "2013-01-14"
+  },
+  {
+    "place": "Donut Shop4f81c87be4b05766b2f29d06",
+    "time": "2013-01-14"
+  },
+  {
+    "place": "College Academic Building4c0ed3cad64c0f47d2dc285d",
+    "time": "2013-01-14"
+  },
+  {
+    "place": "City4ccff17b7f56a1439b79caa6",
+    "time": "2013-01-14"
+  },
+  {
+    "place": "Neighborhood4c1a47228b3aa5936051955f",
+    "time": "2013-01-15"
+  },
+  {
+    "place": "College Academic Building4c0ed3cad64c0f47d2dc285d",
+    "time": "2013-01-16"
+  },
+  {
+    "place": "Dessert Shop4b451781f964a520400426e3",
+    "time": "2013-01-16"
+  },
+  {
+    "place": "Road4bdb71243904a593177b4a9e",
+    "time": "2013-01-16"
+  },
+  {
+    "place": "Clothing Store4be23d2ff07b0f47562cf543",
+    "time": "2013-01-16"
+  },
+  {
+    "place": "Plaza49c64842f964a5202e571fe3",
+    "time": "2013-01-16"
+  },
+  {
+    "place": "Department Store4cdc2a55d5495481971240b2",
+    "time": "2013-01-16"
+  },
+  {
+    "place": "Road4be9dc5a61aca5932f168300",
+    "time": "2013-01-16"
+  },
+  {
+    "place": "Donut Shop4b27e894f964a5201e8c24e3",
+    "time": "2013-01-17"
+  },
+  {
+    "place": "City500f095b16483da287a3f5df",
+    "time": "2013-01-17"
+  },
+  {
+    "place": "College Academic Building4c0ed3cad64c0f47d2dc285d",
+    "time": "2013-01-17"
+  },
+  {
+    "place": "Department Store41102700f964a520d60b1fe3",
+    "time": "2013-01-17"
+  },
+  {
+    "place": "Plaza49e36914f964a5207b621fe3",
+    "time": "2013-01-17"
+  },
+  {
+    "place": "Clothing Store4ac7c7a3f964a520b9b920e3",
+    "time": "2013-01-17"
+  },
+  {
+    "place": "Caf\u00c3\u00a94ab915bbf964a520f37d20e3",
+    "time": "2013-01-17"
+  },
+  {
+    "place": "Plaza49c64842f964a5202e571fe3",
+    "time": "2013-01-17"
+  },
+  {
+    "place": "City500f095b16483da287a3f5df",
+    "time": "2013-01-18"
+  },
+  {
+    "place": "City4d3490bf2c76a143392c86c7",
+    "time": "2013-01-18"
+  },
+  {
+    "place": "Neighborhood4ca4e519a6e08cfa884d6c94",
+    "time": "2013-01-18"
+  },
+  {
+    "place": "College Academic Building4c0ed3cad64c0f47d2dc285d",
+    "time": "2013-01-18"
+  },
+  {
+    "place": "Neighborhood4ca4e519a6e08cfa884d6c94",
+    "time": "2013-01-21"
+  },
+  {
+    "place": "College Academic Building4c0ed3cad64c0f47d2dc285d",
+    "time": "2013-01-21"
+  },
+  {
+    "place": "Italian Restaurant4e1487251f6e33e7180b619d",
+    "time": "2013-01-21"
+  },
+  {
+    "place": "Bakery4d03ae3437036dcbfba10bfb",
+    "time": "2013-01-21"
+  },
+  {
+    "place": "Plaza49b7ed6df964a52030531fe3",
+    "time": "2013-01-21"
+  },
+  {
+    "place": "City4d3490bf2c76a143392c86c7",
+    "time": "2013-01-24"
+  },
+  {
+    "place": "Plaza50818fd2e4b09e409b926aa9",
+    "time": "2013-01-24"
+  },
+  {
+    "place": "Korean Restaurant4e4e5359bd4101d0d7a7c56a",
+    "time": "2013-01-24"
+  },
+  {
+    "place": "Neighborhood4b511a50f964a5208e4227e3",
+    "time": "2013-01-24"
+  },
+  {
+    "place": "Korean Restaurant49e6e227f964a52074641fe3",
+    "time": "2013-01-24"
+  },
+  {
+    "place": "Road4bdb71243904a593177b4a9e",
+    "time": "2013-01-24"
+  },
+  {
+    "place": "Library452d6886f964a5204a3b1fe3",
+    "time": "2013-01-24"
+  },
+  {
+    "place": "Road4bdb71243904a593177b4a9e",
+    "time": "2013-01-24"
+  },
+  {
+    "place": "Bookstore4b0ff4a0f964a520b16623e3",
+    "time": "2013-01-24"
+  },
+  {
+    "place": "Park3fd66200f964a520def11ee3",
+    "time": "2013-01-24"
+  },
+  {
+    "place": "French Restaurant50663905e4b0d7d96ae4cea2",
+    "time": "2013-01-24"
+  },
+  {
+    "place": "College Academic Building4c0ed3cad64c0f47d2dc285d",
+    "time": "2013-01-25"
+  },
+  {
+    "place": "Road4cf15597899c6ea8f1f1efc1",
+    "time": "2013-01-25"
+  },
+  {
+    "place": "Burger Joint4fe8877fe4b0227be1256499",
+    "time": "2013-01-25"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4ca13bbb8afca09342c91916",
+    "time": "2013-01-26"
+  },
+  {
+    "place": "Neighborhood4bc259d4920eb713a3211c2c",
+    "time": "2013-01-26"
+  },
+  {
+    "place": "Hotel43616a00f964a52030291fe3",
+    "time": "2013-01-26"
+  },
+  {
+    "place": "Neighborhood4c1a47228b3aa5936051955f",
+    "time": "2013-01-26"
+  },
+  {
+    "place": "Road4e406570c65b4f2fdeab55af",
+    "time": "2013-01-26"
+  },
+  {
+    "place": "Plaza4c30f3c166e40f477d4fc48b",
+    "time": "2013-01-26"
+  },
+  {
+    "place": "Art Museum427c0500f964a52097211fe3",
+    "time": "2013-01-26"
+  },
+  {
+    "place": "Art Gallery4f83436de4b0cd6f646ab23a",
+    "time": "2013-01-26"
+  },
+  {
+    "place": "Neighborhood4c0b32d37e3fc928650bf582",
+    "time": "2013-01-26"
+  },
+  {
+    "place": "Deli / Bodega4ebadaf493ad227bad48fb83",
+    "time": "2013-01-26"
+  },
+  {
+    "place": "Neighborhood4ca4e519a6e08cfa884d6c94",
+    "time": "2013-01-27"
+  },
+  {
+    "place": "Pizza Place4b9862c1f964a520673f35e3",
+    "time": "2013-01-27"
+  },
+  {
+    "place": "Deli / Bodega4b7f23ecf964a5209a1930e3",
+    "time": "2013-01-28"
+  },
+  {
+    "place": "City4acf58baf964a52028d320e3",
+    "time": "2013-01-29"
+  },
+  {
+    "place": "Neighborhood4ca4e519a6e08cfa884d6c94",
+    "time": "2013-01-29"
+  },
+  {
+    "place": "College Academic Building4c0ed3cad64c0f47d2dc285d",
+    "time": "2013-01-29"
+  },
+  {
+    "place": "Plaza49b7ed6df964a52030531fe3",
+    "time": "2013-01-29"
+  },
+  {
+    "place": "History Museum4ab2c893f964a520566c20e3",
+    "time": "2013-01-29"
+  },
+  {
+    "place": "City4acf58baf964a52028d320e3",
+    "time": "2013-01-30"
+  },
+  {
+    "place": "Neighborhood4ca4e519a6e08cfa884d6c94",
+    "time": "2013-01-30"
+  },
+  {
+    "place": "College Academic Building4c0ed3cad64c0f47d2dc285d",
+    "time": "2013-01-30"
+  },
+  {
+    "place": "City4acf58baf964a52028d320e3",
+    "time": "2013-01-31"
+  },
+  {
+    "place": "Neighborhood4ca4e519a6e08cfa884d6c94",
+    "time": "2013-01-31"
+  },
+  {
+    "place": "Ethiopian Restaurant3fd66200f964a520c2ea1ee3",
+    "time": "2013-01-31"
+  },
+  {
+    "place": "Neighborhood4b511a50f964a5208e4227e3",
+    "time": "2013-01-31"
+  },
+  {
+    "place": "Neighborhood4ca4e519a6e08cfa884d6c94",
+    "time": "2013-02-01"
+  },
+  {
+    "place": "Donut Shop49ee4554f964a52042681fe3",
+    "time": "2013-02-01"
+  },
+  {
+    "place": "Coffee Shop4c44320df799e21ead6cada2",
+    "time": "2013-02-02"
+  },
+  {
+    "place": "Train Station42829c80f964a5206a221fe3",
+    "time": "2013-02-02"
+  },
+  {
+    "place": "Neighborhood4c1a47228b3aa5936051955f",
+    "time": "2013-02-03"
+  },
+  {
+    "place": "Neighborhood4c1a47228b3aa5936051955f",
+    "time": "2013-02-03"
+  },
+  {
+    "place": "Plaza49b7ed6df964a52030531fe3",
+    "time": "2013-02-03"
+  },
+  {
+    "place": "Neighborhood4ca4e519a6e08cfa884d6c94",
+    "time": "2013-02-03"
+  },
+  {
+    "place": "City4acf58baf964a52028d320e3",
+    "time": "2013-02-03"
+  },
+  {
+    "place": "Bakery4b5749baf964a520782f28e3",
+    "time": "2013-02-03"
+  },
+  {
+    "place": "City4acf58baf964a52028d320e3",
+    "time": "2013-02-04"
+  },
+  {
+    "place": "City4d3490bf2c76a143392c86c7",
+    "time": "2013-02-04"
+  },
+  {
+    "place": "College Academic Building4c0ed3cad64c0f47d2dc285d",
+    "time": "2013-02-04"
+  },
+  {
+    "place": "Deli / Bodega4dd67cb7c65bee535a99c353",
+    "time": "2013-02-04"
+  },
+  {
+    "place": "Historic Site500d9a06e4b02f47f8340dcf",
+    "time": "2013-02-04"
+  },
+  {
+    "place": "Candy Store4a065273f964a520ec721fe3",
+    "time": "2013-02-04"
+  },
+  {
+    "place": "Plaza4a834038f964a52080fa1fe3",
+    "time": "2013-02-04"
+  },
+  {
+    "place": "Deli / Bodega4ab950faf964a520e67e20e3",
+    "time": "2013-02-04"
+  },
+  {
+    "place": "Department Store4de3cbd8e4cd056f74638556",
+    "time": "2013-02-05"
+  },
+  {
+    "place": "Donut Shop4b27e894f964a5201e8c24e3",
+    "time": "2013-02-05"
+  },
+  {
+    "place": "College Academic Building4c0ed3cad64c0f47d2dc285d",
+    "time": "2013-02-05"
+  },
+  {
+    "place": "Plaza49b7ed6df964a52030531fe3",
+    "time": "2013-02-05"
+  },
+  {
+    "place": "Donut Shop4b27e894f964a5201e8c24e3",
+    "time": "2013-02-05"
+  },
+  {
+    "place": "Historic Site500d9a06e4b02f47f8340dcf",
+    "time": "2013-02-05"
+  },
+  {
+    "place": "Bakery4b5749baf964a520782f28e3",
+    "time": "2013-02-06"
+  },
+  {
+    "place": "City4d3490bf2c76a143392c86c7",
+    "time": "2013-02-06"
+  },
+  {
+    "place": "City4acf58baf964a52028d320e3",
+    "time": "2013-02-06"
+  },
+  {
+    "place": "College Academic Building4c0ed3cad64c0f47d2dc285d",
+    "time": "2013-02-06"
+  },
+  {
+    "place": "Convenience Store4d6b8ebe56cc6a3175a95eac",
+    "time": "2013-02-06"
+  },
+  {
+    "place": "Building43695300f964a5208c291fe3",
+    "time": "2013-02-06"
+  },
+  {
+    "place": "Scenic Lookout4bcca12bb6c49c7422169491",
+    "time": "2013-02-06"
+  },
+  {
+    "place": "Neighborhood4b511a50f964a5208e4227e3",
+    "time": "2013-02-06"
+  },
+  {
+    "place": "Asian Restaurant4d14ee31b15cb1f7f9a3a421",
+    "time": "2013-02-06"
+  },
+  {
+    "place": "Bakery4b5749baf964a520782f28e3",
+    "time": "2013-02-07"
+  },
+  {
+    "place": "City4acf58baf964a52028d320e3",
+    "time": "2013-02-07"
+  },
+  {
+    "place": "College Academic Building4c0ed3cad64c0f47d2dc285d",
+    "time": "2013-02-07"
+  },
+  {
+    "place": "Plaza49b7ed6df964a52030531fe3",
+    "time": "2013-02-07"
+  },
+  {
+    "place": "Train Station42911d00f964a520f5231fe3",
+    "time": "2013-02-10"
+  },
+  {
+    "place": "City4acf58baf964a52028d320e3",
+    "time": "2013-02-10"
+  },
+  {
+    "place": "City4d3490bf2c76a143392c86c7",
+    "time": "2013-02-10"
+  },
+  {
+    "place": "Road4bf704e8b182c9b69bf5745a",
+    "time": "2013-02-10"
+  },
+  {
+    "place": "Neighborhood4b996536f964a520467835e3",
+    "time": "2013-02-10"
+  },
+  {
+    "place": "Bakery45ab8a84f964a52045411fe3",
+    "time": "2013-02-10"
+  },
+  {
+    "place": "City4acf58baf964a52028d320e3",
+    "time": "2013-02-11"
+  },
+  {
+    "place": "Bakery4079dc00f964a52070f21ee3",
+    "time": "2013-02-12"
+  },
+  {
+    "place": "Park40b68100f964a5207d001fe3",
+    "time": "2013-02-12"
+  },
+  {
+    "place": "Park49da4688f964a5206e5e1fe3",
+    "time": "2013-02-12"
+  },
+  {
+    "place": "Sculpture Garden4cbb4eb90180721eb6d69e61",
+    "time": "2013-02-12"
+  },
+  {
+    "place": "Bakery4b5749baf964a520782f28e3",
+    "time": "2013-02-13"
+  },
+  {
+    "place": "Bar41c0d000f964a5208e1e1fe3",
+    "time": "2013-02-13"
+  },
+  {
+    "place": "Cupcake Shop50db286ce4b0b0948412e4e5",
+    "time": "2013-02-13"
+  },
+  {
+    "place": "Plaza49b7ed6df964a52030531fe3",
+    "time": "2013-02-13"
+  }
+]

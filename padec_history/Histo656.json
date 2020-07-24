@@ -1,0 +1,1034 @@
+[
+  {
+    "place": "Pizza Place4c9eb295ca44236a2aac2d99",
+    "time": "2012-04-04"
+  },
+  {
+    "place": "Electronics Store4b7ae8cef964a52066452fe3",
+    "time": "2012-04-06"
+  },
+  {
+    "place": "Bakery4e831cdc61af29e4de5adf12",
+    "time": "2012-04-06"
+  },
+  {
+    "place": "Bar4c0703970e0a2d7f98ccec0c",
+    "time": "2012-04-08"
+  },
+  {
+    "place": "Bar4a974054f964a520182920e3",
+    "time": "2012-04-09"
+  },
+  {
+    "place": "Bank4b29cb0af964a5205fa324e3",
+    "time": "2012-04-14"
+  },
+  {
+    "place": "Home (private)4ee52af8e4b04d23e1be1273",
+    "time": "2012-04-14"
+  },
+  {
+    "place": "Bakery4bc21763abf495213cefc193",
+    "time": "2012-04-16"
+  },
+  {
+    "place": "Home (private)4ee52af8e4b04d23e1be1273",
+    "time": "2012-04-17"
+  },
+  {
+    "place": "Bar4ad0c792f964a520bed920e3",
+    "time": "2012-04-20"
+  },
+  {
+    "place": "Bakery4e831cdc61af29e4de5adf12",
+    "time": "2012-04-29"
+  },
+  {
+    "place": "Diner4b2084bdf964a520de3224e3",
+    "time": "2012-05-05"
+  },
+  {
+    "place": "Home (private)4ee52af8e4b04d23e1be1273",
+    "time": "2012-05-05"
+  },
+  {
+    "place": "Mexican Restaurant4e07a478483b98d417120d8a",
+    "time": "2012-05-05"
+  },
+  {
+    "place": "Subway4b244b63f964a520766524e3",
+    "time": "2012-05-07"
+  },
+  {
+    "place": "Office4ddd27fe22713339cd2601e9",
+    "time": "2012-05-07"
+  },
+  {
+    "place": "Pizza Place4ac6361af964a52035b320e3",
+    "time": "2012-05-08"
+  },
+  {
+    "place": "Government Building4b4e031df964a52016de26e3",
+    "time": "2012-05-08"
+  },
+  {
+    "place": "College Academic Building4ca26986d7c3370477159862",
+    "time": "2012-05-08"
+  },
+  {
+    "place": "Bar49d012ecf964a520fc5a1fe3",
+    "time": "2012-05-08"
+  },
+  {
+    "place": "Fast Food Restaurant4ae9c4eaf964a52039b621e3",
+    "time": "2012-05-09"
+  },
+  {
+    "place": "Office4ddd27fe22713339cd2601e9",
+    "time": "2012-05-09"
+  },
+  {
+    "place": "Movie Theater40afe980f964a5203bf31ee3",
+    "time": "2012-05-09"
+  },
+  {
+    "place": "Historic Site4b6b5abff964a520fb022ce3",
+    "time": "2012-05-10"
+  },
+  {
+    "place": "Office4ddd27fe22713339cd2601e9",
+    "time": "2012-05-10"
+  },
+  {
+    "place": "Bar4a974054f964a520182920e3",
+    "time": "2012-05-10"
+  },
+  {
+    "place": "Office4ddd27fe22713339cd2601e9",
+    "time": "2012-05-10"
+  },
+  {
+    "place": "Office4b4752f1f964a520e62e26e3",
+    "time": "2012-05-10"
+  },
+  {
+    "place": "Government Building4b4e031df964a52016de26e3",
+    "time": "2012-05-10"
+  },
+  {
+    "place": "Subway4aaa4e0ef964a520ad5520e3",
+    "time": "2012-05-10"
+  },
+  {
+    "place": "Bookstore4a8cc1d4f964a520130f20e3",
+    "time": "2012-05-10"
+  },
+  {
+    "place": "Mexican Restaurant3fd66200f964a52067e71ee3",
+    "time": "2012-05-10"
+  },
+  {
+    "place": "Subway4b46b4c0f964a520252726e3",
+    "time": "2012-05-10"
+  },
+  {
+    "place": "American Restaurant4adb9b03f964a520552921e3",
+    "time": "2012-05-10"
+  },
+  {
+    "place": "Home (private)4ee52af8e4b04d23e1be1273",
+    "time": "2012-05-11"
+  },
+  {
+    "place": "Train Station4dbea69dfa8cee7273844c63",
+    "time": "2012-05-11"
+  },
+  {
+    "place": "Train Station4dbea69dfa8cee7273844c63",
+    "time": "2012-05-11"
+  },
+  {
+    "place": "Office4ddd27fe22713339cd2601e9",
+    "time": "2012-05-11"
+  },
+  {
+    "place": "Office4cd84a313ec4b1f763cdbd3f",
+    "time": "2012-05-11"
+  },
+  {
+    "place": "Office4ddd27fe22713339cd2601e9",
+    "time": "2012-05-11"
+  },
+  {
+    "place": "Building4abe7f9ef964a520068e20e3",
+    "time": "2012-05-11"
+  },
+  {
+    "place": "Fast Food Restaurant4ae9c4eaf964a52039b621e3",
+    "time": "2012-05-11"
+  },
+  {
+    "place": "Subway4b871e4af964a5209db131e3",
+    "time": "2012-05-11"
+  },
+  {
+    "place": "Bank4c33e80116adc9280d75c49c",
+    "time": "2012-05-11"
+  },
+  {
+    "place": "Bank4c6a2cab897b1b8dd03cb117",
+    "time": "2012-05-11"
+  },
+  {
+    "place": "Office4ddd27fe22713339cd2601e9",
+    "time": "2012-05-12"
+  },
+  {
+    "place": "Office4cd84a313ec4b1f763cdbd3f",
+    "time": "2012-05-12"
+  },
+  {
+    "place": "Home (private)4ee52af8e4b04d23e1be1273",
+    "time": "2012-05-12"
+  },
+  {
+    "place": "Pizza Place4c9eb295ca44236a2aac2d99",
+    "time": "2012-05-13"
+  },
+  {
+    "place": "Park4ba61935f964a520673339e3",
+    "time": "2012-05-13"
+  },
+  {
+    "place": "Bank4bc61055db8fa59386b29b37",
+    "time": "2012-05-13"
+  },
+  {
+    "place": "Food & Drink Shop4ba7cdc8f964a520d2b439e3",
+    "time": "2012-05-13"
+  },
+  {
+    "place": "Bakery4e831cdc61af29e4de5adf12",
+    "time": "2012-05-13"
+  },
+  {
+    "place": "Home (private)4ee52af8e4b04d23e1be1273",
+    "time": "2012-05-14"
+  },
+  {
+    "place": "Office4ddd27fe22713339cd2601e9",
+    "time": "2012-05-14"
+  },
+  {
+    "place": "Office4cd84a313ec4b1f763cdbd3f",
+    "time": "2012-05-14"
+  },
+  {
+    "place": "Other Great Outdoors4cec10030f196dcb277d5bae",
+    "time": "2012-05-14"
+  },
+  {
+    "place": "Home (private)4ee52af8e4b04d23e1be1273",
+    "time": "2012-05-14"
+  },
+  {
+    "place": "American Restaurant4adb9b03f964a520552921e3",
+    "time": "2012-05-15"
+  },
+  {
+    "place": "Medical Center4ae0c9e6f964a5207f8221e3",
+    "time": "2012-05-15"
+  },
+  {
+    "place": "Bakery4e831cdc61af29e4de5adf12",
+    "time": "2012-05-15"
+  },
+  {
+    "place": "Home (private)4ee52af8e4b04d23e1be1273",
+    "time": "2012-05-15"
+  },
+  {
+    "place": "Office4ddd27fe22713339cd2601e9",
+    "time": "2012-05-16"
+  },
+  {
+    "place": "Office4cd84a313ec4b1f763cdbd3f",
+    "time": "2012-05-16"
+  },
+  {
+    "place": "Park4a663f7cf964a52046c81fe3",
+    "time": "2012-05-16"
+  },
+  {
+    "place": "Office4a954328f964a520cf2220e3",
+    "time": "2012-05-16"
+  },
+  {
+    "place": "Bar4ec4407382313b672fccf581",
+    "time": "2012-05-16"
+  },
+  {
+    "place": "Chinese Restaurant3fd66200f964a520f2e91ee3",
+    "time": "2012-05-16"
+  },
+  {
+    "place": "Bookstore4a8cc1d4f964a520130f20e3",
+    "time": "2012-05-16"
+  },
+  {
+    "place": "Pizza Place4b116915f964a520047c23e3",
+    "time": "2012-05-16"
+  },
+  {
+    "place": "Bar4a423a67f964a520aba51fe3",
+    "time": "2012-05-16"
+  },
+  {
+    "place": "Hotel4a50f449f964a5204fb01fe3",
+    "time": "2012-05-16"
+  },
+  {
+    "place": "Park4a663f7cf964a52046c81fe3",
+    "time": "2012-05-17"
+  },
+  {
+    "place": "Office4cd84a313ec4b1f763cdbd3f",
+    "time": "2012-05-17"
+  },
+  {
+    "place": "Subway4aaa4e0ef964a520ad5520e3",
+    "time": "2012-05-17"
+  },
+  {
+    "place": "Office4ddd27fe22713339cd2601e9",
+    "time": "2012-05-17"
+  },
+  {
+    "place": "Bar4a974054f964a520182920e3",
+    "time": "2012-05-17"
+  },
+  {
+    "place": "Park4a663f7cf964a52046c81fe3",
+    "time": "2012-05-17"
+  },
+  {
+    "place": "Office4ddd27fe22713339cd2601e9",
+    "time": "2012-05-18"
+  },
+  {
+    "place": "Bar4a5d19b7f964a52032bd1fe3",
+    "time": "2012-05-18"
+  },
+  {
+    "place": "Subway4b244b63f964a520766524e3",
+    "time": "2012-05-18"
+  },
+  {
+    "place": "Spa / Massage4b03022df964a520d94b22e3",
+    "time": "2012-05-19"
+  },
+  {
+    "place": "Home (private)4ee52af8e4b04d23e1be1273",
+    "time": "2012-05-19"
+  },
+  {
+    "place": "Home (private)4ee52af8e4b04d23e1be1273",
+    "time": "2012-05-19"
+  },
+  {
+    "place": "Coffee Shop4c0bc649bbc676b096fb4bd5",
+    "time": "2012-05-19"
+  },
+  {
+    "place": "Office4cd84a313ec4b1f763cdbd3f",
+    "time": "2012-05-19"
+  },
+  {
+    "place": "Bar3fd66200f964a520ece41ee3",
+    "time": "2012-05-19"
+  },
+  {
+    "place": "Church4ab7a271f964a520477a20e3",
+    "time": "2012-05-19"
+  },
+  {
+    "place": "Office4ddd27fe22713339cd2601e9",
+    "time": "2012-05-19"
+  },
+  {
+    "place": "Movie Theater40afe980f964a5203bf31ee3",
+    "time": "2012-05-21"
+  },
+  {
+    "place": "Subway4ef4ff12775b96fb05e4988d",
+    "time": "2012-05-21"
+  },
+  {
+    "place": "Latin American Restaurant47da948cf964a520364e1fe3",
+    "time": "2012-05-21"
+  },
+  {
+    "place": "Home (private)4ee52af8e4b04d23e1be1273",
+    "time": "2012-05-22"
+  },
+  {
+    "place": "Laundry Service4c178177c2dfc928c816a869",
+    "time": "2012-05-22"
+  },
+  {
+    "place": "Pizza Place4c9eb295ca44236a2aac2d99",
+    "time": "2012-05-22"
+  },
+  {
+    "place": "Home (private)4ee52af8e4b04d23e1be1273",
+    "time": "2012-05-23"
+  },
+  {
+    "place": "American Restaurant4adb9b03f964a520552921e3",
+    "time": "2012-05-24"
+  },
+  {
+    "place": "General Entertainment4cb89f3eeb1eef3be38946c7",
+    "time": "2012-05-24"
+  },
+  {
+    "place": "Laundry Service4c178177c2dfc928c816a869",
+    "time": "2012-05-24"
+  },
+  {
+    "place": "American Restaurant4adb9b03f964a520552921e3",
+    "time": "2012-05-24"
+  },
+  {
+    "place": "Bank4c6a2cab897b1b8dd03cb117",
+    "time": "2012-05-24"
+  },
+  {
+    "place": "Bakery4e831cdc61af29e4de5adf12",
+    "time": "2012-05-24"
+  },
+  {
+    "place": "Home (private)4ee52af8e4b04d23e1be1273",
+    "time": "2012-05-25"
+  },
+  {
+    "place": "Laundry Service4c178177c2dfc928c816a869",
+    "time": "2012-05-25"
+  },
+  {
+    "place": "Subway4b244b63f964a520766524e3",
+    "time": "2012-05-25"
+  },
+  {
+    "place": "Medical Center4c1a6afcb306c928339360b7",
+    "time": "2012-05-25"
+  },
+  {
+    "place": "Home (private)4ee52af8e4b04d23e1be1273",
+    "time": "2012-05-25"
+  },
+  {
+    "place": "Stadium3fd66200f964a520ddf01ee3",
+    "time": "2012-05-25"
+  },
+  {
+    "place": "Bank4c6a2cab897b1b8dd03cb117",
+    "time": "2012-05-25"
+  },
+  {
+    "place": "Bar4d5f3bc6196ba093879f0b56",
+    "time": "2012-05-25"
+  },
+  {
+    "place": "Home (private)4ee52af8e4b04d23e1be1273",
+    "time": "2012-05-26"
+  },
+  {
+    "place": "Airport4459d2f1f964a520d7321fe3",
+    "time": "2012-05-29"
+  },
+  {
+    "place": "Bus Station4c064869517d0f4797b0f515",
+    "time": "2012-05-29"
+  },
+  {
+    "place": "Moving Target4f8229fbe4b0ac16a362fd96",
+    "time": "2012-05-29"
+  },
+  {
+    "place": "Laundry Service4c178177c2dfc928c816a869",
+    "time": "2012-05-29"
+  },
+  {
+    "place": "Subway4b244b63f964a520766524e3",
+    "time": "2012-05-29"
+  },
+  {
+    "place": "Korean Restaurant4ed907ab722e1da3008b1371",
+    "time": "2012-05-29"
+  },
+  {
+    "place": "Office4ddd27fe22713339cd2601e9",
+    "time": "2012-05-29"
+  },
+  {
+    "place": "Office4cd84a313ec4b1f763cdbd3f",
+    "time": "2012-05-29"
+  },
+  {
+    "place": "Office4ddd27fe22713339cd2601e9",
+    "time": "2012-05-29"
+  },
+  {
+    "place": "Neighborhood4b100fd4f964a5204a6823e3",
+    "time": "2012-05-29"
+  },
+  {
+    "place": "Home (private)4ee52af8e4b04d23e1be1273",
+    "time": "2012-05-30"
+  },
+  {
+    "place": "Diner4b2084bdf964a520de3224e3",
+    "time": "2012-05-30"
+  },
+  {
+    "place": "Bar4a5d19b7f964a52032bd1fe3",
+    "time": "2012-05-31"
+  },
+  {
+    "place": "Office4cd84a313ec4b1f763cdbd3f",
+    "time": "2012-05-31"
+  },
+  {
+    "place": "Office4ddd27fe22713339cd2601e9",
+    "time": "2012-05-31"
+  },
+  {
+    "place": "Bar4a5d19b7f964a52032bd1fe3",
+    "time": "2012-05-31"
+  },
+  {
+    "place": "Bank4c33e80116adc9280d75c49c",
+    "time": "2012-05-31"
+  },
+  {
+    "place": "Asian Restaurant4a941a63f964a520672020e3",
+    "time": "2012-05-31"
+  },
+  {
+    "place": "Bar3fd66200f964a520ece41ee3",
+    "time": "2012-06-01"
+  },
+  {
+    "place": "Spa / Massage4b03022df964a520d94b22e3",
+    "time": "2012-06-02"
+  },
+  {
+    "place": "Seafood Restaurant4aa04654f964a520f33e20e3",
+    "time": "2012-06-03"
+  },
+  {
+    "place": "Sporting Goods Shop4c571428ea05ef3b138317d3",
+    "time": "2012-06-03"
+  },
+  {
+    "place": "Home (private)4ee52af8e4b04d23e1be1273",
+    "time": "2012-06-05"
+  },
+  {
+    "place": "Laundry Service4c178177c2dfc928c816a869",
+    "time": "2012-06-05"
+  },
+  {
+    "place": "Laundry Service4c178177c2dfc928c816a869",
+    "time": "2012-06-06"
+  },
+  {
+    "place": "Government Building4b02c41cf964a520c14922e3",
+    "time": "2012-06-06"
+  },
+  {
+    "place": "Pizza Place4ac6361af964a52035b320e3",
+    "time": "2012-06-06"
+  },
+  {
+    "place": "Office4ddd27fe22713339cd2601e9",
+    "time": "2012-06-06"
+  },
+  {
+    "place": "Bar4a5d19b7f964a52032bd1fe3",
+    "time": "2012-06-06"
+  },
+  {
+    "place": "Cuban Restaurant4ace3476f964a52011cf20e3",
+    "time": "2012-06-06"
+  },
+  {
+    "place": "Bar3fd66200f964a520c3e81ee3",
+    "time": "2012-06-06"
+  },
+  {
+    "place": "Home (private)4ee52af8e4b04d23e1be1273",
+    "time": "2012-06-07"
+  },
+  {
+    "place": "Laundry Service4c178177c2dfc928c816a869",
+    "time": "2012-06-07"
+  },
+  {
+    "place": "American Restaurant4adb9b03f964a520552921e3",
+    "time": "2012-06-07"
+  },
+  {
+    "place": "Bank4c6a2cab897b1b8dd03cb117",
+    "time": "2012-06-07"
+  },
+  {
+    "place": "Pizza Place4c9eb295ca44236a2aac2d99",
+    "time": "2012-06-07"
+  },
+  {
+    "place": "Bar4a5d19b7f964a52032bd1fe3",
+    "time": "2012-06-07"
+  },
+  {
+    "place": "Office4cd84a313ec4b1f763cdbd3f",
+    "time": "2012-06-07"
+  },
+  {
+    "place": "Department Store49ff62f9f964a52013701fe3",
+    "time": "2012-06-07"
+  },
+  {
+    "place": "Coffee Shop4b7de017f964a52049d82fe3",
+    "time": "2012-06-07"
+  },
+  {
+    "place": "Pizza Place4ac6361af964a52035b320e3",
+    "time": "2012-06-07"
+  },
+  {
+    "place": "Bar4a5d19b7f964a52032bd1fe3",
+    "time": "2012-06-08"
+  },
+  {
+    "place": "Bar49d012ecf964a520fc5a1fe3",
+    "time": "2012-06-08"
+  },
+  {
+    "place": "Seafood Restaurant4b943f56f964a520027134e3",
+    "time": "2012-06-08"
+  },
+  {
+    "place": "Laundry Service4c178177c2dfc928c816a869",
+    "time": "2012-06-09"
+  },
+  {
+    "place": "Bank4c6a2cab897b1b8dd03cb117",
+    "time": "2012-06-09"
+  },
+  {
+    "place": "Food & Drink Shop4c025f98f56c2d7fcf4d1b66",
+    "time": "2012-06-09"
+  },
+  {
+    "place": "Home (private)4ee52af8e4b04d23e1be1273",
+    "time": "2012-06-09"
+  },
+  {
+    "place": "Laundry Service4c178177c2dfc928c816a869",
+    "time": "2012-06-09"
+  },
+  {
+    "place": "Home (private)4ee52af8e4b04d23e1be1273",
+    "time": "2012-06-11"
+  },
+  {
+    "place": "American Restaurant4adb9b03f964a520552921e3",
+    "time": "2012-06-12"
+  },
+  {
+    "place": "Candy Store4d7d4df073ca5481ac906e7c",
+    "time": "2012-06-12"
+  },
+  {
+    "place": "Bank4c6a2cab897b1b8dd03cb117",
+    "time": "2012-06-12"
+  },
+  {
+    "place": "Movie Theater4d62d37d1ee8721ee950c521",
+    "time": "2012-06-12"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4fb99b3fe4b0549b85632c2a",
+    "time": "2012-06-12"
+  },
+  {
+    "place": "Home (private)4ee52af8e4b04d23e1be1273",
+    "time": "2012-06-13"
+  },
+  {
+    "place": "Movie Theater4d62d37d1ee8721ee950c521",
+    "time": "2012-06-20"
+  },
+  {
+    "place": "Pizza Place4c9eb295ca44236a2aac2d99",
+    "time": "2012-06-20"
+  },
+  {
+    "place": "Bakery4e831cdc61af29e4de5adf12",
+    "time": "2012-06-20"
+  },
+  {
+    "place": "General Entertainment4cb89f3eeb1eef3be38946c7",
+    "time": "2012-06-20"
+  },
+  {
+    "place": "Bus Station4c45fea6f1b5c9b63f3278ef",
+    "time": "2012-06-21"
+  },
+  {
+    "place": "Burger Joint3fd66200f964a52040e81ee3",
+    "time": "2012-06-25"
+  },
+  {
+    "place": "Seafood Restaurant4cf6b3fc1801a143b649ebd4",
+    "time": "2012-06-26"
+  },
+  {
+    "place": "Home (private)4ee52af8e4b04d23e1be1273",
+    "time": "2012-06-27"
+  },
+  {
+    "place": "Stadium3fd66200f964a520ddf01ee3",
+    "time": "2012-06-27"
+  },
+  {
+    "place": "Building4fe9bcd1e4b0faf491c986e2",
+    "time": "2012-06-27"
+  },
+  {
+    "place": "American Restaurant4adb9b03f964a520552921e3",
+    "time": "2012-07-02"
+  },
+  {
+    "place": "Home (private)4ee52af8e4b04d23e1be1273",
+    "time": "2012-07-02"
+  },
+  {
+    "place": "Building4fe9bcd1e4b0faf491c986e2",
+    "time": "2012-07-03"
+  },
+  {
+    "place": "Bank4fb533867beb65c72e11e478",
+    "time": "2012-07-03"
+  },
+  {
+    "place": "Other Great Outdoors4f30844de4b0f5735ea7c83f",
+    "time": "2012-07-05"
+  },
+  {
+    "place": "Building4fe9bcd1e4b0faf491c986e2",
+    "time": "2012-07-05"
+  },
+  {
+    "place": "Science Museum4297b480f964a52062241fe3",
+    "time": "2012-07-05"
+  },
+  {
+    "place": "Diner4b2084bdf964a520de3224e3",
+    "time": "2012-07-06"
+  },
+  {
+    "place": "Bar3fd66200f964a52015e31ee3",
+    "time": "2012-07-06"
+  },
+  {
+    "place": "Home (private)4ee52af8e4b04d23e1be1273",
+    "time": "2012-07-06"
+  },
+  {
+    "place": "Burger Joint3fd66200f964a52040e81ee3",
+    "time": "2012-07-09"
+  },
+  {
+    "place": "Building4fe9bcd1e4b0faf491c986e2",
+    "time": "2012-07-09"
+  },
+  {
+    "place": "Bar3fd66200f964a52015e31ee3",
+    "time": "2012-07-09"
+  },
+  {
+    "place": "Neighborhood4b100fd4f964a5204a6823e3",
+    "time": "2012-07-09"
+  },
+  {
+    "place": "Food & Drink Shop4c025f98f56c2d7fcf4d1b66",
+    "time": "2012-07-11"
+  },
+  {
+    "place": "Home (private)4ee52af8e4b04d23e1be1273",
+    "time": "2012-07-11"
+  },
+  {
+    "place": "Laundry Service4c178177c2dfc928c816a869",
+    "time": "2012-07-11"
+  },
+  {
+    "place": "Food & Drink Shop4c025f98f56c2d7fcf4d1b66",
+    "time": "2012-07-11"
+  },
+  {
+    "place": "Home (private)4ee52af8e4b04d23e1be1273",
+    "time": "2012-07-11"
+  },
+  {
+    "place": "Food & Drink Shop4c025f98f56c2d7fcf4d1b66",
+    "time": "2012-07-12"
+  },
+  {
+    "place": "American Restaurant4adb9b03f964a520552921e3",
+    "time": "2012-07-12"
+  },
+  {
+    "place": "Laundry Service4c178177c2dfc928c816a869",
+    "time": "2012-07-12"
+  },
+  {
+    "place": "Bank4c6a2cab897b1b8dd03cb117",
+    "time": "2012-07-12"
+  },
+  {
+    "place": "Bakery4e831cdc61af29e4de5adf12",
+    "time": "2012-07-13"
+  },
+  {
+    "place": "Building4fe9bcd1e4b0faf491c986e2",
+    "time": "2012-07-13"
+  },
+  {
+    "place": "Bar3fd66200f964a52015e31ee3",
+    "time": "2012-07-13"
+  },
+  {
+    "place": "Food & Drink Shop4c025f98f56c2d7fcf4d1b66",
+    "time": "2012-07-13"
+  },
+  {
+    "place": "Food & Drink Shop4c025f98f56c2d7fcf4d1b66",
+    "time": "2012-07-15"
+  },
+  {
+    "place": "BBQ Joint49d7dbf5f964a5206c5d1fe3",
+    "time": "2012-07-15"
+  },
+  {
+    "place": "Bank4fb533867beb65c72e11e478",
+    "time": "2012-07-16"
+  },
+  {
+    "place": "Food & Drink Shop4c025f98f56c2d7fcf4d1b66",
+    "time": "2012-07-16"
+  },
+  {
+    "place": "Food & Drink Shop4c025f98f56c2d7fcf4d1b66",
+    "time": "2012-07-17"
+  },
+  {
+    "place": "Building4fe9bcd1e4b0faf491c986e2",
+    "time": "2012-07-17"
+  },
+  {
+    "place": "Bar4d5f3bc6196ba093879f0b56",
+    "time": "2012-07-17"
+  },
+  {
+    "place": "Building4fe9bcd1e4b0faf491c986e2",
+    "time": "2012-07-20"
+  },
+  {
+    "place": "Building4fe9bcd1e4b0faf491c986e2",
+    "time": "2012-07-24"
+  },
+  {
+    "place": "Burger Joint3fd66200f964a52040e81ee3",
+    "time": "2012-07-24"
+  },
+  {
+    "place": "Diner4bae2df6f964a520688e3be3",
+    "time": "2012-07-24"
+  },
+  {
+    "place": "Neighborhood4ec36fc4754a58e0f97f1766",
+    "time": "2012-07-24"
+  },
+  {
+    "place": "Subway4b8fbf80f964a5202a6033e3",
+    "time": "2012-07-24"
+  },
+  {
+    "place": "Medical Center4fce781ce4b0844bff9742e5",
+    "time": "2012-07-24"
+  },
+  {
+    "place": "Food & Drink Shop4c025f98f56c2d7fcf4d1b66",
+    "time": "2012-08-09"
+  },
+  {
+    "place": "Food & Drink Shop4c025f98f56c2d7fcf4d1b66",
+    "time": "2012-08-11"
+  },
+  {
+    "place": "Laundry Service4c178177c2dfc928c816a869",
+    "time": "2012-08-14"
+  },
+  {
+    "place": "Home (private)4ee52af8e4b04d23e1be1273",
+    "time": "2012-08-16"
+  },
+  {
+    "place": "Building4fe9bcd1e4b0faf491c986e2",
+    "time": "2012-08-16"
+  },
+  {
+    "place": "American Restaurant4adb9b03f964a520552921e3",
+    "time": "2012-08-19"
+  },
+  {
+    "place": "Movie Theater4d62d37d1ee8721ee950c521",
+    "time": "2012-08-19"
+  },
+  {
+    "place": "Laundry Service4c178177c2dfc928c816a869",
+    "time": "2012-08-19"
+  },
+  {
+    "place": "Bakery4e831cdc61af29e4de5adf12",
+    "time": "2012-08-19"
+  },
+  {
+    "place": "General Entertainment4e6f78b8814d185a4c819043",
+    "time": "2012-08-19"
+  },
+  {
+    "place": "Home (private)4ee52af8e4b04d23e1be1273",
+    "time": "2012-08-19"
+  },
+  {
+    "place": "Food Truck4a416369f964a52036a51fe3",
+    "time": "2012-10-23"
+  },
+  {
+    "place": "Park4ba61935f964a520673339e3",
+    "time": "2012-10-23"
+  },
+  {
+    "place": "Steakhouse44f480b3f964a52034381fe3",
+    "time": "2012-10-24"
+  },
+  {
+    "place": "Office4beb46c761aca593cce58400",
+    "time": "2012-10-26"
+  },
+  {
+    "place": "Subway4b244b63f964a520766524e3",
+    "time": "2012-10-26"
+  },
+  {
+    "place": "Bank4c6a2cab897b1b8dd03cb117",
+    "time": "2012-11-06"
+  },
+  {
+    "place": "Food & Drink Shop4c025f98f56c2d7fcf4d1b66",
+    "time": "2012-11-06"
+  },
+  {
+    "place": "Salon / Barbershop4c7e9acfd51ea1438429589f",
+    "time": "2012-11-06"
+  },
+  {
+    "place": "Medical Center4b6de6a8f964a520439a2ce3",
+    "time": "2012-11-09"
+  },
+  {
+    "place": "College Academic Building4b563fcef964a520650728e3",
+    "time": "2012-11-09"
+  },
+  {
+    "place": "Subway4b8fbf80f964a5202a6033e3",
+    "time": "2012-11-09"
+  },
+  {
+    "place": "Fast Food Restaurant4b21c961f964a520674124e3",
+    "time": "2012-11-12"
+  },
+  {
+    "place": "Coffee Shop4b217496f964a5201c3c24e3",
+    "time": "2012-11-13"
+  },
+  {
+    "place": "American Restaurant5095bdf0e4b05f8bb6164223",
+    "time": "2012-11-17"
+  },
+  {
+    "place": "Government Building4df2e5336284fefe8fc0aa5c",
+    "time": "2012-11-17"
+  },
+  {
+    "place": "American Restaurant4adba246f964a520962921e3",
+    "time": "2012-11-22"
+  },
+  {
+    "place": "Clothing Store4bbd18daa8cf76b07669b1fd",
+    "time": "2012-11-23"
+  },
+  {
+    "place": "Clothing Store4e4d5ab11f6e4ff50fe10c75",
+    "time": "2012-11-23"
+  },
+  {
+    "place": "Video Game Store4c9d1ff49975a143b5a938cf",
+    "time": "2012-11-23"
+  },
+  {
+    "place": "Bar4ba0138af964a520ea5737e3",
+    "time": "2012-12-08"
+  },
+  {
+    "place": "College Academic Building4ca26986d7c3370477159862",
+    "time": "2012-12-27"
+  },
+  {
+    "place": "Bank4c6a2cab897b1b8dd03cb117",
+    "time": "2013-01-06"
+  },
+  {
+    "place": "Medical Center4ae0c9e6f964a5207f8221e3",
+    "time": "2013-01-14"
+  },
+  {
+    "place": "Government Building4ca1d11803133704232786d5",
+    "time": "2013-01-31"
+  },
+  {
+    "place": "Medical Center4b6de6a8f964a520439a2ce3",
+    "time": "2013-01-31"
+  },
+  {
+    "place": "Performing Arts Venue4ee649d693adf8e1a95b585f",
+    "time": "2013-01-31"
+  },
+  {
+    "place": "College Academic Building4ca26986d7c3370477159862",
+    "time": "2013-02-12"
+  },
+  {
+    "place": "Bar49d012ecf964a520fc5a1fe3",
+    "time": "2013-02-12"
+  },
+  {
+    "place": "BBQ Joint3fd66200f964a520d7e81ee3",
+    "time": "2013-02-12"
+  }
+]

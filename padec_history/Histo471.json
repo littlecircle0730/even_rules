@@ -1,0 +1,506 @@
+[
+  {
+    "place": "Home (private)4e59832fd4c0ba8c119fe68b",
+    "time": "2012-04-04"
+  },
+  {
+    "place": "Bar3fd66200f964a5208fe81ee3",
+    "time": "2012-04-04"
+  },
+  {
+    "place": "American Restaurant4e5407597d8b8e9188e59d13",
+    "time": "2012-04-05"
+  },
+  {
+    "place": "Building4b959578f964a520c5aa34e3",
+    "time": "2012-04-11"
+  },
+  {
+    "place": "Bar41141b80f964a520f10b1fe3",
+    "time": "2012-04-11"
+  },
+  {
+    "place": "Bar3fd66200f964a520ace51ee3",
+    "time": "2012-04-13"
+  },
+  {
+    "place": "Bar42717900f964a5206c211fe3",
+    "time": "2012-04-13"
+  },
+  {
+    "place": "Bar3fd66200f964a520ace51ee3",
+    "time": "2012-04-14"
+  },
+  {
+    "place": "Bus Station4ebf3a9cf790741160905a4c",
+    "time": "2012-04-14"
+  },
+  {
+    "place": "Eastern European Restaurant45f0c32ff964a520c3431fe3",
+    "time": "2012-04-15"
+  },
+  {
+    "place": "Automotive Shop4b1aca72f964a520dcf123e3",
+    "time": "2012-04-18"
+  },
+  {
+    "place": "Bar4507026bf964a52019391fe3",
+    "time": "2012-04-20"
+  },
+  {
+    "place": "Home (private)4e59832fd4c0ba8c119fe68b",
+    "time": "2012-04-20"
+  },
+  {
+    "place": "Bar4c6350df58810f479795091e",
+    "time": "2012-04-22"
+  },
+  {
+    "place": "Bar3fd66200f964a5203ee41ee3",
+    "time": "2012-04-22"
+  },
+  {
+    "place": "Korean Restaurant49e6e227f964a52074641fe3",
+    "time": "2012-04-22"
+  },
+  {
+    "place": "American Restaurant4aab0204f964a520855820e3",
+    "time": "2012-04-23"
+  },
+  {
+    "place": "Bar42717900f964a5206c211fe3",
+    "time": "2012-04-23"
+  },
+  {
+    "place": "Hotel4b2bcc28f964a5202ebb24e3",
+    "time": "2012-04-23"
+  },
+  {
+    "place": "Korean Restaurant49e6e227f964a52074641fe3",
+    "time": "2012-04-23"
+  },
+  {
+    "place": "Bar42717900f964a5206c211fe3",
+    "time": "2012-04-25"
+  },
+  {
+    "place": "Department Store4a6a2fecf964a520cacc1fe3",
+    "time": "2012-04-26"
+  },
+  {
+    "place": "Bar3fd66200f964a520e4e61ee3",
+    "time": "2012-04-28"
+  },
+  {
+    "place": "Home (private)4e59832fd4c0ba8c119fe68b",
+    "time": "2012-04-29"
+  },
+  {
+    "place": "Cuban Restaurant42d1b680f964a5200b261fe3",
+    "time": "2012-04-29"
+  },
+  {
+    "place": "Bar42717900f964a5206c211fe3",
+    "time": "2012-05-04"
+  },
+  {
+    "place": "Food & Drink Shop49d375a6f964a520f95b1fe3",
+    "time": "2012-05-04"
+  },
+  {
+    "place": "General Entertainment4fa3ca7fe4b0b487ccc604a3",
+    "time": "2012-05-04"
+  },
+  {
+    "place": "Bar3fd66200f964a5208fe81ee3",
+    "time": "2012-05-05"
+  },
+  {
+    "place": "Salon / Barbershop4bb13135f964a5204e823ce3",
+    "time": "2012-05-06"
+  },
+  {
+    "place": "Home (private)4ef3894f6c25074225601e3a",
+    "time": "2012-05-07"
+  },
+  {
+    "place": "Bar42717900f964a5206c211fe3",
+    "time": "2012-05-07"
+  },
+  {
+    "place": "Bar42717900f964a5206c211fe3",
+    "time": "2012-05-09"
+  },
+  {
+    "place": "Department Store4a6a2fecf964a520cacc1fe3",
+    "time": "2012-05-09"
+  },
+  {
+    "place": "Train Station4bdc8bbfc79cc928850e87e9",
+    "time": "2012-05-11"
+  },
+  {
+    "place": "Home (private)4e59832fd4c0ba8c119fe68b",
+    "time": "2012-05-11"
+  },
+  {
+    "place": "Bar42717900f964a5206c211fe3",
+    "time": "2012-05-11"
+  },
+  {
+    "place": "Bar4507026bf964a52019391fe3",
+    "time": "2012-05-12"
+  },
+  {
+    "place": "Bar3fd66200f964a520e4e61ee3",
+    "time": "2012-05-12"
+  },
+  {
+    "place": "Home (private)4e59832fd4c0ba8c119fe68b",
+    "time": "2012-05-12"
+  },
+  {
+    "place": "Road4d9a56e3d12460fc77d458ba",
+    "time": "2012-05-13"
+  },
+  {
+    "place": "Other Great Outdoors4fafe8c9e4b085f6b3264155",
+    "time": "2012-05-13"
+  },
+  {
+    "place": "Bar42717900f964a5206c211fe3",
+    "time": "2012-05-14"
+  },
+  {
+    "place": "Cuban Restaurant4d960605daec224beab30c3e",
+    "time": "2012-05-14"
+  },
+  {
+    "place": "Bar4af4f840f964a520c1f721e3",
+    "time": "2012-05-16"
+  },
+  {
+    "place": "Bar42717900f964a5206c211fe3",
+    "time": "2012-05-17"
+  },
+  {
+    "place": "Cuban Restaurant4d960605daec224beab30c3e",
+    "time": "2012-05-17"
+  },
+  {
+    "place": "Mexican Restaurant3fd66200f964a52014e71ee3",
+    "time": "2012-05-19"
+  },
+  {
+    "place": "Bar3fd66200f964a520e4e61ee3",
+    "time": "2012-05-19"
+  },
+  {
+    "place": "Food Truck4a70d71cf964a52093d81fe3",
+    "time": "2012-05-19"
+  },
+  {
+    "place": "Pizza Place4d13e8bcbb64224b0f76a865",
+    "time": "2012-05-19"
+  },
+  {
+    "place": "American Restaurant4aab0204f964a520855820e3",
+    "time": "2012-05-21"
+  },
+  {
+    "place": "Bar42717900f964a5206c211fe3",
+    "time": "2012-05-27"
+  },
+  {
+    "place": "Bar3fd66200f964a5208fe81ee3",
+    "time": "2012-05-27"
+  },
+  {
+    "place": "Bar42717900f964a5206c211fe3",
+    "time": "2012-05-27"
+  },
+  {
+    "place": "Mexican Restaurant4eeb8f728231035d6c7558dd",
+    "time": "2012-05-28"
+  },
+  {
+    "place": "Pool Hall4a91a619f964a520271b20e3",
+    "time": "2012-05-28"
+  },
+  {
+    "place": "Home (private)4ef3894f6c25074225601e3a",
+    "time": "2012-05-28"
+  },
+  {
+    "place": "Music Venue40c10d00f964a520da001fe3",
+    "time": "2012-05-29"
+  },
+  {
+    "place": "Bar42717900f964a5206c211fe3",
+    "time": "2012-05-29"
+  },
+  {
+    "place": "Road4bf704e8b182c9b69bf5745a",
+    "time": "2012-05-30"
+  },
+  {
+    "place": "Restaurant4b3ce3f4f964a520088925e3",
+    "time": "2012-05-31"
+  },
+  {
+    "place": "Coffee Shop3fd66200f964a52059e61ee3",
+    "time": "2012-05-31"
+  },
+  {
+    "place": "Diner4ac6b753f964a520f5b520e3",
+    "time": "2012-06-04"
+  },
+  {
+    "place": "Movie Theater43a72ba0f964a520672c1fe3",
+    "time": "2012-06-05"
+  },
+  {
+    "place": "Gastropub4d27b39755a8b60c0c4bc6c0",
+    "time": "2012-06-05"
+  },
+  {
+    "place": "Bar3fd66200f964a5200de61ee3",
+    "time": "2012-06-05"
+  },
+  {
+    "place": "Food & Drink Shop4b3fffaff964a520f6b325e3",
+    "time": "2012-06-07"
+  },
+  {
+    "place": "Furniture / Home Store4a9ae0eaf964a5204e3320e3",
+    "time": "2012-06-17"
+  },
+  {
+    "place": "Bar3fd66200f964a5203af11ee3",
+    "time": "2012-06-17"
+  },
+  {
+    "place": "Home (private)4ef3894f6c25074225601e3a",
+    "time": "2012-06-18"
+  },
+  {
+    "place": "Bar42717900f964a5206c211fe3",
+    "time": "2012-06-18"
+  },
+  {
+    "place": "Department Store4a6a2fecf964a520cacc1fe3",
+    "time": "2012-06-21"
+  },
+  {
+    "place": "Home (private)4e59832fd4c0ba8c119fe68b",
+    "time": "2012-06-27"
+  },
+  {
+    "place": "Home (private)4e59832fd4c0ba8c119fe68b",
+    "time": "2012-07-03"
+  },
+  {
+    "place": "Bar42717900f964a5206c211fe3",
+    "time": "2012-07-04"
+  },
+  {
+    "place": "Home (private)4e59832fd4c0ba8c119fe68b",
+    "time": "2012-07-04"
+  },
+  {
+    "place": "Food & Drink Shop4a3e9ee4f964a52026a31fe3",
+    "time": "2012-07-04"
+  },
+  {
+    "place": "Bar4e5d33f4c65bbeeeb42ae25c",
+    "time": "2012-07-05"
+  },
+  {
+    "place": "Home (private)4fd75d1ee4b099b4713a400a",
+    "time": "2012-07-05"
+  },
+  {
+    "place": "Bar4507026bf964a52019391fe3",
+    "time": "2012-07-15"
+  },
+  {
+    "place": "Bar4af4f840f964a520c1f721e3",
+    "time": "2012-07-15"
+  },
+  {
+    "place": "Train Station4bdc8bbfc79cc928850e87e9",
+    "time": "2012-07-15"
+  },
+  {
+    "place": "Department Store4a6a2fecf964a520cacc1fe3",
+    "time": "2012-07-16"
+  },
+  {
+    "place": "Home (private)4e59832fd4c0ba8c119fe68b",
+    "time": "2012-07-17"
+  },
+  {
+    "place": "Bridge4a32c3f9f964a5208c9a1fe3",
+    "time": "2012-07-18"
+  },
+  {
+    "place": "Home (private)4fd75d1ee4b099b4713a400a",
+    "time": "2012-07-18"
+  },
+  {
+    "place": "Bar4507026bf964a52019391fe3",
+    "time": "2012-07-28"
+  },
+  {
+    "place": "Bar4af4f840f964a520c1f721e3",
+    "time": "2012-07-28"
+  },
+  {
+    "place": "Pizza Place4a8c809bf964a520460e20e3",
+    "time": "2012-07-28"
+  },
+  {
+    "place": "American Restaurant4aab0204f964a520855820e3",
+    "time": "2012-07-28"
+  },
+  {
+    "place": "Cuban Restaurant4d960605daec224beab30c3e",
+    "time": "2012-08-05"
+  },
+  {
+    "place": "Cuban Restaurant4d960605daec224beab30c3e",
+    "time": "2012-08-09"
+  },
+  {
+    "place": "Bar4aa05a78f964a520493f20e3",
+    "time": "2012-08-11"
+  },
+  {
+    "place": "Bar3fd66200f964a5208fe81ee3",
+    "time": "2012-08-11"
+  },
+  {
+    "place": "Bar42717900f964a5206c211fe3",
+    "time": "2012-08-12"
+  },
+  {
+    "place": "Bar41141b80f964a520f10b1fe3",
+    "time": "2012-08-12"
+  },
+  {
+    "place": "Filipino Restaurant4e34496fa8092599edf845bb",
+    "time": "2012-08-13"
+  },
+  {
+    "place": "Bar4101a680f964a5205a0b1fe3",
+    "time": "2012-08-19"
+  },
+  {
+    "place": "Bar42717900f964a5206c211fe3",
+    "time": "2012-09-06"
+  },
+  {
+    "place": "Bar4af4f840f964a520c1f721e3",
+    "time": "2012-10-13"
+  },
+  {
+    "place": "Bar4507026bf964a52019391fe3",
+    "time": "2012-10-13"
+  },
+  {
+    "place": "Bar42717900f964a5206c211fe3",
+    "time": "2012-10-13"
+  },
+  {
+    "place": "Bar42717900f964a5206c211fe3",
+    "time": "2012-10-29"
+  },
+  {
+    "place": "Bridge4a32c3f9f964a5208c9a1fe3",
+    "time": "2012-10-29"
+  },
+  {
+    "place": "Other Great Outdoors508af9ccf13627e878935855",
+    "time": "2012-10-29"
+  },
+  {
+    "place": "Home (private)4fd75d1ee4b099b4713a400a",
+    "time": "2012-10-31"
+  },
+  {
+    "place": "Moving Target5050d7d4e4b0d5301f776b9b",
+    "time": "2012-10-31"
+  },
+  {
+    "place": "Ferry4afefbe2f964a5207b3222e3",
+    "time": "2012-10-31"
+  },
+  {
+    "place": "Bar3fd66200f964a5208fe81ee3",
+    "time": "2012-11-01"
+  },
+  {
+    "place": "Bus Station4840fe6bf964a52030501fe3",
+    "time": "2012-11-01"
+  },
+  {
+    "place": "Asian Restaurant4d291bbe6e27a1435d752124",
+    "time": "2012-11-05"
+  },
+  {
+    "place": "Train Station4de087f5c65bcc724f42a314",
+    "time": "2012-11-11"
+  },
+  {
+    "place": "Home (private)4fd75d1ee4b099b4713a400a",
+    "time": "2012-11-18"
+  },
+  {
+    "place": "Home (private)4e59832fd4c0ba8c119fe68b",
+    "time": "2012-11-21"
+  },
+  {
+    "place": "Bar42717900f964a5206c211fe3",
+    "time": "2012-11-23"
+  },
+  {
+    "place": "Home (private)4e59832fd4c0ba8c119fe68b",
+    "time": "2012-11-23"
+  },
+  {
+    "place": "Bar4507026bf964a52019391fe3",
+    "time": "2012-11-25"
+  },
+  {
+    "place": "Food & Drink Shop4b5b6ddcf964a5205ffd28e3",
+    "time": "2012-11-25"
+  },
+  {
+    "place": "Chinese Restaurant3fd66200f964a52067e61ee3",
+    "time": "2012-11-25"
+  },
+  {
+    "place": "American Restaurant4aab0204f964a520855820e3",
+    "time": "2013-01-01"
+  },
+  {
+    "place": "Pizza Place4800619cf964a520ec4e1fe3",
+    "time": "2013-01-01"
+  },
+  {
+    "place": "Bookstore4a8cc1d4f964a520130f20e3",
+    "time": "2013-01-09"
+  },
+  {
+    "place": "Coffee Shop4e56634545dd92275e4c30d9",
+    "time": "2013-01-09"
+  },
+  {
+    "place": "BBQ Joint503fb602ebca66a84f0287e8",
+    "time": "2013-01-10"
+  },
+  {
+    "place": "Cuban Restaurant4d960605daec224beab30c3e",
+    "time": "2013-01-11"
+  }
+]

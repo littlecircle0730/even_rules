@@ -1,0 +1,718 @@
+[
+  {
+    "place": "Vegetarian / Vegan Restaurant4785ef6ff964a520354d1fe3",
+    "time": "2012-04-04"
+  },
+  {
+    "place": "Caf\u00c3\u00a94161e400f964a520611d1fe3",
+    "time": "2012-04-04"
+  },
+  {
+    "place": "Thai Restaurant4b3e85b9f964a520699e25e3",
+    "time": "2012-04-04"
+  },
+  {
+    "place": "Bar4d69f050de28224b66164abe",
+    "time": "2012-04-05"
+  },
+  {
+    "place": "Other Great Outdoors41181000f964a520060c1fe3",
+    "time": "2012-04-07"
+  },
+  {
+    "place": "Other Great Outdoors41181000f964a520060c1fe3",
+    "time": "2012-04-07"
+  },
+  {
+    "place": "Diner44ddb091f964a520bf361fe3",
+    "time": "2012-04-07"
+  },
+  {
+    "place": "Other Great Outdoors4a464a63f964a520a3a81fe3",
+    "time": "2012-04-07"
+  },
+  {
+    "place": "Movie Theater453cacc7f964a520153c1fe3",
+    "time": "2012-04-08"
+  },
+  {
+    "place": "Office4c3f2679ed10ef3b5836b745",
+    "time": "2012-04-09"
+  },
+  {
+    "place": "Thai Restaurant49bc064ff964a5200a541fe3",
+    "time": "2012-04-09"
+  },
+  {
+    "place": "Bike Shop4dfbcf55b61ce5af0e8d43d4",
+    "time": "2012-04-10"
+  },
+  {
+    "place": "Home (private)4cfa3f7d2d80a1431a5543d8",
+    "time": "2012-04-11"
+  },
+  {
+    "place": "Italian Restaurant49f20537f964a520d3691fe3",
+    "time": "2012-04-11"
+  },
+  {
+    "place": "Home (private)4c02c1fa0d0e0f47d69a019a",
+    "time": "2012-04-12"
+  },
+  {
+    "place": "Office49ba9f0af964a52087531fe3",
+    "time": "2012-04-12"
+  },
+  {
+    "place": "Bike Shop4ba3f2d1f964a5208b7038e3",
+    "time": "2012-04-12"
+  },
+  {
+    "place": "Indian Restaurant42926e80f964a52013241fe3",
+    "time": "2012-04-13"
+  },
+  {
+    "place": "Home (private)4ec817edf79041351d7c3565",
+    "time": "2012-04-13"
+  },
+  {
+    "place": "Bar4b9c7626f964a520656a36e3",
+    "time": "2012-04-14"
+  },
+  {
+    "place": "Sporting Goods Shop4e4e2e1662844166697bd28c",
+    "time": "2012-04-14"
+  },
+  {
+    "place": "Train Station4ae8906ef964a52071b021e3",
+    "time": "2012-04-15"
+  },
+  {
+    "place": "Train Station49f76cc2f964a5209d6c1fe3",
+    "time": "2012-04-15"
+  },
+  {
+    "place": "Train Station49f76cc2f964a5209d6c1fe3",
+    "time": "2012-04-15"
+  },
+  {
+    "place": "Italian Restaurant4dcae1b18877502200c95822",
+    "time": "2012-04-17"
+  },
+  {
+    "place": "Italian Restaurant4b651459f964a52030e32ae3",
+    "time": "2012-04-18"
+  },
+  {
+    "place": "Home (private)4cfa3f7d2d80a1431a5543d8",
+    "time": "2012-04-18"
+  },
+  {
+    "place": "Thai Restaurant4b3e85b9f964a520699e25e3",
+    "time": "2012-04-18"
+  },
+  {
+    "place": "Bike Shop4a58f57ef964a5204db81fe3",
+    "time": "2012-04-18"
+  },
+  {
+    "place": "Electronics Store4ca3ae4db0ff8cfad057b95e",
+    "time": "2012-04-19"
+  },
+  {
+    "place": "Thai Restaurant4f47d688e4b0d125f5871461",
+    "time": "2012-04-19"
+  },
+  {
+    "place": "Bike Shop4a58f57ef964a5204db81fe3",
+    "time": "2012-04-19"
+  },
+  {
+    "place": "Korean Restaurant3fd66200f964a520b1e91ee3",
+    "time": "2012-04-20"
+  },
+  {
+    "place": "Middle Eastern Restaurant49cdb577f964a520125a1fe3",
+    "time": "2012-04-20"
+  },
+  {
+    "place": "Plaza49c64842f964a5202e571fe3",
+    "time": "2012-04-21"
+  },
+  {
+    "place": "Athletic & Sport4f4abaf3e4b0bd57ac2f2777",
+    "time": "2012-04-21"
+  },
+  {
+    "place": "Park4c841754d8086dcbe33b8652",
+    "time": "2012-04-21"
+  },
+  {
+    "place": "Malaysian Restaurant3fd66200f964a52011ea1ee3",
+    "time": "2012-04-22"
+  },
+  {
+    "place": "Vegetarian / Vegan Restaurant3fd66200f964a52088e91ee3",
+    "time": "2012-04-22"
+  },
+  {
+    "place": "Bike Shop4aa95e7af964a520525320e3",
+    "time": "2012-04-22"
+  },
+  {
+    "place": "Government Building4f954f61e4b0aed820ec895d",
+    "time": "2012-04-23"
+  },
+  {
+    "place": "Deli / Bodega4a60792ef964a520ccc01fe3",
+    "time": "2012-04-23"
+  },
+  {
+    "place": "Thai Restaurant4b3e85b9f964a520699e25e3",
+    "time": "2012-04-23"
+  },
+  {
+    "place": "Korean Restaurant3fd66200f964a520b1e91ee3",
+    "time": "2012-04-23"
+  },
+  {
+    "place": "Thai Restaurant49bc064ff964a5200a541fe3",
+    "time": "2012-04-24"
+  },
+  {
+    "place": "Ramen /  Noodle House3fd66200f964a52061e41ee3",
+    "time": "2012-04-25"
+  },
+  {
+    "place": "Government Building4f954f61e4b0aed820ec895d",
+    "time": "2012-04-26"
+  },
+  {
+    "place": "Burger Joint4c2bccc7d1a10f475a88f864",
+    "time": "2012-04-27"
+  },
+  {
+    "place": "Bar3fd66200f964a5202fe41ee3",
+    "time": "2012-04-28"
+  },
+  {
+    "place": "Other Great Outdoors4a8d4689f964a520650f20e3",
+    "time": "2012-04-28"
+  },
+  {
+    "place": "Home (private)4a7e64e5f964a520ddf11fe3",
+    "time": "2012-04-28"
+  },
+  {
+    "place": "Italian Restaurant4a15acf0f964a520b3781fe3",
+    "time": "2012-04-28"
+  },
+  {
+    "place": "Event Space4f9c23a5e4b0b04584af17b0",
+    "time": "2012-04-28"
+  },
+  {
+    "place": "Korean Restaurant4ba41cedf964a520d08238e3",
+    "time": "2012-04-29"
+  },
+  {
+    "place": "Park49ee4a7df964a52047681fe3",
+    "time": "2012-04-29"
+  },
+  {
+    "place": "Building4b014ad3f964a520fd4122e3",
+    "time": "2012-04-29"
+  },
+  {
+    "place": "South American Restaurant4b592147f964a520217e28e3",
+    "time": "2012-04-29"
+  },
+  {
+    "place": "Ice Cream Shop4a46a4f6f964a52039a91fe3",
+    "time": "2012-04-29"
+  },
+  {
+    "place": "Home (private)4cfa3f7d2d80a1431a5543d8",
+    "time": "2012-05-02"
+  },
+  {
+    "place": "Home (private)4ce8aa6dbaa6a1cdc1b12f6c",
+    "time": "2012-05-02"
+  },
+  {
+    "place": "Food Truck4a622697f964a52038c31fe3",
+    "time": "2012-05-03"
+  },
+  {
+    "place": "Park3fd66200f964a520d7f11ee3",
+    "time": "2012-05-03"
+  },
+  {
+    "place": "Candy Store4bfd75f9bf6576b01f50adb8",
+    "time": "2012-05-03"
+  },
+  {
+    "place": "Bookstore40d38200f964a52041011fe3",
+    "time": "2012-05-03"
+  },
+  {
+    "place": "Event Space4dcf0fd022718eed7a49419b",
+    "time": "2012-05-03"
+  },
+  {
+    "place": "Bar43504680f964a520b3281fe3",
+    "time": "2012-05-04"
+  },
+  {
+    "place": "Indian Restaurant49e8ee01f964a520ae651fe3",
+    "time": "2012-05-04"
+  },
+  {
+    "place": "Ice Cream Shop4e300d723151250387b61125",
+    "time": "2012-05-04"
+  },
+  {
+    "place": "Deli / Bodega4a60792ef964a520ccc01fe3",
+    "time": "2012-05-04"
+  },
+  {
+    "place": "Mexican Restaurant4e4b26d4fa7671a85ce70b24",
+    "time": "2012-05-04"
+  },
+  {
+    "place": "Government Building4f954f61e4b0aed820ec895d",
+    "time": "2012-05-04"
+  },
+  {
+    "place": "Bar4effd1ae8b81b0190aea7919",
+    "time": "2012-05-05"
+  },
+  {
+    "place": "Bar4b9c7626f964a520656a36e3",
+    "time": "2012-05-05"
+  },
+  {
+    "place": "Indian Restaurant43a7557bf964a5206b2c1fe3",
+    "time": "2012-05-05"
+  },
+  {
+    "place": "Indian Restaurant43a7557bf964a5206b2c1fe3",
+    "time": "2012-05-05"
+  },
+  {
+    "place": "Church4a1b544df964a520eb7a1fe3",
+    "time": "2012-05-05"
+  },
+  {
+    "place": "Movie Theater453cacc7f964a520153c1fe3",
+    "time": "2012-05-05"
+  },
+  {
+    "place": "Home (private)4c02c1fa0d0e0f47d69a019a",
+    "time": "2012-05-05"
+  },
+  {
+    "place": "Thai Restaurant4a7dda88f964a520e5ef1fe3",
+    "time": "2012-05-06"
+  },
+  {
+    "place": "Deli / Bodega4a60792ef964a520ccc01fe3",
+    "time": "2012-05-07"
+  },
+  {
+    "place": "Sporting Goods Shop4e4e2e1662844166697bd28c",
+    "time": "2012-05-09"
+  },
+  {
+    "place": "Home (private)4c02c1fa0d0e0f47d69a019a",
+    "time": "2012-05-09"
+  },
+  {
+    "place": "Home (private)4c02c1fa0d0e0f47d69a019a",
+    "time": "2012-05-09"
+  },
+  {
+    "place": "Thai Restaurant4b79cb6cf964a52084122fe3",
+    "time": "2012-05-10"
+  },
+  {
+    "place": "Music Venue40e9eb80f964a5201c0a1fe3",
+    "time": "2012-05-11"
+  },
+  {
+    "place": "Mexican Restaurant4f124493e4b019e992190aac",
+    "time": "2012-05-11"
+  },
+  {
+    "place": "Bar3fd66200f964a52023e41ee3",
+    "time": "2012-05-11"
+  },
+  {
+    "place": "Burger Joint4d757b46e40aa09373dd0be2",
+    "time": "2012-05-14"
+  },
+  {
+    "place": "Chinese Restaurant4aa707ccf964a520d84b20e3",
+    "time": "2012-05-14"
+  },
+  {
+    "place": "Malaysian Restaurant3fd66200f964a52093ea1ee3",
+    "time": "2012-05-15"
+  },
+  {
+    "place": "Bike Shop4aa95e7af964a520525320e3",
+    "time": "2012-05-15"
+  },
+  {
+    "place": "Thai Restaurant4b79cb6cf964a52084122fe3",
+    "time": "2012-05-15"
+  },
+  {
+    "place": "Bike Shop4aa95e7af964a520525320e3",
+    "time": "2012-05-15"
+  },
+  {
+    "place": "Home (private)4c02c1fa0d0e0f47d69a019a",
+    "time": "2012-05-17"
+  },
+  {
+    "place": "Food Truck4a622697f964a52038c31fe3",
+    "time": "2012-05-17"
+  },
+  {
+    "place": "Park3fd66200f964a520d7f11ee3",
+    "time": "2012-05-17"
+  },
+  {
+    "place": "Candy Store4bfd75f9bf6576b01f50adb8",
+    "time": "2012-05-17"
+  },
+  {
+    "place": "Restaurant4ddd981eae60c6eb2a4887bc",
+    "time": "2012-05-18"
+  },
+  {
+    "place": "Bike Shop4b25258df964a520dd6c24e3",
+    "time": "2012-05-19"
+  },
+  {
+    "place": "Italian Restaurant49f20537f964a520d3691fe3",
+    "time": "2012-05-23"
+  },
+  {
+    "place": "Bike Shop4a58f57ef964a5204db81fe3",
+    "time": "2012-05-25"
+  },
+  {
+    "place": "Home (private)4c02c1fa0d0e0f47d69a019a",
+    "time": "2012-05-26"
+  },
+  {
+    "place": "Home (private)4a7e64e5f964a520ddf11fe3",
+    "time": "2012-05-26"
+  },
+  {
+    "place": "Burger Joint40e74880f964a520150a1fe3",
+    "time": "2012-05-26"
+  },
+  {
+    "place": "Mexican Restaurant4f124493e4b019e992190aac",
+    "time": "2012-05-27"
+  },
+  {
+    "place": "Italian Restaurant49f20537f964a520d3691fe3",
+    "time": "2012-05-29"
+  },
+  {
+    "place": "Athletic & Sport4bcb451cfb84c9b678761e3e",
+    "time": "2012-06-02"
+  },
+  {
+    "place": "Home (private)4f2984abe4b0817afd3dc01f",
+    "time": "2012-06-03"
+  },
+  {
+    "place": "Mexican Restaurant4f124493e4b019e992190aac",
+    "time": "2012-06-03"
+  },
+  {
+    "place": "Bike Shop4be1df0087e42d7f1c28880b",
+    "time": "2012-06-03"
+  },
+  {
+    "place": "Bookstore4a8cc1d4f964a520130f20e3",
+    "time": "2012-06-05"
+  },
+  {
+    "place": "Chinese Restaurant4c2a81398abca59393c8fe1f",
+    "time": "2012-06-05"
+  },
+  {
+    "place": "Deli / Bodega4a60792ef964a520ccc01fe3",
+    "time": "2012-06-05"
+  },
+  {
+    "place": "Thai Restaurant49bc064ff964a5200a541fe3",
+    "time": "2012-06-06"
+  },
+  {
+    "place": "Bar4d531ddd7e0f8eec112b8ae4",
+    "time": "2012-06-07"
+  },
+  {
+    "place": "Indian Restaurant4593ed04f964a52050401fe3",
+    "time": "2012-06-07"
+  },
+  {
+    "place": "Other Great Outdoors4dd80993e4cd37c893bb2abf",
+    "time": "2012-06-09"
+  },
+  {
+    "place": "Park4be1dcc440c0ef3b2f5cbed6",
+    "time": "2012-06-10"
+  },
+  {
+    "place": "Home (private)4cfa3f7d2d80a1431a5543d8",
+    "time": "2012-06-10"
+  },
+  {
+    "place": "Coffee Shop4aa512c5f964a5205e4720e3",
+    "time": "2012-06-10"
+  },
+  {
+    "place": "Bar4d531ddd7e0f8eec112b8ae4",
+    "time": "2012-06-10"
+  },
+  {
+    "place": "Ramen /  Noodle House441519d7f964a520f7301fe3",
+    "time": "2012-06-11"
+  },
+  {
+    "place": "Thai Restaurant4b79cb6cf964a52084122fe3",
+    "time": "2012-06-11"
+  },
+  {
+    "place": "Airport4b8baecef964a520d8a632e3",
+    "time": "2012-06-13"
+  },
+  {
+    "place": "Airport4459d2f1f964a520d7321fe3",
+    "time": "2012-06-18"
+  },
+  {
+    "place": "Home (private)4cfa3f7d2d80a1431a5543d8",
+    "time": "2012-06-21"
+  },
+  {
+    "place": "Government Building4c052546187ec92814f8b77b",
+    "time": "2012-06-26"
+  },
+  {
+    "place": "Coffee Shop4b507f67f964a520352527e3",
+    "time": "2012-06-27"
+  },
+  {
+    "place": "Other Great Outdoors4ff4271ae4b0b8fda8c37cc8",
+    "time": "2012-07-04"
+  },
+  {
+    "place": "Sporting Goods Shop49e34b16f964a5206f621fe3",
+    "time": "2012-07-04"
+  },
+  {
+    "place": "Sandwich Place4a523c9df964a5206cb11fe3",
+    "time": "2012-07-04"
+  },
+  {
+    "place": "Home (private)4f298335e4b015f8e4bc8c16",
+    "time": "2012-07-05"
+  },
+  {
+    "place": "Thai Restaurant4b79cb6cf964a52084122fe3",
+    "time": "2012-07-05"
+  },
+  {
+    "place": "Salon / Barbershop4e3e0176814ddc29c42728c3",
+    "time": "2012-07-05"
+  },
+  {
+    "place": "Airport4c8ff86b04a1b60cba81a33e",
+    "time": "2012-07-06"
+  },
+  {
+    "place": "Home (private)4cfa3f7d2d80a1431a5543d8",
+    "time": "2012-07-12"
+  },
+  {
+    "place": "Coffee Shop4b507f67f964a520352527e3",
+    "time": "2012-07-16"
+  },
+  {
+    "place": "Concert Hall4aa8e8b1f964a520c35120e3",
+    "time": "2012-07-28"
+  },
+  {
+    "place": "Indian Restaurant4bc0e66c920eb71372cf192c",
+    "time": "2012-07-28"
+  },
+  {
+    "place": "Food & Drink Shop4a81ea98f964a520f6f71fe3",
+    "time": "2012-07-29"
+  },
+  {
+    "place": "Bike Shop4aa95e7af964a520525320e3",
+    "time": "2012-07-29"
+  },
+  {
+    "place": "Home (private)4d61b2e0b19fa1430cd205c9",
+    "time": "2012-07-30"
+  },
+  {
+    "place": "Coffee Shop4b507f67f964a520352527e3",
+    "time": "2012-07-30"
+  },
+  {
+    "place": "Sporting Goods Shop4e4e2e1662844166697bd28c",
+    "time": "2012-08-10"
+  },
+  {
+    "place": "Latin American Restaurant4a3692dbf964a520b69d1fe3",
+    "time": "2012-08-10"
+  },
+  {
+    "place": "Home (private)4cfa3f7d2d80a1431a5543d8",
+    "time": "2012-08-12"
+  },
+  {
+    "place": "Ramen /  Noodle House4e4bf6acd164d2bc73b4067e",
+    "time": "2012-08-14"
+  },
+  {
+    "place": "Plaza4dd1b0b845dd9197fae58b04",
+    "time": "2012-08-19"
+  },
+  {
+    "place": "Plaza4dd1b0b845dd9197fae58b04",
+    "time": "2012-08-19"
+  },
+  {
+    "place": "German Restaurant4ca0d958e9a7ef3be3085416",
+    "time": "2012-08-18"
+  },
+  {
+    "place": "Bar45d78933f964a520e1421fe3",
+    "time": "2012-08-18"
+  },
+  {
+    "place": "Bar44e0fbfff964a52012371fe3",
+    "time": "2012-08-18"
+  },
+  {
+    "place": "Mexican Restaurant4f124493e4b019e992190aac",
+    "time": "2012-08-18"
+  },
+  {
+    "place": "Salon / Barbershop4e3e0176814ddc29c42728c3",
+    "time": "2012-08-18"
+  },
+  {
+    "place": "American Restaurant4e2f164a1f6ed9df901c8093",
+    "time": "2012-08-18"
+  },
+  {
+    "place": "Home (private)4c02c1fa0d0e0f47d69a019a",
+    "time": "2012-08-18"
+  },
+  {
+    "place": "Sporting Goods Shop4e4e2e1662844166697bd28c",
+    "time": "2012-08-18"
+  },
+  {
+    "place": "Home (private)503043c9e4b05159d594a676",
+    "time": "2012-08-19"
+  },
+  {
+    "place": "Bike Shop4aa95e7af964a520525320e3",
+    "time": "2012-09-05"
+  },
+  {
+    "place": "Mexican Restaurant4e4c4c9abd413c4cc668540a",
+    "time": "2012-09-13"
+  },
+  {
+    "place": "Thai Restaurant4b79cb6cf964a52084122fe3",
+    "time": "2012-10-03"
+  },
+  {
+    "place": "Italian Restaurant49f20537f964a520d3691fe3",
+    "time": "2012-10-11"
+  },
+  {
+    "place": "Bar50244fd2e4b0119b30effd06",
+    "time": "2012-10-12"
+  },
+  {
+    "place": "Home (private)4d162f36816af04d98db47c2",
+    "time": "2012-10-13"
+  },
+  {
+    "place": "Pizza Place4a639f9ff964a52077c51fe3",
+    "time": "2012-10-16"
+  },
+  {
+    "place": "Electronics Store4ca3ae4db0ff8cfad057b95e",
+    "time": "2012-10-17"
+  },
+  {
+    "place": "Burger Joint4c2bccc7d1a10f475a88f864",
+    "time": "2012-10-19"
+  },
+  {
+    "place": "Deli / Bodega4a60792ef964a520ccc01fe3",
+    "time": "2012-10-22"
+  },
+  {
+    "place": "Bike Shop4aa95e7af964a520525320e3",
+    "time": "2012-10-24"
+  },
+  {
+    "place": "Indian Restaurant427ea800f964a520b0211fe3",
+    "time": "2012-10-25"
+  },
+  {
+    "place": "Ice Cream Shop49d936c8f964a520135e1fe3",
+    "time": "2012-10-25"
+  },
+  {
+    "place": "Home (private)4cfda4b97945224b5a9c91e7",
+    "time": "2012-10-26"
+  },
+  {
+    "place": "Mexican Restaurant4f124493e4b019e992190aac",
+    "time": "2012-10-27"
+  },
+  {
+    "place": "Bar4be367f82fc7d13aa08a083a",
+    "time": "2012-10-27"
+  },
+  {
+    "place": "Ice Cream Shop4b30200ef964a5207ff624e3",
+    "time": "2012-10-27"
+  },
+  {
+    "place": "Indian Restaurant444e0033f964a52090321fe3",
+    "time": "2012-10-27"
+  },
+  {
+    "place": "Bar47bd72ecf964a520d84d1fe3",
+    "time": "2012-10-28"
+  },
+  {
+    "place": "Bar42699000f964a52049211fe3",
+    "time": "2012-11-02"
+  },
+  {
+    "place": "Thai Restaurant4b79cb6cf964a52084122fe3",
+    "time": "2012-11-05"
+  }
+]

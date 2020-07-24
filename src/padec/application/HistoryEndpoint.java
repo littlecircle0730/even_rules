@@ -2,6 +2,7 @@ package padec.application;
 
 import com.google.gson.Gson;
 import padec.util.Pair;
+import padec.util.Triplet;
 
 import java.io.FileReader;
 import java.io.IOException;
@@ -25,10 +26,12 @@ public class HistoryEndpoint implements Endpoint<List<Pair<String, Date>>> {
             SimpleDateFormat parser = new SimpleDateFormat("yyyy-MM-dd");
             fr.close();
             for (Map m : mList) {
-                Pair<String, Date> nPair = new Pair<>();
-                nPair.setA((String) m.get("place"));
-                nPair.setB(parser.parse((String) m.get("time")));
-                history.add(nPair);
+                //Pair<String, Date> nPair = new Pair<>();
+                Triplet<String, Date, Double> nTriple = new Triplet<>();
+                nTriple.setA((String) m.get("place"));
+                nTriple.setB(parser.parse((String) m.get("time")));
+                nTriple.setC((Double) m.getOrDefault("rating", -1.0));
+                history.add(nTriple);
             }
             sort();
         } catch (IOException | ParseException e) {

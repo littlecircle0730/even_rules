@@ -1,0 +1,610 @@
+[
+  {
+    "place": "Pizza Place4b083d08f964a520020723e3",
+    "time": "2012-04-08"
+  },
+  {
+    "place": "Subway4b8f50d9f964a520365133e3",
+    "time": "2012-04-09"
+  },
+  {
+    "place": "Mexican Restaurant4ee8e058f790a9d738d62d70",
+    "time": "2012-04-09"
+  },
+  {
+    "place": "Deli / Bodega4c3b5b4a1a1cd13a533ab60d",
+    "time": "2012-04-09"
+  },
+  {
+    "place": "Bagel Shop4c29d600fe6e2d7f8558553c",
+    "time": "2012-04-10"
+  },
+  {
+    "place": "Building4d384e769784a0931000dfe8",
+    "time": "2012-04-11"
+  },
+  {
+    "place": "Deli / Bodega4c52d5d4250dd13af8854b7f",
+    "time": "2012-04-11"
+  },
+  {
+    "place": "Dessert Shop4c15539e77cea593430ed260",
+    "time": "2012-04-11"
+  },
+  {
+    "place": "Building4bf732388d30d13aa1a5fe17",
+    "time": "2012-04-13"
+  },
+  {
+    "place": "Train Station4bda0466c79cc928bd117de9",
+    "time": "2012-04-13"
+  },
+  {
+    "place": "Bank4c3c98d37d002d7f01a4ae18",
+    "time": "2012-04-13"
+  },
+  {
+    "place": "Wings Joint45e5c256f964a52046431fe3",
+    "time": "2012-04-13"
+  },
+  {
+    "place": "Deli / Bodega4c3b5b4a1a1cd13a533ab60d",
+    "time": "2012-04-13"
+  },
+  {
+    "place": "Subway4cbfbedea0c4f04d1e085731",
+    "time": "2012-04-13"
+  },
+  {
+    "place": "Food4ddeb3af227106a58b920337",
+    "time": "2012-04-14"
+  },
+  {
+    "place": "Playground4d9a1b381a29a1cdffec6802",
+    "time": "2012-04-14"
+  },
+  {
+    "place": "Food & Drink Shop4eea5d6cf79057ab401f259b",
+    "time": "2012-04-14"
+  },
+  {
+    "place": "Building4d384e769784a0931000dfe8",
+    "time": "2012-04-16"
+  },
+  {
+    "place": "Deli / Bodega4c3b5b4a1a1cd13a533ab60d",
+    "time": "2012-04-16"
+  },
+  {
+    "place": "Building4d384e769784a0931000dfe8",
+    "time": "2012-04-17"
+  },
+  {
+    "place": "American Restaurant4bbc8199e45295211ef055a4",
+    "time": "2012-04-17"
+  },
+  {
+    "place": "Neighborhood4acf58baf964a52028d320e3",
+    "time": "2012-04-17"
+  },
+  {
+    "place": "American Restaurant4bbc8199e45295211ef055a4",
+    "time": "2012-04-18"
+  },
+  {
+    "place": "Park3fd66200f964a520d8f11ee3",
+    "time": "2012-04-18"
+  },
+  {
+    "place": "Subway4da67357fa8c94f8b84febaa",
+    "time": "2012-04-18"
+  },
+  {
+    "place": "Fast Food Restaurant4c0658e891d776b03cadf8f9",
+    "time": "2012-04-19"
+  },
+  {
+    "place": "Subway4cbfbedea0c4f04d1e085731",
+    "time": "2012-04-19"
+  },
+  {
+    "place": "Building4d384e769784a0931000dfe8",
+    "time": "2012-04-19"
+  },
+  {
+    "place": "Deli / Bodega4c3b5b4a1a1cd13a533ab60d",
+    "time": "2012-04-19"
+  },
+  {
+    "place": "Deli / Bodega4c52d5d4250dd13af8854b7f",
+    "time": "2012-04-19"
+  },
+  {
+    "place": "Park3fd66200f964a520d8f11ee3",
+    "time": "2012-04-19"
+  },
+  {
+    "place": "Train Station4d069c5be350b60c7c428e42",
+    "time": "2012-04-19"
+  },
+  {
+    "place": "Train Station4ec8f488d3e3e131f3fa6fa6",
+    "time": "2012-04-20"
+  },
+  {
+    "place": "Building4d384e769784a0931000dfe8",
+    "time": "2012-04-20"
+  },
+  {
+    "place": "Pizza Place4c5b0941b05c1b8dffb9d9b1",
+    "time": "2012-04-20"
+  },
+  {
+    "place": "Convenience Store4b3d4ee9f964a520189225e3",
+    "time": "2012-04-20"
+  },
+  {
+    "place": "Bakery4b4e5f3ef964a5204deb26e3",
+    "time": "2012-04-21"
+  },
+  {
+    "place": "Subway4b8f50d9f964a520365133e3",
+    "time": "2012-04-23"
+  },
+  {
+    "place": "Subway4a4d10fbf964a52082ad1fe3",
+    "time": "2012-04-23"
+  },
+  {
+    "place": "Subway4aaa4e0ef964a520ad5520e3",
+    "time": "2012-04-23"
+  },
+  {
+    "place": "Bagel Shop4c29d600fe6e2d7f8558553c",
+    "time": "2012-04-24"
+  },
+  {
+    "place": "Subway4a4d10fbf964a52082ad1fe3",
+    "time": "2012-04-24"
+  },
+  {
+    "place": "Building4d384e769784a0931000dfe8",
+    "time": "2012-04-24"
+  },
+  {
+    "place": "Subway4b8f50d9f964a520365133e3",
+    "time": "2012-04-25"
+  },
+  {
+    "place": "Bakery4b4cf986f964a5203ec626e3",
+    "time": "2012-04-25"
+  },
+  {
+    "place": "Neighborhood4acf58baf964a52028d320e3",
+    "time": "2012-04-25"
+  },
+  {
+    "place": "Subway4b8f50d9f964a520365133e3",
+    "time": "2012-04-26"
+  },
+  {
+    "place": "Train Station4ec8f488d3e3e131f3fa6fa6",
+    "time": "2012-04-27"
+  },
+  {
+    "place": "Deli / Bodega4c52d5d4250dd13af8854b7f",
+    "time": "2012-04-27"
+  },
+  {
+    "place": "Mexican Restaurant4ee8e058f790a9d738d62d70",
+    "time": "2012-04-27"
+  },
+  {
+    "place": "Subway4a5a62dff964a52041ba1fe3",
+    "time": "2012-04-27"
+  },
+  {
+    "place": "Building4d384e769784a0931000dfe8",
+    "time": "2012-05-01"
+  },
+  {
+    "place": "Train Station4d069c5be350b60c7c428e42",
+    "time": "2012-05-01"
+  },
+  {
+    "place": "Building4d384e769784a0931000dfe8",
+    "time": "2012-05-03"
+  },
+  {
+    "place": "Dessert Shop4c15539e77cea593430ed260",
+    "time": "2012-05-03"
+  },
+  {
+    "place": "Convenience Store4b3d4ee9f964a520189225e3",
+    "time": "2012-05-03"
+  },
+  {
+    "place": "Deli / Bodega4c52d5d4250dd13af8854b7f",
+    "time": "2012-05-03"
+  },
+  {
+    "place": "Subway4b8f50d9f964a520365133e3",
+    "time": "2012-05-04"
+  },
+  {
+    "place": "Building4aef2a26f964a52037d621e3",
+    "time": "2012-05-04"
+  },
+  {
+    "place": "Other Great Outdoors4e93e087d5fb27b8eadcd97e",
+    "time": "2012-05-04"
+  },
+  {
+    "place": "Subway4b8f50d9f964a520365133e3",
+    "time": "2012-05-07"
+  },
+  {
+    "place": "Dessert Shop4c15539e77cea593430ed260",
+    "time": "2012-05-07"
+  },
+  {
+    "place": "Pizza Place4c3603243849c9288047bbb1",
+    "time": "2012-05-07"
+  },
+  {
+    "place": "Building4d384e769784a0931000dfe8",
+    "time": "2012-05-08"
+  },
+  {
+    "place": "Cuban Restaurant4b311e89f964a520890025e3",
+    "time": "2012-05-08"
+  },
+  {
+    "place": "Building4d384e769784a0931000dfe8",
+    "time": "2012-05-08"
+  },
+  {
+    "place": "Subway4bad3de2f964a520233d3be3",
+    "time": "2012-05-08"
+  },
+  {
+    "place": "Building4d384e769784a0931000dfe8",
+    "time": "2012-05-09"
+  },
+  {
+    "place": "Dessert Shop4c15539e77cea593430ed260",
+    "time": "2012-05-09"
+  },
+  {
+    "place": "Asian Restaurant4cab84552f08236ad7088761",
+    "time": "2012-05-10"
+  },
+  {
+    "place": "Building4d384e769784a0931000dfe8",
+    "time": "2012-05-11"
+  },
+  {
+    "place": "Subway4b8f50d9f964a520365133e3",
+    "time": "2012-05-14"
+  },
+  {
+    "place": "Building4d384e769784a0931000dfe8",
+    "time": "2012-05-14"
+  },
+  {
+    "place": "Bank4c3c98d37d002d7f01a4ae18",
+    "time": "2012-05-14"
+  },
+  {
+    "place": "Sandwich Place4f4d2593e4b00b42c3f1060f",
+    "time": "2012-05-14"
+  },
+  {
+    "place": "Bagel Shop4c29d600fe6e2d7f8558553c",
+    "time": "2012-05-14"
+  },
+  {
+    "place": "Subway4b8f50d9f964a520365133e3",
+    "time": "2012-05-15"
+  },
+  {
+    "place": "Sushi Restaurant4b17f931f964a52098ca23e3",
+    "time": "2012-05-15"
+  },
+  {
+    "place": "Subway4b8f50d9f964a520365133e3",
+    "time": "2012-05-16"
+  },
+  {
+    "place": "Mexican Restaurant4ee8e058f790a9d738d62d70",
+    "time": "2012-05-16"
+  },
+  {
+    "place": "Fast Food Restaurant4e8a68d78b810d88925d1c00",
+    "time": "2012-05-17"
+  },
+  {
+    "place": "Government Building4d014598432f5481a6c8c154",
+    "time": "2012-05-17"
+  },
+  {
+    "place": "Deli / Bodega4c3b5b4a1a1cd13a533ab60d",
+    "time": "2012-05-17"
+  },
+  {
+    "place": "Dessert Shop4c15539e77cea593430ed260",
+    "time": "2012-05-17"
+  },
+  {
+    "place": "Bagel Shop4c29d600fe6e2d7f8558553c",
+    "time": "2012-05-18"
+  },
+  {
+    "place": "Pizza Place4ba6722cf964a520525339e3",
+    "time": "2012-05-19"
+  },
+  {
+    "place": "Building4d384e769784a0931000dfe8",
+    "time": "2012-05-21"
+  },
+  {
+    "place": "Subway4a4d10fbf964a52082ad1fe3",
+    "time": "2012-05-25"
+  },
+  {
+    "place": "Fast Food Restaurant4e823597775b368bbbffb549",
+    "time": "2012-05-25"
+  },
+  {
+    "place": "Subway4b8f50d9f964a520365133e3",
+    "time": "2012-06-01"
+  },
+  {
+    "place": "High School4b0bcf56f964a520d13323e3",
+    "time": "2012-06-02"
+  },
+  {
+    "place": "Subway4b8f50d9f964a520365133e3",
+    "time": "2012-06-04"
+  },
+  {
+    "place": "Taco Place4c64885eb85bef3b7697e043",
+    "time": "2012-06-04"
+  },
+  {
+    "place": "Subway4b8f50d9f964a520365133e3",
+    "time": "2012-06-05"
+  },
+  {
+    "place": "Subway4b8f50d9f964a520365133e3",
+    "time": "2012-06-06"
+  },
+  {
+    "place": "Deli / Bodega4c52d5d4250dd13af8854b7f",
+    "time": "2012-06-06"
+  },
+  {
+    "place": "Sushi Restaurant4b17f931f964a52098ca23e3",
+    "time": "2012-06-06"
+  },
+  {
+    "place": "Dessert Shop4c15539e77cea593430ed260",
+    "time": "2012-06-06"
+  },
+  {
+    "place": "Subway4b8f50d9f964a520365133e3",
+    "time": "2012-06-07"
+  },
+  {
+    "place": "Building4d384e769784a0931000dfe8",
+    "time": "2012-06-07"
+  },
+  {
+    "place": "Government Building4d014598432f5481a6c8c154",
+    "time": "2012-06-07"
+  },
+  {
+    "place": "Pizza Place4c3603243849c9288047bbb1",
+    "time": "2012-06-07"
+  },
+  {
+    "place": "American Restaurant4bbc8199e45295211ef055a4",
+    "time": "2012-06-07"
+  },
+  {
+    "place": "Train Station4bda0466c79cc928bd117de9",
+    "time": "2012-06-08"
+  },
+  {
+    "place": "Burger Joint4eeb4c51775b1d4812e0261c",
+    "time": "2012-06-08"
+  },
+  {
+    "place": "Subway4b7d7a14f964a520f2c02fe3",
+    "time": "2012-06-09"
+  },
+  {
+    "place": "Subway4b8f50d9f964a520365133e3",
+    "time": "2012-06-11"
+  },
+  {
+    "place": "Subway4aaa4e0ef964a520ad5520e3",
+    "time": "2012-06-11"
+  },
+  {
+    "place": "Building4aef2a26f964a52037d621e3",
+    "time": "2012-06-11"
+  },
+  {
+    "place": "Coffee Shop49c79540f964a520af571fe3",
+    "time": "2012-06-11"
+  },
+  {
+    "place": "Subway4a4d10fbf964a52082ad1fe3",
+    "time": "2012-06-12"
+  },
+  {
+    "place": "Deli / Bodega4c52d5d4250dd13af8854b7f",
+    "time": "2012-06-12"
+  },
+  {
+    "place": "American Restaurant4bbc8199e45295211ef055a4",
+    "time": "2012-06-13"
+  },
+  {
+    "place": "Building4d384e769784a0931000dfe8",
+    "time": "2012-06-18"
+  },
+  {
+    "place": "Subway4b8f50d9f964a520365133e3",
+    "time": "2012-06-21"
+  },
+  {
+    "place": "Subway4b8f50d9f964a520365133e3",
+    "time": "2012-07-03"
+  },
+  {
+    "place": "Building4d384e769784a0931000dfe8",
+    "time": "2012-07-05"
+  },
+  {
+    "place": "Train Station4d069c5be350b60c7c428e42",
+    "time": "2012-07-06"
+  },
+  {
+    "place": "Subway4b8f50d9f964a520365133e3",
+    "time": "2012-07-09"
+  },
+  {
+    "place": "Pizza Place4c3603243849c9288047bbb1",
+    "time": "2012-07-09"
+  },
+  {
+    "place": "Subway4b8f50d9f964a520365133e3",
+    "time": "2012-07-11"
+  },
+  {
+    "place": "Sandwich Place4f4d2593e4b00b42c3f1060f",
+    "time": "2012-07-11"
+  },
+  {
+    "place": "Salon / Barbershop4bdc5f74fed22d7ff3db57c9",
+    "time": "2012-07-11"
+  },
+  {
+    "place": "Subway4b8f50d9f964a520365133e3",
+    "time": "2012-07-12"
+  },
+  {
+    "place": "Building4d384e769784a0931000dfe8",
+    "time": "2012-07-12"
+  },
+  {
+    "place": "Subway4b8f50d9f964a520365133e3",
+    "time": "2012-07-13"
+  },
+  {
+    "place": "Subway4b8f50d9f964a520365133e3",
+    "time": "2012-07-17"
+  },
+  {
+    "place": "Deli / Bodega4c3b5b4a1a1cd13a533ab60d",
+    "time": "2012-07-17"
+  },
+  {
+    "place": "Subway4b8f50d9f964a520365133e3",
+    "time": "2012-07-18"
+  },
+  {
+    "place": "Subway4b8f50d9f964a520365133e3",
+    "time": "2012-07-30"
+  },
+  {
+    "place": "Subway4b8f50d9f964a520365133e3",
+    "time": "2012-08-06"
+  },
+  {
+    "place": "Building4d384e769784a0931000dfe8",
+    "time": "2012-08-09"
+  },
+  {
+    "place": "Subway4b8f50d9f964a520365133e3",
+    "time": "2012-08-20"
+  },
+  {
+    "place": "Building4d384e769784a0931000dfe8",
+    "time": "2012-08-20"
+  },
+  {
+    "place": "Pizza Place4b083d08f964a520020723e3",
+    "time": "2012-08-17"
+  },
+  {
+    "place": "Train Station4d069c5be350b60c7c428e42",
+    "time": "2012-10-16"
+  },
+  {
+    "place": "Government Building4d014598432f5481a6c8c154",
+    "time": "2012-10-25"
+  },
+  {
+    "place": "Train Station4ec8f488d3e3e131f3fa6fa6",
+    "time": "2012-10-26"
+  },
+  {
+    "place": "Road4b8725e0f964a52034b331e3",
+    "time": "2012-10-27"
+  },
+  {
+    "place": "Government Building4d014598432f5481a6c8c154",
+    "time": "2012-11-20"
+  },
+  {
+    "place": "Government Building4d014598432f5481a6c8c154",
+    "time": "2012-11-27"
+  },
+  {
+    "place": "Dessert Shop4c15539e77cea593430ed260",
+    "time": "2012-11-28"
+  },
+  {
+    "place": "Dessert Shop4c15539e77cea593430ed260",
+    "time": "2012-11-30"
+  },
+  {
+    "place": "City4acf58baf964a52028d320e3",
+    "time": "2012-11-30"
+  },
+  {
+    "place": "Dessert Shop4c15539e77cea593430ed260",
+    "time": "2012-12-10"
+  },
+  {
+    "place": "Subway4b8f50d9f964a520365133e3",
+    "time": "2012-12-11"
+  },
+  {
+    "place": "Subway4b8f50d9f964a520365133e3",
+    "time": "2013-01-11"
+  },
+  {
+    "place": "Building4d384e769784a0931000dfe8",
+    "time": "2013-01-21"
+  },
+  {
+    "place": "Building4bf732388d30d13aa1a5fe17",
+    "time": "2013-02-05"
+  },
+  {
+    "place": "Subway4b8f50d9f964a520365133e3",
+    "time": "2013-02-06"
+  },
+  {
+    "place": "Train Station4d069c5be350b60c7c428e42",
+    "time": "2013-02-07"
+  },
+  {
+    "place": "Subway4aaa4e0ef964a520ad5520e3",
+    "time": "2013-02-12"
+  }
+]

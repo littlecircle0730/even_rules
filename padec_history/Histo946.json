@@ -1,0 +1,562 @@
+[
+  {
+    "place": "Neighborhood4c97edbdf419a09395806b88",
+    "time": "2012-05-06"
+  },
+  {
+    "place": "Sushi Restaurant4b6708f9f964a52022362be3",
+    "time": "2012-05-06"
+  },
+  {
+    "place": "Bar4d36253dcea8b60c562116f8",
+    "time": "2012-05-07"
+  },
+  {
+    "place": "Spa / Massage4bb3fc48bd4b9c74f63e32f5",
+    "time": "2012-05-07"
+  },
+  {
+    "place": "Salon / Barbershop4cd81afca423a35dd914ea42",
+    "time": "2012-05-08"
+  },
+  {
+    "place": "Donut Shop4c393d4bedba9521bc49d625",
+    "time": "2012-05-09"
+  },
+  {
+    "place": "Salon / Barbershop4cd81afca423a35dd914ea42",
+    "time": "2012-05-11"
+  },
+  {
+    "place": "Tattoo Parlor4afddd81f964a520952b22e3",
+    "time": "2012-05-11"
+  },
+  {
+    "place": "Salon / Barbershop4cd81afca423a35dd914ea42",
+    "time": "2012-05-12"
+  },
+  {
+    "place": "Bar4a14b2acf964a52066781fe3",
+    "time": "2012-05-13"
+  },
+  {
+    "place": "Home (private)4fb18686e4b0119ccdadc772",
+    "time": "2012-05-14"
+  },
+  {
+    "place": "Gym / Fitness Center4b48d6b6f964a520675926e3",
+    "time": "2012-05-15"
+  },
+  {
+    "place": "Salon / Barbershop4cd81afca423a35dd914ea42",
+    "time": "2012-05-15"
+  },
+  {
+    "place": "Donut Shop4c393d4bedba9521bc49d625",
+    "time": "2012-05-16"
+  },
+  {
+    "place": "Salon / Barbershop4cd81afca423a35dd914ea42",
+    "time": "2012-05-17"
+  },
+  {
+    "place": "Salon / Barbershop4cd81afca423a35dd914ea42",
+    "time": "2012-05-18"
+  },
+  {
+    "place": "Salon / Barbershop4cd81afca423a35dd914ea42",
+    "time": "2012-05-19"
+  },
+  {
+    "place": "Bagel Shop4b5c5b33f964a520392c29e3",
+    "time": "2012-05-21"
+  },
+  {
+    "place": "Home (private)4fb18686e4b0119ccdadc772",
+    "time": "2012-05-21"
+  },
+  {
+    "place": "Salon / Barbershop4cd81afca423a35dd914ea42",
+    "time": "2012-05-25"
+  },
+  {
+    "place": "Home (private)4fb18686e4b0119ccdadc772",
+    "time": "2012-05-26"
+  },
+  {
+    "place": "Home (private)4fb18686e4b0119ccdadc772",
+    "time": "2012-05-27"
+  },
+  {
+    "place": "Bar4b5744a9f964a520582e28e3",
+    "time": "2012-05-28"
+  },
+  {
+    "place": "Food & Drink Shop49c27575f964a520f1551fe3",
+    "time": "2012-05-28"
+  },
+  {
+    "place": "Other Great Outdoors4f502cbfe4b01fd34ecee965",
+    "time": "2012-05-28"
+  },
+  {
+    "place": "Home (private)4fb18686e4b0119ccdadc772",
+    "time": "2012-05-28"
+  },
+  {
+    "place": "Diner4aee2d2df964a520b6d221e3",
+    "time": "2012-05-28"
+  },
+  {
+    "place": "Home (private)4fb18686e4b0119ccdadc772",
+    "time": "2012-05-29"
+  },
+  {
+    "place": "Funeral Home4f63e418e4b010d10c16973b",
+    "time": "2012-05-29"
+  },
+  {
+    "place": "Salon / Barbershop4cd81afca423a35dd914ea42",
+    "time": "2012-06-06"
+  },
+  {
+    "place": "American Restaurant4b01d8a0f964a520dc4522e3",
+    "time": "2012-06-06"
+  },
+  {
+    "place": "Salon / Barbershop4cd81afca423a35dd914ea42",
+    "time": "2012-06-07"
+  },
+  {
+    "place": "Gym / Fitness Center4b48d6b6f964a520675926e3",
+    "time": "2012-06-08"
+  },
+  {
+    "place": "Salon / Barbershop4cd81afca423a35dd914ea42",
+    "time": "2012-06-08"
+  },
+  {
+    "place": "Hotel4bb0d04cf964a520605f3ce3",
+    "time": "2012-06-09"
+  },
+  {
+    "place": "Italian Restaurant4c4e2c1c51c2c9284b25ee9d",
+    "time": "2012-06-09"
+  },
+  {
+    "place": "Bar42225f00f964a520ae1f1fe3",
+    "time": "2012-06-10"
+  },
+  {
+    "place": "Bar42225f00f964a520ae1f1fe3",
+    "time": "2012-06-10"
+  },
+  {
+    "place": "Hotel4f8a8bf3e4b005979f47e202",
+    "time": "2012-06-11"
+  },
+  {
+    "place": "Salon / Barbershop4cd81afca423a35dd914ea42",
+    "time": "2012-06-11"
+  },
+  {
+    "place": "Gym / Fitness Center4b48d6b6f964a520675926e3",
+    "time": "2012-06-11"
+  },
+  {
+    "place": "Bar4d36253dcea8b60c562116f8",
+    "time": "2012-06-11"
+  },
+  {
+    "place": "Spa / Massage4bb3fc48bd4b9c74f63e32f5",
+    "time": "2012-06-11"
+  },
+  {
+    "place": "Italian Restaurant4ad62c95f964a5208d0521e3",
+    "time": "2012-06-12"
+  },
+  {
+    "place": "Movie Theater4a0f1baef964a52026761fe3",
+    "time": "2012-06-12"
+  },
+  {
+    "place": "Bagel Shop4bfa763f8d30d13a40940318",
+    "time": "2012-06-13"
+  },
+  {
+    "place": "Salon / Barbershop4cd81afca423a35dd914ea42",
+    "time": "2012-06-13"
+  },
+  {
+    "place": "Restaurant4bae9bb0f964a5202ac63be3",
+    "time": "2012-06-13"
+  },
+  {
+    "place": "Home (private)4fb18686e4b0119ccdadc772",
+    "time": "2012-06-14"
+  },
+  {
+    "place": "Salon / Barbershop4cd81afca423a35dd914ea42",
+    "time": "2012-06-15"
+  },
+  {
+    "place": "American Restaurant3fd66200f964a520cee51ee3",
+    "time": "2012-06-17"
+  },
+  {
+    "place": "Bar42225f00f964a520ae1f1fe3",
+    "time": "2012-06-17"
+  },
+  {
+    "place": "Hotel4f8a8bf3e4b005979f47e202",
+    "time": "2012-06-17"
+  },
+  {
+    "place": "Hotel4f8a8bf3e4b005979f47e202",
+    "time": "2012-06-17"
+  },
+  {
+    "place": "Home (private)4fb18686e4b0119ccdadc772",
+    "time": "2012-06-17"
+  },
+  {
+    "place": "Bridge4a43c0aef964a520c6a61fe3",
+    "time": "2012-06-18"
+  },
+  {
+    "place": "Neighborhood4c97edbdf419a09395806b88",
+    "time": "2012-06-18"
+  },
+  {
+    "place": "Hotel4f8a8bf3e4b005979f47e202",
+    "time": "2012-06-18"
+  },
+  {
+    "place": "Home (private)4e81d2d97ee698e5875aa802",
+    "time": "2012-06-20"
+  },
+  {
+    "place": "Home (private)4fb18686e4b0119ccdadc772",
+    "time": "2012-06-20"
+  },
+  {
+    "place": "Home (private)4fb18686e4b0119ccdadc772",
+    "time": "2012-06-21"
+  },
+  {
+    "place": "Coffee Shop4b4ddddff964a520c5d926e3",
+    "time": "2012-06-21"
+  },
+  {
+    "place": "Salon / Barbershop4cd81afca423a35dd914ea42",
+    "time": "2012-06-26"
+  },
+  {
+    "place": "Salon / Barbershop4cd81afca423a35dd914ea42",
+    "time": "2012-06-27"
+  },
+  {
+    "place": "Salon / Barbershop4cd81afca423a35dd914ea42",
+    "time": "2012-07-09"
+  },
+  {
+    "place": "Home (private)4fb18686e4b0119ccdadc772",
+    "time": "2012-07-09"
+  },
+  {
+    "place": "Salon / Barbershop4cd81afca423a35dd914ea42",
+    "time": "2012-07-11"
+  },
+  {
+    "place": "Salon / Barbershop4cd81afca423a35dd914ea42",
+    "time": "2012-07-12"
+  },
+  {
+    "place": "American Restaurant4b01d8a0f964a520dc4522e3",
+    "time": "2012-07-13"
+  },
+  {
+    "place": "Gym / Fitness Center4b48d6b6f964a520675926e3",
+    "time": "2012-07-13"
+  },
+  {
+    "place": "Bar4d36253dcea8b60c562116f8",
+    "time": "2012-07-15"
+  },
+  {
+    "place": "Gym / Fitness Center4b48d6b6f964a520675926e3",
+    "time": "2012-07-16"
+  },
+  {
+    "place": "Bar4ec1975f775b98876efa9744",
+    "time": "2012-07-16"
+  },
+  {
+    "place": "Salon / Barbershop4cd81afca423a35dd914ea42",
+    "time": "2012-07-20"
+  },
+  {
+    "place": "Donut Shop4c393d4bedba9521bc49d625",
+    "time": "2012-07-20"
+  },
+  {
+    "place": "Other Great Outdoors5012d92ce4b0907580352189",
+    "time": "2012-07-28"
+  },
+  {
+    "place": "Bar423e0e80f964a52044201fe3",
+    "time": "2012-08-05"
+  },
+  {
+    "place": "Bridge4a43c0aef964a520c6a61fe3",
+    "time": "2012-08-09"
+  },
+  {
+    "place": "Bridge4a43c0aef964a520c6a61fe3",
+    "time": "2012-08-09"
+  },
+  {
+    "place": "Bar423e0e80f964a52044201fe3",
+    "time": "2012-08-13"
+  },
+  {
+    "place": "Gym / Fitness Center4b48d6b6f964a520675926e3",
+    "time": "2012-08-14"
+  },
+  {
+    "place": "Salon / Barbershop4cd81afca423a35dd914ea42",
+    "time": "2012-08-16"
+  },
+  {
+    "place": "Bar4d36253dcea8b60c562116f8",
+    "time": "2012-08-17"
+  },
+  {
+    "place": "Salon / Barbershop4cd81afca423a35dd914ea42",
+    "time": "2012-09-05"
+  },
+  {
+    "place": "Donut Shop4c393d4bedba9521bc49d625",
+    "time": "2012-09-05"
+  },
+  {
+    "place": "Salon / Barbershop4cd81afca423a35dd914ea42",
+    "time": "2012-10-12"
+  },
+  {
+    "place": "Bar4a3c2594f964a5202ba11fe3",
+    "time": "2012-10-12"
+  },
+  {
+    "place": "Bar4df59ce2ae609e69dda0d9a9",
+    "time": "2012-10-13"
+  },
+  {
+    "place": "Salon / Barbershop4cd81afca423a35dd914ea42",
+    "time": "2012-10-18"
+  },
+  {
+    "place": "Gym / Fitness Center4b48d6b6f964a520675926e3",
+    "time": "2012-10-23"
+  },
+  {
+    "place": "Gym / Fitness Center4b21714cf964a520e73b24e3",
+    "time": "2012-10-24"
+  },
+  {
+    "place": "Mexican Restaurant43ed7e9ef964a5204e2f1fe3",
+    "time": "2012-10-25"
+  },
+  {
+    "place": "Gym / Fitness Center4b48d6b6f964a520675926e3",
+    "time": "2012-10-25"
+  },
+  {
+    "place": "Church4cfbc817d8468cfa0d84f66b",
+    "time": "2012-10-25"
+  },
+  {
+    "place": "Home (private)4fb18686e4b0119ccdadc772",
+    "time": "2012-10-26"
+  },
+  {
+    "place": "Road4a4821f5f964a52095aa1fe3",
+    "time": "2012-10-31"
+  },
+  {
+    "place": "Bridal Shop5035904ce4b092ec431660ac",
+    "time": "2012-10-31"
+  },
+  {
+    "place": "Burger Joint4b1e9b16f964a520751c24e3",
+    "time": "2012-11-05"
+  },
+  {
+    "place": "Bar4ed34551754ad8083f6fd853",
+    "time": "2012-11-11"
+  },
+  {
+    "place": "Bar4b5744a9f964a520582e28e3",
+    "time": "2012-11-12"
+  },
+  {
+    "place": "Park4a6c8461f964a520afd01fe3",
+    "time": "2012-11-12"
+  },
+  {
+    "place": "Park4a6c8461f964a520afd01fe3",
+    "time": "2012-11-12"
+  },
+  {
+    "place": "Bar50a0c8afe4b00adc5f86c126",
+    "time": "2012-11-12"
+  },
+  {
+    "place": "Donut Shop4c12a5d9a5eb76b09a90beb7",
+    "time": "2012-11-12"
+  },
+  {
+    "place": "Salon / Barbershop4cd81afca423a35dd914ea42",
+    "time": "2012-11-17"
+  },
+  {
+    "place": "Bar4ec1975f775b98876efa9744",
+    "time": "2012-11-18"
+  },
+  {
+    "place": "Salon / Barbershop4cd81afca423a35dd914ea42",
+    "time": "2012-11-19"
+  },
+  {
+    "place": "Salon / Barbershop4cd81afca423a35dd914ea42",
+    "time": "2012-11-20"
+  },
+  {
+    "place": "Bar42225f00f964a520ae1f1fe3",
+    "time": "2012-11-22"
+  },
+  {
+    "place": "Home (private)4e81d2d97ee698e5875aa802",
+    "time": "2012-11-22"
+  },
+  {
+    "place": "Salon / Barbershop4cd81afca423a35dd914ea42",
+    "time": "2012-11-30"
+  },
+  {
+    "place": "Bar42225f00f964a520ae1f1fe3",
+    "time": "2012-12-02"
+  },
+  {
+    "place": "Bar4f408d40e4b080aa784cb69b",
+    "time": "2012-12-02"
+  },
+  {
+    "place": "Bridal Shop5035904ce4b092ec431660ac",
+    "time": "2012-12-03"
+  },
+  {
+    "place": "Bar49c180edf964a520af551fe3",
+    "time": "2012-12-03"
+  },
+  {
+    "place": "Salon / Barbershop4cd81afca423a35dd914ea42",
+    "time": "2012-12-04"
+  },
+  {
+    "place": "Plaza49b79f54f964a5202c531fe3",
+    "time": "2012-12-06"
+  },
+  {
+    "place": "Bar505b3f57e4b0c1e23aa7cd5e",
+    "time": "2012-12-09"
+  },
+  {
+    "place": "Bar4eec0f6d722ea77616031adc",
+    "time": "2012-12-09"
+  },
+  {
+    "place": "Bar4ed34551754ad8083f6fd853",
+    "time": "2012-12-09"
+  },
+  {
+    "place": "Salon / Barbershop4cd81afca423a35dd914ea42",
+    "time": "2012-12-11"
+  },
+  {
+    "place": "Salon / Barbershop4cd81afca423a35dd914ea42",
+    "time": "2012-12-14"
+  },
+  {
+    "place": "Funeral Home4f63e418e4b010d10c16973b",
+    "time": "2012-12-16"
+  },
+  {
+    "place": "Bar4ed34551754ad8083f6fd853",
+    "time": "2012-12-16"
+  },
+  {
+    "place": "Bar4ec1975f775b98876efa9744",
+    "time": "2012-12-16"
+  },
+  {
+    "place": "Salon / Barbershop4cd81afca423a35dd914ea42",
+    "time": "2012-12-21"
+  },
+  {
+    "place": "Salon / Barbershop4cd81afca423a35dd914ea42",
+    "time": "2012-12-29"
+  },
+  {
+    "place": "Bar4ed34551754ad8083f6fd853",
+    "time": "2012-12-30"
+  },
+  {
+    "place": "Bar42225f00f964a520ae1f1fe3",
+    "time": "2013-01-03"
+  },
+  {
+    "place": "Diner4aee2d2df964a520b6d221e3",
+    "time": "2013-01-06"
+  },
+  {
+    "place": "American Restaurant4b01d8a0f964a520dc4522e3",
+    "time": "2013-01-11"
+  },
+  {
+    "place": "Bridal Shop5035904ce4b092ec431660ac",
+    "time": "2013-01-13"
+  },
+  {
+    "place": "Salon / Barbershop4cd81afca423a35dd914ea42",
+    "time": "2013-01-14"
+  },
+  {
+    "place": "Bar42225f00f964a520ae1f1fe3",
+    "time": "2013-01-27"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4f9db768e4b0d8e623b64cd4",
+    "time": "2013-01-27"
+  },
+  {
+    "place": "Salon / Barbershop4cd81afca423a35dd914ea42",
+    "time": "2013-01-30"
+  },
+  {
+    "place": "Bar50b9a34ce4b0c22ba965f7ff",
+    "time": "2013-01-31"
+  },
+  {
+    "place": "Bar505b3f57e4b0c1e23aa7cd5e",
+    "time": "2013-01-31"
+  },
+  {
+    "place": "Airport4459d2f1f964a520d7321fe3",
+    "time": "2013-01-31"
+  },
+  {
+    "place": "Event Space436d4780f964a520bd291fe3",
+    "time": "2013-02-12"
+  }
+]

@@ -1,0 +1,902 @@
+[
+  {
+    "place": "Food & Drink Shop4c23e755f7ced13a3dfd216d",
+    "time": "2012-04-03"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2012-04-04"
+  },
+  {
+    "place": "Food & Drink Shop4c23e755f7ced13a3dfd216d",
+    "time": "2012-04-04"
+  },
+  {
+    "place": "Pizza Place4bd23b3fcaff95216c6ed2f0",
+    "time": "2012-04-04"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2012-04-07"
+  },
+  {
+    "place": "Food & Drink Shop4c7541f11b30a093b5c6ee09",
+    "time": "2012-04-07"
+  },
+  {
+    "place": "Food & Drink Shop4c23e755f7ced13a3dfd216d",
+    "time": "2012-04-07"
+  },
+  {
+    "place": "Food & Drink Shop4c87cdcf3d15a1cdb37e1b28",
+    "time": "2012-04-07"
+  },
+  {
+    "place": "Food & Drink Shop4c23e755f7ced13a3dfd216d",
+    "time": "2012-04-08"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2012-04-09"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2012-04-11"
+  },
+  {
+    "place": "Electronics Store4bdf18206198c9b6bced15ff",
+    "time": "2012-04-11"
+  },
+  {
+    "place": "Drugstore / Pharmacy4bb7d645cf2fc9b608e39e02",
+    "time": "2012-04-13"
+  },
+  {
+    "place": "Food & Drink Shop4c23e755f7ced13a3dfd216d",
+    "time": "2012-04-13"
+  },
+  {
+    "place": "Pizza Place4bd23b3fcaff95216c6ed2f0",
+    "time": "2012-04-13"
+  },
+  {
+    "place": "Food & Drink Shop4c23e755f7ced13a3dfd216d",
+    "time": "2012-04-14"
+  },
+  {
+    "place": "Drugstore / Pharmacy4bb7d645cf2fc9b608e39e02",
+    "time": "2012-04-14"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2012-04-15"
+  },
+  {
+    "place": "Food & Drink Shop4c87cdcf3d15a1cdb37e1b28",
+    "time": "2012-04-15"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2012-04-16"
+  },
+  {
+    "place": "Food & Drink Shop4c87cdcf3d15a1cdb37e1b28",
+    "time": "2012-04-16"
+  },
+  {
+    "place": "Food & Drink Shop4c23e755f7ced13a3dfd216d",
+    "time": "2012-04-16"
+  },
+  {
+    "place": "Food & Drink Shop4c7541f11b30a093b5c6ee09",
+    "time": "2012-04-16"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2012-04-17"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2012-04-19"
+  },
+  {
+    "place": "Food & Drink Shop4c23e755f7ced13a3dfd216d",
+    "time": "2012-04-19"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2012-04-19"
+  },
+  {
+    "place": "Food & Drink Shop4c23e755f7ced13a3dfd216d",
+    "time": "2012-04-19"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2012-04-20"
+  },
+  {
+    "place": "Food & Drink Shop4c23e755f7ced13a3dfd216d",
+    "time": "2012-04-20"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2012-04-22"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2012-04-22"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2012-04-23"
+  },
+  {
+    "place": "Drugstore / Pharmacy4bb7d645cf2fc9b608e39e02",
+    "time": "2012-04-23"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2012-04-24"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2012-04-25"
+  },
+  {
+    "place": "Food & Drink Shop4c7541f11b30a093b5c6ee09",
+    "time": "2012-04-25"
+  },
+  {
+    "place": "Food & Drink Shop4c23e755f7ced13a3dfd216d",
+    "time": "2012-04-25"
+  },
+  {
+    "place": "Food & Drink Shop4c23e755f7ced13a3dfd216d",
+    "time": "2012-04-28"
+  },
+  {
+    "place": "Home (private)4da5e0887ccc816e1fbab07b",
+    "time": "2012-04-28"
+  },
+  {
+    "place": "Drugstore / Pharmacy4bb7d645cf2fc9b608e39e02",
+    "time": "2012-04-28"
+  },
+  {
+    "place": "Electronics Store4bdf18206198c9b6bced15ff",
+    "time": "2012-04-29"
+  },
+  {
+    "place": "Pizza Place4bd23b3fcaff95216c6ed2f0",
+    "time": "2012-04-29"
+  },
+  {
+    "place": "Electronics Store4bdf18206198c9b6bced15ff",
+    "time": "2012-04-29"
+  },
+  {
+    "place": "Home (private)4da5e0887ccc816e1fbab07b",
+    "time": "2012-04-29"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2012-05-01"
+  },
+  {
+    "place": "Building4d8ca2e41d06b1f710531d3b",
+    "time": "2012-05-01"
+  },
+  {
+    "place": "Post Office4c7655a7c219224bb4d8a428",
+    "time": "2012-05-03"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2012-05-03"
+  },
+  {
+    "place": "Food & Drink Shop4c23e755f7ced13a3dfd216d",
+    "time": "2012-05-03"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2012-05-04"
+  },
+  {
+    "place": "Food & Drink Shop4c23e755f7ced13a3dfd216d",
+    "time": "2012-05-04"
+  },
+  {
+    "place": "Drugstore / Pharmacy4bb7d645cf2fc9b608e39e02",
+    "time": "2012-05-04"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2012-05-05"
+  },
+  {
+    "place": "Pizza Place4bd23b3fcaff95216c6ed2f0",
+    "time": "2012-05-05"
+  },
+  {
+    "place": "Food & Drink Shop4c7541f11b30a093b5c6ee09",
+    "time": "2012-05-06"
+  },
+  {
+    "place": "Electronics Store4bdf18206198c9b6bced15ff",
+    "time": "2012-05-07"
+  },
+  {
+    "place": "Drugstore / Pharmacy4c60695d12e5c9284c231f4c",
+    "time": "2012-05-07"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2012-05-07"
+  },
+  {
+    "place": "Food & Drink Shop4c23e755f7ced13a3dfd216d",
+    "time": "2012-05-07"
+  },
+  {
+    "place": "Drugstore / Pharmacy4bb7d645cf2fc9b608e39e02",
+    "time": "2012-05-07"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2012-05-08"
+  },
+  {
+    "place": "Building4d8ca2e41d06b1f710531d3b",
+    "time": "2012-05-08"
+  },
+  {
+    "place": "Pizza Place4bd23b3fcaff95216c6ed2f0",
+    "time": "2012-05-08"
+  },
+  {
+    "place": "Food & Drink Shop4c23e755f7ced13a3dfd216d",
+    "time": "2012-05-08"
+  },
+  {
+    "place": "Food & Drink Shop4c7541f11b30a093b5c6ee09",
+    "time": "2012-05-08"
+  },
+  {
+    "place": "Drugstore / Pharmacy4bb7d645cf2fc9b608e39e02",
+    "time": "2012-05-11"
+  },
+  {
+    "place": "Miscellaneous Shop4b9e7b4ff964a520bde736e3",
+    "time": "2012-05-12"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2012-05-13"
+  },
+  {
+    "place": "Food & Drink Shop4c23e755f7ced13a3dfd216d",
+    "time": "2012-05-13"
+  },
+  {
+    "place": "Drugstore / Pharmacy4bb7d645cf2fc9b608e39e02",
+    "time": "2012-05-13"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2012-05-14"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2012-05-15"
+  },
+  {
+    "place": "Electronics Store4bdf18206198c9b6bced15ff",
+    "time": "2012-05-15"
+  },
+  {
+    "place": "Food & Drink Shop4c7541f11b30a093b5c6ee09",
+    "time": "2012-05-15"
+  },
+  {
+    "place": "Drugstore / Pharmacy4bb7d645cf2fc9b608e39e02",
+    "time": "2012-05-15"
+  },
+  {
+    "place": "Building4d8ca2e41d06b1f710531d3b",
+    "time": "2012-05-15"
+  },
+  {
+    "place": "Post Office4c7655a7c219224bb4d8a428",
+    "time": "2012-05-15"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2012-05-16"
+  },
+  {
+    "place": "Pizza Place4bd23b3fcaff95216c6ed2f0",
+    "time": "2012-05-16"
+  },
+  {
+    "place": "Food & Drink Shop4c23e755f7ced13a3dfd216d",
+    "time": "2012-05-16"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2012-05-17"
+  },
+  {
+    "place": "Pizza Place4bd23b3fcaff95216c6ed2f0",
+    "time": "2012-05-17"
+  },
+  {
+    "place": "Food & Drink Shop4c23e755f7ced13a3dfd216d",
+    "time": "2012-05-18"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2012-05-19"
+  },
+  {
+    "place": "Home (private)4da5e0887ccc816e1fbab07b",
+    "time": "2012-05-19"
+  },
+  {
+    "place": "Drugstore / Pharmacy4bb7d645cf2fc9b608e39e02",
+    "time": "2012-05-19"
+  },
+  {
+    "place": "Food & Drink Shop4c23e755f7ced13a3dfd216d",
+    "time": "2012-05-22"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2012-05-22"
+  },
+  {
+    "place": "Food & Drink Shop4c23e755f7ced13a3dfd216d",
+    "time": "2012-05-23"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2012-05-23"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2012-05-25"
+  },
+  {
+    "place": "Food & Drink Shop4c7541f11b30a093b5c6ee09",
+    "time": "2012-05-25"
+  },
+  {
+    "place": "Electronics Store4bdf18206198c9b6bced15ff",
+    "time": "2012-05-25"
+  },
+  {
+    "place": "Food & Drink Shop4c23e755f7ced13a3dfd216d",
+    "time": "2012-05-25"
+  },
+  {
+    "place": "Drugstore / Pharmacy4bb7d645cf2fc9b608e39e02",
+    "time": "2012-05-25"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2012-05-27"
+  },
+  {
+    "place": "Home (private)4da5e0887ccc816e1fbab07b",
+    "time": "2012-05-27"
+  },
+  {
+    "place": "Food & Drink Shop4c7541f11b30a093b5c6ee09",
+    "time": "2012-05-27"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2012-05-28"
+  },
+  {
+    "place": "Building4d8ca2e41d06b1f710531d3b",
+    "time": "2012-05-29"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2012-05-29"
+  },
+  {
+    "place": "Food & Drink Shop4c7541f11b30a093b5c6ee09",
+    "time": "2012-05-29"
+  },
+  {
+    "place": "Food & Drink Shop4c87cdcf3d15a1cdb37e1b28",
+    "time": "2012-05-29"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2012-05-31"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2012-06-01"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2012-06-02"
+  },
+  {
+    "place": "Pizza Place4bd23b3fcaff95216c6ed2f0",
+    "time": "2012-06-02"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2012-06-04"
+  },
+  {
+    "place": "Food & Drink Shop4c23e755f7ced13a3dfd216d",
+    "time": "2012-06-04"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2012-06-06"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2012-06-07"
+  },
+  {
+    "place": "Electronics Store4bdf18206198c9b6bced15ff",
+    "time": "2012-06-07"
+  },
+  {
+    "place": "Building4d8ca2e41d06b1f710531d3b",
+    "time": "2012-06-07"
+  },
+  {
+    "place": "Drugstore / Pharmacy4bb7d645cf2fc9b608e39e02",
+    "time": "2012-06-07"
+  },
+  {
+    "place": "Electronics Store4bdf18206198c9b6bced15ff",
+    "time": "2012-06-08"
+  },
+  {
+    "place": "Food & Drink Shop4c23e755f7ced13a3dfd216d",
+    "time": "2012-06-09"
+  },
+  {
+    "place": "Drugstore / Pharmacy4bb7d645cf2fc9b608e39e02",
+    "time": "2012-06-09"
+  },
+  {
+    "place": "Electronics Store4bdf18206198c9b6bced15ff",
+    "time": "2012-06-10"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2012-06-11"
+  },
+  {
+    "place": "Electronics Store4bdf18206198c9b6bced15ff",
+    "time": "2012-06-12"
+  },
+  {
+    "place": "Food & Drink Shop4c23e755f7ced13a3dfd216d",
+    "time": "2012-06-12"
+  },
+  {
+    "place": "Pizza Place4bd23b3fcaff95216c6ed2f0",
+    "time": "2012-06-13"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2012-06-13"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2012-06-17"
+  },
+  {
+    "place": "Food & Drink Shop4c23e755f7ced13a3dfd216d",
+    "time": "2012-06-17"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2012-06-18"
+  },
+  {
+    "place": "Food & Drink Shop4c23e755f7ced13a3dfd216d",
+    "time": "2012-06-18"
+  },
+  {
+    "place": "Food & Drink Shop4c23e755f7ced13a3dfd216d",
+    "time": "2012-06-26"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2012-07-02"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2012-07-03"
+  },
+  {
+    "place": "Pizza Place4bd23b3fcaff95216c6ed2f0",
+    "time": "2012-07-03"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2012-07-04"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2012-07-05"
+  },
+  {
+    "place": "Drugstore / Pharmacy4bb7d645cf2fc9b608e39e02",
+    "time": "2012-07-05"
+  },
+  {
+    "place": "Home (private)4da5e0887ccc816e1fbab07b",
+    "time": "2012-07-06"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2012-07-07"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2012-07-08"
+  },
+  {
+    "place": "Drugstore / Pharmacy4bb7d645cf2fc9b608e39e02",
+    "time": "2012-07-08"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2012-07-10"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2012-07-11"
+  },
+  {
+    "place": "Electronics Store4bdf18206198c9b6bced15ff",
+    "time": "2012-07-13"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2012-07-13"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2012-07-15"
+  },
+  {
+    "place": "Food & Drink Shop4c87cdcf3d15a1cdb37e1b28",
+    "time": "2012-07-15"
+  },
+  {
+    "place": "Electronics Store4bdf18206198c9b6bced15ff",
+    "time": "2012-07-16"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2012-07-17"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2012-07-17"
+  },
+  {
+    "place": "Home (private)4da5e0887ccc816e1fbab07b",
+    "time": "2012-07-17"
+  },
+  {
+    "place": "Pizza Place4bd23b3fcaff95216c6ed2f0",
+    "time": "2012-07-17"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2012-07-29"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2012-07-30"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2012-08-05"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2012-08-09"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2012-08-10"
+  },
+  {
+    "place": "Building4d8ca2e41d06b1f710531d3b",
+    "time": "2012-08-10"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2012-08-11"
+  },
+  {
+    "place": "Electronics Store4bdf18206198c9b6bced15ff",
+    "time": "2012-08-12"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2012-08-12"
+  },
+  {
+    "place": "Food & Drink Shop4c23e755f7ced13a3dfd216d",
+    "time": "2012-08-12"
+  },
+  {
+    "place": "Electronics Store4bdf18206198c9b6bced15ff",
+    "time": "2012-08-13"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2012-08-14"
+  },
+  {
+    "place": "Food & Drink Shop4c23e755f7ced13a3dfd216d",
+    "time": "2012-08-16"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2012-08-19"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2012-08-17"
+  },
+  {
+    "place": "Food & Drink Shop4c23e755f7ced13a3dfd216d",
+    "time": "2012-08-17"
+  },
+  {
+    "place": "Drugstore / Pharmacy4bb7d645cf2fc9b608e39e02",
+    "time": "2012-08-17"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2012-08-22"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2012-09-05"
+  },
+  {
+    "place": "Drugstore / Pharmacy4bb7d645cf2fc9b608e39e02",
+    "time": "2012-09-05"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2012-09-09"
+  },
+  {
+    "place": "Electronics Store4bdf18206198c9b6bced15ff",
+    "time": "2012-09-13"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2012-09-14"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2012-10-23"
+  },
+  {
+    "place": "Electronics Store4bdf18206198c9b6bced15ff",
+    "time": "2012-10-24"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2012-10-24"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2012-10-25"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2012-10-26"
+  },
+  {
+    "place": "Drugstore / Pharmacy4bb7d645cf2fc9b608e39e02",
+    "time": "2012-10-26"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2012-11-01"
+  },
+  {
+    "place": "Electronics Store4bdf18206198c9b6bced15ff",
+    "time": "2012-11-01"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2012-11-01"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2012-11-06"
+  },
+  {
+    "place": "Food & Drink Shop4c23e755f7ced13a3dfd216d",
+    "time": "2012-11-06"
+  },
+  {
+    "place": "Electronics Store4bdf18206198c9b6bced15ff",
+    "time": "2012-11-17"
+  },
+  {
+    "place": "Home (private)4da5e0887ccc816e1fbab07b",
+    "time": "2012-11-17"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2012-11-20"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2012-11-20"
+  },
+  {
+    "place": "Home (private)4da5e0887ccc816e1fbab07b",
+    "time": "2012-11-27"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2012-12-01"
+  },
+  {
+    "place": "Home (private)4da5e0887ccc816e1fbab07b",
+    "time": "2012-12-02"
+  },
+  {
+    "place": "Drugstore / Pharmacy4bb7d645cf2fc9b608e39e02",
+    "time": "2012-12-03"
+  },
+  {
+    "place": "Drugstore / Pharmacy4bb7d645cf2fc9b608e39e02",
+    "time": "2012-12-05"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2012-12-06"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2012-12-06"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2012-12-08"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2012-12-11"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2012-12-13"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2012-12-15"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2012-12-17"
+  },
+  {
+    "place": "Drugstore / Pharmacy4bb7d645cf2fc9b608e39e02",
+    "time": "2012-12-17"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2012-12-19"
+  },
+  {
+    "place": "Food & Drink Shop4c23e755f7ced13a3dfd216d",
+    "time": "2012-12-22"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2012-12-27"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2012-12-28"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2012-12-29"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2012-12-31"
+  },
+  {
+    "place": "Food & Drink Shop4c23e755f7ced13a3dfd216d",
+    "time": "2012-12-31"
+  },
+  {
+    "place": "Building4d8ca2e41d06b1f710531d3b",
+    "time": "2013-01-07"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2013-01-08"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2013-01-09"
+  },
+  {
+    "place": "Food & Drink Shop4c23e755f7ced13a3dfd216d",
+    "time": "2013-01-12"
+  },
+  {
+    "place": "Home (private)4da5e0887ccc816e1fbab07b",
+    "time": "2013-01-13"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2013-01-14"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2013-01-15"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2013-01-21"
+  },
+  {
+    "place": "Food & Drink Shop4c23e755f7ced13a3dfd216d",
+    "time": "2013-01-21"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2013-01-25"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2013-01-26"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2013-01-27"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2013-02-01"
+  },
+  {
+    "place": "Food & Drink Shop4c23e755f7ced13a3dfd216d",
+    "time": "2013-02-04"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2013-02-06"
+  },
+  {
+    "place": "Building4be6d905d4f7c9b6451b2720",
+    "time": "2013-02-08"
+  },
+  {
+    "place": "Pizza Place4bd23b3fcaff95216c6ed2f0",
+    "time": "2013-02-12"
+  }
+]

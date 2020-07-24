@@ -1,0 +1,754 @@
+[
+  {
+    "place": "Burger Joint4c9d2f49542b224b5c9ce79f",
+    "time": "2012-04-04"
+  },
+  {
+    "place": "Burger Joint4c9a8eccd4b1b1f7314dd135",
+    "time": "2012-04-07"
+  },
+  {
+    "place": "Bar40a95200f964a5202cf31ee3",
+    "time": "2012-04-08"
+  },
+  {
+    "place": "Harbor / Marina4b8f2a2df964a520d94b33e3",
+    "time": "2012-04-08"
+  },
+  {
+    "place": "BBQ Joint4a469916f964a5202ba91fe3",
+    "time": "2012-04-08"
+  },
+  {
+    "place": "Airport4459d2f1f964a520d7321fe3",
+    "time": "2012-04-09"
+  },
+  {
+    "place": "Restaurant4f9ab1dbd4f2465542bc674c",
+    "time": "2012-04-09"
+  },
+  {
+    "place": "Airport4459d2f1f964a520d7321fe3",
+    "time": "2012-04-14"
+  },
+  {
+    "place": "Ramen /  Noodle House4e4bf6acd164d2bc73b4067e",
+    "time": "2012-04-17"
+  },
+  {
+    "place": "Thai Restaurant4f47d688e4b0d125f5871461",
+    "time": "2012-04-18"
+  },
+  {
+    "place": "Harbor / Marina4b8f2a2df964a520d94b33e3",
+    "time": "2012-04-19"
+  },
+  {
+    "place": "Gastropub4d26669debacb1f70cf7dd4f",
+    "time": "2012-04-20"
+  },
+  {
+    "place": "Ramen /  Noodle House4e4bf6acd164d2bc73b4067e",
+    "time": "2012-04-24"
+  },
+  {
+    "place": "Bar4e4e70306365e1419d0205e4",
+    "time": "2012-04-25"
+  },
+  {
+    "place": "Dim Sum Restaurant3fd66200f964a5209fe61ee3",
+    "time": "2012-04-28"
+  },
+  {
+    "place": "Bar4d25497a903c8cfadc33cd25",
+    "time": "2012-04-28"
+  },
+  {
+    "place": "Music Venue4846c5acf964a5206f501fe3",
+    "time": "2012-04-28"
+  },
+  {
+    "place": "Harbor / Marina4b8f2a2df964a520d94b33e3",
+    "time": "2012-04-28"
+  },
+  {
+    "place": "Government Building4f9f6006e4b08f85153de834",
+    "time": "2012-05-02"
+  },
+  {
+    "place": "Harbor / Marina4b8f2a2df964a520d94b33e3",
+    "time": "2012-05-02"
+  },
+  {
+    "place": "Music Venue3fd66200f964a52035e41ee3",
+    "time": "2012-05-03"
+  },
+  {
+    "place": "Harbor / Marina4b8f2a2df964a520d94b33e3",
+    "time": "2012-05-04"
+  },
+  {
+    "place": "Ferry4ad35d08f964a520fae320e3",
+    "time": "2012-05-04"
+  },
+  {
+    "place": "Ferry4afefbe2f964a5207b3222e3",
+    "time": "2012-05-04"
+  },
+  {
+    "place": "Harbor / Marina4b8f2a2df964a520d94b33e3",
+    "time": "2012-05-07"
+  },
+  {
+    "place": "Ramen /  Noodle House4e4bf6acd164d2bc73b4067e",
+    "time": "2012-05-07"
+  },
+  {
+    "place": "Office4a706e81f964a52076d71fe3",
+    "time": "2012-05-08"
+  },
+  {
+    "place": "Thai Restaurant4f47d688e4b0d125f5871461",
+    "time": "2012-05-10"
+  },
+  {
+    "place": "Concert Hall4d8e6cf5c1b1721e52713046",
+    "time": "2012-05-12"
+  },
+  {
+    "place": "Office4a706e81f964a52076d71fe3",
+    "time": "2012-05-12"
+  },
+  {
+    "place": "Office4a706e81f964a52076d71fe3",
+    "time": "2012-05-13"
+  },
+  {
+    "place": "Harbor / Marina4b8f2a2df964a520d94b33e3",
+    "time": "2012-05-14"
+  },
+  {
+    "place": "Office4a706e81f964a52076d71fe3",
+    "time": "2012-05-14"
+  },
+  {
+    "place": "Ramen /  Noodle House4e4bf6acd164d2bc73b4067e",
+    "time": "2012-05-14"
+  },
+  {
+    "place": "Office4a706e81f964a52076d71fe3",
+    "time": "2012-05-15"
+  },
+  {
+    "place": "Harbor / Marina4b8f2a2df964a520d94b33e3",
+    "time": "2012-05-15"
+  },
+  {
+    "place": "Office4a706e81f964a52076d71fe3",
+    "time": "2012-05-15"
+  },
+  {
+    "place": "Ramen /  Noodle House4e4bf6acd164d2bc73b4067e",
+    "time": "2012-05-15"
+  },
+  {
+    "place": "Office4a706e81f964a52076d71fe3",
+    "time": "2012-05-15"
+  },
+  {
+    "place": "Harbor / Marina4b8f2a2df964a520d94b33e3",
+    "time": "2012-05-16"
+  },
+  {
+    "place": "Office4a706e81f964a52076d71fe3",
+    "time": "2012-05-16"
+  },
+  {
+    "place": "Gastropub4d26669debacb1f70cf7dd4f",
+    "time": "2012-05-17"
+  },
+  {
+    "place": "Harbor / Marina4b8f2a2df964a520d94b33e3",
+    "time": "2012-05-17"
+  },
+  {
+    "place": "Office4a706e81f964a52076d71fe3",
+    "time": "2012-05-17"
+  },
+  {
+    "place": "Sandwich Place4ca90e68a6e08cfaeba39594",
+    "time": "2012-05-17"
+  },
+  {
+    "place": "Office4a706e81f964a52076d71fe3",
+    "time": "2012-05-21"
+  },
+  {
+    "place": "Other Great Outdoors4ee03cc6d3e38ddb2a91672f",
+    "time": "2012-05-21"
+  },
+  {
+    "place": "Office4a706e81f964a52076d71fe3",
+    "time": "2012-05-21"
+  },
+  {
+    "place": "Ramen /  Noodle House4e4bf6acd164d2bc73b4067e",
+    "time": "2012-05-21"
+  },
+  {
+    "place": "Harbor / Marina4b8f2a2df964a520d94b33e3",
+    "time": "2012-05-22"
+  },
+  {
+    "place": "Harbor / Marina4b8f2a2df964a520d94b33e3",
+    "time": "2012-05-22"
+  },
+  {
+    "place": "Office4a706e81f964a52076d71fe3",
+    "time": "2012-05-22"
+  },
+  {
+    "place": "Harbor / Marina4b8f2a2df964a520d94b33e3",
+    "time": "2012-05-24"
+  },
+  {
+    "place": "Ramen /  Noodle House4e4bf6acd164d2bc73b4067e",
+    "time": "2012-05-25"
+  },
+  {
+    "place": "Harbor / Marina4b8f2a2df964a520d94b33e3",
+    "time": "2012-05-26"
+  },
+  {
+    "place": "American Restaurant4b539a4af964a52034a427e3",
+    "time": "2012-05-27"
+  },
+  {
+    "place": "Hotel4bf9ae7d5ec320a1d3ad8ad3",
+    "time": "2012-05-27"
+  },
+  {
+    "place": "Harbor / Marina4b8f2a2df964a520d94b33e3",
+    "time": "2012-05-27"
+  },
+  {
+    "place": "Office4a706e81f964a52076d71fe3",
+    "time": "2012-05-27"
+  },
+  {
+    "place": "Harbor / Marina4b8f2a2df964a520d94b33e3",
+    "time": "2012-05-28"
+  },
+  {
+    "place": "Harbor / Marina4b8f2a2df964a520d94b33e3",
+    "time": "2012-05-30"
+  },
+  {
+    "place": "Vietnamese Restaurant4bfaad735317a5931802037f",
+    "time": "2012-05-31"
+  },
+  {
+    "place": "Ramen /  Noodle House4e4bf6acd164d2bc73b4067e",
+    "time": "2012-06-05"
+  },
+  {
+    "place": "Harbor / Marina4b8f2a2df964a520d94b33e3",
+    "time": "2012-06-05"
+  },
+  {
+    "place": "American Restaurant42474900f964a5207c201fe3",
+    "time": "2012-06-08"
+  },
+  {
+    "place": "Harbor / Marina4b8f2a2df964a520d94b33e3",
+    "time": "2012-06-09"
+  },
+  {
+    "place": "Office4a706e81f964a52076d71fe3",
+    "time": "2012-06-11"
+  },
+  {
+    "place": "Harbor / Marina4b8f2a2df964a520d94b33e3",
+    "time": "2012-06-12"
+  },
+  {
+    "place": "Harbor / Marina4b8f2a2df964a520d94b33e3",
+    "time": "2012-06-13"
+  },
+  {
+    "place": "Harbor / Marina4b8f2a2df964a520d94b33e3",
+    "time": "2012-06-18"
+  },
+  {
+    "place": "Office4a706e81f964a52076d71fe3",
+    "time": "2012-06-21"
+  },
+  {
+    "place": "Office4a706e81f964a52076d71fe3",
+    "time": "2012-07-02"
+  },
+  {
+    "place": "Harbor / Marina4b8f2a2df964a520d94b33e3",
+    "time": "2012-07-03"
+  },
+  {
+    "place": "Office4a706e81f964a52076d71fe3",
+    "time": "2012-07-03"
+  },
+  {
+    "place": "Office4a706e81f964a52076d71fe3",
+    "time": "2012-07-04"
+  },
+  {
+    "place": "Harbor / Marina4b8f2a2df964a520d94b33e3",
+    "time": "2012-07-04"
+  },
+  {
+    "place": "Harbor / Marina4b8f2a2df964a520d94b33e3",
+    "time": "2012-07-05"
+  },
+  {
+    "place": "Office4a706e81f964a52076d71fe3",
+    "time": "2012-07-05"
+  },
+  {
+    "place": "Harbor / Marina4b8f2a2df964a520d94b33e3",
+    "time": "2012-07-06"
+  },
+  {
+    "place": "Office4a706e81f964a52076d71fe3",
+    "time": "2012-07-06"
+  },
+  {
+    "place": "Harbor / Marina4b8f2a2df964a520d94b33e3",
+    "time": "2012-07-07"
+  },
+  {
+    "place": "Office4a706e81f964a52076d71fe3",
+    "time": "2012-07-09"
+  },
+  {
+    "place": "Harbor / Marina4b8f2a2df964a520d94b33e3",
+    "time": "2012-07-11"
+  },
+  {
+    "place": "Office4a706e81f964a52076d71fe3",
+    "time": "2012-07-11"
+  },
+  {
+    "place": "Office4a706e81f964a52076d71fe3",
+    "time": "2012-07-11"
+  },
+  {
+    "place": "Harbor / Marina4b8f2a2df964a520d94b33e3",
+    "time": "2012-07-12"
+  },
+  {
+    "place": "Office4a706e81f964a52076d71fe3",
+    "time": "2012-07-12"
+  },
+  {
+    "place": "Harbor / Marina4b8f2a2df964a520d94b33e3",
+    "time": "2012-07-14"
+  },
+  {
+    "place": "Harbor / Marina4b8f2a2df964a520d94b33e3",
+    "time": "2012-07-17"
+  },
+  {
+    "place": "Office4a706e81f964a52076d71fe3",
+    "time": "2012-07-18"
+  },
+  {
+    "place": "Office4a706e81f964a52076d71fe3",
+    "time": "2012-07-18"
+  },
+  {
+    "place": "Office4a706e81f964a52076d71fe3",
+    "time": "2012-08-10"
+  },
+  {
+    "place": "Harbor / Marina4b8f2a2df964a520d94b33e3",
+    "time": "2012-08-10"
+  },
+  {
+    "place": "Office4a706e81f964a52076d71fe3",
+    "time": "2012-08-10"
+  },
+  {
+    "place": "Ferry4ad35d08f964a520fae320e3",
+    "time": "2012-08-11"
+  },
+  {
+    "place": "Harbor / Marina4b8f2a2df964a520d94b33e3",
+    "time": "2012-08-11"
+  },
+  {
+    "place": "Harbor / Marina4b8f2a2df964a520d94b33e3",
+    "time": "2012-08-11"
+  },
+  {
+    "place": "Harbor / Marina4b8f2a2df964a520d94b33e3",
+    "time": "2012-08-16"
+  },
+  {
+    "place": "Office4a706e81f964a52076d71fe3",
+    "time": "2012-08-17"
+  },
+  {
+    "place": "Office4a706e81f964a52076d71fe3",
+    "time": "2012-08-17"
+  },
+  {
+    "place": "Harbor / Marina4b8f2a2df964a520d94b33e3",
+    "time": "2012-08-19"
+  },
+  {
+    "place": "Office4a706e81f964a52076d71fe3",
+    "time": "2012-08-20"
+  },
+  {
+    "place": "Harbor / Marina4b8f2a2df964a520d94b33e3",
+    "time": "2012-08-18"
+  },
+  {
+    "place": "Office4a706e81f964a52076d71fe3",
+    "time": "2012-09-05"
+  },
+  {
+    "place": "Harbor / Marina4b8f2a2df964a520d94b33e3",
+    "time": "2012-09-06"
+  },
+  {
+    "place": "Office4a706e81f964a52076d71fe3",
+    "time": "2012-09-09"
+  },
+  {
+    "place": "Office4a706e81f964a52076d71fe3",
+    "time": "2012-09-13"
+  },
+  {
+    "place": "Harbor / Marina4b8f2a2df964a520d94b33e3",
+    "time": "2012-09-15"
+  },
+  {
+    "place": "Harbor / Marina4b8f2a2df964a520d94b33e3",
+    "time": "2012-09-16"
+  },
+  {
+    "place": "Salad Place4b140f46f964a5209e9c23e3",
+    "time": "2012-10-11"
+  },
+  {
+    "place": "Bar49c65aa8f964a52038571fe3",
+    "time": "2012-10-13"
+  },
+  {
+    "place": "Bar3fd66200f964a520b9e61ee3",
+    "time": "2012-10-13"
+  },
+  {
+    "place": "Harbor / Marina4b8f2a2df964a520d94b33e3",
+    "time": "2012-10-13"
+  },
+  {
+    "place": "Office4a706e81f964a52076d71fe3",
+    "time": "2012-10-22"
+  },
+  {
+    "place": "Salad Place4b140f46f964a5209e9c23e3",
+    "time": "2012-10-22"
+  },
+  {
+    "place": "Building4e7013c9d22d2dfc3182cb45",
+    "time": "2012-10-22"
+  },
+  {
+    "place": "Ferry4ad35d08f964a520fae320e3",
+    "time": "2012-10-23"
+  },
+  {
+    "place": "Movie Theater43a72ba0f964a520672c1fe3",
+    "time": "2012-10-23"
+  },
+  {
+    "place": "Ferry4ad35d08f964a520fae320e3",
+    "time": "2012-10-24"
+  },
+  {
+    "place": "Harbor / Marina4b8f2a2df964a520d94b33e3",
+    "time": "2012-10-24"
+  },
+  {
+    "place": "Harbor / Marina4b8f2a2df964a520d94b33e3",
+    "time": "2012-10-26"
+  },
+  {
+    "place": "Harbor / Marina4b8f2a2df964a520d94b33e3",
+    "time": "2012-10-26"
+  },
+  {
+    "place": "Harbor / Marina4b8f2a2df964a520d94b33e3",
+    "time": "2012-10-26"
+  },
+  {
+    "place": "Harbor / Marina4b8f2a2df964a520d94b33e3",
+    "time": "2012-10-26"
+  },
+  {
+    "place": "Harbor / Marina4b8f2a2df964a520d94b33e3",
+    "time": "2012-10-27"
+  },
+  {
+    "place": "Harbor / Marina4b8f2a2df964a520d94b33e3",
+    "time": "2012-10-27"
+  },
+  {
+    "place": "Harbor / Marina4b8f2a2df964a520d94b33e3",
+    "time": "2012-10-28"
+  },
+  {
+    "place": "Office4a706e81f964a52076d71fe3",
+    "time": "2012-11-06"
+  },
+  {
+    "place": "Harbor / Marina4b8f2a2df964a520d94b33e3",
+    "time": "2012-11-08"
+  },
+  {
+    "place": "Salad Place4b140f46f964a5209e9c23e3",
+    "time": "2012-11-12"
+  },
+  {
+    "place": "Mexican Restaurant4a1f42aff964a520167c1fe3",
+    "time": "2012-11-16"
+  },
+  {
+    "place": "Office4a706e81f964a52076d71fe3",
+    "time": "2012-11-16"
+  },
+  {
+    "place": "Harbor / Marina4b8f2a2df964a520d94b33e3",
+    "time": "2012-11-18"
+  },
+  {
+    "place": "Salad Place4b140f46f964a5209e9c23e3",
+    "time": "2012-11-19"
+  },
+  {
+    "place": "Office4a706e81f964a52076d71fe3",
+    "time": "2012-11-19"
+  },
+  {
+    "place": "Office4a706e81f964a52076d71fe3",
+    "time": "2012-11-20"
+  },
+  {
+    "place": "Korean Restaurant4b41919bf964a52095c725e3",
+    "time": "2012-11-22"
+  },
+  {
+    "place": "Movie Theater4a60e6ebf964a5206fc11fe3",
+    "time": "2012-11-23"
+  },
+  {
+    "place": "Burger Joint4b0487c7f964a520e95422e3",
+    "time": "2012-11-23"
+  },
+  {
+    "place": "Food & Drink Shop49f85cbbf964a520f26c1fe3",
+    "time": "2012-11-23"
+  },
+  {
+    "place": "Korean Restaurant4fe3c2ffe4b090323d44dca0",
+    "time": "2012-11-23"
+  },
+  {
+    "place": "Bar3fd66200f964a520caea1ee3",
+    "time": "2012-11-24"
+  },
+  {
+    "place": "Office4a706e81f964a52076d71fe3",
+    "time": "2012-11-26"
+  },
+  {
+    "place": "Movie Theater50a990e3e4b069239ea11cec",
+    "time": "2012-12-03"
+  },
+  {
+    "place": "Office4a706e81f964a52076d71fe3",
+    "time": "2012-12-03"
+  },
+  {
+    "place": "Office4a706e81f964a52076d71fe3",
+    "time": "2012-12-03"
+  },
+  {
+    "place": "Office4a706e81f964a52076d71fe3",
+    "time": "2012-12-04"
+  },
+  {
+    "place": "Office4a706e81f964a52076d71fe3",
+    "time": "2012-12-06"
+  },
+  {
+    "place": "Steakhouse3fd66200f964a5209beb1ee3",
+    "time": "2012-12-07"
+  },
+  {
+    "place": "Office4a706e81f964a52076d71fe3",
+    "time": "2012-12-07"
+  },
+  {
+    "place": "Harbor / Marina4b8f2a2df964a520d94b33e3",
+    "time": "2012-12-10"
+  },
+  {
+    "place": "Burger Joint4fe8877fe4b0227be1256499",
+    "time": "2012-12-10"
+  },
+  {
+    "place": "Office4a706e81f964a52076d71fe3",
+    "time": "2012-12-10"
+  },
+  {
+    "place": "Harbor / Marina4b8f2a2df964a520d94b33e3",
+    "time": "2012-12-20"
+  },
+  {
+    "place": "Harbor / Marina4b8f2a2df964a520d94b33e3",
+    "time": "2012-12-21"
+  },
+  {
+    "place": "Filipino Restaurant50588bc6526260483ab2860e",
+    "time": "2012-12-23"
+  },
+  {
+    "place": "Office4a706e81f964a52076d71fe3",
+    "time": "2012-12-27"
+  },
+  {
+    "place": "Chinese Restaurant4a537bb9f964a52054b21fe3",
+    "time": "2012-12-27"
+  },
+  {
+    "place": "Office4a706e81f964a52076d71fe3",
+    "time": "2012-12-27"
+  },
+  {
+    "place": "Bar49c65aa8f964a52038571fe3",
+    "time": "2012-12-28"
+  },
+  {
+    "place": "Ferry4ad35d08f964a520fae320e3",
+    "time": "2013-01-04"
+  },
+  {
+    "place": "Salad Place4b140f46f964a5209e9c23e3",
+    "time": "2013-01-07"
+  },
+  {
+    "place": "Office4a706e81f964a52076d71fe3",
+    "time": "2013-01-07"
+  },
+  {
+    "place": "Office4a706e81f964a52076d71fe3",
+    "time": "2013-01-08"
+  },
+  {
+    "place": "Ferry4a607307f964a520c7c01fe3",
+    "time": "2013-01-09"
+  },
+  {
+    "place": "Office4a706e81f964a52076d71fe3",
+    "time": "2013-01-09"
+  },
+  {
+    "place": "Market4c5ef77bfff99c74eda954d3",
+    "time": "2013-01-10"
+  },
+  {
+    "place": "Tea Room4d93bb198deb8cfafd6130c0",
+    "time": "2013-01-12"
+  },
+  {
+    "place": "Chinese Restaurant4b736476f964a52045ac2de3",
+    "time": "2013-01-13"
+  },
+  {
+    "place": "Chinese Restaurant4f8379737716785a1637c2e3",
+    "time": "2013-01-13"
+  },
+  {
+    "place": "Office4a706e81f964a52076d71fe3",
+    "time": "2013-01-17"
+  },
+  {
+    "place": "Bar3fd66200f964a52058e41ee3",
+    "time": "2013-01-18"
+  },
+  {
+    "place": "Italian Restaurant505b7061e4b0571999fb3da8",
+    "time": "2013-01-18"
+  },
+  {
+    "place": "Airport4459d2f1f964a520d7321fe3",
+    "time": "2013-01-24"
+  },
+  {
+    "place": "Office4a706e81f964a52076d71fe3",
+    "time": "2013-01-28"
+  },
+  {
+    "place": "Salad Place4b140f46f964a5209e9c23e3",
+    "time": "2013-01-29"
+  },
+  {
+    "place": "Office4a706e81f964a52076d71fe3",
+    "time": "2013-01-29"
+  },
+  {
+    "place": "Ramen /  Noodle House4e4bf6acd164d2bc73b4067e",
+    "time": "2013-01-30"
+  },
+  {
+    "place": "Office4a706e81f964a52076d71fe3",
+    "time": "2013-01-30"
+  },
+  {
+    "place": "Office4a706e81f964a52076d71fe3",
+    "time": "2013-01-31"
+  },
+  {
+    "place": "Restaurant4eea849b0e6107eb8cb16af4",
+    "time": "2013-02-02"
+  },
+  {
+    "place": "Filipino Restaurant4e34496fa8092599edf845bb",
+    "time": "2013-02-07"
+  },
+  {
+    "place": "Harbor / Marina4b8f2a2df964a520d94b33e3",
+    "time": "2013-02-07"
+  },
+  {
+    "place": "Office4a706e81f964a52076d71fe3",
+    "time": "2013-02-11"
+  },
+  {
+    "place": "Ramen /  Noodle House4e4bf6acd164d2bc73b4067e",
+    "time": "2013-02-11"
+  },
+  {
+    "place": "Office4a706e81f964a52076d71fe3",
+    "time": "2013-02-11"
+  },
+  {
+    "place": "Salad Place4b140f46f964a5209e9c23e3",
+    "time": "2013-02-12"
+  },
+  {
+    "place": "Office4a706e81f964a52076d71fe3",
+    "time": "2013-02-12"
+  }
+]

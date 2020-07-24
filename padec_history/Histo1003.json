@@ -1,0 +1,602 @@
+[
+  {
+    "place": "University444bb024f964a5207b321fe3",
+    "time": "2012-06-15"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4fda4e1ae4b0fa0e36ad1689",
+    "time": "2012-07-08"
+  },
+  {
+    "place": "Neighborhood4d8bec979f3fb1f7cb94fcbc",
+    "time": "2012-07-09"
+  },
+  {
+    "place": "University444bb024f964a5207b321fe3",
+    "time": "2012-07-09"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4fda4e1ae4b0fa0e36ad1689",
+    "time": "2012-07-09"
+  },
+  {
+    "place": "Neighborhood4d8bec979f3fb1f7cb94fcbc",
+    "time": "2012-07-11"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4fda4e1ae4b0fa0e36ad1689",
+    "time": "2012-07-11"
+  },
+  {
+    "place": "Coffee Shop4a9b025ef964a520f93320e3",
+    "time": "2012-07-12"
+  },
+  {
+    "place": "University444bb024f964a5207b321fe3",
+    "time": "2012-07-12"
+  },
+  {
+    "place": "Electronics Store4f84b219e4b0054a502a4a45",
+    "time": "2012-07-12"
+  },
+  {
+    "place": "Drugstore / Pharmacy4bbe0c798ec3d13a40d41c28",
+    "time": "2012-07-12"
+  },
+  {
+    "place": "Food & Drink Shop4bcc2a6e3740b713d18f6365",
+    "time": "2012-07-12"
+  },
+  {
+    "place": "Donut Shop4addf8dff964a520ec6621e3",
+    "time": "2012-07-12"
+  },
+  {
+    "place": "Electronics Store4f4ab4bfe4b0ccceddab93a4",
+    "time": "2012-07-12"
+  },
+  {
+    "place": "Convenience Store4e616afe7d8b85408936dc9d",
+    "time": "2012-07-12"
+  },
+  {
+    "place": "Drugstore / Pharmacy4fff417ce4b080fb6a78d3a2",
+    "time": "2012-07-12"
+  },
+  {
+    "place": "Neighborhood4d8bec979f3fb1f7cb94fcbc",
+    "time": "2012-07-12"
+  },
+  {
+    "place": "Video Game Store4cc74adb76749eb02db1c6f7",
+    "time": "2012-07-12"
+  },
+  {
+    "place": "School4c915c9957e5b60ca418601c",
+    "time": "2012-07-13"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4fda4e1ae4b0fa0e36ad1689",
+    "time": "2012-07-13"
+  },
+  {
+    "place": "Neighborhood4d8bec979f3fb1f7cb94fcbc",
+    "time": "2012-07-13"
+  },
+  {
+    "place": "University444bb024f964a5207b321fe3",
+    "time": "2012-07-13"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4fda4e1ae4b0fa0e36ad1689",
+    "time": "2012-07-13"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4fda4e1ae4b0fa0e36ad1689",
+    "time": "2012-07-15"
+  },
+  {
+    "place": "Airport4a9e5cbbf964a520193a20e3",
+    "time": "2012-07-16"
+  },
+  {
+    "place": "Airport4b9990c0f964a5200a8435e3",
+    "time": "2012-07-16"
+  },
+  {
+    "place": "Airport4a9e5db0f964a5201a3a20e3",
+    "time": "2012-07-16"
+  },
+  {
+    "place": "Neighborhood4d8bec979f3fb1f7cb94fcbc",
+    "time": "2012-07-18"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4fda4e1ae4b0fa0e36ad1689",
+    "time": "2012-07-18"
+  },
+  {
+    "place": "Neighborhood4d8bec979f3fb1f7cb94fcbc",
+    "time": "2012-07-20"
+  },
+  {
+    "place": "University444bb024f964a5207b321fe3",
+    "time": "2012-07-20"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4fda4e1ae4b0fa0e36ad1689",
+    "time": "2012-07-20"
+  },
+  {
+    "place": "Neighborhood4d8bec979f3fb1f7cb94fcbc",
+    "time": "2012-07-24"
+  },
+  {
+    "place": "University444bb024f964a5207b321fe3",
+    "time": "2012-07-24"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4fda4e1ae4b0fa0e36ad1689",
+    "time": "2012-07-24"
+  },
+  {
+    "place": "Neighborhood4d8bec979f3fb1f7cb94fcbc",
+    "time": "2012-07-28"
+  },
+  {
+    "place": "Neighborhood4d8bec979f3fb1f7cb94fcbc",
+    "time": "2012-07-28"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4fda4e1ae4b0fa0e36ad1689",
+    "time": "2012-07-28"
+  },
+  {
+    "place": "School4c915c9957e5b60ca418601c",
+    "time": "2012-07-28"
+  },
+  {
+    "place": "Neighborhood4d8bec979f3fb1f7cb94fcbc",
+    "time": "2012-07-29"
+  },
+  {
+    "place": "School4c915c9957e5b60ca418601c",
+    "time": "2012-07-29"
+  },
+  {
+    "place": "Bank4ed653516aa31a0c4497818b",
+    "time": "2012-07-29"
+  },
+  {
+    "place": "Convenience Store4e616afe7d8b85408936dc9d",
+    "time": "2012-07-29"
+  },
+  {
+    "place": "Neighborhood4d8bec979f3fb1f7cb94fcbc",
+    "time": "2012-07-29"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4fda4e1ae4b0fa0e36ad1689",
+    "time": "2012-07-29"
+  },
+  {
+    "place": "Neighborhood4d8bec979f3fb1f7cb94fcbc",
+    "time": "2012-07-30"
+  },
+  {
+    "place": "School4c915c9957e5b60ca418601c",
+    "time": "2012-07-30"
+  },
+  {
+    "place": "Neighborhood4d8bec979f3fb1f7cb94fcbc",
+    "time": "2012-07-30"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4fda4e1ae4b0fa0e36ad1689",
+    "time": "2012-07-30"
+  },
+  {
+    "place": "Convenience Store4e616afe7d8b85408936dc9d",
+    "time": "2012-07-30"
+  },
+  {
+    "place": "Neighborhood4d8bec979f3fb1f7cb94fcbc",
+    "time": "2012-07-30"
+  },
+  {
+    "place": "College Academic Building4e70a46145ddd3b861e899c4",
+    "time": "2012-07-30"
+  },
+  {
+    "place": "University444bb024f964a5207b321fe3",
+    "time": "2012-07-30"
+  },
+  {
+    "place": "Miscellaneous Shop4e822a8db803653af2c0b22f",
+    "time": "2012-07-30"
+  },
+  {
+    "place": "Electronics Store4f4ab4bfe4b0ccceddab93a4",
+    "time": "2012-07-30"
+  },
+  {
+    "place": "College Academic Building4e70a46145ddd3b861e899c4",
+    "time": "2012-08-06"
+  },
+  {
+    "place": "Neighborhood4d8bec979f3fb1f7cb94fcbc",
+    "time": "2012-08-10"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4fda4e1ae4b0fa0e36ad1689",
+    "time": "2012-08-10"
+  },
+  {
+    "place": "College Academic Building4e70a46145ddd3b861e899c4",
+    "time": "2012-08-10"
+  },
+  {
+    "place": "Neighborhood4d8bec979f3fb1f7cb94fcbc",
+    "time": "2012-08-11"
+  },
+  {
+    "place": "College Academic Building4e70a46145ddd3b861e899c4",
+    "time": "2012-08-13"
+  },
+  {
+    "place": "Government Building4da704334df0260c3e9e5da5",
+    "time": "2012-08-13"
+  },
+  {
+    "place": "Coffee Shop4a9b025ef964a520f93320e3",
+    "time": "2012-08-13"
+  },
+  {
+    "place": "University444bb024f964a5207b321fe3",
+    "time": "2012-08-13"
+  },
+  {
+    "place": "Convenience Store4e616afe7d8b85408936dc9d",
+    "time": "2012-08-14"
+  },
+  {
+    "place": "Neighborhood4d8bec979f3fb1f7cb94fcbc",
+    "time": "2012-08-14"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4fda4e1ae4b0fa0e36ad1689",
+    "time": "2012-08-14"
+  },
+  {
+    "place": "Government Building4da704334df0260c3e9e5da5",
+    "time": "2012-08-14"
+  },
+  {
+    "place": "Coffee Shop4a9b025ef964a520f93320e3",
+    "time": "2012-08-14"
+  },
+  {
+    "place": "University444bb024f964a5207b321fe3",
+    "time": "2012-08-14"
+  },
+  {
+    "place": "Drugstore / Pharmacy4fff417ce4b080fb6a78d3a2",
+    "time": "2012-08-14"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4fda4e1ae4b0fa0e36ad1689",
+    "time": "2012-08-14"
+  },
+  {
+    "place": "Neighborhood4d8bec979f3fb1f7cb94fcbc",
+    "time": "2012-08-16"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4fda4e1ae4b0fa0e36ad1689",
+    "time": "2012-08-19"
+  },
+  {
+    "place": "Neighborhood4d8bec979f3fb1f7cb94fcbc",
+    "time": "2012-08-20"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4fda4e1ae4b0fa0e36ad1689",
+    "time": "2012-08-20"
+  },
+  {
+    "place": "Government Building4da704334df0260c3e9e5da5",
+    "time": "2012-08-20"
+  },
+  {
+    "place": "College Academic Building4e70a46145ddd3b861e899c4",
+    "time": "2012-08-20"
+  },
+  {
+    "place": "University444bb024f964a5207b321fe3",
+    "time": "2012-08-20"
+  },
+  {
+    "place": "Neighborhood4d8bec979f3fb1f7cb94fcbc",
+    "time": "2012-08-18"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4fda4e1ae4b0fa0e36ad1689",
+    "time": "2012-08-18"
+  },
+  {
+    "place": "Convenience Store4e616afe7d8b85408936dc9d",
+    "time": "2012-09-05"
+  },
+  {
+    "place": "Drugstore / Pharmacy4fff417ce4b080fb6a78d3a2",
+    "time": "2012-09-05"
+  },
+  {
+    "place": "Neighborhood4d8bec979f3fb1f7cb94fcbc",
+    "time": "2012-09-05"
+  },
+  {
+    "place": "Library4d60b42cef378cfa95ba81a6",
+    "time": "2012-09-05"
+  },
+  {
+    "place": "Music Venue4d5018cca9dd2d439d55f1b3",
+    "time": "2012-09-05"
+  },
+  {
+    "place": "Building4e09d99caeb74c3991201241",
+    "time": "2012-09-05"
+  },
+  {
+    "place": "Drugstore / Pharmacy4fff417ce4b080fb6a78d3a2",
+    "time": "2012-09-05"
+  },
+  {
+    "place": "Government Building4da704334df0260c3e9e5da5",
+    "time": "2012-09-13"
+  },
+  {
+    "place": "College Academic Building4e70a46145ddd3b861e899c4",
+    "time": "2012-09-13"
+  },
+  {
+    "place": "University444bb024f964a5207b321fe3",
+    "time": "2012-09-13"
+  },
+  {
+    "place": "Convenience Store4e616afe7d8b85408936dc9d",
+    "time": "2012-09-14"
+  },
+  {
+    "place": "Neighborhood4d8bec979f3fb1f7cb94fcbc",
+    "time": "2012-09-14"
+  },
+  {
+    "place": "School4c915c9957e5b60ca418601c",
+    "time": "2012-09-15"
+  },
+  {
+    "place": "Convenience Store4e616afe7d8b85408936dc9d",
+    "time": "2012-09-15"
+  },
+  {
+    "place": "Neighborhood4d8bec979f3fb1f7cb94fcbc",
+    "time": "2012-09-15"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4fda4e1ae4b0fa0e36ad1689",
+    "time": "2012-09-15"
+  },
+  {
+    "place": "Video Game Store4cc74adb76749eb02db1c6f7",
+    "time": "2012-09-15"
+  },
+  {
+    "place": "Government Building4da704334df0260c3e9e5da5",
+    "time": "2012-10-03"
+  },
+  {
+    "place": "College Academic Building4d7e60eb564b8cfa2ac8f064",
+    "time": "2012-10-03"
+  },
+  {
+    "place": "Convenience Store4e616afe7d8b85408936dc9d",
+    "time": "2012-10-08"
+  },
+  {
+    "place": "Video Game Store4cc74adb76749eb02db1c6f7",
+    "time": "2012-10-08"
+  },
+  {
+    "place": "Neighborhood4d8bec979f3fb1f7cb94fcbc",
+    "time": "2012-10-08"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4fda4e1ae4b0fa0e36ad1689",
+    "time": "2012-10-08"
+  },
+  {
+    "place": "Convenience Store4e616afe7d8b85408936dc9d",
+    "time": "2012-10-12"
+  },
+  {
+    "place": "Neighborhood4d8bec979f3fb1f7cb94fcbc",
+    "time": "2012-10-12"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4fda4e1ae4b0fa0e36ad1689",
+    "time": "2012-10-12"
+  },
+  {
+    "place": "Neighborhood4d8bec979f3fb1f7cb94fcbc",
+    "time": "2012-10-16"
+  },
+  {
+    "place": "Convenience Store4e616afe7d8b85408936dc9d",
+    "time": "2012-10-16"
+  },
+  {
+    "place": "Video Game Store4cc74adb76749eb02db1c6f7",
+    "time": "2012-10-16"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4fda4e1ae4b0fa0e36ad1689",
+    "time": "2012-10-16"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4fda4e1ae4b0fa0e36ad1689",
+    "time": "2012-10-19"
+  },
+  {
+    "place": "Convenience Store4e616afe7d8b85408936dc9d",
+    "time": "2012-10-19"
+  },
+  {
+    "place": "Convenience Store4e616afe7d8b85408936dc9d",
+    "time": "2012-10-22"
+  },
+  {
+    "place": "Video Game Store4cc74adb76749eb02db1c6f7",
+    "time": "2012-10-22"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4fda4e1ae4b0fa0e36ad1689",
+    "time": "2012-10-22"
+  },
+  {
+    "place": "Neighborhood4d8bec979f3fb1f7cb94fcbc",
+    "time": "2012-10-22"
+  },
+  {
+    "place": "Government Building4da704334df0260c3e9e5da5",
+    "time": "2012-10-22"
+  },
+  {
+    "place": "College Academic Building4d7e60eb564b8cfa2ac8f064",
+    "time": "2012-10-22"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4fda4e1ae4b0fa0e36ad1689",
+    "time": "2012-10-23"
+  },
+  {
+    "place": "Neighborhood4d8bec979f3fb1f7cb94fcbc",
+    "time": "2012-10-23"
+  },
+  {
+    "place": "Video Game Store4cc74adb76749eb02db1c6f7",
+    "time": "2012-10-23"
+  },
+  {
+    "place": "Convenience Store4e616afe7d8b85408936dc9d",
+    "time": "2012-10-23"
+  },
+  {
+    "place": "University444bb024f964a5207b321fe3",
+    "time": "2012-10-23"
+  },
+  {
+    "place": "Convenience Store4e616afe7d8b85408936dc9d",
+    "time": "2012-10-24"
+  },
+  {
+    "place": "Video Game Store4cc74adb76749eb02db1c6f7",
+    "time": "2012-10-24"
+  },
+  {
+    "place": "Neighborhood4d8bec979f3fb1f7cb94fcbc",
+    "time": "2012-10-24"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4fda4e1ae4b0fa0e36ad1689",
+    "time": "2012-10-24"
+  },
+  {
+    "place": "College Academic Building4d7e60eb564b8cfa2ac8f064",
+    "time": "2012-10-24"
+  },
+  {
+    "place": "College Academic Building4e70a46145ddd3b861e899c4",
+    "time": "2012-10-24"
+  },
+  {
+    "place": "University444bb024f964a5207b321fe3",
+    "time": "2012-10-24"
+  },
+  {
+    "place": "Drugstore / Pharmacy4fff417ce4b080fb6a78d3a2",
+    "time": "2012-10-25"
+  },
+  {
+    "place": "School4c915c9957e5b60ca418601c",
+    "time": "2012-10-25"
+  },
+  {
+    "place": "Deli / Bodega4bb3a9a5eb3e9521b776cb0a",
+    "time": "2012-10-25"
+  },
+  {
+    "place": "Neighborhood4d8bec979f3fb1f7cb94fcbc",
+    "time": "2012-10-25"
+  },
+  {
+    "place": "Convenience Store4e616afe7d8b85408936dc9d",
+    "time": "2012-10-25"
+  },
+  {
+    "place": "Clothing Store4c1e4121b4e62d7fb3eadd93",
+    "time": "2012-10-25"
+  },
+  {
+    "place": "Video Game Store4cc74adb76749eb02db1c6f7",
+    "time": "2012-10-25"
+  },
+  {
+    "place": "Convenience Store4e616afe7d8b85408936dc9d",
+    "time": "2012-11-05"
+  },
+  {
+    "place": "Convenience Store4e616afe7d8b85408936dc9d",
+    "time": "2012-11-06"
+  },
+  {
+    "place": "Mobile Phone Shop4bfee257daf9c9b62e68f9ef",
+    "time": "2012-11-06"
+  },
+  {
+    "place": "Neighborhood4d8bec979f3fb1f7cb94fcbc",
+    "time": "2012-11-06"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4fda4e1ae4b0fa0e36ad1689",
+    "time": "2012-11-06"
+  },
+  {
+    "place": "College Academic Building4d7e60eb564b8cfa2ac8f064",
+    "time": "2012-11-06"
+  },
+  {
+    "place": "Government Building4da704334df0260c3e9e5da5",
+    "time": "2012-11-06"
+  },
+  {
+    "place": "University444bb024f964a5207b321fe3",
+    "time": "2012-11-06"
+  },
+  {
+    "place": "Library4d60b42cef378cfa95ba81a6",
+    "time": "2012-11-07"
+  },
+  {
+    "place": "Music Venue4d5018cca9dd2d439d55f1b3",
+    "time": "2012-11-07"
+  },
+  {
+    "place": "College Academic Building4e70a46145ddd3b861e899c4",
+    "time": "2012-11-07"
+  },
+  {
+    "place": "Government Building4da704334df0260c3e9e5da5",
+    "time": "2012-11-07"
+  }
+]

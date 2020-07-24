@@ -1,0 +1,562 @@
+[
+  {
+    "place": "Mexican Restaurant4a7a0832f964a5203ce81fe3",
+    "time": "2012-04-03"
+  },
+  {
+    "place": "Coffee Shop45c76421f964a52066421fe3",
+    "time": "2012-04-03"
+  },
+  {
+    "place": "Coffee Shop4a7f0913f964a5208af21fe3",
+    "time": "2012-04-04"
+  },
+  {
+    "place": "College Academic Building4c700bc7d97fa143bac0f4ca",
+    "time": "2012-04-04"
+  },
+  {
+    "place": "Mexican Restaurant4a7a0832f964a5203ce81fe3",
+    "time": "2012-04-04"
+  },
+  {
+    "place": "Coffee Shop4ad13d14f964a520a3dd20e3",
+    "time": "2012-04-06"
+  },
+  {
+    "place": "College Academic Building4c700bc7d97fa143bac0f4ca",
+    "time": "2012-04-06"
+  },
+  {
+    "place": "Coffee Shop4a534cc4f964a5202cb21fe3",
+    "time": "2012-04-07"
+  },
+  {
+    "place": "Vegetarian / Vegan Restaurant3fd66200f964a520ede91ee3",
+    "time": "2012-04-07"
+  },
+  {
+    "place": "Park4be062d6652b0f47b9437211",
+    "time": "2012-04-07"
+  },
+  {
+    "place": "Coffee Shop42829c80f964a52025221fe3",
+    "time": "2012-04-08"
+  },
+  {
+    "place": "Coffee Shop49d36ca4f964a520f75b1fe3",
+    "time": "2012-04-08"
+  },
+  {
+    "place": "Coffee Shop4b0bfe7cf964a520743523e3",
+    "time": "2012-04-08"
+  },
+  {
+    "place": "Clothing Store4dc45890d4c0ad9c0f6c5160",
+    "time": "2012-04-08"
+  },
+  {
+    "place": "Coffee Shop4a9bfd37f964a520a23520e3",
+    "time": "2012-04-09"
+  },
+  {
+    "place": "College Academic Building4c700bc7d97fa143bac0f4ca",
+    "time": "2012-04-09"
+  },
+  {
+    "place": "Mexican Restaurant4a7a0832f964a5203ce81fe3",
+    "time": "2012-04-09"
+  },
+  {
+    "place": "Coffee Shop49e3a2b3f964a520a6621fe3",
+    "time": "2012-04-09"
+  },
+  {
+    "place": "Coffee Shop49e3a2b3f964a520a6621fe3",
+    "time": "2012-04-09"
+  },
+  {
+    "place": "College Academic Building4c700bc7d97fa143bac0f4ca",
+    "time": "2012-04-10"
+  },
+  {
+    "place": "Coffee Shop4a7f0913f964a5208af21fe3",
+    "time": "2012-04-10"
+  },
+  {
+    "place": "Coffee Shop4a7f0913f964a5208af21fe3",
+    "time": "2012-04-11"
+  },
+  {
+    "place": "Mexican Restaurant4a5382d2f964a5205cb21fe3",
+    "time": "2012-04-11"
+  },
+  {
+    "place": "Coffee Shop4a7f0913f964a5208af21fe3",
+    "time": "2012-04-12"
+  },
+  {
+    "place": "Mexican Restaurant4aa44e08f964a5204f4620e3",
+    "time": "2012-04-12"
+  },
+  {
+    "place": "Coffee Shop4b58f22af964a520c07428e3",
+    "time": "2012-04-12"
+  },
+  {
+    "place": "Italian Restaurant4d042ced9d33a1437c6ab978",
+    "time": "2012-04-13"
+  },
+  {
+    "place": "Coffee Shop4a7f0913f964a5208af21fe3",
+    "time": "2012-04-13"
+  },
+  {
+    "place": "Coffee Shop4caf199db4b0a35dc8033ece",
+    "time": "2012-04-13"
+  },
+  {
+    "place": "Train Station42911d00f964a520f5231fe3",
+    "time": "2012-04-13"
+  },
+  {
+    "place": "Japanese Restaurant4a39247af964a520249f1fe3",
+    "time": "2012-04-16"
+  },
+  {
+    "place": "Coffee Shop4a7f0913f964a5208af21fe3",
+    "time": "2012-04-17"
+  },
+  {
+    "place": "College Academic Building4c700bc7d97fa143bac0f4ca",
+    "time": "2012-04-17"
+  },
+  {
+    "place": "Mexican Restaurant4a7a0832f964a5203ce81fe3",
+    "time": "2012-04-17"
+  },
+  {
+    "place": "Coffee Shop45c76421f964a52066421fe3",
+    "time": "2012-04-17"
+  },
+  {
+    "place": "Coffee Shop4a7f0913f964a5208af21fe3",
+    "time": "2012-04-18"
+  },
+  {
+    "place": "College Academic Building4c700bc7d97fa143bac0f4ca",
+    "time": "2012-04-18"
+  },
+  {
+    "place": "Coffee Shop45c76421f964a52066421fe3",
+    "time": "2012-04-18"
+  },
+  {
+    "place": "Music Venue47ea2d31f964a520644e1fe3",
+    "time": "2012-04-19"
+  },
+  {
+    "place": "Asian Restaurant4a6b274ef964a5200dce1fe3",
+    "time": "2012-04-19"
+  },
+  {
+    "place": "Coffee Shop4a7f0913f964a5208af21fe3",
+    "time": "2012-04-19"
+  },
+  {
+    "place": "Coffee Shop4a97cf92f964a520c42920e3",
+    "time": "2012-04-19"
+  },
+  {
+    "place": "Stadium3fd66200f964a520ddf01ee3",
+    "time": "2012-04-19"
+  },
+  {
+    "place": "Indian Restaurant4a63c02af964a520b5c51fe3",
+    "time": "2012-04-20"
+  },
+  {
+    "place": "Coffee Shop4ad13d14f964a520a3dd20e3",
+    "time": "2012-04-20"
+  },
+  {
+    "place": "Sushi Restaurant4a837824f964a5203afb1fe3",
+    "time": "2012-04-20"
+  },
+  {
+    "place": "Breakfast Spot4a7a260bf964a520aae81fe3",
+    "time": "2012-04-21"
+  },
+  {
+    "place": "Park42893400f964a52052231fe3",
+    "time": "2012-04-21"
+  },
+  {
+    "place": "Asian Restaurant4afa2432f964a520081722e3",
+    "time": "2012-04-22"
+  },
+  {
+    "place": "Bagel Shop4a63578cf964a520cfc41fe3",
+    "time": "2012-04-22"
+  },
+  {
+    "place": "Coffee Shop4e46fc6eae60fa7232fbfbd1",
+    "time": "2012-04-22"
+  },
+  {
+    "place": "Coffee Shop4ab6c8faf964a520097920e3",
+    "time": "2012-04-22"
+  },
+  {
+    "place": "Coffee Shop4a7f0913f964a5208af21fe3",
+    "time": "2012-04-23"
+  },
+  {
+    "place": "College Academic Building4c700bc7d97fa143bac0f4ca",
+    "time": "2012-04-23"
+  },
+  {
+    "place": "Sushi Restaurant4a11e830f964a5205c771fe3",
+    "time": "2012-04-23"
+  },
+  {
+    "place": "Coffee Shop4a7f0913f964a5208af21fe3",
+    "time": "2012-04-23"
+  },
+  {
+    "place": "Mexican Restaurant4cc6e7d2f49676b0ba4674d5",
+    "time": "2012-04-24"
+  },
+  {
+    "place": "Coffee Shop4a7f0913f964a5208af21fe3",
+    "time": "2012-04-24"
+  },
+  {
+    "place": "College Academic Building4c700bc7d97fa143bac0f4ca",
+    "time": "2012-04-24"
+  },
+  {
+    "place": "Coffee Shop4a7f0913f964a5208af21fe3",
+    "time": "2012-04-25"
+  },
+  {
+    "place": "College Academic Building4c700bc7d97fa143bac0f4ca",
+    "time": "2012-04-25"
+  },
+  {
+    "place": "Coffee Shop4a7f0913f964a5208af21fe3",
+    "time": "2012-04-26"
+  },
+  {
+    "place": "College Academic Building4c700bc7d97fa143bac0f4ca",
+    "time": "2012-04-26"
+  },
+  {
+    "place": "College Academic Building4c700bc7d97fa143bac0f4ca",
+    "time": "2012-04-27"
+  },
+  {
+    "place": "Thai Restaurant4c368d5f0a71c9b6c06e3dc9",
+    "time": "2012-04-27"
+  },
+  {
+    "place": "Thai Restaurant4c632760eb82d13a713407d6",
+    "time": "2012-04-28"
+  },
+  {
+    "place": "Diner4a5aa675f964a520b5ba1fe3",
+    "time": "2012-04-28"
+  },
+  {
+    "place": "Coffee Shop4e46fc6eae60fa7232fbfbd1",
+    "time": "2012-04-28"
+  },
+  {
+    "place": "Coffee Shop49cf9381f964a520af5a1fe3",
+    "time": "2012-04-28"
+  },
+  {
+    "place": "American Restaurant48f1a197f964a52042521fe3",
+    "time": "2012-04-28"
+  },
+  {
+    "place": "Coffee Shop43a18b01f964a5202e2c1fe3",
+    "time": "2012-04-28"
+  },
+  {
+    "place": "Mexican Restaurant4cc6e7d2f49676b0ba4674d5",
+    "time": "2012-04-29"
+  },
+  {
+    "place": "Coffee Shop42829c80f964a52025221fe3",
+    "time": "2012-04-29"
+  },
+  {
+    "place": "Bakery4bec28c161aca593a7e08500",
+    "time": "2012-04-29"
+  },
+  {
+    "place": "Coffee Shop4bf1a9cb7077952162973e7c",
+    "time": "2012-05-01"
+  },
+  {
+    "place": "Coffee Shop4bf1a9cb7077952162973e7c",
+    "time": "2012-05-03"
+  },
+  {
+    "place": "Japanese Restaurant4bb69539f562ef3b986d3097",
+    "time": "2012-05-03"
+  },
+  {
+    "place": "College Academic Building4c700bc7d97fa143bac0f4ca",
+    "time": "2012-05-03"
+  },
+  {
+    "place": "Coffee Shop4a7f0913f964a5208af21fe3",
+    "time": "2012-05-03"
+  },
+  {
+    "place": "Coffee Shop44afd4e4f964a5202d351fe3",
+    "time": "2012-05-03"
+  },
+  {
+    "place": "Coffee Shop4bf1a9cb7077952162973e7c",
+    "time": "2012-05-04"
+  },
+  {
+    "place": "College Academic Building4c700bc7d97fa143bac0f4ca",
+    "time": "2012-05-04"
+  },
+  {
+    "place": "Coffee Shop4a7f0913f964a5208af21fe3",
+    "time": "2012-05-04"
+  },
+  {
+    "place": "Performing Arts Venue4a65bd5cf964a52095c71fe3",
+    "time": "2012-05-05"
+  },
+  {
+    "place": "Bar4bbf6580ba9776b0bf0bffc8",
+    "time": "2012-05-05"
+  },
+  {
+    "place": "Coffee Shop44afd4e4f964a5202d351fe3",
+    "time": "2012-05-06"
+  },
+  {
+    "place": "Bakery4dc6e39a887717c880479369",
+    "time": "2012-05-06"
+  },
+  {
+    "place": "Vegetarian / Vegan Restaurant3fd66200f964a5206ee91ee3",
+    "time": "2012-05-07"
+  },
+  {
+    "place": "College Academic Building4c700bc7d97fa143bac0f4ca",
+    "time": "2012-05-07"
+  },
+  {
+    "place": "Coffee Shop4a7f0913f964a5208af21fe3",
+    "time": "2012-05-07"
+  },
+  {
+    "place": "Coffee Shop4bf1a9cb7077952162973e7c",
+    "time": "2012-05-08"
+  },
+  {
+    "place": "College Academic Building4c700bc7d97fa143bac0f4ca",
+    "time": "2012-05-08"
+  },
+  {
+    "place": "Sushi Restaurant4a11e830f964a5205c771fe3",
+    "time": "2012-05-08"
+  },
+  {
+    "place": "College Academic Building4c700bc7d97fa143bac0f4ca",
+    "time": "2012-05-09"
+  },
+  {
+    "place": "College Academic Building4c700bc7d97fa143bac0f4ca",
+    "time": "2012-05-09"
+  },
+  {
+    "place": "Sushi Restaurant470363eaf964a5203e4b1fe3",
+    "time": "2012-05-09"
+  },
+  {
+    "place": "Coffee Shop4caf199db4b0a35dc8033ece",
+    "time": "2012-05-09"
+  },
+  {
+    "place": "Sushi Restaurant4c84399c51ada1cdc6772d10",
+    "time": "2012-05-10"
+  },
+  {
+    "place": "Coffee Shop4caf199db4b0a35dc8033ece",
+    "time": "2012-05-10"
+  },
+  {
+    "place": "Coffee Shop4a7f0913f964a5208af21fe3",
+    "time": "2012-05-11"
+  },
+  {
+    "place": "College Academic Building4c700bc7d97fa143bac0f4ca",
+    "time": "2012-05-11"
+  },
+  {
+    "place": "Theater4ef22ce4722eb49f525d2b06",
+    "time": "2012-05-11"
+  },
+  {
+    "place": "Burger Joint49c9358af964a52040581fe3",
+    "time": "2012-05-12"
+  },
+  {
+    "place": "Coffee Shop4eba99d3be7b1e562036cb46",
+    "time": "2012-05-12"
+  },
+  {
+    "place": "Mediterranean Restaurant47c65c85f964a520ef4d1fe3",
+    "time": "2012-05-12"
+  },
+  {
+    "place": "Sushi Restaurant4e7a7b98dab4f58fbe173fde",
+    "time": "2012-05-12"
+  },
+  {
+    "place": "Park40f1d480f964a5206a0a1fe3",
+    "time": "2012-05-13"
+  },
+  {
+    "place": "Bar3fd66200f964a520c0e31ee3",
+    "time": "2012-05-13"
+  },
+  {
+    "place": "Coffee Shop42829c80f964a52025221fe3",
+    "time": "2012-05-13"
+  },
+  {
+    "place": "Bakery4cacbbca97c8a1cd0d7ba3a5",
+    "time": "2012-05-13"
+  },
+  {
+    "place": "Park412d2800f964a520df0c1fe3",
+    "time": "2012-05-13"
+  },
+  {
+    "place": "Mexican Restaurant4e6e8d177d8b6c5625c019bc",
+    "time": "2012-05-13"
+  },
+  {
+    "place": "Coffee Shop4ae20b16f964a5201b8a21e3",
+    "time": "2012-05-13"
+  },
+  {
+    "place": "Coffee Shop4bf1a9cb7077952162973e7c",
+    "time": "2012-05-14"
+  },
+  {
+    "place": "College Academic Building4c700bc7d97fa143bac0f4ca",
+    "time": "2012-05-14"
+  },
+  {
+    "place": "Coffee Shop4a7f0913f964a5208af21fe3",
+    "time": "2012-05-14"
+  },
+  {
+    "place": "Coffee Shop49e74273f964a5207f641fe3",
+    "time": "2012-05-14"
+  },
+  {
+    "place": "Coffee Shop4a7f0913f964a5208af21fe3",
+    "time": "2012-05-15"
+  },
+  {
+    "place": "Coffee Shop4a7f0913f964a5208af21fe3",
+    "time": "2012-05-15"
+  },
+  {
+    "place": "College Academic Building4c700bc7d97fa143bac0f4ca",
+    "time": "2012-05-15"
+  },
+  {
+    "place": "Mexican Restaurant4a7a0832f964a5203ce81fe3",
+    "time": "2012-05-15"
+  },
+  {
+    "place": "Coffee Shop4bf1a9cb7077952162973e7c",
+    "time": "2012-05-16"
+  },
+  {
+    "place": "College Academic Building4c700bc7d97fa143bac0f4ca",
+    "time": "2012-05-16"
+  },
+  {
+    "place": "Coffee Shop4a7f0913f964a5208af21fe3",
+    "time": "2012-05-16"
+  },
+  {
+    "place": "Coffee Shop4a7f0913f964a5208af21fe3",
+    "time": "2012-05-17"
+  },
+  {
+    "place": "College Academic Building4c700bc7d97fa143bac0f4ca",
+    "time": "2012-05-17"
+  },
+  {
+    "place": "Coffee Shop4a72eeb8f964a52056db1fe3",
+    "time": "2012-05-17"
+  },
+  {
+    "place": "Coffee Shop4a7f0913f964a5208af21fe3",
+    "time": "2012-05-18"
+  },
+  {
+    "place": "College Academic Building4c700bc7d97fa143bac0f4ca",
+    "time": "2012-05-18"
+  },
+  {
+    "place": "Mexican Restaurant4cc6e7d2f49676b0ba4674d5",
+    "time": "2012-05-19"
+  },
+  {
+    "place": "Coffee Shop4eba99d3be7b1e562036cb46",
+    "time": "2012-05-19"
+  },
+  {
+    "place": "Sushi Restaurant4aa318f8f964a520524320e3",
+    "time": "2012-05-19"
+  },
+  {
+    "place": "College Academic Building4c700bc7d97fa143bac0f4ca",
+    "time": "2012-05-21"
+  },
+  {
+    "place": "Coffee Shop4a7f0913f964a5208af21fe3",
+    "time": "2012-05-21"
+  },
+  {
+    "place": "Mexican Restaurant4a7a0832f964a5203ce81fe3",
+    "time": "2012-05-21"
+  },
+  {
+    "place": "Coffee Shop49e74273f964a5207f641fe3",
+    "time": "2012-05-21"
+  },
+  {
+    "place": "Coffee Shop4ae8495ef964a5207fae21e3",
+    "time": "2012-05-22"
+  },
+  {
+    "place": "Music Venue4846c5acf964a5206f501fe3",
+    "time": "2012-05-22"
+  },
+  {
+    "place": "Coffee Shop4a7f0913f964a5208af21fe3",
+    "time": "2012-05-22"
+  },
+  {
+    "place": "College Academic Building4c700bc7d97fa143bac0f4ca",
+    "time": "2012-05-22"
+  }
+]

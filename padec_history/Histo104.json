@@ -1,0 +1,474 @@
+[
+  {
+    "place": "Department Store41102700f964a520d60b1fe3",
+    "time": "2012-04-03"
+  },
+  {
+    "place": "Ice Cream Shop4a1de847f964a520aa7b1fe3",
+    "time": "2012-04-03"
+  },
+  {
+    "place": "Cupcake Shop4a69f764f964a5204bcc1fe3",
+    "time": "2012-04-03"
+  },
+  {
+    "place": "Department Store4e40041f81dc6ce0fac9ae73",
+    "time": "2012-04-03"
+  },
+  {
+    "place": "Cupcake Shop4ecc1e9993adb4bd1bb5d5dd",
+    "time": "2012-04-03"
+  },
+  {
+    "place": "Cosmetics Shop4b940a3df964a520686334e3",
+    "time": "2012-04-03"
+  },
+  {
+    "place": "Mexican Restaurant3fd66200f964a52083ea1ee3",
+    "time": "2012-04-03"
+  },
+  {
+    "place": "Fried Chicken Joint4b342e93f964a520dd2525e3",
+    "time": "2012-04-04"
+  },
+  {
+    "place": "Cupcake Shop4cdc016e39172d43b65483d8",
+    "time": "2012-04-04"
+  },
+  {
+    "place": "Food & Drink Shop4a95cf86f964a520c92420e3",
+    "time": "2012-04-05"
+  },
+  {
+    "place": "Cupcake Shop4ef3b2439adf60f839e2f808",
+    "time": "2012-04-05"
+  },
+  {
+    "place": "Bar49d23a22f964a5209f5b1fe3",
+    "time": "2012-04-06"
+  },
+  {
+    "place": "Cosmetics Shop4ade3c4df964a5202a7421e3",
+    "time": "2012-04-06"
+  },
+  {
+    "place": "Cosmetics Shop4bdb5155c79cc928652582e9",
+    "time": "2012-04-07"
+  },
+  {
+    "place": "Clothing Store4b390efcf964a520485525e3",
+    "time": "2012-04-07"
+  },
+  {
+    "place": "Italian Restaurant4c3f6b713735be9a795b15a4",
+    "time": "2012-04-07"
+  },
+  {
+    "place": "Cupcake Shop4ac77634f964a5205eb720e3",
+    "time": "2012-04-08"
+  },
+  {
+    "place": "Cupcake Shop4cdc016e39172d43b65483d8",
+    "time": "2012-04-08"
+  },
+  {
+    "place": "Cupcake Shop4cdc01b939172d431e5583d8",
+    "time": "2012-04-08"
+  },
+  {
+    "place": "Pizza Place4a456d41f964a5202aa81fe3",
+    "time": "2012-04-08"
+  },
+  {
+    "place": "Sandwich Place4a5b7bd6f964a52049bb1fe3",
+    "time": "2012-04-08"
+  },
+  {
+    "place": "Food & Drink Shop4be1da70a145c928e9ca4e80",
+    "time": "2012-04-11"
+  },
+  {
+    "place": "Pizza Place4e3f52476365a251c704391c",
+    "time": "2012-04-11"
+  },
+  {
+    "place": "Cupcake Shop4cdc016e39172d43b65483d8",
+    "time": "2012-04-11"
+  },
+  {
+    "place": "Furniture / Home Store4ca33a8ffcaebfb72afcc084",
+    "time": "2012-04-11"
+  },
+  {
+    "place": "Department Store4a9e7e1af964a5204c3a20e3",
+    "time": "2012-04-12"
+  },
+  {
+    "place": "Miscellaneous Shop4abfbbc7f964a520e79120e3",
+    "time": "2012-04-12"
+  },
+  {
+    "place": "Pizza Place4c14dcae1b5cef3bbe2feec4",
+    "time": "2012-04-13"
+  },
+  {
+    "place": "Cupcake Shop4eb65614d5fb442a675d629c",
+    "time": "2012-04-13"
+  },
+  {
+    "place": "Ice Cream Shop4bbdd873a0a0c9b60a0d1c0f",
+    "time": "2012-04-13"
+  },
+  {
+    "place": "Arts & Crafts Store4ae2efbbf964a520b78f21e3",
+    "time": "2012-04-13"
+  },
+  {
+    "place": "Cuban Restaurant4a886be4f964a5205d0620e3",
+    "time": "2012-04-14"
+  },
+  {
+    "place": "Cupcake Shop4cdc016e39172d43b65483d8",
+    "time": "2012-04-14"
+  },
+  {
+    "place": "Music Venue3fd66200f964a520dde31ee3",
+    "time": "2012-04-15"
+  },
+  {
+    "place": "Music Venue3fd66200f964a52035e41ee3",
+    "time": "2012-04-15"
+  },
+  {
+    "place": "Thai Restaurant45114052f964a52097391fe3",
+    "time": "2012-04-16"
+  },
+  {
+    "place": "University4864629bf964a520e6501fe3",
+    "time": "2012-04-16"
+  },
+  {
+    "place": "Coffee Shop4abce119f964a520878720e3",
+    "time": "2012-04-16"
+  },
+  {
+    "place": "Cupcake Shop4a69f764f964a5204bcc1fe3",
+    "time": "2012-04-17"
+  },
+  {
+    "place": "Fast Food Restaurant4b1fcad4f964a520192924e3",
+    "time": "2012-04-17"
+  },
+  {
+    "place": "Science Museum4297b480f964a52062241fe3",
+    "time": "2012-04-17"
+  },
+  {
+    "place": "Mexican Restaurant4aca9069f964a5205dc220e3",
+    "time": "2012-04-17"
+  },
+  {
+    "place": "Sandwich Place4bedd7592c082d7f3d972f42",
+    "time": "2012-04-18"
+  },
+  {
+    "place": "Fried Chicken Joint4df8f63862847bdf4fedf7e7",
+    "time": "2012-04-18"
+  },
+  {
+    "place": "Fried Chicken Joint4bc0ac77920eb7132b4a192c",
+    "time": "2012-04-19"
+  },
+  {
+    "place": "Cupcake Shop4cdc016e39172d43b65483d8",
+    "time": "2012-04-19"
+  },
+  {
+    "place": "Thai Restaurant49bc064ff964a5200a541fe3",
+    "time": "2012-04-19"
+  },
+  {
+    "place": "University4864629bf964a520e6501fe3",
+    "time": "2012-04-19"
+  },
+  {
+    "place": "Cupcake Shop4cdc016e39172d43b65483d8",
+    "time": "2012-04-20"
+  },
+  {
+    "place": "Movie Theater49e7ce15f964a5201d651fe3",
+    "time": "2012-04-21"
+  },
+  {
+    "place": "Cupcake Shop4cdc016e39172d43b65483d8",
+    "time": "2012-04-22"
+  },
+  {
+    "place": "University4864629bf964a520e6501fe3",
+    "time": "2012-04-23"
+  },
+  {
+    "place": "Cupcake Shop4cdc016e39172d43b65483d8",
+    "time": "2012-04-25"
+  },
+  {
+    "place": "Cupcake Shop4cdc016e39172d43b65483d8",
+    "time": "2012-04-26"
+  },
+  {
+    "place": "Cupcake Shop4cdc016e39172d43b65483d8",
+    "time": "2012-04-27"
+  },
+  {
+    "place": "Cupcake Shop4cdc016e39172d43b65483d8",
+    "time": "2012-04-28"
+  },
+  {
+    "place": "Diner49fc62b9f964a5209c6e1fe3",
+    "time": "2012-04-29"
+  },
+  {
+    "place": "Mexican Restaurant4f0f71a1e4b061b771f6b4a6",
+    "time": "2012-04-29"
+  },
+  {
+    "place": "University4864629bf964a520e6501fe3",
+    "time": "2012-05-03"
+  },
+  {
+    "place": "Cupcake Shop4cdc016e39172d43b65483d8",
+    "time": "2012-05-06"
+  },
+  {
+    "place": "Fried Chicken Joint4c796c1c3badb1f78d0c4f54",
+    "time": "2012-05-07"
+  },
+  {
+    "place": "Cupcake Shop4cdc016e39172d43b65483d8",
+    "time": "2012-05-08"
+  },
+  {
+    "place": "Coffee Shop4c0988846071a593f91cde32",
+    "time": "2012-05-09"
+  },
+  {
+    "place": "Clothing Store4bca32d1b6c49c7460059091",
+    "time": "2012-05-10"
+  },
+  {
+    "place": "Fried Chicken Joint4cf938d25698a09378e009fc",
+    "time": "2012-05-10"
+  },
+  {
+    "place": "University4864629bf964a520e6501fe3",
+    "time": "2012-05-10"
+  },
+  {
+    "place": "Cupcake Shop4cdc016e39172d43b65483d8",
+    "time": "2012-05-11"
+  },
+  {
+    "place": "University4864629bf964a520e6501fe3",
+    "time": "2012-05-14"
+  },
+  {
+    "place": "School4ae8ccbff964a52068b221e3",
+    "time": "2012-05-14"
+  },
+  {
+    "place": "Furniture / Home Store4ab94773f964a520c07e20e3",
+    "time": "2012-05-14"
+  },
+  {
+    "place": "Cupcake Shop4cdc016e39172d43b65483d8",
+    "time": "2012-05-15"
+  },
+  {
+    "place": "Cupcake Shop4cdc016e39172d43b65483d8",
+    "time": "2012-05-16"
+  },
+  {
+    "place": "Cupcake Shop4cdc016e39172d43b65483d8",
+    "time": "2012-05-19"
+  },
+  {
+    "place": "Cupcake Shop4ac77634f964a5205eb720e3",
+    "time": "2012-05-22"
+  },
+  {
+    "place": "Cupcake Shop4ac77634f964a5205eb720e3",
+    "time": "2012-05-25"
+  },
+  {
+    "place": "Italian Restaurant4c3f6b713735be9a795b15a4",
+    "time": "2012-05-26"
+  },
+  {
+    "place": "Cupcake Shop4ac77634f964a5205eb720e3",
+    "time": "2012-05-27"
+  },
+  {
+    "place": "Fast Food Restaurant4d99de5a3bca41bd59e45cec",
+    "time": "2012-05-28"
+  },
+  {
+    "place": "Cupcake Shop4ac77634f964a5205eb720e3",
+    "time": "2012-05-29"
+  },
+  {
+    "place": "Subway4ad8fa6ef964a520ac1621e3",
+    "time": "2012-05-31"
+  },
+  {
+    "place": "Cajun / Creole Restaurant3fd66200f964a5207dea1ee3",
+    "time": "2012-05-31"
+  },
+  {
+    "place": "Movie Theater40afe980f964a5203bf31ee3",
+    "time": "2012-06-02"
+  },
+  {
+    "place": "BBQ Joint4ec29511be7b04923dab3c15",
+    "time": "2012-06-03"
+  },
+  {
+    "place": "Breakfast Spot4abe0cd7f964a520938b20e3",
+    "time": "2012-06-03"
+  },
+  {
+    "place": "Food & Drink Shop4a95cf86f964a520c92420e3",
+    "time": "2012-06-04"
+  },
+  {
+    "place": "Cupcake Shop4cdc016e39172d43b65483d8",
+    "time": "2012-06-06"
+  },
+  {
+    "place": "Sandwich Place4bedd7592c082d7f3d972f42",
+    "time": "2012-06-06"
+  },
+  {
+    "place": "Food & Drink Shop4b885c1df964a520f6f131e3",
+    "time": "2012-06-09"
+  },
+  {
+    "place": "Cupcake Shop4cdc016e39172d43b65483d8",
+    "time": "2012-06-09"
+  },
+  {
+    "place": "Zoo4492ad65f964a52075341fe3",
+    "time": "2012-06-11"
+  },
+  {
+    "place": "Cupcake Shop4cdc016e39172d43b65483d8",
+    "time": "2012-06-12"
+  },
+  {
+    "place": "Drugstore / Pharmacy4cab60fda643b713236aeaa6",
+    "time": "2012-06-13"
+  },
+  {
+    "place": "Cupcake Shop4cdc016e39172d43b65483d8",
+    "time": "2012-06-13"
+  },
+  {
+    "place": "Cosmetics Shop4bdb5155c79cc928652582e9",
+    "time": "2012-06-16"
+  },
+  {
+    "place": "Thai Restaurant45114052f964a52097391fe3",
+    "time": "2012-06-16"
+  },
+  {
+    "place": "Pizza Place4c14dcae1b5cef3bbe2feec4",
+    "time": "2012-06-17"
+  },
+  {
+    "place": "Ice Cream Shop4bbdd873a0a0c9b60a0d1c0f",
+    "time": "2012-06-17"
+  },
+  {
+    "place": "Cupcake Shop4cdc016e39172d43b65483d8",
+    "time": "2012-06-17"
+  },
+  {
+    "place": "Cupcake Shop4ac77634f964a5205eb720e3",
+    "time": "2012-06-27"
+  },
+  {
+    "place": "Airport4459d2f1f964a520d7321fe3",
+    "time": "2012-07-01"
+  },
+  {
+    "place": "Fried Chicken Joint4d2bed1eb818a35d6834b48a",
+    "time": "2012-07-01"
+  },
+  {
+    "place": "Cupcake Shop4cdc016e39172d43b65483d8",
+    "time": "2012-07-03"
+  },
+  {
+    "place": "Bakery4fe9f594e4b0f9672dc5b081",
+    "time": "2012-07-03"
+  },
+  {
+    "place": "Hot Dog Joint4a5b9ca0f964a52082bb1fe3",
+    "time": "2012-07-05"
+  },
+  {
+    "place": "Fried Chicken Joint4b23fe73f964a520995e24e3",
+    "time": "2012-07-05"
+  },
+  {
+    "place": "Cupcake Shop4a647a87f964a52035c61fe3",
+    "time": "2012-07-06"
+  },
+  {
+    "place": "Clothing Store4a14d7c6f964a52083781fe3",
+    "time": "2012-07-06"
+  },
+  {
+    "place": "Department Store49cbb6f9f964a5200f591fe3",
+    "time": "2012-07-06"
+  },
+  {
+    "place": "Cupcake Shop4ac77634f964a5205eb720e3",
+    "time": "2012-07-07"
+  },
+  {
+    "place": "Medical Center4e52ed7f18a8c0ad8f6900e7",
+    "time": "2012-07-11"
+  },
+  {
+    "place": "Food & Drink Shop4a95cf86f964a520c92420e3",
+    "time": "2012-07-21"
+  },
+  {
+    "place": "Sandwich Place45404cb9f964a520393c1fe3",
+    "time": "2012-07-28"
+  },
+  {
+    "place": "Cupcake Shop4cdc016e39172d43b65483d8",
+    "time": "2012-08-05"
+  },
+  {
+    "place": "Clothing Store4a833fa5f964a5207efa1fe3",
+    "time": "2012-08-11"
+  },
+  {
+    "place": "Breakfast Spot4e0530f6ae60a90eabbacc01",
+    "time": "2012-08-11"
+  },
+  {
+    "place": "Hotel4d9c92f4baae54815f2cde64",
+    "time": "2012-08-12"
+  },
+  {
+    "place": "Bar4fbda7f1e4b00375eee81d3b",
+    "time": "2012-08-12"
+  },
+  {
+    "place": "Bar4b73ab13f964a520dbb72de3",
+    "time": "2012-08-12"
+  }
+]

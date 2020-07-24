@@ -1,0 +1,930 @@
+[
+  {
+    "place": "Ferry4c955b3558d4b60c06d03129",
+    "time": "2012-04-03"
+  },
+  {
+    "place": "Office4c56f9ad30d82d7f3cbcd862",
+    "time": "2012-04-03"
+  },
+  {
+    "place": "Hotel4ab04eb9f964a520fe6620e3",
+    "time": "2012-04-03"
+  },
+  {
+    "place": "Ferry4a65b705f964a5208fc71fe3",
+    "time": "2012-04-04"
+  },
+  {
+    "place": "Ferry4c955b3558d4b60c06d03129",
+    "time": "2012-04-04"
+  },
+  {
+    "place": "Train Station42829c80f964a5206a221fe3",
+    "time": "2012-04-04"
+  },
+  {
+    "place": "Italian Restaurant4a5cc276f964a52087bc1fe3",
+    "time": "2012-04-04"
+  },
+  {
+    "place": "Office4c56f9ad30d82d7f3cbcd862",
+    "time": "2012-04-09"
+  },
+  {
+    "place": "Ferry4a65b705f964a5208fc71fe3",
+    "time": "2012-04-10"
+  },
+  {
+    "place": "Ferry4c955b3558d4b60c06d03129",
+    "time": "2012-04-10"
+  },
+  {
+    "place": "Donut Shop4b5b64aaf964a5206dfa28e3",
+    "time": "2012-04-10"
+  },
+  {
+    "place": "Donut Shop4b5b64aaf964a5206dfa28e3",
+    "time": "2012-04-10"
+  },
+  {
+    "place": "Office4c56f9ad30d82d7f3cbcd862",
+    "time": "2012-04-11"
+  },
+  {
+    "place": "Ferry4a65b705f964a5208fc71fe3",
+    "time": "2012-04-16"
+  },
+  {
+    "place": "Ferry4c955b3558d4b60c06d03129",
+    "time": "2012-04-16"
+  },
+  {
+    "place": "Donut Shop4b5b64aaf964a5206dfa28e3",
+    "time": "2012-04-16"
+  },
+  {
+    "place": "Train Station42829c80f964a5206a221fe3",
+    "time": "2012-04-17"
+  },
+  {
+    "place": "Office4c56f9ad30d82d7f3cbcd862",
+    "time": "2012-04-17"
+  },
+  {
+    "place": "Donut Shop4b5b64aaf964a5206dfa28e3",
+    "time": "2012-04-17"
+  },
+  {
+    "place": "Ferry4c955b3558d4b60c06d03129",
+    "time": "2012-04-18"
+  },
+  {
+    "place": "Ferry4a65b705f964a5208fc71fe3",
+    "time": "2012-04-19"
+  },
+  {
+    "place": "Ferry4c955b3558d4b60c06d03129",
+    "time": "2012-04-19"
+  },
+  {
+    "place": "Donut Shop4b5b64aaf964a5206dfa28e3",
+    "time": "2012-04-19"
+  },
+  {
+    "place": "Office4c56f9ad30d82d7f3cbcd862",
+    "time": "2012-04-19"
+  },
+  {
+    "place": "Ferry4c955b3558d4b60c06d03129",
+    "time": "2012-04-19"
+  },
+  {
+    "place": "Ferry4a65b705f964a5208fc71fe3",
+    "time": "2012-04-19"
+  },
+  {
+    "place": "Ferry4a65b705f964a5208fc71fe3",
+    "time": "2012-04-20"
+  },
+  {
+    "place": "Ferry4c955b3558d4b60c06d03129",
+    "time": "2012-04-20"
+  },
+  {
+    "place": "Donut Shop4b5b64aaf964a5206dfa28e3",
+    "time": "2012-04-20"
+  },
+  {
+    "place": "Office4c56f9ad30d82d7f3cbcd862",
+    "time": "2012-04-20"
+  },
+  {
+    "place": "Ferry4a65b705f964a5208fc71fe3",
+    "time": "2012-04-20"
+  },
+  {
+    "place": "Ferry4a65b705f964a5208fc71fe3",
+    "time": "2012-04-23"
+  },
+  {
+    "place": "Ferry4c955b3558d4b60c06d03129",
+    "time": "2012-04-23"
+  },
+  {
+    "place": "Donut Shop4b5b64aaf964a5206dfa28e3",
+    "time": "2012-04-23"
+  },
+  {
+    "place": "Office4c56f9ad30d82d7f3cbcd862",
+    "time": "2012-04-23"
+  },
+  {
+    "place": "Ferry4a65b705f964a5208fc71fe3",
+    "time": "2012-04-24"
+  },
+  {
+    "place": "Ferry4afefbe2f964a5207b3222e3",
+    "time": "2012-04-24"
+  },
+  {
+    "place": "Donut Shop4b5b64aaf964a5206dfa28e3",
+    "time": "2012-04-24"
+  },
+  {
+    "place": "Office4c56f9ad30d82d7f3cbcd862",
+    "time": "2012-04-24"
+  },
+  {
+    "place": "Ferry4afefbe2f964a5207b3222e3",
+    "time": "2012-04-24"
+  },
+  {
+    "place": "Ferry4a65b705f964a5208fc71fe3",
+    "time": "2012-04-24"
+  },
+  {
+    "place": "Donut Shop4b5b64aaf964a5206dfa28e3",
+    "time": "2012-04-25"
+  },
+  {
+    "place": "Office4c56f9ad30d82d7f3cbcd862",
+    "time": "2012-04-25"
+  },
+  {
+    "place": "Airport4ace6c89f964a52078d020e3",
+    "time": "2012-04-25"
+  },
+  {
+    "place": "Airport4ace6c89f964a52078d020e3",
+    "time": "2012-04-28"
+  },
+  {
+    "place": "Ferry4a65b705f964a5208fc71fe3",
+    "time": "2012-05-03"
+  },
+  {
+    "place": "Ferry4afefbe2f964a5207b3222e3",
+    "time": "2012-05-03"
+  },
+  {
+    "place": "Donut Shop4b5b64aaf964a5206dfa28e3",
+    "time": "2012-05-03"
+  },
+  {
+    "place": "Building43695300f964a5208c291fe3",
+    "time": "2012-05-03"
+  },
+  {
+    "place": "Office4c56f9ad30d82d7f3cbcd862",
+    "time": "2012-05-03"
+  },
+  {
+    "place": "Ferry4c955b3558d4b60c06d03129",
+    "time": "2012-05-03"
+  },
+  {
+    "place": "Ferry4a65b705f964a5208fc71fe3",
+    "time": "2012-05-03"
+  },
+  {
+    "place": "Ferry4a65b705f964a5208fc71fe3",
+    "time": "2012-05-04"
+  },
+  {
+    "place": "Ferry4afefbe2f964a5207b3222e3",
+    "time": "2012-05-04"
+  },
+  {
+    "place": "Donut Shop4b5b64aaf964a5206dfa28e3",
+    "time": "2012-05-04"
+  },
+  {
+    "place": "Office4c56f9ad30d82d7f3cbcd862",
+    "time": "2012-05-04"
+  },
+  {
+    "place": "Ferry4afefbe2f964a5207b3222e3",
+    "time": "2012-05-04"
+  },
+  {
+    "place": "Ferry4a65b705f964a5208fc71fe3",
+    "time": "2012-05-04"
+  },
+  {
+    "place": "American Restaurant4c020c87fd082d7f1aed0785",
+    "time": "2012-05-06"
+  },
+  {
+    "place": "Ferry4a65b705f964a5208fc71fe3",
+    "time": "2012-05-07"
+  },
+  {
+    "place": "Ferry4afefbe2f964a5207b3222e3",
+    "time": "2012-05-07"
+  },
+  {
+    "place": "Donut Shop4b5b64aaf964a5206dfa28e3",
+    "time": "2012-05-07"
+  },
+  {
+    "place": "Office4c56f9ad30d82d7f3cbcd862",
+    "time": "2012-05-07"
+  },
+  {
+    "place": "Italian Restaurant4afa15d8f964a520931622e3",
+    "time": "2012-05-07"
+  },
+  {
+    "place": "Ferry4afefbe2f964a5207b3222e3",
+    "time": "2012-05-07"
+  },
+  {
+    "place": "Ferry4a65b705f964a5208fc71fe3",
+    "time": "2012-05-07"
+  },
+  {
+    "place": "Ferry4a65b705f964a5208fc71fe3",
+    "time": "2012-05-08"
+  },
+  {
+    "place": "Ferry4afefbe2f964a5207b3222e3",
+    "time": "2012-05-08"
+  },
+  {
+    "place": "Ferry4a65b705f964a5208fc71fe3",
+    "time": "2012-05-08"
+  },
+  {
+    "place": "Ferry4a65b705f964a5208fc71fe3",
+    "time": "2012-05-09"
+  },
+  {
+    "place": "Ferry4afefbe2f964a5207b3222e3",
+    "time": "2012-05-09"
+  },
+  {
+    "place": "Donut Shop4b5b64aaf964a5206dfa28e3",
+    "time": "2012-05-09"
+  },
+  {
+    "place": "Office4c56f9ad30d82d7f3cbcd862",
+    "time": "2012-05-09"
+  },
+  {
+    "place": "Ferry4afefbe2f964a5207b3222e3",
+    "time": "2012-05-09"
+  },
+  {
+    "place": "Ferry4afefbe2f964a5207b3222e3",
+    "time": "2012-05-10"
+  },
+  {
+    "place": "Ferry4a65b705f964a5208fc71fe3",
+    "time": "2012-05-10"
+  },
+  {
+    "place": "Ferry4a65b705f964a5208fc71fe3",
+    "time": "2012-05-11"
+  },
+  {
+    "place": "Ferry4afefbe2f964a5207b3222e3",
+    "time": "2012-05-11"
+  },
+  {
+    "place": "Donut Shop4b5b64aaf964a5206dfa28e3",
+    "time": "2012-05-11"
+  },
+  {
+    "place": "Office4c56f9ad30d82d7f3cbcd862",
+    "time": "2012-05-11"
+  },
+  {
+    "place": "Thai Restaurant4acf6fe2f964a520a4d320e3",
+    "time": "2012-05-11"
+  },
+  {
+    "place": "Ferry4a65b705f964a5208fc71fe3",
+    "time": "2012-05-11"
+  },
+  {
+    "place": "Ferry4a65b705f964a5208fc71fe3",
+    "time": "2012-05-14"
+  },
+  {
+    "place": "Ferry4afefbe2f964a5207b3222e3",
+    "time": "2012-05-14"
+  },
+  {
+    "place": "Donut Shop4b5b64aaf964a5206dfa28e3",
+    "time": "2012-05-14"
+  },
+  {
+    "place": "Office4c56f9ad30d82d7f3cbcd862",
+    "time": "2012-05-14"
+  },
+  {
+    "place": "Ferry4afefbe2f964a5207b3222e3",
+    "time": "2012-05-14"
+  },
+  {
+    "place": "Ferry4a65b705f964a5208fc71fe3",
+    "time": "2012-05-14"
+  },
+  {
+    "place": "Ferry4a65b705f964a5208fc71fe3",
+    "time": "2012-05-17"
+  },
+  {
+    "place": "Ferry4afefbe2f964a5207b3222e3",
+    "time": "2012-05-17"
+  },
+  {
+    "place": "Donut Shop4b5b64aaf964a5206dfa28e3",
+    "time": "2012-05-17"
+  },
+  {
+    "place": "Office4c56f9ad30d82d7f3cbcd862",
+    "time": "2012-05-17"
+  },
+  {
+    "place": "Bar4a329edaf964a520699a1fe3",
+    "time": "2012-05-17"
+  },
+  {
+    "place": "Donut Shop4b5b64aaf964a5206dfa28e3",
+    "time": "2012-05-18"
+  },
+  {
+    "place": "Ferry4afefbe2f964a5207b3222e3",
+    "time": "2012-05-18"
+  },
+  {
+    "place": "Ferry4a65b705f964a5208fc71fe3",
+    "time": "2012-05-18"
+  },
+  {
+    "place": "Ferry4a65b705f964a5208fc71fe3",
+    "time": "2012-05-21"
+  },
+  {
+    "place": "Ferry4afefbe2f964a5207b3222e3",
+    "time": "2012-05-21"
+  },
+  {
+    "place": "Donut Shop4b5b64aaf964a5206dfa28e3",
+    "time": "2012-05-21"
+  },
+  {
+    "place": "Office4c56f9ad30d82d7f3cbcd862",
+    "time": "2012-05-21"
+  },
+  {
+    "place": "Ferry4afefbe2f964a5207b3222e3",
+    "time": "2012-05-21"
+  },
+  {
+    "place": "Ferry4a65b705f964a5208fc71fe3",
+    "time": "2012-05-21"
+  },
+  {
+    "place": "Ferry4a65b705f964a5208fc71fe3",
+    "time": "2012-05-22"
+  },
+  {
+    "place": "Ferry4afefbe2f964a5207b3222e3",
+    "time": "2012-05-22"
+  },
+  {
+    "place": "Donut Shop4b5b64aaf964a5206dfa28e3",
+    "time": "2012-05-22"
+  },
+  {
+    "place": "Office4c56f9ad30d82d7f3cbcd862",
+    "time": "2012-05-22"
+  },
+  {
+    "place": "Ferry4afefbe2f964a5207b3222e3",
+    "time": "2012-05-23"
+  },
+  {
+    "place": "Ferry4a65b705f964a5208fc71fe3",
+    "time": "2012-05-23"
+  },
+  {
+    "place": "Ferry4a65b705f964a5208fc71fe3",
+    "time": "2012-05-25"
+  },
+  {
+    "place": "Ferry4afefbe2f964a5207b3222e3",
+    "time": "2012-05-25"
+  },
+  {
+    "place": "Donut Shop4b5b64aaf964a5206dfa28e3",
+    "time": "2012-05-25"
+  },
+  {
+    "place": "Office4c56f9ad30d82d7f3cbcd862",
+    "time": "2012-05-25"
+  },
+  {
+    "place": "Ferry4afefbe2f964a5207b3222e3",
+    "time": "2012-05-26"
+  },
+  {
+    "place": "Ferry4a65b705f964a5208fc71fe3",
+    "time": "2012-05-26"
+  },
+  {
+    "place": "Ferry4a65b705f964a5208fc71fe3",
+    "time": "2012-06-01"
+  },
+  {
+    "place": "Ferry4afefbe2f964a5207b3222e3",
+    "time": "2012-06-01"
+  },
+  {
+    "place": "Donut Shop4b5b64aaf964a5206dfa28e3",
+    "time": "2012-06-01"
+  },
+  {
+    "place": "Office4c56f9ad30d82d7f3cbcd862",
+    "time": "2012-06-01"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4ec1830eb803bca7df00f5ea",
+    "time": "2012-06-03"
+  },
+  {
+    "place": "Italian Restaurant3fd66200f964a52075e91ee3",
+    "time": "2012-06-03"
+  },
+  {
+    "place": "Ferry4a65b705f964a5208fc71fe3",
+    "time": "2012-06-04"
+  },
+  {
+    "place": "Ferry4afefbe2f964a5207b3222e3",
+    "time": "2012-06-04"
+  },
+  {
+    "place": "Donut Shop4b5b64aaf964a5206dfa28e3",
+    "time": "2012-06-04"
+  },
+  {
+    "place": "Office4c56f9ad30d82d7f3cbcd862",
+    "time": "2012-06-04"
+  },
+  {
+    "place": "Ferry4afefbe2f964a5207b3222e3",
+    "time": "2012-06-04"
+  },
+  {
+    "place": "Ferry4a65b705f964a5208fc71fe3",
+    "time": "2012-06-04"
+  },
+  {
+    "place": "Ferry4a65b705f964a5208fc71fe3",
+    "time": "2012-06-07"
+  },
+  {
+    "place": "Ferry4afefbe2f964a5207b3222e3",
+    "time": "2012-06-07"
+  },
+  {
+    "place": "Donut Shop4b5b64aaf964a5206dfa28e3",
+    "time": "2012-06-07"
+  },
+  {
+    "place": "Thai Restaurant4acf6fe2f964a520a4d320e3",
+    "time": "2012-06-07"
+  },
+  {
+    "place": "Train Station42829c80f964a5206a221fe3",
+    "time": "2012-06-07"
+  },
+  {
+    "place": "Ferry4afefbe2f964a5207b3222e3",
+    "time": "2012-06-08"
+  },
+  {
+    "place": "Donut Shop4b5b64aaf964a5206dfa28e3",
+    "time": "2012-06-08"
+  },
+  {
+    "place": "Ferry4afefbe2f964a5207b3222e3",
+    "time": "2012-06-08"
+  },
+  {
+    "place": "Ferry4a65b705f964a5208fc71fe3",
+    "time": "2012-06-08"
+  },
+  {
+    "place": "Ferry4afefbe2f964a5207b3222e3",
+    "time": "2012-09-14"
+  },
+  {
+    "place": "Ferry4a65b705f964a5208fc71fe3",
+    "time": "2012-10-08"
+  },
+  {
+    "place": "Ferry4afefbe2f964a5207b3222e3",
+    "time": "2012-10-08"
+  },
+  {
+    "place": "Ferry4a65b705f964a5208fc71fe3",
+    "time": "2012-10-12"
+  },
+  {
+    "place": "Ferry4a65b705f964a5208fc71fe3",
+    "time": "2012-10-17"
+  },
+  {
+    "place": "Ferry4afefbe2f964a5207b3222e3",
+    "time": "2012-10-17"
+  },
+  {
+    "place": "Ferry4afefbe2f964a5207b3222e3",
+    "time": "2012-10-18"
+  },
+  {
+    "place": "Ferry4a65b705f964a5208fc71fe3",
+    "time": "2012-10-22"
+  },
+  {
+    "place": "Ferry4afefbe2f964a5207b3222e3",
+    "time": "2012-10-22"
+  },
+  {
+    "place": "Thai Restaurant4acf6fe2f964a520a4d320e3",
+    "time": "2012-10-22"
+  },
+  {
+    "place": "Ferry4a65b705f964a5208fc71fe3",
+    "time": "2012-10-26"
+  },
+  {
+    "place": "Ferry4afefbe2f964a5207b3222e3",
+    "time": "2012-10-26"
+  },
+  {
+    "place": "Donut Shop4b5b64aaf964a5206dfa28e3",
+    "time": "2012-10-26"
+  },
+  {
+    "place": "Ferry4afefbe2f964a5207b3222e3",
+    "time": "2012-10-26"
+  },
+  {
+    "place": "Ferry4a65b705f964a5208fc71fe3",
+    "time": "2012-10-26"
+  },
+  {
+    "place": "Ferry4a65b705f964a5208fc71fe3",
+    "time": "2012-11-05"
+  },
+  {
+    "place": "Ferry4afefbe2f964a5207b3222e3",
+    "time": "2012-11-05"
+  },
+  {
+    "place": "Ferry4afefbe2f964a5207b3222e3",
+    "time": "2012-11-05"
+  },
+  {
+    "place": "Ferry4a65b705f964a5208fc71fe3",
+    "time": "2012-11-06"
+  },
+  {
+    "place": "Ferry4a65b705f964a5208fc71fe3",
+    "time": "2012-11-09"
+  },
+  {
+    "place": "Ferry4afefbe2f964a5207b3222e3",
+    "time": "2012-11-09"
+  },
+  {
+    "place": "Ferry4afefbe2f964a5207b3222e3",
+    "time": "2012-11-09"
+  },
+  {
+    "place": "Ferry4a65b705f964a5208fc71fe3",
+    "time": "2012-11-09"
+  },
+  {
+    "place": "Ferry4a65b705f964a5208fc71fe3",
+    "time": "2012-11-12"
+  },
+  {
+    "place": "Ferry4afefbe2f964a5207b3222e3",
+    "time": "2012-11-12"
+  },
+  {
+    "place": "Ferry4afefbe2f964a5207b3222e3",
+    "time": "2012-11-12"
+  },
+  {
+    "place": "Ferry4a65b705f964a5208fc71fe3",
+    "time": "2012-11-13"
+  },
+  {
+    "place": "Ferry4a65b705f964a5208fc71fe3",
+    "time": "2012-11-13"
+  },
+  {
+    "place": "Ferry4a65b705f964a5208fc71fe3",
+    "time": "2012-11-26"
+  },
+  {
+    "place": "Ferry4afefbe2f964a5207b3222e3",
+    "time": "2012-11-26"
+  },
+  {
+    "place": "Ferry4a65b705f964a5208fc71fe3",
+    "time": "2012-11-26"
+  },
+  {
+    "place": "Ferry4afefbe2f964a5207b3222e3",
+    "time": "2012-11-30"
+  },
+  {
+    "place": "Ferry4a65b705f964a5208fc71fe3",
+    "time": "2012-11-30"
+  },
+  {
+    "place": "Ferry4a65b705f964a5208fc71fe3",
+    "time": "2012-12-03"
+  },
+  {
+    "place": "Ferry4afefbe2f964a5207b3222e3",
+    "time": "2012-12-03"
+  },
+  {
+    "place": "Thai Restaurant4acf6fe2f964a520a4d320e3",
+    "time": "2012-12-03"
+  },
+  {
+    "place": "Ferry4afefbe2f964a5207b3222e3",
+    "time": "2012-12-03"
+  },
+  {
+    "place": "Ferry4a65b705f964a5208fc71fe3",
+    "time": "2012-12-03"
+  },
+  {
+    "place": "Ferry4afefbe2f964a5207b3222e3",
+    "time": "2012-12-04"
+  },
+  {
+    "place": "Ferry4afefbe2f964a5207b3222e3",
+    "time": "2012-12-05"
+  },
+  {
+    "place": "Ferry4a65b705f964a5208fc71fe3",
+    "time": "2012-12-05"
+  },
+  {
+    "place": "Ferry4afefbe2f964a5207b3222e3",
+    "time": "2012-12-05"
+  },
+  {
+    "place": "Ferry4a65b705f964a5208fc71fe3",
+    "time": "2012-12-06"
+  },
+  {
+    "place": "Ferry4a65b705f964a5208fc71fe3",
+    "time": "2012-12-06"
+  },
+  {
+    "place": "Ferry4afefbe2f964a5207b3222e3",
+    "time": "2012-12-06"
+  },
+  {
+    "place": "Art Museum47b6cfccf964a520af4d1fe3",
+    "time": "2012-12-07"
+  },
+  {
+    "place": "Ferry4afefbe2f964a5207b3222e3",
+    "time": "2012-12-07"
+  },
+  {
+    "place": "Ferry4a65b705f964a5208fc71fe3",
+    "time": "2012-12-14"
+  },
+  {
+    "place": "Bar44de40a3f964a520ce361fe3",
+    "time": "2012-12-14"
+  },
+  {
+    "place": "BBQ Joint4d5c7eb11ef2f04de5bef5cd",
+    "time": "2012-12-15"
+  },
+  {
+    "place": "Ferry4afefbe2f964a5207b3222e3",
+    "time": "2012-12-15"
+  },
+  {
+    "place": "Ferry4afefbe2f964a5207b3222e3",
+    "time": "2012-12-17"
+  },
+  {
+    "place": "Ferry4a65b705f964a5208fc71fe3",
+    "time": "2012-12-21"
+  },
+  {
+    "place": "Ferry4afefbe2f964a5207b3222e3",
+    "time": "2012-12-21"
+  },
+  {
+    "place": "Indian Restaurant427ea800f964a520b0211fe3",
+    "time": "2012-12-21"
+  },
+  {
+    "place": "Ferry4afefbe2f964a5207b3222e3",
+    "time": "2012-12-21"
+  },
+  {
+    "place": "Ferry4afefbe2f964a5207b3222e3",
+    "time": "2012-12-27"
+  },
+  {
+    "place": "Harbor / Marina4b98f2dff964a520fd5735e3",
+    "time": "2012-12-27"
+  },
+  {
+    "place": "Ferry4afefbe2f964a5207b3222e3",
+    "time": "2012-12-27"
+  },
+  {
+    "place": "Ferry4a65b705f964a5208fc71fe3",
+    "time": "2012-12-28"
+  },
+  {
+    "place": "Ferry4afefbe2f964a5207b3222e3",
+    "time": "2012-12-28"
+  },
+  {
+    "place": "Ferry4afefbe2f964a5207b3222e3",
+    "time": "2012-12-28"
+  },
+  {
+    "place": "Ferry4a65b705f964a5208fc71fe3",
+    "time": "2013-01-04"
+  },
+  {
+    "place": "Ferry4afefbe2f964a5207b3222e3",
+    "time": "2013-01-04"
+  },
+  {
+    "place": "Ferry4a65b705f964a5208fc71fe3",
+    "time": "2013-01-07"
+  },
+  {
+    "place": "Ferry4afefbe2f964a5207b3222e3",
+    "time": "2013-01-07"
+  },
+  {
+    "place": "Ferry4a65b705f964a5208fc71fe3",
+    "time": "2013-01-11"
+  },
+  {
+    "place": "Ferry4afefbe2f964a5207b3222e3",
+    "time": "2013-01-11"
+  },
+  {
+    "place": "Ferry4a65b705f964a5208fc71fe3",
+    "time": "2013-01-14"
+  },
+  {
+    "place": "Ferry4afefbe2f964a5207b3222e3",
+    "time": "2013-01-14"
+  },
+  {
+    "place": "Ferry4afefbe2f964a5207b3222e3",
+    "time": "2013-01-14"
+  },
+  {
+    "place": "Ferry4a65b705f964a5208fc71fe3",
+    "time": "2013-01-15"
+  },
+  {
+    "place": "Ferry4afefbe2f964a5207b3222e3",
+    "time": "2013-01-15"
+  },
+  {
+    "place": "Ferry4a65b705f964a5208fc71fe3",
+    "time": "2013-01-16"
+  },
+  {
+    "place": "Ferry4a65b705f964a5208fc71fe3",
+    "time": "2013-01-17"
+  },
+  {
+    "place": "Ferry4afefbe2f964a5207b3222e3",
+    "time": "2013-01-17"
+  },
+  {
+    "place": "Ferry4afefbe2f964a5207b3222e3",
+    "time": "2013-01-17"
+  },
+  {
+    "place": "Ferry4a65b705f964a5208fc71fe3",
+    "time": "2013-01-18"
+  },
+  {
+    "place": "Ferry4afefbe2f964a5207b3222e3",
+    "time": "2013-01-18"
+  },
+  {
+    "place": "Ferry4a65b705f964a5208fc71fe3",
+    "time": "2013-01-21"
+  },
+  {
+    "place": "Ferry4afefbe2f964a5207b3222e3",
+    "time": "2013-01-21"
+  },
+  {
+    "place": "Ferry4afefbe2f964a5207b3222e3",
+    "time": "2013-01-21"
+  },
+  {
+    "place": "Ferry4a65b705f964a5208fc71fe3",
+    "time": "2013-01-21"
+  },
+  {
+    "place": "Ferry4a65b705f964a5208fc71fe3",
+    "time": "2013-01-28"
+  },
+  {
+    "place": "Ferry4afefbe2f964a5207b3222e3",
+    "time": "2013-01-28"
+  },
+  {
+    "place": "Ferry4a65b705f964a5208fc71fe3",
+    "time": "2013-02-01"
+  },
+  {
+    "place": "Ferry4afefbe2f964a5207b3222e3",
+    "time": "2013-02-01"
+  },
+  {
+    "place": "Ferry4a65b705f964a5208fc71fe3",
+    "time": "2013-02-02"
+  },
+  {
+    "place": "Ferry4a65b705f964a5208fc71fe3",
+    "time": "2013-02-04"
+  },
+  {
+    "place": "Ferry4afefbe2f964a5207b3222e3",
+    "time": "2013-02-04"
+  },
+  {
+    "place": "Ferry4afefbe2f964a5207b3222e3",
+    "time": "2013-02-04"
+  },
+  {
+    "place": "Ferry4a65b705f964a5208fc71fe3",
+    "time": "2013-02-05"
+  },
+  {
+    "place": "Ferry4afefbe2f964a5207b3222e3",
+    "time": "2013-02-05"
+  },
+  {
+    "place": "Ferry4afefbe2f964a5207b3222e3",
+    "time": "2013-02-07"
+  },
+  {
+    "place": "Ferry4a65b705f964a5208fc71fe3",
+    "time": "2013-02-11"
+  },
+  {
+    "place": "Ferry4c955b3558d4b60c06d03129",
+    "time": "2013-02-11"
+  },
+  {
+    "place": "Ferry4afefbe2f964a5207b3222e3",
+    "time": "2013-02-11"
+  }
+]

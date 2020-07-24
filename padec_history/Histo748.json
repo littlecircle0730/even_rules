@@ -1,0 +1,554 @@
+[
+  {
+    "place": "Road4bf453a66a31d13a92a0952e",
+    "time": "2012-04-07"
+  },
+  {
+    "place": "Church4bde1676e75c0f47f2e2c603",
+    "time": "2012-04-08"
+  },
+  {
+    "place": "Neighborhood4b5cb8baf964a520864029e3",
+    "time": "2012-04-10"
+  },
+  {
+    "place": "Bar4bca8b25b6c49c7485d99091",
+    "time": "2012-04-11"
+  },
+  {
+    "place": "Mexican Restaurant4be498c7d4f7c9b6ed622420",
+    "time": "2012-04-12"
+  },
+  {
+    "place": "Drugstore / Pharmacy4b60dd72f964a52080fe29e3",
+    "time": "2012-04-12"
+  },
+  {
+    "place": "Chinese Restaurant4eaa04ec2c5b5d71e6a0ba93",
+    "time": "2012-04-12"
+  },
+  {
+    "place": "Department Store4a6f8c85f964a52079d61fe3",
+    "time": "2012-04-12"
+  },
+  {
+    "place": "Other Great Outdoors4b817b9af964a52038a930e3",
+    "time": "2012-04-13"
+  },
+  {
+    "place": "Chinese Restaurant4eaa04ec2c5b5d71e6a0ba93",
+    "time": "2012-04-13"
+  },
+  {
+    "place": "Bike Shop4be2017dae55a593185f5c62",
+    "time": "2012-04-14"
+  },
+  {
+    "place": "Park4eb3e2550aaf1abede9a5312",
+    "time": "2012-04-14"
+  },
+  {
+    "place": "Bridge4a33eb53f964a5206a9b1fe3",
+    "time": "2012-04-14"
+  },
+  {
+    "place": "Neighborhood4b5cb8baf964a520864029e3",
+    "time": "2012-04-14"
+  },
+  {
+    "place": "Gas Station / Garage4b9aab7bf964a52083cb35e3",
+    "time": "2012-04-16"
+  },
+  {
+    "place": "Government Building4bcf20ff77b29c74a1698882",
+    "time": "2012-04-16"
+  },
+  {
+    "place": "Mall4a07ac6af964a5208f731fe3",
+    "time": "2012-04-17"
+  },
+  {
+    "place": "Neighborhood4b5cb8baf964a520864029e3",
+    "time": "2012-04-18"
+  },
+  {
+    "place": "Road4bf453a66a31d13a92a0952e",
+    "time": "2012-04-18"
+  },
+  {
+    "place": "Pizza Place4c142eae7f7f2d7ffc84e068",
+    "time": "2012-04-19"
+  },
+  {
+    "place": "Neighborhood4b5cb8baf964a520864029e3",
+    "time": "2012-04-19"
+  },
+  {
+    "place": "Airport43a52546f964a520532c1fe3",
+    "time": "2012-04-20"
+  },
+  {
+    "place": "Korean Restaurant4aa44fa8f964a520554620e3",
+    "time": "2012-04-20"
+  },
+  {
+    "place": "Bar4b68ba8cf964a52089892be3",
+    "time": "2012-04-20"
+  },
+  {
+    "place": "Smoke Shop4a836103f964a520f3fa1fe3",
+    "time": "2012-04-20"
+  },
+  {
+    "place": "Government Building4bcf20ff77b29c74a1698882",
+    "time": "2012-04-21"
+  },
+  {
+    "place": "Fast Food Restaurant4c34ff1e452620a14114260f",
+    "time": "2012-04-21"
+  },
+  {
+    "place": "Chinese Restaurant4eaa04ec2c5b5d71e6a0ba93",
+    "time": "2012-04-22"
+  },
+  {
+    "place": "Hotel428d2880f964a520b5231fe3",
+    "time": "2012-04-22"
+  },
+  {
+    "place": "Bar4c8b1bcc1eafb1f7bb0e8135",
+    "time": "2012-04-22"
+  },
+  {
+    "place": "Road4a4821f5f964a52095aa1fe3",
+    "time": "2012-04-22"
+  },
+  {
+    "place": "Seafood Restaurant4b47db16f964a520b34126e3",
+    "time": "2012-04-22"
+  },
+  {
+    "place": "Government Building4bcf20ff77b29c74a1698882",
+    "time": "2012-04-23"
+  },
+  {
+    "place": "Airport4e1239e522713f7d7bd838d6",
+    "time": "2012-04-25"
+  },
+  {
+    "place": "Government Building4bcf20ff77b29c74a1698882",
+    "time": "2012-04-26"
+  },
+  {
+    "place": "Government Building4bcf20ff77b29c74a1698882",
+    "time": "2012-04-26"
+  },
+  {
+    "place": "Government Building4bcf20ff77b29c74a1698882",
+    "time": "2012-04-26"
+  },
+  {
+    "place": "Chinese Restaurant4eaa04ec2c5b5d71e6a0ba93",
+    "time": "2012-04-29"
+  },
+  {
+    "place": "Mexican Restaurant4c3b438962f1c92827378f53",
+    "time": "2012-05-04"
+  },
+  {
+    "place": "Government Building4bcf20ff77b29c74a1698882",
+    "time": "2012-05-05"
+  },
+  {
+    "place": "Mexican Restaurant4c3b438962f1c92827378f53",
+    "time": "2012-05-05"
+  },
+  {
+    "place": "Government Building4bcf20ff77b29c74a1698882",
+    "time": "2012-05-06"
+  },
+  {
+    "place": "Government Building4bcf20ff77b29c74a1698882",
+    "time": "2012-05-07"
+  },
+  {
+    "place": "Government Building4bcf20ff77b29c74a1698882",
+    "time": "2012-05-08"
+  },
+  {
+    "place": "Government Building4bcf20ff77b29c74a1698882",
+    "time": "2012-05-09"
+  },
+  {
+    "place": "Government Building4bcf20ff77b29c74a1698882",
+    "time": "2012-05-11"
+  },
+  {
+    "place": "Government Building4fb2a1b3e4b0aa4c16e72536",
+    "time": "2012-05-15"
+  },
+  {
+    "place": "Government Building4fb2a1b3e4b0aa4c16e72536",
+    "time": "2012-05-16"
+  },
+  {
+    "place": "Road4bf453a66a31d13a92a0952e",
+    "time": "2012-05-19"
+  },
+  {
+    "place": "Bar4ed34551754ad8083f6fd853",
+    "time": "2012-05-19"
+  },
+  {
+    "place": "Gas Station / Garage4cc7452d3477b60ca7f2746a",
+    "time": "2012-05-21"
+  },
+  {
+    "place": "Mexican Restaurant4c3b438962f1c92827378f53",
+    "time": "2012-05-21"
+  },
+  {
+    "place": "Government Building4fb2a1b3e4b0aa4c16e72536",
+    "time": "2012-05-22"
+  },
+  {
+    "place": "Government Building4fb2a1b3e4b0aa4c16e72536",
+    "time": "2012-05-23"
+  },
+  {
+    "place": "Airport4459d2f1f964a520d7321fe3",
+    "time": "2012-05-25"
+  },
+  {
+    "place": "Airport4459d2f1f964a520d7321fe3",
+    "time": "2012-05-29"
+  },
+  {
+    "place": "Government Building4fb2a1b3e4b0aa4c16e72536",
+    "time": "2012-05-29"
+  },
+  {
+    "place": "Mexican Restaurant4c3b438962f1c92827378f53",
+    "time": "2012-05-29"
+  },
+  {
+    "place": "Government Building4fb2a1b3e4b0aa4c16e72536",
+    "time": "2012-05-31"
+  },
+  {
+    "place": "Government Building4fb2a1b3e4b0aa4c16e72536",
+    "time": "2012-06-01"
+  },
+  {
+    "place": "American Restaurant49f4dc13f964a520616b1fe3",
+    "time": "2012-06-03"
+  },
+  {
+    "place": "Gastropub4685901ef964a52038481fe3",
+    "time": "2012-06-03"
+  },
+  {
+    "place": "Bar4b68ba8cf964a52089892be3",
+    "time": "2012-06-05"
+  },
+  {
+    "place": "Gym / Fitness Center4b54a26af964a520edc327e3",
+    "time": "2012-06-07"
+  },
+  {
+    "place": "Government Building4fb2a1b3e4b0aa4c16e72536",
+    "time": "2012-06-07"
+  },
+  {
+    "place": "Government Building4fb2a1b3e4b0aa4c16e72536",
+    "time": "2012-06-08"
+  },
+  {
+    "place": "Cuban Restaurant4b8da923f964a520100733e3",
+    "time": "2012-06-09"
+  },
+  {
+    "place": "Park4bb774c9941ad13abfb120e3",
+    "time": "2012-06-10"
+  },
+  {
+    "place": "Church4bde1676e75c0f47f2e2c603",
+    "time": "2012-06-10"
+  },
+  {
+    "place": "Church4bde1676e75c0f47f2e2c603",
+    "time": "2012-06-10"
+  },
+  {
+    "place": "Scenic Lookout4ad10eadf964a52057dc20e3",
+    "time": "2012-06-10"
+  },
+  {
+    "place": "Chinese Restaurant4eaa04ec2c5b5d71e6a0ba93",
+    "time": "2012-06-11"
+  },
+  {
+    "place": "Government Building4fb2a1b3e4b0aa4c16e72536",
+    "time": "2012-06-12"
+  },
+  {
+    "place": "Mexican Restaurant4c3b438962f1c92827378f53",
+    "time": "2012-06-12"
+  },
+  {
+    "place": "Government Building4fb2a1b3e4b0aa4c16e72536",
+    "time": "2012-06-15"
+  },
+  {
+    "place": "Airport4459d2f1f964a520d7321fe3",
+    "time": "2012-06-17"
+  },
+  {
+    "place": "Government Building4fb2a1b3e4b0aa4c16e72536",
+    "time": "2012-06-18"
+  },
+  {
+    "place": "Coffee Shop4c0290ea310fc9b68199c461",
+    "time": "2012-06-26"
+  },
+  {
+    "place": "Government Building4fb2a1b3e4b0aa4c16e72536",
+    "time": "2012-06-26"
+  },
+  {
+    "place": "Government Building4fb2a1b3e4b0aa4c16e72536",
+    "time": "2012-06-27"
+  },
+  {
+    "place": "Gas Station / Garage4bf01d30f831c928b89601f2",
+    "time": "2012-06-30"
+  },
+  {
+    "place": "Pizza Place4bd0d279caff952141a3cff0",
+    "time": "2012-06-30"
+  },
+  {
+    "place": "American Restaurant4a2c09fbf964a52010971fe3",
+    "time": "2012-07-01"
+  },
+  {
+    "place": "Government Building4fb2a1b3e4b0aa4c16e72536",
+    "time": "2012-07-02"
+  },
+  {
+    "place": "Fast Food Restaurant4c99e6ebd4b1b1f7542fcb35",
+    "time": "2012-07-02"
+  },
+  {
+    "place": "Beach4a47e99af964a52047aa1fe3",
+    "time": "2012-07-02"
+  },
+  {
+    "place": "Government Building4fb2a1b3e4b0aa4c16e72536",
+    "time": "2012-07-03"
+  },
+  {
+    "place": "Government Building4fb2a1b3e4b0aa4c16e72536",
+    "time": "2012-07-05"
+  },
+  {
+    "place": "Fast Food Restaurant4c3103d1a0ced13aed07136e",
+    "time": "2012-07-06"
+  },
+  {
+    "place": "Government Building4fb2a1b3e4b0aa4c16e72536",
+    "time": "2012-07-06"
+  },
+  {
+    "place": "Bank4bc7713914d79521316567e9",
+    "time": "2012-07-06"
+  },
+  {
+    "place": "Chinese Restaurant4eaa04ec2c5b5d71e6a0ba93",
+    "time": "2012-07-06"
+  },
+  {
+    "place": "Car Dealership4ef608c529c26831884fc162",
+    "time": "2012-07-07"
+  },
+  {
+    "place": "Car Wash4f86f415e4b06298998dc982",
+    "time": "2012-07-07"
+  },
+  {
+    "place": "Mexican Restaurant4c3b438962f1c92827378f53",
+    "time": "2012-07-07"
+  },
+  {
+    "place": "Laundry Service4bd4288a9854d13a0423ff4d",
+    "time": "2012-07-07"
+  },
+  {
+    "place": "Bar4ed34551754ad8083f6fd853",
+    "time": "2012-07-08"
+  },
+  {
+    "place": "Fast Food Restaurant4bf96b1f5efe2d7ff82c6c34",
+    "time": "2012-07-08"
+  },
+  {
+    "place": "Mexican Restaurant4c3b438962f1c92827378f53",
+    "time": "2012-07-08"
+  },
+  {
+    "place": "Government Building4fb2a1b3e4b0aa4c16e72536",
+    "time": "2012-07-09"
+  },
+  {
+    "place": "Fast Food Restaurant4c3103d1a0ced13aed07136e",
+    "time": "2012-07-11"
+  },
+  {
+    "place": "Fast Food Restaurant4c99e6ebd4b1b1f7542fcb35",
+    "time": "2012-07-11"
+  },
+  {
+    "place": "Government Building4fb2a1b3e4b0aa4c16e72536",
+    "time": "2012-07-12"
+  },
+  {
+    "place": "Salon / Barbershop4dc484f2e4cd169dc6359af8",
+    "time": "2012-07-15"
+  },
+  {
+    "place": "Department Store4a6f8c85f964a52079d61fe3",
+    "time": "2012-07-17"
+  },
+  {
+    "place": "Seafood Restaurant3fd66200f964a52093e71ee3",
+    "time": "2012-07-17"
+  },
+  {
+    "place": "Latin American Restaurant4a8eef1ef964a5203b1320e3",
+    "time": "2012-07-17"
+  },
+  {
+    "place": "Government Building4fb2a1b3e4b0aa4c16e72536",
+    "time": "2012-07-18"
+  },
+  {
+    "place": "BBQ Joint49d6bed4f964a520015d1fe3",
+    "time": "2012-07-30"
+  },
+  {
+    "place": "Bar4ed34551754ad8083f6fd853",
+    "time": "2012-07-30"
+  },
+  {
+    "place": "Government Building4fb2a1b3e4b0aa4c16e72536",
+    "time": "2012-07-30"
+  },
+  {
+    "place": "Park4a91ae8ef964a520561b20e3",
+    "time": "2012-08-05"
+  },
+  {
+    "place": "Chinese Restaurant4eaa04ec2c5b5d71e6a0ba93",
+    "time": "2012-08-05"
+  },
+  {
+    "place": "Road4bf453a66a31d13a92a0952e",
+    "time": "2012-08-06"
+  },
+  {
+    "place": "Gas Station / Garage4bf01d30f831c928b89601f2",
+    "time": "2012-08-11"
+  },
+  {
+    "place": "Mexican Restaurant4c3b438962f1c92827378f53",
+    "time": "2012-08-12"
+  },
+  {
+    "place": "Bar4c8b1bcc1eafb1f7bb0e8135",
+    "time": "2012-08-12"
+  },
+  {
+    "place": "American Restaurant4c472ee531e41b8d0ef84b35",
+    "time": "2012-08-14"
+  },
+  {
+    "place": "Government Building4fb2a1b3e4b0aa4c16e72536",
+    "time": "2012-08-14"
+  },
+  {
+    "place": "Chinese Restaurant4eaa04ec2c5b5d71e6a0ba93",
+    "time": "2012-08-17"
+  },
+  {
+    "place": "Road4bf453a66a31d13a92a0952e",
+    "time": "2012-08-17"
+  },
+  {
+    "place": "Government Building4fb2a1b3e4b0aa4c16e72536",
+    "time": "2012-09-05"
+  },
+  {
+    "place": "Government Building4fb2a1b3e4b0aa4c16e72536",
+    "time": "2012-09-13"
+  },
+  {
+    "place": "Government Building4fb2a1b3e4b0aa4c16e72536",
+    "time": "2012-10-12"
+  },
+  {
+    "place": "Italian Restaurant4b4520d8f964a5209c0526e3",
+    "time": "2012-10-27"
+  },
+  {
+    "place": "Airport4459d2f1f964a520d7321fe3",
+    "time": "2012-12-05"
+  },
+  {
+    "place": "Bar42225f00f964a520ae1f1fe3",
+    "time": "2012-12-05"
+  },
+  {
+    "place": "Road4a4821f5f964a52095aa1fe3",
+    "time": "2012-12-05"
+  },
+  {
+    "place": "Bar4bd8df990115c9b618ba7580",
+    "time": "2012-12-06"
+  },
+  {
+    "place": "Plaza49b79f54f964a5202c531fe3",
+    "time": "2012-12-06"
+  },
+  {
+    "place": "Chinese Restaurant4eaa04ec2c5b5d71e6a0ba93",
+    "time": "2012-12-07"
+  },
+  {
+    "place": "Bar4c8b1bcc1eafb1f7bb0e8135",
+    "time": "2012-12-07"
+  },
+  {
+    "place": "Bar4ed34551754ad8083f6fd853",
+    "time": "2012-12-09"
+  },
+  {
+    "place": "Diner4b021b27f964a520bf4722e3",
+    "time": "2012-12-09"
+  },
+  {
+    "place": "Airport4459d2f1f964a520d7321fe3",
+    "time": "2012-12-30"
+  },
+  {
+    "place": "Bar4c8b1bcc1eafb1f7bb0e8135",
+    "time": "2012-12-30"
+  },
+  {
+    "place": "Airport43a52546f964a520532c1fe3",
+    "time": "2012-12-30"
+  },
+  {
+    "place": "Airport4ace6c89f964a52078d020e3",
+    "time": "2013-01-10"
+  }
+]

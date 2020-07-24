@@ -1,0 +1,810 @@
+[
+  {
+    "place": "Toy / Game Store4baf5b89f964a5200afa3be3",
+    "time": "2012-04-03"
+  },
+  {
+    "place": "Mall4dffc7eeb0fb2c934939d9f5",
+    "time": "2012-04-03"
+  },
+  {
+    "place": "Food & Drink Shop4bd74cb909ecb7134b8e467c",
+    "time": "2012-04-03"
+  },
+  {
+    "place": "Drugstore / Pharmacy4b81a0e4f964a520ceb330e3",
+    "time": "2012-04-04"
+  },
+  {
+    "place": "Deli / Bodega4e387d7cb0fb2f7ee85deef9",
+    "time": "2012-04-07"
+  },
+  {
+    "place": "Bank4b9db320f964a520dcba36e3",
+    "time": "2012-04-07"
+  },
+  {
+    "place": "Bike Shop4bbd163b078095215431da91",
+    "time": "2012-04-07"
+  },
+  {
+    "place": "Burger Joint4b376138f964a520c24025e3",
+    "time": "2012-04-07"
+  },
+  {
+    "place": "Church4ef743142c5b044500ba94ab",
+    "time": "2012-04-08"
+  },
+  {
+    "place": "Vietnamese Restaurant4af78566f964a520af0922e3",
+    "time": "2012-04-08"
+  },
+  {
+    "place": "Deli / Bodega4e387d7cb0fb2f7ee85deef9",
+    "time": "2012-04-09"
+  },
+  {
+    "place": "Bank4b9db320f964a520dcba36e3",
+    "time": "2012-04-09"
+  },
+  {
+    "place": "Pizza Place4c895727bbec6dcbf774db58",
+    "time": "2012-04-09"
+  },
+  {
+    "place": "Deli / Bodega4d95bf5a97d06ea88c4ff10a",
+    "time": "2012-04-11"
+  },
+  {
+    "place": "Fast Food Restaurant4bc512375935c9b6fb80a5d2",
+    "time": "2012-04-11"
+  },
+  {
+    "place": "Steakhouse4b564210f964a520dc0728e3",
+    "time": "2012-04-12"
+  },
+  {
+    "place": "Fast Food Restaurant4bf6df1db182c9b639a9745a",
+    "time": "2012-04-14"
+  },
+  {
+    "place": "Deli / Bodega4e387d7cb0fb2f7ee85deef9",
+    "time": "2012-04-14"
+  },
+  {
+    "place": "Train Station4bc3ef81abf495212384c493",
+    "time": "2012-04-14"
+  },
+  {
+    "place": "Train Station42911d00f964a520f5231fe3",
+    "time": "2012-04-14"
+  },
+  {
+    "place": "Music Venue47048266f964a5204f4b1fe3",
+    "time": "2012-04-15"
+  },
+  {
+    "place": "Mexican Restaurant465037ccf964a520cc461fe3",
+    "time": "2012-04-15"
+  },
+  {
+    "place": "Fast Food Restaurant4b5dbe93f964a520906929e3",
+    "time": "2012-04-19"
+  },
+  {
+    "place": "Salon / Barbershop4c5349edf5f3d13a8cc23af8",
+    "time": "2012-04-19"
+  },
+  {
+    "place": "Asian Restaurant4cb23a88eb65b1f774ff7acd",
+    "time": "2012-04-22"
+  },
+  {
+    "place": "Train Station4bc3ef81abf495212384c493",
+    "time": "2012-04-23"
+  },
+  {
+    "place": "Vietnamese Restaurant4af78566f964a520af0922e3",
+    "time": "2012-04-24"
+  },
+  {
+    "place": "Deli / Bodega4e387d7cb0fb2f7ee85deef9",
+    "time": "2012-04-25"
+  },
+  {
+    "place": "Deli / Bodega4e387d7cb0fb2f7ee85deef9",
+    "time": "2012-04-28"
+  },
+  {
+    "place": "Movie Theater40afe980f964a5203bf31ee3",
+    "time": "2012-05-04"
+  },
+  {
+    "place": "Government Building4b1eaf9ff964a520cd1d24e3",
+    "time": "2012-05-04"
+  },
+  {
+    "place": "Bank4c095860a1b32d7fe68497f0",
+    "time": "2012-05-07"
+  },
+  {
+    "place": "Australian Restaurant4ba40485f964a5203b7838e3",
+    "time": "2012-05-11"
+  },
+  {
+    "place": "Mall4b8023c7f964a520cd5530e3",
+    "time": "2012-05-11"
+  },
+  {
+    "place": "Deli / Bodega4e358e2a45dd1c42bf1fe652",
+    "time": "2012-05-12"
+  },
+  {
+    "place": "Automotive Shop4ba00ed7f964a520645637e3",
+    "time": "2012-05-12"
+  },
+  {
+    "place": "Drugstore / Pharmacy4b81a0e4f964a520ceb330e3",
+    "time": "2012-05-14"
+  },
+  {
+    "place": "Pizza Place4ec15f8de5fae164652badbc",
+    "time": "2012-05-14"
+  },
+  {
+    "place": "Deli / Bodega4e387d7cb0fb2f7ee85deef9",
+    "time": "2012-05-16"
+  },
+  {
+    "place": "Fast Food Restaurant4c29ec8297d00f47d11842ea",
+    "time": "2012-05-16"
+  },
+  {
+    "place": "Ice Cream Shop4ba95c47f964a520df213ae3",
+    "time": "2012-05-16"
+  },
+  {
+    "place": "Fast Food Restaurant4b5fa53af964a5202dc629e3",
+    "time": "2012-05-18"
+  },
+  {
+    "place": "Neighborhood4c35c2e57cc0c9b6a366f59a",
+    "time": "2012-05-19"
+  },
+  {
+    "place": "Road4c2603d9905a0f47456c6260",
+    "time": "2012-05-19"
+  },
+  {
+    "place": "Bank4b9db320f964a520dcba36e3",
+    "time": "2012-05-25"
+  },
+  {
+    "place": "Chinese Restaurant4e4dfb2abd4101d0d79f8d98",
+    "time": "2012-05-25"
+  },
+  {
+    "place": "Bar49da852bf964a520915e1fe3",
+    "time": "2012-05-27"
+  },
+  {
+    "place": "Church4b08998bf964a520320f23e3",
+    "time": "2012-05-27"
+  },
+  {
+    "place": "Deli / Bodega4e358e2a45dd1c42bf1fe652",
+    "time": "2012-05-28"
+  },
+  {
+    "place": "Airport4ace6c89f964a52078d020e3",
+    "time": "2012-05-29"
+  },
+  {
+    "place": "Airport4c44befa2d3ec9b6894f2fae",
+    "time": "2012-05-29"
+  },
+  {
+    "place": "Drugstore / Pharmacy4d8b9c950c4e41bd86f5657f",
+    "time": "2012-06-03"
+  },
+  {
+    "place": "Sandwich Place4c954838034137040e6c7aef",
+    "time": "2012-06-04"
+  },
+  {
+    "place": "Bank4b9db320f964a520dcba36e3",
+    "time": "2012-06-06"
+  },
+  {
+    "place": "Deli / Bodega4e387d7cb0fb2f7ee85deef9",
+    "time": "2012-06-07"
+  },
+  {
+    "place": "Chinese Restaurant4e4dfb2abd4101d0d79f8d98",
+    "time": "2012-06-07"
+  },
+  {
+    "place": "Pizza Place4c895727bbec6dcbf774db58",
+    "time": "2012-06-07"
+  },
+  {
+    "place": "Bank4b9db320f964a520dcba36e3",
+    "time": "2012-06-09"
+  },
+  {
+    "place": "Drugstore / Pharmacy4b81a0e4f964a520ceb330e3",
+    "time": "2012-06-09"
+  },
+  {
+    "place": "Drugstore / Pharmacy4d8b9c950c4e41bd86f5657f",
+    "time": "2012-06-10"
+  },
+  {
+    "place": "Bank4b9db320f964a520dcba36e3",
+    "time": "2012-06-11"
+  },
+  {
+    "place": "Airport4b53b0fcf964a520ffa727e3",
+    "time": "2012-06-11"
+  },
+  {
+    "place": "Airport4ace6c89f964a52078d020e3",
+    "time": "2012-06-11"
+  },
+  {
+    "place": "Airport4cc5aa46be40a35d02c2854c",
+    "time": "2012-06-11"
+  },
+  {
+    "place": "Deli / Bodega4e387d7cb0fb2f7ee85deef9",
+    "time": "2012-06-16"
+  },
+  {
+    "place": "Chinese Restaurant4e4dfb2abd4101d0d79f8d98",
+    "time": "2012-06-16"
+  },
+  {
+    "place": "Pizza Place4baf9568f964a5201c0d3ce3",
+    "time": "2012-06-16"
+  },
+  {
+    "place": "Drugstore / Pharmacy4d8b9c950c4e41bd86f5657f",
+    "time": "2012-06-17"
+  },
+  {
+    "place": "Chinese Restaurant4b33ea6af964a520f22125e3",
+    "time": "2012-06-17"
+  },
+  {
+    "place": "Church4ba3f177f964a520f96f38e3",
+    "time": "2012-06-18"
+  },
+  {
+    "place": "Airport4c648b83dddfa5935ddf91ff",
+    "time": "2012-06-19"
+  },
+  {
+    "place": "Airport4df26267fa76abc3d868e0ad",
+    "time": "2012-06-19"
+  },
+  {
+    "place": "Airport4d04f117a2685481d97ababd",
+    "time": "2012-06-19"
+  },
+  {
+    "place": "Airport4bbefc9fba9776b01568fec8",
+    "time": "2012-06-19"
+  },
+  {
+    "place": "Drugstore / Pharmacy4d8b9c950c4e41bd86f5657f",
+    "time": "2012-06-26"
+  },
+  {
+    "place": "Flea Market4e2aefd4aeb745b1fabd9ba8",
+    "time": "2012-06-30"
+  },
+  {
+    "place": "Beer Garden4e8398fdf790caced933cc04",
+    "time": "2012-06-30"
+  },
+  {
+    "place": "Seafood Restaurant4b32b9d8f964a520b01225e3",
+    "time": "2012-07-03"
+  },
+  {
+    "place": "Mall4dffc7eeb0fb2c934939d9f5",
+    "time": "2012-07-04"
+  },
+  {
+    "place": "Fast Food Restaurant4c61fe37e1621b8d5b982253",
+    "time": "2012-07-04"
+  },
+  {
+    "place": "Drugstore / Pharmacy4bcf675177b29c745f058982",
+    "time": "2012-07-05"
+  },
+  {
+    "place": "Train Station4bc3ef81abf495212384c493",
+    "time": "2012-07-07"
+  },
+  {
+    "place": "Train Station4a513b17f964a520d2b01fe3",
+    "time": "2012-07-07"
+  },
+  {
+    "place": "Train Station42911d00f964a520f5231fe3",
+    "time": "2012-07-07"
+  },
+  {
+    "place": "Train Station42911d00f964a520f5231fe3",
+    "time": "2012-07-07"
+  },
+  {
+    "place": "Bar3fd66200f964a520e1f01ee3",
+    "time": "2012-07-07"
+  },
+  {
+    "place": "Stadium3fd66200f964a520ddf01ee3",
+    "time": "2012-07-08"
+  },
+  {
+    "place": "Gas Station / Garage4d67106fa800721e299f0bb8",
+    "time": "2012-07-08"
+  },
+  {
+    "place": "Drugstore / Pharmacy4d8b9c950c4e41bd86f5657f",
+    "time": "2012-07-08"
+  },
+  {
+    "place": "Building4d23c8e075526dcb204b04a9",
+    "time": "2012-07-09"
+  },
+  {
+    "place": "Chinese Restaurant4e4dfb2abd4101d0d79f8d98",
+    "time": "2012-07-09"
+  },
+  {
+    "place": "Deli / Bodega4e387d7cb0fb2f7ee85deef9",
+    "time": "2012-07-09"
+  },
+  {
+    "place": "Food & Drink Shop4bd74cb909ecb7134b8e467c",
+    "time": "2012-07-10"
+  },
+  {
+    "place": "Building4d23c8e075526dcb204b04a9",
+    "time": "2012-07-12"
+  },
+  {
+    "place": "Fast Food Restaurant4bde08166198c9b693b412ff",
+    "time": "2012-07-15"
+  },
+  {
+    "place": "Chinese Restaurant4e4dfb2abd4101d0d79f8d98",
+    "time": "2012-07-17"
+  },
+  {
+    "place": "Coffee Shop4f998e3fe4b0dec19863224d",
+    "time": "2012-07-18"
+  },
+  {
+    "place": "Church4e31a141d4c0b2aebf72bf63",
+    "time": "2012-07-18"
+  },
+  {
+    "place": "Fast Food Restaurant4b6f2474f964a520e3df2ce3",
+    "time": "2012-07-20"
+  },
+  {
+    "place": "Pizza Place4c0fe956b93cc9b6f4e855e0",
+    "time": "2012-07-26"
+  },
+  {
+    "place": "Bank4c08fabcffb8c9b6a80a6961",
+    "time": "2012-08-10"
+  },
+  {
+    "place": "Vietnamese Restaurant4bcc9605b6c49c74b7fe9391",
+    "time": "2012-08-10"
+  },
+  {
+    "place": "Seafood Restaurant4b32b9d8f964a520b01225e3",
+    "time": "2012-08-10"
+  },
+  {
+    "place": "Food & Drink Shop4b6c52dbf964a520a8302ce3",
+    "time": "2012-08-12"
+  },
+  {
+    "place": "Deli / Bodega4e387d7cb0fb2f7ee85deef9",
+    "time": "2012-08-13"
+  },
+  {
+    "place": "Deli / Bodega4d95bf5a97d06ea88c4ff10a",
+    "time": "2012-08-16"
+  },
+  {
+    "place": "Fast Food Restaurant4c8f8505d80976b00aed8975",
+    "time": "2012-08-16"
+  },
+  {
+    "place": "Korean Restaurant4e68f21f1838d179b1354421",
+    "time": "2012-08-19"
+  },
+  {
+    "place": "Mexican Restaurant4bc4a192f8219c74dca0b710",
+    "time": "2012-08-19"
+  },
+  {
+    "place": "Deli / Bodega4e387d7cb0fb2f7ee85deef9",
+    "time": "2012-08-18"
+  },
+  {
+    "place": "Paper / Office Supplies Store4b60a34af964a520adf129e3",
+    "time": "2012-08-18"
+  },
+  {
+    "place": "Drugstore / Pharmacy4b81a0e4f964a520ceb330e3",
+    "time": "2012-08-18"
+  },
+  {
+    "place": "Ice Cream Shop4ba95c47f964a520df213ae3",
+    "time": "2012-09-05"
+  },
+  {
+    "place": "Fast Food Restaurant4bfec179daf9c9b6db34f9ef",
+    "time": "2012-09-06"
+  },
+  {
+    "place": "Donut Shop4bede2542c082d7fbbab2f42",
+    "time": "2012-09-09"
+  },
+  {
+    "place": "Pizza Place4b859351f964a5206c6631e3",
+    "time": "2012-09-10"
+  },
+  {
+    "place": "Bakery4fa589d1e4b0f9020785889a",
+    "time": "2012-09-14"
+  },
+  {
+    "place": "Deli / Bodega4e387d7cb0fb2f7ee85deef9",
+    "time": "2012-09-14"
+  },
+  {
+    "place": "Bank4b9db320f964a520dcba36e3",
+    "time": "2012-09-14"
+  },
+  {
+    "place": "Bar4f5303dbe4b02cf6be81de21",
+    "time": "2012-09-15"
+  },
+  {
+    "place": "Bridge49ecd458f964a52099671fe3",
+    "time": "2012-09-15"
+  },
+  {
+    "place": "Bank4b9db320f964a520dcba36e3",
+    "time": "2012-09-15"
+  },
+  {
+    "place": "Coffee Shop4b9f18fdf964a5208f1337e3",
+    "time": "2012-09-16"
+  },
+  {
+    "place": "American Restaurant4bd1c826046076b076707271",
+    "time": "2012-10-08"
+  },
+  {
+    "place": "Deli / Bodega4c4965a5b5eec9b6806eaea4",
+    "time": "2012-10-24"
+  },
+  {
+    "place": "Pizza Place4d1faf7ed7b0b1f708a20e9f",
+    "time": "2012-10-26"
+  },
+  {
+    "place": "Drugstore / Pharmacy4bcf675177b29c745f058982",
+    "time": "2012-10-27"
+  },
+  {
+    "place": "Bank4b9db320f964a520dcba36e3",
+    "time": "2012-10-27"
+  },
+  {
+    "place": "Bagel Shop4c29d10c97d00f47d3ea41ea",
+    "time": "2012-10-28"
+  },
+  {
+    "place": "Drugstore / Pharmacy4b81a0e4f964a520ceb330e3",
+    "time": "2012-10-28"
+  },
+  {
+    "place": "Automotive Shop4b967ba0f964a52008cf34e3",
+    "time": "2012-11-06"
+  },
+  {
+    "place": "Deli / Bodega4d95bf5a97d06ea88c4ff10a",
+    "time": "2012-11-10"
+  },
+  {
+    "place": "Filipino Restaurant4ad0b0eff964a52027d920e3",
+    "time": "2012-11-17"
+  },
+  {
+    "place": "Food & Drink Shop4bc8c3ff12bdb713a5fb3c94",
+    "time": "2012-11-18"
+  },
+  {
+    "place": "Pizza Place4baf9568f964a5201c0d3ce3",
+    "time": "2012-11-19"
+  },
+  {
+    "place": "Bank4b9db320f964a520dcba36e3",
+    "time": "2012-11-19"
+  },
+  {
+    "place": "Elementary School4babf11df964a52097d73ae3",
+    "time": "2012-11-21"
+  },
+  {
+    "place": "Building4d23c8e075526dcb204b04a9",
+    "time": "2012-11-21"
+  },
+  {
+    "place": "American Restaurant4bd1c826046076b076707271",
+    "time": "2012-11-21"
+  },
+  {
+    "place": "Automotive Shop4ba00ed7f964a520645637e3",
+    "time": "2012-11-21"
+  },
+  {
+    "place": "Deli / Bodega4e358e2a45dd1c42bf1fe652",
+    "time": "2012-11-21"
+  },
+  {
+    "place": "Post Office4c337d6b16adc92854b6c39c",
+    "time": "2012-11-21"
+  },
+  {
+    "place": "Drugstore / Pharmacy4bcf675177b29c745f058982",
+    "time": "2012-11-21"
+  },
+  {
+    "place": "Salon / Barbershop4c5349edf5f3d13a8cc23af8",
+    "time": "2012-11-21"
+  },
+  {
+    "place": "Fast Food Restaurant4bb0980bf964a520264e3ce3",
+    "time": "2012-11-23"
+  },
+  {
+    "place": "Building4d23c8e075526dcb204b04a9",
+    "time": "2012-11-23"
+  },
+  {
+    "place": "Fast Food Restaurant4b5dbe93f964a520906929e3",
+    "time": "2012-11-25"
+  },
+  {
+    "place": "Deli / Bodega4e387d7cb0fb2f7ee85deef9",
+    "time": "2012-11-25"
+  },
+  {
+    "place": "Gas Station / Garage4bc2258b4cdfc9b6d2a49521",
+    "time": "2012-11-28"
+  },
+  {
+    "place": "Fast Food Restaurant4b5dbe93f964a520906929e3",
+    "time": "2012-12-01"
+  },
+  {
+    "place": "Chinese Restaurant4ba29790f964a520400738e3",
+    "time": "2012-12-03"
+  },
+  {
+    "place": "Gas Station / Garage4ff1b198c593c9d1f5b63424",
+    "time": "2012-12-04"
+  },
+  {
+    "place": "Pizza Place4c895727bbec6dcbf774db58",
+    "time": "2012-12-05"
+  },
+  {
+    "place": "Deli / Bodega4e387d7cb0fb2f7ee85deef9",
+    "time": "2012-12-07"
+  },
+  {
+    "place": "Deli / Bodega4e387d7cb0fb2f7ee85deef9",
+    "time": "2012-12-13"
+  },
+  {
+    "place": "Deli / Bodega4d95bf5a97d06ea88c4ff10a",
+    "time": "2012-12-14"
+  },
+  {
+    "place": "Fast Food Restaurant4c2e96ff452620a166311c0f",
+    "time": "2012-12-16"
+  },
+  {
+    "place": "Deli / Bodega4e387d7cb0fb2f7ee85deef9",
+    "time": "2012-12-16"
+  },
+  {
+    "place": "Bar4ca6342076d3a093b22fff6a",
+    "time": "2012-12-16"
+  },
+  {
+    "place": "Train Station4a513b17f964a520d2b01fe3",
+    "time": "2012-12-17"
+  },
+  {
+    "place": "Building4d23c8e075526dcb204b04a9",
+    "time": "2012-12-17"
+  },
+  {
+    "place": "Building4d23c8e075526dcb204b04a9",
+    "time": "2012-12-18"
+  },
+  {
+    "place": "Building4d23c8e075526dcb204b04a9",
+    "time": "2012-12-20"
+  },
+  {
+    "place": "Deli / Bodega4e387d7cb0fb2f7ee85deef9",
+    "time": "2012-12-22"
+  },
+  {
+    "place": "Bank4b9db320f964a520dcba36e3",
+    "time": "2012-12-22"
+  },
+  {
+    "place": "Drugstore / Pharmacy4d8b9c950c4e41bd86f5657f",
+    "time": "2012-12-23"
+  },
+  {
+    "place": "Sandwich Place4c954838034137040e6c7aef",
+    "time": "2012-12-23"
+  },
+  {
+    "place": "Mall4c053edc9a7920a19c59d279",
+    "time": "2012-12-23"
+  },
+  {
+    "place": "Clothing Store4b981afdf964a520a42c35e3",
+    "time": "2012-12-23"
+  },
+  {
+    "place": "Clothing Store4b981afdf964a520a42c35e3",
+    "time": "2012-12-23"
+  },
+  {
+    "place": "Toy / Game Store4ce577fb023676ebabefeab9",
+    "time": "2012-12-23"
+  },
+  {
+    "place": "Building4d23c8e075526dcb204b04a9",
+    "time": "2012-12-31"
+  },
+  {
+    "place": "Bank4b9db320f964a520dcba36e3",
+    "time": "2013-01-02"
+  },
+  {
+    "place": "American Restaurant4bd1c826046076b076707271",
+    "time": "2013-01-03"
+  },
+  {
+    "place": "Building4d23c8e075526dcb204b04a9",
+    "time": "2013-01-03"
+  },
+  {
+    "place": "Drugstore / Pharmacy4bcf675177b29c745f058982",
+    "time": "2013-01-04"
+  },
+  {
+    "place": "Fast Food Restaurant4bc512375935c9b6fb80a5d2",
+    "time": "2013-01-07"
+  },
+  {
+    "place": "Pizza Place4d8e0cd4fa943704b627f8c5",
+    "time": "2013-01-08"
+  },
+  {
+    "place": "Paper / Office Supplies Store4b60a34af964a520adf129e3",
+    "time": "2013-01-08"
+  },
+  {
+    "place": "Post Office4c337d6b16adc92854b6c39c",
+    "time": "2013-01-09"
+  },
+  {
+    "place": "Deli / Bodega4e358e2a45dd1c42bf1fe652",
+    "time": "2013-01-09"
+  },
+  {
+    "place": "Deli / Bodega4e387d7cb0fb2f7ee85deef9",
+    "time": "2013-01-12"
+  },
+  {
+    "place": "Deli / Bodega4e387d7cb0fb2f7ee85deef9",
+    "time": "2013-01-14"
+  },
+  {
+    "place": "Pizza Place4baf9568f964a5201c0d3ce3",
+    "time": "2013-01-16"
+  },
+  {
+    "place": "Fast Food Restaurant4b5dbe93f964a520906929e3",
+    "time": "2013-01-18"
+  },
+  {
+    "place": "Food & Drink Shop4c3115563ffc952143f48ff5",
+    "time": "2013-01-22"
+  },
+  {
+    "place": "American Restaurant4bd1c826046076b076707271",
+    "time": "2013-01-25"
+  },
+  {
+    "place": "Train Station4bc3ef81abf495212384c493",
+    "time": "2013-01-26"
+  },
+  {
+    "place": "Bar3fd66200f964a520c5f01ee3",
+    "time": "2013-01-27"
+  },
+  {
+    "place": "Diner3fd66200f964a52048ee1ee3",
+    "time": "2013-01-27"
+  },
+  {
+    "place": "Bar49d95652f964a520235e1fe3",
+    "time": "2013-01-27"
+  },
+  {
+    "place": "Post Office4c337d6b16adc92854b6c39c",
+    "time": "2013-01-28"
+  },
+  {
+    "place": "Deli / Bodega4e387d7cb0fb2f7ee85deef9",
+    "time": "2013-01-30"
+  },
+  {
+    "place": "Deli / Bodega4d95bf5a97d06ea88c4ff10a",
+    "time": "2013-01-31"
+  },
+  {
+    "place": "Deli / Bodega4e387d7cb0fb2f7ee85deef9",
+    "time": "2013-02-02"
+  },
+  {
+    "place": "Taco Place4bbe69f530c99c7461c35311",
+    "time": "2013-02-02"
+  },
+  {
+    "place": "American Restaurant4bd1c826046076b076707271",
+    "time": "2013-02-05"
+  },
+  {
+    "place": "Building4d23c8e075526dcb204b04a9",
+    "time": "2013-02-05"
+  },
+  {
+    "place": "Toy / Game Store4ce577fb023676ebabefeab9",
+    "time": "2013-02-07"
+  },
+  {
+    "place": "Drugstore / Pharmacy4b81a0e4f964a520ceb330e3",
+    "time": "2013-02-10"
+  },
+  {
+    "place": "Fast Food Restaurant4bfec179daf9c9b6db34f9ef",
+    "time": "2013-02-13"
+  },
+  {
+    "place": "Bank4b9db320f964a520dcba36e3",
+    "time": "2013-02-13"
+  }
+]

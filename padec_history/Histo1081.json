@@ -1,0 +1,958 @@
+[
+  {
+    "place": "Light Rail4b7afd11f964a520664a2fe3",
+    "time": "2012-12-14"
+  },
+  {
+    "place": "Light Rail4db54c734df05e5aaaeed7fd",
+    "time": "2012-12-14"
+  },
+  {
+    "place": "Light Rail4c7f9209171b224b3b1211b1",
+    "time": "2012-12-14"
+  },
+  {
+    "place": "Light Rail4b5848d0f964a520f55028e3",
+    "time": "2012-12-14"
+  },
+  {
+    "place": "Light Rail4db54c734df05e5aaaeed7fd",
+    "time": "2012-12-15"
+  },
+  {
+    "place": "Park4f89d696e4b057e280e0be45",
+    "time": "2012-12-15"
+  },
+  {
+    "place": "Outdoors & Recreation4e628a7ad22d509a39ad445b",
+    "time": "2012-12-15"
+  },
+  {
+    "place": "Food & Drink Shop4cc9b978bcb1b1f74c07118a",
+    "time": "2012-12-15"
+  },
+  {
+    "place": "Light Rail4db54c734df05e5aaaeed7fd",
+    "time": "2012-12-15"
+  },
+  {
+    "place": "Light Rail4e57a82a227131507c90065d",
+    "time": "2012-12-15"
+  },
+  {
+    "place": "Train Station4c79d385566db60c9679460e",
+    "time": "2012-12-15"
+  },
+  {
+    "place": "Light Rail4b5848d0f964a520f55028e3",
+    "time": "2012-12-15"
+  },
+  {
+    "place": "Light Rail4e57a82a227131507c90065d",
+    "time": "2012-12-16"
+  },
+  {
+    "place": "Park4f89d696e4b057e280e0be45",
+    "time": "2012-12-16"
+  },
+  {
+    "place": "Outdoors & Recreation4e628a7ad22d509a39ad445b",
+    "time": "2012-12-16"
+  },
+  {
+    "place": "University4d6c08809d7e2d437d2d26b3",
+    "time": "2012-12-16"
+  },
+  {
+    "place": "Home (private)4ff8b223e4b03705cee5248f",
+    "time": "2012-12-16"
+  },
+  {
+    "place": "Light Rail4bad51daf964a520d1453be3",
+    "time": "2012-12-16"
+  },
+  {
+    "place": "Light Rail4b9f9796f964a520842d37e3",
+    "time": "2012-12-16"
+  },
+  {
+    "place": "Food & Drink Shop4b819c57f964a5208ab230e3",
+    "time": "2012-12-16"
+  },
+  {
+    "place": "Movie Theater4a31831df964a520e9991fe3",
+    "time": "2012-12-17"
+  },
+  {
+    "place": "Light Rail4b8d2387f964a520dbe932e3",
+    "time": "2012-12-17"
+  },
+  {
+    "place": "Light Rail4b7c9fe1f964a520559e2fe3",
+    "time": "2012-12-17"
+  },
+  {
+    "place": "Train Station4bf04c15c8d920a1d9b29430",
+    "time": "2012-12-17"
+  },
+  {
+    "place": "Light Rail4bad51daf964a520d1453be3",
+    "time": "2012-12-17"
+  },
+  {
+    "place": "Light Rail4b7afd11f964a520664a2fe3",
+    "time": "2012-12-17"
+  },
+  {
+    "place": "Gas Station / Garage4d7fd661dd4a6ea85b458225",
+    "time": "2012-12-19"
+  },
+  {
+    "place": "Light Rail4b7afd11f964a520664a2fe3",
+    "time": "2012-12-20"
+  },
+  {
+    "place": "Outdoors & Recreation4e628a7ad22d509a39ad445b",
+    "time": "2012-12-20"
+  },
+  {
+    "place": "Home (private)4ff8b223e4b03705cee5248f",
+    "time": "2012-12-20"
+  },
+  {
+    "place": "Light Rail4db54c734df05e5aaaeed7fd",
+    "time": "2012-12-21"
+  },
+  {
+    "place": "Train Station4c79d385566db60c9679460e",
+    "time": "2012-12-21"
+  },
+  {
+    "place": "Light Rail4c7f9209171b224b3b1211b1",
+    "time": "2012-12-21"
+  },
+  {
+    "place": "Light Rail4b5848d0f964a520f55028e3",
+    "time": "2012-12-21"
+  },
+  {
+    "place": "Gas Station / Garage4d7fd661dd4a6ea85b458225",
+    "time": "2012-12-21"
+  },
+  {
+    "place": "Historic Site50c85b8de4b090305763bf7e",
+    "time": "2012-12-22"
+  },
+  {
+    "place": "Light Rail4b5848d0f964a520f55028e3",
+    "time": "2012-12-22"
+  },
+  {
+    "place": "Train Station4c79d385566db60c9679460e",
+    "time": "2012-12-22"
+  },
+  {
+    "place": "Light Rail4e57a82a227131507c90065d",
+    "time": "2012-12-22"
+  },
+  {
+    "place": "Light Rail4db54c734df05e5aaaeed7fd",
+    "time": "2012-12-22"
+  },
+  {
+    "place": "Home (private)4ff8b223e4b03705cee5248f",
+    "time": "2012-12-22"
+  },
+  {
+    "place": "Light Rail4c7f9209171b224b3b1211b1",
+    "time": "2012-12-22"
+  },
+  {
+    "place": "Park4f89d696e4b057e280e0be45",
+    "time": "2012-12-23"
+  },
+  {
+    "place": "Home (private)4ff8b223e4b03705cee5248f",
+    "time": "2012-12-23"
+  },
+  {
+    "place": "Light Rail4db54c734df05e5aaaeed7fd",
+    "time": "2012-12-27"
+  },
+  {
+    "place": "Light Rail4db54c734df05e5aaaeed7fd",
+    "time": "2012-12-27"
+  },
+  {
+    "place": "Light Rail4b5848d0f964a520f55028e3",
+    "time": "2012-12-27"
+  },
+  {
+    "place": "Gas Station / Garage4d7fd661dd4a6ea85b458225",
+    "time": "2012-12-27"
+  },
+  {
+    "place": "Gym / Fitness Center5002af75e4b0cad51701ef3e",
+    "time": "2012-12-27"
+  },
+  {
+    "place": "Train Station4c79d385566db60c9679460e",
+    "time": "2012-12-28"
+  },
+  {
+    "place": "Outdoors & Recreation4e628a7ad22d509a39ad445b",
+    "time": "2012-12-28"
+  },
+  {
+    "place": "Light Rail4db54c734df05e5aaaeed7fd",
+    "time": "2012-12-28"
+  },
+  {
+    "place": "Light Rail4e57a82a227131507c90065d",
+    "time": "2012-12-28"
+  },
+  {
+    "place": "Miscellaneous Shop4cb2385839458cfa33a411a0",
+    "time": "2012-12-28"
+  },
+  {
+    "place": "Gym / Fitness Center5002af75e4b0cad51701ef3e",
+    "time": "2012-12-28"
+  },
+  {
+    "place": "Light Rail4c7f9209171b224b3b1211b1",
+    "time": "2012-12-29"
+  },
+  {
+    "place": "Light Rail4e57a82a227131507c90065d",
+    "time": "2012-12-29"
+  },
+  {
+    "place": "Light Rail4b7afd11f964a520664a2fe3",
+    "time": "2012-12-30"
+  },
+  {
+    "place": "Food & Drink Shop4a80aedff964a520e9f51fe3",
+    "time": "2012-12-30"
+  },
+  {
+    "place": "Light Rail4b75f08bf964a5209a302ee3",
+    "time": "2012-12-30"
+  },
+  {
+    "place": "Light Rail4bad51daf964a520d1453be3",
+    "time": "2012-12-30"
+  },
+  {
+    "place": "Food & Drink Shop4fe2593de4b044e6b9554268",
+    "time": "2012-12-30"
+  },
+  {
+    "place": "Light Rail4b7afd11f964a520664a2fe3",
+    "time": "2012-12-30"
+  },
+  {
+    "place": "Light Rail4b7afd11f964a520664a2fe3",
+    "time": "2012-12-30"
+  },
+  {
+    "place": "Light Rail4b7afd11f964a520664a2fe3",
+    "time": "2012-12-30"
+  },
+  {
+    "place": "Office4ae5b2a2f964a52088a121e3",
+    "time": "2012-12-30"
+  },
+  {
+    "place": "Record Shop4b51d6ddf964a5207e5727e3",
+    "time": "2012-12-30"
+  },
+  {
+    "place": "Bus Station4e5689be45dd92275e4e9e80",
+    "time": "2012-12-30"
+  },
+  {
+    "place": "Light Rail4b9f9796f964a520842d37e3",
+    "time": "2012-12-31"
+  },
+  {
+    "place": "Light Rail4b7c9fe1f964a520559e2fe3",
+    "time": "2012-12-31"
+  },
+  {
+    "place": "Light Rail4b75f08bf964a5209a302ee3",
+    "time": "2012-12-31"
+  },
+  {
+    "place": "Train Station4bf04c15c8d920a1d9b29430",
+    "time": "2012-12-31"
+  },
+  {
+    "place": "Light Rail4ce6c830f3bda143b2f2ade4",
+    "time": "2012-12-31"
+  },
+  {
+    "place": "Light Rail4e57a82a227131507c90065d",
+    "time": "2012-12-31"
+  },
+  {
+    "place": "Train Station4c79d385566db60c9679460e",
+    "time": "2012-12-31"
+  },
+  {
+    "place": "Light Rail4c7f9209171b224b3b1211b1",
+    "time": "2012-12-31"
+  },
+  {
+    "place": "Gas Station / Garage4d7fd661dd4a6ea85b458225",
+    "time": "2012-12-31"
+  },
+  {
+    "place": "City4c9adfc978ffa093317d7075",
+    "time": "2012-12-31"
+  },
+  {
+    "place": "Light Rail4b6ffcb4f964a52068022de3",
+    "time": "2012-12-31"
+  },
+  {
+    "place": "Light Rail4b7c9fe1f964a520559e2fe3",
+    "time": "2012-12-31"
+  },
+  {
+    "place": "Light Rail4b78951bf964a52056d82ee3",
+    "time": "2012-12-31"
+  },
+  {
+    "place": "City4cb1e95deb65b1f7025278cd",
+    "time": "2012-12-31"
+  },
+  {
+    "place": "Light Rail4b6233dff964a520ee3b2ae3",
+    "time": "2013-01-01"
+  },
+  {
+    "place": "Light Rail4b7c9fe1f964a520559e2fe3",
+    "time": "2013-01-01"
+  },
+  {
+    "place": "Light Rail4b75f08bf964a5209a302ee3",
+    "time": "2013-01-01"
+  },
+  {
+    "place": "Light Rail4b7afd11f964a520664a2fe3",
+    "time": "2013-01-01"
+  },
+  {
+    "place": "Light Rail4db54c734df05e5aaaeed7fd",
+    "time": "2013-01-01"
+  },
+  {
+    "place": "Other Great Outdoors50e24527e4b0748c864c538b",
+    "time": "2013-01-01"
+  },
+  {
+    "place": "Train Station4c79d385566db60c9679460e",
+    "time": "2013-01-01"
+  },
+  {
+    "place": "Gym / Fitness Center5002af75e4b0cad51701ef3e",
+    "time": "2013-01-01"
+  },
+  {
+    "place": "Gym / Fitness Center5002af75e4b0cad51701ef3e",
+    "time": "2013-01-01"
+  },
+  {
+    "place": "Light Rail4b7afd11f964a520664a2fe3",
+    "time": "2013-01-01"
+  },
+  {
+    "place": "Gas Station / Garage4d7fd661dd4a6ea85b458225",
+    "time": "2013-01-02"
+  },
+  {
+    "place": "Miscellaneous Shop4cb2385839458cfa33a411a0",
+    "time": "2013-01-02"
+  },
+  {
+    "place": "Mall4cfd015bc51fa1cd63ddee2b",
+    "time": "2013-01-03"
+  },
+  {
+    "place": "Department Store4e666a5f227168062a3b81bc",
+    "time": "2013-01-03"
+  },
+  {
+    "place": "Light Rail4db54c734df05e5aaaeed7fd",
+    "time": "2013-01-03"
+  },
+  {
+    "place": "Home (private)4ff8b223e4b03705cee5248f",
+    "time": "2013-01-03"
+  },
+  {
+    "place": "Light Rail4b7afd11f964a520664a2fe3",
+    "time": "2013-01-03"
+  },
+  {
+    "place": "Light Rail4db54c734df05e5aaaeed7fd",
+    "time": "2013-01-03"
+  },
+  {
+    "place": "Light Rail4b5848d0f964a520f55028e3",
+    "time": "2013-01-04"
+  },
+  {
+    "place": "Light Rail4c7f9209171b224b3b1211b1",
+    "time": "2013-01-04"
+  },
+  {
+    "place": "Light Rail4db54c734df05e5aaaeed7fd",
+    "time": "2013-01-04"
+  },
+  {
+    "place": "Light Rail4bb602f41344b71369d69c04",
+    "time": "2013-01-04"
+  },
+  {
+    "place": "Outdoors & Recreation4e628a7ad22d509a39ad445b",
+    "time": "2013-01-04"
+  },
+  {
+    "place": "Light Rail4db54c734df05e5aaaeed7fd",
+    "time": "2013-01-04"
+  },
+  {
+    "place": "Light Rail4e57a82a227131507c90065d",
+    "time": "2013-01-04"
+  },
+  {
+    "place": "Light Rail4c7f9209171b224b3b1211b1",
+    "time": "2013-01-04"
+  },
+  {
+    "place": "Light Rail4b5848d0f964a520f55028e3",
+    "time": "2013-01-04"
+  },
+  {
+    "place": "Light Rail4b5848d0f964a520f55028e3",
+    "time": "2013-01-05"
+  },
+  {
+    "place": "Train Station4c79d385566db60c9679460e",
+    "time": "2013-01-05"
+  },
+  {
+    "place": "Light Rail4e57a82a227131507c90065d",
+    "time": "2013-01-05"
+  },
+  {
+    "place": "Train Station4c79d385566db60c9679460e",
+    "time": "2013-01-05"
+  },
+  {
+    "place": "Light Rail4b5848d0f964a520f55028e3",
+    "time": "2013-01-05"
+  },
+  {
+    "place": "Gym / Fitness Center5002af75e4b0cad51701ef3e",
+    "time": "2013-01-05"
+  },
+  {
+    "place": "Light Rail4db54c734df05e5aaaeed7fd",
+    "time": "2013-01-06"
+  },
+  {
+    "place": "Light Rail4bad51daf964a520d1453be3",
+    "time": "2013-01-06"
+  },
+  {
+    "place": "Convenience Store50cb6273498e9af6536d8e25",
+    "time": "2013-01-08"
+  },
+  {
+    "place": "Food & Drink Shop4fe2593de4b044e6b9554268",
+    "time": "2013-01-08"
+  },
+  {
+    "place": "Light Rail4bb602f41344b71369d69c04",
+    "time": "2013-01-09"
+  },
+  {
+    "place": "Light Rail4b7afd11f964a520664a2fe3",
+    "time": "2013-01-10"
+  },
+  {
+    "place": "Light Rail4b7afd11f964a520664a2fe3",
+    "time": "2013-01-10"
+  },
+  {
+    "place": "Light Rail4db54c734df05e5aaaeed7fd",
+    "time": "2013-01-10"
+  },
+  {
+    "place": "Train Station4c79d385566db60c9679460e",
+    "time": "2013-01-10"
+  },
+  {
+    "place": "Light Rail4b5848d0f964a520f55028e3",
+    "time": "2013-01-11"
+  },
+  {
+    "place": "Light Rail4b7afd11f964a520664a2fe3",
+    "time": "2013-01-11"
+  },
+  {
+    "place": "Food & Drink Shop4cd599b8ab19a093724040eb",
+    "time": "2013-01-11"
+  },
+  {
+    "place": "Light Rail4b7afd11f964a520664a2fe3",
+    "time": "2013-01-11"
+  },
+  {
+    "place": "Gym / Fitness Center5002af75e4b0cad51701ef3e",
+    "time": "2013-01-11"
+  },
+  {
+    "place": "Train Station4c79d385566db60c9679460e",
+    "time": "2013-01-12"
+  },
+  {
+    "place": "Light Rail4e57a82a227131507c90065d",
+    "time": "2013-01-12"
+  },
+  {
+    "place": "Light Rail4c7f9209171b224b3b1211b1",
+    "time": "2013-01-12"
+  },
+  {
+    "place": "Light Rail4b5848d0f964a520f55028e3",
+    "time": "2013-01-12"
+  },
+  {
+    "place": "Train Station4c79d385566db60c9679460e",
+    "time": "2013-01-13"
+  },
+  {
+    "place": "Light Rail4b78951bf964a52056d82ee3",
+    "time": "2013-01-13"
+  },
+  {
+    "place": "Food & Drink Shop4a80aedff964a520e9f51fe3",
+    "time": "2013-01-13"
+  },
+  {
+    "place": "Light Rail4bad51daf964a520d1453be3",
+    "time": "2013-01-13"
+  },
+  {
+    "place": "Home (private)4ff8b223e4b03705cee5248f",
+    "time": "2013-01-13"
+  },
+  {
+    "place": "Light Rail4b6ffcb4f964a52068022de3",
+    "time": "2013-01-13"
+  },
+  {
+    "place": "Light Rail4b7c9fe1f964a520559e2fe3",
+    "time": "2013-01-13"
+  },
+  {
+    "place": "Light Rail4b78951bf964a52056d82ee3",
+    "time": "2013-01-13"
+  },
+  {
+    "place": "Light Rail4b8d2387f964a520dbe932e3",
+    "time": "2013-01-13"
+  },
+  {
+    "place": "Mall49e4ec34f964a5206e631fe3",
+    "time": "2013-01-13"
+  },
+  {
+    "place": "Food & Drink Shop4b819c57f964a5208ab230e3",
+    "time": "2013-01-13"
+  },
+  {
+    "place": "Miscellaneous Shop4a80af37f964a520eaf51fe3",
+    "time": "2013-01-13"
+  },
+  {
+    "place": "Light Rail4b9f9796f964a520842d37e3",
+    "time": "2013-01-13"
+  },
+  {
+    "place": "Light Rail4b7c9fe1f964a520559e2fe3",
+    "time": "2013-01-13"
+  },
+  {
+    "place": "Light Rail4b75f08bf964a5209a302ee3",
+    "time": "2013-01-13"
+  },
+  {
+    "place": "Train Station4bf04c15c8d920a1d9b29430",
+    "time": "2013-01-13"
+  },
+  {
+    "place": "Light Rail4b7afd11f964a520664a2fe3",
+    "time": "2013-01-13"
+  },
+  {
+    "place": "Light Rail4b7afd11f964a520664a2fe3",
+    "time": "2013-01-14"
+  },
+  {
+    "place": "Light Rail4db54c734df05e5aaaeed7fd",
+    "time": "2013-01-14"
+  },
+  {
+    "place": "Train Station4c79d385566db60c9679460e",
+    "time": "2013-01-14"
+  },
+  {
+    "place": "Light Rail4c7f9209171b224b3b1211b1",
+    "time": "2013-01-14"
+  },
+  {
+    "place": "Gym / Fitness Center4cb4c3aeb4b0a35d2cad69ce",
+    "time": "2013-01-14"
+  },
+  {
+    "place": "Food & Drink Shop4cc9b978bcb1b1f74c07118a",
+    "time": "2013-01-15"
+  },
+  {
+    "place": "Light Rail4b7afd11f964a520664a2fe3",
+    "time": "2013-01-16"
+  },
+  {
+    "place": "Gym / Fitness Center5002af75e4b0cad51701ef3e",
+    "time": "2013-01-16"
+  },
+  {
+    "place": "Department Store4e666a5f227168062a3b81bc",
+    "time": "2013-01-17"
+  },
+  {
+    "place": "Light Rail4b5848d0f964a520f55028e3",
+    "time": "2013-01-17"
+  },
+  {
+    "place": "Light Rail4bb602f41344b71369d69c04",
+    "time": "2013-01-17"
+  },
+  {
+    "place": "Home (private)50f82070e4b076865547f124",
+    "time": "2013-01-17"
+  },
+  {
+    "place": "Park4f89d696e4b057e280e0be45",
+    "time": "2013-01-17"
+  },
+  {
+    "place": "Light Rail4b7afd11f964a520664a2fe3",
+    "time": "2013-01-17"
+  },
+  {
+    "place": "Light Rail4db54c734df05e5aaaeed7fd",
+    "time": "2013-01-17"
+  },
+  {
+    "place": "Train Station4c79d385566db60c9679460e",
+    "time": "2013-01-17"
+  },
+  {
+    "place": "Light Rail4b5848d0f964a520f55028e3",
+    "time": "2013-01-17"
+  },
+  {
+    "place": "Gas Station / Garage4d7fd661dd4a6ea85b458225",
+    "time": "2013-01-17"
+  },
+  {
+    "place": "Gym / Fitness Center5002af75e4b0cad51701ef3e",
+    "time": "2013-01-17"
+  },
+  {
+    "place": "Light Rail4db54c734df05e5aaaeed7fd",
+    "time": "2013-01-18"
+  },
+  {
+    "place": "Light Rail4bb602f41344b71369d69c04",
+    "time": "2013-01-18"
+  },
+  {
+    "place": "Light Rail4b7afd11f964a520664a2fe3",
+    "time": "2013-01-18"
+  },
+  {
+    "place": "Fast Food Restaurant4e73dda2ae60c328506bcc0f",
+    "time": "2013-01-18"
+  },
+  {
+    "place": "Light Rail4b7afd11f964a520664a2fe3",
+    "time": "2013-01-18"
+  },
+  {
+    "place": "Light Rail4db54c734df05e5aaaeed7fd",
+    "time": "2013-01-18"
+  },
+  {
+    "place": "Light Rail4e57a82a227131507c90065d",
+    "time": "2013-01-18"
+  },
+  {
+    "place": "Train Station4c79d385566db60c9679460e",
+    "time": "2013-01-18"
+  },
+  {
+    "place": "Light Rail4c7f9209171b224b3b1211b1",
+    "time": "2013-01-18"
+  },
+  {
+    "place": "Light Rail4b5848d0f964a520f55028e3",
+    "time": "2013-01-18"
+  },
+  {
+    "place": "Gas Station / Garage4d7fd661dd4a6ea85b458225",
+    "time": "2013-01-18"
+  },
+  {
+    "place": "Light Rail4b7afd11f964a520664a2fe3",
+    "time": "2013-01-21"
+  },
+  {
+    "place": "Light Rail4db54c734df05e5aaaeed7fd",
+    "time": "2013-01-21"
+  },
+  {
+    "place": "Light Rail4b5848d0f964a520f55028e3",
+    "time": "2013-01-22"
+  },
+  {
+    "place": "City4c9adfc978ffa093317d7075",
+    "time": "2013-01-22"
+  },
+  {
+    "place": "Light Rail4db54c734df05e5aaaeed7fd",
+    "time": "2013-01-22"
+  },
+  {
+    "place": "Light Rail4bb602f41344b71369d69c04",
+    "time": "2013-01-22"
+  },
+  {
+    "place": "Park4f89d696e4b057e280e0be45",
+    "time": "2013-01-22"
+  },
+  {
+    "place": "Home (private)50f82070e4b076865547f124",
+    "time": "2013-01-22"
+  },
+  {
+    "place": "Light Rail4e57a82a227131507c90065d",
+    "time": "2013-01-24"
+  },
+  {
+    "place": "Light Rail4b5848d0f964a520f55028e3",
+    "time": "2013-01-24"
+  },
+  {
+    "place": "Gas Station / Garage4d7fd661dd4a6ea85b458225",
+    "time": "2013-01-24"
+  },
+  {
+    "place": "Gym / Fitness Center4cb4c3aeb4b0a35d2cad69ce",
+    "time": "2013-01-24"
+  },
+  {
+    "place": "Gym / Fitness Center5002af75e4b0cad51701ef3e",
+    "time": "2013-01-24"
+  },
+  {
+    "place": "Light Rail4c7f9209171b224b3b1211b1",
+    "time": "2013-01-25"
+  },
+  {
+    "place": "Train Station4c79d385566db60c9679460e",
+    "time": "2013-01-25"
+  },
+  {
+    "place": "City4c9adfc978ffa093317d7075",
+    "time": "2013-01-25"
+  },
+  {
+    "place": "Light Rail4e57a82a227131507c90065d",
+    "time": "2013-01-25"
+  },
+  {
+    "place": "Light Rail4db54c734df05e5aaaeed7fd",
+    "time": "2013-01-25"
+  },
+  {
+    "place": "Light Rail4b7afd11f964a520664a2fe3",
+    "time": "2013-01-25"
+  },
+  {
+    "place": "Park4f89d696e4b057e280e0be45",
+    "time": "2013-01-25"
+  },
+  {
+    "place": "Light Rail4bb602f41344b71369d69c04",
+    "time": "2013-01-25"
+  },
+  {
+    "place": "Light Rail4e57a82a227131507c90065d",
+    "time": "2013-01-25"
+  },
+  {
+    "place": "Train Station4c79d385566db60c9679460e",
+    "time": "2013-01-25"
+  },
+  {
+    "place": "Light Rail4c7f9209171b224b3b1211b1",
+    "time": "2013-01-25"
+  },
+  {
+    "place": "Light Rail4b5848d0f964a520f55028e3",
+    "time": "2013-01-25"
+  },
+  {
+    "place": "Light Rail4b5848d0f964a520f55028e3",
+    "time": "2013-01-25"
+  },
+  {
+    "place": "Gym / Fitness Center4cb4c3aeb4b0a35d2cad69ce",
+    "time": "2013-01-25"
+  },
+  {
+    "place": "Gym / Fitness Center5002af75e4b0cad51701ef3e",
+    "time": "2013-01-25"
+  },
+  {
+    "place": "Light Rail4b5848d0f964a520f55028e3",
+    "time": "2013-01-26"
+  },
+  {
+    "place": "Train Station4c79d385566db60c9679460e",
+    "time": "2013-01-26"
+  },
+  {
+    "place": "Light Rail4e57a82a227131507c90065d",
+    "time": "2013-01-26"
+  },
+  {
+    "place": "Light Rail4db54c734df05e5aaaeed7fd",
+    "time": "2013-01-26"
+  },
+  {
+    "place": "General Travel4d3fff3a90f9224b6008021e",
+    "time": "2013-01-26"
+  },
+  {
+    "place": "Light Rail4db54c734df05e5aaaeed7fd",
+    "time": "2013-01-26"
+  },
+  {
+    "place": "Light Rail4c7f9209171b224b3b1211b1",
+    "time": "2013-01-26"
+  },
+  {
+    "place": "Gas Station / Garage4d7fd661dd4a6ea85b458225",
+    "time": "2013-01-27"
+  },
+  {
+    "place": "Light Rail4d3a1315325ff04def741845",
+    "time": "2013-01-27"
+  },
+  {
+    "place": "Light Rail4b7c9fe1f964a520559e2fe3",
+    "time": "2013-01-27"
+  },
+  {
+    "place": "Park4f89d696e4b057e280e0be45",
+    "time": "2013-01-28"
+  },
+  {
+    "place": "Light Rail4b7afd11f964a520664a2fe3",
+    "time": "2013-01-28"
+  },
+  {
+    "place": "Light Rail4db54c734df05e5aaaeed7fd",
+    "time": "2013-01-28"
+  },
+  {
+    "place": "Train Station4c79d385566db60c9679460e",
+    "time": "2013-01-28"
+  },
+  {
+    "place": "Light Rail4c7f9209171b224b3b1211b1",
+    "time": "2013-01-28"
+  },
+  {
+    "place": "Light Rail4b5848d0f964a520f55028e3",
+    "time": "2013-01-28"
+  },
+  {
+    "place": "Gas Station / Garage4d7fd661dd4a6ea85b458225",
+    "time": "2013-01-28"
+  },
+  {
+    "place": "Gym / Fitness Center4cb4c3aeb4b0a35d2cad69ce",
+    "time": "2013-01-28"
+  },
+  {
+    "place": "Light Rail4db54c734df05e5aaaeed7fd",
+    "time": "2013-01-30"
+  },
+  {
+    "place": "Light Rail4e57a82a227131507c90065d",
+    "time": "2013-01-30"
+  },
+  {
+    "place": "Light Rail4b5848d0f964a520f55028e3",
+    "time": "2013-02-01"
+  },
+  {
+    "place": "Food & Drink Shop4cc9b978bcb1b1f74c07118a",
+    "time": "2013-02-02"
+  },
+  {
+    "place": "Light Rail4b7afd11f964a520664a2fe3",
+    "time": "2013-02-02"
+  },
+  {
+    "place": "Light Rail4e57a82a227131507c90065d",
+    "time": "2013-02-02"
+  },
+  {
+    "place": "Gym / Fitness Center5002af75e4b0cad51701ef3e",
+    "time": "2013-02-02"
+  },
+  {
+    "place": "Light Rail4bb602f41344b71369d69c04",
+    "time": "2013-02-03"
+  },
+  {
+    "place": "Light Rail4d3a1315325ff04def741845",
+    "time": "2013-02-06"
+  },
+  {
+    "place": "Gas Station / Garage4d7fd661dd4a6ea85b458225",
+    "time": "2013-02-06"
+  },
+  {
+    "place": "Gym / Fitness Center5002af75e4b0cad51701ef3e",
+    "time": "2013-02-06"
+  },
+  {
+    "place": "Park4f89d696e4b057e280e0be45",
+    "time": "2013-02-07"
+  },
+  {
+    "place": "Home (private)50f82070e4b076865547f124",
+    "time": "2013-02-12"
+  }
+]

@@ -1,0 +1,602 @@
+[
+  {
+    "place": "Tea Room43c7878df964a520822d1fe3",
+    "time": "2012-04-03"
+  },
+  {
+    "place": "Tea Room43c7878df964a520822d1fe3",
+    "time": "2012-04-07"
+  },
+  {
+    "place": "Seafood Restaurant49c42857f964a5209f561fe3",
+    "time": "2012-04-07"
+  },
+  {
+    "place": "Food & Drink Shop43bba61df964a520eb2c1fe3",
+    "time": "2012-04-09"
+  },
+  {
+    "place": "Bar3fd66200f964a52001e81ee3",
+    "time": "2012-04-12"
+  },
+  {
+    "place": "Ice Cream Shop4a1de847f964a520aa7b1fe3",
+    "time": "2012-04-12"
+  },
+  {
+    "place": "Bar4a329edaf964a520699a1fe3",
+    "time": "2012-04-13"
+  },
+  {
+    "place": "Bowling Alley3fd66200f964a5200ae91ee3",
+    "time": "2012-04-14"
+  },
+  {
+    "place": "Bar3fd66200f964a520aae81ee3",
+    "time": "2012-04-14"
+  },
+  {
+    "place": "Tea Room4e3c89c8aeb73139a16d84ee",
+    "time": "2012-04-16"
+  },
+  {
+    "place": "Bar4ce70ae08ef78cfae280909b",
+    "time": "2012-04-18"
+  },
+  {
+    "place": "Office4f8ecc8ce4b007514d3bc81c",
+    "time": "2012-04-18"
+  },
+  {
+    "place": "Ramen /  Noodle House49ef3cedf964a5208b681fe3",
+    "time": "2012-04-29"
+  },
+  {
+    "place": "Ice Cream Shop4f98397a7bebde05e4983621",
+    "time": "2012-05-04"
+  },
+  {
+    "place": "Ramen /  Noodle House4731be8af964a520244c1fe3",
+    "time": "2012-05-09"
+  },
+  {
+    "place": "Seafood Restaurant4c780397bd346dcb56abf0ef",
+    "time": "2012-05-10"
+  },
+  {
+    "place": "Gastropub49b1f97af964a520dd521fe3",
+    "time": "2012-05-11"
+  },
+  {
+    "place": "Park4b240a1ff964a520b25f24e3",
+    "time": "2012-05-12"
+  },
+  {
+    "place": "Food & Drink Shop49c27575f964a520f1551fe3",
+    "time": "2012-05-12"
+  },
+  {
+    "place": "Italian Restaurant4e4078922271a89dd083d07e",
+    "time": "2012-05-13"
+  },
+  {
+    "place": "Bar41083e00f964a520980b1fe3",
+    "time": "2012-05-13"
+  },
+  {
+    "place": "Art Museum427c0500f964a52097211fe3",
+    "time": "2012-05-13"
+  },
+  {
+    "place": "Movie Theater40afe980f964a5203bf31ee3",
+    "time": "2012-05-14"
+  },
+  {
+    "place": "Government Building4b9a4922f964a520a7a935e3",
+    "time": "2012-05-14"
+  },
+  {
+    "place": "Thai Restaurant4a69ba4ef964a52000cc1fe3",
+    "time": "2012-05-16"
+  },
+  {
+    "place": "Clothing Store4a64b7d9f964a5208ac61fe3",
+    "time": "2012-05-16"
+  },
+  {
+    "place": "Clothing Store4b18552df964a52008d123e3",
+    "time": "2012-05-16"
+  },
+  {
+    "place": "Chinese Restaurant4e7fc0019adffe8cdf3b2198",
+    "time": "2012-05-17"
+  },
+  {
+    "place": "American Restaurant46d440d8f964a520644a1fe3",
+    "time": "2012-05-17"
+  },
+  {
+    "place": "Bank4b7c7c72f964a52055962fe3",
+    "time": "2012-05-17"
+  },
+  {
+    "place": "Stadium49d60947f964a520a85c1fe3",
+    "time": "2012-05-18"
+  },
+  {
+    "place": "Park4a3d30adf964a520f0a11fe3",
+    "time": "2012-05-18"
+  },
+  {
+    "place": "Bar4158a980f964a5203c1d1fe3",
+    "time": "2012-05-19"
+  },
+  {
+    "place": "Bar4ee2b3caf9ab478e59c076b0",
+    "time": "2012-05-19"
+  },
+  {
+    "place": "Ice Cream Shop4e300d723151250387b61125",
+    "time": "2012-05-19"
+  },
+  {
+    "place": "Other Great Outdoors4e8dd2bc775bde318aa01a69",
+    "time": "2012-05-27"
+  },
+  {
+    "place": "Japanese Restaurant49ba9d00f964a52085531fe3",
+    "time": "2012-05-27"
+  },
+  {
+    "place": "Gym / Fitness Center49bad9acf964a520b8531fe3",
+    "time": "2012-05-27"
+  },
+  {
+    "place": "Dessert Shop4c4261193735be9a6e001aa4",
+    "time": "2012-05-28"
+  },
+  {
+    "place": "Gym / Fitness Center49bad9acf964a520b8531fe3",
+    "time": "2012-05-28"
+  },
+  {
+    "place": "Dessert Shop4c4261193735be9a6e001aa4",
+    "time": "2012-05-28"
+  },
+  {
+    "place": "Bar3fd66200f964a52023e41ee3",
+    "time": "2012-05-28"
+  },
+  {
+    "place": "Train Station4e3ab921b3ade614e1275a0c",
+    "time": "2012-05-29"
+  },
+  {
+    "place": "Japanese Restaurant43640d00f964a5205a291fe3",
+    "time": "2012-05-29"
+  },
+  {
+    "place": "Ramen /  Noodle House4a5403b8f964a520f3b21fe3",
+    "time": "2012-06-02"
+  },
+  {
+    "place": "Bar4a7b4f7cf964a520a3ea1fe3",
+    "time": "2012-06-03"
+  },
+  {
+    "place": "Bar4b854b28f964a520045531e3",
+    "time": "2012-06-03"
+  },
+  {
+    "place": "Japanese Restaurant49ba9d00f964a52085531fe3",
+    "time": "2012-06-04"
+  },
+  {
+    "place": "Bar3fd66200f964a5203de41ee3",
+    "time": "2012-06-05"
+  },
+  {
+    "place": "Ice Cream Shop4a1de847f964a520aa7b1fe3",
+    "time": "2012-06-06"
+  },
+  {
+    "place": "Bar4ad395b4f964a5200ee520e3",
+    "time": "2012-06-06"
+  },
+  {
+    "place": "Gym / Fitness Center49bad9acf964a520b8531fe3",
+    "time": "2012-06-07"
+  },
+  {
+    "place": "Ice Cream Shop4a1de847f964a520aa7b1fe3",
+    "time": "2012-06-07"
+  },
+  {
+    "place": "Gym / Fitness Center49bad9acf964a520b8531fe3",
+    "time": "2012-06-08"
+  },
+  {
+    "place": "College Academic Building4a6a4328f964a520fbcc1fe3",
+    "time": "2012-06-08"
+  },
+  {
+    "place": "Park40abf500f964a52035f31ee3",
+    "time": "2012-06-08"
+  },
+  {
+    "place": "College Academic Building4b984508f964a520893835e3",
+    "time": "2012-06-09"
+  },
+  {
+    "place": "Gym / Fitness Center49bad9acf964a520b8531fe3",
+    "time": "2012-06-09"
+  },
+  {
+    "place": "Greek Restaurant43e6e944f964a520062f1fe3",
+    "time": "2012-06-10"
+  },
+  {
+    "place": "Tea Room43c7878df964a520822d1fe3",
+    "time": "2012-06-10"
+  },
+  {
+    "place": "Pool Hall4a91a619f964a520271b20e3",
+    "time": "2012-06-10"
+  },
+  {
+    "place": "Ramen /  Noodle House49fe4b0df964a5208c6f1fe3",
+    "time": "2012-06-10"
+  },
+  {
+    "place": "Dessert Shop4c4261193735be9a6e001aa4",
+    "time": "2012-06-10"
+  },
+  {
+    "place": "Breakfast Spot40a55d80f964a52020f31ee3",
+    "time": "2012-06-10"
+  },
+  {
+    "place": "American Restaurant3fd66200f964a5201ee31ee3",
+    "time": "2012-06-10"
+  },
+  {
+    "place": "Gym / Fitness Center49bad9acf964a520b8531fe3",
+    "time": "2012-06-10"
+  },
+  {
+    "place": "Tea Room43c7878df964a520822d1fe3",
+    "time": "2012-06-11"
+  },
+  {
+    "place": "Gym / Fitness Center40d77680f964a52059011fe3",
+    "time": "2012-06-11"
+  },
+  {
+    "place": "Chinese Restaurant4c2a81398abca59393c8fe1f",
+    "time": "2012-06-11"
+  },
+  {
+    "place": "Home (private)4fd6dd66e4b0b5d989816c0c",
+    "time": "2012-06-12"
+  },
+  {
+    "place": "Breakfast Spot40a55d80f964a52020f31ee3",
+    "time": "2012-06-12"
+  },
+  {
+    "place": "Government Building4b9a4922f964a520a7a935e3",
+    "time": "2012-06-12"
+  },
+  {
+    "place": "College Academic Building4ac245ecf964a520879820e3",
+    "time": "2012-06-12"
+  },
+  {
+    "place": "Art Museum41b3a100f964a5206d1e1fe3",
+    "time": "2012-06-12"
+  },
+  {
+    "place": "Museum43edcea1f964a520522f1fe3",
+    "time": "2012-06-12"
+  },
+  {
+    "place": "Art Museum4b6da13ff964a520b3812ce3",
+    "time": "2012-06-13"
+  },
+  {
+    "place": "Home (private)4fd6dd66e4b0b5d989816c0c",
+    "time": "2012-06-13"
+  },
+  {
+    "place": "Gym / Fitness Center49bad9acf964a520b8531fe3",
+    "time": "2012-06-13"
+  },
+  {
+    "place": "Office4f8ecc8ce4b007514d3bc81c",
+    "time": "2012-06-13"
+  },
+  {
+    "place": "Home (private)4fd6dd66e4b0b5d989816c0c",
+    "time": "2012-06-14"
+  },
+  {
+    "place": "Chinese Restaurant4b53729ff964a520739d27e3",
+    "time": "2012-06-17"
+  },
+  {
+    "place": "Home (private)4fd6dd66e4b0b5d989816c0c",
+    "time": "2012-06-17"
+  },
+  {
+    "place": "Government Building4b9a4922f964a520a7a935e3",
+    "time": "2012-06-17"
+  },
+  {
+    "place": "Bar4b854b28f964a520045531e3",
+    "time": "2012-06-17"
+  },
+  {
+    "place": "Bar4459f9bff964a520e1321fe3",
+    "time": "2012-06-17"
+  },
+  {
+    "place": "Thai Restaurant49f8973af964a520086d1fe3",
+    "time": "2012-06-20"
+  },
+  {
+    "place": "Bakery4c892b0f7223b1f7dfb031a8",
+    "time": "2012-06-21"
+  },
+  {
+    "place": "Gym / Fitness Center49bad9acf964a520b8531fe3",
+    "time": "2012-06-21"
+  },
+  {
+    "place": "Asian Restaurant4e6906a862e1a02a6147f72d",
+    "time": "2012-06-26"
+  },
+  {
+    "place": "Japanese Restaurant4ac7e43bf964a52062ba20e3",
+    "time": "2012-06-26"
+  },
+  {
+    "place": "Gym / Fitness Center49bad9acf964a520b8531fe3",
+    "time": "2012-06-27"
+  },
+  {
+    "place": "Korean Restaurant40bbc700f964a520a2001fe3",
+    "time": "2012-06-27"
+  },
+  {
+    "place": "Tea Room4c50721d8edf0f47a18a4caf",
+    "time": "2012-06-30"
+  },
+  {
+    "place": "Malaysian Restaurant4a31a5a2f964a5200d9a1fe3",
+    "time": "2012-06-30"
+  },
+  {
+    "place": "American Restaurant3fd66200f964a52044e61ee3",
+    "time": "2012-07-02"
+  },
+  {
+    "place": "Clothing Store4a64b7d9f964a5208ac61fe3",
+    "time": "2012-07-02"
+  },
+  {
+    "place": "Ice Cream Shop4de43bb11520b8ceaac8b906",
+    "time": "2012-07-02"
+  },
+  {
+    "place": "Tea Room4c50721d8edf0f47a18a4caf",
+    "time": "2012-07-03"
+  },
+  {
+    "place": "Gym / Fitness Center49bad9acf964a520b8531fe3",
+    "time": "2012-07-03"
+  },
+  {
+    "place": "Gym / Fitness Center49bad9acf964a520b8531fe3",
+    "time": "2012-07-03"
+  },
+  {
+    "place": "College Academic Building4b0d4757f964a520944523e3",
+    "time": "2012-07-04"
+  },
+  {
+    "place": "Bar47f39422f964a5209b4e1fe3",
+    "time": "2012-07-04"
+  },
+  {
+    "place": "Park40abf500f964a52035f31ee3",
+    "time": "2012-07-04"
+  },
+  {
+    "place": "Chinese Restaurant4f208436e4b0e2de56db2754",
+    "time": "2012-07-04"
+  },
+  {
+    "place": "Bar4c22beee99282d7f17b667b0",
+    "time": "2012-07-06"
+  },
+  {
+    "place": "American Restaurant3fd66200f964a52057ea1ee3",
+    "time": "2012-07-06"
+  },
+  {
+    "place": "Bar421a7600f964a5209b1f1fe3",
+    "time": "2012-07-07"
+  },
+  {
+    "place": "Cosmetics Shop4a686c3bf964a5206dca1fe3",
+    "time": "2012-07-08"
+  },
+  {
+    "place": "Bar46cbf0e3f964a520374a1fe3",
+    "time": "2012-07-09"
+  },
+  {
+    "place": "Tapas Restaurant4b2d75caf964a52029d724e3",
+    "time": "2012-07-09"
+  },
+  {
+    "place": "Gym / Fitness Center49bad9acf964a520b8531fe3",
+    "time": "2012-07-10"
+  },
+  {
+    "place": "Gym / Fitness Center40d77680f964a52059011fe3",
+    "time": "2012-07-10"
+  },
+  {
+    "place": "Clothing Store4ba5038ff964a52081d038e3",
+    "time": "2012-07-11"
+  },
+  {
+    "place": "Building4a9701f8f964a520f12720e3",
+    "time": "2012-07-12"
+  },
+  {
+    "place": "Bar4bb114c1f964a520b4783ce3",
+    "time": "2012-07-13"
+  },
+  {
+    "place": "Bar488deef8f964a52058511fe3",
+    "time": "2012-07-13"
+  },
+  {
+    "place": "Ramen /  Noodle House4a5403b8f964a520f3b21fe3",
+    "time": "2012-07-13"
+  },
+  {
+    "place": "Food & Drink Shop4ac4f9c1f964a520c99f20e3",
+    "time": "2012-07-13"
+  },
+  {
+    "place": "Bar41e46880f964a520d41e1fe3",
+    "time": "2012-07-14"
+  },
+  {
+    "place": "Bar4137b400f964a520d01a1fe3",
+    "time": "2012-07-14"
+  },
+  {
+    "place": "Food & Drink Shop4d6d0aef8a4541bddd658ae5",
+    "time": "2012-07-15"
+  },
+  {
+    "place": "French Restaurant4a2f14def964a520a6981fe3",
+    "time": "2012-07-15"
+  },
+  {
+    "place": "Tea Room43c7878df964a520822d1fe3",
+    "time": "2012-07-16"
+  },
+  {
+    "place": "French Restaurant4aa03b31f964a520ce3e20e3",
+    "time": "2012-07-16"
+  },
+  {
+    "place": "French Restaurant3fd66200f964a520bee91ee3",
+    "time": "2012-07-17"
+  },
+  {
+    "place": "Korean Restaurant46bffe89f964a520ef491fe3",
+    "time": "2012-07-18"
+  },
+  {
+    "place": "Gym / Fitness Center49bad9acf964a520b8531fe3",
+    "time": "2012-07-19"
+  },
+  {
+    "place": "French Restaurant3fd66200f964a5207fe91ee3",
+    "time": "2012-07-24"
+  },
+  {
+    "place": "Medical Center4a5bece4f964a52000bc1fe3",
+    "time": "2012-07-24"
+  },
+  {
+    "place": "Japanese Restaurant49ba9d00f964a52085531fe3",
+    "time": "2012-07-28"
+  },
+  {
+    "place": "American Restaurant3fd66200f964a520aee91ee3",
+    "time": "2012-07-28"
+  },
+  {
+    "place": "Steakhouse3fd66200f964a5209beb1ee3",
+    "time": "2012-07-29"
+  },
+  {
+    "place": "Music Venue3fd66200f964a520ede71ee3",
+    "time": "2012-07-30"
+  },
+  {
+    "place": "Gym / Fitness Center49bad9acf964a520b8531fe3",
+    "time": "2012-08-05"
+  },
+  {
+    "place": "Ramen /  Noodle House4a2ae34ff964a52065961fe3",
+    "time": "2012-08-09"
+  },
+  {
+    "place": "Clothing Store4b2d15dcf964a520ffcd24e3",
+    "time": "2012-08-09"
+  },
+  {
+    "place": "Hotel4c3e54c3b8b4be9a2a09ccef",
+    "time": "2012-08-10"
+  },
+  {
+    "place": "Chinese Restaurant4bcf9774a8b3a5939497625f",
+    "time": "2012-08-11"
+  },
+  {
+    "place": "Ice Cream Shop4de43bb11520b8ceaac8b906",
+    "time": "2012-08-11"
+  },
+  {
+    "place": "Department Store4531059cf964a520683b1fe3",
+    "time": "2012-08-11"
+  },
+  {
+    "place": "Chinese Restaurant3fd66200f964a520a0e61ee3",
+    "time": "2012-08-14"
+  },
+  {
+    "place": "Clothing Store4aa9bbb8f964a520155520e3",
+    "time": "2012-08-16"
+  },
+  {
+    "place": "Gym / Fitness Center49bad9acf964a520b8531fe3",
+    "time": "2012-08-19"
+  },
+  {
+    "place": "Gym / Fitness Center49bad9acf964a520b8531fe3",
+    "time": "2012-08-20"
+  },
+  {
+    "place": "Chinese Restaurant4e7fc0019adffe8cdf3b2198",
+    "time": "2012-08-18"
+  },
+  {
+    "place": "Pool Hall40e35400f964a520e6091fe3",
+    "time": "2012-08-19"
+  },
+  {
+    "place": "Airport4ace6c89f964a52078d020e3",
+    "time": "2012-09-10"
+  },
+  {
+    "place": "Electronics Store4aa42f58f964a520b94520e3",
+    "time": "2012-09-14"
+  },
+  {
+    "place": "Athletic & Sport4cc0a3bb31bf952183991ccc",
+    "time": "2012-12-30"
+  },
+  {
+    "place": "Airport4ace6c89f964a52078d020e3",
+    "time": "2013-02-02"
+  }
+]

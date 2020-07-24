@@ -1,0 +1,638 @@
+[
+  {
+    "place": "Bakery4ca3b7a67f84224bf834c758",
+    "time": "2012-04-04"
+  },
+  {
+    "place": "College Academic Building4c51e802d797e21e020ed67c",
+    "time": "2012-04-07"
+  },
+  {
+    "place": "Thai Restaurant4b0c82edf964a520953e23e3",
+    "time": "2012-04-08"
+  },
+  {
+    "place": "Salon / Barbershop4f81ded6e4b09a147825fde9",
+    "time": "2012-04-08"
+  },
+  {
+    "place": "Hardware Store4a6a0dbcf964a5207bcc1fe3",
+    "time": "2012-04-08"
+  },
+  {
+    "place": "Music Store4b5b6323f964a520eaf928e3",
+    "time": "2012-04-08"
+  },
+  {
+    "place": "Toy / Game Store4ce577fc023676ebb8efeab9",
+    "time": "2012-04-08"
+  },
+  {
+    "place": "General College & University4cd0173e6200b1f7b014d228",
+    "time": "2012-04-08"
+  },
+  {
+    "place": "Bank4b77242cf964a52097812ee3",
+    "time": "2012-04-12"
+  },
+  {
+    "place": "Bakery4bb92b2598c7ef3b95e03102",
+    "time": "2012-04-12"
+  },
+  {
+    "place": "College Academic Building4c51e802d797e21e020ed67c",
+    "time": "2012-04-14"
+  },
+  {
+    "place": "Fast Food Restaurant4bc36e134cdfc9b6c3569721",
+    "time": "2012-04-14"
+  },
+  {
+    "place": "Filipino Restaurant49e16850f964a520c6611fe3",
+    "time": "2012-04-14"
+  },
+  {
+    "place": "Food & Drink Shop4b63795ff964a520ad7c2ae3",
+    "time": "2012-04-14"
+  },
+  {
+    "place": "Parking4e6509e51495676d56d7baf0",
+    "time": "2012-04-14"
+  },
+  {
+    "place": "Food & Drink Shop4b5ce4cef964a520b44929e3",
+    "time": "2012-04-15"
+  },
+  {
+    "place": "Deli / Bodega4ce7e4fb9f776ea827a45a22",
+    "time": "2012-04-15"
+  },
+  {
+    "place": "Gas Station / Garage4bcb4278937ca5935b28a992",
+    "time": "2012-04-15"
+  },
+  {
+    "place": "Filipino Restaurant49e16850f964a520c6611fe3",
+    "time": "2012-04-15"
+  },
+  {
+    "place": "Thai Restaurant3fd66200f964a5204ef11ee3",
+    "time": "2012-04-15"
+  },
+  {
+    "place": "College Academic Building4bca24db511f9521f326afc7",
+    "time": "2012-04-15"
+  },
+  {
+    "place": "Bakery4c7ec19101df37047e3ce4ac",
+    "time": "2012-04-15"
+  },
+  {
+    "place": "Food & Drink Shop4b5ce4cef964a520b44929e3",
+    "time": "2012-04-15"
+  },
+  {
+    "place": "Medical Center4f8c6b2ee4b03a0f28383e8b",
+    "time": "2012-04-16"
+  },
+  {
+    "place": "Building4c6591979cb82d7f71328ed2",
+    "time": "2012-04-18"
+  },
+  {
+    "place": "Bakery4ca3b7a67f84224bf834c758",
+    "time": "2012-04-19"
+  },
+  {
+    "place": "Bakery4b3f9174f964a52044a925e3",
+    "time": "2012-04-20"
+  },
+  {
+    "place": "College Academic Building4c51e802d797e21e020ed67c",
+    "time": "2012-04-21"
+  },
+  {
+    "place": "Deli / Bodega4e3f1a7ca809ba757c20c3b9",
+    "time": "2012-04-21"
+  },
+  {
+    "place": "French Restaurant4eceef679a52262b810ab3bd",
+    "time": "2012-04-21"
+  },
+  {
+    "place": "Gas Station / Garage4bcb4278937ca5935b28a992",
+    "time": "2012-04-22"
+  },
+  {
+    "place": "Ramen /  Noodle House441519d7f964a520f7301fe3",
+    "time": "2012-04-22"
+  },
+  {
+    "place": "Department Store4b085910f964a520b90923e3",
+    "time": "2012-04-22"
+  },
+  {
+    "place": "Food & Drink Shop4b5ce4cef964a520b44929e3",
+    "time": "2012-04-22"
+  },
+  {
+    "place": "Bakery4ca3b7a67f84224bf834c758",
+    "time": "2012-04-25"
+  },
+  {
+    "place": "College Academic Building4c51e802d797e21e020ed67c",
+    "time": "2012-04-28"
+  },
+  {
+    "place": "Drugstore / Pharmacy4b6a13cff964a5200ec62be3",
+    "time": "2012-04-28"
+  },
+  {
+    "place": "Flea Market4839a8ddf964a5200e501fe3",
+    "time": "2012-04-28"
+  },
+  {
+    "place": "Church4bd4a21b6f649521e8c86dec",
+    "time": "2012-04-29"
+  },
+  {
+    "place": "Japanese Restaurant4a42614df964a520cfa51fe3",
+    "time": "2012-04-29"
+  },
+  {
+    "place": "Food & Drink Shop4b771282f964a520677a2ee3",
+    "time": "2012-04-29"
+  },
+  {
+    "place": "Bakery4ca3b7a67f84224bf834c758",
+    "time": "2012-05-04"
+  },
+  {
+    "place": "College Academic Building4c51e802d797e21e020ed67c",
+    "time": "2012-05-05"
+  },
+  {
+    "place": "Thai Restaurant4b0c82edf964a520953e23e3",
+    "time": "2012-05-05"
+  },
+  {
+    "place": "Food & Drink Shop4c55e8b4f5f3d13a52b28cfc",
+    "time": "2012-05-05"
+  },
+  {
+    "place": "Medical Center4c61a6c458810f476d53051e",
+    "time": "2012-05-05"
+  },
+  {
+    "place": "Food & Drink Shop4b5ce4cef964a520b44929e3",
+    "time": "2012-05-05"
+  },
+  {
+    "place": "Clothing Store4bcb3bcb68f976b0f99b6083",
+    "time": "2012-05-05"
+  },
+  {
+    "place": "Electronics Store4aff6f2bf964a520843822e3",
+    "time": "2012-05-06"
+  },
+  {
+    "place": "Park4c5bed609b28d13a854c5570",
+    "time": "2012-05-06"
+  },
+  {
+    "place": "Food & Drink Shop4b5ce4cef964a520b44929e3",
+    "time": "2012-05-06"
+  },
+  {
+    "place": "Post Office4a81c3c6f964a52080f71fe3",
+    "time": "2012-05-07"
+  },
+  {
+    "place": "Bakery4ca3b7a67f84224bf834c758",
+    "time": "2012-05-08"
+  },
+  {
+    "place": "Department Store49ff62f9f964a52013701fe3",
+    "time": "2012-05-08"
+  },
+  {
+    "place": "Electronics Store44be416bf964a520a3351fe3",
+    "time": "2012-05-08"
+  },
+  {
+    "place": "Drugstore / Pharmacy4a80431ff964a520d2f41fe3",
+    "time": "2012-05-09"
+  },
+  {
+    "place": "Drugstore / Pharmacy4b4a98eff964a5204e8b26e3",
+    "time": "2012-05-09"
+  },
+  {
+    "place": "Drugstore / Pharmacy4b4a98eff964a5204e8b26e3",
+    "time": "2012-05-10"
+  },
+  {
+    "place": "Cosmetics Shop4b928602f964a520c10034e3",
+    "time": "2012-05-10"
+  },
+  {
+    "place": "Bakery4ca3b7a67f84224bf834c758",
+    "time": "2012-05-11"
+  },
+  {
+    "place": "Bank4bc0c043f8219c74551db210",
+    "time": "2012-05-12"
+  },
+  {
+    "place": "Medical Center4d62a96f865a224bbb8dc485",
+    "time": "2012-05-12"
+  },
+  {
+    "place": "Clothing Store4ada0c7bf964a520c31d21e3",
+    "time": "2012-05-12"
+  },
+  {
+    "place": "Middle Eastern Restaurant4bd1fad4a8b3a5936fda665f",
+    "time": "2012-05-12"
+  },
+  {
+    "place": "Thai Restaurant3fd66200f964a5204ef11ee3",
+    "time": "2012-05-12"
+  },
+  {
+    "place": "Food & Drink Shop4b5ce4cef964a520b44929e3",
+    "time": "2012-05-12"
+  },
+  {
+    "place": "French Restaurant4eceef679a52262b810ab3bd",
+    "time": "2012-05-13"
+  },
+  {
+    "place": "Park4c5bed609b28d13a854c5570",
+    "time": "2012-05-13"
+  },
+  {
+    "place": "Bakery4ca3b7a67f84224bf834c758",
+    "time": "2012-05-15"
+  },
+  {
+    "place": "Post Office4a81c3c6f964a52080f71fe3",
+    "time": "2012-05-15"
+  },
+  {
+    "place": "Elementary School4cd0173e6200b1f7b014d228",
+    "time": "2012-05-16"
+  },
+  {
+    "place": "Elementary School4cd0173e6200b1f7b014d228",
+    "time": "2012-05-18"
+  },
+  {
+    "place": "College Academic Building4c51e802d797e21e020ed67c",
+    "time": "2012-05-19"
+  },
+  {
+    "place": "Asian Restaurant4bb7cf5b3db7b7135499209a",
+    "time": "2012-05-19"
+  },
+  {
+    "place": "Food & Drink Shop4b5ce4cef964a520b44929e3",
+    "time": "2012-05-19"
+  },
+  {
+    "place": "Bakery4ca3b7a67f84224bf834c758",
+    "time": "2012-05-21"
+  },
+  {
+    "place": "Bakery4ca3b7a67f84224bf834c758",
+    "time": "2012-05-25"
+  },
+  {
+    "place": "Art Gallery4d6aa8b1c147721ed29438f5",
+    "time": "2012-05-25"
+  },
+  {
+    "place": "Thai Restaurant4b0c82edf964a520953e23e3",
+    "time": "2012-05-26"
+  },
+  {
+    "place": "Deli / Bodega4ce7e4fb9f776ea827a45a22",
+    "time": "2012-05-26"
+  },
+  {
+    "place": "Food & Drink Shop4c1d18f463750f4712a9b767",
+    "time": "2012-05-27"
+  },
+  {
+    "place": "Flea Market4d9885ae647d8cfa23ccf03d",
+    "time": "2012-05-27"
+  },
+  {
+    "place": "Park4c423c5bcc410f475783ac61",
+    "time": "2012-05-27"
+  },
+  {
+    "place": "Park4c5bed609b28d13a854c5570",
+    "time": "2012-05-27"
+  },
+  {
+    "place": "Drugstore / Pharmacy4bfd742255539c7478abbcf3",
+    "time": "2012-05-27"
+  },
+  {
+    "place": "Food & Drink Shop4b5ce4cef964a520b44929e3",
+    "time": "2012-05-27"
+  },
+  {
+    "place": "Elementary School4cd0173e6200b1f7b014d228",
+    "time": "2012-06-01"
+  },
+  {
+    "place": "Food & Drink Shop4b5ce4cef964a520b44929e3",
+    "time": "2012-06-02"
+  },
+  {
+    "place": "Bakery4c7ec19101df37047e3ce4ac",
+    "time": "2012-06-02"
+  },
+  {
+    "place": "Trade School4ba3b83af964a5200c5838e3",
+    "time": "2012-06-03"
+  },
+  {
+    "place": "Food & Drink Shop4b5ce4cef964a520b44929e3",
+    "time": "2012-06-03"
+  },
+  {
+    "place": "Drugstore / Pharmacy4bfd742255539c7478abbcf3",
+    "time": "2012-06-03"
+  },
+  {
+    "place": "Post Office4a81c3c6f964a52080f71fe3",
+    "time": "2012-06-07"
+  },
+  {
+    "place": "College Academic Building4c51e802d797e21e020ed67c",
+    "time": "2012-06-09"
+  },
+  {
+    "place": "Drugstore / Pharmacy4bfd742255539c7478abbcf3",
+    "time": "2012-06-09"
+  },
+  {
+    "place": "Food & Drink Shop4b5ce4cef964a520b44929e3",
+    "time": "2012-06-09"
+  },
+  {
+    "place": "Park4c5bed609b28d13a854c5570",
+    "time": "2012-06-10"
+  },
+  {
+    "place": "Post Office4a81c3c6f964a52080f71fe3",
+    "time": "2012-06-11"
+  },
+  {
+    "place": "Mall4c0fcbf7336220a1245ece77",
+    "time": "2012-06-13"
+  },
+  {
+    "place": "Toy / Game Store4ce577fc023676ebb8efeab9",
+    "time": "2012-06-16"
+  },
+  {
+    "place": "Cosmetics Shop4c9bd5698afca09392dce715",
+    "time": "2012-06-16"
+  },
+  {
+    "place": "Sushi Restaurant48c50c4bf964a520dc511fe3",
+    "time": "2012-06-17"
+  },
+  {
+    "place": "Food & Drink Shop4a60c306f964a52028c11fe3",
+    "time": "2012-06-17"
+  },
+  {
+    "place": "Post Office4a81c3c6f964a52080f71fe3",
+    "time": "2012-06-18"
+  },
+  {
+    "place": "Bakery4ca3b7a67f84224bf834c758",
+    "time": "2012-06-25"
+  },
+  {
+    "place": "Park4c5bed609b28d13a854c5570",
+    "time": "2012-06-30"
+  },
+  {
+    "place": "Food & Drink Shop4b5ce4cef964a520b44929e3",
+    "time": "2012-06-30"
+  },
+  {
+    "place": "Post Office4a81c3c6f964a52080f71fe3",
+    "time": "2012-07-02"
+  },
+  {
+    "place": "Food & Drink Shop4c489e38417b20a1ac98e1a9",
+    "time": "2012-07-03"
+  },
+  {
+    "place": "Seafood Restaurant4ba52024f964a520b1e038e3",
+    "time": "2012-07-04"
+  },
+  {
+    "place": "Food & Drink Shop4b5ce4cef964a520b44929e3",
+    "time": "2012-07-04"
+  },
+  {
+    "place": "Food & Drink Shop4b5ce4cef964a520b44929e3",
+    "time": "2012-07-07"
+  },
+  {
+    "place": "Pizza Place4bd3afcd462cb713701fdf07",
+    "time": "2012-07-08"
+  },
+  {
+    "place": "Food & Drink Shop4b5ce4cef964a520b44929e3",
+    "time": "2012-07-08"
+  },
+  {
+    "place": "Gift Shop4c6a97c4c946e21e550eed8e",
+    "time": "2012-07-12"
+  },
+  {
+    "place": "Ramen /  Noodle House4f66559ae4b06cb9fcfd5af1",
+    "time": "2012-07-15"
+  },
+  {
+    "place": "Middle Eastern Restaurant4bd1fad4a8b3a5936fda665f",
+    "time": "2012-07-15"
+  },
+  {
+    "place": "Food & Drink Shop4b5ce4cef964a520b44929e3",
+    "time": "2012-07-15"
+  },
+  {
+    "place": "Mall4c0fcbf7336220a1245ece77",
+    "time": "2012-07-16"
+  },
+  {
+    "place": "Gift Shop4ae74e0bf964a52036aa21e3",
+    "time": "2012-07-20"
+  },
+  {
+    "place": "Post Office4a81c3c6f964a52080f71fe3",
+    "time": "2012-10-23"
+  },
+  {
+    "place": "Post Office4a81c3c6f964a52080f71fe3",
+    "time": "2012-10-26"
+  },
+  {
+    "place": "College Academic Building4c51e802d797e21e020ed67c",
+    "time": "2012-10-26"
+  },
+  {
+    "place": "Music Store4b5b6323f964a520eaf928e3",
+    "time": "2012-10-31"
+  },
+  {
+    "place": "Furniture / Home Store4a73515ef964a5201edc1fe3",
+    "time": "2012-11-09"
+  },
+  {
+    "place": "Park4f5655a0e4b0f29665ac9497",
+    "time": "2012-11-10"
+  },
+  {
+    "place": "Thai Restaurant4b0c82edf964a520953e23e3",
+    "time": "2012-11-11"
+  },
+  {
+    "place": "College Academic Building4c51e802d797e21e020ed67c",
+    "time": "2012-11-17"
+  },
+  {
+    "place": "Food & Drink Shop4b5ce4cef964a520b44929e3",
+    "time": "2012-11-17"
+  },
+  {
+    "place": "Elementary School4cd0173e6200b1f7b014d228",
+    "time": "2012-11-20"
+  },
+  {
+    "place": "Sushi Restaurant5004a603e4b03a9a7558faa1",
+    "time": "2012-11-22"
+  },
+  {
+    "place": "Park4c5bed609b28d13a854c5570",
+    "time": "2012-11-22"
+  },
+  {
+    "place": "Bowling Alley455c4272f964a5206b3d1fe3",
+    "time": "2012-11-23"
+  },
+  {
+    "place": "Food & Drink Shop4b5ce4cef964a520b44929e3",
+    "time": "2012-11-23"
+  },
+  {
+    "place": "Deli / Bodega4ce7e4fb9f776ea827a45a22",
+    "time": "2012-11-23"
+  },
+  {
+    "place": "College Academic Building4c51e802d797e21e020ed67c",
+    "time": "2012-11-24"
+  },
+  {
+    "place": "Sushi Restaurant5004a603e4b03a9a7558faa1",
+    "time": "2012-11-24"
+  },
+  {
+    "place": "Ice Cream Shop4e4e452fbd4101d0d7a67850",
+    "time": "2012-11-24"
+  },
+  {
+    "place": "Music Store4b5b6323f964a520eaf928e3",
+    "time": "2012-11-24"
+  },
+  {
+    "place": "Athletic & Sport4c9a5dc4bdaf9c748e5b68ba",
+    "time": "2012-11-25"
+  },
+  {
+    "place": "Post Office4a81c3c6f964a52080f71fe3",
+    "time": "2012-11-26"
+  },
+  {
+    "place": "Post Office4a81c3c6f964a52080f71fe3",
+    "time": "2012-11-28"
+  },
+  {
+    "place": "Drugstore / Pharmacy4a80431ff964a520d2f41fe3",
+    "time": "2012-11-29"
+  },
+  {
+    "place": "College Academic Building4c51e802d797e21e020ed67c",
+    "time": "2012-12-01"
+  },
+  {
+    "place": "Post Office4bb3755a42959c746ef0212c",
+    "time": "2012-12-01"
+  },
+  {
+    "place": "Sushi Restaurant5004a603e4b03a9a7558faa1",
+    "time": "2012-12-01"
+  },
+  {
+    "place": "Food & Drink Shop4b5ce4cef964a520b44929e3",
+    "time": "2012-12-01"
+  },
+  {
+    "place": "Deli / Bodega4ce7e4fb9f776ea827a45a22",
+    "time": "2012-12-01"
+  },
+  {
+    "place": "College Academic Building4dd5a458d1647fcf3e1f384d",
+    "time": "2012-12-01"
+  },
+  {
+    "place": "Automotive Shop4bf7ecb2c07c9c747ebcbbef",
+    "time": "2012-12-02"
+  },
+  {
+    "place": "Plaza49b79f54f964a5202c531fe3",
+    "time": "2012-12-02"
+  },
+  {
+    "place": "Video Game Store43a48db8f964a5204d2c1fe3",
+    "time": "2012-12-02"
+  },
+  {
+    "place": "Drugstore / Pharmacy4a80431ff964a520d2f41fe3",
+    "time": "2012-12-04"
+  },
+  {
+    "place": "Post Office4a81c3c6f964a52080f71fe3",
+    "time": "2012-12-05"
+  },
+  {
+    "place": "College Academic Building4c51e802d797e21e020ed67c",
+    "time": "2012-12-08"
+  },
+  {
+    "place": "Gas Station / Garage4bcb4278937ca5935b28a992",
+    "time": "2012-12-08"
+  },
+  {
+    "place": "Ramen /  Noodle House4e4bf6acd164d2bc73b4067e",
+    "time": "2012-12-08"
+  },
+  {
+    "place": "Electronics Store4a58cd1af964a520e8b71fe3",
+    "time": "2012-12-08"
+  },
+  {
+    "place": "College Academic Building4dd5a458d1647fcf3e1f384d",
+    "time": "2012-12-08"
+  }
+]

@@ -1,0 +1,722 @@
+[
+  {
+    "place": "Office4d96001eb7bf2c0fb1a3d52d",
+    "time": "2012-04-16"
+  },
+  {
+    "place": "Event Space4f6cc5debb3d8e65c21bdc21",
+    "time": "2012-04-19"
+  },
+  {
+    "place": "University4f7e5ccde4b074f70d16865b",
+    "time": "2012-04-29"
+  },
+  {
+    "place": "Stadium4b9a58e0f964a520e0ad35e3",
+    "time": "2012-05-10"
+  },
+  {
+    "place": "Coffee Shop49da74aef964a5208b5e1fe3",
+    "time": "2012-06-01"
+  },
+  {
+    "place": "Athletic & Sport4e72e8628998f94a57fb8c55",
+    "time": "2012-06-25"
+  },
+  {
+    "place": "Athletic & Sport4e63ec57a80951b31925bbfb",
+    "time": "2012-06-25"
+  },
+  {
+    "place": "Athletic & Sport4ed3f0d42c5bc3505b17a2d6",
+    "time": "2012-06-25"
+  },
+  {
+    "place": "Athletic & Sport4f9da5b5e4b008dde2aaaa80",
+    "time": "2012-06-25"
+  },
+  {
+    "place": "Athletic & Sport4c011e9419d8c92890488829",
+    "time": "2012-06-25"
+  },
+  {
+    "place": "Athletic & Sport4edba3cb46907c1b441f3712",
+    "time": "2012-06-25"
+  },
+  {
+    "place": "Clothing Store4ad5056cf964a520520121e3",
+    "time": "2012-09-06"
+  },
+  {
+    "place": "Convention Center4283ee00f964a5209d221fe3",
+    "time": "2012-10-12"
+  },
+  {
+    "place": "Cemetery5090bc9be4b063c640ba5333",
+    "time": "2012-11-01"
+  },
+  {
+    "place": "Indian Restaurant4a12eb1ff964a52099771fe3",
+    "time": "2012-12-06"
+  },
+  {
+    "place": "Indian Restaurant4a428cd0f964a520f5a51fe3",
+    "time": "2012-12-06"
+  },
+  {
+    "place": "Indian Restaurant4bc0e66c920eb71372cf192c",
+    "time": "2012-12-06"
+  },
+  {
+    "place": "Indian Restaurant4116be80f964a520f90b1fe3",
+    "time": "2012-12-06"
+  },
+  {
+    "place": "Indian Restaurant49e4f8fdf964a5207d631fe3",
+    "time": "2012-12-06"
+  },
+  {
+    "place": "Indian Restaurant4a7b1eaaf964a52012ea1fe3",
+    "time": "2012-12-06"
+  },
+  {
+    "place": "Indian Restaurant3fd66200f964a5205de31ee3",
+    "time": "2012-12-06"
+  },
+  {
+    "place": "Indian Restaurant41e46880f964a520dd1e1fe3",
+    "time": "2012-12-06"
+  },
+  {
+    "place": "Indian Restaurant5023ff6ce4b06e8a945ea64a",
+    "time": "2012-12-06"
+  },
+  {
+    "place": "Indian Restaurant4d992c1e942ba093ebb5968c",
+    "time": "2012-12-06"
+  },
+  {
+    "place": "Indian Restaurant4b9ad639f964a5209bda35e3",
+    "time": "2012-12-06"
+  },
+  {
+    "place": "Indian Restaurant4ae015bff964a5202b7e21e3",
+    "time": "2012-12-06"
+  },
+  {
+    "place": "Indian Restaurant4ab3bc6af964a520386e20e3",
+    "time": "2012-12-06"
+  },
+  {
+    "place": "Indian Restaurant4adce8d5f964a5206e6221e3",
+    "time": "2012-12-06"
+  },
+  {
+    "place": "Indian Restaurant4a5b660df964a52015bb1fe3",
+    "time": "2012-12-06"
+  },
+  {
+    "place": "Indian Restaurant49e1494cf964a520b7611fe3",
+    "time": "2012-12-06"
+  },
+  {
+    "place": "Indian Restaurant4a63bfb4f964a520b3c51fe3",
+    "time": "2012-12-06"
+  },
+  {
+    "place": "Indian Restaurant3fd66200f964a52021e31ee3",
+    "time": "2012-12-06"
+  },
+  {
+    "place": "Indian Restaurant4abbf811f964a520b88520e3",
+    "time": "2012-12-06"
+  },
+  {
+    "place": "Indian Restaurant4b299957f964a52082a124e3",
+    "time": "2012-12-06"
+  },
+  {
+    "place": "Indian Restaurant4e6970ddfa76cd0f7646af5f",
+    "time": "2012-12-06"
+  },
+  {
+    "place": "Indian Restaurant4a3812dbf964a520af9e1fe3",
+    "time": "2012-12-06"
+  },
+  {
+    "place": "Indian Restaurant4b299957f964a52082a124e3",
+    "time": "2012-12-07"
+  },
+  {
+    "place": "Indian Restaurant4ab2c6fbf964a5204d6c20e3",
+    "time": "2012-12-07"
+  },
+  {
+    "place": "Indian Restaurant4bbf743cba9776b09428ffc8",
+    "time": "2012-12-07"
+  },
+  {
+    "place": "Indian Restaurant4a3bc8a1f964a520c1a01fe3",
+    "time": "2012-12-07"
+  },
+  {
+    "place": "Indian Restaurant4a888314f964a520b70620e3",
+    "time": "2012-12-07"
+  },
+  {
+    "place": "Indian Restaurant4ccb35297c2ff04d1902917e",
+    "time": "2012-12-07"
+  },
+  {
+    "place": "Indian Restaurant4b43e36df964a52043ed25e3",
+    "time": "2012-12-07"
+  },
+  {
+    "place": "Indian Restaurant4d2c9aa0342d6dcb670521cb",
+    "time": "2012-12-07"
+  },
+  {
+    "place": "Indian Restaurant4a837df3f964a52050fb1fe3",
+    "time": "2012-12-07"
+  },
+  {
+    "place": "Indian Restaurant4ba96f77f964a52007273ae3",
+    "time": "2012-12-07"
+  },
+  {
+    "place": "Indian Restaurant4af883acf964a520f50d22e3",
+    "time": "2012-12-07"
+  },
+  {
+    "place": "Indian Restaurant4c17b29b838020a1fd0de361",
+    "time": "2012-12-07"
+  },
+  {
+    "place": "Indian Restaurant4ac3ec04f964a5207c9d20e3",
+    "time": "2012-12-07"
+  },
+  {
+    "place": "Indian Restaurant4ac019aef964a520c49320e3",
+    "time": "2012-12-07"
+  },
+  {
+    "place": "Indian Restaurant4a08ef4ef964a52026741fe3",
+    "time": "2012-12-07"
+  },
+  {
+    "place": "German Restaurant4d5b3dd522ad2d430a63e695",
+    "time": "2012-12-10"
+  },
+  {
+    "place": "German Restaurant3fd66200f964a52022e51ee3",
+    "time": "2012-12-10"
+  },
+  {
+    "place": "German Restaurant45633154f964a520a53d1fe3",
+    "time": "2012-12-10"
+  },
+  {
+    "place": "German Restaurant4ebf131261af06192af35189",
+    "time": "2012-12-10"
+  },
+  {
+    "place": "German Restaurant4fc047ebe4b01d45be39bda7",
+    "time": "2012-12-10"
+  },
+  {
+    "place": "German Restaurant4fe34b3fe4b044e6b9afcd10",
+    "time": "2012-12-10"
+  },
+  {
+    "place": "German Restaurant50756383e4b06a41703b7c7c",
+    "time": "2012-12-10"
+  },
+  {
+    "place": "German Restaurant3fd66200f964a5207ae51ee3",
+    "time": "2012-12-10"
+  },
+  {
+    "place": "German Restaurant439e1fd8f964a520092c1fe3",
+    "time": "2012-12-10"
+  },
+  {
+    "place": "German Restaurant3fd66200f964a5207ae51ee3",
+    "time": "2012-12-10"
+  },
+  {
+    "place": "German Restaurant49fa2837f964a520cf6d1fe3",
+    "time": "2012-12-10"
+  },
+  {
+    "place": "German Restaurant49c3a162f964a52067561fe3",
+    "time": "2012-12-10"
+  },
+  {
+    "place": "German Restaurant3fd66200f964a52073e31ee3",
+    "time": "2012-12-10"
+  },
+  {
+    "place": "German Restaurant4c952c4238dd8cfac548d062",
+    "time": "2012-12-10"
+  },
+  {
+    "place": "German Restaurant4e6c5541d1649db79994a95b",
+    "time": "2012-12-11"
+  },
+  {
+    "place": "German Restaurant4d040ee12f96f04d179e1b54",
+    "time": "2012-12-11"
+  },
+  {
+    "place": "German Restaurant506c9835e4b00cbe636b6f9e",
+    "time": "2012-12-11"
+  },
+  {
+    "place": "German Restaurant4edbcdc930f83fb79e55a8ff",
+    "time": "2012-12-11"
+  },
+  {
+    "place": "German Restaurant4ecec18f775bbb5f30fb3bef",
+    "time": "2012-12-11"
+  },
+  {
+    "place": "German Restaurant4b788f1ef964a520bcd62ee3",
+    "time": "2012-12-11"
+  },
+  {
+    "place": "German Restaurant44bbc47df964a52094351fe3",
+    "time": "2012-12-11"
+  },
+  {
+    "place": "German Restaurant4c2e7fdb7cc0c9b6c532ea9a",
+    "time": "2012-12-11"
+  },
+  {
+    "place": "German Restaurant3fd66200f964a520fcf01ee3",
+    "time": "2012-12-11"
+  },
+  {
+    "place": "German Restaurant4c27f7dbed0ac9b669a15faa",
+    "time": "2012-12-11"
+  },
+  {
+    "place": "German Restaurant4e514e59483bb77049298c7f",
+    "time": "2012-12-11"
+  },
+  {
+    "place": "German Restaurant4cc3118038aaa0938d5b0a62",
+    "time": "2012-12-11"
+  },
+  {
+    "place": "German Restaurant4a57c629f964a520c1b61fe3",
+    "time": "2012-12-11"
+  },
+  {
+    "place": "German Restaurant4f7083bde4b0f839683ee246",
+    "time": "2012-12-12"
+  },
+  {
+    "place": "Bagel Shop4a674aa8f964a5201fc91fe3",
+    "time": "2012-12-21"
+  },
+  {
+    "place": "Bagel Shop4e733451e4cd876b6df059c2",
+    "time": "2012-12-21"
+  },
+  {
+    "place": "Bagel Shop4a19e9aef964a520717a1fe3",
+    "time": "2012-12-21"
+  },
+  {
+    "place": "Bagel Shop49bd1751f964a52048541fe3",
+    "time": "2012-12-21"
+  },
+  {
+    "place": "Bagel Shop43e46531f964a520e82e1fe3",
+    "time": "2012-12-21"
+  },
+  {
+    "place": "Bagel Shop3fd66200f964a52045e41ee3",
+    "time": "2012-12-23"
+  },
+  {
+    "place": "Bagel Shop3fd66200f964a52098e51ee3",
+    "time": "2012-12-23"
+  },
+  {
+    "place": "Bagel Shop4b44dda9f964a520b1fe25e3",
+    "time": "2012-12-23"
+  },
+  {
+    "place": "Bagel Shop3fd66200f964a520dae71ee3",
+    "time": "2012-12-23"
+  },
+  {
+    "place": "Bagel Shop4ab4e6d4f964a5209a7120e3",
+    "time": "2012-12-23"
+  },
+  {
+    "place": "Bagel Shop4b87ed02f964a52048d331e3",
+    "time": "2012-12-23"
+  },
+  {
+    "place": "Bagel Shop4b9bd6d5f964a520992b36e3",
+    "time": "2012-12-23"
+  },
+  {
+    "place": "Bagel Shop4a992b54f964a520722d20e3",
+    "time": "2012-12-23"
+  },
+  {
+    "place": "Bagel Shop4b1edd38f964a520b52024e3",
+    "time": "2012-12-23"
+  },
+  {
+    "place": "Ferry4df5fac0d22d8c5470e5bbd4",
+    "time": "2013-01-03"
+  },
+  {
+    "place": "Government Building459813d3f964a5207c401fe3",
+    "time": "2013-01-03"
+  },
+  {
+    "place": "Train Station42829c80f964a5206a221fe3",
+    "time": "2013-01-03"
+  },
+  {
+    "place": "Park412d2800f964a520df0c1fe3",
+    "time": "2013-01-03"
+  },
+  {
+    "place": "Park42893400f964a52052231fe3",
+    "time": "2013-01-03"
+  },
+  {
+    "place": "Park4b0997e8f964a520091a23e3",
+    "time": "2013-01-03"
+  },
+  {
+    "place": "Neighborhood4b818c82f964a5203aae30e3",
+    "time": "2013-01-03"
+  },
+  {
+    "place": "Other Great Outdoors4ea1a070a17c50a15c8ed20b",
+    "time": "2013-01-03"
+  },
+  {
+    "place": "Sculpture Garden4c39d1c60a71c9b6110b43c9",
+    "time": "2013-01-04"
+  },
+  {
+    "place": "Factory4aad64c6f964a5200a6020e3",
+    "time": "2013-01-04"
+  },
+  {
+    "place": "Zoo4d4df83d13d88cfa7cfe0fda",
+    "time": "2013-01-04"
+  },
+  {
+    "place": "Park4b5b579bf964a52014f628e3",
+    "time": "2013-01-04"
+  },
+  {
+    "place": "Theater4c91195aae45224b5dfee497",
+    "time": "2013-01-04"
+  },
+  {
+    "place": "Theater4c1fb303bd9d95211254983f",
+    "time": "2013-01-04"
+  },
+  {
+    "place": "Theater4ef22ce4722eb49f525d2b06",
+    "time": "2013-01-04"
+  },
+  {
+    "place": "Arts & Entertainment4e7a799c8231499f09ac5973",
+    "time": "2013-01-04"
+  },
+  {
+    "place": "Theater4a021638f964a5202b711fe3",
+    "time": "2013-01-04"
+  },
+  {
+    "place": "Park4a9326bff964a520f81e20e3",
+    "time": "2013-01-07"
+  },
+  {
+    "place": "Bridge4a9ae1cef964a520543320e3",
+    "time": "2013-01-07"
+  },
+  {
+    "place": "Art Gallery4ac8f0cef964a52071bd20e3",
+    "time": "2013-01-07"
+  },
+  {
+    "place": "Museum49cfbb2df964a520c05a1fe3",
+    "time": "2013-01-07"
+  },
+  {
+    "place": "Art Museum41b3a100f964a5206d1e1fe3",
+    "time": "2013-01-07"
+  },
+  {
+    "place": "Park40abf500f964a52035f31ee3",
+    "time": "2013-01-07"
+  },
+  {
+    "place": "Park40b68100f964a5207d001fe3",
+    "time": "2013-01-07"
+  },
+  {
+    "place": "Park3fd66200f964a520d7f11ee3",
+    "time": "2013-01-07"
+  },
+  {
+    "place": "Park4bd2612a77b29c74b7c08e82",
+    "time": "2013-01-07"
+  },
+  {
+    "place": "Food & Drink Shop4b6dc1f6f964a520f98c2ce3",
+    "time": "2013-01-07"
+  },
+  {
+    "place": "Museum424de080f964a520aa201fe3",
+    "time": "2013-01-07"
+  },
+  {
+    "place": "Park4b8148a6f964a5208a9d30e3",
+    "time": "2013-01-07"
+  },
+  {
+    "place": "Government Building4c7c0f00794e224b4b266d28",
+    "time": "2013-01-08"
+  },
+  {
+    "place": "Park4d5bec141da1cbff4d8c1a05",
+    "time": "2013-01-08"
+  },
+  {
+    "place": "Park4bd33314caff9521a542d4f0",
+    "time": "2013-01-08"
+  },
+  {
+    "place": "Bridge4c4cf86c39f9d13aed12a394",
+    "time": "2013-01-08"
+  },
+  {
+    "place": "Art Museum4aac07c5f964a520bf5b20e3",
+    "time": "2013-01-08"
+  },
+  {
+    "place": "History Museum4bb0fefbf964a52039713ce3",
+    "time": "2013-01-08"
+  },
+  {
+    "place": "Plaza4e1bc07fa809bd1305bff584",
+    "time": "2013-01-08"
+  },
+  {
+    "place": "Stadium49d60947f964a520a85c1fe3",
+    "time": "2013-01-08"
+  },
+  {
+    "place": "Bridge4e08d8576284d9ee92de09c2",
+    "time": "2013-01-08"
+  },
+  {
+    "place": "Art Museum4a3d33ecf964a520f3a11fe3",
+    "time": "2013-01-08"
+  },
+  {
+    "place": "Other Great Outdoors4a6baf3cf964a5209acf1fe3",
+    "time": "2013-01-08"
+  },
+  {
+    "place": "Historic Site4e5e8fc9d4c08cf7f58f7e29",
+    "time": "2013-01-09"
+  },
+  {
+    "place": "Art Museum3fd66200f964a52096eb1ee3",
+    "time": "2013-01-09"
+  },
+  {
+    "place": "History Museum49d4bb1bf964a5204b5c1fe3",
+    "time": "2013-01-09"
+  },
+  {
+    "place": "Theater4ad919ecf964a5201b1821e3",
+    "time": "2013-01-09"
+  },
+  {
+    "place": "Theater4a8471c9f964a520a0fc1fe3",
+    "time": "2013-01-09"
+  },
+  {
+    "place": "Theater4a78c93ef964a5206be61fe3",
+    "time": "2013-01-09"
+  },
+  {
+    "place": "Theater4a7a17c6f964a52081e81fe3",
+    "time": "2013-01-09"
+  },
+  {
+    "place": "Airport4ace6c89f964a52078d020e3",
+    "time": "2013-01-09"
+  },
+  {
+    "place": "Park4abb7c09f964a520d18320e3",
+    "time": "2013-01-10"
+  },
+  {
+    "place": "Theater4a07986bf964a52087731fe3",
+    "time": "2013-01-10"
+  },
+  {
+    "place": "Historic Site4b6b5abff964a520fb022ce3",
+    "time": "2013-01-10"
+  },
+  {
+    "place": "Zoo4492ad65f964a52075341fe3",
+    "time": "2013-01-10"
+  },
+  {
+    "place": "Cemetery4ab3fc08f964a520646f20e3",
+    "time": "2013-01-10"
+  },
+  {
+    "place": "Event Space4a4c5c64f964a52030ad1fe3",
+    "time": "2013-02-08"
+  },
+  {
+    "place": "Hotel49f9ea10f964a520936d1fe3",
+    "time": "2013-02-08"
+  },
+  {
+    "place": "Building4abb79b8f964a520cc8320e3",
+    "time": "2013-02-08"
+  },
+  {
+    "place": "Event Space4a95d164f964a520d42420e3",
+    "time": "2013-02-08"
+  },
+  {
+    "place": "Art Gallery49d675c5f964a520d15c1fe3",
+    "time": "2013-02-08"
+  },
+  {
+    "place": "Clothing Store4a01f87bf964a5201a711fe3",
+    "time": "2013-02-08"
+  },
+  {
+    "place": "Hotel4729e375f964a520e74b1fe3",
+    "time": "2013-02-08"
+  },
+  {
+    "place": "Hotel49cacfb5f964a520e6581fe3",
+    "time": "2013-02-08"
+  },
+  {
+    "place": "Hotel44d7b1f3f964a52070361fe3",
+    "time": "2013-02-08"
+  },
+  {
+    "place": "General Entertainment4e8475b7c2ee9c188c1579a2",
+    "time": "2013-02-08"
+  },
+  {
+    "place": "Clothing Store4afc6767f964a520502222e3",
+    "time": "2013-02-08"
+  },
+  {
+    "place": "Event Space510af1dc011c5808bd0eb1b6",
+    "time": "2013-02-08"
+  },
+  {
+    "place": "Building499de842f964a5208b521fe3",
+    "time": "2013-02-08"
+  },
+  {
+    "place": "General Entertainment4c438488f799e21edc9aaca2",
+    "time": "2013-02-08"
+  },
+  {
+    "place": "Clothing Store4aa044d9f964a520ee3e20e3",
+    "time": "2013-02-13"
+  },
+  {
+    "place": "Library452d6886f964a5204a3b1fe3",
+    "time": "2013-02-13"
+  },
+  {
+    "place": "Harbor / Marina3fd66200f964a520b9e51ee3",
+    "time": "2013-02-13"
+  },
+  {
+    "place": "Event Space504874c9e4b0e55a96454ed9",
+    "time": "2013-02-13"
+  },
+  {
+    "place": "Bar5112b3fa72dad04c32a80d06",
+    "time": "2013-02-13"
+  },
+  {
+    "place": "General Entertainment5112b62a29a61ad5c0551fc5",
+    "time": "2013-02-13"
+  },
+  {
+    "place": "Clothing Store4a14d7c6f964a52083781fe3",
+    "time": "2013-02-13"
+  },
+  {
+    "place": "Clothing Store5087f7461648825f855c2a33",
+    "time": "2013-02-13"
+  },
+  {
+    "place": "Department Store4a9479ecf964a520b72120e3",
+    "time": "2013-02-13"
+  },
+  {
+    "place": "Event Space4aefb619f964a520fdd921e3",
+    "time": "2013-02-13"
+  },
+  {
+    "place": "General Entertainment5112b1b572dad04c32a41f23",
+    "time": "2013-02-13"
+  },
+  {
+    "place": "Art Gallery41b3a100f964a520711e1fe3",
+    "time": "2013-02-13"
+  },
+  {
+    "place": "Art Gallery4b6dbc06f964a520ca8a2ce3",
+    "time": "2013-02-13"
+  },
+  {
+    "place": "Building4a7b7f02f964a52037eb1fe3",
+    "time": "2013-02-13"
+  },
+  {
+    "place": "Hotel4ae6f117f964a520a6a721e3",
+    "time": "2013-02-13"
+  },
+  {
+    "place": "Performing Arts Venue507f3ea5e4b03cfb60d5ddab",
+    "time": "2013-02-13"
+  },
+  {
+    "place": "Art Gallery4aaac71ef964a520605720e3",
+    "time": "2013-02-13"
+  },
+  {
+    "place": "Art Gallery4b17ec7df964a520b5c923e3",
+    "time": "2013-02-13"
+  },
+  {
+    "place": "Event Space4d593807f8ff236a03d5c84a",
+    "time": "2013-02-13"
+  },
+  {
+    "place": "Art Museum4bf6d3db508c0f4772f23c31",
+    "time": "2013-02-13"
+  }
+]

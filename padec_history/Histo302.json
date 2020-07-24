@@ -1,0 +1,458 @@
+[
+  {
+    "place": "Spanish Restaurant41a12c00f964a5203c1e1fe3",
+    "time": "2012-04-03"
+  },
+  {
+    "place": "Music Venue3fd66200f964a52035e41ee3",
+    "time": "2012-04-04"
+  },
+  {
+    "place": "Bar425c6100f964a520fc201fe3",
+    "time": "2012-04-10"
+  },
+  {
+    "place": "Gym / Fitness Center49da5ee0f964a5207c5e1fe3",
+    "time": "2012-04-10"
+  },
+  {
+    "place": "Convenience Store4a723953f964a520a2da1fe3",
+    "time": "2012-04-10"
+  },
+  {
+    "place": "Gym / Fitness Center49bd4e25f964a52067541fe3",
+    "time": "2012-04-11"
+  },
+  {
+    "place": "Clothing Store4ad3a4d8f964a5205de520e3",
+    "time": "2012-04-11"
+  },
+  {
+    "place": "Spa / Massage4b941b94f964a5209f6834e3",
+    "time": "2012-04-11"
+  },
+  {
+    "place": "Airport43a52546f964a520532c1fe3",
+    "time": "2012-04-12"
+  },
+  {
+    "place": "Gym / Fitness Center49da5ee0f964a5207c5e1fe3",
+    "time": "2012-04-19"
+  },
+  {
+    "place": "Mexican Restaurant4b4b90e4f964a5207aa026e3",
+    "time": "2012-04-19"
+  },
+  {
+    "place": "Bar4481ada4f964a52018341fe3",
+    "time": "2012-04-22"
+  },
+  {
+    "place": "Gym / Fitness Center49bd4e25f964a52067541fe3",
+    "time": "2012-04-25"
+  },
+  {
+    "place": "Gastropub4c9d482e46978cfa8247967f",
+    "time": "2012-04-26"
+  },
+  {
+    "place": "Food & Drink Shop4c5ef77bfff99c74eda954d3",
+    "time": "2012-04-27"
+  },
+  {
+    "place": "Gastropub3fd66200f964a520dbea1ee3",
+    "time": "2012-04-28"
+  },
+  {
+    "place": "Italian Restaurant4bc3c7fcb492d13ac44ea960",
+    "time": "2012-04-28"
+  },
+  {
+    "place": "Pizza Place3fd66200f964a520e9e81ee3",
+    "time": "2012-04-28"
+  },
+  {
+    "place": "Beer Garden40807380f964a52080f21ee3",
+    "time": "2012-04-29"
+  },
+  {
+    "place": "American Restaurant4555f6f7f964a520283d1fe3",
+    "time": "2012-05-01"
+  },
+  {
+    "place": "Gym / Fitness Center49bd4e25f964a52067541fe3",
+    "time": "2012-05-03"
+  },
+  {
+    "place": "Caf\u00c3\u00a949da4322f964a5206a5e1fe3",
+    "time": "2012-05-04"
+  },
+  {
+    "place": "Gym / Fitness Center49bd4e25f964a52067541fe3",
+    "time": "2012-05-07"
+  },
+  {
+    "place": "Gym / Fitness Center49da5ee0f964a5207c5e1fe3",
+    "time": "2012-05-08"
+  },
+  {
+    "place": "Bar4f71e4207beb1d18abcc9648",
+    "time": "2012-05-08"
+  },
+  {
+    "place": "Italian Restaurant4c43ab8d74ffc928119a74cc",
+    "time": "2012-05-09"
+  },
+  {
+    "place": "Gym / Fitness Center49bd4e25f964a52067541fe3",
+    "time": "2012-05-10"
+  },
+  {
+    "place": "Gym / Fitness Center49bd4e25f964a52067541fe3",
+    "time": "2012-05-11"
+  },
+  {
+    "place": "Bar4e8b9f70f5b91e22553ad7e5",
+    "time": "2012-05-13"
+  },
+  {
+    "place": "Bar49cae9c7f964a520ef581fe3",
+    "time": "2012-05-13"
+  },
+  {
+    "place": "Bar43cd1428f964a520cf2d1fe3",
+    "time": "2012-05-13"
+  },
+  {
+    "place": "Athletic & Sport4bff2f9b369476b0ba8a8d1f",
+    "time": "2012-05-15"
+  },
+  {
+    "place": "Spanish Restaurant4d02450f4115a09023913ee2",
+    "time": "2012-05-15"
+  },
+  {
+    "place": "Chinese Restaurant4c2a81398abca59393c8fe1f",
+    "time": "2012-05-16"
+  },
+  {
+    "place": "Gym / Fitness Center49da5ee0f964a5207c5e1fe3",
+    "time": "2012-05-17"
+  },
+  {
+    "place": "Gym / Fitness Center49da5ee0f964a5207c5e1fe3",
+    "time": "2012-05-22"
+  },
+  {
+    "place": "Gym / Fitness Center49bd4e25f964a52067541fe3",
+    "time": "2012-05-23"
+  },
+  {
+    "place": "Spa / Massage4b941b94f964a5209f6834e3",
+    "time": "2012-05-25"
+  },
+  {
+    "place": "French Restaurant4b88760cf964a52091f931e3",
+    "time": "2012-05-26"
+  },
+  {
+    "place": "Gym / Fitness Center49da5ee0f964a5207c5e1fe3",
+    "time": "2012-05-27"
+  },
+  {
+    "place": "Bar4ae12770f964a520858521e3",
+    "time": "2012-05-28"
+  },
+  {
+    "place": "Hot Dog Joint4d99d71ff9574eb9e7804294",
+    "time": "2012-05-28"
+  },
+  {
+    "place": "Bar46c981bcf964a520224a1fe3",
+    "time": "2012-05-28"
+  },
+  {
+    "place": "Movie Theater43a72ba0f964a520672c1fe3",
+    "time": "2012-05-28"
+  },
+  {
+    "place": "Chinese Restaurant4ed91a17cc215fbf0877329a",
+    "time": "2012-05-30"
+  },
+  {
+    "place": "Airport43a52546f964a520532c1fe3",
+    "time": "2012-06-04"
+  },
+  {
+    "place": "Athletic & Sport4bff2f9b369476b0ba8a8d1f",
+    "time": "2012-06-05"
+  },
+  {
+    "place": "Gym / Fitness Center49bd4e25f964a52067541fe3",
+    "time": "2012-06-06"
+  },
+  {
+    "place": "Bar4a7c3df8f964a5200bec1fe3",
+    "time": "2012-06-07"
+  },
+  {
+    "place": "Gym / Fitness Center49bd4e25f964a52067541fe3",
+    "time": "2012-06-08"
+  },
+  {
+    "place": "Bar4cb414fe07bab713cc1e50cc",
+    "time": "2012-06-09"
+  },
+  {
+    "place": "Gym / Fitness Center49bd4e25f964a52067541fe3",
+    "time": "2012-06-13"
+  },
+  {
+    "place": "Gym / Fitness Center49da5ee0f964a5207c5e1fe3",
+    "time": "2012-06-14"
+  },
+  {
+    "place": "Gym / Fitness Center49da5ee0f964a5207c5e1fe3",
+    "time": "2012-06-15"
+  },
+  {
+    "place": "Bar3fd66200f964a52023e41ee3",
+    "time": "2012-06-20"
+  },
+  {
+    "place": "Gym / Fitness Center49da5ee0f964a5207c5e1fe3",
+    "time": "2012-06-26"
+  },
+  {
+    "place": "Gym / Fitness Center49da5ee0f964a5207c5e1fe3",
+    "time": "2012-07-02"
+  },
+  {
+    "place": "Spa / Massage4b941b94f964a5209f6834e3",
+    "time": "2012-07-04"
+  },
+  {
+    "place": "Airport43a52546f964a520532c1fe3",
+    "time": "2012-07-06"
+  },
+  {
+    "place": "Gym / Fitness Center49da5ee0f964a5207c5e1fe3",
+    "time": "2012-07-22"
+  },
+  {
+    "place": "Breakfast Spot49f4521df964a520036b1fe3",
+    "time": "2012-08-05"
+  },
+  {
+    "place": "Electronics Store40958b80f964a520e6f21ee3",
+    "time": "2012-08-10"
+  },
+  {
+    "place": "Gym / Fitness Center49da5ee0f964a5207c5e1fe3",
+    "time": "2012-08-10"
+  },
+  {
+    "place": "Beer Garden40870b00f964a520b7f21ee3",
+    "time": "2012-08-10"
+  },
+  {
+    "place": "Bar408c5100f964a520d1f21ee3",
+    "time": "2012-08-12"
+  },
+  {
+    "place": "Bar4ad0d05ef964a52009da20e3",
+    "time": "2012-08-16"
+  },
+  {
+    "place": "Bar4481ada4f964a52018341fe3",
+    "time": "2012-08-18"
+  },
+  {
+    "place": "Theater4a16e0c5f964a52019791fe3",
+    "time": "2012-08-18"
+  },
+  {
+    "place": "Bar4a43feb7f964a52005a71fe3",
+    "time": "2012-08-18"
+  },
+  {
+    "place": "Bar3fd66200f964a52035eb1ee3",
+    "time": "2012-08-19"
+  },
+  {
+    "place": "Bar4bd2374bcaff9521f662d2f0",
+    "time": "2012-08-19"
+  },
+  {
+    "place": "Tapas Restaurant414e1d80f964a520da1c1fe3",
+    "time": "2012-09-05"
+  },
+  {
+    "place": "Mexican Restaurant46a251cdf964a5202b491fe3",
+    "time": "2012-09-09"
+  },
+  {
+    "place": "Gym / Fitness Center49bd4e25f964a52067541fe3",
+    "time": "2012-09-14"
+  },
+  {
+    "place": "Bar4481ada4f964a52018341fe3",
+    "time": "2012-09-15"
+  },
+  {
+    "place": "American Restaurant4169cd00f964a5208c1d1fe3",
+    "time": "2012-09-15"
+  },
+  {
+    "place": "Gym / Fitness Center49bd4e25f964a52067541fe3",
+    "time": "2012-10-11"
+  },
+  {
+    "place": "Gym / Fitness Center49bd4e25f964a52067541fe3",
+    "time": "2012-10-12"
+  },
+  {
+    "place": "Gym / Fitness Center49da5ee0f964a5207c5e1fe3",
+    "time": "2012-10-16"
+  },
+  {
+    "place": "Italian Restaurant4fccfed41081ba9a64ce9613",
+    "time": "2012-10-19"
+  },
+  {
+    "place": "Gym / Fitness Center49da5ee0f964a5207c5e1fe3",
+    "time": "2012-10-23"
+  },
+  {
+    "place": "Gym / Fitness Center49da5ee0f964a5207c5e1fe3",
+    "time": "2012-10-25"
+  },
+  {
+    "place": "Pizza Place50738104e4b0d053c95f6d99",
+    "time": "2012-10-26"
+  },
+  {
+    "place": "Comedy Club3fd66200f964a52051e61ee3",
+    "time": "2012-10-27"
+  },
+  {
+    "place": "Bar4f918874c2ee283f4c37e31a",
+    "time": "2012-10-29"
+  },
+  {
+    "place": "Bar4a7c3df8f964a5200bec1fe3",
+    "time": "2012-10-30"
+  },
+  {
+    "place": "Gym / Fitness Center49bd4e25f964a52067541fe3",
+    "time": "2012-11-05"
+  },
+  {
+    "place": "Gym / Fitness Center49bd4e25f964a52067541fe3",
+    "time": "2012-11-09"
+  },
+  {
+    "place": "Gym / Fitness Center49da5ee0f964a5207c5e1fe3",
+    "time": "2012-11-11"
+  },
+  {
+    "place": "Gym / Fitness Center49da5ee0f964a5207c5e1fe3",
+    "time": "2012-11-27"
+  },
+  {
+    "place": "Italian Restaurant4afb2990f964a520a91b22e3",
+    "time": "2012-12-01"
+  },
+  {
+    "place": "Movie Theater43a72ba0f964a520672c1fe3",
+    "time": "2012-12-01"
+  },
+  {
+    "place": "Gym / Fitness Center49da5ee0f964a5207c5e1fe3",
+    "time": "2012-12-04"
+  },
+  {
+    "place": "Gym / Fitness Center49da5ee0f964a5207c5e1fe3",
+    "time": "2012-12-05"
+  },
+  {
+    "place": "Gym / Fitness Center49da5ee0f964a5207c5e1fe3",
+    "time": "2012-12-06"
+  },
+  {
+    "place": "Gym / Fitness Center49da5ee0f964a5207c5e1fe3",
+    "time": "2012-12-13"
+  },
+  {
+    "place": "Clothing Store4edf3c7e6da10302873a7369",
+    "time": "2012-12-14"
+  },
+  {
+    "place": "Bar4cb414fe07bab713cc1e50cc",
+    "time": "2012-12-15"
+  },
+  {
+    "place": "Gym / Fitness Center49da5ee0f964a5207c5e1fe3",
+    "time": "2012-12-18"
+  },
+  {
+    "place": "Gym / Fitness Center49da5ee0f964a5207c5e1fe3",
+    "time": "2012-12-22"
+  },
+  {
+    "place": "Bar4bd2374bcaff9521f662d2f0",
+    "time": "2012-12-30"
+  },
+  {
+    "place": "American Restaurant4d0aafeaf608721ea8a6370f",
+    "time": "2013-01-01"
+  },
+  {
+    "place": "Gym / Fitness Center49da5ee0f964a5207c5e1fe3",
+    "time": "2013-01-05"
+  },
+  {
+    "place": "Gym / Fitness Center49da5ee0f964a5207c5e1fe3",
+    "time": "2013-01-10"
+  },
+  {
+    "place": "Movie Theater4a4138ebf964a520f9a41fe3",
+    "time": "2013-01-13"
+  },
+  {
+    "place": "Gym / Fitness Center49bd4e25f964a52067541fe3",
+    "time": "2013-01-16"
+  },
+  {
+    "place": "Gym / Fitness Center49da5ee0f964a5207c5e1fe3",
+    "time": "2013-01-18"
+  },
+  {
+    "place": "Fried Chicken Joint448acb74f964a52048341fe3",
+    "time": "2013-01-26"
+  },
+  {
+    "place": "Gym / Fitness Center49bd4e25f964a52067541fe3",
+    "time": "2013-01-28"
+  },
+  {
+    "place": "Gym / Fitness Center50e604dde4b0fa0f44950079",
+    "time": "2013-02-01"
+  },
+  {
+    "place": "Gym / Fitness Center49da5ee0f964a5207c5e1fe3",
+    "time": "2013-02-05"
+  },
+  {
+    "place": "Gym / Fitness Center49bd4e25f964a52067541fe3",
+    "time": "2013-02-06"
+  },
+  {
+    "place": "Chinese Restaurant48636f02f964a520e3501fe3",
+    "time": "2013-02-07"
+  },
+  {
+    "place": "Gym / Fitness Center49da5ee0f964a5207c5e1fe3",
+    "time": "2013-02-12"
+  }
+]

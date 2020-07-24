@@ -1,0 +1,518 @@
+[
+  {
+    "place": "Bagel Shop4b699f2af964a52002aa2be3",
+    "time": "2012-04-17"
+  },
+  {
+    "place": "Medical Center4e8dc3cdf5b9ba5141317501",
+    "time": "2012-04-17"
+  },
+  {
+    "place": "Bank4dbc3ef76a23e294ba28fb99",
+    "time": "2012-04-17"
+  },
+  {
+    "place": "Medical Center4e8dc3cdf5b9ba5141317501",
+    "time": "2012-04-18"
+  },
+  {
+    "place": "Medical Center4cd43a202561a35d5cd335dd",
+    "time": "2012-04-18"
+  },
+  {
+    "place": "Pizza Place4b7c73b7f964a52056942fe3",
+    "time": "2012-04-19"
+  },
+  {
+    "place": "Government Building4cae57e81168a093c4c51923",
+    "time": "2012-04-20"
+  },
+  {
+    "place": "Bagel Shop4b44d7e7f964a520e6fd25e3",
+    "time": "2012-04-22"
+  },
+  {
+    "place": "Home (private)4c6c52dbf2846dcb299b62e9",
+    "time": "2012-04-23"
+  },
+  {
+    "place": "Other Great Outdoors4f93baf21081cba0060643f0",
+    "time": "2012-04-23"
+  },
+  {
+    "place": "Home (private)4ed31569e5faa5ec05fe1e2f",
+    "time": "2012-04-23"
+  },
+  {
+    "place": "Gym / Fitness Center4b44b650f964a5201afa25e3",
+    "time": "2012-04-23"
+  },
+  {
+    "place": "Outdoors & Recreation4e86332b722e43d56d60a01d",
+    "time": "2012-04-23"
+  },
+  {
+    "place": "Medical Center4cd43a202561a35d5cd335dd",
+    "time": "2012-04-24"
+  },
+  {
+    "place": "Medical Center4ba8f33ff964a52005fd39e3",
+    "time": "2012-04-24"
+  },
+  {
+    "place": "Medical Center4cd43a202561a35d5cd335dd",
+    "time": "2012-04-24"
+  },
+  {
+    "place": "Medical School4c25eb5af1272d7fed9185c5",
+    "time": "2012-04-26"
+  },
+  {
+    "place": "Home (private)4c6c52dbf2846dcb299b62e9",
+    "time": "2012-04-26"
+  },
+  {
+    "place": "Medical Center4edfba8677c8c05f36c3d3d5",
+    "time": "2012-04-27"
+  },
+  {
+    "place": "Medical Center4edfba8677c8c05f36c3d3d5",
+    "time": "2012-04-27"
+  },
+  {
+    "place": "Government Building4cae57e81168a093c4c51923",
+    "time": "2012-04-28"
+  },
+  {
+    "place": "Gym / Fitness Center4b44b650f964a5201afa25e3",
+    "time": "2012-05-01"
+  },
+  {
+    "place": "Home (private)4c599a716407d13aac91b228",
+    "time": "2012-05-02"
+  },
+  {
+    "place": "Medical School4c25eb5af1272d7fed9185c5",
+    "time": "2012-05-02"
+  },
+  {
+    "place": "Medical Center4edfba8677c8c05f36c3d3d5",
+    "time": "2012-05-02"
+  },
+  {
+    "place": "Medical School4c25eb5af1272d7fed9185c5",
+    "time": "2012-05-03"
+  },
+  {
+    "place": "Medical School4c25eb5af1272d7fed9185c5",
+    "time": "2012-05-03"
+  },
+  {
+    "place": "Medical Center4edfba8677c8c05f36c3d3d5",
+    "time": "2012-05-03"
+  },
+  {
+    "place": "Home (private)4c6c52dbf2846dcb299b62e9",
+    "time": "2012-05-04"
+  },
+  {
+    "place": "Other Great Outdoors4c4dbba292b6a593f768c26e",
+    "time": "2012-05-04"
+  },
+  {
+    "place": "Bagel Shop4ab541a9f964a520957320e3",
+    "time": "2012-05-04"
+  },
+  {
+    "place": "Road4f841f75e4b09e5c4e0899dc",
+    "time": "2012-05-04"
+  },
+  {
+    "place": "Sandwich Place4be44ebd2468c9283994fe42",
+    "time": "2012-05-04"
+  },
+  {
+    "place": "American Restaurant4b8bb4cff964a520c2a732e3",
+    "time": "2012-05-05"
+  },
+  {
+    "place": "Home (private)4c6c52dbf2846dcb299b62e9",
+    "time": "2012-05-05"
+  },
+  {
+    "place": "High School4bfec6b6daf9c9b6313ef9ef",
+    "time": "2012-05-05"
+  },
+  {
+    "place": "Mexican Restaurant4fa4a231e4b09571de93b9a7",
+    "time": "2012-05-05"
+  },
+  {
+    "place": "Home (private)4c599a716407d13aac91b228",
+    "time": "2012-05-06"
+  },
+  {
+    "place": "Road4bed9636bac3c9b6a085fee9",
+    "time": "2012-05-07"
+  },
+  {
+    "place": "Government Building4cae57e81168a093c4c51923",
+    "time": "2012-05-07"
+  },
+  {
+    "place": "Gym / Fitness Center4b44b650f964a5201afa25e3",
+    "time": "2012-05-08"
+  },
+  {
+    "place": "Home (private)4fa87723e4b0ce6d99a662e1",
+    "time": "2012-05-08"
+  },
+  {
+    "place": "Home (private)4fa87723e4b0ce6d99a662e1",
+    "time": "2012-05-09"
+  },
+  {
+    "place": "Home (private)4c6c52dbf2846dcb299b62e9",
+    "time": "2012-05-09"
+  },
+  {
+    "place": "Government Building4cae57e81168a093c4c51923",
+    "time": "2012-05-11"
+  },
+  {
+    "place": "Home (private)4c6c52dbf2846dcb299b62e9",
+    "time": "2012-05-11"
+  },
+  {
+    "place": "Gas Station / Garage4c80d745d4e2370478c15788",
+    "time": "2012-05-11"
+  },
+  {
+    "place": "Home (private)4fa87723e4b0ce6d99a662e1",
+    "time": "2012-05-12"
+  },
+  {
+    "place": "Government Building4c2141b713c00f4763b285de",
+    "time": "2012-05-12"
+  },
+  {
+    "place": "Home (private)4c599a716407d13aac91b228",
+    "time": "2012-05-14"
+  },
+  {
+    "place": "Government Building4cae57e81168a093c4c51923",
+    "time": "2012-05-14"
+  },
+  {
+    "place": "Government Building4c02ab489a7920a11cc6ce79",
+    "time": "2012-05-14"
+  },
+  {
+    "place": "Home (private)4c6c52dbf2846dcb299b62e9",
+    "time": "2012-05-14"
+  },
+  {
+    "place": "Gym / Fitness Center4b44b650f964a5201afa25e3",
+    "time": "2012-05-14"
+  },
+  {
+    "place": "Home (private)4fa87723e4b0ce6d99a662e1",
+    "time": "2012-05-15"
+  },
+  {
+    "place": "Other Great Outdoors4c38fe93dfb0e21e9ab3afa8",
+    "time": "2012-05-15"
+  },
+  {
+    "place": "Playground4fb1cc0ee4b0b5bcd2cb7fda",
+    "time": "2012-05-16"
+  },
+  {
+    "place": "Home (private)4fa87723e4b0ce6d99a662e1",
+    "time": "2012-05-16"
+  },
+  {
+    "place": "Government Building4cae57e81168a093c4c51923",
+    "time": "2012-05-16"
+  },
+  {
+    "place": "Gym / Fitness Center4b44b650f964a5201afa25e3",
+    "time": "2012-05-16"
+  },
+  {
+    "place": "Government Building4cae57e81168a093c4c51923",
+    "time": "2012-05-17"
+  },
+  {
+    "place": "Medical School4c25eb5af1272d7fed9185c5",
+    "time": "2012-05-17"
+  },
+  {
+    "place": "Medical Center4edfba8677c8c05f36c3d3d5",
+    "time": "2012-05-17"
+  },
+  {
+    "place": "Medical Center4b689cabf964a520cf822be3",
+    "time": "2012-05-17"
+  },
+  {
+    "place": "Bar4c53a1af72cf0f47ce342cd3",
+    "time": "2012-05-19"
+  },
+  {
+    "place": "Home (private)4c6c52dbf2846dcb299b62e9",
+    "time": "2012-05-19"
+  },
+  {
+    "place": "Government Building4cae57e81168a093c4c51923",
+    "time": "2012-05-19"
+  },
+  {
+    "place": "Deli / Bodega4baa54cdf964a520db5f3ae3",
+    "time": "2012-05-21"
+  },
+  {
+    "place": "Medical Center4edfda39aa1ff02c3b003462",
+    "time": "2012-05-21"
+  },
+  {
+    "place": "Government Building4cae57e81168a093c4c51923",
+    "time": "2012-05-24"
+  },
+  {
+    "place": "Medical School4c25eb5af1272d7fed9185c5",
+    "time": "2012-05-25"
+  },
+  {
+    "place": "Medical Center4edfba8677c8c05f36c3d3d5",
+    "time": "2012-05-25"
+  },
+  {
+    "place": "Burger Joint4ba29b40f964a520a80838e3",
+    "time": "2012-05-25"
+  },
+  {
+    "place": "Home (private)4fa87723e4b0ce6d99a662e1",
+    "time": "2012-05-26"
+  },
+  {
+    "place": "Bank4ba3a905f964a5203e5138e3",
+    "time": "2012-05-29"
+  },
+  {
+    "place": "Gym / Fitness Center4b44b650f964a5201afa25e3",
+    "time": "2012-05-29"
+  },
+  {
+    "place": "Medical Center4c1142f4a9420f476c737c51",
+    "time": "2012-06-03"
+  },
+  {
+    "place": "Home (private)4c6c52dbf2846dcb299b62e9",
+    "time": "2012-06-03"
+  },
+  {
+    "place": "Stadium4bd44b84a8b3a5937e7f6b5f",
+    "time": "2012-06-03"
+  },
+  {
+    "place": "Medical Center4edfba8677c8c05f36c3d3d5",
+    "time": "2012-06-05"
+  },
+  {
+    "place": "Gym / Fitness Center4b44b650f964a5201afa25e3",
+    "time": "2012-06-06"
+  },
+  {
+    "place": "Medical Center4beb64d462c0c9285c2de2d4",
+    "time": "2012-06-06"
+  },
+  {
+    "place": "Medical School4c25eb5af1272d7fed9185c5",
+    "time": "2012-06-07"
+  },
+  {
+    "place": "Medical Center4edfba8677c8c05f36c3d3d5",
+    "time": "2012-06-07"
+  },
+  {
+    "place": "Medical Center4beb64d462c0c9285c2de2d4",
+    "time": "2012-06-08"
+  },
+  {
+    "place": "Medical School4c25eb5af1272d7fed9185c5",
+    "time": "2012-06-08"
+  },
+  {
+    "place": "Medical Center4edfba8677c8c05f36c3d3d5",
+    "time": "2012-06-08"
+  },
+  {
+    "place": "Neighborhood4fd3adb1e4b00a164307d124",
+    "time": "2012-06-09"
+  },
+  {
+    "place": "Spanish Restaurant4ba65060f964a520514539e3",
+    "time": "2012-06-10"
+  },
+  {
+    "place": "Home (private)4c7493181b30a093a23bed09",
+    "time": "2012-06-11"
+  },
+  {
+    "place": "Gym / Fitness Center4b44b650f964a5201afa25e3",
+    "time": "2012-06-12"
+  },
+  {
+    "place": "Medical Center4edfba8677c8c05f36c3d3d5",
+    "time": "2012-06-13"
+  },
+  {
+    "place": "Medical School4c25eb5af1272d7fed9185c5",
+    "time": "2012-06-13"
+  },
+  {
+    "place": "Medical Center4edfba8677c8c05f36c3d3d5",
+    "time": "2012-06-14"
+  },
+  {
+    "place": "Government Building4cae57e81168a093c4c51923",
+    "time": "2012-06-17"
+  },
+  {
+    "place": "Medical Center4b8c3ac7f964a5206dc532e3",
+    "time": "2012-07-13"
+  },
+  {
+    "place": "Neighborhood4c6b290ea48420a1be92090b",
+    "time": "2012-07-13"
+  },
+  {
+    "place": "Home (private)4c6c52dbf2846dcb299b62e9",
+    "time": "2012-07-16"
+  },
+  {
+    "place": "Medical Center4beb64d462c0c9285c2de2d4",
+    "time": "2012-07-16"
+  },
+  {
+    "place": "Medical Center4b8c3ac7f964a5206dc532e3",
+    "time": "2012-07-18"
+  },
+  {
+    "place": "Home (private)4c6c52dbf2846dcb299b62e9",
+    "time": "2012-07-28"
+  },
+  {
+    "place": "Government Building4cae57e81168a093c4c51923",
+    "time": "2012-07-29"
+  },
+  {
+    "place": "Gym / Fitness Center4b44b650f964a5201afa25e3",
+    "time": "2012-08-09"
+  },
+  {
+    "place": "Gym / Fitness Center4b44b650f964a5201afa25e3",
+    "time": "2012-08-13"
+  },
+  {
+    "place": "Government Building4cae57e81168a093c4c51923",
+    "time": "2012-08-14"
+  },
+  {
+    "place": "Medical Center4c047d9b73a8c9b6f23796e0",
+    "time": "2012-08-14"
+  },
+  {
+    "place": "American Restaurant4b3bafccf964a520c67825e3",
+    "time": "2012-08-18"
+  },
+  {
+    "place": "Medical Center4ba261e1f964a52058f337e3",
+    "time": "2012-09-06"
+  },
+  {
+    "place": "Medical Center4edfba8677c8c05f36c3d3d5",
+    "time": "2012-10-08"
+  },
+  {
+    "place": "Bagel Shop4b843dcdf964a520d22931e3",
+    "time": "2012-10-19"
+  },
+  {
+    "place": "Medical Center4ba257e3f964a52038ef37e3",
+    "time": "2012-10-26"
+  },
+  {
+    "place": "Medical Center4e92f99d6da1ee4384a2779d",
+    "time": "2012-10-26"
+  },
+  {
+    "place": "Art Museum4c855ad3d8086dcba4489152",
+    "time": "2012-10-28"
+  },
+  {
+    "place": "Medical Center4edfba8677c8c05f36c3d3d5",
+    "time": "2012-10-31"
+  },
+  {
+    "place": "Medical Center4ba257e3f964a52038ef37e3",
+    "time": "2012-10-31"
+  },
+  {
+    "place": "Gym / Fitness Center4e3ed329b61cb577be89bd3d",
+    "time": "2012-11-09"
+  },
+  {
+    "place": "Government Building4cae57e81168a093c4c51923",
+    "time": "2012-11-15"
+  },
+  {
+    "place": "Medical Center4edfba8677c8c05f36c3d3d5",
+    "time": "2012-11-21"
+  },
+  {
+    "place": "Gluten-free Restaurant4df957aad164bbe54613d236",
+    "time": "2012-12-04"
+  },
+  {
+    "place": "Home (private)4c6c52dbf2846dcb299b62e9",
+    "time": "2012-12-08"
+  },
+  {
+    "place": "Government Building4cae57e81168a093c4c51923",
+    "time": "2012-12-10"
+  },
+  {
+    "place": "Plaza49b7ed6df964a52030531fe3",
+    "time": "2012-12-16"
+  },
+  {
+    "place": "Steakhouse4a3ada14f964a5205ea01fe3",
+    "time": "2012-12-16"
+  },
+  {
+    "place": "Drugstore / Pharmacy4b9411fcf964a520cb6534e3",
+    "time": "2012-12-17"
+  },
+  {
+    "place": "Medical Center4ccabe159b934688ec535041",
+    "time": "2012-12-18"
+  },
+  {
+    "place": "Gym / Fitness Center50eb38efe4b0c4217320c9e2",
+    "time": "2013-01-13"
+  },
+  {
+    "place": "Medical School4c25eb5af1272d7fed9185c5",
+    "time": "2013-01-15"
+  },
+  {
+    "place": "Medical Center4b06ab0bf964a5206dee22e3",
+    "time": "2013-01-21"
+  },
+  {
+    "place": "Athletic & Sport50f4983ce4b0ba731506fb61",
+    "time": "2013-01-22"
+  }
+]

@@ -1,0 +1,642 @@
+[
+  {
+    "place": "Subway4ba8c654f964a520dbed39e3",
+    "time": "2012-04-04"
+  },
+  {
+    "place": "Home (private)4f40351fa17cf53abe49a0f4",
+    "time": "2012-04-04"
+  },
+  {
+    "place": "Snack Place4e8aaccd4fc68f2d71de9384",
+    "time": "2012-04-04"
+  },
+  {
+    "place": "Bus Station4cd713dfd2f62d43623f7d6e",
+    "time": "2012-04-04"
+  },
+  {
+    "place": "Home (private)4eab92207beb32cb143f9d8d",
+    "time": "2012-04-05"
+  },
+  {
+    "place": "Subway4ba8c654f964a520dbed39e3",
+    "time": "2012-04-05"
+  },
+  {
+    "place": "Snack Place4e8aaccd4fc68f2d71de9384",
+    "time": "2012-04-05"
+  },
+  {
+    "place": "Home (private)4f40351fa17cf53abe49a0f4",
+    "time": "2012-04-05"
+  },
+  {
+    "place": "Bus Station4cd713dfd2f62d43623f7d6e",
+    "time": "2012-04-06"
+  },
+  {
+    "place": "Subway4ba8c654f964a520dbed39e3",
+    "time": "2012-04-08"
+  },
+  {
+    "place": "Snack Place4e8aaccd4fc68f2d71de9384",
+    "time": "2012-04-08"
+  },
+  {
+    "place": "Home (private)4eab92207beb32cb143f9d8d",
+    "time": "2012-04-08"
+  },
+  {
+    "place": "Home (private)4eab92207beb32cb143f9d8d",
+    "time": "2012-04-09"
+  },
+  {
+    "place": "Subway4ba8c654f964a520dbed39e3",
+    "time": "2012-04-09"
+  },
+  {
+    "place": "Snack Place4e8aaccd4fc68f2d71de9384",
+    "time": "2012-04-09"
+  },
+  {
+    "place": "Home (private)4f40351fa17cf53abe49a0f4",
+    "time": "2012-04-09"
+  },
+  {
+    "place": "Bus Station4cd713dfd2f62d43623f7d6e",
+    "time": "2012-04-09"
+  },
+  {
+    "place": "Building4c7ba8c697028cfaf36ae1fe",
+    "time": "2012-04-09"
+  },
+  {
+    "place": "Bus Station4e4080e518a875a006a26997",
+    "time": "2012-04-10"
+  },
+  {
+    "place": "Home (private)4f40351fa17cf53abe49a0f4",
+    "time": "2012-04-11"
+  },
+  {
+    "place": "Snack Place4e8aaccd4fc68f2d71de9384",
+    "time": "2012-04-12"
+  },
+  {
+    "place": "Subway4ba8c654f964a520dbed39e3",
+    "time": "2012-04-12"
+  },
+  {
+    "place": "Home (private)4eab92207beb32cb143f9d8d",
+    "time": "2012-04-12"
+  },
+  {
+    "place": "Home (private)4f40351fa17cf53abe49a0f4",
+    "time": "2012-04-12"
+  },
+  {
+    "place": "Bus Station4cd713dfd2f62d43623f7d6e",
+    "time": "2012-04-12"
+  },
+  {
+    "place": "Home (private)4eab92207beb32cb143f9d8d",
+    "time": "2012-04-13"
+  },
+  {
+    "place": "Subway4ba8c654f964a520dbed39e3",
+    "time": "2012-04-13"
+  },
+  {
+    "place": "Home (private)4f40351fa17cf53abe49a0f4",
+    "time": "2012-04-13"
+  },
+  {
+    "place": "Snack Place4e8aaccd4fc68f2d71de9384",
+    "time": "2012-04-13"
+  },
+  {
+    "place": "Bus Station4cd713dfd2f62d43623f7d6e",
+    "time": "2012-04-13"
+  },
+  {
+    "place": "Snack Place4e8aaccd4fc68f2d71de9384",
+    "time": "2012-04-14"
+  },
+  {
+    "place": "Home (private)4f40351fa17cf53abe49a0f4",
+    "time": "2012-04-14"
+  },
+  {
+    "place": "Home (private)4eab92207beb32cb143f9d8d",
+    "time": "2012-04-15"
+  },
+  {
+    "place": "Subway4ba8c654f964a520dbed39e3",
+    "time": "2012-04-15"
+  },
+  {
+    "place": "Snack Place4e8aaccd4fc68f2d71de9384",
+    "time": "2012-04-15"
+  },
+  {
+    "place": "Home (private)4eab92207beb32cb143f9d8d",
+    "time": "2012-04-16"
+  },
+  {
+    "place": "Home (private)4f40351fa17cf53abe49a0f4",
+    "time": "2012-04-16"
+  },
+  {
+    "place": "Snack Place4e8aaccd4fc68f2d71de9384",
+    "time": "2012-04-16"
+  },
+  {
+    "place": "Subway4ba8c654f964a520dbed39e3",
+    "time": "2012-04-16"
+  },
+  {
+    "place": "Subway4ba8c654f964a520dbed39e3",
+    "time": "2012-04-17"
+  },
+  {
+    "place": "Home (private)4eab92207beb32cb143f9d8d",
+    "time": "2012-04-17"
+  },
+  {
+    "place": "Snack Place4e8aaccd4fc68f2d71de9384",
+    "time": "2012-04-17"
+  },
+  {
+    "place": "Home (private)4f40351fa17cf53abe49a0f4",
+    "time": "2012-04-17"
+  },
+  {
+    "place": "Bus Station4cd713dfd2f62d43623f7d6e",
+    "time": "2012-04-17"
+  },
+  {
+    "place": "Building4c7ba8c697028cfaf36ae1fe",
+    "time": "2012-04-17"
+  },
+  {
+    "place": "Bus Station4cd713dfd2f62d43623f7d6e",
+    "time": "2012-04-18"
+  },
+  {
+    "place": "Home (private)4eab92207beb32cb143f9d8d",
+    "time": "2012-04-19"
+  },
+  {
+    "place": "Subway4ba8c654f964a520dbed39e3",
+    "time": "2012-04-19"
+  },
+  {
+    "place": "Home (private)4f40351fa17cf53abe49a0f4",
+    "time": "2012-04-19"
+  },
+  {
+    "place": "Snack Place4e8aaccd4fc68f2d71de9384",
+    "time": "2012-04-19"
+  },
+  {
+    "place": "Bus Station4cd713dfd2f62d43623f7d6e",
+    "time": "2012-04-19"
+  },
+  {
+    "place": "Subway4ba8c654f964a520dbed39e3",
+    "time": "2012-04-20"
+  },
+  {
+    "place": "Snack Place4e8aaccd4fc68f2d71de9384",
+    "time": "2012-04-20"
+  },
+  {
+    "place": "Home (private)4eab92207beb32cb143f9d8d",
+    "time": "2012-04-20"
+  },
+  {
+    "place": "Bus Station4cd713dfd2f62d43623f7d6e",
+    "time": "2012-04-20"
+  },
+  {
+    "place": "Home (private)4eab92207beb32cb143f9d8d",
+    "time": "2012-04-21"
+  },
+  {
+    "place": "Subway4ba8c654f964a520dbed39e3",
+    "time": "2012-04-21"
+  },
+  {
+    "place": "Snack Place4e8aaccd4fc68f2d71de9384",
+    "time": "2012-04-21"
+  },
+  {
+    "place": "Home (private)4f40351fa17cf53abe49a0f4",
+    "time": "2012-04-21"
+  },
+  {
+    "place": "Subway4ba8c654f964a520dbed39e3",
+    "time": "2012-04-22"
+  },
+  {
+    "place": "Snack Place4e8aaccd4fc68f2d71de9384",
+    "time": "2012-04-22"
+  },
+  {
+    "place": "Home (private)4eab92207beb32cb143f9d8d",
+    "time": "2012-04-22"
+  },
+  {
+    "place": "Home (private)4f40351fa17cf53abe49a0f4",
+    "time": "2012-04-23"
+  },
+  {
+    "place": "Snack Place4e8aaccd4fc68f2d71de9384",
+    "time": "2012-04-23"
+  },
+  {
+    "place": "Building4c7ba8c697028cfaf36ae1fe",
+    "time": "2012-04-23"
+  },
+  {
+    "place": "Bus Station4cd713dfd2f62d43623f7d6e",
+    "time": "2012-04-23"
+  },
+  {
+    "place": "Subway4ba8c654f964a520dbed39e3",
+    "time": "2012-04-24"
+  },
+  {
+    "place": "Snack Place4e8aaccd4fc68f2d71de9384",
+    "time": "2012-04-24"
+  },
+  {
+    "place": "Home (private)4f40351fa17cf53abe49a0f4",
+    "time": "2012-04-24"
+  },
+  {
+    "place": "Home (private)4eab92207beb32cb143f9d8d",
+    "time": "2012-04-24"
+  },
+  {
+    "place": "Bus Station4cd713dfd2f62d43623f7d6e",
+    "time": "2012-04-24"
+  },
+  {
+    "place": "Building4c7ba8c697028cfaf36ae1fe",
+    "time": "2012-04-24"
+  },
+  {
+    "place": "Home (private)4eab92207beb32cb143f9d8d",
+    "time": "2012-04-25"
+  },
+  {
+    "place": "Snack Place4e8aaccd4fc68f2d71de9384",
+    "time": "2012-04-25"
+  },
+  {
+    "place": "Subway4ba8c654f964a520dbed39e3",
+    "time": "2012-04-25"
+  },
+  {
+    "place": "Home (private)4f40351fa17cf53abe49a0f4",
+    "time": "2012-04-25"
+  },
+  {
+    "place": "Bus Station4cd713dfd2f62d43623f7d6e",
+    "time": "2012-04-25"
+  },
+  {
+    "place": "Home (private)4eab92207beb32cb143f9d8d",
+    "time": "2012-04-26"
+  },
+  {
+    "place": "Snack Place4e8aaccd4fc68f2d71de9384",
+    "time": "2012-04-26"
+  },
+  {
+    "place": "Subway4ba8c654f964a520dbed39e3",
+    "time": "2012-04-26"
+  },
+  {
+    "place": "Home (private)4f40351fa17cf53abe49a0f4",
+    "time": "2012-04-26"
+  },
+  {
+    "place": "Bus Station4cd713dfd2f62d43623f7d6e",
+    "time": "2012-04-26"
+  },
+  {
+    "place": "Snack Place4e8aaccd4fc68f2d71de9384",
+    "time": "2012-04-27"
+  },
+  {
+    "place": "Subway4ba8c654f964a520dbed39e3",
+    "time": "2012-04-27"
+  },
+  {
+    "place": "Home (private)4eab92207beb32cb143f9d8d",
+    "time": "2012-04-27"
+  },
+  {
+    "place": "Home (private)4f40351fa17cf53abe49a0f4",
+    "time": "2012-04-27"
+  },
+  {
+    "place": "Bus Station4cd713dfd2f62d43623f7d6e",
+    "time": "2012-04-27"
+  },
+  {
+    "place": "Home (private)4f40351fa17cf53abe49a0f4",
+    "time": "2012-04-28"
+  },
+  {
+    "place": "Snack Place4e8aaccd4fc68f2d71de9384",
+    "time": "2012-04-28"
+  },
+  {
+    "place": "Subway4ba8c654f964a520dbed39e3",
+    "time": "2012-04-28"
+  },
+  {
+    "place": "Home (private)4eab92207beb32cb143f9d8d",
+    "time": "2012-04-28"
+  },
+  {
+    "place": "Home (private)4eab92207beb32cb143f9d8d",
+    "time": "2012-04-29"
+  },
+  {
+    "place": "Subway4ba8c654f964a520dbed39e3",
+    "time": "2012-04-29"
+  },
+  {
+    "place": "Snack Place4e8aaccd4fc68f2d71de9384",
+    "time": "2012-04-29"
+  },
+  {
+    "place": "Home (private)4eab92207beb32cb143f9d8d",
+    "time": "2012-05-02"
+  },
+  {
+    "place": "Snack Place4e8aaccd4fc68f2d71de9384",
+    "time": "2012-05-02"
+  },
+  {
+    "place": "Subway4ba8c654f964a520dbed39e3",
+    "time": "2012-05-02"
+  },
+  {
+    "place": "Home (private)4f40351fa17cf53abe49a0f4",
+    "time": "2012-05-02"
+  },
+  {
+    "place": "Snack Place4e8aaccd4fc68f2d71de9384",
+    "time": "2012-05-03"
+  },
+  {
+    "place": "Subway4ba8c654f964a520dbed39e3",
+    "time": "2012-05-03"
+  },
+  {
+    "place": "Home (private)4eab92207beb32cb143f9d8d",
+    "time": "2012-05-03"
+  },
+  {
+    "place": "Home (private)4f40351fa17cf53abe49a0f4",
+    "time": "2012-05-03"
+  },
+  {
+    "place": "Bus Station4cd713dfd2f62d43623f7d6e",
+    "time": "2012-05-03"
+  },
+  {
+    "place": "Home (private)4eab92207beb32cb143f9d8d",
+    "time": "2012-05-04"
+  },
+  {
+    "place": "Subway4ba8c654f964a520dbed39e3",
+    "time": "2012-05-04"
+  },
+  {
+    "place": "Home (private)4f40351fa17cf53abe49a0f4",
+    "time": "2012-05-04"
+  },
+  {
+    "place": "Snack Place4e8aaccd4fc68f2d71de9384",
+    "time": "2012-05-04"
+  },
+  {
+    "place": "Bus Station4cd713dfd2f62d43623f7d6e",
+    "time": "2012-05-04"
+  },
+  {
+    "place": "Home (private)4eab92207beb32cb143f9d8d",
+    "time": "2012-05-05"
+  },
+  {
+    "place": "Subway4ba8c654f964a520dbed39e3",
+    "time": "2012-05-05"
+  },
+  {
+    "place": "Snack Place4e8aaccd4fc68f2d71de9384",
+    "time": "2012-05-05"
+  },
+  {
+    "place": "Snack Place4e8aaccd4fc68f2d71de9384",
+    "time": "2012-05-07"
+  },
+  {
+    "place": "Home (private)4eab92207beb32cb143f9d8d",
+    "time": "2012-05-07"
+  },
+  {
+    "place": "Home (private)4f40351fa17cf53abe49a0f4",
+    "time": "2012-05-07"
+  },
+  {
+    "place": "Subway4ba8c654f964a520dbed39e3",
+    "time": "2012-05-07"
+  },
+  {
+    "place": "Building4c7ba8c697028cfaf36ae1fe",
+    "time": "2012-05-07"
+  },
+  {
+    "place": "Bus Station4cd713dfd2f62d43623f7d6e",
+    "time": "2012-05-07"
+  },
+  {
+    "place": "Home (private)4eab92207beb32cb143f9d8d",
+    "time": "2012-05-08"
+  },
+  {
+    "place": "Subway4ba8c654f964a520dbed39e3",
+    "time": "2012-05-08"
+  },
+  {
+    "place": "Home (private)4f40351fa17cf53abe49a0f4",
+    "time": "2012-05-08"
+  },
+  {
+    "place": "Snack Place4e8aaccd4fc68f2d71de9384",
+    "time": "2012-05-08"
+  },
+  {
+    "place": "Bus Station4cd713dfd2f62d43623f7d6e",
+    "time": "2012-05-08"
+  },
+  {
+    "place": "Building4c7ba8c697028cfaf36ae1fe",
+    "time": "2012-05-08"
+  },
+  {
+    "place": "Snack Place4e8aaccd4fc68f2d71de9384",
+    "time": "2012-05-09"
+  },
+  {
+    "place": "Subway4ba8c654f964a520dbed39e3",
+    "time": "2012-05-09"
+  },
+  {
+    "place": "Home (private)4f40351fa17cf53abe49a0f4",
+    "time": "2012-05-09"
+  },
+  {
+    "place": "Home (private)4eab92207beb32cb143f9d8d",
+    "time": "2012-05-09"
+  },
+  {
+    "place": "Bus Station4cd713dfd2f62d43623f7d6e",
+    "time": "2012-05-09"
+  },
+  {
+    "place": "Snack Place4e8aaccd4fc68f2d71de9384",
+    "time": "2012-05-11"
+  },
+  {
+    "place": "Subway4ba8c654f964a520dbed39e3",
+    "time": "2012-05-11"
+  },
+  {
+    "place": "Home (private)4f40351fa17cf53abe49a0f4",
+    "time": "2012-05-11"
+  },
+  {
+    "place": "Home (private)4eab92207beb32cb143f9d8d",
+    "time": "2012-05-11"
+  },
+  {
+    "place": "Bus Station4cd713dfd2f62d43623f7d6e",
+    "time": "2012-05-11"
+  },
+  {
+    "place": "Subway4ba8c654f964a520dbed39e3",
+    "time": "2012-05-12"
+  },
+  {
+    "place": "Snack Place4e8aaccd4fc68f2d71de9384",
+    "time": "2012-05-12"
+  },
+  {
+    "place": "Home (private)4eab92207beb32cb143f9d8d",
+    "time": "2012-05-12"
+  },
+  {
+    "place": "Home (private)4f40351fa17cf53abe49a0f4",
+    "time": "2012-05-12"
+  },
+  {
+    "place": "Neighborhood4e2bada17d8b7deda6d3fda6",
+    "time": "2012-05-12"
+  },
+  {
+    "place": "Rest Area4ad63d83f964a520f90521e3",
+    "time": "2012-05-12"
+  },
+  {
+    "place": "General Travel4f649acae4b0777dfc7b5b81",
+    "time": "2012-05-13"
+  },
+  {
+    "place": "Home (private)4eab92207beb32cb143f9d8d",
+    "time": "2012-05-13"
+  },
+  {
+    "place": "Subway4ba8c654f964a520dbed39e3",
+    "time": "2012-05-13"
+  },
+  {
+    "place": "Snack Place4e8aaccd4fc68f2d71de9384",
+    "time": "2012-05-13"
+  },
+  {
+    "place": "Home (private)4eab92207beb32cb143f9d8d",
+    "time": "2012-05-14"
+  },
+  {
+    "place": "Home (private)4f40351fa17cf53abe49a0f4",
+    "time": "2012-05-14"
+  },
+  {
+    "place": "Subway4ba8c654f964a520dbed39e3",
+    "time": "2012-05-14"
+  },
+  {
+    "place": "Snack Place4e8aaccd4fc68f2d71de9384",
+    "time": "2012-05-14"
+  },
+  {
+    "place": "Bus Station4cd713dfd2f62d43623f7d6e",
+    "time": "2012-05-14"
+  },
+  {
+    "place": "Building4c7ba8c697028cfaf36ae1fe",
+    "time": "2012-05-14"
+  },
+  {
+    "place": "Home (private)4eab92207beb32cb143f9d8d",
+    "time": "2012-05-15"
+  },
+  {
+    "place": "Subway4ba8c654f964a520dbed39e3",
+    "time": "2012-05-15"
+  },
+  {
+    "place": "Snack Place4e8aaccd4fc68f2d71de9384",
+    "time": "2012-05-15"
+  },
+  {
+    "place": "Home (private)4f40351fa17cf53abe49a0f4",
+    "time": "2012-05-15"
+  },
+  {
+    "place": "Bus Station4cd713dfd2f62d43623f7d6e",
+    "time": "2012-05-15"
+  },
+  {
+    "place": "Building4c7ba8c697028cfaf36ae1fe",
+    "time": "2012-05-15"
+  },
+  {
+    "place": "Subway4ba8c654f964a520dbed39e3",
+    "time": "2012-05-16"
+  },
+  {
+    "place": "Home (private)4f40351fa17cf53abe49a0f4",
+    "time": "2012-05-16"
+  },
+  {
+    "place": "Home (private)4eab92207beb32cb143f9d8d",
+    "time": "2012-05-16"
+  },
+  {
+    "place": "Snack Place4e8aaccd4fc68f2d71de9384",
+    "time": "2012-05-16"
+  },
+  {
+    "place": "Bus Station4cd713dfd2f62d43623f7d6e",
+    "time": "2012-05-16"
+  }
+]

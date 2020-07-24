@@ -1,0 +1,554 @@
+[
+  {
+    "place": "Cuban Restaurant3fd66200f964a52004e61ee3",
+    "time": "2012-04-03"
+  },
+  {
+    "place": "Coffee Shop4c3087577cc0c9b6046fed9a",
+    "time": "2012-04-04"
+  },
+  {
+    "place": "Sandwich Place4bc5f776db8fa59392819b37",
+    "time": "2012-04-04"
+  },
+  {
+    "place": "Building4bb2949b14cfd13a6b2a15ab",
+    "time": "2012-04-04"
+  },
+  {
+    "place": "Building4bb2949b14cfd13a6b2a15ab",
+    "time": "2012-04-04"
+  },
+  {
+    "place": "Burger Joint46cc435af964a520394a1fe3",
+    "time": "2012-04-04"
+  },
+  {
+    "place": "Coffee Shop4b069e81f964a520cfed22e3",
+    "time": "2012-04-06"
+  },
+  {
+    "place": "Salon / Barbershop4e2191d4b61cdcf1ecbe80a3",
+    "time": "2012-04-07"
+  },
+  {
+    "place": "Cosmetics Shop4c7e9af02042b1f7cb71c0ad",
+    "time": "2012-04-07"
+  },
+  {
+    "place": "Pizza Place4e6be17ed22d0f5095da6a71",
+    "time": "2012-04-07"
+  },
+  {
+    "place": "Electronics Store4aabf955f964a520505b20e3",
+    "time": "2012-04-09"
+  },
+  {
+    "place": "Sandwich Place4bc5f776db8fa59392819b37",
+    "time": "2012-04-09"
+  },
+  {
+    "place": "Miscellaneous Shop4b368955f964a520883725e3",
+    "time": "2012-04-09"
+  },
+  {
+    "place": "Sandwich Place3fd66200f964a520ebea1ee3",
+    "time": "2012-04-09"
+  },
+  {
+    "place": "Movie Theater4a4138ebf964a520f9a41fe3",
+    "time": "2012-04-10"
+  },
+  {
+    "place": "Train Station42911d00f964a520f5231fe3",
+    "time": "2012-04-11"
+  },
+  {
+    "place": "Train Station42911d00f964a520f5231fe3",
+    "time": "2012-04-11"
+  },
+  {
+    "place": "Train Station42911d00f964a520f5231fe3",
+    "time": "2012-04-11"
+  },
+  {
+    "place": "Train Station4a9fc4fbf964a520493d20e3",
+    "time": "2012-04-12"
+  },
+  {
+    "place": "Coffee Shop4b069e81f964a520cfed22e3",
+    "time": "2012-04-12"
+  },
+  {
+    "place": "Clothing Store4bf0402051f2c9b60666f192",
+    "time": "2012-04-12"
+  },
+  {
+    "place": "Bar3fd66200f964a520e2e51ee3",
+    "time": "2012-04-13"
+  },
+  {
+    "place": "Bar3fd66200f964a52036e41ee3",
+    "time": "2012-04-13"
+  },
+  {
+    "place": "Sandwich Place4bc5f776db8fa59392819b37",
+    "time": "2012-04-13"
+  },
+  {
+    "place": "Park4eba8146f7900a95e20c22b5",
+    "time": "2012-04-13"
+  },
+  {
+    "place": "College Academic Building4bd0e42041b9ef3b3416fbe5",
+    "time": "2012-04-13"
+  },
+  {
+    "place": "Bank4d9e010c8efaa14314bd73b7",
+    "time": "2012-04-14"
+  },
+  {
+    "place": "Bank4cc152d3873c236a280ab823",
+    "time": "2012-04-14"
+  },
+  {
+    "place": "Parking4bf68dff94b2a5939fa1adee",
+    "time": "2012-04-14"
+  },
+  {
+    "place": "Bridge4bdeb11b6198c9b6aa7f14ff",
+    "time": "2012-04-14"
+  },
+  {
+    "place": "Diner4bd9b9480115c9b604607880",
+    "time": "2012-04-15"
+  },
+  {
+    "place": "Salon / Barbershop4e2191d4b61cdcf1ecbe80a3",
+    "time": "2012-04-15"
+  },
+  {
+    "place": "Food & Drink Shop465597a5f964a52000471fe3",
+    "time": "2012-04-16"
+  },
+  {
+    "place": "Miscellaneous Shop4b368955f964a520883725e3",
+    "time": "2012-04-16"
+  },
+  {
+    "place": "Department Store4577fb0bf964a520b03e1fe3",
+    "time": "2012-04-18"
+  },
+  {
+    "place": "Train Station42911d00f964a520f5231fe3",
+    "time": "2012-04-18"
+  },
+  {
+    "place": "Train Station4a9fc4fbf964a520493d20e3",
+    "time": "2012-04-23"
+  },
+  {
+    "place": "Sandwich Place4b421ff5f964a52030cd25e3",
+    "time": "2012-04-23"
+  },
+  {
+    "place": "Burger Joint4c9a8eccd4b1b1f7314dd135",
+    "time": "2012-04-25"
+  },
+  {
+    "place": "Department Store49cbb6f9f964a5200f591fe3",
+    "time": "2012-04-25"
+  },
+  {
+    "place": "Salon / Barbershop4e2191d4b61cdcf1ecbe80a3",
+    "time": "2012-04-28"
+  },
+  {
+    "place": "Caribbean Restaurant4d9fb4b35970b1f76e554a1e",
+    "time": "2012-04-28"
+  },
+  {
+    "place": "Department Store4c389f641e06d13af305783e",
+    "time": "2012-04-28"
+  },
+  {
+    "place": "Gym / Fitness Center4a6f67e3f964a52018d61fe3",
+    "time": "2012-05-01"
+  },
+  {
+    "place": "Cosmetics Shop4ad0e92ef964a52008db20e3",
+    "time": "2012-05-03"
+  },
+  {
+    "place": "Miscellaneous Shop4b9d5479f964a5201ea436e3",
+    "time": "2012-05-05"
+  },
+  {
+    "place": "Department Store4c389f641e06d13af305783e",
+    "time": "2012-05-05"
+  },
+  {
+    "place": "Salon / Barbershop4e2191d4b61cdcf1ecbe80a3",
+    "time": "2012-05-05"
+  },
+  {
+    "place": "American Restaurant4b6cd6dff964a5202f582ce3",
+    "time": "2012-05-06"
+  },
+  {
+    "place": "Building4bb2949b14cfd13a6b2a15ab",
+    "time": "2012-05-07"
+  },
+  {
+    "place": "Mexican Restaurant4ec27c885c5c3d470deb0904",
+    "time": "2012-05-07"
+  },
+  {
+    "place": "Sandwich Place4bc5f776db8fa59392819b37",
+    "time": "2012-05-08"
+  },
+  {
+    "place": "Mexican Restaurant4ec27c885c5c3d470deb0904",
+    "time": "2012-05-09"
+  },
+  {
+    "place": "Train Station4a9fc4fbf964a520493d20e3",
+    "time": "2012-05-09"
+  },
+  {
+    "place": "Mexican Restaurant49b7d7abf964a5202e531fe3",
+    "time": "2012-05-10"
+  },
+  {
+    "place": "Performing Arts Venue4f527168e4b002a74245e979",
+    "time": "2012-05-10"
+  },
+  {
+    "place": "Pizza Place3fd66200f964a5206de91ee3",
+    "time": "2012-05-11"
+  },
+  {
+    "place": "Clothing Store4a385663f964a520ed9e1fe3",
+    "time": "2012-05-11"
+  },
+  {
+    "place": "Clothing Store4c5bfe9b85a1e21e10505511",
+    "time": "2012-05-11"
+  },
+  {
+    "place": "Coffee Shop3fd66200f964a52059e61ee3",
+    "time": "2012-05-11"
+  },
+  {
+    "place": "Bar4e08d3d82271dfa46bb79241",
+    "time": "2012-05-11"
+  },
+  {
+    "place": "Caribbean Restaurant4d9fb4b35970b1f76e554a1e",
+    "time": "2012-05-12"
+  },
+  {
+    "place": "Clothing Store4c5bfe9b85a1e21e10505511",
+    "time": "2012-05-14"
+  },
+  {
+    "place": "Pizza Place3fd66200f964a5206de91ee3",
+    "time": "2012-05-15"
+  },
+  {
+    "place": "Caf\u00c3\u00a949fb1389f964a520176e1fe3",
+    "time": "2012-05-16"
+  },
+  {
+    "place": "Arts & Crafts Store4aad442ef964a5205d5f20e3",
+    "time": "2012-05-16"
+  },
+  {
+    "place": "Mexican Restaurant4ec27c885c5c3d470deb0904",
+    "time": "2012-05-17"
+  },
+  {
+    "place": "Sandwich Place455da1c3f964a520793d1fe3",
+    "time": "2012-05-17"
+  },
+  {
+    "place": "Cosmetics Shop4a441b2bf964a52027a71fe3",
+    "time": "2012-05-18"
+  },
+  {
+    "place": "Cosmetics Shop4a441b2bf964a52027a71fe3",
+    "time": "2012-05-18"
+  },
+  {
+    "place": "Bar4e08d3d82271dfa46bb79241",
+    "time": "2012-05-18"
+  },
+  {
+    "place": "Bakery4b8c5b54f964a5207fcc32e3",
+    "time": "2012-05-21"
+  },
+  {
+    "place": "Coffee Shop4c3087577cc0c9b6046fed9a",
+    "time": "2012-05-25"
+  },
+  {
+    "place": "Airport4459d2f1f964a520d7321fe3",
+    "time": "2012-05-25"
+  },
+  {
+    "place": "Coffee Shop4b58371cf964a520484e28e3",
+    "time": "2012-05-25"
+  },
+  {
+    "place": "Mexican Restaurant4a942af9f964a5209a2020e3",
+    "time": "2012-05-31"
+  },
+  {
+    "place": "Pizza Place3fd66200f964a5206de91ee3",
+    "time": "2012-06-01"
+  },
+  {
+    "place": "Ice Cream Shop4c24087ab7b8a59304ea3be8",
+    "time": "2012-06-03"
+  },
+  {
+    "place": "Bakery4b8c5b54f964a5207fcc32e3",
+    "time": "2012-06-04"
+  },
+  {
+    "place": "Sandwich Place4bc5f776db8fa59392819b37",
+    "time": "2012-06-06"
+  },
+  {
+    "place": "Gym / Fitness Center4ab103f0f964a520c66720e3",
+    "time": "2012-06-06"
+  },
+  {
+    "place": "Caribbean Restaurant4d9fb4b35970b1f76e554a1e",
+    "time": "2012-06-07"
+  },
+  {
+    "place": "Gym / Fitness Center4ab103f0f964a520c66720e3",
+    "time": "2012-06-07"
+  },
+  {
+    "place": "Sandwich Place4edd03c9722e1da3055ce6e7",
+    "time": "2012-06-07"
+  },
+  {
+    "place": "Mexican Restaurant4ec27c885c5c3d470deb0904",
+    "time": "2012-06-11"
+  },
+  {
+    "place": "Coffee Shop4b069e81f964a520cfed22e3",
+    "time": "2012-06-13"
+  },
+  {
+    "place": "Caribbean Restaurant4d9fb4b35970b1f76e554a1e",
+    "time": "2012-06-16"
+  },
+  {
+    "place": "Music Venue3fd66200f964a520e9e51ee3",
+    "time": "2012-06-17"
+  },
+  {
+    "place": "Department Store4c389f641e06d13af305783e",
+    "time": "2012-06-17"
+  },
+  {
+    "place": "Laundry Service4c38c7ba1e06d13a8463783e",
+    "time": "2012-06-17"
+  },
+  {
+    "place": "Department Store41102700f964a520d60b1fe3",
+    "time": "2012-06-18"
+  },
+  {
+    "place": "Caribbean Restaurant4d9fb4b35970b1f76e554a1e",
+    "time": "2012-06-21"
+  },
+  {
+    "place": "Gym / Fitness Center40d77680f964a52059011fe3",
+    "time": "2012-06-26"
+  },
+  {
+    "place": "Food & Drink Shop4ceff8f762ef6dcbdbb3015a",
+    "time": "2012-06-30"
+  },
+  {
+    "place": "Bar4ad395b4f964a5200ee520e3",
+    "time": "2012-06-30"
+  },
+  {
+    "place": "Mexican Restaurant4ec27c885c5c3d470deb0904",
+    "time": "2012-07-02"
+  },
+  {
+    "place": "Airport4459d2f1f964a520d7321fe3",
+    "time": "2012-07-03"
+  },
+  {
+    "place": "Airport4459d2f1f964a520d7321fe3",
+    "time": "2012-07-08"
+  },
+  {
+    "place": "Park4ebac17a722e20541dd054be",
+    "time": "2012-07-08"
+  },
+  {
+    "place": "Bakery4a9aee23f964a520a43320e3",
+    "time": "2012-07-09"
+  },
+  {
+    "place": "Food & Drink Shop4bc5e13e41cb76b0f5ef3e6f",
+    "time": "2012-07-09"
+  },
+  {
+    "place": "Government Building4d80b23370d18cfa6e96a194",
+    "time": "2012-07-11"
+  },
+  {
+    "place": "Performing Arts Venue4f5788e0d5fb68da8b344a28",
+    "time": "2012-07-11"
+  },
+  {
+    "place": "Bar4e08d3d82271dfa46bb79241",
+    "time": "2012-07-13"
+  },
+  {
+    "place": "Playground4b9fd380f964a5202d4237e3",
+    "time": "2012-07-13"
+  },
+  {
+    "place": "Caribbean Restaurant4d9fb4b35970b1f76e554a1e",
+    "time": "2012-07-15"
+  },
+  {
+    "place": "Gym / Fitness Center4ab103f0f964a520c66720e3",
+    "time": "2012-07-16"
+  },
+  {
+    "place": "BBQ Joint4d5c7eb11ef2f04de5bef5cd",
+    "time": "2012-07-16"
+  },
+  {
+    "place": "Laundry Service4c38c7ba1e06d13a8463783e",
+    "time": "2012-07-17"
+  },
+  {
+    "place": "Food & Drink Shop4b475037f964a520ae2e26e3",
+    "time": "2012-07-18"
+  },
+  {
+    "place": "Caf\u00c3\u00a949fb1389f964a520176e1fe3",
+    "time": "2012-07-18"
+  },
+  {
+    "place": "Sandwich Place4bc5f776db8fa59392819b37",
+    "time": "2012-07-24"
+  },
+  {
+    "place": "Tattoo Parlor4c645c9639732d7fa389d4fe",
+    "time": "2012-07-24"
+  },
+  {
+    "place": "American Restaurant4b6cd6dff964a5202f582ce3",
+    "time": "2012-07-29"
+  },
+  {
+    "place": "Government Building4bd5803a4e32d13a7be0c080",
+    "time": "2012-07-29"
+  },
+  {
+    "place": "Gym / Fitness Center4ab103f0f964a520c66720e3",
+    "time": "2012-07-30"
+  },
+  {
+    "place": "Spa / Massage4d45fb7814aa8cfac349783d",
+    "time": "2012-08-05"
+  },
+  {
+    "place": "Caribbean Restaurant4a033aeff964a520a4711fe3",
+    "time": "2012-08-19"
+  },
+  {
+    "place": "Bar4e58670eb0fb4c4d61ffce05",
+    "time": "2012-08-18"
+  },
+  {
+    "place": "Cuban Restaurant3fd66200f964a52004e61ee3",
+    "time": "2012-08-22"
+  },
+  {
+    "place": "Coffee Shop4a809c7df964a520b2f51fe3",
+    "time": "2012-09-13"
+  },
+  {
+    "place": "Coffee Shop4ccffc9e06b54688bffed794",
+    "time": "2012-10-22"
+  },
+  {
+    "place": "Cosmetics Shop4d8a7290f607a0933fbdff86",
+    "time": "2012-10-24"
+  },
+  {
+    "place": "Pizza Place3fd66200f964a5206de91ee3",
+    "time": "2012-10-27"
+  },
+  {
+    "place": "Sandwich Place4ac14826f964a5208b9620e3",
+    "time": "2012-11-06"
+  },
+  {
+    "place": "Caribbean Restaurant4d9fb4b35970b1f76e554a1e",
+    "time": "2012-12-04"
+  },
+  {
+    "place": "Train Station42911d00f964a520f5231fe3",
+    "time": "2012-12-14"
+  },
+  {
+    "place": "Clothing Store4a68933bf964a52094ca1fe3",
+    "time": "2012-12-15"
+  },
+  {
+    "place": "Airport4459d2f1f964a520d7321fe3",
+    "time": "2012-12-29"
+  },
+  {
+    "place": "Coffee Shop4b069e81f964a520cfed22e3",
+    "time": "2012-12-29"
+  },
+  {
+    "place": "Bakery4b74c245f964a5207df02de3",
+    "time": "2012-12-31"
+  },
+  {
+    "place": "Thai Restaurant4a74cb19f964a5209cdf1fe3",
+    "time": "2013-01-05"
+  },
+  {
+    "place": "Coffee Shop4c3087577cc0c9b6046fed9a",
+    "time": "2013-01-07"
+  },
+  {
+    "place": "Coffee Shop4c3087577cc0c9b6046fed9a",
+    "time": "2013-01-12"
+  },
+  {
+    "place": "Train Station42911d00f964a520f5231fe3",
+    "time": "2013-01-12"
+  },
+  {
+    "place": "Vegetarian / Vegan Restaurant49f4f7ebf964a5207c6b1fe3",
+    "time": "2013-01-12"
+  },
+  {
+    "place": "Stadium3fd66200f964a520ddf01ee3",
+    "time": "2013-01-13"
+  },
+  {
+    "place": "Coffee Shop4c3087577cc0c9b6046fed9a",
+    "time": "2013-01-17"
+  }
+]

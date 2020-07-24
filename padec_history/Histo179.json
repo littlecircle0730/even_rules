@@ -1,0 +1,690 @@
+[
+  {
+    "place": "Airport43a52546f964a520532c1fe3",
+    "time": "2012-04-03"
+  },
+  {
+    "place": "College Academic Building4b02e0c9f964a5209d4a22e3",
+    "time": "2012-04-04"
+  },
+  {
+    "place": "Clothing Store4bfd9b27f61dc9b6a5459fde",
+    "time": "2012-04-13"
+  },
+  {
+    "place": "Fast Food Restaurant4e7c7dfafa76b7bcf9bcb4b1",
+    "time": "2012-04-13"
+  },
+  {
+    "place": "Coffee Shop4b5f42a1f964a52094b029e3",
+    "time": "2012-04-14"
+  },
+  {
+    "place": "College Academic Building4e94b7510cd60d94b53c0bf2",
+    "time": "2012-04-16"
+  },
+  {
+    "place": "College Academic Building4dff9e4cb3ad37a601915b57",
+    "time": "2012-04-17"
+  },
+  {
+    "place": "Airport4a3919f3f964a520219f1fe3",
+    "time": "2012-04-17"
+  },
+  {
+    "place": "Train Station4e90ae9a8b81c6df65cf2e17",
+    "time": "2012-04-17"
+  },
+  {
+    "place": "Train Station4a513b17f964a520d2b01fe3",
+    "time": "2012-04-17"
+  },
+  {
+    "place": "General College & University4f2c0ae4e4b0f215a5503453",
+    "time": "2012-04-18"
+  },
+  {
+    "place": "Sandwich Place4ac5fd88f964a5209db220e3",
+    "time": "2012-04-18"
+  },
+  {
+    "place": "College Academic Building4bbde0814e069c74f1399fe3",
+    "time": "2012-04-21"
+  },
+  {
+    "place": "Food & Drink Shop4530db29f964a520613b1fe3",
+    "time": "2012-04-21"
+  },
+  {
+    "place": "Gym / Fitness Center4b422afbf964a5200bce25e3",
+    "time": "2012-04-23"
+  },
+  {
+    "place": "Sushi Restaurant4a5f5918f964a5206dbf1fe3",
+    "time": "2012-04-23"
+  },
+  {
+    "place": "College Academic Building4dff9e4cb3ad37a601915b57",
+    "time": "2012-04-24"
+  },
+  {
+    "place": "College Academic Building4e94b7510cd60d94b53c0bf2",
+    "time": "2012-04-25"
+  },
+  {
+    "place": "General College & University4f2c0ae4e4b0f215a5503453",
+    "time": "2012-04-25"
+  },
+  {
+    "place": "Park4a99898ff964a520f22e20e3",
+    "time": "2012-04-25"
+  },
+  {
+    "place": "Bakery4c0a57dfa1b32d7f721999f0",
+    "time": "2012-04-28"
+  },
+  {
+    "place": "College Academic Building4bbde0814e069c74f1399fe3",
+    "time": "2012-04-28"
+  },
+  {
+    "place": "Food & Drink Shop4530db29f964a520613b1fe3",
+    "time": "2012-04-28"
+  },
+  {
+    "place": "Plaza49c64842f964a5202e571fe3",
+    "time": "2012-05-01"
+  },
+  {
+    "place": "College Academic Building4dff9e4cb3ad37a601915b57",
+    "time": "2012-05-01"
+  },
+  {
+    "place": "Gym / Fitness Center4b422afbf964a5200bce25e3",
+    "time": "2012-05-01"
+  },
+  {
+    "place": "Plaza49c64842f964a5202e571fe3",
+    "time": "2012-05-03"
+  },
+  {
+    "place": "College Academic Building4dff9e4cb3ad37a601915b57",
+    "time": "2012-05-03"
+  },
+  {
+    "place": "Gym / Fitness Center4b422afbf964a5200bce25e3",
+    "time": "2012-05-03"
+  },
+  {
+    "place": "Diner45fb601ef964a5205f441fe3",
+    "time": "2012-05-05"
+  },
+  {
+    "place": "Deli / Bodega4bd47db329eb9c74c3ac91e1",
+    "time": "2012-05-06"
+  },
+  {
+    "place": "Coffee Shop4a7fe4e2f964a5208ef41fe3",
+    "time": "2012-05-07"
+  },
+  {
+    "place": "College Academic Building4e94b7510cd60d94b53c0bf2",
+    "time": "2012-05-07"
+  },
+  {
+    "place": "Department Store41102700f964a520d60b1fe3",
+    "time": "2012-05-07"
+  },
+  {
+    "place": "Korean Restaurant40bbc700f964a520a2001fe3",
+    "time": "2012-05-07"
+  },
+  {
+    "place": "Plaza49c64842f964a5202e571fe3",
+    "time": "2012-05-08"
+  },
+  {
+    "place": "College Academic Building4dff9e4cb3ad37a601915b57",
+    "time": "2012-05-08"
+  },
+  {
+    "place": "College Academic Building4e94b7510cd60d94b53c0bf2",
+    "time": "2012-05-09"
+  },
+  {
+    "place": "Pizza Place4ca50d1444a8224b4a67f63f",
+    "time": "2012-05-11"
+  },
+  {
+    "place": "Bar49f33a1cf964a520726a1fe3",
+    "time": "2012-05-11"
+  },
+  {
+    "place": "Furniture / Home Store4af4a7a4f964a520b8f421e3",
+    "time": "2012-05-14"
+  },
+  {
+    "place": "Caf\u00c3\u00a94a8aeb9ff964a520e20a20e3",
+    "time": "2012-05-14"
+  },
+  {
+    "place": "Movie Theater40afe980f964a5203bf31ee3",
+    "time": "2012-05-14"
+  },
+  {
+    "place": "Sushi Restaurant49e40326f964a520f6621fe3",
+    "time": "2012-05-15"
+  },
+  {
+    "place": "Plaza49c64842f964a5202e571fe3",
+    "time": "2012-05-15"
+  },
+  {
+    "place": "Bakery4c0a57dfa1b32d7f721999f0",
+    "time": "2012-05-15"
+  },
+  {
+    "place": "Pizza Place4ca50d1444a8224b4a67f63f",
+    "time": "2012-05-17"
+  },
+  {
+    "place": "College Academic Building4bbde0814e069c74f1399fe3",
+    "time": "2012-05-19"
+  },
+  {
+    "place": "Korean Restaurant49e6e227f964a52074641fe3",
+    "time": "2012-05-21"
+  },
+  {
+    "place": "Movie Theater45b893e3f964a520cf411fe3",
+    "time": "2012-05-22"
+  },
+  {
+    "place": "Bar4cd5d1d9dfb4a1cd669d5b5c",
+    "time": "2012-05-22"
+  },
+  {
+    "place": "Bowling Alley4a1afeb7f964a520b77a1fe3",
+    "time": "2012-05-22"
+  },
+  {
+    "place": "Bar4b6caaddf964a520ac4a2ce3",
+    "time": "2012-05-22"
+  },
+  {
+    "place": "Beer Garden4de1b34ec65b7a3e2109e46f",
+    "time": "2012-05-28"
+  },
+  {
+    "place": "Movie Theater451d2920f964a5208d3a1fe3",
+    "time": "2012-05-29"
+  },
+  {
+    "place": "Mexican Restaurant3fd66200f964a520aee81ee3",
+    "time": "2012-05-29"
+  },
+  {
+    "place": "Beach46bbf1caf964a520d5491fe3",
+    "time": "2012-05-29"
+  },
+  {
+    "place": "Gym / Fitness Center4b422afbf964a5200bce25e3",
+    "time": "2012-05-31"
+  },
+  {
+    "place": "American Restaurant428a8580f964a52083231fe3",
+    "time": "2012-06-05"
+  },
+  {
+    "place": "Medical Center4f016fd84690f6ecebaf8da9",
+    "time": "2012-06-06"
+  },
+  {
+    "place": "Medical Center4a896d11f964a520020820e3",
+    "time": "2012-06-11"
+  },
+  {
+    "place": "Medical Center4c485618c047be9adb693379",
+    "time": "2012-06-18"
+  },
+  {
+    "place": "Middle Eastern Restaurant4aef96d2f964a5206fd921e3",
+    "time": "2012-07-03"
+  },
+  {
+    "place": "Movie Theater4a0f1baef964a52026761fe3",
+    "time": "2012-07-04"
+  },
+  {
+    "place": "Caf\u00c3\u00a94c0021b9c30a2d7fce11121d",
+    "time": "2012-07-04"
+  },
+  {
+    "place": "Other Great Outdoors4ff4271ae4b0b8fda8c37cc8",
+    "time": "2012-07-04"
+  },
+  {
+    "place": "Medical Center4fe0e7f1e4b0518a41cc6cce",
+    "time": "2012-07-05"
+  },
+  {
+    "place": "Medical Center4fe0e7f1e4b0518a41cc6cce",
+    "time": "2012-07-06"
+  },
+  {
+    "place": "Seafood Restaurant459cc684f964a5209a401fe3",
+    "time": "2012-07-07"
+  },
+  {
+    "place": "Bar40fb0f00f964a520d80a1fe3",
+    "time": "2012-07-08"
+  },
+  {
+    "place": "Medical Center4c485618c047be9adb693379",
+    "time": "2012-07-09"
+  },
+  {
+    "place": "Medical Center4fe0e7f1e4b0518a41cc6cce",
+    "time": "2012-07-09"
+  },
+  {
+    "place": "College Academic Building4e94b7510cd60d94b53c0bf2",
+    "time": "2012-07-12"
+  },
+  {
+    "place": "Student Center4e57cfaf14954ed283300e00",
+    "time": "2012-07-12"
+  },
+  {
+    "place": "Plaza49c64842f964a5202e571fe3",
+    "time": "2012-07-12"
+  },
+  {
+    "place": "Medical Center4fe0e7f1e4b0518a41cc6cce",
+    "time": "2012-07-12"
+  },
+  {
+    "place": "Medical Center4bbdd53e0780952123feda91",
+    "time": "2012-07-16"
+  },
+  {
+    "place": "Salon / Barbershop4beb208c415e20a172ece5bb",
+    "time": "2012-07-17"
+  },
+  {
+    "place": "Tea Room4fb81f5ae4b0c241c411cc83",
+    "time": "2012-07-17"
+  },
+  {
+    "place": "Bar4c0159c558dbc928a32eee6b",
+    "time": "2012-07-18"
+  },
+  {
+    "place": "Bridge49ecd458f964a52099671fe3",
+    "time": "2012-07-18"
+  },
+  {
+    "place": "Medical Center4e42b4aa88771919396bfde8",
+    "time": "2012-07-20"
+  },
+  {
+    "place": "Japanese Restaurant4d2262470901721ebc95a2a5",
+    "time": "2012-07-22"
+  },
+  {
+    "place": "Medical Center4fe0e7f1e4b0518a41cc6cce",
+    "time": "2012-07-24"
+  },
+  {
+    "place": "Beach46bbf1caf964a520d5491fe3",
+    "time": "2012-07-24"
+  },
+  {
+    "place": "Bar4f23ba9de4b05160ae1083a8",
+    "time": "2012-07-28"
+  },
+  {
+    "place": "Bridge4a43c0aef964a520c6a61fe3",
+    "time": "2012-07-28"
+  },
+  {
+    "place": "Medical Center4c485618c047be9adb693379",
+    "time": "2012-07-30"
+  },
+  {
+    "place": "Medical Center4fe0e7f1e4b0518a41cc6cce",
+    "time": "2012-07-30"
+  },
+  {
+    "place": "Medical Center4e1c94ded22dd2c50eea57af",
+    "time": "2012-08-05"
+  },
+  {
+    "place": "Medical Center4fe0e7f1e4b0518a41cc6cce",
+    "time": "2012-08-09"
+  },
+  {
+    "place": "Movie Theater4a0f1baef964a52026761fe3",
+    "time": "2012-08-10"
+  },
+  {
+    "place": "Caf\u00c3\u00a94c0021b9c30a2d7fce11121d",
+    "time": "2012-08-10"
+  },
+  {
+    "place": "BBQ Joint4bb00c92f964a520fd333ce3",
+    "time": "2012-08-10"
+  },
+  {
+    "place": "Food & Drink Shop4be7276ecf200f47df58153c",
+    "time": "2012-08-10"
+  },
+  {
+    "place": "Hot Dog Joint4bafaa5df964a52066153ce3",
+    "time": "2012-08-11"
+  },
+  {
+    "place": "Park4bd842d2f645c9b63a77a7e0",
+    "time": "2012-08-11"
+  },
+  {
+    "place": "Scenic Lookout4c34a57da0ced13a9379186e",
+    "time": "2012-08-12"
+  },
+  {
+    "place": "Medical Center4fe0e7f1e4b0518a41cc6cce",
+    "time": "2012-08-12"
+  },
+  {
+    "place": "Medical Center4a9d8f44f964a5207e3820e3",
+    "time": "2012-08-13"
+  },
+  {
+    "place": "Medical Center4fe0e7f1e4b0518a41cc6cce",
+    "time": "2012-08-13"
+  },
+  {
+    "place": "Medical Center4fe0e7f1e4b0518a41cc6cce",
+    "time": "2012-08-14"
+  },
+  {
+    "place": "Food & Drink Shop4be7276ecf200f47df58153c",
+    "time": "2012-08-19"
+  },
+  {
+    "place": "Medical Center4fe0e7f1e4b0518a41cc6cce",
+    "time": "2012-09-05"
+  },
+  {
+    "place": "Food & Drink Shop4b208e76f964a520213324e3",
+    "time": "2012-09-05"
+  },
+  {
+    "place": "Bridge4a32c3f9f964a5208c9a1fe3",
+    "time": "2012-09-09"
+  },
+  {
+    "place": "College Academic Building4e94b7510cd60d94b53c0bf2",
+    "time": "2012-09-09"
+  },
+  {
+    "place": "Beach4e4c72d418a822288dd34fd7",
+    "time": "2012-09-10"
+  },
+  {
+    "place": "Medical Center4fe0e7f1e4b0518a41cc6cce",
+    "time": "2012-09-14"
+  },
+  {
+    "place": "College Academic Building4e94b7510cd60d94b53c0bf2",
+    "time": "2012-09-15"
+  },
+  {
+    "place": "Plaza49c64842f964a5202e571fe3",
+    "time": "2012-09-15"
+  },
+  {
+    "place": "Japanese Restaurant4bc1187074a9a5939959d1f6",
+    "time": "2012-09-15"
+  },
+  {
+    "place": "Bar4bd484816798ef3b0dc6618d",
+    "time": "2012-09-16"
+  },
+  {
+    "place": "Medical Center4fe0e7f1e4b0518a41cc6cce",
+    "time": "2012-10-03"
+  },
+  {
+    "place": "College Academic Building4e94b7510cd60d94b53c0bf2",
+    "time": "2012-10-13"
+  },
+  {
+    "place": "Movie Theater4a0f1baef964a52026761fe3",
+    "time": "2012-10-19"
+  },
+  {
+    "place": "Korean Restaurant4a480fb8f964a5207daa1fe3",
+    "time": "2012-10-23"
+  },
+  {
+    "place": "Movie Theater40afe980f964a5203bf31ee3",
+    "time": "2012-10-23"
+  },
+  {
+    "place": "Clothing Store4e0a2833b61c4d248fd0d5f9",
+    "time": "2012-10-23"
+  },
+  {
+    "place": "Movie Theater4a0f1baef964a52026761fe3",
+    "time": "2012-10-23"
+  },
+  {
+    "place": "Steakhouse4e4cd7ccbd413c4cc66c9b47",
+    "time": "2012-10-24"
+  },
+  {
+    "place": "Food & Drink Shop4a1079e9f964a520d5761fe3",
+    "time": "2012-10-25"
+  },
+  {
+    "place": "Plaza49c64842f964a5202e571fe3",
+    "time": "2012-10-27"
+  },
+  {
+    "place": "College Academic Building4e94b7510cd60d94b53c0bf2",
+    "time": "2012-10-27"
+  },
+  {
+    "place": "Drugstore / Pharmacy4a9a4079f964a520ab3120e3",
+    "time": "2012-10-28"
+  },
+  {
+    "place": "Steakhouse4e4cd7ccbd413c4cc66c9b47",
+    "time": "2012-10-29"
+  },
+  {
+    "place": "Diner4bc24f5fabf49521275ec293",
+    "time": "2012-11-06"
+  },
+  {
+    "place": "Miscellaneous Shop4d34cb6a329e5481f944c51d",
+    "time": "2012-11-06"
+  },
+  {
+    "place": "Sandwich Place4b47598ef964a520852f26e3",
+    "time": "2012-11-11"
+  },
+  {
+    "place": "College Academic Building4e94b7510cd60d94b53c0bf2",
+    "time": "2012-11-11"
+  },
+  {
+    "place": "College Academic Building4e94b7510cd60d94b53c0bf2",
+    "time": "2012-11-17"
+  },
+  {
+    "place": "Art Museum427c0500f964a52097211fe3",
+    "time": "2012-11-17"
+  },
+  {
+    "place": "College Academic Building4e94b7510cd60d94b53c0bf2",
+    "time": "2012-11-18"
+  },
+  {
+    "place": "Chinese Restaurant4b76fc1df964a5206e712ee3",
+    "time": "2012-11-19"
+  },
+  {
+    "place": "Japanese Restaurant4bad45c9f964a52089403be3",
+    "time": "2012-11-20"
+  },
+  {
+    "place": "Drugstore / Pharmacy4c02dd039a7920a1391bcf79",
+    "time": "2012-11-20"
+  },
+  {
+    "place": "Bar50abfffae4b08e127aa152e5",
+    "time": "2012-11-20"
+  },
+  {
+    "place": "Middle Eastern Restaurant4aef96d2f964a5206fd921e3",
+    "time": "2012-11-24"
+  },
+  {
+    "place": "Korean Restaurant3fd66200f964a520c4e31ee3",
+    "time": "2012-11-26"
+  },
+  {
+    "place": "Movie Theater45b893e3f964a520cf411fe3",
+    "time": "2012-11-27"
+  },
+  {
+    "place": "College Academic Building4e94b7510cd60d94b53c0bf2",
+    "time": "2012-11-30"
+  },
+  {
+    "place": "Plaza49c64842f964a5202e571fe3",
+    "time": "2012-11-30"
+  },
+  {
+    "place": "Medical Center50b544a2e4b04756f5eb2b0e",
+    "time": "2012-11-30"
+  },
+  {
+    "place": "Bakery4c0a57dfa1b32d7f721999f0",
+    "time": "2012-12-01"
+  },
+  {
+    "place": "College Academic Building4e94b7510cd60d94b53c0bf2",
+    "time": "2012-12-01"
+  },
+  {
+    "place": "Sushi Restaurant4a309ae6f964a52084991fe3",
+    "time": "2012-12-02"
+  },
+  {
+    "place": "Pizza Place4f3274c119836c91c7d99382",
+    "time": "2012-12-03"
+  },
+  {
+    "place": "Medical Center50b544a2e4b04756f5eb2b0e",
+    "time": "2012-12-03"
+  },
+  {
+    "place": "Diner4bc24f5fabf49521275ec293",
+    "time": "2012-12-04"
+  },
+  {
+    "place": "Deli / Bodega4bd47db329eb9c74c3ac91e1",
+    "time": "2012-12-05"
+  },
+  {
+    "place": "Food & Drink Shop4edd6ec52c5b50aba23a4646",
+    "time": "2012-12-08"
+  },
+  {
+    "place": "College Academic Building4e94b7510cd60d94b53c0bf2",
+    "time": "2012-12-08"
+  },
+  {
+    "place": "Medical Center50b544a2e4b04756f5eb2b0e",
+    "time": "2012-12-11"
+  },
+  {
+    "place": "Japanese Restaurant4bad45c9f964a52089403be3",
+    "time": "2012-12-11"
+  },
+  {
+    "place": "Medical Center50b544a2e4b04756f5eb2b0e",
+    "time": "2012-12-19"
+  },
+  {
+    "place": "Japanese Restaurant4bad45c9f964a52089403be3",
+    "time": "2012-12-27"
+  },
+  {
+    "place": "Bar4b91baaaf964a52020d333e3",
+    "time": "2013-01-03"
+  },
+  {
+    "place": "Medical Center50b544a2e4b04756f5eb2b0e",
+    "time": "2013-01-04"
+  },
+  {
+    "place": "General Entertainment4e910d629a52db7dba84fcb8",
+    "time": "2013-01-05"
+  },
+  {
+    "place": "Bar4f949c71e4b020d1a41f8f35",
+    "time": "2013-01-06"
+  },
+  {
+    "place": "Comedy Club50c7ac13e4b0cbcf07dfb89e",
+    "time": "2013-01-07"
+  },
+  {
+    "place": "Pool Hall4c93091c6cfea093aa07b78b",
+    "time": "2013-01-08"
+  },
+  {
+    "place": "Japanese Restaurant4bad45c9f964a52089403be3",
+    "time": "2013-01-08"
+  },
+  {
+    "place": "Medical Center50b544a2e4b04756f5eb2b0e",
+    "time": "2013-01-08"
+  },
+  {
+    "place": "Medical Center4bbdd53e0780952123feda91",
+    "time": "2013-01-09"
+  },
+  {
+    "place": "Hotel4bfd63edf7c82d7f831d8e04",
+    "time": "2013-01-11"
+  },
+  {
+    "place": "Comedy Club50c7ac13e4b0cbcf07dfb89e",
+    "time": "2013-01-11"
+  },
+  {
+    "place": "Medical Center4e1c94ded22dd2c50eea57af",
+    "time": "2013-01-28"
+  },
+  {
+    "place": "Medical Center50b544a2e4b04756f5eb2b0e",
+    "time": "2013-01-30"
+  },
+  {
+    "place": "Medical Center50b544a2e4b04756f5eb2b0e",
+    "time": "2013-02-01"
+  },
+  {
+    "place": "Asian Restaurant4af70e8df964a5204e0522e3",
+    "time": "2013-02-07"
+  },
+  {
+    "place": "Medical Center50b544a2e4b04756f5eb2b0e",
+    "time": "2013-02-11"
+  }
+]

@@ -1,0 +1,1362 @@
+[
+  {
+    "place": "Bookstore4b77007bf964a5204b732ee3",
+    "time": "2012-04-03"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-04-04"
+  },
+  {
+    "place": "Office4db479a693a017099dd9c8b8",
+    "time": "2012-04-04"
+  },
+  {
+    "place": "Bookstore4b77007bf964a5204b732ee3",
+    "time": "2012-04-04"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-04-06"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-04-07"
+  },
+  {
+    "place": "Fast Food Restaurant4ebdb40561af06192a4a1637",
+    "time": "2012-04-07"
+  },
+  {
+    "place": "Italian Restaurant4b8e0f65f964a520331733e3",
+    "time": "2012-04-08"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-04-08"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-04-09"
+  },
+  {
+    "place": "Deli / Bodega4b865064f964a520ac8531e3",
+    "time": "2012-04-09"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-04-09"
+  },
+  {
+    "place": "Bookstore4b77007bf964a5204b732ee3",
+    "time": "2012-04-10"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-04-10"
+  },
+  {
+    "place": "Music Venue4f2abd21e4b07e41d9883961",
+    "time": "2012-04-10"
+  },
+  {
+    "place": "Office4db479a693a017099dd9c8b8",
+    "time": "2012-04-11"
+  },
+  {
+    "place": "Bookstore4b77007bf964a5204b732ee3",
+    "time": "2012-04-11"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-04-12"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-04-13"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-04-13"
+  },
+  {
+    "place": "Convenience Store4ea766bedab48494d86ef5bf",
+    "time": "2012-04-13"
+  },
+  {
+    "place": "Bookstore4b77007bf964a5204b732ee3",
+    "time": "2012-04-13"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-04-14"
+  },
+  {
+    "place": "Bar4b3617f3f964a520163025e3",
+    "time": "2012-04-14"
+  },
+  {
+    "place": "Bookstore4b367d9af964a5209f3625e3",
+    "time": "2012-04-14"
+  },
+  {
+    "place": "Salon / Barbershop4c519059250dd13a11b1707d",
+    "time": "2012-04-14"
+  },
+  {
+    "place": "Mexican Restaurant4abbcdc9f964a520028520e3",
+    "time": "2012-04-14"
+  },
+  {
+    "place": "Bookstore4b77007bf964a5204b732ee3",
+    "time": "2012-04-14"
+  },
+  {
+    "place": "Music Venue4f2abd21e4b07e41d9883961",
+    "time": "2012-04-14"
+  },
+  {
+    "place": "Office4db479a693a017099dd9c8b8",
+    "time": "2012-04-14"
+  },
+  {
+    "place": "Drugstore / Pharmacy4b5b78b4f964a520c40029e3",
+    "time": "2012-04-15"
+  },
+  {
+    "place": "Pizza Place4bb02ba2f964a520ba3a3ce3",
+    "time": "2012-04-15"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-04-15"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-04-15"
+  },
+  {
+    "place": "Convenience Store4ea766bedab48494d86ef5bf",
+    "time": "2012-04-15"
+  },
+  {
+    "place": "Bookstore4b77007bf964a5204b732ee3",
+    "time": "2012-04-15"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-04-16"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-04-16"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-04-17"
+  },
+  {
+    "place": "Bookstore4b77007bf964a5204b732ee3",
+    "time": "2012-04-17"
+  },
+  {
+    "place": "Bookstore4b77007bf964a5204b732ee3",
+    "time": "2012-04-17"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-04-18"
+  },
+  {
+    "place": "Bookstore4b77007bf964a5204b732ee3",
+    "time": "2012-04-18"
+  },
+  {
+    "place": "Convenience Store4ea766bedab48494d86ef5bf",
+    "time": "2012-04-18"
+  },
+  {
+    "place": "Bookstore4b77007bf964a5204b732ee3",
+    "time": "2012-04-18"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-04-19"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-04-19"
+  },
+  {
+    "place": "Pizza Place4d98e7242bd6f04dd2707350",
+    "time": "2012-04-20"
+  },
+  {
+    "place": "Arcade4f90b98de4b079c23ae60008",
+    "time": "2012-04-20"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-04-20"
+  },
+  {
+    "place": "Music Venue4f2abd21e4b07e41d9883961",
+    "time": "2012-04-20"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-04-20"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-04-21"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-04-21"
+  },
+  {
+    "place": "Deli / Bodega4b865064f964a520ac8531e3",
+    "time": "2012-04-21"
+  },
+  {
+    "place": "Bookstore4b77007bf964a5204b732ee3",
+    "time": "2012-04-21"
+  },
+  {
+    "place": "Coffee Shop4b9ad66cf964a520b6da35e3",
+    "time": "2012-04-21"
+  },
+  {
+    "place": "Bookstore4b77007bf964a5204b732ee3",
+    "time": "2012-04-21"
+  },
+  {
+    "place": "Food & Drink Shop4b899cb4f964a520224632e3",
+    "time": "2012-04-21"
+  },
+  {
+    "place": "Office4db479a693a017099dd9c8b8",
+    "time": "2012-04-22"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-04-22"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-04-22"
+  },
+  {
+    "place": "Mall4a07ac6af964a5208f731fe3",
+    "time": "2012-04-22"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-04-22"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-04-23"
+  },
+  {
+    "place": "Music Venue4f2abd21e4b07e41d9883961",
+    "time": "2012-04-23"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-04-23"
+  },
+  {
+    "place": "Bookstore4b77007bf964a5204b732ee3",
+    "time": "2012-04-24"
+  },
+  {
+    "place": "Coffee Shop4b9ad66cf964a520b6da35e3",
+    "time": "2012-04-24"
+  },
+  {
+    "place": "Bookstore4b77007bf964a5204b732ee3",
+    "time": "2012-04-24"
+  },
+  {
+    "place": "Bookstore4b77007bf964a5204b732ee3",
+    "time": "2012-04-24"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-04-25"
+  },
+  {
+    "place": "Bookstore4b77007bf964a5204b732ee3",
+    "time": "2012-04-25"
+  },
+  {
+    "place": "Coffee Shop4b9ad66cf964a520b6da35e3",
+    "time": "2012-04-25"
+  },
+  {
+    "place": "Bookstore4b77007bf964a5204b732ee3",
+    "time": "2012-04-25"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-04-26"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-04-26"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-04-27"
+  },
+  {
+    "place": "Bookstore4b77007bf964a5204b732ee3",
+    "time": "2012-04-27"
+  },
+  {
+    "place": "Convenience Store4ea766bedab48494d86ef5bf",
+    "time": "2012-04-27"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-04-28"
+  },
+  {
+    "place": "Bar4c43a3baf0bdd13ae58fc8cc",
+    "time": "2012-04-28"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-04-28"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-04-28"
+  },
+  {
+    "place": "Bookstore4b77007bf964a5204b732ee3",
+    "time": "2012-04-28"
+  },
+  {
+    "place": "Coffee Shop4b9ad66cf964a520b6da35e3",
+    "time": "2012-04-28"
+  },
+  {
+    "place": "Bookstore4b77007bf964a5204b732ee3",
+    "time": "2012-04-28"
+  },
+  {
+    "place": "Electronics Store4b983023f964a520a13235e3",
+    "time": "2012-04-29"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-04-29"
+  },
+  {
+    "place": "Bookstore4b77007bf964a5204b732ee3",
+    "time": "2012-04-29"
+  },
+  {
+    "place": "Bookstore4b77007bf964a5204b732ee3",
+    "time": "2012-05-01"
+  },
+  {
+    "place": "Music Venue4f2abd21e4b07e41d9883961",
+    "time": "2012-05-01"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-05-02"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-05-03"
+  },
+  {
+    "place": "Convenience Store4ea766bedab48494d86ef5bf",
+    "time": "2012-05-03"
+  },
+  {
+    "place": "Coffee Shop4b9ad66cf964a520b6da35e3",
+    "time": "2012-05-03"
+  },
+  {
+    "place": "Bookstore4b77007bf964a5204b732ee3",
+    "time": "2012-05-03"
+  },
+  {
+    "place": "Movie Theater4b23edfcf964a5201e5d24e3",
+    "time": "2012-05-04"
+  },
+  {
+    "place": "Bookstore4b77007bf964a5204b732ee3",
+    "time": "2012-05-04"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-05-05"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-05-05"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-05-05"
+  },
+  {
+    "place": "Bookstore4b77007bf964a5204b732ee3",
+    "time": "2012-05-05"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-05-06"
+  },
+  {
+    "place": "Mall4a07ac6af964a5208f731fe3",
+    "time": "2012-05-07"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-05-07"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-05-07"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-05-08"
+  },
+  {
+    "place": "Bookstore4b77007bf964a5204b732ee3",
+    "time": "2012-05-08"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-05-09"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-05-10"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-05-11"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-05-11"
+  },
+  {
+    "place": "Bookstore4b77007bf964a5204b732ee3",
+    "time": "2012-05-11"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-05-12"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-05-12"
+  },
+  {
+    "place": "Pizza Place4d98e7242bd6f04dd2707350",
+    "time": "2012-05-12"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-05-12"
+  },
+  {
+    "place": "Arcade4f90b98de4b079c23ae60008",
+    "time": "2012-05-13"
+  },
+  {
+    "place": "Bookstore4b77007bf964a5204b732ee3",
+    "time": "2012-05-13"
+  },
+  {
+    "place": "Convenience Store4ea766bedab48494d86ef5bf",
+    "time": "2012-05-13"
+  },
+  {
+    "place": "Music Venue4f2abd21e4b07e41d9883961",
+    "time": "2012-05-13"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-05-13"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-05-14"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-05-14"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-05-15"
+  },
+  {
+    "place": "Bookstore4b77007bf964a5204b732ee3",
+    "time": "2012-05-15"
+  },
+  {
+    "place": "Bookstore4b77007bf964a5204b732ee3",
+    "time": "2012-05-15"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-05-15"
+  },
+  {
+    "place": "Music Venue4f2abd21e4b07e41d9883961",
+    "time": "2012-05-15"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-05-16"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-05-16"
+  },
+  {
+    "place": "Coffee Shop4b9ad66cf964a520b6da35e3",
+    "time": "2012-05-16"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-05-17"
+  },
+  {
+    "place": "Bar4a90a5caf964a520f01820e3",
+    "time": "2012-05-17"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-05-17"
+  },
+  {
+    "place": "Bookstore4b77007bf964a5204b732ee3",
+    "time": "2012-05-17"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-05-18"
+  },
+  {
+    "place": "Bookstore4b77007bf964a5204b732ee3",
+    "time": "2012-05-18"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-05-19"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-05-19"
+  },
+  {
+    "place": "Bookstore4b77007bf964a5204b732ee3",
+    "time": "2012-05-19"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-05-21"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-05-22"
+  },
+  {
+    "place": "Bookstore4b77007bf964a5204b732ee3",
+    "time": "2012-05-22"
+  },
+  {
+    "place": "Bookstore4b77007bf964a5204b732ee3",
+    "time": "2012-05-23"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-05-24"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-05-25"
+  },
+  {
+    "place": "Bookstore4b77007bf964a5204b732ee3",
+    "time": "2012-05-25"
+  },
+  {
+    "place": "Coffee Shop4b9ad66cf964a520b6da35e3",
+    "time": "2012-05-25"
+  },
+  {
+    "place": "Convenience Store4ea766bedab48494d86ef5bf",
+    "time": "2012-05-25"
+  },
+  {
+    "place": "Bookstore4b77007bf964a5204b732ee3",
+    "time": "2012-05-25"
+  },
+  {
+    "place": "Convenience Store4ea766bedab48494d86ef5bf",
+    "time": "2012-05-25"
+  },
+  {
+    "place": "Department Store4b5e70e7f964a520d08e29e3",
+    "time": "2012-05-26"
+  },
+  {
+    "place": "American Restaurant4afdf64bf964a520782c22e3",
+    "time": "2012-05-26"
+  },
+  {
+    "place": "Office4db479a693a017099dd9c8b8",
+    "time": "2012-05-26"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-05-26"
+  },
+  {
+    "place": "Arcade4f90b98de4b079c23ae60008",
+    "time": "2012-05-26"
+  },
+  {
+    "place": "American Restaurant4b944ae7f964a520437334e3",
+    "time": "2012-05-27"
+  },
+  {
+    "place": "Arcade4f90b98de4b079c23ae60008",
+    "time": "2012-05-27"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-05-27"
+  },
+  {
+    "place": "Bar4a90a5caf964a520f01820e3",
+    "time": "2012-05-27"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-05-27"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-05-27"
+  },
+  {
+    "place": "Arcade4f90b98de4b079c23ae60008",
+    "time": "2012-05-27"
+  },
+  {
+    "place": "Coffee Shop4b53be6ef964a520fba927e3",
+    "time": "2012-05-28"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-05-28"
+  },
+  {
+    "place": "Deli / Bodega4b865064f964a520ac8531e3",
+    "time": "2012-05-28"
+  },
+  {
+    "place": "Mall4a991c59f964a520662d20e3",
+    "time": "2012-05-28"
+  },
+  {
+    "place": "Department Store4b511e75f964a520654327e3",
+    "time": "2012-05-28"
+  },
+  {
+    "place": "Jewelry Store4bef0b4bf2712d7fb138fbd8",
+    "time": "2012-05-28"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-05-28"
+  },
+  {
+    "place": "Hardware Store4bd0ed4c77b29c748ad88b82",
+    "time": "2012-05-28"
+  },
+  {
+    "place": "Music Venue4f2abd21e4b07e41d9883961",
+    "time": "2012-05-28"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-05-29"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-05-29"
+  },
+  {
+    "place": "Music Venue4f2abd21e4b07e41d9883961",
+    "time": "2012-05-29"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-05-30"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-05-31"
+  },
+  {
+    "place": "Bookstore4b77007bf964a5204b732ee3",
+    "time": "2012-05-31"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-06-02"
+  },
+  {
+    "place": "Bookstore4b367d9af964a5209f3625e3",
+    "time": "2012-06-03"
+  },
+  {
+    "place": "American Restaurant4c560753973fc928739f4dc8",
+    "time": "2012-06-03"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-06-03"
+  },
+  {
+    "place": "Bar4b423035f964a52082ce25e3",
+    "time": "2012-06-03"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-06-03"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-06-03"
+  },
+  {
+    "place": "Bank4b8185ddf964a52032ac30e3",
+    "time": "2012-06-03"
+  },
+  {
+    "place": "Bookstore4b77007bf964a5204b732ee3",
+    "time": "2012-06-03"
+  },
+  {
+    "place": "Coffee Shop4b9ad66cf964a520b6da35e3",
+    "time": "2012-06-03"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-06-03"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-06-03"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-06-04"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-06-05"
+  },
+  {
+    "place": "Bookstore4b77007bf964a5204b732ee3",
+    "time": "2012-06-05"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-06-06"
+  },
+  {
+    "place": "Bookstore4b77007bf964a5204b732ee3",
+    "time": "2012-06-06"
+  },
+  {
+    "place": "Drugstore / Pharmacy4b5b78b4f964a520c40029e3",
+    "time": "2012-06-06"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-06-07"
+  },
+  {
+    "place": "Bookstore4b77007bf964a5204b732ee3",
+    "time": "2012-06-07"
+  },
+  {
+    "place": "Convenience Store4ea766bedab48494d86ef5bf",
+    "time": "2012-06-07"
+  },
+  {
+    "place": "Pizza Place4d98e7242bd6f04dd2707350",
+    "time": "2012-06-07"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-06-08"
+  },
+  {
+    "place": "Bookstore4b77007bf964a5204b732ee3",
+    "time": "2012-06-08"
+  },
+  {
+    "place": "Coffee Shop4b9ad66cf964a520b6da35e3",
+    "time": "2012-06-08"
+  },
+  {
+    "place": "Bookstore4b77007bf964a5204b732ee3",
+    "time": "2012-06-08"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-06-09"
+  },
+  {
+    "place": "Music Venue4f2abd21e4b07e41d9883961",
+    "time": "2012-06-09"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-06-10"
+  },
+  {
+    "place": "Music Venue4f2abd21e4b07e41d9883961",
+    "time": "2012-06-10"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-06-10"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-06-10"
+  },
+  {
+    "place": "Deli / Bodega4b865064f964a520ac8531e3",
+    "time": "2012-06-10"
+  },
+  {
+    "place": "Pizza Place4d98e7242bd6f04dd2707350",
+    "time": "2012-06-10"
+  },
+  {
+    "place": "Coffee Shop4b9ad66cf964a520b6da35e3",
+    "time": "2012-06-10"
+  },
+  {
+    "place": "Convenience Store4ea766bedab48494d86ef5bf",
+    "time": "2012-06-10"
+  },
+  {
+    "place": "Bookstore4b77007bf964a5204b732ee3",
+    "time": "2012-06-10"
+  },
+  {
+    "place": "Coffee Shop4b9ad66cf964a520b6da35e3",
+    "time": "2012-06-10"
+  },
+  {
+    "place": "Bookstore4b77007bf964a5204b732ee3",
+    "time": "2012-06-10"
+  },
+  {
+    "place": "Office4db479a693a017099dd9c8b8",
+    "time": "2012-06-10"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-06-11"
+  },
+  {
+    "place": "Music Venue4f2abd21e4b07e41d9883961",
+    "time": "2012-06-11"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-06-11"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-06-12"
+  },
+  {
+    "place": "Bookstore4b77007bf964a5204b732ee3",
+    "time": "2012-06-12"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-06-13"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-06-13"
+  },
+  {
+    "place": "Bookstore4b77007bf964a5204b732ee3",
+    "time": "2012-06-13"
+  },
+  {
+    "place": "Electronics Store4b983023f964a520a13235e3",
+    "time": "2012-06-14"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-06-16"
+  },
+  {
+    "place": "Music Venue4f2abd21e4b07e41d9883961",
+    "time": "2012-06-16"
+  },
+  {
+    "place": "Bar4c43a3baf0bdd13ae58fc8cc",
+    "time": "2012-06-17"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-06-17"
+  },
+  {
+    "place": "American Restaurant4b944ae7f964a520437334e3",
+    "time": "2012-06-17"
+  },
+  {
+    "place": "Hardware Store4b25439df964a520ee6e24e3",
+    "time": "2012-06-17"
+  },
+  {
+    "place": "Office4db479a693a017099dd9c8b8",
+    "time": "2012-06-17"
+  },
+  {
+    "place": "Music Venue4f2abd21e4b07e41d9883961",
+    "time": "2012-06-17"
+  },
+  {
+    "place": "Office4db479a693a017099dd9c8b8",
+    "time": "2012-06-18"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-06-18"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-06-21"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-06-21"
+  },
+  {
+    "place": "Convenience Store4ea766bedab48494d86ef5bf",
+    "time": "2012-06-26"
+  },
+  {
+    "place": "Bookstore4b77007bf964a5204b732ee3",
+    "time": "2012-06-26"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-06-26"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-06-27"
+  },
+  {
+    "place": "Music Venue4f2abd21e4b07e41d9883961",
+    "time": "2012-06-30"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-06-30"
+  },
+  {
+    "place": "Bar4c43a3baf0bdd13ae58fc8cc",
+    "time": "2012-07-01"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-07-01"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-07-02"
+  },
+  {
+    "place": "Mall4a991c59f964a520662d20e3",
+    "time": "2012-07-02"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-07-02"
+  },
+  {
+    "place": "Parking4c703ddbd97fa1438e83f5ca",
+    "time": "2012-07-02"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-07-03"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-07-03"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-07-03"
+  },
+  {
+    "place": "Bookstore4b77007bf964a5204b732ee3",
+    "time": "2012-07-03"
+  },
+  {
+    "place": "Convenience Store4ea766bedab48494d86ef5bf",
+    "time": "2012-07-03"
+  },
+  {
+    "place": "Bookstore4b77007bf964a5204b732ee3",
+    "time": "2012-07-03"
+  },
+  {
+    "place": "Bookstore4b77007bf964a5204b732ee3",
+    "time": "2012-07-03"
+  },
+  {
+    "place": "Office4db479a693a017099dd9c8b8",
+    "time": "2012-07-04"
+  },
+  {
+    "place": "Music Venue4f2abd21e4b07e41d9883961",
+    "time": "2012-07-04"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-07-04"
+  },
+  {
+    "place": "Convenience Store4ea766bedab48494d86ef5bf",
+    "time": "2012-07-04"
+  },
+  {
+    "place": "Bookstore4b77007bf964a5204b732ee3",
+    "time": "2012-07-04"
+  },
+  {
+    "place": "Arcade4f90b98de4b079c23ae60008",
+    "time": "2012-07-04"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-07-05"
+  },
+  {
+    "place": "Music Venue4f2abd21e4b07e41d9883961",
+    "time": "2012-07-05"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-07-05"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-07-05"
+  },
+  {
+    "place": "Bookstore4b77007bf964a5204b732ee3",
+    "time": "2012-07-05"
+  },
+  {
+    "place": "Convenience Store4ea766bedab48494d86ef5bf",
+    "time": "2012-07-05"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-07-06"
+  },
+  {
+    "place": "Music Venue4f2abd21e4b07e41d9883961",
+    "time": "2012-07-06"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-07-06"
+  },
+  {
+    "place": "Bookstore4b77007bf964a5204b732ee3",
+    "time": "2012-07-06"
+  },
+  {
+    "place": "Convenience Store4ea766bedab48494d86ef5bf",
+    "time": "2012-07-06"
+  },
+  {
+    "place": "Music Venue4f2abd21e4b07e41d9883961",
+    "time": "2012-07-07"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-07-07"
+  },
+  {
+    "place": "Bar4b423035f964a52082ce25e3",
+    "time": "2012-07-08"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-07-08"
+  },
+  {
+    "place": "Pizza Place4b1808daf964a520d0cb23e3",
+    "time": "2012-07-08"
+  },
+  {
+    "place": "Office4db479a693a017099dd9c8b8",
+    "time": "2012-07-08"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-07-09"
+  },
+  {
+    "place": "Music Venue4f2abd21e4b07e41d9883961",
+    "time": "2012-07-09"
+  },
+  {
+    "place": "Mall4a991c59f964a520662d20e3",
+    "time": "2012-07-09"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-07-11"
+  },
+  {
+    "place": "Bookstore4b77007bf964a5204b732ee3",
+    "time": "2012-07-11"
+  },
+  {
+    "place": "Music Venue4f2abd21e4b07e41d9883961",
+    "time": "2012-07-12"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-07-12"
+  },
+  {
+    "place": "Bookstore4b77007bf964a5204b732ee3",
+    "time": "2012-07-12"
+  },
+  {
+    "place": "Arcade4f90b98de4b079c23ae60008",
+    "time": "2012-07-13"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-07-13"
+  },
+  {
+    "place": "Bookstore4b77007bf964a5204b732ee3",
+    "time": "2012-07-13"
+  },
+  {
+    "place": "Fast Food Restaurant4b864f38f964a5208e8531e3",
+    "time": "2012-07-14"
+  },
+  {
+    "place": "Bar5000cfabe4b066e96e83403b",
+    "time": "2012-07-14"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-07-14"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-07-15"
+  },
+  {
+    "place": "Office4db479a693a017099dd9c8b8",
+    "time": "2012-07-15"
+  },
+  {
+    "place": "Music Venue4f2abd21e4b07e41d9883961",
+    "time": "2012-07-16"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-07-18"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-07-18"
+  },
+  {
+    "place": "Convenience Store4ea766bedab48494d86ef5bf",
+    "time": "2012-07-18"
+  },
+  {
+    "place": "Bookstore4b77007bf964a5204b732ee3",
+    "time": "2012-07-18"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-07-21"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-07-24"
+  },
+  {
+    "place": "Bookstore4b77007bf964a5204b732ee3",
+    "time": "2012-07-24"
+  },
+  {
+    "place": "Office4db479a693a017099dd9c8b8",
+    "time": "2012-07-27"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-07-28"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-07-28"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-07-29"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-07-29"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-07-30"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-07-30"
+  },
+  {
+    "place": "Deli / Bodega4b865064f964a520ac8531e3",
+    "time": "2012-07-30"
+  },
+  {
+    "place": "Music Venue4f2abd21e4b07e41d9883961",
+    "time": "2012-07-30"
+  },
+  {
+    "place": "Music Venue4f2abd21e4b07e41d9883961",
+    "time": "2012-08-13"
+  },
+  {
+    "place": "Arcade4f90b98de4b079c23ae60008",
+    "time": "2012-08-17"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-08-17"
+  },
+  {
+    "place": "Food & Drink Shop4b4e4b71f964a5206de826e3",
+    "time": "2012-08-19"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-08-20"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-08-20"
+  },
+  {
+    "place": "Music Venue4f2abd21e4b07e41d9883961",
+    "time": "2012-08-17"
+  },
+  {
+    "place": "Bar4b423035f964a52082ce25e3",
+    "time": "2012-08-18"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-08-18"
+  },
+  {
+    "place": "Bookstore4b367d9af964a5209f3625e3",
+    "time": "2012-08-18"
+  },
+  {
+    "place": "Food & Drink Shop4b4e4b71f964a5206de826e3",
+    "time": "2012-08-19"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-08-22"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-09-05"
+  },
+  {
+    "place": "Electronics Store4b983023f964a520a13235e3",
+    "time": "2012-09-05"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-09-14"
+  },
+  {
+    "place": "Electronics Store4b983023f964a520a13235e3",
+    "time": "2012-09-15"
+  },
+  {
+    "place": "Bar4b8e178ef964a520211833e3",
+    "time": "2012-09-15"
+  },
+  {
+    "place": "Music Venue4f2abd21e4b07e41d9883961",
+    "time": "2012-09-16"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-10-03"
+  },
+  {
+    "place": "Electronics Store4b983023f964a520a13235e3",
+    "time": "2012-10-03"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-10-08"
+  },
+  {
+    "place": "Arcade4d9434251231b60c6bdb74a1",
+    "time": "2012-10-12"
+  },
+  {
+    "place": "Bookstore4b77007bf964a5204b732ee3",
+    "time": "2012-10-12"
+  },
+  {
+    "place": "Office4db479a693a017099dd9c8b8",
+    "time": "2012-10-12"
+  }
+]

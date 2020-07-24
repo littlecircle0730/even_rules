@@ -1,0 +1,682 @@
+[
+  {
+    "place": "Airport4c8e2ccb1992a1cd684fdbfb",
+    "time": "2012-05-07"
+  },
+  {
+    "place": "Airport4ace6c89f964a52078d020e3",
+    "time": "2012-05-07"
+  },
+  {
+    "place": "Airport4cc2104301fb236aca8d9cba",
+    "time": "2012-05-07"
+  },
+  {
+    "place": "Rental Car Location4b340194f964a520cc2325e3",
+    "time": "2012-05-07"
+  },
+  {
+    "place": "Bridge4bdeb11b6198c9b6aa7f14ff",
+    "time": "2012-05-07"
+  },
+  {
+    "place": "Thai Restaurant4a105879f964a520a6761fe3",
+    "time": "2012-05-07"
+  },
+  {
+    "place": "Cupcake Shop4e28648c2271752a4594123e",
+    "time": "2012-05-07"
+  },
+  {
+    "place": "Bridge4bdeb11b6198c9b6aa7f14ff",
+    "time": "2012-05-07"
+  },
+  {
+    "place": "Historic Site4b6b5abff964a520fb022ce3",
+    "time": "2012-05-08"
+  },
+  {
+    "place": "Japanese Restaurant4b185a3df964a5204bd123e3",
+    "time": "2012-05-08"
+  },
+  {
+    "place": "Train Station42829c80f964a5206a221fe3",
+    "time": "2012-05-08"
+  },
+  {
+    "place": "Park412d2800f964a520df0c1fe3",
+    "time": "2012-05-12"
+  },
+  {
+    "place": "Comedy Club3fd66200f964a52054e81ee3",
+    "time": "2012-05-12"
+  },
+  {
+    "place": "Neighborhood4bf1f71ad39ad13a49e6aa0e",
+    "time": "2012-05-12"
+  },
+  {
+    "place": "Comedy Club3fd66200f964a52051e61ee3",
+    "time": "2012-05-12"
+  },
+  {
+    "place": "Neighborhood4b666793f964a52074202be3",
+    "time": "2012-05-12"
+  },
+  {
+    "place": "Bridge49ecd458f964a52099671fe3",
+    "time": "2012-05-12"
+  },
+  {
+    "place": "Bridge4a43bd40f964a520bfa61fe3",
+    "time": "2012-05-12"
+  },
+  {
+    "place": "Neighborhood4f53022de4b02d0eb4152d42",
+    "time": "2012-05-12"
+  },
+  {
+    "place": "Restaurant4b2576bef964a520537224e3",
+    "time": "2012-05-13"
+  },
+  {
+    "place": "Train Station42829c80f964a5206a221fe3",
+    "time": "2012-05-13"
+  },
+  {
+    "place": "Plaza49b79f54f964a5202c531fe3",
+    "time": "2012-05-13"
+  },
+  {
+    "place": "Plaza49b7ed6df964a52030531fe3",
+    "time": "2012-05-13"
+  },
+  {
+    "place": "Bridge4a43bd40f964a520bfa61fe3",
+    "time": "2012-05-13"
+  },
+  {
+    "place": "Neighborhood4b2da0ddf964a520c9d924e3",
+    "time": "2012-05-13"
+  },
+  {
+    "place": "Subway4adf9445f964a520c47b21e3",
+    "time": "2012-05-13"
+  },
+  {
+    "place": "Subway4b3bb228f964a520077925e3",
+    "time": "2012-05-13"
+  },
+  {
+    "place": "Neighborhood4cb12bf4db32f04dbc72c64d",
+    "time": "2012-05-13"
+  },
+  {
+    "place": "College Stadium4bce0773c564ef3b6686edf0",
+    "time": "2012-05-13"
+  },
+  {
+    "place": "Neighborhood4d4d70c9b887a1cd88cabba0",
+    "time": "2012-05-13"
+  },
+  {
+    "place": "Subway4b1d14e9f964a520af0b24e3",
+    "time": "2012-05-13"
+  },
+  {
+    "place": "Neighborhood4cbb676bbac937049de8f17c",
+    "time": "2012-05-13"
+  },
+  {
+    "place": "Mexican Restaurant4a06120df964a520b4721fe3",
+    "time": "2012-05-13"
+  },
+  {
+    "place": "Subway4b1d14e9f964a520af0b24e3",
+    "time": "2012-05-13"
+  },
+  {
+    "place": "Subway4adf9445f964a520c47b21e3",
+    "time": "2012-05-13"
+  },
+  {
+    "place": "Bridge4a43bd40f964a520bfa61fe3",
+    "time": "2012-05-13"
+  },
+  {
+    "place": "Train Station4bcf77f4046076b08a5f6e71",
+    "time": "2012-05-14"
+  },
+  {
+    "place": "Food Truck4e4efc3ed22daf51d27017ee",
+    "time": "2012-05-15"
+  },
+  {
+    "place": "Stadium49d60947f964a520a85c1fe3",
+    "time": "2012-05-15"
+  },
+  {
+    "place": "Train Station4b363b1af964a5205b3125e3",
+    "time": "2012-05-15"
+  },
+  {
+    "place": "Neighborhood4d16782be190721e65dc1421",
+    "time": "2012-05-15"
+  },
+  {
+    "place": "Train Station4bcf77f4046076b08a5f6e71",
+    "time": "2012-05-15"
+  },
+  {
+    "place": "Stadium49d60947f964a520a85c1fe3",
+    "time": "2012-05-16"
+  },
+  {
+    "place": "Train Station4bcf77f4046076b08a5f6e71",
+    "time": "2012-05-16"
+  },
+  {
+    "place": "Train Station4b363b1af964a5205b3125e3",
+    "time": "2012-05-16"
+  },
+  {
+    "place": "Train Station42911d00f964a520f5231fe3",
+    "time": "2012-05-19"
+  },
+  {
+    "place": "Subway4b0800f9f964a5202a0223e3",
+    "time": "2012-05-19"
+  },
+  {
+    "place": "Other Great Outdoors4c250a1d136d20a188dfe261",
+    "time": "2012-05-19"
+  },
+  {
+    "place": "Neighborhood4b40cf3df964a5206bbb25e3",
+    "time": "2012-05-19"
+  },
+  {
+    "place": "Chinese Restaurant4a00df67f964a520ba701fe3",
+    "time": "2012-05-19"
+  },
+  {
+    "place": "Subway4b2ac07af964a520ecae24e3",
+    "time": "2012-05-19"
+  },
+  {
+    "place": "Train Station42829c80f964a5206a221fe3",
+    "time": "2012-05-19"
+  },
+  {
+    "place": "Subway4b0737c3f964a520e4f922e3",
+    "time": "2012-05-19"
+  },
+  {
+    "place": "Plaza49b7ed6df964a52030531fe3",
+    "time": "2012-05-19"
+  },
+  {
+    "place": "Plaza49b79f54f964a5202c531fe3",
+    "time": "2012-05-19"
+  },
+  {
+    "place": "Gift Shop45ca42e1f964a5207a421fe3",
+    "time": "2012-05-19"
+  },
+  {
+    "place": "Train Station42829c80f964a5206a221fe3",
+    "time": "2012-05-19"
+  },
+  {
+    "place": "Restaurant4b2576bef964a520537224e3",
+    "time": "2012-05-19"
+  },
+  {
+    "place": "Train Station4aa5c657f964a5206d4920e3",
+    "time": "2012-05-25"
+  },
+  {
+    "place": "Subway4b3bef0df964a520bb7e25e3",
+    "time": "2012-05-25"
+  },
+  {
+    "place": "Subway4bba1bab7421a5936165c340",
+    "time": "2012-05-25"
+  },
+  {
+    "place": "Subway4b57eacef964a5202c4628e3",
+    "time": "2012-05-25"
+  },
+  {
+    "place": "Comedy Club4ceb041afe90a35de6e0500e",
+    "time": "2012-05-25"
+  },
+  {
+    "place": "Park40abf500f964a52035f31ee3",
+    "time": "2012-05-26"
+  },
+  {
+    "place": "Vietnamese Restaurant4ce08a08ffcf370469b12082",
+    "time": "2012-05-26"
+  },
+  {
+    "place": "Subway4b2d93a9f964a5201fd924e3",
+    "time": "2012-05-26"
+  },
+  {
+    "place": "Subway4b280e7cf964a520568e24e3",
+    "time": "2012-05-26"
+  },
+  {
+    "place": "Subway4b3bef0df964a520bb7e25e3",
+    "time": "2012-05-26"
+  },
+  {
+    "place": "Train Station4aa5c657f964a5206d4920e3",
+    "time": "2012-05-26"
+  },
+  {
+    "place": "Neighborhood4b2da0ddf964a520c9d924e3",
+    "time": "2012-05-26"
+  },
+  {
+    "place": "Subway4adf9445f964a520c47b21e3",
+    "time": "2012-05-27"
+  },
+  {
+    "place": "Subway4b12a150f964a5208f8b23e3",
+    "time": "2012-05-27"
+  },
+  {
+    "place": "Neighborhood4bf1f71ad39ad13a49e6aa0e",
+    "time": "2012-05-27"
+  },
+  {
+    "place": "Cupcake Shop4e28648c2271752a4594123e",
+    "time": "2012-05-27"
+  },
+  {
+    "place": "Comedy Club3fd66200f964a52051e61ee3",
+    "time": "2012-05-27"
+  },
+  {
+    "place": "Subway4b12a150f964a5208f8b23e3",
+    "time": "2012-05-27"
+  },
+  {
+    "place": "Subway4adf9445f964a520c47b21e3",
+    "time": "2012-05-27"
+  },
+  {
+    "place": "Bridge4a43bd40f964a520bfa61fe3",
+    "time": "2012-05-27"
+  },
+  {
+    "place": "Gas Station / Garage4fb44c15e4b0019cc96aa173",
+    "time": "2012-05-28"
+  },
+  {
+    "place": "Neighborhood4ca4e519a6e08cfa884d6c94",
+    "time": "2012-05-28"
+  },
+  {
+    "place": "Plaza49b7ed6df964a52030531fe3",
+    "time": "2012-05-28"
+  },
+  {
+    "place": "Comedy Club3fd66200f964a520cce71ee3",
+    "time": "2012-05-28"
+  },
+  {
+    "place": "Neighborhood4d98ba360caaa143bdf3b3b3",
+    "time": "2012-05-28"
+  },
+  {
+    "place": "Bridge4a43bd40f964a520bfa61fe3",
+    "time": "2012-05-28"
+  },
+  {
+    "place": "Bridge4b63658af964a520de762ae3",
+    "time": "2012-05-28"
+  },
+  {
+    "place": "Neighborhood4bdc9fb73904a59345084f9e",
+    "time": "2012-05-28"
+  },
+  {
+    "place": "BBQ Joint46093845f964a520e3441fe3",
+    "time": "2012-05-28"
+  },
+  {
+    "place": "Bridge4a43bf53f964a520c1a61fe3",
+    "time": "2012-05-28"
+  },
+  {
+    "place": "Other Great Outdoors4a58f861f964a52058b81fe3",
+    "time": "2012-05-28"
+  },
+  {
+    "place": "Coffee Shop4b0807abf964a520890223e3",
+    "time": "2012-05-28"
+  },
+  {
+    "place": "Neighborhood4d98ba360caaa143bdf3b3b3",
+    "time": "2012-06-01"
+  },
+  {
+    "place": "Bakery4a9845b0f964a520452b20e3",
+    "time": "2012-06-01"
+  },
+  {
+    "place": "Building4fb260f3e4b03b8c9dc15356",
+    "time": "2012-06-01"
+  },
+  {
+    "place": "General Entertainment4a491718f964a520f6aa1fe3",
+    "time": "2012-06-01"
+  },
+  {
+    "place": "Airport4ace6c89f964a52078d020e3",
+    "time": "2012-06-12"
+  },
+  {
+    "place": "Airport4f9af137e4b0de6266d4243a",
+    "time": "2012-06-12"
+  },
+  {
+    "place": "Airport4ace64bef964a52053d020e3",
+    "time": "2012-06-12"
+  },
+  {
+    "place": "Airport4cc2104301fb236aca8d9cba",
+    "time": "2012-06-12"
+  },
+  {
+    "place": "Road4e25887762848b6a9276e1c8",
+    "time": "2012-06-26"
+  },
+  {
+    "place": "Neighborhood4b666793f964a52074202be3",
+    "time": "2012-06-26"
+  },
+  {
+    "place": "Thai Restaurant4c96bb5a82b56dcbb151e4aa",
+    "time": "2012-06-26"
+  },
+  {
+    "place": "Bar4c8d901155fba093997669ab",
+    "time": "2012-06-27"
+  },
+  {
+    "place": "Bridge49ecd458f964a52099671fe3",
+    "time": "2012-06-27"
+  },
+  {
+    "place": "Bridge4b63658af964a520de762ae3",
+    "time": "2012-06-27"
+  },
+  {
+    "place": "Airport4ace64bef964a52053d020e3",
+    "time": "2012-07-16"
+  },
+  {
+    "place": "Airport4cc2104301fb236aca8d9cba",
+    "time": "2012-07-16"
+  },
+  {
+    "place": "Moving Target4fe23fc1e4b0b689ab715361",
+    "time": "2012-07-16"
+  },
+  {
+    "place": "Rental Car Location4b8eb70ff964a520c23233e3",
+    "time": "2012-07-16"
+  },
+  {
+    "place": "Neighborhood4c315e907cc0c9b688cbee9a",
+    "time": "2012-07-17"
+  },
+  {
+    "place": "Neighborhood4c6a361fc946e21ea73eec8e",
+    "time": "2012-07-20"
+  },
+  {
+    "place": "Bar4a106005f964a520af761fe3",
+    "time": "2012-07-20"
+  },
+  {
+    "place": "Road4e3ec0522271d21e870728ca",
+    "time": "2012-07-28"
+  },
+  {
+    "place": "Bridge4b63658af964a520de762ae3",
+    "time": "2012-07-28"
+  },
+  {
+    "place": "Factory4aad64c6f964a5200a6020e3",
+    "time": "2012-07-28"
+  },
+  {
+    "place": "Distillery4c2d2ca63a4d0f474776e386",
+    "time": "2012-07-28"
+  },
+  {
+    "place": "Neighborhood4be43a08bcef2d7f9b3a02e5",
+    "time": "2012-07-28"
+  },
+  {
+    "place": "Coffee Shop49e4a677f964a52014631fe3",
+    "time": "2012-07-28"
+  },
+  {
+    "place": "Road4e3ec0522271d21e870728ca",
+    "time": "2012-07-28"
+  },
+  {
+    "place": "Bridge4a43bcb7f964a520bba61fe3",
+    "time": "2012-07-29"
+  },
+  {
+    "place": "BBQ Joint46093845f964a520e3441fe3",
+    "time": "2012-07-29"
+  },
+  {
+    "place": "Road4e3ec0522271d21e870728ca",
+    "time": "2012-07-29"
+  },
+  {
+    "place": "Road4e3ec0522271d21e870728ca",
+    "time": "2012-07-30"
+  },
+  {
+    "place": "Road4bdeb11b6198c9b6aa7f14ff",
+    "time": "2012-07-30"
+  },
+  {
+    "place": "Neighborhood4ca4e519a6e08cfa884d6c94",
+    "time": "2012-07-30"
+  },
+  {
+    "place": "Bridge4a43bd40f964a520bfa61fe3",
+    "time": "2012-07-30"
+  },
+  {
+    "place": "Airport4af23a4af964a520c2e621e3",
+    "time": "2012-08-13"
+  },
+  {
+    "place": "Airport4ace6c89f964a52078d020e3",
+    "time": "2012-08-13"
+  },
+  {
+    "place": "Airport4b3706fcf964a5201f3f25e3",
+    "time": "2012-08-13"
+  },
+  {
+    "place": "Rental Car Location4b8eb70ff964a520c23233e3",
+    "time": "2012-08-13"
+  },
+  {
+    "place": "Neighborhood4c315e907cc0c9b688cbee9a",
+    "time": "2012-08-13"
+  },
+  {
+    "place": "Bridge4b63658af964a520de762ae3",
+    "time": "2012-08-13"
+  },
+  {
+    "place": "Deli / Bodega4acbe67af964a52044c820e3",
+    "time": "2012-08-14"
+  },
+  {
+    "place": "Neighborhood4c95736e034137040e377cef",
+    "time": "2012-08-14"
+  },
+  {
+    "place": "Hotel4a0e0f85f964a520bf751fe3",
+    "time": "2012-08-14"
+  },
+  {
+    "place": "Bridge49ecd458f964a52099671fe3",
+    "time": "2012-08-14"
+  },
+  {
+    "place": "Road4b8725e0f964a52034b331e3",
+    "time": "2012-08-16"
+  },
+  {
+    "place": "Bridge4b63658af964a520de762ae3",
+    "time": "2012-08-16"
+  },
+  {
+    "place": "Neighborhood4b666793f964a52074202be3",
+    "time": "2012-08-16"
+  },
+  {
+    "place": "Bar40c10d00f964a520de001fe3",
+    "time": "2012-08-17"
+  },
+  {
+    "place": "Bridge4a43bd40f964a520bfa61fe3",
+    "time": "2012-08-19"
+  },
+  {
+    "place": "Neighborhood4cbb676bbac937049de8f17c",
+    "time": "2012-08-19"
+  },
+  {
+    "place": "Subway4b466b09f964a520452026e3",
+    "time": "2012-08-19"
+  },
+  {
+    "place": "Ferry4c1a94bcb4e62d7f0c08d893",
+    "time": "2012-08-19"
+  },
+  {
+    "place": "Ferry4165d880f964a5207e1d1fe3",
+    "time": "2012-08-19"
+  },
+  {
+    "place": "Subway4b466b09f964a520452026e3",
+    "time": "2012-08-19"
+  },
+  {
+    "place": "Subway4b57e161f964a520eb4428e3",
+    "time": "2012-08-19"
+  },
+  {
+    "place": "Neighborhood4bdc9fb73904a59345084f9e",
+    "time": "2012-08-19"
+  },
+  {
+    "place": "Bridge4a43bf53f964a520c1a61fe3",
+    "time": "2012-08-19"
+  },
+  {
+    "place": "Bridge4b63658af964a520de762ae3",
+    "time": "2012-08-17"
+  },
+  {
+    "place": "Neighborhood4bdc9fb73904a59345084f9e",
+    "time": "2012-08-17"
+  },
+  {
+    "place": "Neighborhood4c6a361fc946e21ea73eec8e",
+    "time": "2012-08-18"
+  },
+  {
+    "place": "Bridge4a43bf53f964a520c1a61fe3",
+    "time": "2012-08-18"
+  },
+  {
+    "place": "Road4e25887762848b6a9276e1c8",
+    "time": "2012-10-18"
+  },
+  {
+    "place": "Bridge4b63658af964a520de762ae3",
+    "time": "2012-10-18"
+  },
+  {
+    "place": "Bridge49ecd458f964a52099671fe3",
+    "time": "2012-10-18"
+  },
+  {
+    "place": "Vietnamese Restaurant4c9e5229ca44236af6b32999",
+    "time": "2012-10-19"
+  },
+  {
+    "place": "Road4e3ec0522271d21e870728ca",
+    "time": "2012-10-25"
+  },
+  {
+    "place": "Bridge4b63658af964a520de762ae3",
+    "time": "2012-10-25"
+  },
+  {
+    "place": "Bridge49ecd458f964a52099671fe3",
+    "time": "2012-10-25"
+  },
+  {
+    "place": "Neighborhood503030c8e4b0f9a2ddc15386",
+    "time": "2012-10-25"
+  },
+  {
+    "place": "Bridge49ecd458f964a52099671fe3",
+    "time": "2012-10-26"
+  },
+  {
+    "place": "Bridge4ba58775f964a5209e0f39e3",
+    "time": "2012-10-26"
+  },
+  {
+    "place": "Gas Station / Garage4c2375b57e85c928d490bd21",
+    "time": "2012-10-26"
+  },
+  {
+    "place": "Rental Car Location4b8eb70ff964a520c23233e3",
+    "time": "2012-10-26"
+  },
+  {
+    "place": "Moving Target4fe23fc1e4b0b689ab715361",
+    "time": "2012-10-26"
+  },
+  {
+    "place": "Airport4f7de8cd7bebffc0d0283cf1",
+    "time": "2012-10-26"
+  },
+  {
+    "place": "Airport4e804c0261af498d1320c4e2",
+    "time": "2012-10-26"
+  },
+  {
+    "place": "Airport4ace6c89f964a52078d020e3",
+    "time": "2012-10-26"
+  },
+  {
+    "place": "Airport4ace64bef964a52053d020e3",
+    "time": "2012-10-26"
+  },
+  {
+    "place": "Airport4ed4b50c5c5c6e2492de0418",
+    "time": "2012-10-26"
+  }
+]

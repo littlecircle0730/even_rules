@@ -1,0 +1,558 @@
+[
+  {
+    "place": "Coffee Shop4b25a38bf964a520dc7424e3",
+    "time": "2012-04-09"
+  },
+  {
+    "place": "Pet Store4ba682cff964a520825939e3",
+    "time": "2012-04-10"
+  },
+  {
+    "place": "University4bb0da94f964a52067633ce3",
+    "time": "2012-04-11"
+  },
+  {
+    "place": "College Academic Building4bb0c8c4f964a520945c3ce3",
+    "time": "2012-04-12"
+  },
+  {
+    "place": "American Restaurant4ca4b737d7c3370410a3ab62",
+    "time": "2012-04-12"
+  },
+  {
+    "place": "Clothing Store4ce80571f1c6236aba275df0",
+    "time": "2012-04-12"
+  },
+  {
+    "place": "College Academic Building4bb0c8c4f964a520945c3ce3",
+    "time": "2012-04-13"
+  },
+  {
+    "place": "Mall43c922c9f964a520972d1fe3",
+    "time": "2012-04-14"
+  },
+  {
+    "place": "Sporting Goods Shop4c021103fd082d7f11f20785",
+    "time": "2012-04-14"
+  },
+  {
+    "place": "Seafood Restaurant4bdcc53e03be20a1c7b2849b",
+    "time": "2012-04-15"
+  },
+  {
+    "place": "College Academic Building4bb0c8c4f964a520945c3ce3",
+    "time": "2012-04-16"
+  },
+  {
+    "place": "Bookstore4bd73f290b779c741cc004a0",
+    "time": "2012-04-16"
+  },
+  {
+    "place": "College Academic Building4bb0c8c4f964a520945c3ce3",
+    "time": "2012-04-17"
+  },
+  {
+    "place": "College Academic Building4bb0c8c4f964a520945c3ce3",
+    "time": "2012-04-18"
+  },
+  {
+    "place": "Gym / Fitness Center4bbd2747f57ba5936bccadb9",
+    "time": "2012-04-18"
+  },
+  {
+    "place": "Miscellaneous Shop4bf994845317a5932f87017f",
+    "time": "2012-04-18"
+  },
+  {
+    "place": "Coffee Shop4aafdf93f964a520f66420e3",
+    "time": "2012-04-19"
+  },
+  {
+    "place": "College Academic Building4bb0c8c4f964a520945c3ce3",
+    "time": "2012-04-19"
+  },
+  {
+    "place": "Gym / Fitness Center4bbd2747f57ba5936bccadb9",
+    "time": "2012-04-19"
+  },
+  {
+    "place": "College Academic Building4bb0c8c4f964a520945c3ce3",
+    "time": "2012-04-20"
+  },
+  {
+    "place": "Sporting Goods Shop4c021103fd082d7f11f20785",
+    "time": "2012-04-20"
+  },
+  {
+    "place": "Event Space4ba430fdf964a520988a38e3",
+    "time": "2012-04-22"
+  },
+  {
+    "place": "Breakfast Spot4a1a4dcbf964a520927a1fe3",
+    "time": "2012-04-23"
+  },
+  {
+    "place": "College Academic Building4bb0c8c4f964a520945c3ce3",
+    "time": "2012-04-23"
+  },
+  {
+    "place": "Gym / Fitness Center4bbd2747f57ba5936bccadb9",
+    "time": "2012-04-23"
+  },
+  {
+    "place": "College Academic Building4bb0c8c4f964a520945c3ce3",
+    "time": "2012-04-24"
+  },
+  {
+    "place": "Gym / Fitness Center4bbd2747f57ba5936bccadb9",
+    "time": "2012-04-24"
+  },
+  {
+    "place": "Miscellaneous Shop4bf994845317a5932f87017f",
+    "time": "2012-04-24"
+  },
+  {
+    "place": "Gym / Fitness Center4bbd2747f57ba5936bccadb9",
+    "time": "2012-04-25"
+  },
+  {
+    "place": "College Academic Building4bb0c8c4f964a520945c3ce3",
+    "time": "2012-04-26"
+  },
+  {
+    "place": "Salon / Barbershop4b5f225bf964a52022a829e3",
+    "time": "2012-04-27"
+  },
+  {
+    "place": "Clothing Store4aa1a80cf964a5206a4120e3",
+    "time": "2012-04-27"
+  },
+  {
+    "place": "Clothing Store4b8f00b4f964a520ce4333e3",
+    "time": "2012-04-27"
+  },
+  {
+    "place": "Tattoo Parlor4c49efb6712ac928bf93ba6a",
+    "time": "2012-04-28"
+  },
+  {
+    "place": "Mexican Restaurant3fd66200f964a52032eb1ee3",
+    "time": "2012-04-28"
+  },
+  {
+    "place": "Gym / Fitness Center4bbd2747f57ba5936bccadb9",
+    "time": "2012-05-01"
+  },
+  {
+    "place": "College Academic Building4bb0c8c4f964a520945c3ce3",
+    "time": "2012-05-03"
+  },
+  {
+    "place": "American Restaurant4ca4b737d7c3370410a3ab62",
+    "time": "2012-05-04"
+  },
+  {
+    "place": "Gym / Fitness Center4bbd2747f57ba5936bccadb9",
+    "time": "2012-05-04"
+  },
+  {
+    "place": "College Academic Building4bb0c8c4f964a520945c3ce3",
+    "time": "2012-05-07"
+  },
+  {
+    "place": "Coffee Shop4b25a38bf964a520dc7424e3",
+    "time": "2012-05-08"
+  },
+  {
+    "place": "Medical School4c20eddc4889a593ef282720",
+    "time": "2012-05-09"
+  },
+  {
+    "place": "Medical Center4bbe05aca8cf76b0b07fb2fd",
+    "time": "2012-05-10"
+  },
+  {
+    "place": "College Academic Building4bb0c8c4f964a520945c3ce3",
+    "time": "2012-05-11"
+  },
+  {
+    "place": "Breakfast Spot4a1a4dcbf964a520927a1fe3",
+    "time": "2012-05-12"
+  },
+  {
+    "place": "College Academic Building4bb0c8c4f964a520945c3ce3",
+    "time": "2012-05-15"
+  },
+  {
+    "place": "Gym / Fitness Center4bbd2747f57ba5936bccadb9",
+    "time": "2012-05-15"
+  },
+  {
+    "place": "Coffee Shop4b25a38bf964a520dc7424e3",
+    "time": "2012-05-16"
+  },
+  {
+    "place": "Coffee Shop49d9658af964a520325e1fe3",
+    "time": "2012-05-16"
+  },
+  {
+    "place": "Gym / Fitness Center4bbd2747f57ba5936bccadb9",
+    "time": "2012-05-16"
+  },
+  {
+    "place": "College Academic Building4bb0c8c4f964a520945c3ce3",
+    "time": "2012-05-17"
+  },
+  {
+    "place": "Medical School4c20eddc4889a593ef282720",
+    "time": "2012-05-21"
+  },
+  {
+    "place": "Gym / Fitness Center4bbd2747f57ba5936bccadb9",
+    "time": "2012-05-21"
+  },
+  {
+    "place": "Gym / Fitness Center4bbd2747f57ba5936bccadb9",
+    "time": "2012-05-23"
+  },
+  {
+    "place": "College Academic Building4bb0c8c4f964a520945c3ce3",
+    "time": "2012-05-25"
+  },
+  {
+    "place": "Salon / Barbershop4b5f225bf964a52022a829e3",
+    "time": "2012-05-25"
+  },
+  {
+    "place": "Department Store41102700f964a520d60b1fe3",
+    "time": "2012-05-25"
+  },
+  {
+    "place": "College Academic Building4bb0c8c4f964a520945c3ce3",
+    "time": "2012-05-29"
+  },
+  {
+    "place": "College Academic Building4bb0c8c4f964a520945c3ce3",
+    "time": "2012-06-01"
+  },
+  {
+    "place": "Coffee Shop4b25a38bf964a520dc7424e3",
+    "time": "2012-06-05"
+  },
+  {
+    "place": "Medical Center4ac8b592f964a52054bc20e3",
+    "time": "2012-06-05"
+  },
+  {
+    "place": "Drugstore / Pharmacy4bb91f973db7b7130e07229a",
+    "time": "2012-06-06"
+  },
+  {
+    "place": "Gym / Fitness Center4bbd2747f57ba5936bccadb9",
+    "time": "2012-06-06"
+  },
+  {
+    "place": "Coffee Shop49d9658af964a520325e1fe3",
+    "time": "2012-06-07"
+  },
+  {
+    "place": "Coffee Shop4b25a38bf964a520dc7424e3",
+    "time": "2012-06-08"
+  },
+  {
+    "place": "Medical Center4ee7d0dae300898eefd63896",
+    "time": "2012-06-08"
+  },
+  {
+    "place": "Spa / Massage4bbac3eecf2fc9b6a8f2a102",
+    "time": "2012-06-08"
+  },
+  {
+    "place": "Bar49c180edf964a520af551fe3",
+    "time": "2012-06-09"
+  },
+  {
+    "place": "Sporting Goods Shop4c5714b9b1369521d952735a",
+    "time": "2012-06-10"
+  },
+  {
+    "place": "Tapas Restaurant4bcf9ecb462cb713e425d707",
+    "time": "2012-06-11"
+  },
+  {
+    "place": "Medical Center4ac8b592f964a52054bc20e3",
+    "time": "2012-06-11"
+  },
+  {
+    "place": "Food & Drink Shop4cb21600aef16dcb55a9be54",
+    "time": "2012-06-11"
+  },
+  {
+    "place": "Coffee Shop4b25a38bf964a520dc7424e3",
+    "time": "2012-06-12"
+  },
+  {
+    "place": "Bookstore4bd73f290b779c741cc004a0",
+    "time": "2012-06-13"
+  },
+  {
+    "place": "Gym / Fitness Center4bbd2747f57ba5936bccadb9",
+    "time": "2012-06-13"
+  },
+  {
+    "place": "Medical Center4ac8b592f964a52054bc20e3",
+    "time": "2012-06-15"
+  },
+  {
+    "place": "Clothing Store4b1aa7c9f964a52081ee23e3",
+    "time": "2012-06-16"
+  },
+  {
+    "place": "Tattoo Parlor4c49efb6712ac928bf93ba6a",
+    "time": "2012-06-17"
+  },
+  {
+    "place": "Seafood Restaurant4bdcc53e03be20a1c7b2849b",
+    "time": "2012-06-17"
+  },
+  {
+    "place": "Medical Center4ac8b592f964a52054bc20e3",
+    "time": "2012-06-18"
+  },
+  {
+    "place": "American Restaurant42474900f964a5207c201fe3",
+    "time": "2012-06-30"
+  },
+  {
+    "place": "Bar4bc02a07f8219c74464bb110",
+    "time": "2012-07-01"
+  },
+  {
+    "place": "Medical Center4ac8b592f964a52054bc20e3",
+    "time": "2012-07-02"
+  },
+  {
+    "place": "Gym / Fitness Center4bbd2747f57ba5936bccadb9",
+    "time": "2012-07-02"
+  },
+  {
+    "place": "Coffee Shop4b25a38bf964a520dc7424e3",
+    "time": "2012-07-03"
+  },
+  {
+    "place": "Medical Center4f8f2c1ee4b0a59082db99fd",
+    "time": "2012-07-03"
+  },
+  {
+    "place": "Food & Drink Shop4530db29f964a520613b1fe3",
+    "time": "2012-07-03"
+  },
+  {
+    "place": "Pet Store4ba682cff964a520825939e3",
+    "time": "2012-07-04"
+  },
+  {
+    "place": "Medical Center4ac8b592f964a52054bc20e3",
+    "time": "2012-07-05"
+  },
+  {
+    "place": "Spa / Massage4bbac3eecf2fc9b6a8f2a102",
+    "time": "2012-07-05"
+  },
+  {
+    "place": "Medical Center4ac8b592f964a52054bc20e3",
+    "time": "2012-07-06"
+  },
+  {
+    "place": "Spa / Massage4bbac3eecf2fc9b6a8f2a102",
+    "time": "2012-07-07"
+  },
+  {
+    "place": "Mexican Restaurant3fd66200f964a52032eb1ee3",
+    "time": "2012-07-07"
+  },
+  {
+    "place": "Tapas Restaurant4bcf9ecb462cb713e425d707",
+    "time": "2012-07-08"
+  },
+  {
+    "place": "Medical Center4ac8b592f964a52054bc20e3",
+    "time": "2012-07-09"
+  },
+  {
+    "place": "Gym / Fitness Center4bbd2747f57ba5936bccadb9",
+    "time": "2012-07-09"
+  },
+  {
+    "place": "Bagel Shop4b54f0d8f964a52043d427e3",
+    "time": "2012-07-11"
+  },
+  {
+    "place": "Gym / Fitness Center4bbd2747f57ba5936bccadb9",
+    "time": "2012-07-11"
+  },
+  {
+    "place": "Medical Center4ac8b592f964a52054bc20e3",
+    "time": "2012-07-12"
+  },
+  {
+    "place": "Caf\u00c3\u00a94bdb104b3904a5939e8e489e",
+    "time": "2012-07-12"
+  },
+  {
+    "place": "Gym / Fitness Center4bbd2747f57ba5936bccadb9",
+    "time": "2012-07-12"
+  },
+  {
+    "place": "Coffee Shop4b25a38bf964a520dc7424e3",
+    "time": "2012-07-13"
+  },
+  {
+    "place": "Medical Center4ac8b592f964a52054bc20e3",
+    "time": "2012-07-16"
+  },
+  {
+    "place": "Gym / Fitness Center4bbd2747f57ba5936bccadb9",
+    "time": "2012-07-16"
+  },
+  {
+    "place": "Medical School4c20eddc4889a593ef282720",
+    "time": "2012-07-17"
+  },
+  {
+    "place": "Medical School4c20eddc4889a593ef282720",
+    "time": "2012-07-18"
+  },
+  {
+    "place": "Medical School4c20eddc4889a593ef282720",
+    "time": "2012-07-20"
+  },
+  {
+    "place": "Bank4b678ccef964a520da542be3",
+    "time": "2012-07-20"
+  },
+  {
+    "place": "Food & Drink Shop4e07c4c92271dfa46bb191ac",
+    "time": "2012-07-20"
+  },
+  {
+    "place": "Caf\u00c3\u00a94bdb104b3904a5939e8e489e",
+    "time": "2012-07-24"
+  },
+  {
+    "place": "Gym / Fitness Center4bbd2747f57ba5936bccadb9",
+    "time": "2012-07-24"
+  },
+  {
+    "place": "Clothing Store4a946610f964a520792120e3",
+    "time": "2012-07-26"
+  },
+  {
+    "place": "Clothing Store4b804beef964a5205f6530e3",
+    "time": "2012-07-28"
+  },
+  {
+    "place": "Clothing Store4ac7c7a3f964a520b9b920e3",
+    "time": "2012-07-29"
+  },
+  {
+    "place": "Spa / Massage4bbac3eecf2fc9b6a8f2a102",
+    "time": "2012-07-29"
+  },
+  {
+    "place": "Park4a9998b2f964a520552f20e3",
+    "time": "2012-07-30"
+  },
+  {
+    "place": "Bagel Shop4b54f0d8f964a52043d427e3",
+    "time": "2012-07-30"
+  },
+  {
+    "place": "Medical Center4ac8b592f964a52054bc20e3",
+    "time": "2012-08-06"
+  },
+  {
+    "place": "Spa / Massage4bbac3eecf2fc9b6a8f2a102",
+    "time": "2012-08-09"
+  },
+  {
+    "place": "American Restaurant428a8580f964a52083231fe3",
+    "time": "2012-08-10"
+  },
+  {
+    "place": "Coffee Shop49d9658af964a520325e1fe3",
+    "time": "2012-08-13"
+  },
+  {
+    "place": "Park4be1dcc440c0ef3b2f5cbed6",
+    "time": "2012-08-13"
+  },
+  {
+    "place": "Medical Center4ac8b592f964a52054bc20e3",
+    "time": "2012-08-14"
+  },
+  {
+    "place": "Cuban Restaurant4b64cebff964a520a2d12ae3",
+    "time": "2012-08-18"
+  },
+  {
+    "place": "Department Store41102700f964a520d60b1fe3",
+    "time": "2012-09-14"
+  },
+  {
+    "place": "Tapas Restaurant4bcf9ecb462cb713e425d707",
+    "time": "2012-09-15"
+  },
+  {
+    "place": "Park4eab3ae193ad72a2dac5fa53",
+    "time": "2012-09-15"
+  },
+  {
+    "place": "Bar4b02fd24f964a520b04b22e3",
+    "time": "2012-10-13"
+  },
+  {
+    "place": "Bank4ad9fd25f964a520db1c21e3",
+    "time": "2012-10-23"
+  },
+  {
+    "place": "Food & Drink Shop4b131758f964a520fd9323e3",
+    "time": "2012-10-25"
+  },
+  {
+    "place": "Coffee Shop4aafdf93f964a520f66420e3",
+    "time": "2012-10-26"
+  },
+  {
+    "place": "Clothing Store4b804beef964a5205f6530e3",
+    "time": "2012-10-26"
+  },
+  {
+    "place": "Medical School4c20eddc4889a593ef282720",
+    "time": "2012-11-01"
+  },
+  {
+    "place": "Tapas Restaurant4bcf9ecb462cb713e425d707",
+    "time": "2012-11-02"
+  },
+  {
+    "place": "Medical School4c20eddc4889a593ef282720",
+    "time": "2012-11-05"
+  },
+  {
+    "place": "Breakfast Spot4a1a4dcbf964a520927a1fe3",
+    "time": "2012-12-08"
+  },
+  {
+    "place": "Clothing Store4b7083c4f964a520341f2de3",
+    "time": "2012-12-08"
+  },
+  {
+    "place": "Tapas Restaurant4bcf9ecb462cb713e425d707",
+    "time": "2012-12-09"
+  },
+  {
+    "place": "Donut Shop4b4a3dc5f964a520508026e3",
+    "time": "2012-12-16"
+  }
+]

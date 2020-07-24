@@ -1,0 +1,838 @@
+[
+  {
+    "place": "Food & Drink Shop4b5ce1aef964a520124929e3",
+    "time": "2012-04-09"
+  },
+  {
+    "place": "Miscellaneous Shop4f831bdbe4b0fc8b1aff55f3",
+    "time": "2012-04-09"
+  },
+  {
+    "place": "Mall4c438a7f74ffc928136174cc",
+    "time": "2012-04-09"
+  },
+  {
+    "place": "Subway4adcf849f964a5200c6321e3",
+    "time": "2012-04-09"
+  },
+  {
+    "place": "Train Station42911d00f964a520f5231fe3",
+    "time": "2012-04-09"
+  },
+  {
+    "place": "Travel Lounge4e5fce33b0fb754192cca549",
+    "time": "2012-04-09"
+  },
+  {
+    "place": "Train Station4b314658f964a520b60325e3",
+    "time": "2012-06-10"
+  },
+  {
+    "place": "Travel Lounge4e5fce33b0fb754192cca549",
+    "time": "2012-06-10"
+  },
+  {
+    "place": "Bakery4b8c5b54f964a5207fcc32e3",
+    "time": "2012-06-10"
+  },
+  {
+    "place": "Bakery4b2e4066f964a520a7dd24e3",
+    "time": "2012-06-10"
+  },
+  {
+    "place": "Park4c2f67a3213c2d7fddc0305d",
+    "time": "2012-06-10"
+  },
+  {
+    "place": "Travel Lounge4e5fce33b0fb754192cca549",
+    "time": "2012-06-10"
+  },
+  {
+    "place": "Train Station42911d00f964a520f5231fe3",
+    "time": "2012-06-10"
+  },
+  {
+    "place": "Train Station4b314658f964a520b60325e3",
+    "time": "2012-06-11"
+  },
+  {
+    "place": "Playground4c675d699cb82d7f21b193d2",
+    "time": "2012-07-12"
+  },
+  {
+    "place": "Spiritual Center4d7fb76bdd4a6ea800ff7f25",
+    "time": "2012-07-12"
+  },
+  {
+    "place": "Bagel Shop4ed4dc966c2528aaae14ea41",
+    "time": "2012-07-12"
+  },
+  {
+    "place": "Medical Center4fff146be4b0eb8e433d4a6d",
+    "time": "2012-07-12"
+  },
+  {
+    "place": "Drugstore / Pharmacy4b9d1228f964a520088d36e3",
+    "time": "2012-07-12"
+  },
+  {
+    "place": "Department Store4dfd878faeb7594e86241c05",
+    "time": "2012-07-12"
+  },
+  {
+    "place": "Electronics Store4cb30e001168a09349383f23",
+    "time": "2012-07-13"
+  },
+  {
+    "place": "Bus Station4d140266bb64224bd376a965",
+    "time": "2012-07-13"
+  },
+  {
+    "place": "Shop & Service4e35652f62e17d290833091f",
+    "time": "2012-07-13"
+  },
+  {
+    "place": "Bank4c2d10903a4d0f47eb3ae386",
+    "time": "2012-07-13"
+  },
+  {
+    "place": "Bus Station4840fe6bf964a52030501fe3",
+    "time": "2012-07-15"
+  },
+  {
+    "place": "Bus Station4840fe6bf964a52030501fe3",
+    "time": "2012-07-16"
+  },
+  {
+    "place": "Deli / Bodega4a60792ef964a520ccc01fe3",
+    "time": "2012-07-16"
+  },
+  {
+    "place": "Medical Center4fd0f30fe4b0f00c058ee1d9",
+    "time": "2012-07-16"
+  },
+  {
+    "place": "Train Station42911d00f964a520f5231fe3",
+    "time": "2012-07-16"
+  },
+  {
+    "place": "Synagogue4c686a5773851b8d5aa4ba39",
+    "time": "2012-07-17"
+  },
+  {
+    "place": "Electronics Store4beac7b7b3352d7fa59055d2",
+    "time": "2012-07-17"
+  },
+  {
+    "place": "Gas Station / Garage4c4c7ec6c8b6b713a9408afb",
+    "time": "2012-07-17"
+  },
+  {
+    "place": "Soup Place4d04e9d07d9ba35daa7f6823",
+    "time": "2012-07-17"
+  },
+  {
+    "place": "Spiritual Center4d7fb76bdd4a6ea800ff7f25",
+    "time": "2012-07-18"
+  },
+  {
+    "place": "Playground4c675d699cb82d7f21b193d2",
+    "time": "2012-07-18"
+  },
+  {
+    "place": "Mexican Restaurant4b81e8ebf964a520a1c330e3",
+    "time": "2012-07-18"
+  },
+  {
+    "place": "Soup Place4d04e9d07d9ba35daa7f6823",
+    "time": "2012-07-18"
+  },
+  {
+    "place": "Spiritual Center4d7fb76bdd4a6ea800ff7f25",
+    "time": "2012-07-19"
+  },
+  {
+    "place": "Donut Shop4b40c93df964a5200ebb25e3",
+    "time": "2012-07-20"
+  },
+  {
+    "place": "Miscellaneous Shop4e590c6a18a8c2047505cbb0",
+    "time": "2012-07-20"
+  },
+  {
+    "place": "Bank4bec13c4415e20a14c09e7bb",
+    "time": "2012-07-20"
+  },
+  {
+    "place": "Bus Station4dc4a31e2271f27051194983",
+    "time": "2012-07-24"
+  },
+  {
+    "place": "Medical Center4fff146be4b0eb8e433d4a6d",
+    "time": "2012-07-24"
+  },
+  {
+    "place": "Other Great Outdoors4ddcd5fb22713339cd1e2cbc",
+    "time": "2012-07-29"
+  },
+  {
+    "place": "Spiritual Center4d7fb76bdd4a6ea800ff7f25",
+    "time": "2012-07-30"
+  },
+  {
+    "place": "Bagel Shop4c938a7e72dd224b5a719191",
+    "time": "2012-07-30"
+  },
+  {
+    "place": "Medical School4c0665eb517d0f47c0e3f515",
+    "time": "2012-07-30"
+  },
+  {
+    "place": "Medical Center4a36c1b9f964a520dd9d1fe3",
+    "time": "2012-07-30"
+  },
+  {
+    "place": "Medical Center4b8d18c5f964a520b7e732e3",
+    "time": "2012-07-30"
+  },
+  {
+    "place": "Medical Center4fd0f30fe4b0f00c058ee1d9",
+    "time": "2012-07-30"
+  },
+  {
+    "place": "Pizza Place4c6b6c0f2d9976b0e6870b3a",
+    "time": "2012-07-30"
+  },
+  {
+    "place": "Synagogue4c686a5773851b8d5aa4ba39",
+    "time": "2012-08-05"
+  },
+  {
+    "place": "Drugstore / Pharmacy4c4f411c8b5520a10e003304",
+    "time": "2012-08-05"
+  },
+  {
+    "place": "Soup Place4d04e9d07d9ba35daa7f6823",
+    "time": "2012-08-05"
+  },
+  {
+    "place": "Spiritual Center4d7fb76bdd4a6ea800ff7f25",
+    "time": "2012-08-06"
+  },
+  {
+    "place": "Medical Center4b8d18c5f964a520b7e732e3",
+    "time": "2012-08-06"
+  },
+  {
+    "place": "Medical Center4a36c1b9f964a520dd9d1fe3",
+    "time": "2012-08-06"
+  },
+  {
+    "place": "Medical Center4fd0f30fe4b0f00c058ee1d9",
+    "time": "2012-08-06"
+  },
+  {
+    "place": "Medical Center4fd0f30fe4b0f00c058ee1d9",
+    "time": "2012-08-09"
+  },
+  {
+    "place": "Coffee Shop4e38a2cfbd415d9f63d711a3",
+    "time": "2012-08-09"
+  },
+  {
+    "place": "General Travel4ba4d846f964a5208dba38e3",
+    "time": "2012-08-12"
+  },
+  {
+    "place": "Medical Center4e285f6262e17c33019d5422",
+    "time": "2012-08-13"
+  },
+  {
+    "place": "Restaurant4562f9fdf964a520a13d1fe3",
+    "time": "2012-08-13"
+  },
+  {
+    "place": "Pizza Place4c520a52250dd13ad929337e",
+    "time": "2012-08-13"
+  },
+  {
+    "place": "Bus Station4f2e972be4b062ad2c338db1",
+    "time": "2012-08-13"
+  },
+  {
+    "place": "Caf\u00c3\u00a94c07ce55a9c076b0da733923",
+    "time": "2012-08-14"
+  },
+  {
+    "place": "Medical School4c0665eb517d0f47c0e3f515",
+    "time": "2012-08-14"
+  },
+  {
+    "place": "Medical Center4b8d18c5f964a520b7e732e3",
+    "time": "2012-08-14"
+  },
+  {
+    "place": "Medical Center4a36c1b9f964a520dd9d1fe3",
+    "time": "2012-08-14"
+  },
+  {
+    "place": "College Academic Building4d9c8fe948b6224b174a109f",
+    "time": "2012-08-14"
+  },
+  {
+    "place": "Medical Center4b8d18c5f964a520b7e732e3",
+    "time": "2012-08-16"
+  },
+  {
+    "place": "Medical School4c0665eb517d0f47c0e3f515",
+    "time": "2012-08-16"
+  },
+  {
+    "place": "Medical Center4a36c1b9f964a520dd9d1fe3",
+    "time": "2012-08-16"
+  },
+  {
+    "place": "Medical Center4ffc6042e4b04d76b19cbda6",
+    "time": "2012-08-16"
+  },
+  {
+    "place": "Gym / Fitness Center4d6511893384a093f5eca23c",
+    "time": "2012-08-19"
+  },
+  {
+    "place": "Pizza Place4cc39be882388cfae7796935",
+    "time": "2012-08-19"
+  },
+  {
+    "place": "Soup Place4d04e9d07d9ba35daa7f6823",
+    "time": "2012-08-20"
+  },
+  {
+    "place": "Synagogue5031930de4b0f9a2de6e3f84",
+    "time": "2012-08-20"
+  },
+  {
+    "place": "Bus Station4d140266bb64224bd376a965",
+    "time": "2012-08-17"
+  },
+  {
+    "place": "Pizza Place4c6b6c0f2d9976b0e6870b3a",
+    "time": "2012-08-19"
+  },
+  {
+    "place": "Bagel Shop4ed4dc966c2528aaae14ea41",
+    "time": "2012-09-05"
+  },
+  {
+    "place": "Spiritual Center4d7fb76bdd4a6ea800ff7f25",
+    "time": "2012-09-05"
+  },
+  {
+    "place": "Sandwich Place4b05fe06f964a52012e722e3",
+    "time": "2012-09-06"
+  },
+  {
+    "place": "Medical Center4fd0f30fe4b0f00c058ee1d9",
+    "time": "2012-09-06"
+  },
+  {
+    "place": "Medical Center4ffc6042e4b04d76b19cbda6",
+    "time": "2012-09-06"
+  },
+  {
+    "place": "Medical School4c0665eb517d0f47c0e3f515",
+    "time": "2012-09-06"
+  },
+  {
+    "place": "Medical Center4b8d18c5f964a520b7e732e3",
+    "time": "2012-09-06"
+  },
+  {
+    "place": "Church4b64d96cf964a520cbd42ae3",
+    "time": "2012-10-12"
+  },
+  {
+    "place": "Bus Station4d927716fa1ef04d180c58c7",
+    "time": "2012-10-16"
+  },
+  {
+    "place": "Synagogue4c686a5773851b8d5aa4ba39",
+    "time": "2012-10-16"
+  },
+  {
+    "place": "Medical Center4ffc6042e4b04d76b19cbda6",
+    "time": "2012-10-22"
+  },
+  {
+    "place": "Medical Center4b8d18c5f964a520b7e732e3",
+    "time": "2012-10-22"
+  },
+  {
+    "place": "Medical Center4a36c1b9f964a520dd9d1fe3",
+    "time": "2012-10-22"
+  },
+  {
+    "place": "Pizza Place4c6b6c0f2d9976b0e6870b3a",
+    "time": "2012-10-22"
+  },
+  {
+    "place": "Spiritual Center4d7fb76bdd4a6ea800ff7f25",
+    "time": "2012-10-22"
+  },
+  {
+    "place": "Soup Place4d04e9d07d9ba35daa7f6823",
+    "time": "2012-10-22"
+  },
+  {
+    "place": "Medical Center4fff146be4b0eb8e433d4a6d",
+    "time": "2012-10-23"
+  },
+  {
+    "place": "Subway4bcb05dc0687ef3bcde2dccc",
+    "time": "2012-10-23"
+  },
+  {
+    "place": "Synagogue4c686a5773851b8d5aa4ba39",
+    "time": "2012-10-23"
+  },
+  {
+    "place": "Spiritual Center4d7fb76bdd4a6ea800ff7f25",
+    "time": "2012-10-23"
+  },
+  {
+    "place": "Mexican Restaurant4b81e8ebf964a520a1c330e3",
+    "time": "2012-10-24"
+  },
+  {
+    "place": "Soup Place4d04e9d07d9ba35daa7f6823",
+    "time": "2012-10-24"
+  },
+  {
+    "place": "Coffee Shop4acf7fb1f964a5201dd420e3",
+    "time": "2012-10-25"
+  },
+  {
+    "place": "Synagogue4f67cd42e4b04b7d9836a4d6",
+    "time": "2012-10-26"
+  },
+  {
+    "place": "Pizza Place4ba79c8cf964a52045a239e3",
+    "time": "2012-10-28"
+  },
+  {
+    "place": "Bagel Shop4c162b2f82a3c9b65bd4fff8",
+    "time": "2012-10-28"
+  },
+  {
+    "place": "Synagogue4b944785f964a520a87234e3",
+    "time": "2012-10-28"
+  },
+  {
+    "place": "Pizza Place4ba79c8cf964a52045a239e3",
+    "time": "2012-10-30"
+  },
+  {
+    "place": "Pizza Place4c6b6c0f2d9976b0e6870b3a",
+    "time": "2012-11-05"
+  },
+  {
+    "place": "Spiritual Center4d7fb76bdd4a6ea800ff7f25",
+    "time": "2012-11-05"
+  },
+  {
+    "place": "Pizza Place4c6b6c0f2d9976b0e6870b3a",
+    "time": "2012-11-07"
+  },
+  {
+    "place": "Medical Center4f3a25dee4b0e3d3dacc3520",
+    "time": "2012-11-15"
+  },
+  {
+    "place": "Medical Center4fd0f30fe4b0f00c058ee1d9",
+    "time": "2012-11-15"
+  },
+  {
+    "place": "Medical Center4b8d18c5f964a520b7e732e3",
+    "time": "2012-11-15"
+  },
+  {
+    "place": "Pizza Place4ba79c8cf964a52045a239e3",
+    "time": "2012-11-18"
+  },
+  {
+    "place": "Soup Place4d04e9d07d9ba35daa7f6823",
+    "time": "2012-11-20"
+  },
+  {
+    "place": "Soup Place4d04e9d07d9ba35daa7f6823",
+    "time": "2012-11-21"
+  },
+  {
+    "place": "Spiritual Center4d7fb76bdd4a6ea800ff7f25",
+    "time": "2012-11-22"
+  },
+  {
+    "place": "Bus Station4840fe6bf964a52030501fe3",
+    "time": "2012-11-23"
+  },
+  {
+    "place": "Bakery4b5749baf964a520782f28e3",
+    "time": "2012-11-23"
+  },
+  {
+    "place": "Movie Theater4a0f1baef964a52026761fe3",
+    "time": "2012-11-25"
+  },
+  {
+    "place": "Synagogue4c686a5773851b8d5aa4ba39",
+    "time": "2012-11-26"
+  },
+  {
+    "place": "Drugstore / Pharmacy4c4f411c8b5520a10e003304",
+    "time": "2012-11-27"
+  },
+  {
+    "place": "Medical Center4a5bece4f964a52000bc1fe3",
+    "time": "2012-11-27"
+  },
+  {
+    "place": "Medical Center4ffc7b6be4b07ec1036f045e",
+    "time": "2012-11-27"
+  },
+  {
+    "place": "Medical Center4f9833c6e4b0e0a128443e41",
+    "time": "2012-11-27"
+  },
+  {
+    "place": "Medical Center4f92e150e4b0d0d988929ef3",
+    "time": "2012-11-27"
+  },
+  {
+    "place": "Bagel Shop4ed4dc966c2528aaae14ea41",
+    "time": "2012-11-28"
+  },
+  {
+    "place": "Sandwich Place4b05fe06f964a52012e722e3",
+    "time": "2012-11-29"
+  },
+  {
+    "place": "Spiritual Center4d7fb76bdd4a6ea800ff7f25",
+    "time": "2012-12-02"
+  },
+  {
+    "place": "Pizza Place4ba79c8cf964a52045a239e3",
+    "time": "2012-12-02"
+  },
+  {
+    "place": "Soup Place4d04e9d07d9ba35daa7f6823",
+    "time": "2012-12-02"
+  },
+  {
+    "place": "Caf\u00c3\u00a94c57237830d82d7fcf26d962",
+    "time": "2012-12-03"
+  },
+  {
+    "place": "Subway4c6ebaff10faa1430894f168",
+    "time": "2012-12-03"
+  },
+  {
+    "place": "Synagogue4c686a5773851b8d5aa4ba39",
+    "time": "2012-12-03"
+  },
+  {
+    "place": "Pizza Place4bd714c429eb9c742e2196e1",
+    "time": "2012-12-04"
+  },
+  {
+    "place": "Synagogue4c686a5773851b8d5aa4ba39",
+    "time": "2012-12-04"
+  },
+  {
+    "place": "Synagogue4f67cd42e4b04b7d9836a4d6",
+    "time": "2012-12-05"
+  },
+  {
+    "place": "Medical Center4f3a25dee4b0e3d3dacc3520",
+    "time": "2012-12-05"
+  },
+  {
+    "place": "Medical Center4f92e150e4b0d0d988929ef3",
+    "time": "2012-12-05"
+  },
+  {
+    "place": "Medical Center4ffc7b6be4b07ec1036f045e",
+    "time": "2012-12-05"
+  },
+  {
+    "place": "Pizza Place4c6b6c0f2d9976b0e6870b3a",
+    "time": "2012-12-06"
+  },
+  {
+    "place": "Soup Place4d04e9d07d9ba35daa7f6823",
+    "time": "2012-12-06"
+  },
+  {
+    "place": "Pizza Place4ba79c8cf964a52045a239e3",
+    "time": "2012-12-09"
+  },
+  {
+    "place": "Medical Center4fd0f30fe4b0f00c058ee1d9",
+    "time": "2012-12-10"
+  },
+  {
+    "place": "Medical Center4ffc6042e4b04d76b19cbda6",
+    "time": "2012-12-10"
+  },
+  {
+    "place": "Medical Center4b8d18c5f964a520b7e732e3",
+    "time": "2012-12-10"
+  },
+  {
+    "place": "Medical Center506073c6e4b0d9a2f23b801f",
+    "time": "2012-12-10"
+  },
+  {
+    "place": "Soup Place4d04e9d07d9ba35daa7f6823",
+    "time": "2012-12-10"
+  },
+  {
+    "place": "Synagogue4f67cd42e4b04b7d9836a4d6",
+    "time": "2012-12-11"
+  },
+  {
+    "place": "Gas Station / Garage4c4c7ec6c8b6b713a9408afb",
+    "time": "2012-12-11"
+  },
+  {
+    "place": "Pizza Place4c6b6c0f2d9976b0e6870b3a",
+    "time": "2012-12-11"
+  },
+  {
+    "place": "Spiritual Center4d7fb76bdd4a6ea800ff7f25",
+    "time": "2012-12-11"
+  },
+  {
+    "place": "Candy Store4b55f3b5f964a5205ff827e3",
+    "time": "2012-12-11"
+  },
+  {
+    "place": "Soup Place4d04e9d07d9ba35daa7f6823",
+    "time": "2012-12-16"
+  },
+  {
+    "place": "Pizza Place4ba79c8cf964a52045a239e3",
+    "time": "2012-12-17"
+  },
+  {
+    "place": "Medical Center4c80044be602b1f727dc857a",
+    "time": "2012-12-18"
+  },
+  {
+    "place": "Laundry Service4dd14b55fa7664b7c6ebd743",
+    "time": "2012-12-18"
+  },
+  {
+    "place": "Burger Joint46dbd510f964a520884a1fe3",
+    "time": "2012-12-20"
+  },
+  {
+    "place": "Pizza Place4c6b6c0f2d9976b0e6870b3a",
+    "time": "2012-12-21"
+  },
+  {
+    "place": "Spiritual Center4d7fb76bdd4a6ea800ff7f25",
+    "time": "2012-12-23"
+  },
+  {
+    "place": "Medical Center506073c6e4b0d9a2f23b801f",
+    "time": "2012-12-27"
+  },
+  {
+    "place": "Medical Center4b8d18c5f964a520b7e732e3",
+    "time": "2012-12-27"
+  },
+  {
+    "place": "Bagel Shop4a96931ef964a520512620e3",
+    "time": "2012-12-27"
+  },
+  {
+    "place": "Medical Center4c80044be602b1f727dc857a",
+    "time": "2012-12-27"
+  },
+  {
+    "place": "Synagogue4f67cd42e4b04b7d9836a4d6",
+    "time": "2013-01-01"
+  },
+  {
+    "place": "Bagel Shop4a96931ef964a520512620e3",
+    "time": "2013-01-03"
+  },
+  {
+    "place": "Medical Center4ffc6042e4b04d76b19cbda6",
+    "time": "2013-01-03"
+  },
+  {
+    "place": "Medical Center506073c6e4b0d9a2f23b801f",
+    "time": "2013-01-03"
+  },
+  {
+    "place": "Synagogue4f67cd42e4b04b7d9836a4d6",
+    "time": "2013-01-07"
+  },
+  {
+    "place": "Medical Center4a386563f964a520f29e1fe3",
+    "time": "2013-01-08"
+  },
+  {
+    "place": "Pizza Place4baec97df964a520fed73be3",
+    "time": "2013-01-09"
+  },
+  {
+    "place": "Medical Center4fd0f30fe4b0f00c058ee1d9",
+    "time": "2013-01-10"
+  },
+  {
+    "place": "Coffee Shop46712cd5f964a520c8471fe3",
+    "time": "2013-01-11"
+  },
+  {
+    "place": "Pizza Place4ba79c8cf964a52045a239e3",
+    "time": "2013-01-13"
+  },
+  {
+    "place": "Synagogue4f67cd42e4b04b7d9836a4d6",
+    "time": "2013-01-14"
+  },
+  {
+    "place": "Paper / Office Supplies Store4ba54182f964a52071f238e3",
+    "time": "2013-01-14"
+  },
+  {
+    "place": "Pizza Place4bd714c429eb9c742e2196e1",
+    "time": "2013-01-16"
+  },
+  {
+    "place": "Bakery4bc710fe15a7ef3bc3a778da",
+    "time": "2013-01-16"
+  },
+  {
+    "place": "Medical Center4ffc6042e4b04d76b19cbda6",
+    "time": "2013-01-17"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4fdc2ac6e5e8242ca9e8d9bd",
+    "time": "2013-01-17"
+  },
+  {
+    "place": "Medical Center4b8d18c5f964a520b7e732e3",
+    "time": "2013-01-17"
+  },
+  {
+    "place": "Pizza Place4baec97df964a520fed73be3",
+    "time": "2013-01-18"
+  },
+  {
+    "place": "Bagel Shop4ed4dc966c2528aaae14ea41",
+    "time": "2013-02-05"
+  },
+  {
+    "place": "Bank4f3d59c1e4b08f6e58c50fdd",
+    "time": "2013-02-06"
+  },
+  {
+    "place": "Drugstore / Pharmacy4c4f411c8b5520a10e003304",
+    "time": "2013-02-06"
+  },
+  {
+    "place": "Spiritual Center4d7fb76bdd4a6ea800ff7f25",
+    "time": "2013-02-06"
+  },
+  {
+    "place": "Mexican Restaurant4b81e8ebf964a520a1c330e3",
+    "time": "2013-02-07"
+  },
+  {
+    "place": "Government Building4f05d54630f801541ee78527",
+    "time": "2013-02-07"
+  },
+  {
+    "place": "Medical Center4ffc6042e4b04d76b19cbda6",
+    "time": "2013-02-07"
+  },
+  {
+    "place": "Medical Center4ffc6042e4b04d76b19cbda6",
+    "time": "2013-02-07"
+  },
+  {
+    "place": "Medical Center4fd0f30fe4b0f00c058ee1d9",
+    "time": "2013-02-07"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4fdc2ac6e5e8242ca9e8d9bd",
+    "time": "2013-02-07"
+  },
+  {
+    "place": "Medical Center506073c6e4b0d9a2f23b801f",
+    "time": "2013-02-07"
+  },
+  {
+    "place": "Medical School4c0665eb517d0f47c0e3f515",
+    "time": "2013-02-07"
+  },
+  {
+    "place": "Synagogue511454b1e4b01450cf0f4b9e",
+    "time": "2013-02-08"
+  },
+  {
+    "place": "Pizza Place4bd714c429eb9c742e2196e1",
+    "time": "2013-02-10"
+  },
+  {
+    "place": "Spiritual Center4d7fb76bdd4a6ea800ff7f25",
+    "time": "2013-02-10"
+  },
+  {
+    "place": "Sandwich Place4b05fe06f964a52012e722e3",
+    "time": "2013-02-12"
+  },
+  {
+    "place": "Medical Center4fd0f30fe4b0f00c058ee1d9",
+    "time": "2013-02-12"
+  },
+  {
+    "place": "Medical Center4ffc6042e4b04d76b19cbda6",
+    "time": "2013-02-12"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4fdc2ac6e5e8242ca9e8d9bd",
+    "time": "2013-02-12"
+  },
+  {
+    "place": "Medical Center4b8d18c5f964a520b7e732e3",
+    "time": "2013-02-12"
+  },
+  {
+    "place": "Medical School4c0665eb517d0f47c0e3f515",
+    "time": "2013-02-12"
+  },
+  {
+    "place": "Medical Center4a36c1b9f964a520dd9d1fe3",
+    "time": "2013-02-12"
+  },
+  {
+    "place": "Bagel Shop4a96931ef964a520512620e3",
+    "time": "2013-02-12"
+  },
+  {
+    "place": "Spiritual Center4d7fb76bdd4a6ea800ff7f25",
+    "time": "2013-02-12"
+  },
+  {
+    "place": "Spiritual Center4d7fb76bdd4a6ea800ff7f25",
+    "time": "2013-02-13"
+  },
+  {
+    "place": "Pizza Place4ce18c63db125481f58642ce",
+    "time": "2013-02-13"
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "place": "Junes",
+    "time": "2020-01-25",
+    "rating": 5.0
+  },
+  {
+    "place": "Junes",
+    "time": "2020-02-15",
+    "rating": 3.0
+  },
+  {
+    "place": "Junes",
+    "time": "2020-02-20",
+    "rating": 3.5
+  },
+  {
+    "place": "Jill's Sandwiches",
+    "time": "2020-07-09",
+    "rating": 1.0
+  },
+  {
+    "place": "Average Burger Place",
+    "time": "2020-07-05",
+    "rating": 2.5
+  },
+  {
+    "place": "Jill's Sandwiches",
+    "time": "2020-06-29",
+    "rating": 4.0
+  },
+  {
+    "place": "Jill's Sandwiches",
+    "time": "2020-06-10",
+    "rating": 3.8
+  },
+  {
+    "place": "Pizza Time",
+    "time": "2020-05-15",
+    "rating": 0.0
+  }
+]

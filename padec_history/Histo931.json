@@ -1,0 +1,966 @@
+[
+  {
+    "place": "Train Station49f76cc2f964a5209d6c1fe3",
+    "time": "2012-05-01"
+  },
+  {
+    "place": "Train Station42911d00f964a520f5231fe3",
+    "time": "2012-05-01"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4e157437aeb733245ecf3a43",
+    "time": "2012-05-02"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4e157437aeb733245ecf3a43",
+    "time": "2012-05-03"
+  },
+  {
+    "place": "Post Office4b59f722f964a5204ea428e3",
+    "time": "2012-05-03"
+  },
+  {
+    "place": "Deli / Bodega4b64f265f964a52098db2ae3",
+    "time": "2012-05-04"
+  },
+  {
+    "place": "Southern / Soul Food Restaurant45682b08f964a520d53d1fe3",
+    "time": "2012-05-06"
+  },
+  {
+    "place": "Movie Theater4a46c0b1f964a52065a91fe3",
+    "time": "2012-05-06"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4e157437aeb733245ecf3a43",
+    "time": "2012-05-07"
+  },
+  {
+    "place": "Embassy / Consulate4e2987ce1f6e88a1546d1e14",
+    "time": "2012-05-07"
+  },
+  {
+    "place": "Coffee Shop4b1e47faf964a5205d1824e3",
+    "time": "2012-05-07"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4e157437aeb733245ecf3a43",
+    "time": "2012-05-09"
+  },
+  {
+    "place": "Airport4ace6c89f964a52078d020e3",
+    "time": "2012-05-09"
+  },
+  {
+    "place": "Airport4ace6c89f964a52078d020e3",
+    "time": "2012-05-17"
+  },
+  {
+    "place": "Bank4baebd99f964a520d7d33be3",
+    "time": "2012-05-18"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4e157437aeb733245ecf3a43",
+    "time": "2012-05-18"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4e157437aeb733245ecf3a43",
+    "time": "2012-05-19"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4e157437aeb733245ecf3a43",
+    "time": "2012-05-21"
+  },
+  {
+    "place": "Hardware Store4ad4cb10f964a520cefb20e3",
+    "time": "2012-05-23"
+  },
+  {
+    "place": "Food & Drink Shop4a78f566f964a520b2e61fe3",
+    "time": "2012-05-23"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4e157437aeb733245ecf3a43",
+    "time": "2012-05-28"
+  },
+  {
+    "place": "Hotel3fd66200f964a5204fe81ee3",
+    "time": "2012-05-28"
+  },
+  {
+    "place": "Indian Restaurant42489a80f964a5208b201fe3",
+    "time": "2012-05-28"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4e157437aeb733245ecf3a43",
+    "time": "2012-05-29"
+  },
+  {
+    "place": "Post Office4b59f722f964a5204ea428e3",
+    "time": "2012-05-29"
+  },
+  {
+    "place": "Bank4baebd99f964a520d7d33be3",
+    "time": "2012-05-29"
+  },
+  {
+    "place": "Burger Joint4cd48f0367c7236a96f90d77",
+    "time": "2012-05-29"
+  },
+  {
+    "place": "Drugstore / Pharmacy4b13f893f964a520169b23e3",
+    "time": "2012-05-29"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4e157437aeb733245ecf3a43",
+    "time": "2012-05-31"
+  },
+  {
+    "place": "Pizza Place4b885a2df964a5206af131e3",
+    "time": "2012-05-31"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4e157437aeb733245ecf3a43",
+    "time": "2012-06-03"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4e157437aeb733245ecf3a43",
+    "time": "2012-06-03"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4e157437aeb733245ecf3a43",
+    "time": "2012-06-06"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4e157437aeb733245ecf3a43",
+    "time": "2012-06-07"
+  },
+  {
+    "place": "Train Station49de0156f964a52021601fe3",
+    "time": "2012-06-08"
+  },
+  {
+    "place": "Fast Food Restaurant4bbed3adf353d13a15c87d10",
+    "time": "2012-06-08"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4e157437aeb733245ecf3a43",
+    "time": "2012-06-08"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4e157437aeb733245ecf3a43",
+    "time": "2012-06-09"
+  },
+  {
+    "place": "Train Station49de0156f964a52021601fe3",
+    "time": "2012-06-09"
+  },
+  {
+    "place": "Fast Food Restaurant4bbed3adf353d13a15c87d10",
+    "time": "2012-06-09"
+  },
+  {
+    "place": "Hotel3fd66200f964a5204fe81ee3",
+    "time": "2012-06-13"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4e157437aeb733245ecf3a43",
+    "time": "2012-06-18"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4e157437aeb733245ecf3a43",
+    "time": "2012-06-21"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4e157437aeb733245ecf3a43",
+    "time": "2012-06-27"
+  },
+  {
+    "place": "Food & Drink Shop4acc0c0cf964a520aac820e3",
+    "time": "2012-07-02"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4e157437aeb733245ecf3a43",
+    "time": "2012-07-02"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4e157437aeb733245ecf3a43",
+    "time": "2012-07-05"
+  },
+  {
+    "place": "Bus Station4f3b9240003943e8c96ae933",
+    "time": "2012-07-06"
+  },
+  {
+    "place": "Bus Station4dbbf6166e810768bf51113f",
+    "time": "2012-07-07"
+  },
+  {
+    "place": "Food & Drink Shop4a78f566f964a520b2e61fe3",
+    "time": "2012-07-08"
+  },
+  {
+    "place": "Video Game Store4b5613e9f964a5203bff27e3",
+    "time": "2012-07-11"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4e157437aeb733245ecf3a43",
+    "time": "2012-07-12"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4b643e68f964a52016a62ae3",
+    "time": "2012-07-15"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4e157437aeb733245ecf3a43",
+    "time": "2012-07-15"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4e157437aeb733245ecf3a43",
+    "time": "2012-07-17"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4e157437aeb733245ecf3a43",
+    "time": "2012-07-18"
+  },
+  {
+    "place": "Electronics Store4bb65bcc941ad13a184d1fe3",
+    "time": "2012-08-05"
+  },
+  {
+    "place": "Department Store4c34d4e46f1fef3b6ff1ec3d",
+    "time": "2012-08-05"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4e157437aeb733245ecf3a43",
+    "time": "2012-08-06"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4e157437aeb733245ecf3a43",
+    "time": "2012-08-09"
+  },
+  {
+    "place": "Food & Drink Shop4afcad9ff964a520052522e3",
+    "time": "2012-08-10"
+  },
+  {
+    "place": "Department Store4c34d4e46f1fef3b6ff1ec3d",
+    "time": "2012-08-10"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4e157437aeb733245ecf3a43",
+    "time": "2012-08-11"
+  },
+  {
+    "place": "Hardware Store4ad4cb10f964a520cefb20e3",
+    "time": "2012-08-12"
+  },
+  {
+    "place": "Electronics Store4d8d1bacc479a35d937e2697",
+    "time": "2012-08-12"
+  },
+  {
+    "place": "Post Office4be426db477d9c74e286e62d",
+    "time": "2012-08-12"
+  },
+  {
+    "place": "Drugstore / Pharmacy4c350d9d213c2d7f0a90395d",
+    "time": "2012-08-13"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4e157437aeb733245ecf3a43",
+    "time": "2012-08-14"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4e157437aeb733245ecf3a43",
+    "time": "2012-08-16"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4e157437aeb733245ecf3a43",
+    "time": "2012-08-17"
+  },
+  {
+    "place": "Food & Drink Shop4acc0c0cf964a520aac820e3",
+    "time": "2012-08-19"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4e157437aeb733245ecf3a43",
+    "time": "2012-08-18"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4e157437aeb733245ecf3a43",
+    "time": "2012-08-18"
+  },
+  {
+    "place": "Bank4bdf7aece75c0f474f73cb03",
+    "time": "2012-09-05"
+  },
+  {
+    "place": "Home (private)4c599ada5c57c9b6aa2b1b4a",
+    "time": "2012-09-13"
+  },
+  {
+    "place": "Southern / Soul Food Restaurant4ec9298399115348daf4f674",
+    "time": "2012-09-14"
+  },
+  {
+    "place": "Movie Theater43a72ba0f964a520672c1fe3",
+    "time": "2012-09-15"
+  },
+  {
+    "place": "Sandwich Place45404cb9f964a520393c1fe3",
+    "time": "2012-09-15"
+  },
+  {
+    "place": "Athletic & Sport4be58ed2910020a19e18d314",
+    "time": "2012-09-15"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4e157437aeb733245ecf3a43",
+    "time": "2012-09-15"
+  },
+  {
+    "place": "Video Game Store4bdb13e4c79cc928ea0481e9",
+    "time": "2012-10-03"
+  },
+  {
+    "place": "Thai Restaurant4701165bf964a520384b1fe3",
+    "time": "2012-10-03"
+  },
+  {
+    "place": "Southern / Soul Food Restaurant4ec9298399115348daf4f674",
+    "time": "2012-10-11"
+  },
+  {
+    "place": "Food & Drink Shop4acc0c0cf964a520aac820e3",
+    "time": "2012-10-12"
+  },
+  {
+    "place": "Miscellaneous Shop4a8ff024f964a520ae1520e3",
+    "time": "2012-10-16"
+  },
+  {
+    "place": "Caribbean Restaurant4f88b73de4b0ab5c8748ba31",
+    "time": "2012-10-18"
+  },
+  {
+    "place": "Drugstore / Pharmacy4b13f893f964a520169b23e3",
+    "time": "2012-10-19"
+  },
+  {
+    "place": "Bank4baebd99f964a520d7d33be3",
+    "time": "2012-10-19"
+  },
+  {
+    "place": "Food & Drink Shop4acc0c0cf964a520aac820e3",
+    "time": "2012-10-22"
+  },
+  {
+    "place": "Food & Drink Shop4acc0c0cf964a520aac820e3",
+    "time": "2012-10-23"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4e157437aeb733245ecf3a43",
+    "time": "2012-10-24"
+  },
+  {
+    "place": "Food & Drink Shop4acc0c0cf964a520aac820e3",
+    "time": "2012-10-24"
+  },
+  {
+    "place": "Food & Drink Shop4a78f566f964a520b2e61fe3",
+    "time": "2012-10-24"
+  },
+  {
+    "place": "Bank4baebd99f964a520d7d33be3",
+    "time": "2012-10-25"
+  },
+  {
+    "place": "Bank4bdf7aece75c0f474f73cb03",
+    "time": "2012-10-26"
+  },
+  {
+    "place": "Electronics Store4bf464ede5eba593e99c1f90",
+    "time": "2012-10-27"
+  },
+  {
+    "place": "Drugstore / Pharmacy4ac23132f964a520239820e3",
+    "time": "2012-10-27"
+  },
+  {
+    "place": "Food & Drink Shop4acc0c0cf964a520aac820e3",
+    "time": "2012-10-28"
+  },
+  {
+    "place": "College Academic Building4ac245ecf964a520879820e3",
+    "time": "2012-10-28"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4e157437aeb733245ecf3a43",
+    "time": "2012-10-30"
+  },
+  {
+    "place": "Food & Drink Shop4acc0c0cf964a520aac820e3",
+    "time": "2012-11-01"
+  },
+  {
+    "place": "Bank4baebd99f964a520d7d33be3",
+    "time": "2012-11-01"
+  },
+  {
+    "place": "Food & Drink Shop4acc0c0cf964a520aac820e3",
+    "time": "2012-11-02"
+  },
+  {
+    "place": "Airport43a52546f964a520532c1fe3",
+    "time": "2012-11-18"
+  },
+  {
+    "place": "Food & Drink Shop4acc0c0cf964a520aac820e3",
+    "time": "2012-11-19"
+  },
+  {
+    "place": "Bank4baebd99f964a520d7d33be3",
+    "time": "2012-11-21"
+  },
+  {
+    "place": "Drugstore / Pharmacy4b13f893f964a520169b23e3",
+    "time": "2012-11-21"
+  },
+  {
+    "place": "Plaza4b492c2df964a520d06826e3",
+    "time": "2012-11-21"
+  },
+  {
+    "place": "Food & Drink Shop4acc0c0cf964a520aac820e3",
+    "time": "2012-11-21"
+  },
+  {
+    "place": "General Entertainment4ce46c764eb46a317d415ba3",
+    "time": "2012-11-22"
+  },
+  {
+    "place": "Bank4baebd99f964a520d7d33be3",
+    "time": "2012-11-22"
+  },
+  {
+    "place": "Food & Drink Shop4afb324ef964a520001c22e3",
+    "time": "2012-11-22"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4e157437aeb733245ecf3a43",
+    "time": "2012-11-22"
+  },
+  {
+    "place": "Bakery4ab42357f964a520067020e3",
+    "time": "2012-11-23"
+  },
+  {
+    "place": "Movie Theater4a46c0b1f964a52065a91fe3",
+    "time": "2012-11-23"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4e157437aeb733245ecf3a43",
+    "time": "2012-11-24"
+  },
+  {
+    "place": "Italian Restaurant4d573d8aa747b60cc83b332b",
+    "time": "2012-11-24"
+  },
+  {
+    "place": "Post Office4b4bb51df964a520c5a426e3",
+    "time": "2012-11-24"
+  },
+  {
+    "place": "Department Store4aa329cef964a5208d4320e3",
+    "time": "2012-11-24"
+  },
+  {
+    "place": "Train Station42829c80f964a5206a221fe3",
+    "time": "2012-11-24"
+  },
+  {
+    "place": "Fried Chicken Joint4b2de447f964a520ecdb24e3",
+    "time": "2012-11-25"
+  },
+  {
+    "place": "Food & Drink Shop4acc0c0cf964a520aac820e3",
+    "time": "2012-11-25"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4e157437aeb733245ecf3a43",
+    "time": "2012-11-26"
+  },
+  {
+    "place": "Southern / Soul Food Restaurant4ec9298399115348daf4f674",
+    "time": "2012-11-27"
+  },
+  {
+    "place": "Bank4baebd99f964a520d7d33be3",
+    "time": "2012-11-28"
+  },
+  {
+    "place": "Drugstore / Pharmacy4b13f893f964a520169b23e3",
+    "time": "2012-11-29"
+  },
+  {
+    "place": "Bank4baebd99f964a520d7d33be3",
+    "time": "2012-11-29"
+  },
+  {
+    "place": "Electronics Store4bf464ede5eba593e99c1f90",
+    "time": "2012-11-29"
+  },
+  {
+    "place": "Food & Drink Shop4acc0c0cf964a520aac820e3",
+    "time": "2012-11-30"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4e157437aeb733245ecf3a43",
+    "time": "2012-12-01"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4e157437aeb733245ecf3a43",
+    "time": "2012-12-03"
+  },
+  {
+    "place": "Bank4bdf7aece75c0f474f73cb03",
+    "time": "2012-12-03"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4e157437aeb733245ecf3a43",
+    "time": "2012-12-03"
+  },
+  {
+    "place": "Electronics Store4d8d1bacc479a35d937e2697",
+    "time": "2012-12-04"
+  },
+  {
+    "place": "Deli / Bodega4b90c0bef964a520489633e3",
+    "time": "2012-12-04"
+  },
+  {
+    "place": "Electronics Store4d8d1bacc479a35d937e2697",
+    "time": "2012-12-06"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4e157437aeb733245ecf3a43",
+    "time": "2012-12-07"
+  },
+  {
+    "place": "Train Station42911d00f964a520f5231fe3",
+    "time": "2012-12-07"
+  },
+  {
+    "place": "Train Station4a513b17f964a520d2b01fe3",
+    "time": "2012-12-07"
+  },
+  {
+    "place": "Bank4baebd99f964a520d7d33be3",
+    "time": "2012-12-07"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4e157437aeb733245ecf3a43",
+    "time": "2012-12-07"
+  },
+  {
+    "place": "Electronics Store4ad20513f964a520e0de20e3",
+    "time": "2012-12-10"
+  },
+  {
+    "place": "Food & Drink Shop4acc0c0cf964a520aac820e3",
+    "time": "2012-12-11"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4e157437aeb733245ecf3a43",
+    "time": "2012-12-11"
+  },
+  {
+    "place": "Paper / Office Supplies Store4b6cabb1f964a520f14a2ce3",
+    "time": "2012-12-14"
+  },
+  {
+    "place": "Bank4be08de6cb81c9b6b43b668b",
+    "time": "2012-12-14"
+  },
+  {
+    "place": "Food & Drink Shop4a78f566f964a520b2e61fe3",
+    "time": "2012-12-16"
+  },
+  {
+    "place": "Food & Drink Shop4acc0c0cf964a520aac820e3",
+    "time": "2012-12-16"
+  },
+  {
+    "place": "Drugstore / Pharmacy4b9eb87ef964a52075fc36e3",
+    "time": "2012-12-16"
+  },
+  {
+    "place": "Train Station49de0156f964a52021601fe3",
+    "time": "2012-12-16"
+  },
+  {
+    "place": "Food & Drink Shop4acc0c0cf964a520aac820e3",
+    "time": "2012-12-17"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4e157437aeb733245ecf3a43",
+    "time": "2012-12-17"
+  },
+  {
+    "place": "Caribbean Restaurant4f88b73de4b0ab5c8748ba31",
+    "time": "2012-12-17"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4e157437aeb733245ecf3a43",
+    "time": "2012-12-17"
+  },
+  {
+    "place": "Train Station42829c80f964a5206a221fe3",
+    "time": "2012-12-18"
+  },
+  {
+    "place": "Post Office4b4bb51df964a520c5a426e3",
+    "time": "2012-12-19"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4e157437aeb733245ecf3a43",
+    "time": "2012-12-19"
+  },
+  {
+    "place": "Food & Drink Shop4acc0c0cf964a520aac820e3",
+    "time": "2012-12-19"
+  },
+  {
+    "place": "Plaza49e36914f964a5207b621fe3",
+    "time": "2012-12-19"
+  },
+  {
+    "place": "Bank4b5a2177f964a52027af28e3",
+    "time": "2012-12-19"
+  },
+  {
+    "place": "Food & Drink Shop4acc0c0cf964a520aac820e3",
+    "time": "2012-12-19"
+  },
+  {
+    "place": "Electronics Store4bf464ede5eba593e99c1f90",
+    "time": "2012-12-21"
+  },
+  {
+    "place": "Food & Drink Shop4acc0c0cf964a520aac820e3",
+    "time": "2012-12-21"
+  },
+  {
+    "place": "Diner4f293782e4b004b1e8876a9c",
+    "time": "2012-12-22"
+  },
+  {
+    "place": "Post Office4be4372f910020a12c5fd114",
+    "time": "2012-12-22"
+  },
+  {
+    "place": "Bank4abd18aaf964a5206a8820e3",
+    "time": "2012-12-22"
+  },
+  {
+    "place": "Medical Center50d63c88e4b0feaa4ac708af",
+    "time": "2012-12-22"
+  },
+  {
+    "place": "Electronics Store4d8d1bacc479a35d937e2697",
+    "time": "2012-12-23"
+  },
+  {
+    "place": "Airport43a52546f964a520532c1fe3",
+    "time": "2012-12-27"
+  },
+  {
+    "place": "Airport4be1ae703ef676b0e44ec0ca",
+    "time": "2012-12-27"
+  },
+  {
+    "place": "Train Station42911d00f964a520f5231fe3",
+    "time": "2012-12-27"
+  },
+  {
+    "place": "Food & Drink Shop4acc0c0cf964a520aac820e3",
+    "time": "2012-12-29"
+  },
+  {
+    "place": "Bank4baebd99f964a520d7d33be3",
+    "time": "2012-12-29"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4e157437aeb733245ecf3a43",
+    "time": "2012-12-30"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4e157437aeb733245ecf3a43",
+    "time": "2012-12-30"
+  },
+  {
+    "place": "Bank4baebd99f964a520d7d33be3",
+    "time": "2012-12-31"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4e157437aeb733245ecf3a43",
+    "time": "2012-12-31"
+  },
+  {
+    "place": "Food & Drink Shop4acc0c0cf964a520aac820e3",
+    "time": "2013-01-01"
+  },
+  {
+    "place": "Train Station49de0156f964a52021601fe3",
+    "time": "2013-01-04"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4e157437aeb733245ecf3a43",
+    "time": "2013-01-05"
+  },
+  {
+    "place": "Food & Drink Shop4acc0c0cf964a520aac820e3",
+    "time": "2013-01-05"
+  },
+  {
+    "place": "Bank4cd06a2a9d87224b0a0d553b",
+    "time": "2013-01-07"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4e157437aeb733245ecf3a43",
+    "time": "2013-01-07"
+  },
+  {
+    "place": "Food & Drink Shop4acc0c0cf964a520aac820e3",
+    "time": "2013-01-08"
+  },
+  {
+    "place": "Drugstore / Pharmacy4b13f893f964a520169b23e3",
+    "time": "2013-01-08"
+  },
+  {
+    "place": "Art Museum427c0500f964a52097211fe3",
+    "time": "2013-01-08"
+  },
+  {
+    "place": "Zoo4a09f665f964a52077741fe3",
+    "time": "2013-01-08"
+  },
+  {
+    "place": "Movie Theater451d2920f964a5208d3a1fe3",
+    "time": "2013-01-08"
+  },
+  {
+    "place": "Chinese Restaurant50be3d38e4b0134f49e7c9be",
+    "time": "2013-01-10"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4e157437aeb733245ecf3a43",
+    "time": "2013-01-11"
+  },
+  {
+    "place": "Medical Center4bda02712a3a0f47df4ca9b6",
+    "time": "2013-01-14"
+  },
+  {
+    "place": "Drugstore / Pharmacy4b9fe905f964a520ab4937e3",
+    "time": "2013-01-14"
+  },
+  {
+    "place": "Train Station42829c80f964a5206a221fe3",
+    "time": "2013-01-14"
+  },
+  {
+    "place": "Bank4baebd99f964a520d7d33be3",
+    "time": "2013-01-16"
+  },
+  {
+    "place": "Drugstore / Pharmacy4b13f893f964a520169b23e3",
+    "time": "2013-01-16"
+  },
+  {
+    "place": "Burrito Place4a775aa6f964a5203ee41fe3",
+    "time": "2013-01-16"
+  },
+  {
+    "place": "Bank4bdf7aece75c0f474f73cb03",
+    "time": "2013-01-17"
+  },
+  {
+    "place": "Library4cf00edbf98ba0901e88c673",
+    "time": "2013-01-17"
+  },
+  {
+    "place": "American Restaurant4b8d0a7df964a5207ee532e3",
+    "time": "2013-01-17"
+  },
+  {
+    "place": "Hotel3fd66200f964a5204fe81ee3",
+    "time": "2013-01-18"
+  },
+  {
+    "place": "Food & Drink Shop4afcad9ff964a520052522e3",
+    "time": "2013-01-21"
+  },
+  {
+    "place": "Bank4baebd99f964a520d7d33be3",
+    "time": "2013-01-22"
+  },
+  {
+    "place": "Food & Drink Shop4a78f566f964a520b2e61fe3",
+    "time": "2013-01-22"
+  },
+  {
+    "place": "Food & Drink Shop4acc0c0cf964a520aac820e3",
+    "time": "2013-01-24"
+  },
+  {
+    "place": "Bank4baebd99f964a520d7d33be3",
+    "time": "2013-01-24"
+  },
+  {
+    "place": "Food & Drink Shop4acc0c0cf964a520aac820e3",
+    "time": "2013-01-25"
+  },
+  {
+    "place": "Plaza4b492c2df964a520d06826e3",
+    "time": "2013-01-25"
+  },
+  {
+    "place": "Food & Drink Shop4acc0c0cf964a520aac820e3",
+    "time": "2013-01-25"
+  },
+  {
+    "place": "Movie Theater4a46c0b1f964a52065a91fe3",
+    "time": "2013-01-26"
+  },
+  {
+    "place": "Deli / Bodega4b64f265f964a52098db2ae3",
+    "time": "2013-01-26"
+  },
+  {
+    "place": "Movie Theater4a46c0b1f964a52065a91fe3",
+    "time": "2013-01-26"
+  },
+  {
+    "place": "Drugstore / Pharmacy4b13f893f964a520169b23e3",
+    "time": "2013-01-27"
+  },
+  {
+    "place": "Bank4baebd99f964a520d7d33be3",
+    "time": "2013-01-27"
+  },
+  {
+    "place": "Park3fd66200f964a520def11ee3",
+    "time": "2013-01-27"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4e157437aeb733245ecf3a43",
+    "time": "2013-01-28"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4e157437aeb733245ecf3a43",
+    "time": "2013-01-30"
+  },
+  {
+    "place": "Bank4baebd99f964a520d7d33be3",
+    "time": "2013-01-30"
+  },
+  {
+    "place": "Drugstore / Pharmacy4b13f893f964a520169b23e3",
+    "time": "2013-01-30"
+  },
+  {
+    "place": "Food & Drink Shop4acc0c0cf964a520aac820e3",
+    "time": "2013-01-31"
+  },
+  {
+    "place": "Plaza4b492c2df964a520d06826e3",
+    "time": "2013-02-01"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4e157437aeb733245ecf3a43",
+    "time": "2013-02-01"
+  },
+  {
+    "place": "Food & Drink Shop4acc0c0cf964a520aac820e3",
+    "time": "2013-02-01"
+  },
+  {
+    "place": "Bank4baebd99f964a520d7d33be3",
+    "time": "2013-02-02"
+  },
+  {
+    "place": "Bank4bdf7aece75c0f474f73cb03",
+    "time": "2013-02-03"
+  },
+  {
+    "place": "Burger Joint4cd48f0367c7236a96f90d77",
+    "time": "2013-02-04"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4e157437aeb733245ecf3a43",
+    "time": "2013-02-05"
+  },
+  {
+    "place": "Food & Drink Shop4acc0c0cf964a520aac820e3",
+    "time": "2013-02-05"
+  },
+  {
+    "place": "Bank4cd4305cd160b1f7811328ab",
+    "time": "2013-02-05"
+  },
+  {
+    "place": "Gas Station / Garage4b4550cff964a520770a26e3",
+    "time": "2013-02-06"
+  },
+  {
+    "place": "Food & Drink Shop4a78f566f964a520b2e61fe3",
+    "time": "2013-02-06"
+  },
+  {
+    "place": "Gas Station / Garage4b4550cff964a520770a26e3",
+    "time": "2013-02-07"
+  },
+  {
+    "place": "Department Store4c34d4e46f1fef3b6ff1ec3d",
+    "time": "2013-02-07"
+  },
+  {
+    "place": "Food & Drink Shop4afcad9ff964a520052522e3",
+    "time": "2013-02-07"
+  },
+  {
+    "place": "Drugstore / Pharmacy4c350d9d213c2d7f0a90395d",
+    "time": "2013-02-07"
+  },
+  {
+    "place": "Bank4cd4305cd160b1f7811328ab",
+    "time": "2013-02-07"
+  },
+  {
+    "place": "Food & Drink Shop4acc0c0cf964a520aac820e3",
+    "time": "2013-02-07"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4e157437aeb733245ecf3a43",
+    "time": "2013-02-08"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4e157437aeb733245ecf3a43",
+    "time": "2013-02-12"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4e157437aeb733245ecf3a43",
+    "time": "2013-02-12"
+  },
+  {
+    "place": "Bank4b252c9bf964a520616d24e3",
+    "time": "2013-02-13"
+  },
+  {
+    "place": "Fast Food Restaurant4e7c7dfafa76b7bcf9bcb4b1",
+    "time": "2013-02-13"
+  }
+]

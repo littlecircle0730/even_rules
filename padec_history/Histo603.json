@@ -1,0 +1,758 @@
+[
+  {
+    "place": "Bagel Shop4b87ed02f964a52048d331e3",
+    "time": "2012-04-04"
+  },
+  {
+    "place": "Clothing Store4ac5273df964a520acb020e3",
+    "time": "2012-04-04"
+  },
+  {
+    "place": "Coffee Shop4b6daa1cf964a52072842ce3",
+    "time": "2012-04-04"
+  },
+  {
+    "place": "Italian Restaurant44e9b357f964a520a4371fe3",
+    "time": "2012-04-04"
+  },
+  {
+    "place": "Mexican Restaurant4b43d070f964a520caea25e3",
+    "time": "2012-04-10"
+  },
+  {
+    "place": "Bar4c4757dd972c0f47a77a2321",
+    "time": "2012-04-11"
+  },
+  {
+    "place": "Diner4a33e757f964a520629b1fe3",
+    "time": "2012-04-11"
+  },
+  {
+    "place": "Park4bba756698c7ef3bd8253302",
+    "time": "2012-04-11"
+  },
+  {
+    "place": "Clothing Store4b1c164df964a520e70124e3",
+    "time": "2012-04-11"
+  },
+  {
+    "place": "Italian Restaurant4d042ced9d33a1437c6ab978",
+    "time": "2012-04-12"
+  },
+  {
+    "place": "Bar4a368c90f964a520b09d1fe3",
+    "time": "2012-04-12"
+  },
+  {
+    "place": "Sushi Restaurant4b7394d9f964a520d3b42de3",
+    "time": "2012-04-13"
+  },
+  {
+    "place": "Food & Drink Shop4e18c6f6d4c062b044ebf5d8",
+    "time": "2012-04-14"
+  },
+  {
+    "place": "Mexican Restaurant4b43d070f964a520caea25e3",
+    "time": "2012-04-14"
+  },
+  {
+    "place": "Building4b094514f964a520171523e3",
+    "time": "2012-04-16"
+  },
+  {
+    "place": "Seafood Restaurant4a330050f964a520e49a1fe3",
+    "time": "2012-04-16"
+  },
+  {
+    "place": "Food & Drink Shop4ad68042f964a520810721e3",
+    "time": "2012-04-17"
+  },
+  {
+    "place": "Clothing Store4ac5273df964a520acb020e3",
+    "time": "2012-04-18"
+  },
+  {
+    "place": "Gastropub4259be00f964a520e7201fe3",
+    "time": "2012-04-18"
+  },
+  {
+    "place": "Food & Drink Shop4a6bc470f964a520e2cf1fe3",
+    "time": "2012-04-19"
+  },
+  {
+    "place": "Coffee Shop4a93d972f964a520e61f20e3",
+    "time": "2012-04-19"
+  },
+  {
+    "place": "BBQ Joint4a42d152f964a52044a61fe3",
+    "time": "2012-04-20"
+  },
+  {
+    "place": "Food & Drink Shop4a6bc470f964a520e2cf1fe3",
+    "time": "2012-04-20"
+  },
+  {
+    "place": "Bagel Shop4b87ed02f964a52048d331e3",
+    "time": "2012-04-20"
+  },
+  {
+    "place": "Bar4b19bf81f964a52050e323e3",
+    "time": "2012-04-21"
+  },
+  {
+    "place": "Coffee Shop4a785af0f964a52071e51fe3",
+    "time": "2012-04-21"
+  },
+  {
+    "place": "Gym / Fitness Center440d8d78f964a52090301fe3",
+    "time": "2012-04-22"
+  },
+  {
+    "place": "Bar410c3280f964a520b80b1fe3",
+    "time": "2012-04-23"
+  },
+  {
+    "place": "Bar4a15c1d0f964a520c9781fe3",
+    "time": "2012-04-24"
+  },
+  {
+    "place": "Steakhouse3fd66200f964a52094e41ee3",
+    "time": "2012-04-25"
+  },
+  {
+    "place": "Coffee Shop4a819c70f964a52006f71fe3",
+    "time": "2012-04-25"
+  },
+  {
+    "place": "Japanese Restaurant3fd66200f964a520e1e71ee3",
+    "time": "2012-04-26"
+  },
+  {
+    "place": "Coffee Shop4ad205d0f964a520e3de20e3",
+    "time": "2012-04-26"
+  },
+  {
+    "place": "Ice Cream Shop49f0b1b1f964a52046691fe3",
+    "time": "2012-04-28"
+  },
+  {
+    "place": "Mexican Restaurant4b43d070f964a520caea25e3",
+    "time": "2012-04-28"
+  },
+  {
+    "place": "Ice Cream Shop49f0b1b1f964a52046691fe3",
+    "time": "2012-04-29"
+  },
+  {
+    "place": "Bar42f54f00f964a520cd261fe3",
+    "time": "2012-04-29"
+  },
+  {
+    "place": "Food & Drink Shop4a6bc470f964a520e2cf1fe3",
+    "time": "2012-04-29"
+  },
+  {
+    "place": "Food & Drink Shop4e18c6f6d4c062b044ebf5d8",
+    "time": "2012-05-02"
+  },
+  {
+    "place": "Bakery49ebb720f964a5201b671fe3",
+    "time": "2012-05-03"
+  },
+  {
+    "place": "French Restaurant3fd66200f964a52064e31ee3",
+    "time": "2012-05-03"
+  },
+  {
+    "place": "Food & Drink Shop4ad68042f964a520810721e3",
+    "time": "2012-05-04"
+  },
+  {
+    "place": "Deli / Bodega4ad0cbd6f964a520e0d920e3",
+    "time": "2012-05-04"
+  },
+  {
+    "place": "Gym / Fitness Center440d8d78f964a52090301fe3",
+    "time": "2012-05-06"
+  },
+  {
+    "place": "Bar410c3280f964a520b80b1fe3",
+    "time": "2012-05-07"
+  },
+  {
+    "place": "Building4b094514f964a520171523e3",
+    "time": "2012-05-07"
+  },
+  {
+    "place": "Miscellaneous Shop4ced4ab5dab3a090e4c28fc0",
+    "time": "2012-05-10"
+  },
+  {
+    "place": "Italian Restaurant4dcf2a3288778512440b7a9c",
+    "time": "2012-05-11"
+  },
+  {
+    "place": "Bar4ce9ac41e888f04db250496b",
+    "time": "2012-05-11"
+  },
+  {
+    "place": "Mexican Restaurant4bbc92b02d9ea593e9bca0ce",
+    "time": "2012-05-11"
+  },
+  {
+    "place": "Bar49f68bb6f964a5204f6c1fe3",
+    "time": "2012-05-12"
+  },
+  {
+    "place": "Seafood Restaurant4e6e89b5d22daab469b62696",
+    "time": "2012-05-12"
+  },
+  {
+    "place": "Bar4c4757dd972c0f47a77a2321",
+    "time": "2012-05-12"
+  },
+  {
+    "place": "Pizza Place4dd5e536b3adc64ae06d6669",
+    "time": "2012-05-12"
+  },
+  {
+    "place": "Ice Cream Shop49f0b1b1f964a52046691fe3",
+    "time": "2012-05-13"
+  },
+  {
+    "place": "Clothing Store4ac5273df964a520acb020e3",
+    "time": "2012-05-14"
+  },
+  {
+    "place": "Bar4f9f126c7b0c9c997abc4fff",
+    "time": "2012-05-15"
+  },
+  {
+    "place": "Burger Joint3fd66200f964a52044ea1ee3",
+    "time": "2012-05-15"
+  },
+  {
+    "place": "Italian Restaurant4dcf2a3288778512440b7a9c",
+    "time": "2012-05-16"
+  },
+  {
+    "place": "Toy / Game Store4283ee00f964a520ce221fe3",
+    "time": "2012-05-16"
+  },
+  {
+    "place": "Clothing Store4a733937f964a520dadb1fe3",
+    "time": "2012-05-16"
+  },
+  {
+    "place": "Clothing Store4aa978eef964a520d65320e3",
+    "time": "2012-05-16"
+  },
+  {
+    "place": "Mall43c922c9f964a520972d1fe3",
+    "time": "2012-05-16"
+  },
+  {
+    "place": "Pizza Place4ca76866a6e08cfa86508494",
+    "time": "2012-05-17"
+  },
+  {
+    "place": "Park4e246a64628469a5743362f0",
+    "time": "2012-05-17"
+  },
+  {
+    "place": "Caf\u00c3\u00a94d51438c9b27721ecbe1b546",
+    "time": "2012-05-17"
+  },
+  {
+    "place": "Burger Joint3fd66200f964a520fbe71ee3",
+    "time": "2012-05-21"
+  },
+  {
+    "place": "Bar41536380f964a520151d1fe3",
+    "time": "2012-05-22"
+  },
+  {
+    "place": "Bagel Shop4b87ed02f964a52048d331e3",
+    "time": "2012-05-25"
+  },
+  {
+    "place": "Mexican Restaurant4ac2a8abf964a520349a20e3",
+    "time": "2012-05-25"
+  },
+  {
+    "place": "Bar3fd66200f964a520f6e61ee3",
+    "time": "2012-05-26"
+  },
+  {
+    "place": "Mexican Restaurant4ada7675f964a520c92221e3",
+    "time": "2012-05-27"
+  },
+  {
+    "place": "Hotel4b37853af964a520c54125e3",
+    "time": "2012-05-27"
+  },
+  {
+    "place": "Bar42f54f00f964a520cd261fe3",
+    "time": "2012-05-27"
+  },
+  {
+    "place": "Bar49d012ecf964a520fc5a1fe3",
+    "time": "2012-05-28"
+  },
+  {
+    "place": "Bar3fd66200f964a520e0e71ee3",
+    "time": "2012-05-28"
+  },
+  {
+    "place": "Coffee Shop4a785af0f964a52071e51fe3",
+    "time": "2012-06-01"
+  },
+  {
+    "place": "Food & Drink Shop4e18c6f6d4c062b044ebf5d8",
+    "time": "2012-06-06"
+  },
+  {
+    "place": "Coffee Shop4a785af0f964a52071e51fe3",
+    "time": "2012-06-08"
+  },
+  {
+    "place": "Bar3fd66200f964a52099e41ee3",
+    "time": "2012-06-09"
+  },
+  {
+    "place": "Park4a5a4eb2f964a52021ba1fe3",
+    "time": "2012-06-11"
+  },
+  {
+    "place": "Coffee Shop4b6daa1cf964a52072842ce3",
+    "time": "2012-06-12"
+  },
+  {
+    "place": "Deli / Bodega4ad0cbd6f964a520e0d920e3",
+    "time": "2012-06-13"
+  },
+  {
+    "place": "Gym / Fitness Center49ff53e6f964a5200c701fe3",
+    "time": "2012-06-13"
+  },
+  {
+    "place": "Park4b4cb52bf964a52022bb26e3",
+    "time": "2012-06-16"
+  },
+  {
+    "place": "Bridge4a43bcb7f964a520bba61fe3",
+    "time": "2012-06-18"
+  },
+  {
+    "place": "Coffee Shop4b1e47faf964a5205d1824e3",
+    "time": "2012-06-26"
+  },
+  {
+    "place": "Bar47b33fa7f964a520a74d1fe3",
+    "time": "2012-06-27"
+  },
+  {
+    "place": "Gym / Fitness Center49ff53e6f964a5200c701fe3",
+    "time": "2012-07-02"
+  },
+  {
+    "place": "Bar4a651ba1f964a52050c71fe3",
+    "time": "2012-07-03"
+  },
+  {
+    "place": "Bar4dd20d20e4cd7f7178c0d34d",
+    "time": "2012-07-03"
+  },
+  {
+    "place": "Burger Joint3fd66200f964a52044ea1ee3",
+    "time": "2012-07-05"
+  },
+  {
+    "place": "Coffee Shop4a785af0f964a52071e51fe3",
+    "time": "2012-07-05"
+  },
+  {
+    "place": "Bagel Shop4b87ed02f964a52048d331e3",
+    "time": "2012-07-05"
+  },
+  {
+    "place": "Park4e246a64628469a5743362f0",
+    "time": "2012-07-05"
+  },
+  {
+    "place": "Seafood Restaurant4a9f1cedf964a520903c20e3",
+    "time": "2012-07-05"
+  },
+  {
+    "place": "Deli / Bodega4ad0cbd6f964a520e0d920e3",
+    "time": "2012-07-06"
+  },
+  {
+    "place": "Clothing Store4ac52957f964a520b8b020e3",
+    "time": "2012-07-06"
+  },
+  {
+    "place": "Bar4a241528f964a520f57d1fe3",
+    "time": "2012-07-06"
+  },
+  {
+    "place": "Stadium49d60947f964a520a85c1fe3",
+    "time": "2012-07-06"
+  },
+  {
+    "place": "Gym / Fitness Center49ff53e6f964a5200c701fe3",
+    "time": "2012-07-09"
+  },
+  {
+    "place": "Park4a318fe7f964a520f2991fe3",
+    "time": "2012-07-09"
+  },
+  {
+    "place": "Italian Restaurant4dae266443a1f97d91854068",
+    "time": "2012-07-09"
+  },
+  {
+    "place": "Bar49dce835f964a520bc5f1fe3",
+    "time": "2012-07-11"
+  },
+  {
+    "place": "Coffee Shop4a785af0f964a52071e51fe3",
+    "time": "2012-07-12"
+  },
+  {
+    "place": "Bar4320d080f964a52090271fe3",
+    "time": "2012-07-14"
+  },
+  {
+    "place": "Park3fd66200f964a520def11ee3",
+    "time": "2012-07-16"
+  },
+  {
+    "place": "Coffee Shop4b6daa1cf964a52072842ce3",
+    "time": "2012-07-17"
+  },
+  {
+    "place": "Food & Drink Shop4b33ace6f964a5209e1c25e3",
+    "time": "2012-07-27"
+  },
+  {
+    "place": "Burger Joint4d07ac142f96f04de0fe2d54",
+    "time": "2012-07-29"
+  },
+  {
+    "place": "Coffee Shop4b6daa1cf964a52072842ce3",
+    "time": "2012-07-30"
+  },
+  {
+    "place": "Diner4a3d4791f964a5200ea21fe3",
+    "time": "2012-08-09"
+  },
+  {
+    "place": "Japanese Restaurant4a4a5bdbf964a520b4ab1fe3",
+    "time": "2012-08-11"
+  },
+  {
+    "place": "Coffee Shop49cf9381f964a520af5a1fe3",
+    "time": "2012-08-14"
+  },
+  {
+    "place": "American Restaurant49ba5f96f964a52060531fe3",
+    "time": "2012-08-15"
+  },
+  {
+    "place": "Beer Garden4c8cf3e9509e37043cb33755",
+    "time": "2012-09-15"
+  },
+  {
+    "place": "Hotel3fd66200f964a52019e61ee3",
+    "time": "2012-09-15"
+  },
+  {
+    "place": "Bar3fd66200f964a52067e91ee3",
+    "time": "2012-09-15"
+  },
+  {
+    "place": "Pizza Place4a96b116f964a520972620e3",
+    "time": "2012-09-15"
+  },
+  {
+    "place": "Park4f8213e6e4b042dc225bf065",
+    "time": "2012-10-08"
+  },
+  {
+    "place": "Bar3fd66200f964a5208de81ee3",
+    "time": "2012-10-08"
+  },
+  {
+    "place": "Sandwich Place458d06b3f964a520fe3f1fe3",
+    "time": "2012-10-12"
+  },
+  {
+    "place": "Bar4cc8e3fdd338236ae7b59f7c",
+    "time": "2012-10-13"
+  },
+  {
+    "place": "Diner4a3d4791f964a5200ea21fe3",
+    "time": "2012-10-18"
+  },
+  {
+    "place": "Park412d2800f964a520df0c1fe3",
+    "time": "2012-10-18"
+  },
+  {
+    "place": "Coffee Shop4a887a70f964a520970620e3",
+    "time": "2012-10-19"
+  },
+  {
+    "place": "Gift Shop4a7464baf964a52002de1fe3",
+    "time": "2012-10-19"
+  },
+  {
+    "place": "American Restaurant4e73cf3a2271ffa4e63183bd",
+    "time": "2012-10-22"
+  },
+  {
+    "place": "BBQ Joint3fd66200f964a520d7e81ee3",
+    "time": "2012-10-24"
+  },
+  {
+    "place": "Diner4a3d4791f964a5200ea21fe3",
+    "time": "2012-10-26"
+  },
+  {
+    "place": "BBQ Joint3fd66200f964a52020e71ee3",
+    "time": "2012-10-27"
+  },
+  {
+    "place": "Caf\u00c3\u00a94a341760f964a520b59b1fe3",
+    "time": "2012-10-27"
+  },
+  {
+    "place": "Coffee Shop4b69efa9f964a52014bd2be3",
+    "time": "2012-11-05"
+  },
+  {
+    "place": "Bar4aaa9905f964a520865620e3",
+    "time": "2012-11-06"
+  },
+  {
+    "place": "Diner4a3d4791f964a5200ea21fe3",
+    "time": "2012-11-09"
+  },
+  {
+    "place": "Bar4a18b5e7f964a520e0791fe3",
+    "time": "2012-11-10"
+  },
+  {
+    "place": "Bar4f9f126c7b0c9c997abc4fff",
+    "time": "2012-11-11"
+  },
+  {
+    "place": "Sushi Restaurant4aa29d9cf964a520f94120e3",
+    "time": "2012-11-16"
+  },
+  {
+    "place": "Bar4e74dadec65bb91db41824b4",
+    "time": "2012-11-17"
+  },
+  {
+    "place": "Bar45fe3baef964a52082441fe3",
+    "time": "2012-11-17"
+  },
+  {
+    "place": "Office4f91fb27e4b02d88431cfce9",
+    "time": "2012-11-17"
+  },
+  {
+    "place": "Bar49f13760f964a5209e691fe3",
+    "time": "2012-11-18"
+  },
+  {
+    "place": "Restaurant500d9460c84c53f005e19eb8",
+    "time": "2012-11-20"
+  },
+  {
+    "place": "Office4f91fb27e4b02d88431cfce9",
+    "time": "2012-11-20"
+  },
+  {
+    "place": "Diner4a3d4791f964a5200ea21fe3",
+    "time": "2012-11-24"
+  },
+  {
+    "place": "Bar49dce835f964a520bc5f1fe3",
+    "time": "2012-11-25"
+  },
+  {
+    "place": "Bar4d98a3dcdaec224b74634d3e",
+    "time": "2012-11-26"
+  },
+  {
+    "place": "Bar4c9bb662e9a7ef3bd0ed2e16",
+    "time": "2012-11-29"
+  },
+  {
+    "place": "Bar3fd66200f964a520f6e61ee3",
+    "time": "2012-12-01"
+  },
+  {
+    "place": "Bar4a6852f4f964a5205bca1fe3",
+    "time": "2012-12-01"
+  },
+  {
+    "place": "Bar40fc6080f964a520100b1fe3",
+    "time": "2012-12-01"
+  },
+  {
+    "place": "Office4f91fb27e4b02d88431cfce9",
+    "time": "2012-12-01"
+  },
+  {
+    "place": "Office4f91fb27e4b02d88431cfce9",
+    "time": "2012-12-02"
+  },
+  {
+    "place": "Bar42f54f00f964a520cd261fe3",
+    "time": "2012-12-07"
+  },
+  {
+    "place": "Office4f91fb27e4b02d88431cfce9",
+    "time": "2012-12-07"
+  },
+  {
+    "place": "Seafood Restaurant4a330050f964a520e49a1fe3",
+    "time": "2012-12-08"
+  },
+  {
+    "place": "Bar4a18b5e7f964a520e0791fe3",
+    "time": "2012-12-08"
+  },
+  {
+    "place": "BBQ Joint41b24f80f964a520661e1fe3",
+    "time": "2012-12-09"
+  },
+  {
+    "place": "Food4deffce2b0fbfee72f3cacde",
+    "time": "2012-12-09"
+  },
+  {
+    "place": "Bar4f9f126c7b0c9c997abc4fff",
+    "time": "2012-12-13"
+  },
+  {
+    "place": "Bar3fd66200f964a52067e91ee3",
+    "time": "2012-12-15"
+  },
+  {
+    "place": "Bar4be874a488ed2d7fa3e4cb1d",
+    "time": "2012-12-16"
+  },
+  {
+    "place": "Bar44e454a3f964a52053371fe3",
+    "time": "2012-12-17"
+  },
+  {
+    "place": "Burger Joint4c2bccc7d1a10f475a88f864",
+    "time": "2012-12-17"
+  },
+  {
+    "place": "Office4f91fb27e4b02d88431cfce9",
+    "time": "2012-12-17"
+  },
+  {
+    "place": "Bar4f934f7ce4b0a20c2659728f",
+    "time": "2012-12-18"
+  },
+  {
+    "place": "Bar49d012ecf964a520fc5a1fe3",
+    "time": "2012-12-18"
+  },
+  {
+    "place": "Bar4ad778a8f964a520030b21e3",
+    "time": "2012-12-22"
+  },
+  {
+    "place": "Bar3fd66200f964a52067e91ee3",
+    "time": "2012-12-22"
+  },
+  {
+    "place": "Food & Drink Shop3fd66200f964a5203ee71ee3",
+    "time": "2012-12-22"
+  },
+  {
+    "place": "Bar4a6852f4f964a5205bca1fe3",
+    "time": "2012-12-28"
+  },
+  {
+    "place": "Office4f91fb27e4b02d88431cfce9",
+    "time": "2012-12-29"
+  },
+  {
+    "place": "Mexican Restaurant4a2c639bf964a52059971fe3",
+    "time": "2013-01-05"
+  },
+  {
+    "place": "Movie Theater4a070b6ef964a5201d731fe3",
+    "time": "2013-01-08"
+  },
+  {
+    "place": "Korean Restaurant40bbc700f964a520a2001fe3",
+    "time": "2013-01-09"
+  },
+  {
+    "place": "Coffee Shop4b3ff06cf964a52097b225e3",
+    "time": "2013-01-09"
+  },
+  {
+    "place": "Coffee Shop4b6daa1cf964a52072842ce3",
+    "time": "2013-01-10"
+  },
+  {
+    "place": "Concert Hall49f9d486f964a520896d1fe3",
+    "time": "2013-01-11"
+  },
+  {
+    "place": "Fast Food Restaurant4b777562f964a520b09b2ee3",
+    "time": "2013-01-11"
+  },
+  {
+    "place": "Greek Restaurant423f6000f964a5205f201fe3",
+    "time": "2013-01-12"
+  },
+  {
+    "place": "French Restaurant4aafc71bf964a520ae6420e3",
+    "time": "2013-01-17"
+  },
+  {
+    "place": "Bar4c4757dd972c0f47a77a2321",
+    "time": "2013-01-18"
+  },
+  {
+    "place": "Hotel42717900f964a5206d211fe3",
+    "time": "2013-01-31"
+  },
+  {
+    "place": "Bar4b1bf775f964a520d0ff23e3",
+    "time": "2013-01-31"
+  },
+  {
+    "place": "Office4f91fb27e4b02d88431cfce9",
+    "time": "2013-01-31"
+  },
+  {
+    "place": "German Restaurant4f8860a7e4b0cec3aa3eed76",
+    "time": "2013-02-05"
+  },
+  {
+    "place": "Office4f91fb27e4b02d88431cfce9",
+    "time": "2013-02-10"
+  },
+  {
+    "place": "Office4f91fb27e4b02d88431cfce9",
+    "time": "2013-02-11"
+  },
+  {
+    "place": "Bar4c4757dd972c0f47a77a2321",
+    "time": "2013-02-12"
+  }
+]

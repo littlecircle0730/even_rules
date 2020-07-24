@@ -1,0 +1,466 @@
+[
+  {
+    "place": "American Restaurant4a3d29e6f964a520e6a11fe3",
+    "time": "2012-04-08"
+  },
+  {
+    "place": "Movie Theater40afe980f964a5203bf31ee3",
+    "time": "2012-04-08"
+  },
+  {
+    "place": "Pizza Place4c0eedbcc6cf76b0b39b8151",
+    "time": "2012-04-09"
+  },
+  {
+    "place": "Mexican Restaurant4a9bf65df964a520923520e3",
+    "time": "2012-04-11"
+  },
+  {
+    "place": "Deli / Bodega4a981533f964a520692a20e3",
+    "time": "2012-04-12"
+  },
+  {
+    "place": "Italian Restaurant4a85f88df964a520e0ff1fe3",
+    "time": "2012-04-12"
+  },
+  {
+    "place": "Bar4b5da3ecf964a520b36429e3",
+    "time": "2012-04-13"
+  },
+  {
+    "place": "Bar4c9a7efb971676b04a9755e2",
+    "time": "2012-04-15"
+  },
+  {
+    "place": "Deli / Bodega4a981533f964a520692a20e3",
+    "time": "2012-04-16"
+  },
+  {
+    "place": "Deli / Bodega4a981533f964a520692a20e3",
+    "time": "2012-04-18"
+  },
+  {
+    "place": "Pizza Place4c0eedbcc6cf76b0b39b8151",
+    "time": "2012-04-20"
+  },
+  {
+    "place": "Movie Theater45b893e3f964a520cf411fe3",
+    "time": "2012-04-22"
+  },
+  {
+    "place": "Mexican Restaurant4396cca9f964a520952b1fe3",
+    "time": "2012-04-23"
+  },
+  {
+    "place": "Burger Joint4b23f624f964a520e45d24e3",
+    "time": "2012-04-23"
+  },
+  {
+    "place": "Pizza Place4c0eedbcc6cf76b0b39b8151",
+    "time": "2012-04-28"
+  },
+  {
+    "place": "American Restaurant4a3d29e6f964a520e6a11fe3",
+    "time": "2012-04-29"
+  },
+  {
+    "place": "Bar4db3dd4c81543d71da3a35ce",
+    "time": "2012-04-29"
+  },
+  {
+    "place": "Bar419d3780f964a5202c1e1fe3",
+    "time": "2012-05-05"
+  },
+  {
+    "place": "Caribbean Restaurant4afcba6af964a5206d2522e3",
+    "time": "2012-05-05"
+  },
+  {
+    "place": "Movie Theater4a5e05c3f964a520e8bd1fe3",
+    "time": "2012-05-06"
+  },
+  {
+    "place": "Pizza Place4e1c78a06284ae9cf27b9100",
+    "time": "2012-05-07"
+  },
+  {
+    "place": "Deli / Bodega4a981533f964a520692a20e3",
+    "time": "2012-05-07"
+  },
+  {
+    "place": "Cuban Restaurant4ace3476f964a52011cf20e3",
+    "time": "2012-05-10"
+  },
+  {
+    "place": "Pizza Place4c0eedbcc6cf76b0b39b8151",
+    "time": "2012-05-11"
+  },
+  {
+    "place": "Mediterranean Restaurant4da8ee246e81162ae7b15710",
+    "time": "2012-05-12"
+  },
+  {
+    "place": "General Entertainment4faf2643e4b0604808298cc7",
+    "time": "2012-05-13"
+  },
+  {
+    "place": "Cuban Restaurant4ace3476f964a52011cf20e3",
+    "time": "2012-05-14"
+  },
+  {
+    "place": "Deli / Bodega4a981533f964a520692a20e3",
+    "time": "2012-05-15"
+  },
+  {
+    "place": "Cuban Restaurant4ace3476f964a52011cf20e3",
+    "time": "2012-05-16"
+  },
+  {
+    "place": "Fast Food Restaurant4ae9c4eaf964a52039b621e3",
+    "time": "2012-05-16"
+  },
+  {
+    "place": "Bridge4a33eb53f964a5206a9b1fe3",
+    "time": "2012-05-19"
+  },
+  {
+    "place": "Cuban Restaurant4ace3476f964a52011cf20e3",
+    "time": "2012-05-21"
+  },
+  {
+    "place": "Cuban Restaurant4ace3476f964a52011cf20e3",
+    "time": "2012-05-25"
+  },
+  {
+    "place": "Performing Arts Venue3fd66200f964a52023e81ee3",
+    "time": "2012-06-04"
+  },
+  {
+    "place": "Bar4e8b34c561afcc24d9a236ca",
+    "time": "2012-06-09"
+  },
+  {
+    "place": "American Restaurant4a3d29e6f964a520e6a11fe3",
+    "time": "2012-06-10"
+  },
+  {
+    "place": "Cuban Restaurant4ace3476f964a52011cf20e3",
+    "time": "2012-06-11"
+  },
+  {
+    "place": "Pizza Place4c0eedbcc6cf76b0b39b8151",
+    "time": "2012-06-12"
+  },
+  {
+    "place": "Pizza Place4c0eedbcc6cf76b0b39b8151",
+    "time": "2012-07-05"
+  },
+  {
+    "place": "Department Store4531059cf964a520683b1fe3",
+    "time": "2012-07-06"
+  },
+  {
+    "place": "Cuban Restaurant4ace3476f964a52011cf20e3",
+    "time": "2012-07-06"
+  },
+  {
+    "place": "Harbor / Marina4e8e387bcc21c15fa2a124d3",
+    "time": "2012-07-09"
+  },
+  {
+    "place": "Mexican Restaurant4a9bf65df964a520923520e3",
+    "time": "2012-07-09"
+  },
+  {
+    "place": "Cuban Restaurant4ace3476f964a52011cf20e3",
+    "time": "2012-07-11"
+  },
+  {
+    "place": "Bar4afd6dcef964a520c52722e3",
+    "time": "2012-07-14"
+  },
+  {
+    "place": "Mexican Restaurant49c2ab09f964a52014561fe3",
+    "time": "2012-07-14"
+  },
+  {
+    "place": "American Restaurant4dc70d3aae608779d1635fa2",
+    "time": "2012-07-15"
+  },
+  {
+    "place": "Bar49f4c1e8f964a520496b1fe3",
+    "time": "2012-07-15"
+  },
+  {
+    "place": "Cuban Restaurant4ace3476f964a52011cf20e3",
+    "time": "2012-07-16"
+  },
+  {
+    "place": "Diner49ecebbaf964a520ae671fe3",
+    "time": "2012-07-17"
+  },
+  {
+    "place": "Movie Theater4ada0b96f964a520b61d21e3",
+    "time": "2012-07-20"
+  },
+  {
+    "place": "Cuban Restaurant4ace3476f964a52011cf20e3",
+    "time": "2012-07-24"
+  },
+  {
+    "place": "Electronics Store4a883971f964a5207b0520e3",
+    "time": "2012-07-28"
+  },
+  {
+    "place": "Italian Restaurant4a436ca8f964a52086a61fe3",
+    "time": "2012-07-28"
+  },
+  {
+    "place": "American Restaurant4faad0484fc68152ec7e368c",
+    "time": "2012-07-29"
+  },
+  {
+    "place": "American Restaurant4faad0484fc68152ec7e368c",
+    "time": "2012-08-06"
+  },
+  {
+    "place": "American Restaurant4a3d29e6f964a520e6a11fe3",
+    "time": "2012-08-06"
+  },
+  {
+    "place": "Deli / Bodega4a981533f964a520692a20e3",
+    "time": "2012-08-09"
+  },
+  {
+    "place": "Home (private)4e5da0f9a8092f639687c31c",
+    "time": "2012-08-12"
+  },
+  {
+    "place": "American Restaurant4a3d29e6f964a520e6a11fe3",
+    "time": "2012-08-13"
+  },
+  {
+    "place": "Caribbean Restaurant4afcba6af964a5206d2522e3",
+    "time": "2012-08-16"
+  },
+  {
+    "place": "Restaurant4bcdd0a6fb84c9b61c98223e",
+    "time": "2012-08-18"
+  },
+  {
+    "place": "Mall4ddfd7107d8b04e50266d1cf",
+    "time": "2012-08-22"
+  },
+  {
+    "place": "Sandwich Place4e01da4f22717718d3a196d1",
+    "time": "2012-09-14"
+  },
+  {
+    "place": "Bar49f4c1e8f964a520496b1fe3",
+    "time": "2012-09-15"
+  },
+  {
+    "place": "Park40abf500f964a52035f31ee3",
+    "time": "2012-12-20"
+  },
+  {
+    "place": "Gym / Fitness Center4cbe5493611abfb717f5a405",
+    "time": "2012-12-21"
+  },
+  {
+    "place": "Bar48821a51f964a52033511fe3",
+    "time": "2012-12-22"
+  },
+  {
+    "place": "Bar503920e5e4b0fba092d5e890",
+    "time": "2012-12-22"
+  },
+  {
+    "place": "Bar4cc0b96656bda093199de735",
+    "time": "2012-12-22"
+  },
+  {
+    "place": "Salad Place50c8e93ce4b058c26ec10b88",
+    "time": "2012-12-22"
+  },
+  {
+    "place": "Burrito Place4a4fdd40f964a520c8af1fe3",
+    "time": "2012-12-28"
+  },
+  {
+    "place": "Bar43cbf323f964a520c52d1fe3",
+    "time": "2012-12-29"
+  },
+  {
+    "place": "Bar49f4c1e8f964a520496b1fe3",
+    "time": "2012-12-29"
+  },
+  {
+    "place": "Other Great Outdoors50dff1a7e4b0a36649c8402e",
+    "time": "2012-12-31"
+  },
+  {
+    "place": "Bar4d06605a0e49721e8fe97a7f",
+    "time": "2013-01-02"
+  },
+  {
+    "place": "Bar419d3780f964a5202c1e1fe3",
+    "time": "2013-01-03"
+  },
+  {
+    "place": "Bar4d06605a0e49721e8fe97a7f",
+    "time": "2013-01-03"
+  },
+  {
+    "place": "Sporting Goods Shop4b5c6c04f964a520172f29e3",
+    "time": "2013-01-05"
+  },
+  {
+    "place": "Deli / Bodega4a395b07f964a5205f9f1fe3",
+    "time": "2013-01-06"
+  },
+  {
+    "place": "Gym / Fitness Center4cbe5493611abfb717f5a405",
+    "time": "2013-01-08"
+  },
+  {
+    "place": "Park40abf500f964a52035f31ee3",
+    "time": "2013-01-08"
+  },
+  {
+    "place": "Park40abf500f964a52035f31ee3",
+    "time": "2013-01-09"
+  },
+  {
+    "place": "Gym / Fitness Center4cbe5493611abfb717f5a405",
+    "time": "2013-01-09"
+  },
+  {
+    "place": "Park40abf500f964a52035f31ee3",
+    "time": "2013-01-10"
+  },
+  {
+    "place": "Mediterranean Restaurant4da8ee246e81162ae7b15710",
+    "time": "2013-01-11"
+  },
+  {
+    "place": "Mexican Restaurant49c2ab09f964a52014561fe3",
+    "time": "2013-01-12"
+  },
+  {
+    "place": "Bar49f4c1e8f964a520496b1fe3",
+    "time": "2013-01-12"
+  },
+  {
+    "place": "Bakery4add0068f964a520566321e3",
+    "time": "2013-01-13"
+  },
+  {
+    "place": "Park40abf500f964a52035f31ee3",
+    "time": "2013-01-16"
+  },
+  {
+    "place": "Deli / Bodega4a395b07f964a5205f9f1fe3",
+    "time": "2013-01-18"
+  },
+  {
+    "place": "Park40abf500f964a52035f31ee3",
+    "time": "2013-01-22"
+  },
+  {
+    "place": "Mexican Restaurant503502d6e4b0bd196609a46e",
+    "time": "2013-01-24"
+  },
+  {
+    "place": "Mediterranean Restaurant4da8ee246e81162ae7b15710",
+    "time": "2013-01-26"
+  },
+  {
+    "place": "Mexican Restaurant503502d6e4b0bd196609a46e",
+    "time": "2013-01-26"
+  },
+  {
+    "place": "Bar4f99f9cbe4b0c308b6dffff4",
+    "time": "2013-01-27"
+  },
+  {
+    "place": "Drugstore / Pharmacy4fa45daae4b0fd4c3e369a33",
+    "time": "2013-01-27"
+  },
+  {
+    "place": "Gym / Fitness Center4cbe5493611abfb717f5a405",
+    "time": "2013-01-30"
+  },
+  {
+    "place": "Park40abf500f964a52035f31ee3",
+    "time": "2013-01-30"
+  },
+  {
+    "place": "Bar4c4757dd972c0f47a77a2321",
+    "time": "2013-01-31"
+  },
+  {
+    "place": "Gym / Fitness Center4cbe5493611abfb717f5a405",
+    "time": "2013-02-01"
+  },
+  {
+    "place": "Bar3fd66200f964a5201ee51ee3",
+    "time": "2013-02-01"
+  },
+  {
+    "place": "Office4c1a3bceb306c9283c3b60b7",
+    "time": "2013-02-02"
+  },
+  {
+    "place": "Other Nightlife50a85fb1498ea24de117f4af",
+    "time": "2013-02-03"
+  },
+  {
+    "place": "Drugstore / Pharmacy4a7f68e6f964a520eff31fe3",
+    "time": "2013-02-03"
+  },
+  {
+    "place": "Bar3fd66200f964a520c0e31ee3",
+    "time": "2013-02-03"
+  },
+  {
+    "place": "Gym / Fitness Center4cbe5493611abfb717f5a405",
+    "time": "2013-02-06"
+  },
+  {
+    "place": "Deli / Bodega4a981533f964a520692a20e3",
+    "time": "2013-02-07"
+  },
+  {
+    "place": "Italian Restaurant4f0f7976e4b050fb2956e7de",
+    "time": "2013-02-10"
+  },
+  {
+    "place": "Candy Store4a6c6b4af964a52082d01fe3",
+    "time": "2013-02-10"
+  },
+  {
+    "place": "Candy Store4a065273f964a520ec721fe3",
+    "time": "2013-02-10"
+  },
+  {
+    "place": "Latin American Restaurant4b1b1f52f964a52074f823e3",
+    "time": "2013-02-11"
+  },
+  {
+    "place": "City5116fef9e4b066680e7fab07",
+    "time": "2013-02-11"
+  },
+  {
+    "place": "Gym / Fitness Center4cbe5493611abfb717f5a405",
+    "time": "2013-02-11"
+  },
+  {
+    "place": "Cuban Restaurant4ace3476f964a52011cf20e3",
+    "time": "2013-02-12"
+  },
+  {
+    "place": "Bar4ad27f19f964a520f1e120e3",
+    "time": "2013-02-13"
+  }
+]

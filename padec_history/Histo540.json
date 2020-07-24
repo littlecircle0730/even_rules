@@ -1,0 +1,482 @@
+[
+  {
+    "place": "Train Station4eeaa4ed77c8730d38061384",
+    "time": "2012-04-04"
+  },
+  {
+    "place": "Theater4cc384c142d1b60cba011813",
+    "time": "2012-04-04"
+  },
+  {
+    "place": "Theater4a00c786f964a520b1701fe3",
+    "time": "2012-04-04"
+  },
+  {
+    "place": "Train Station4eeaa4ed77c8730d38061384",
+    "time": "2012-04-06"
+  },
+  {
+    "place": "Theater4cc384c142d1b60cba011813",
+    "time": "2012-04-06"
+  },
+  {
+    "place": "Theater4cc384c142d1b60cba011813",
+    "time": "2012-04-07"
+  },
+  {
+    "place": "Casino4ba40ca1f964a520be7b38e3",
+    "time": "2012-04-08"
+  },
+  {
+    "place": "Coffee Shop4b916bd8f964a5202fbb33e3",
+    "time": "2012-04-08"
+  },
+  {
+    "place": "Theater4ab6691df964a520f47620e3",
+    "time": "2012-04-11"
+  },
+  {
+    "place": "Train Station4eeaa4ed77c8730d38061384",
+    "time": "2012-04-12"
+  },
+  {
+    "place": "Theater4cc384c142d1b60cba011813",
+    "time": "2012-04-12"
+  },
+  {
+    "place": "Bar4aa88b91f964a520915120e3",
+    "time": "2012-04-12"
+  },
+  {
+    "place": "Theater4cc384c142d1b60cba011813",
+    "time": "2012-04-12"
+  },
+  {
+    "place": "Train Station4eeaa4ed77c8730d38061384",
+    "time": "2012-04-13"
+  },
+  {
+    "place": "Theater4cc384c142d1b60cba011813",
+    "time": "2012-04-14"
+  },
+  {
+    "place": "Ice Cream Shop4aef6dd1f964a5205cd821e3",
+    "time": "2012-04-14"
+  },
+  {
+    "place": "Theater4cc384c142d1b60cba011813",
+    "time": "2012-04-14"
+  },
+  {
+    "place": "Theater4cc384c142d1b60cba011813",
+    "time": "2012-04-16"
+  },
+  {
+    "place": "Subway4b498c79f964a5201e7126e3",
+    "time": "2012-04-16"
+  },
+  {
+    "place": "Train Station4eeaa4ed77c8730d38061384",
+    "time": "2012-04-17"
+  },
+  {
+    "place": "Theater4cc384c142d1b60cba011813",
+    "time": "2012-04-17"
+  },
+  {
+    "place": "Bus Station4d8bc68537c6a14303c3b10c",
+    "time": "2012-04-18"
+  },
+  {
+    "place": "Bus Station4d8bc68537c6a14303c3b10c",
+    "time": "2012-04-19"
+  },
+  {
+    "place": "Train Station4eeaa4ed77c8730d38061384",
+    "time": "2012-04-19"
+  },
+  {
+    "place": "Theater4cc384c142d1b60cba011813",
+    "time": "2012-04-19"
+  },
+  {
+    "place": "Coffee Shop49ee02e9f964a52010681fe3",
+    "time": "2012-04-19"
+  },
+  {
+    "place": "Theater4cc384c142d1b60cba011813",
+    "time": "2012-04-19"
+  },
+  {
+    "place": "Train Station4eeaa4ed77c8730d38061384",
+    "time": "2012-04-20"
+  },
+  {
+    "place": "Coffee Shop49c4fbcdf964a520d9561fe3",
+    "time": "2012-04-20"
+  },
+  {
+    "place": "Theater4cc384c142d1b60cba011813",
+    "time": "2012-04-20"
+  },
+  {
+    "place": "Subway4c614e8512e5c928d935214c",
+    "time": "2012-04-21"
+  },
+  {
+    "place": "Theater4cc384c142d1b60cba011813",
+    "time": "2012-04-21"
+  },
+  {
+    "place": "Subway4b498c79f964a5201e7126e3",
+    "time": "2012-04-22"
+  },
+  {
+    "place": "Theater4bb529462f70c9b6cad58330",
+    "time": "2012-04-22"
+  },
+  {
+    "place": "Caf\u00c3\u00a94f0f47650cd695a0e54cb438",
+    "time": "2012-04-22"
+  },
+  {
+    "place": "Bus Station4d8bc68537c6a14303c3b10c",
+    "time": "2012-04-23"
+  },
+  {
+    "place": "Theater4cc384c142d1b60cba011813",
+    "time": "2012-04-23"
+  },
+  {
+    "place": "Train Station4eeaa4ed77c8730d38061384",
+    "time": "2012-04-24"
+  },
+  {
+    "place": "Theater4cc384c142d1b60cba011813",
+    "time": "2012-04-24"
+  },
+  {
+    "place": "Train Station4eeaa4ed77c8730d38061384",
+    "time": "2012-04-25"
+  },
+  {
+    "place": "Theater4cc384c142d1b60cba011813",
+    "time": "2012-04-25"
+  },
+  {
+    "place": "Middle Eastern Restaurant3fd66200f964a52020e51ee3",
+    "time": "2012-04-25"
+  },
+  {
+    "place": "Bar4aa88b91f964a520915120e3",
+    "time": "2012-04-25"
+  },
+  {
+    "place": "Train Station4eeaa4ed77c8730d38061384",
+    "time": "2012-04-26"
+  },
+  {
+    "place": "Burger Joint49c9358af964a52040581fe3",
+    "time": "2012-05-01"
+  },
+  {
+    "place": "College Academic Building4b0593cdf964a5205fdf22e3",
+    "time": "2012-05-01"
+  },
+  {
+    "place": "Theater4b8d236ff964a520d5e932e3",
+    "time": "2012-05-01"
+  },
+  {
+    "place": "Train Station4eeaa4ed77c8730d38061384",
+    "time": "2012-05-03"
+  },
+  {
+    "place": "Theater4cc384c142d1b60cba011813",
+    "time": "2012-05-03"
+  },
+  {
+    "place": "Performing Arts Venue4576408bf964a520a73e1fe3",
+    "time": "2012-05-03"
+  },
+  {
+    "place": "Train Station4eeaa4ed77c8730d38061384",
+    "time": "2012-05-04"
+  },
+  {
+    "place": "Theater4cc384c142d1b60cba011813",
+    "time": "2012-05-04"
+  },
+  {
+    "place": "Train Station42829c80f964a5206a221fe3",
+    "time": "2012-05-05"
+  },
+  {
+    "place": "Theater4cc384c142d1b60cba011813",
+    "time": "2012-05-07"
+  },
+  {
+    "place": "Train Station4eeaa4ed77c8730d38061384",
+    "time": "2012-05-08"
+  },
+  {
+    "place": "Theater4cc384c142d1b60cba011813",
+    "time": "2012-05-08"
+  },
+  {
+    "place": "Italian Restaurant4d1d1bf35acaa35dc8e3aa35",
+    "time": "2012-05-08"
+  },
+  {
+    "place": "Train Station4eeaa4ed77c8730d38061384",
+    "time": "2012-05-09"
+  },
+  {
+    "place": "Theater4cc384c142d1b60cba011813",
+    "time": "2012-05-09"
+  },
+  {
+    "place": "Salon / Barbershop4db3135f81543d71da285f90",
+    "time": "2012-05-10"
+  },
+  {
+    "place": "Theater4cc384c142d1b60cba011813",
+    "time": "2012-05-11"
+  },
+  {
+    "place": "Bus Station4d8bc68537c6a14303c3b10c",
+    "time": "2012-05-12"
+  },
+  {
+    "place": "Theater4cc384c142d1b60cba011813",
+    "time": "2012-05-12"
+  },
+  {
+    "place": "Bus Station4d8bc68537c6a14303c3b10c",
+    "time": "2012-05-13"
+  },
+  {
+    "place": "Building4ceb51c1baa6a1cd8ae83d6c",
+    "time": "2012-05-13"
+  },
+  {
+    "place": "Mediterranean Restaurant4a050dcff964a52053721fe3",
+    "time": "2012-05-13"
+  },
+  {
+    "place": "Subway4b498c79f964a5201e7126e3",
+    "time": "2012-05-14"
+  },
+  {
+    "place": "Caf\u00c3\u00a94f23562ee4b04f6e6811356d",
+    "time": "2012-05-14"
+  },
+  {
+    "place": "Train Station4eeaa4ed77c8730d38061384",
+    "time": "2012-05-15"
+  },
+  {
+    "place": "Theater4cc384c142d1b60cba011813",
+    "time": "2012-05-15"
+  },
+  {
+    "place": "Bus Station4d8bc68537c6a14303c3b10c",
+    "time": "2012-05-16"
+  },
+  {
+    "place": "Train Station4eeaa4ed77c8730d38061384",
+    "time": "2012-05-16"
+  },
+  {
+    "place": "Train Station4eeaa4ed77c8730d38061384",
+    "time": "2012-05-18"
+  },
+  {
+    "place": "Theater4cc384c142d1b60cba011813",
+    "time": "2012-05-18"
+  },
+  {
+    "place": "Theater4cc384c142d1b60cba011813",
+    "time": "2012-05-19"
+  },
+  {
+    "place": "Train Station4eeaa4ed77c8730d38061384",
+    "time": "2012-05-21"
+  },
+  {
+    "place": "Theater4cc384c142d1b60cba011813",
+    "time": "2012-05-21"
+  },
+  {
+    "place": "Bar49dc03d9f964a520445f1fe3",
+    "time": "2012-05-21"
+  },
+  {
+    "place": "Train Station4eeaa4ed77c8730d38061384",
+    "time": "2012-05-22"
+  },
+  {
+    "place": "Building4b58c03df964a5201d6928e3",
+    "time": "2012-05-23"
+  },
+  {
+    "place": "Train Station42829c80f964a5206a221fe3",
+    "time": "2012-05-26"
+  },
+  {
+    "place": "Cuban Restaurant4d960605daec224beab30c3e",
+    "time": "2012-05-27"
+  },
+  {
+    "place": "Train Station4eeaa4ed77c8730d38061384",
+    "time": "2012-05-29"
+  },
+  {
+    "place": "Theater4cc384c142d1b60cba011813",
+    "time": "2012-05-29"
+  },
+  {
+    "place": "Subway4b498c79f964a5201e7126e3",
+    "time": "2012-05-31"
+  },
+  {
+    "place": "Theater4cc384c142d1b60cba011813",
+    "time": "2012-05-31"
+  },
+  {
+    "place": "Train Station4eeaa4ed77c8730d38061384",
+    "time": "2012-06-01"
+  },
+  {
+    "place": "Theater4cc384c142d1b60cba011813",
+    "time": "2012-06-01"
+  },
+  {
+    "place": "Arts & Entertainment4e616f952271573ad72ed2a9",
+    "time": "2012-06-03"
+  },
+  {
+    "place": "Train Station4eeaa4ed77c8730d38061384",
+    "time": "2012-06-03"
+  },
+  {
+    "place": "Theater4cc384c142d1b60cba011813",
+    "time": "2012-06-06"
+  },
+  {
+    "place": "Salon / Barbershop4db3135f81543d71da285f90",
+    "time": "2012-06-07"
+  },
+  {
+    "place": "Theater4cc384c142d1b60cba011813",
+    "time": "2012-06-07"
+  },
+  {
+    "place": "Burger Joint3fd66200f964a52044ea1ee3",
+    "time": "2012-06-21"
+  },
+  {
+    "place": "Train Station4eeaa4ed77c8730d38061384",
+    "time": "2012-06-21"
+  },
+  {
+    "place": "Theater4cc384c142d1b60cba011813",
+    "time": "2012-06-21"
+  },
+  {
+    "place": "Theater4cc384c142d1b60cba011813",
+    "time": "2012-07-13"
+  },
+  {
+    "place": "Train Station4eeaa4ed77c8730d38061384",
+    "time": "2012-07-18"
+  },
+  {
+    "place": "Subway4b498c79f964a5201e7126e3",
+    "time": "2012-08-05"
+  },
+  {
+    "place": "Subway4b498c79f964a5201e7126e3",
+    "time": "2012-08-10"
+  },
+  {
+    "place": "Theater4a87502bf964a520d30320e3",
+    "time": "2012-08-10"
+  },
+  {
+    "place": "Bar4544401ff964a520623c1fe3",
+    "time": "2012-08-11"
+  },
+  {
+    "place": "Theater4a87502bf964a520d30320e3",
+    "time": "2012-08-19"
+  },
+  {
+    "place": "Train Station42829c80f964a5206a221fe3",
+    "time": "2012-08-18"
+  },
+  {
+    "place": "Theater4a87502bf964a520d30320e3",
+    "time": "2012-08-18"
+  },
+  {
+    "place": "Theater4cc384c142d1b60cba011813",
+    "time": "2012-10-08"
+  },
+  {
+    "place": "Music Venue3fd66200f964a520dce31ee3",
+    "time": "2012-10-12"
+  },
+  {
+    "place": "Theater4cc384c142d1b60cba011813",
+    "time": "2012-10-18"
+  },
+  {
+    "place": "Office4b218cf2f964a520af3d24e3",
+    "time": "2012-11-07"
+  },
+  {
+    "place": "Asian Restaurant40cf8d80f964a52033011fe3",
+    "time": "2012-11-22"
+  },
+  {
+    "place": "Salon / Barbershop4db3135f81543d71da285f90",
+    "time": "2012-11-26"
+  },
+  {
+    "place": "Theater4cc384c142d1b60cba011813",
+    "time": "2012-12-01"
+  },
+  {
+    "place": "Bar3fd66200f964a52041e51ee3",
+    "time": "2012-12-02"
+  },
+  {
+    "place": "Concert Hall41f98080f964a5203a1f1fe3",
+    "time": "2012-12-22"
+  },
+  {
+    "place": "Mexican Restaurant4116be80f964a520050c1fe3",
+    "time": "2013-01-03"
+  },
+  {
+    "place": "Theater4cc384c142d1b60cba011813",
+    "time": "2013-01-03"
+  },
+  {
+    "place": "Train Station4c614e8512e5c928d935214c",
+    "time": "2013-01-05"
+  },
+  {
+    "place": "Theater4cc384c142d1b60cba011813",
+    "time": "2013-01-07"
+  },
+  {
+    "place": "American Restaurant3fd66200f964a520cee51ee3",
+    "time": "2013-02-03"
+  },
+  {
+    "place": "Seafood Restaurant4af83ea9f964a5209a0b22e3",
+    "time": "2013-02-14"
+  }
+]

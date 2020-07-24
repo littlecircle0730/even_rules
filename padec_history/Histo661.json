@@ -1,0 +1,694 @@
+[
+  {
+    "place": "Tapas Restaurant4bcf9ecb462cb713e425d707",
+    "time": "2012-04-04"
+  },
+  {
+    "place": "Train Station4be37fa5b02ec9b6b6d64fc0",
+    "time": "2012-04-06"
+  },
+  {
+    "place": "Stadium49d60947f964a520a85c1fe3",
+    "time": "2012-04-07"
+  },
+  {
+    "place": "Mall4528a216f964a520173b1fe3",
+    "time": "2012-04-07"
+  },
+  {
+    "place": "Train Station4be37fa5b02ec9b6b6d64fc0",
+    "time": "2012-04-08"
+  },
+  {
+    "place": "Stadium49d60947f964a520a85c1fe3",
+    "time": "2012-04-08"
+  },
+  {
+    "place": "Mexican Restaurant4ac63b18f964a52049b320e3",
+    "time": "2012-04-10"
+  },
+  {
+    "place": "Taco Place40d62500f964a5204b011fe3",
+    "time": "2012-04-11"
+  },
+  {
+    "place": "Taco Place4a2ab8caf964a5203e961fe3",
+    "time": "2012-04-12"
+  },
+  {
+    "place": "Caf\u00c3\u00a94b1573d0f964a52010ad23e3",
+    "time": "2012-04-18"
+  },
+  {
+    "place": "Gym / Fitness Center49ff53e6f964a5200c701fe3",
+    "time": "2012-04-18"
+  },
+  {
+    "place": "Gym / Fitness Center49ff53e6f964a5200c701fe3",
+    "time": "2012-04-21"
+  },
+  {
+    "place": "Bar4c08494c7e3fc928ea22f082",
+    "time": "2012-04-22"
+  },
+  {
+    "place": "Subway4a98966ff964a520d42c20e3",
+    "time": "2012-04-22"
+  },
+  {
+    "place": "Train Station4be37fa5b02ec9b6b6d64fc0",
+    "time": "2012-04-23"
+  },
+  {
+    "place": "Sandwich Place4abcf59cf964a520d48720e3",
+    "time": "2012-04-23"
+  },
+  {
+    "place": "Train Station4be37fa5b02ec9b6b6d64fc0",
+    "time": "2012-04-24"
+  },
+  {
+    "place": "Train Station4be37fa5b02ec9b6b6d64fc0",
+    "time": "2012-04-26"
+  },
+  {
+    "place": "Train Station4be37fa5b02ec9b6b6d64fc0",
+    "time": "2012-04-27"
+  },
+  {
+    "place": "Train Station4be37fa5b02ec9b6b6d64fc0",
+    "time": "2012-04-28"
+  },
+  {
+    "place": "Fast Food Restaurant4b074d16f964a52092fb22e3",
+    "time": "2012-04-28"
+  },
+  {
+    "place": "Sandwich Place3fd66200f964a5206de71ee3",
+    "time": "2012-05-01"
+  },
+  {
+    "place": "Train Station4be37fa5b02ec9b6b6d64fc0",
+    "time": "2012-05-03"
+  },
+  {
+    "place": "Deli / Bodega4f8477a6e4b08bbbe8fbf356",
+    "time": "2012-05-03"
+  },
+  {
+    "place": "Gym / Fitness Center49ff53e6f964a5200c701fe3",
+    "time": "2012-05-03"
+  },
+  {
+    "place": "Train Station4be37fa5b02ec9b6b6d64fc0",
+    "time": "2012-05-04"
+  },
+  {
+    "place": "Italian Restaurant4c3f6b713735be9a795b15a4",
+    "time": "2012-05-04"
+  },
+  {
+    "place": "Movie Theater43a72ba0f964a520672c1fe3",
+    "time": "2012-05-04"
+  },
+  {
+    "place": "Gym / Fitness Center49ff53e6f964a5200c701fe3",
+    "time": "2012-05-05"
+  },
+  {
+    "place": "Fried Chicken Joint4ace6bc8f964a52077d020e3",
+    "time": "2012-05-05"
+  },
+  {
+    "place": "Sandwich Place4af8875bf964a5200c0e22e3",
+    "time": "2012-05-08"
+  },
+  {
+    "place": "Sandwich Place4af8875bf964a5200c0e22e3",
+    "time": "2012-05-10"
+  },
+  {
+    "place": "Sporting Goods Shop4b7718d4f964a520077d2ee3",
+    "time": "2012-05-10"
+  },
+  {
+    "place": "Food Truck4bbf1ead006dc9b66d07fc3f",
+    "time": "2012-05-11"
+  },
+  {
+    "place": "Caf\u00c3\u00a94b1573d0f964a52010ad23e3",
+    "time": "2012-05-11"
+  },
+  {
+    "place": "Train Station4be37fa5b02ec9b6b6d64fc0",
+    "time": "2012-05-12"
+  },
+  {
+    "place": "Burger Joint4c1918c7fe5a76b07b0f0315",
+    "time": "2012-05-12"
+  },
+  {
+    "place": "Train Station4be37fa5b02ec9b6b6d64fc0",
+    "time": "2012-05-14"
+  },
+  {
+    "place": "Caf\u00c3\u00a94b1573d0f964a52010ad23e3",
+    "time": "2012-05-14"
+  },
+  {
+    "place": "Train Station4be37fa5b02ec9b6b6d64fc0",
+    "time": "2012-05-15"
+  },
+  {
+    "place": "Sandwich Place4af8875bf964a5200c0e22e3",
+    "time": "2012-05-15"
+  },
+  {
+    "place": "Gym / Fitness Center49ff53e6f964a5200c701fe3",
+    "time": "2012-05-15"
+  },
+  {
+    "place": "Train Station4be37fa5b02ec9b6b6d64fc0",
+    "time": "2012-05-17"
+  },
+  {
+    "place": "Gym / Fitness Center49ff53e6f964a5200c701fe3",
+    "time": "2012-05-17"
+  },
+  {
+    "place": "Train Station4be37fa5b02ec9b6b6d64fc0",
+    "time": "2012-05-18"
+  },
+  {
+    "place": "Train Station4be37fa5b02ec9b6b6d64fc0",
+    "time": "2012-05-19"
+  },
+  {
+    "place": "Gym / Fitness Center49ff53e6f964a5200c701fe3",
+    "time": "2012-05-19"
+  },
+  {
+    "place": "Train Station4be37fa5b02ec9b6b6d64fc0",
+    "time": "2012-05-25"
+  },
+  {
+    "place": "Sandwich Place3fd66200f964a5206de71ee3",
+    "time": "2012-05-25"
+  },
+  {
+    "place": "Furniture / Home Store4e525392aeb7560ca4ab1fef",
+    "time": "2012-05-27"
+  },
+  {
+    "place": "Gym / Fitness Center49ff53e6f964a5200c701fe3",
+    "time": "2012-05-28"
+  },
+  {
+    "place": "University4a652404f964a5205ec71fe3",
+    "time": "2012-05-29"
+  },
+  {
+    "place": "Train Station4be37fa5b02ec9b6b6d64fc0",
+    "time": "2012-05-31"
+  },
+  {
+    "place": "Caf\u00c3\u00a94b1573d0f964a52010ad23e3",
+    "time": "2012-05-31"
+  },
+  {
+    "place": "Bar4a859ca3f964a520a5fe1fe3",
+    "time": "2012-06-01"
+  },
+  {
+    "place": "Fast Food Restaurant4a843ecef964a52001fc1fe3",
+    "time": "2012-06-03"
+  },
+  {
+    "place": "Train Station4be37fa5b02ec9b6b6d64fc0",
+    "time": "2012-06-04"
+  },
+  {
+    "place": "Mexican Restaurant4ac63b18f964a52049b320e3",
+    "time": "2012-06-06"
+  },
+  {
+    "place": "Deli / Bodega4f8477a6e4b08bbbe8fbf356",
+    "time": "2012-06-07"
+  },
+  {
+    "place": "Gym / Fitness Center49ff53e6f964a5200c701fe3",
+    "time": "2012-06-07"
+  },
+  {
+    "place": "Train Station4be37fa5b02ec9b6b6d64fc0",
+    "time": "2012-06-08"
+  },
+  {
+    "place": "Sporting Goods Shop4c0275f7f423a593e4c4ce16",
+    "time": "2012-06-08"
+  },
+  {
+    "place": "Stadium3fd66200f964a520ddf01ee3",
+    "time": "2012-06-09"
+  },
+  {
+    "place": "Train Station4be37fa5b02ec9b6b6d64fc0",
+    "time": "2012-06-10"
+  },
+  {
+    "place": "Train Station4be37fa5b02ec9b6b6d64fc0",
+    "time": "2012-06-11"
+  },
+  {
+    "place": "Athletic & Sport4babf0ecf964a52079d73ae3",
+    "time": "2012-06-12"
+  },
+  {
+    "place": "Salad Place4afc0782f964a520891f22e3",
+    "time": "2012-06-13"
+  },
+  {
+    "place": "Train Station4be37fa5b02ec9b6b6d64fc0",
+    "time": "2012-06-15"
+  },
+  {
+    "place": "Bar49a2ef6cf964a52096521fe3",
+    "time": "2012-06-17"
+  },
+  {
+    "place": "Park4b67aad0f964a520265a2be3",
+    "time": "2012-06-17"
+  },
+  {
+    "place": "Train Station4be37fa5b02ec9b6b6d64fc0",
+    "time": "2012-06-18"
+  },
+  {
+    "place": "Gym / Fitness Center49ff53e6f964a5200c701fe3",
+    "time": "2012-06-20"
+  },
+  {
+    "place": "Latin American Restaurant4f5a99ede4b075ad78d0d366",
+    "time": "2012-06-27"
+  },
+  {
+    "place": "Sandwich Place3fd66200f964a5206de71ee3",
+    "time": "2012-06-27"
+  },
+  {
+    "place": "Train Station4be37fa5b02ec9b6b6d64fc0",
+    "time": "2012-07-02"
+  },
+  {
+    "place": "Train Station4be37fa5b02ec9b6b6d64fc0",
+    "time": "2012-07-03"
+  },
+  {
+    "place": "Sandwich Place3fd66200f964a5206de71ee3",
+    "time": "2012-07-03"
+  },
+  {
+    "place": "Stadium49d60947f964a520a85c1fe3",
+    "time": "2012-07-03"
+  },
+  {
+    "place": "Bar4bb9ff6e935e952118962790",
+    "time": "2012-07-04"
+  },
+  {
+    "place": "Salad Place4afc0782f964a520891f22e3",
+    "time": "2012-07-05"
+  },
+  {
+    "place": "Train Station4be37fa5b02ec9b6b6d64fc0",
+    "time": "2012-07-06"
+  },
+  {
+    "place": "Mexican Restaurant440e9d36f964a5209f301fe3",
+    "time": "2012-07-07"
+  },
+  {
+    "place": "Sporting Goods Shop4c57177bb1369521f253735a",
+    "time": "2012-07-07"
+  },
+  {
+    "place": "Train Station4be37fa5b02ec9b6b6d64fc0",
+    "time": "2012-07-09"
+  },
+  {
+    "place": "Steakhouse4cc0d6eb43646dcb3093418c",
+    "time": "2012-07-10"
+  },
+  {
+    "place": "Train Station4be37fa5b02ec9b6b6d64fc0",
+    "time": "2012-07-11"
+  },
+  {
+    "place": "Salad Place4afc0782f964a520891f22e3",
+    "time": "2012-07-11"
+  },
+  {
+    "place": "Gym / Fitness Center49ff53e6f964a5200c701fe3",
+    "time": "2012-07-11"
+  },
+  {
+    "place": "Train Station4be37fa5b02ec9b6b6d64fc0",
+    "time": "2012-07-13"
+  },
+  {
+    "place": "Sandwich Place3fd66200f964a5206de71ee3",
+    "time": "2012-07-13"
+  },
+  {
+    "place": "Clothing Store4a02d6f9f964a5206e711fe3",
+    "time": "2012-07-13"
+  },
+  {
+    "place": "Clothing Store4b087dbef964a520f80c23e3",
+    "time": "2012-07-13"
+  },
+  {
+    "place": "Park4ba91b7af964a520f20b3ae3",
+    "time": "2012-07-15"
+  },
+  {
+    "place": "Train Station4be37fa5b02ec9b6b6d64fc0",
+    "time": "2012-07-16"
+  },
+  {
+    "place": "Caf\u00c3\u00a94b1573d0f964a52010ad23e3",
+    "time": "2012-07-16"
+  },
+  {
+    "place": "Spanish Restaurant4b37df72f964a520cc4725e3",
+    "time": "2012-07-16"
+  },
+  {
+    "place": "Gym / Fitness Center49ff53e6f964a5200c701fe3",
+    "time": "2012-07-17"
+  },
+  {
+    "place": "Train Station4be37fa5b02ec9b6b6d64fc0",
+    "time": "2012-07-18"
+  },
+  {
+    "place": "Gym / Fitness Center49ff53e6f964a5200c701fe3",
+    "time": "2012-07-26"
+  },
+  {
+    "place": "Train Station4be37fa5b02ec9b6b6d64fc0",
+    "time": "2012-07-28"
+  },
+  {
+    "place": "Train Station4be37fa5b02ec9b6b6d64fc0",
+    "time": "2012-07-29"
+  },
+  {
+    "place": "Mexican Restaurant44327819f964a520f2311fe3",
+    "time": "2012-07-29"
+  },
+  {
+    "place": "Train Station4be37fa5b02ec9b6b6d64fc0",
+    "time": "2012-07-30"
+  },
+  {
+    "place": "Salad Place4afc0782f964a520891f22e3",
+    "time": "2012-07-30"
+  },
+  {
+    "place": "Pet Store4a9ee901f964a520c03b20e3",
+    "time": "2012-07-30"
+  },
+  {
+    "place": "Gym / Fitness Center49ff53e6f964a5200c701fe3",
+    "time": "2012-07-30"
+  },
+  {
+    "place": "Train Station4be37fa5b02ec9b6b6d64fc0",
+    "time": "2012-08-06"
+  },
+  {
+    "place": "Train Station4be37fa5b02ec9b6b6d64fc0",
+    "time": "2012-08-09"
+  },
+  {
+    "place": "Bar4acec156f964a520d3d120e3",
+    "time": "2012-08-11"
+  },
+  {
+    "place": "Airport4ace6c89f964a52078d020e3",
+    "time": "2012-08-12"
+  },
+  {
+    "place": "Train Station4be37fa5b02ec9b6b6d64fc0",
+    "time": "2012-08-14"
+  },
+  {
+    "place": "Chinese Restaurant4b7c3fdaf964a5204e872fe3",
+    "time": "2012-08-16"
+  },
+  {
+    "place": "Japanese Restaurant4a5a713bf964a52054ba1fe3",
+    "time": "2012-08-17"
+  },
+  {
+    "place": "Fast Food Restaurant4a843ecef964a52001fc1fe3",
+    "time": "2012-08-19"
+  },
+  {
+    "place": "Train Station4be37fa5b02ec9b6b6d64fc0",
+    "time": "2012-08-20"
+  },
+  {
+    "place": "Spanish Restaurant4b37df72f964a520cc4725e3",
+    "time": "2012-08-18"
+  },
+  {
+    "place": "Beer Garden40870b00f964a520b7f21ee3",
+    "time": "2012-08-19"
+  },
+  {
+    "place": "Salad Place4afc0782f964a520891f22e3",
+    "time": "2012-09-05"
+  },
+  {
+    "place": "Train Station4be37fa5b02ec9b6b6d64fc0",
+    "time": "2012-09-13"
+  },
+  {
+    "place": "Train Station4be37fa5b02ec9b6b6d64fc0",
+    "time": "2012-09-14"
+  },
+  {
+    "place": "Subway4b609138f964a5200cee29e3",
+    "time": "2012-09-15"
+  },
+  {
+    "place": "Train Station4be37fa5b02ec9b6b6d64fc0",
+    "time": "2012-10-08"
+  },
+  {
+    "place": "Pizza Place4a357ffef964a5200e9d1fe3",
+    "time": "2012-10-22"
+  },
+  {
+    "place": "Burger Joint4ad35de9f964a520ffe320e3",
+    "time": "2012-10-25"
+  },
+  {
+    "place": "Burger Joint4ad35de9f964a520ffe320e3",
+    "time": "2012-11-01"
+  },
+  {
+    "place": "Train Station4be37fa5b02ec9b6b6d64fc0",
+    "time": "2012-11-05"
+  },
+  {
+    "place": "Caf\u00c3\u00a94b1573d0f964a52010ad23e3",
+    "time": "2012-11-07"
+  },
+  {
+    "place": "Bar4cc5fbdd306e224bd829a66c",
+    "time": "2012-11-09"
+  },
+  {
+    "place": "Bar4cc5fbdd306e224bd829a66c",
+    "time": "2012-11-17"
+  },
+  {
+    "place": "Japanese Restaurant507df981e4b0853fb5e6e7f8",
+    "time": "2012-11-17"
+  },
+  {
+    "place": "Gym / Fitness Center4a415001f964a52014a51fe3",
+    "time": "2012-11-19"
+  },
+  {
+    "place": "Airport4ace64bef964a52053d020e3",
+    "time": "2012-11-23"
+  },
+  {
+    "place": "Bar4ce7418ab9975481d968f544",
+    "time": "2012-11-24"
+  },
+  {
+    "place": "Bar4c082c5a340720a116b98293",
+    "time": "2012-11-24"
+  },
+  {
+    "place": "Food Truck4ae9d217f964a520bcb621e3",
+    "time": "2012-11-27"
+  },
+  {
+    "place": "Bar4cb13cbddb32f04da403c74d",
+    "time": "2012-12-01"
+  },
+  {
+    "place": "Bar4bda5ea3c79cc9280eb77ee9",
+    "time": "2012-12-01"
+  },
+  {
+    "place": "Gym / Fitness Center4a415001f964a52014a51fe3",
+    "time": "2012-12-06"
+  },
+  {
+    "place": "Gym / Fitness Center4a415001f964a52014a51fe3",
+    "time": "2012-12-08"
+  },
+  {
+    "place": "Mexican Restaurant440e9d36f964a5209f301fe3",
+    "time": "2012-12-15"
+  },
+  {
+    "place": "Deli / Bodega4b86d45cf964a52032a031e3",
+    "time": "2012-12-17"
+  },
+  {
+    "place": "Gym / Fitness Center4a928e9df964a520281d20e3",
+    "time": "2012-12-17"
+  },
+  {
+    "place": "Bar4ad35de9f964a520ffe320e3",
+    "time": "2012-12-19"
+  },
+  {
+    "place": "Bar4c082c5a340720a116b98293",
+    "time": "2012-12-20"
+  },
+  {
+    "place": "Sandwich Place4b80fc8df964a520489430e3",
+    "time": "2012-12-22"
+  },
+  {
+    "place": "Spanish Restaurant4c4e32d09932e21ee0025bcd",
+    "time": "2012-12-23"
+  },
+  {
+    "place": "Hotel4e0cfe6ae4cd27fc7d21976c",
+    "time": "2012-12-23"
+  },
+  {
+    "place": "Bar3fd66200f964a52044e81ee3",
+    "time": "2012-12-23"
+  },
+  {
+    "place": "Bar4c082c5a340720a116b98293",
+    "time": "2012-12-28"
+  },
+  {
+    "place": "Bar4dd20d20e4cd7f7178c0d34d",
+    "time": "2012-12-29"
+  },
+  {
+    "place": "Bar4acec156f964a520d3d120e3",
+    "time": "2012-12-30"
+  },
+  {
+    "place": "Food Truck4ae9d217f964a520bcb621e3",
+    "time": "2013-01-04"
+  },
+  {
+    "place": "Diner3fd66200f964a52048ee1ee3",
+    "time": "2013-01-13"
+  },
+  {
+    "place": "Gym / Fitness Center4f25a752e4b04d36df2a3c8c",
+    "time": "2013-01-22"
+  },
+  {
+    "place": "Train Station4be37fa5b02ec9b6b6d64fc0",
+    "time": "2013-01-26"
+  },
+  {
+    "place": "Train Station4be37fa5b02ec9b6b6d64fc0",
+    "time": "2013-01-29"
+  },
+  {
+    "place": "Food Truck4ae9d217f964a520bcb621e3",
+    "time": "2013-01-29"
+  },
+  {
+    "place": "Gym / Fitness Center4f25a752e4b04d36df2a3c8c",
+    "time": "2013-01-30"
+  },
+  {
+    "place": "Sandwich Place4abcf59cf964a520d48720e3",
+    "time": "2013-01-30"
+  },
+  {
+    "place": "Gym / Fitness Center4f25a752e4b04d36df2a3c8c",
+    "time": "2013-01-30"
+  },
+  {
+    "place": "Train Station4be37fa5b02ec9b6b6d64fc0",
+    "time": "2013-01-31"
+  },
+  {
+    "place": "Bar4276bf00f964a5208c211fe3",
+    "time": "2013-02-02"
+  },
+  {
+    "place": "Bar45a608dbf964a52001411fe3",
+    "time": "2013-02-02"
+  },
+  {
+    "place": "Train Station4be37fa5b02ec9b6b6d64fc0",
+    "time": "2013-02-03"
+  },
+  {
+    "place": "Latin American Restaurant4f6e559ee4b0541c624def74",
+    "time": "2013-02-03"
+  },
+  {
+    "place": "Gym / Fitness Center4f25a752e4b04d36df2a3c8c",
+    "time": "2013-02-03"
+  },
+  {
+    "place": "Train Station4be37fa5b02ec9b6b6d64fc0",
+    "time": "2013-02-04"
+  },
+  {
+    "place": "Gym / Fitness Center4f25a752e4b04d36df2a3c8c",
+    "time": "2013-02-05"
+  },
+  {
+    "place": "Sandwich Place4abcf59cf964a520d48720e3",
+    "time": "2013-02-05"
+  },
+  {
+    "place": "Train Station4be37fa5b02ec9b6b6d64fc0",
+    "time": "2013-02-06"
+  },
+  {
+    "place": "Train Station4be37fa5b02ec9b6b6d64fc0",
+    "time": "2013-02-12"
+  },
+  {
+    "place": "Train Station4be37fa5b02ec9b6b6d64fc0",
+    "time": "2013-02-13"
+  },
+  {
+    "place": "Gym / Fitness Center4f25a752e4b04d36df2a3c8c",
+    "time": "2013-02-14"
+  }
+]

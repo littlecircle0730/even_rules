@@ -1,0 +1,638 @@
+[
+  {
+    "place": "Laundry Service4c77089c59a3236aa9aec018",
+    "time": "2012-04-03"
+  },
+  {
+    "place": "Gym / Fitness Center4a6b59fbf964a5208ace1fe3",
+    "time": "2012-04-04"
+  },
+  {
+    "place": "College Academic Building4c4e136b9efabe9ab54e7b69",
+    "time": "2012-04-04"
+  },
+  {
+    "place": "Music Venue47048266f964a5204f4b1fe3",
+    "time": "2012-04-10"
+  },
+  {
+    "place": "Gym / Fitness Center4a6b59fbf964a5208ace1fe3",
+    "time": "2012-04-11"
+  },
+  {
+    "place": "Sushi Restaurant4abc30dcf964a520b48620e3",
+    "time": "2012-04-11"
+  },
+  {
+    "place": "Performing Arts Venue4161e400f964a520721d1fe3",
+    "time": "2012-04-12"
+  },
+  {
+    "place": "College Academic Building4c4e136b9efabe9ab54e7b69",
+    "time": "2012-04-12"
+  },
+  {
+    "place": "Gym / Fitness Center4a6b59fbf964a5208ace1fe3",
+    "time": "2012-04-13"
+  },
+  {
+    "place": "Clothing Store4e37fc401f6ebc502ce5b1a3",
+    "time": "2012-04-15"
+  },
+  {
+    "place": "Electronics Store3fd66200f964a5205fe41ee3",
+    "time": "2012-04-17"
+  },
+  {
+    "place": "Burger Joint471c8c85f964a520b34b1fe3",
+    "time": "2012-04-19"
+  },
+  {
+    "place": "Food & Drink Shop441a8599f964a52036311fe3",
+    "time": "2012-04-19"
+  },
+  {
+    "place": "American Restaurant4b9aedf3f964a52019e435e3",
+    "time": "2012-04-21"
+  },
+  {
+    "place": "Bakery3fd66200f964a5208be41ee3",
+    "time": "2012-04-21"
+  },
+  {
+    "place": "Laundry Service4c77089c59a3236aa9aec018",
+    "time": "2012-04-25"
+  },
+  {
+    "place": "Laundry Service4c77089c59a3236aa9aec018",
+    "time": "2012-04-27"
+  },
+  {
+    "place": "Pet Store4a932969f964a520061f20e3",
+    "time": "2012-04-28"
+  },
+  {
+    "place": "College Academic Building4c4e136b9efabe9ab54e7b69",
+    "time": "2012-05-10"
+  },
+  {
+    "place": "College Academic Building4c4e136b9efabe9ab54e7b69",
+    "time": "2012-05-11"
+  },
+  {
+    "place": "Laundry Service4c77089c59a3236aa9aec018",
+    "time": "2012-05-14"
+  },
+  {
+    "place": "College Academic Building4c4e136b9efabe9ab54e7b69",
+    "time": "2012-05-15"
+  },
+  {
+    "place": "Electronics Store3fd66200f964a5205fe41ee3",
+    "time": "2012-05-15"
+  },
+  {
+    "place": "Gym / Fitness Center4a6b59fbf964a5208ace1fe3",
+    "time": "2012-05-16"
+  },
+  {
+    "place": "College Academic Building4c4e136b9efabe9ab54e7b69",
+    "time": "2012-05-16"
+  },
+  {
+    "place": "College Academic Building4c4e136b9efabe9ab54e7b69",
+    "time": "2012-05-17"
+  },
+  {
+    "place": "Pet Store4a932969f964a520061f20e3",
+    "time": "2012-05-18"
+  },
+  {
+    "place": "Laundry Service4c77089c59a3236aa9aec018",
+    "time": "2012-05-18"
+  },
+  {
+    "place": "College Academic Building4c4e136b9efabe9ab54e7b69",
+    "time": "2012-05-21"
+  },
+  {
+    "place": "Gym / Fitness Center4a6b59fbf964a5208ace1fe3",
+    "time": "2012-05-22"
+  },
+  {
+    "place": "College Academic Building4c4e136b9efabe9ab54e7b69",
+    "time": "2012-05-25"
+  },
+  {
+    "place": "Bar4dc8601b315101f2629439c4",
+    "time": "2012-05-26"
+  },
+  {
+    "place": "Tapas Restaurant4ef5273ef9ab42ef3009b975",
+    "time": "2012-05-28"
+  },
+  {
+    "place": "Electronics Store3fd66200f964a5205fe41ee3",
+    "time": "2012-05-28"
+  },
+  {
+    "place": "Laundry Service4c77089c59a3236aa9aec018",
+    "time": "2012-05-29"
+  },
+  {
+    "place": "Gym / Fitness Center4a6b59fbf964a5208ace1fe3",
+    "time": "2012-06-05"
+  },
+  {
+    "place": "Laundry Service4c77089c59a3236aa9aec018",
+    "time": "2012-06-08"
+  },
+  {
+    "place": "Pet Store4a932969f964a520061f20e3",
+    "time": "2012-06-09"
+  },
+  {
+    "place": "Laundry Service4c77089c59a3236aa9aec018",
+    "time": "2012-06-13"
+  },
+  {
+    "place": "Mac & Cheese Joint4e1a41d3183880768f53f08c",
+    "time": "2012-06-14"
+  },
+  {
+    "place": "Pizza Place4f872990e4b0ab0c1900349b",
+    "time": "2012-06-18"
+  },
+  {
+    "place": "Gym / Fitness Center4a6b59fbf964a5208ace1fe3",
+    "time": "2012-06-21"
+  },
+  {
+    "place": "Tapas Restaurant44f4b0ebf964a52036381fe3",
+    "time": "2012-06-30"
+  },
+  {
+    "place": "Bakery4f4f787be4b04078851f5fbd",
+    "time": "2012-07-01"
+  },
+  {
+    "place": "College Academic Building4c4e136b9efabe9ab54e7b69",
+    "time": "2012-07-02"
+  },
+  {
+    "place": "College Academic Building4c4e136b9efabe9ab54e7b69",
+    "time": "2012-07-03"
+  },
+  {
+    "place": "Laundry Service4c77089c59a3236aa9aec018",
+    "time": "2012-07-03"
+  },
+  {
+    "place": "Other Great Outdoors4ff4271ae4b0b8fda8c37cc8",
+    "time": "2012-07-04"
+  },
+  {
+    "place": "College Academic Building4c4e136b9efabe9ab54e7b69",
+    "time": "2012-07-05"
+  },
+  {
+    "place": "College Academic Building4c4e136b9efabe9ab54e7b69",
+    "time": "2012-07-06"
+  },
+  {
+    "place": "Movie Theater49da463af964a5206c5e1fe3",
+    "time": "2012-07-07"
+  },
+  {
+    "place": "Train Station42829c80f964a5206a221fe3",
+    "time": "2012-07-07"
+  },
+  {
+    "place": "College Academic Building4c4e136b9efabe9ab54e7b69",
+    "time": "2012-07-09"
+  },
+  {
+    "place": "Food & Drink Shop43bba61df964a520eb2c1fe3",
+    "time": "2012-07-10"
+  },
+  {
+    "place": "Food & Drink Shop441a8599f964a52036311fe3",
+    "time": "2012-07-10"
+  },
+  {
+    "place": "Laundry Service4c77089c59a3236aa9aec018",
+    "time": "2012-07-10"
+  },
+  {
+    "place": "Gym / Fitness Center4a6b59fbf964a5208ace1fe3",
+    "time": "2012-07-11"
+  },
+  {
+    "place": "College Academic Building4c4e136b9efabe9ab54e7b69",
+    "time": "2012-07-11"
+  },
+  {
+    "place": "Laundry Service4c77089c59a3236aa9aec018",
+    "time": "2012-07-11"
+  },
+  {
+    "place": "Gym / Fitness Center4a6b59fbf964a5208ace1fe3",
+    "time": "2012-07-12"
+  },
+  {
+    "place": "College Academic Building4c4e136b9efabe9ab54e7b69",
+    "time": "2012-07-12"
+  },
+  {
+    "place": "College Academic Building4c4e136b9efabe9ab54e7b69",
+    "time": "2012-07-13"
+  },
+  {
+    "place": "Bar4fa16401e4b0dae72e3925a3",
+    "time": "2012-07-13"
+  },
+  {
+    "place": "Italian Restaurant40fc6080f964a520060b1fe3",
+    "time": "2012-07-14"
+  },
+  {
+    "place": "Movie Theater44ddb109f964a520c0361fe3",
+    "time": "2012-07-16"
+  },
+  {
+    "place": "Electronics Store3fd66200f964a5205fe41ee3",
+    "time": "2012-07-16"
+  },
+  {
+    "place": "Food & Drink Shop3fd66200f964a520b6e41ee3",
+    "time": "2012-07-16"
+  },
+  {
+    "place": "Food & Drink Shop441a8599f964a52036311fe3",
+    "time": "2012-07-16"
+  },
+  {
+    "place": "Medical Center5005bea6e4b0b93071fb7931",
+    "time": "2012-07-17"
+  },
+  {
+    "place": "Performing Arts Venue485e640df964a520d7501fe3",
+    "time": "2012-07-19"
+  },
+  {
+    "place": "Food & Drink Shop441a8599f964a52036311fe3",
+    "time": "2012-07-21"
+  },
+  {
+    "place": "Electronics Store3fd66200f964a5205fe41ee3",
+    "time": "2012-07-24"
+  },
+  {
+    "place": "Pet Store4a932969f964a520061f20e3",
+    "time": "2012-07-24"
+  },
+  {
+    "place": "Bar4544401ff964a520623c1fe3",
+    "time": "2012-07-29"
+  },
+  {
+    "place": "Laundry Service4c77089c59a3236aa9aec018",
+    "time": "2012-07-30"
+  },
+  {
+    "place": "Movie Theater43a72ba0f964a520672c1fe3",
+    "time": "2012-08-06"
+  },
+  {
+    "place": "Ethiopian Restaurant49f7a827f964a520cd6c1fe3",
+    "time": "2012-08-06"
+  },
+  {
+    "place": "College Academic Building4c4e136b9efabe9ab54e7b69",
+    "time": "2012-08-10"
+  },
+  {
+    "place": "BBQ Joint3fd66200f964a52020e71ee3",
+    "time": "2012-08-11"
+  },
+  {
+    "place": "College Academic Building4c4e136b9efabe9ab54e7b69",
+    "time": "2012-08-13"
+  },
+  {
+    "place": "College Academic Building4c4e136b9efabe9ab54e7b69",
+    "time": "2012-08-14"
+  },
+  {
+    "place": "Movie Theater43df8ad6f964a520b92e1fe3",
+    "time": "2012-08-19"
+  },
+  {
+    "place": "College Academic Building4c4e136b9efabe9ab54e7b69",
+    "time": "2012-10-03"
+  },
+  {
+    "place": "College Academic Building4c4e136b9efabe9ab54e7b69",
+    "time": "2012-10-11"
+  },
+  {
+    "place": "College Academic Building4c4e136b9efabe9ab54e7b69",
+    "time": "2012-10-12"
+  },
+  {
+    "place": "College Academic Building4c4e136b9efabe9ab54e7b69",
+    "time": "2012-10-18"
+  },
+  {
+    "place": "Laundry Service4c77089c59a3236aa9aec018",
+    "time": "2012-10-23"
+  },
+  {
+    "place": "Food & Drink Shop441a8599f964a52036311fe3",
+    "time": "2012-10-24"
+  },
+  {
+    "place": "Food & Drink Shop441a8599f964a52036311fe3",
+    "time": "2012-10-26"
+  },
+  {
+    "place": "Electronics Store3fd66200f964a5205fe41ee3",
+    "time": "2012-10-26"
+  },
+  {
+    "place": "Spanish Restaurant4d02450f4115a09023913ee2",
+    "time": "2012-10-27"
+  },
+  {
+    "place": "Beer Garden4bf84730c07c9c7420d0bbef",
+    "time": "2012-10-27"
+  },
+  {
+    "place": "Music Venue3fd66200f964a52014eb1ee3",
+    "time": "2012-10-28"
+  },
+  {
+    "place": "Gym / Fitness Center3fd66200f964a52000e81ee3",
+    "time": "2012-10-31"
+  },
+  {
+    "place": "College Academic Building4c4e136b9efabe9ab54e7b69",
+    "time": "2012-11-05"
+  },
+  {
+    "place": "Laundry Service4c77089c59a3236aa9aec018",
+    "time": "2012-11-05"
+  },
+  {
+    "place": "Gym / Fitness Center4a6b59fbf964a5208ace1fe3",
+    "time": "2012-11-06"
+  },
+  {
+    "place": "College Academic Building4c4e136b9efabe9ab54e7b69",
+    "time": "2012-11-06"
+  },
+  {
+    "place": "Gym / Fitness Center4a6b59fbf964a5208ace1fe3",
+    "time": "2012-11-07"
+  },
+  {
+    "place": "College Academic Building4c4e136b9efabe9ab54e7b69",
+    "time": "2012-11-09"
+  },
+  {
+    "place": "Beer Garden4bf84730c07c9c7420d0bbef",
+    "time": "2012-11-12"
+  },
+  {
+    "place": "College Academic Building4c4e136b9efabe9ab54e7b69",
+    "time": "2012-11-12"
+  },
+  {
+    "place": "College Academic Building4c4e136b9efabe9ab54e7b69",
+    "time": "2012-11-16"
+  },
+  {
+    "place": "Food & Drink Shop3fd66200f964a520b6e41ee3",
+    "time": "2012-11-18"
+  },
+  {
+    "place": "Electronics Store3fd66200f964a5205fe41ee3",
+    "time": "2012-11-19"
+  },
+  {
+    "place": "Pet Store4a932969f964a520061f20e3",
+    "time": "2012-11-19"
+  },
+  {
+    "place": "Gym / Fitness Center4a6b59fbf964a5208ace1fe3",
+    "time": "2012-11-21"
+  },
+  {
+    "place": "Italian Restaurant4c98ff5bf419a0939a817488",
+    "time": "2012-11-22"
+  },
+  {
+    "place": "College Academic Building4c4e136b9efabe9ab54e7b69",
+    "time": "2012-11-26"
+  },
+  {
+    "place": "College Academic Building4c4e136b9efabe9ab54e7b69",
+    "time": "2012-11-27"
+  },
+  {
+    "place": "Electronics Store3fd66200f964a5205fe41ee3",
+    "time": "2012-11-27"
+  },
+  {
+    "place": "College Academic Building4c4e136b9efabe9ab54e7b69",
+    "time": "2012-11-28"
+  },
+  {
+    "place": "Pizza Place3fd66200f964a520c7f11ee3",
+    "time": "2012-12-01"
+  },
+  {
+    "place": "Bar4bcff34077b29c7448088a82",
+    "time": "2012-12-02"
+  },
+  {
+    "place": "College Academic Building4c4e136b9efabe9ab54e7b69",
+    "time": "2012-12-04"
+  },
+  {
+    "place": "Gym / Fitness Center4a6b59fbf964a5208ace1fe3",
+    "time": "2012-12-05"
+  },
+  {
+    "place": "College Academic Building4c4e136b9efabe9ab54e7b69",
+    "time": "2012-12-06"
+  },
+  {
+    "place": "College Academic Building4c4e136b9efabe9ab54e7b69",
+    "time": "2012-12-07"
+  },
+  {
+    "place": "Tapas Restaurant45697387f964a520e53d1fe3",
+    "time": "2012-12-08"
+  },
+  {
+    "place": "Gift Shop50ba3c2ee4b071d530413b8c",
+    "time": "2012-12-08"
+  },
+  {
+    "place": "College Academic Building4c4e136b9efabe9ab54e7b69",
+    "time": "2012-12-11"
+  },
+  {
+    "place": "Concert Hall4b032f18f964a520514d22e3",
+    "time": "2012-12-12"
+  },
+  {
+    "place": "Italian Restaurant4b4d140bf964a5202aca26e3",
+    "time": "2012-12-12"
+  },
+  {
+    "place": "Laundry Service4c77089c59a3236aa9aec018",
+    "time": "2012-12-12"
+  },
+  {
+    "place": "College Academic Building4c4e136b9efabe9ab54e7b69",
+    "time": "2012-12-13"
+  },
+  {
+    "place": "College Academic Building4c4e136b9efabe9ab54e7b69",
+    "time": "2012-12-17"
+  },
+  {
+    "place": "College Academic Building4c4e136b9efabe9ab54e7b69",
+    "time": "2012-12-18"
+  },
+  {
+    "place": "Gym / Fitness Center4a6b59fbf964a5208ace1fe3",
+    "time": "2012-12-19"
+  },
+  {
+    "place": "Gym / Fitness Center4a6b59fbf964a5208ace1fe3",
+    "time": "2012-12-19"
+  },
+  {
+    "place": "French Restaurant3fd66200f964a5204fe71ee3",
+    "time": "2012-12-19"
+  },
+  {
+    "place": "Historic Site50c85b8de4b090305763bf7e",
+    "time": "2012-12-21"
+  },
+  {
+    "place": "Dessert Shop4a257482f964a520557e1fe3",
+    "time": "2012-12-23"
+  },
+  {
+    "place": "Tapas Restaurant45697387f964a520e53d1fe3",
+    "time": "2012-12-23"
+  },
+  {
+    "place": "Electronics Store3fd66200f964a5205fe41ee3",
+    "time": "2012-12-28"
+  },
+  {
+    "place": "Food & Drink Shop3fd66200f964a520b6e41ee3",
+    "time": "2012-12-30"
+  },
+  {
+    "place": "Clothing Store4b0c234ef964a5209b3723e3",
+    "time": "2012-12-31"
+  },
+  {
+    "place": "Electronics Store3fd66200f964a5205fe41ee3",
+    "time": "2013-01-02"
+  },
+  {
+    "place": "Laundry Service4c77089c59a3236aa9aec018",
+    "time": "2013-01-03"
+  },
+  {
+    "place": "Gym / Fitness Center4a6b59fbf964a5208ace1fe3",
+    "time": "2013-01-05"
+  },
+  {
+    "place": "College Academic Building4c4e136b9efabe9ab54e7b69",
+    "time": "2013-01-07"
+  },
+  {
+    "place": "Gym / Fitness Center4a6b59fbf964a5208ace1fe3",
+    "time": "2013-01-08"
+  },
+  {
+    "place": "College Academic Building4c4e136b9efabe9ab54e7b69",
+    "time": "2013-01-08"
+  },
+  {
+    "place": "Pet Store4a932969f964a520061f20e3",
+    "time": "2013-01-09"
+  },
+  {
+    "place": "Gym / Fitness Center4a6b59fbf964a5208ace1fe3",
+    "time": "2013-01-11"
+  },
+  {
+    "place": "Airport43a52546f964a520532c1fe3",
+    "time": "2013-01-17"
+  },
+  {
+    "place": "Electronics Store3fd66200f964a5205fe41ee3",
+    "time": "2013-01-24"
+  },
+  {
+    "place": "Pet Store4a932969f964a520061f20e3",
+    "time": "2013-01-25"
+  },
+  {
+    "place": "Gym / Fitness Center4a6b59fbf964a5208ace1fe3",
+    "time": "2013-01-27"
+  },
+  {
+    "place": "Art Museum4af5a46af964a520b5fa21e3",
+    "time": "2013-01-27"
+  },
+  {
+    "place": "Restaurant4afc22c8f964a5200a2022e3",
+    "time": "2013-02-02"
+  },
+  {
+    "place": "Moving Target510c9f9de4b0ec5cc005fc87",
+    "time": "2013-02-02"
+  },
+  {
+    "place": "Bakery4dc6e39a887717c880479369",
+    "time": "2013-02-02"
+  },
+  {
+    "place": "Pet Store4a932969f964a520061f20e3",
+    "time": "2013-02-04"
+  },
+  {
+    "place": "Gym / Fitness Center4a6b59fbf964a5208ace1fe3",
+    "time": "2013-02-05"
+  },
+  {
+    "place": "Department Store3fd66200f964a5205fe41ee3",
+    "time": "2013-02-07"
+  },
+  {
+    "place": "Gym / Fitness Center4a6b59fbf964a5208ace1fe3",
+    "time": "2013-02-07"
+  },
+  {
+    "place": "Food & Drink Shop441a8599f964a52036311fe3",
+    "time": "2013-02-07"
+  },
+  {
+    "place": "Food & Drink Shop3fd66200f964a520b6e41ee3",
+    "time": "2013-02-07"
+  },
+  {
+    "place": "Food & Drink Shop49f37c28f964a520a36a1fe3",
+    "time": "2013-02-08"
+  }
+]

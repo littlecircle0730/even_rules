@@ -1,0 +1,718 @@
+[
+  {
+    "place": "Coffee Shop4ecc046b0e61aaf0384f19c4",
+    "time": "2012-04-03"
+  },
+  {
+    "place": "Department Store41102700f964a520d60b1fe3",
+    "time": "2012-04-03"
+  },
+  {
+    "place": "Furniture / Home Store4a2bfc41f964a52000971fe3",
+    "time": "2012-04-04"
+  },
+  {
+    "place": "Bar49d95652f964a520235e1fe3",
+    "time": "2012-04-04"
+  },
+  {
+    "place": "Bar4ccb3742ee23a143ddcb15a8",
+    "time": "2012-04-07"
+  },
+  {
+    "place": "American Restaurant3fd66200f964a520a2e71ee3",
+    "time": "2012-04-08"
+  },
+  {
+    "place": "Furniture / Home Store4a2bfc41f964a52000971fe3",
+    "time": "2012-04-08"
+  },
+  {
+    "place": "Furniture / Home Store4a2bfc41f964a52000971fe3",
+    "time": "2012-04-09"
+  },
+  {
+    "place": "Movie Theater422b9980f964a520cf1f1fe3",
+    "time": "2012-04-10"
+  },
+  {
+    "place": "Other Nightlife4f4ed0c4e4b05017c869ad21",
+    "time": "2012-04-10"
+  },
+  {
+    "place": "Furniture / Home Store4a2bfc41f964a52000971fe3",
+    "time": "2012-04-11"
+  },
+  {
+    "place": "Furniture / Home Store4a2bfc41f964a52000971fe3",
+    "time": "2012-04-12"
+  },
+  {
+    "place": "Bar4d34a091c6cba35dec2f357a",
+    "time": "2012-04-12"
+  },
+  {
+    "place": "Furniture / Home Store4a2bfc41f964a52000971fe3",
+    "time": "2012-04-14"
+  },
+  {
+    "place": "Furniture / Home Store4a2bfc41f964a52000971fe3",
+    "time": "2012-04-17"
+  },
+  {
+    "place": "Coffee Shop4ecc046b0e61aaf0384f19c4",
+    "time": "2012-04-17"
+  },
+  {
+    "place": "Salon / Barbershop4a6f5920f964a520f0d51fe3",
+    "time": "2012-04-17"
+  },
+  {
+    "place": "Bar4ccb3742ee23a143ddcb15a8",
+    "time": "2012-04-18"
+  },
+  {
+    "place": "Bar4ccb3742ee23a143ddcb15a8",
+    "time": "2012-04-20"
+  },
+  {
+    "place": "Furniture / Home Store4a2bfc41f964a52000971fe3",
+    "time": "2012-04-20"
+  },
+  {
+    "place": "Furniture / Home Store4a2bfc41f964a52000971fe3",
+    "time": "2012-04-22"
+  },
+  {
+    "place": "Furniture / Home Store4a2bfc41f964a52000971fe3",
+    "time": "2012-04-23"
+  },
+  {
+    "place": "Furniture / Home Store4a2bfc41f964a52000971fe3",
+    "time": "2012-04-27"
+  },
+  {
+    "place": "Caf\u00c3\u00a94d32037f5c2db60c8ddebd6c",
+    "time": "2012-04-28"
+  },
+  {
+    "place": "Movie Theater42f00900f964a520b9261fe3",
+    "time": "2012-04-28"
+  },
+  {
+    "place": "Bar40fc6080f964a5201d0b1fe3",
+    "time": "2012-04-29"
+  },
+  {
+    "place": "Bar4ccb3742ee23a143ddcb15a8",
+    "time": "2012-04-29"
+  },
+  {
+    "place": "French Restaurant4797043df964a5205b4d1fe3",
+    "time": "2012-04-29"
+  },
+  {
+    "place": "Bar3fd66200f964a5202be41ee3",
+    "time": "2012-04-29"
+  },
+  {
+    "place": "Furniture / Home Store4a2bfc41f964a52000971fe3",
+    "time": "2012-04-29"
+  },
+  {
+    "place": "Furniture / Home Store4a2bfc41f964a52000971fe3",
+    "time": "2012-05-01"
+  },
+  {
+    "place": "Furniture / Home Store4a2bfc41f964a52000971fe3",
+    "time": "2012-05-03"
+  },
+  {
+    "place": "Furniture / Home Store4a2bfc41f964a52000971fe3",
+    "time": "2012-05-05"
+  },
+  {
+    "place": "Furniture / Home Store4a2bfc41f964a52000971fe3",
+    "time": "2012-05-06"
+  },
+  {
+    "place": "Furniture / Home Store4a2bfc41f964a52000971fe3",
+    "time": "2012-05-07"
+  },
+  {
+    "place": "Bar47ba56ddf964a520c94d1fe3",
+    "time": "2012-05-09"
+  },
+  {
+    "place": "Bar4b7def17f964a520ceda2fe3",
+    "time": "2012-05-09"
+  },
+  {
+    "place": "Bar4127e200f964a5205d0c1fe3",
+    "time": "2012-05-10"
+  },
+  {
+    "place": "Italian Restaurant4dcabca41f6e2812677e3598",
+    "time": "2012-05-11"
+  },
+  {
+    "place": "Bar41fd7500f964a520481f1fe3",
+    "time": "2012-05-12"
+  },
+  {
+    "place": "Coffee Shop4ecc046b0e61aaf0384f19c4",
+    "time": "2012-05-12"
+  },
+  {
+    "place": "Bookstore4a8cc1d4f964a520130f20e3",
+    "time": "2012-05-13"
+  },
+  {
+    "place": "Furniture / Home Store4a2bfc41f964a52000971fe3",
+    "time": "2012-05-13"
+  },
+  {
+    "place": "Furniture / Home Store4a2bfc41f964a52000971fe3",
+    "time": "2012-05-14"
+  },
+  {
+    "place": "Coffee Shop4ecc046b0e61aaf0384f19c4",
+    "time": "2012-05-14"
+  },
+  {
+    "place": "Movie Theater42f00900f964a520b9261fe3",
+    "time": "2012-05-14"
+  },
+  {
+    "place": "Furniture / Home Store4a2bfc41f964a52000971fe3",
+    "time": "2012-05-15"
+  },
+  {
+    "place": "Furniture / Home Store4a2bfc41f964a52000971fe3",
+    "time": "2012-05-17"
+  },
+  {
+    "place": "Park412d2800f964a520df0c1fe3",
+    "time": "2012-05-19"
+  },
+  {
+    "place": "Furniture / Home Store4a2bfc41f964a52000971fe3",
+    "time": "2012-05-21"
+  },
+  {
+    "place": "Furniture / Home Store4a2bfc41f964a52000971fe3",
+    "time": "2012-05-25"
+  },
+  {
+    "place": "Other Nightlife4f4ed0c4e4b05017c869ad21",
+    "time": "2012-05-26"
+  },
+  {
+    "place": "American Restaurant3fd66200f964a5205ae91ee3",
+    "time": "2012-05-27"
+  },
+  {
+    "place": "American Restaurant45b9c8c1f964a520d7411fe3",
+    "time": "2012-05-27"
+  },
+  {
+    "place": "Park40f1d480f964a5206a0a1fe3",
+    "time": "2012-05-27"
+  },
+  {
+    "place": "Furniture / Home Store4a2bfc41f964a52000971fe3",
+    "time": "2012-05-27"
+  },
+  {
+    "place": "Movie Theater44ddb109f964a520c0361fe3",
+    "time": "2012-05-29"
+  },
+  {
+    "place": "Coffee Shop47da6dcff964a520324e1fe3",
+    "time": "2012-05-29"
+  },
+  {
+    "place": "Bar4da528607ccc816e9679a17b",
+    "time": "2012-05-30"
+  },
+  {
+    "place": "Furniture / Home Store4a2bfc41f964a52000971fe3",
+    "time": "2012-05-31"
+  },
+  {
+    "place": "Furniture / Home Store4a2bfc41f964a52000971fe3",
+    "time": "2012-06-03"
+  },
+  {
+    "place": "Furniture / Home Store4a2bfc41f964a52000971fe3",
+    "time": "2012-06-08"
+  },
+  {
+    "place": "Movie Theater42f00900f964a520b9261fe3",
+    "time": "2012-06-09"
+  },
+  {
+    "place": "Movie Theater4691e9b3f964a520c2481fe3",
+    "time": "2012-06-10"
+  },
+  {
+    "place": "Furniture / Home Store4a2bfc41f964a52000971fe3",
+    "time": "2012-06-10"
+  },
+  {
+    "place": "Furniture / Home Store4a2bfc41f964a52000971fe3",
+    "time": "2012-06-12"
+  },
+  {
+    "place": "Airport49c046f1f964a5205b551fe3",
+    "time": "2012-06-18"
+  },
+  {
+    "place": "Furniture / Home Store4a2bfc41f964a52000971fe3",
+    "time": "2012-06-18"
+  },
+  {
+    "place": "Mexican Restaurant42a4e380f964a520f7241fe3",
+    "time": "2012-06-21"
+  },
+  {
+    "place": "Bar4bd5f646cfa7b713c2c326da",
+    "time": "2012-06-21"
+  },
+  {
+    "place": "Coffee Shop4ecc046b0e61aaf0384f19c4",
+    "time": "2012-06-26"
+  },
+  {
+    "place": "Furniture / Home Store4a2bfc41f964a52000971fe3",
+    "time": "2012-06-27"
+  },
+  {
+    "place": "Furniture / Home Store4a2bfc41f964a52000971fe3",
+    "time": "2012-07-02"
+  },
+  {
+    "place": "Furniture / Home Store4a2bfc41f964a52000971fe3",
+    "time": "2012-07-06"
+  },
+  {
+    "place": "Furniture / Home Store4a2bfb69f964a520fe961fe3",
+    "time": "2012-07-07"
+  },
+  {
+    "place": "Bar40fc6080f964a520300b1fe3",
+    "time": "2012-07-09"
+  },
+  {
+    "place": "Train Station42911d00f964a520f5231fe3",
+    "time": "2012-07-11"
+  },
+  {
+    "place": "Train Station42911d00f964a520f5231fe3",
+    "time": "2012-07-16"
+  },
+  {
+    "place": "Furniture / Home Store4a2bfc41f964a52000971fe3",
+    "time": "2012-07-17"
+  },
+  {
+    "place": "Furniture / Home Store4a2bfc41f964a52000971fe3",
+    "time": "2012-07-18"
+  },
+  {
+    "place": "Furniture / Home Store4a2bfc41f964a52000971fe3",
+    "time": "2012-07-28"
+  },
+  {
+    "place": "Furniture / Home Store4a2bfc41f964a52000971fe3",
+    "time": "2012-07-29"
+  },
+  {
+    "place": "Furniture / Home Store4a2bfc41f964a52000971fe3",
+    "time": "2012-08-09"
+  },
+  {
+    "place": "Bar41fd7500f964a520481f1fe3",
+    "time": "2012-08-11"
+  },
+  {
+    "place": "Furniture / Home Store4a2bfc41f964a52000971fe3",
+    "time": "2012-08-11"
+  },
+  {
+    "place": "Bookstore4a8cc1d4f964a520130f20e3",
+    "time": "2012-08-12"
+  },
+  {
+    "place": "Movie Theater4ad7a539f964a520320d21e3",
+    "time": "2012-08-12"
+  },
+  {
+    "place": "Bookstore4a8cc1d4f964a520130f20e3",
+    "time": "2012-08-12"
+  },
+  {
+    "place": "Furniture / Home Store4a2bfc41f964a52000971fe3",
+    "time": "2012-08-14"
+  },
+  {
+    "place": "Salon / Barbershop4a6f5920f964a520f0d51fe3",
+    "time": "2012-08-14"
+  },
+  {
+    "place": "Furniture / Home Store4a2bfc41f964a52000971fe3",
+    "time": "2012-08-16"
+  },
+  {
+    "place": "American Restaurant4f595763e4b07f0bf5b36483",
+    "time": "2012-08-16"
+  },
+  {
+    "place": "Furniture / Home Store4a2bfc41f964a52000971fe3",
+    "time": "2012-08-19"
+  },
+  {
+    "place": "Furniture / Home Store4a2bfc41f964a52000971fe3",
+    "time": "2012-09-05"
+  },
+  {
+    "place": "Furniture / Home Store4a2bfc41f964a52000971fe3",
+    "time": "2012-09-09"
+  },
+  {
+    "place": "Food & Drink Shop4530db29f964a520613b1fe3",
+    "time": "2012-09-13"
+  },
+  {
+    "place": "Furniture / Home Store4a2bfc41f964a52000971fe3",
+    "time": "2012-09-13"
+  },
+  {
+    "place": "Eastern European Restaurant4a7dc42af964a52085ef1fe3",
+    "time": "2012-09-14"
+  },
+  {
+    "place": "Movie Theater4691e9b3f964a520c2481fe3",
+    "time": "2012-09-15"
+  },
+  {
+    "place": "Coffee Shop4ecc046b0e61aaf0384f19c4",
+    "time": "2012-09-15"
+  },
+  {
+    "place": "Furniture / Home Store4a2bfc41f964a52000971fe3",
+    "time": "2012-10-08"
+  },
+  {
+    "place": "Other Nightlife4f4ed0c4e4b05017c869ad21",
+    "time": "2012-10-12"
+  },
+  {
+    "place": "Caf\u00c3\u00a94bf1d43e99d02d7f859dc948",
+    "time": "2012-10-12"
+  },
+  {
+    "place": "Bar4fbd19426d8695f656bd2a55",
+    "time": "2012-10-12"
+  },
+  {
+    "place": "Bar40fb0f00f964a520ee0a1fe3",
+    "time": "2012-10-13"
+  },
+  {
+    "place": "Bar48c3baf3f964a520d8511fe3",
+    "time": "2012-10-13"
+  },
+  {
+    "place": "Furniture / Home Store4a2bfc41f964a52000971fe3",
+    "time": "2012-10-18"
+  },
+  {
+    "place": "Furniture / Home Store4a2bfc41f964a52000971fe3",
+    "time": "2012-10-19"
+  },
+  {
+    "place": "Other Nightlife4f4ed0c4e4b05017c869ad21",
+    "time": "2012-10-22"
+  },
+  {
+    "place": "Furniture / Home Store4a2bfc41f964a52000971fe3",
+    "time": "2012-10-24"
+  },
+  {
+    "place": "Bar3fd66200f964a52016e81ee3",
+    "time": "2012-10-25"
+  },
+  {
+    "place": "Furniture / Home Store4a2bfc41f964a52000971fe3",
+    "time": "2012-10-26"
+  },
+  {
+    "place": "Bar4f7267f2e4b059045a7a0e78",
+    "time": "2012-10-31"
+  },
+  {
+    "place": "Bar4b01ed6ff964a5209b4622e3",
+    "time": "2012-11-01"
+  },
+  {
+    "place": "Bar4133bf80f964a520b31a1fe3",
+    "time": "2012-11-01"
+  },
+  {
+    "place": "Furniture / Home Store4a2bfc41f964a52000971fe3",
+    "time": "2012-11-05"
+  },
+  {
+    "place": "Furniture / Home Store4a2bfc41f964a52000971fe3",
+    "time": "2012-11-06"
+  },
+  {
+    "place": "Airport4ace6c89f964a52078d020e3",
+    "time": "2012-11-09"
+  },
+  {
+    "place": "Bar4fc2dd0ae4b069481eee01d3",
+    "time": "2012-11-13"
+  },
+  {
+    "place": "Furniture / Home Store4a2bfc41f964a52000971fe3",
+    "time": "2012-11-14"
+  },
+  {
+    "place": "Furniture / Home Store4a2bfc41f964a52000971fe3",
+    "time": "2012-11-19"
+  },
+  {
+    "place": "American Restaurant505000f7e4b06999c69f96ec",
+    "time": "2012-11-20"
+  },
+  {
+    "place": "Furniture / Home Store4a2bfc41f964a52000971fe3",
+    "time": "2012-11-20"
+  },
+  {
+    "place": "American Restaurant505000f7e4b06999c69f96ec",
+    "time": "2012-11-21"
+  },
+  {
+    "place": "Bar4133bf80f964a520b31a1fe3",
+    "time": "2012-11-25"
+  },
+  {
+    "place": "Furniture / Home Store4a2bfc41f964a52000971fe3",
+    "time": "2012-11-25"
+  },
+  {
+    "place": "Bar49e8f3bef964a520b5651fe3",
+    "time": "2012-12-01"
+  },
+  {
+    "place": "Bar3fd66200f964a52011e51ee3",
+    "time": "2012-12-02"
+  },
+  {
+    "place": "Bar5052068664a46f2c6ef0380b",
+    "time": "2012-12-02"
+  },
+  {
+    "place": "American Restaurant4f837815e4b0832882f467a4",
+    "time": "2012-12-02"
+  },
+  {
+    "place": "Bar3fd66200f964a520e1e51ee3",
+    "time": "2012-12-02"
+  },
+  {
+    "place": "Movie Theater49e17f24f964a520d1611fe3",
+    "time": "2012-12-02"
+  },
+  {
+    "place": "French Restaurant414ccc00f964a520d21c1fe3",
+    "time": "2012-12-02"
+  },
+  {
+    "place": "Furniture / Home Store4a2bfc41f964a52000971fe3",
+    "time": "2012-12-03"
+  },
+  {
+    "place": "Bar4133bf80f964a520b31a1fe3",
+    "time": "2012-12-08"
+  },
+  {
+    "place": "Furniture / Home Store4a2bfc41f964a52000971fe3",
+    "time": "2012-12-10"
+  },
+  {
+    "place": "Bar3fd66200f964a52060e31ee3",
+    "time": "2012-12-15"
+  },
+  {
+    "place": "Movie Theater43df8ad6f964a520b92e1fe3",
+    "time": "2012-12-19"
+  },
+  {
+    "place": "Bar4de3e4effa7651589f21983d",
+    "time": "2012-12-22"
+  },
+  {
+    "place": "Bar4d25497a903c8cfadc33cd25",
+    "time": "2012-12-22"
+  },
+  {
+    "place": "Furniture / Home Store4a2bfc41f964a52000971fe3",
+    "time": "2012-12-23"
+  },
+  {
+    "place": "American Restaurant5078c4f1e4b0dad821e1f6bd",
+    "time": "2012-12-27"
+  },
+  {
+    "place": "Burrito Place4a4fdd40f964a520c8af1fe3",
+    "time": "2012-12-28"
+  },
+  {
+    "place": "Furniture / Home Store4a2bfc41f964a52000971fe3",
+    "time": "2012-12-28"
+  },
+  {
+    "place": "Furniture / Home Store4a2bfc41f964a52000971fe3",
+    "time": "2012-12-29"
+  },
+  {
+    "place": "Breakfast Spot4ab43f2df964a5208c7020e3",
+    "time": "2012-12-30"
+  },
+  {
+    "place": "Bar40f47780f964a520890a1fe3",
+    "time": "2012-12-30"
+  },
+  {
+    "place": "Seafood Restaurant4a9f1cedf964a520903c20e3",
+    "time": "2012-12-30"
+  },
+  {
+    "place": "Furniture / Home Store4a2bfc41f964a52000971fe3",
+    "time": "2013-01-01"
+  },
+  {
+    "place": "Chinese Restaurant4aa707ccf964a520d84b20e3",
+    "time": "2013-01-02"
+  },
+  {
+    "place": "Bar4beca48a0ddaa59301e01dc3",
+    "time": "2013-01-04"
+  },
+  {
+    "place": "Furniture / Home Store4a2bfc41f964a52000971fe3",
+    "time": "2013-01-07"
+  },
+  {
+    "place": "Furniture / Home Store4a2bfc41f964a52000971fe3",
+    "time": "2013-01-09"
+  },
+  {
+    "place": "American Restaurant505000f7e4b06999c69f96ec",
+    "time": "2013-01-09"
+  },
+  {
+    "place": "American Restaurant4f9056f2d5fbb1947e8973bf",
+    "time": "2013-01-11"
+  },
+  {
+    "place": "Bar3fd66200f964a52015e31ee3",
+    "time": "2013-01-12"
+  },
+  {
+    "place": "Bar3fd66200f964a52051e81ee3",
+    "time": "2013-01-12"
+  },
+  {
+    "place": "Furniture / Home Store4a2bfc41f964a52000971fe3",
+    "time": "2013-01-12"
+  },
+  {
+    "place": "Furniture / Home Store4a2bfc41f964a52000971fe3",
+    "time": "2013-01-14"
+  },
+  {
+    "place": "Furniture / Home Store4a2bfc41f964a52000971fe3",
+    "time": "2013-01-24"
+  },
+  {
+    "place": "Furniture / Home Store4a2bfc41f964a52000971fe3",
+    "time": "2013-01-25"
+  },
+  {
+    "place": "Salon / Barbershop4f6613a1e4b09987d2d155e1",
+    "time": "2013-01-25"
+  },
+  {
+    "place": "Bar3fd66200f964a52044e81ee3",
+    "time": "2013-01-26"
+  },
+  {
+    "place": "Bar4133bf80f964a520b31a1fe3",
+    "time": "2013-01-27"
+  },
+  {
+    "place": "Furniture / Home Store4a2bfc41f964a52000971fe3",
+    "time": "2013-01-30"
+  },
+  {
+    "place": "American Restaurant4c0c5587340720a166978993",
+    "time": "2013-01-31"
+  },
+  {
+    "place": "Park40f1d480f964a5206a0a1fe3",
+    "time": "2013-01-31"
+  },
+  {
+    "place": "Bar406dfe80f964a52048f21ee3",
+    "time": "2013-01-31"
+  },
+  {
+    "place": "Art Museum427d5680f964a520a8211fe3",
+    "time": "2013-02-01"
+  },
+  {
+    "place": "Bookstore4a95d306f964a520de2420e3",
+    "time": "2013-02-01"
+  },
+  {
+    "place": "Bar4197f180f964a5201f1e1fe3",
+    "time": "2013-02-02"
+  },
+  {
+    "place": "Furniture / Home Store4a2bfc41f964a52000971fe3",
+    "time": "2013-02-03"
+  },
+  {
+    "place": "Furniture / Home Store4a2bfc41f964a52000971fe3",
+    "time": "2013-02-04"
+  },
+  {
+    "place": "Bar4ad04456f964a520c7d720e3",
+    "time": "2013-02-05"
+  },
+  {
+    "place": "BBQ Joint4d5c7eb11ef2f04de5bef5cd",
+    "time": "2013-02-05"
+  },
+  {
+    "place": "Furniture / Home Store4a2bfc41f964a52000971fe3",
+    "time": "2013-02-06"
+  },
+  {
+    "place": "Furniture / Home Store4a2bfc41f964a52000971fe3",
+    "time": "2013-02-07"
+  },
+  {
+    "place": "Airport43a52546f964a520532c1fe3",
+    "time": "2013-02-08"
+  },
+  {
+    "place": "Airport43a52546f964a520532c1fe3",
+    "time": "2013-02-13"
+  }
+]

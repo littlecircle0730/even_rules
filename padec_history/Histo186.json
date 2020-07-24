@@ -1,0 +1,778 @@
+[
+  {
+    "place": "Residential Building (Apartment / Condo)4c1836421436a593271a8d75",
+    "time": "2012-04-03"
+  },
+  {
+    "place": "Sushi Restaurant4b82c3bcf964a52053e330e3",
+    "time": "2012-04-03"
+  },
+  {
+    "place": "Ice Cream Shop4ba1078bf964a520a99037e3",
+    "time": "2012-04-04"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4c1836421436a593271a8d75",
+    "time": "2012-04-04"
+  },
+  {
+    "place": "Home (private)4f1a764be4b044fd34814e98",
+    "time": "2012-04-04"
+  },
+  {
+    "place": "Bar3fd66200f964a520dee51ee3",
+    "time": "2012-04-04"
+  },
+  {
+    "place": "Bar3fd66200f964a52074e51ee3",
+    "time": "2012-04-06"
+  },
+  {
+    "place": "Bar3fd66200f964a52074e51ee3",
+    "time": "2012-04-09"
+  },
+  {
+    "place": "Bus Station4c869e9ad34ca143d5795180",
+    "time": "2012-04-09"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4c1836421436a593271a8d75",
+    "time": "2012-04-09"
+  },
+  {
+    "place": "Middle Eastern Restaurant4b3f9936f964a52000aa25e3",
+    "time": "2012-04-09"
+  },
+  {
+    "place": "Dessert Shop4c4a6ccf712ac9286e606e6b",
+    "time": "2012-04-09"
+  },
+  {
+    "place": "Bar3fd66200f964a52074e51ee3",
+    "time": "2012-04-10"
+  },
+  {
+    "place": "Food & Drink Shop4b008389f964a520123f22e3",
+    "time": "2012-04-10"
+  },
+  {
+    "place": "Miscellaneous Shop4c659e9c7abde21e903a6168",
+    "time": "2012-04-10"
+  },
+  {
+    "place": "Drugstore / Pharmacy4b133becf964a520c49523e3",
+    "time": "2012-04-10"
+  },
+  {
+    "place": "Spa / Massage4aeb718bf964a5201fc221e3",
+    "time": "2012-04-10"
+  },
+  {
+    "place": "Breakfast Spot3fd66200f964a52036ea1ee3",
+    "time": "2012-04-11"
+  },
+  {
+    "place": "Ice Cream Shop49ce965bf964a520605a1fe3",
+    "time": "2012-04-11"
+  },
+  {
+    "place": "Bar42338280f964a5200d201fe3",
+    "time": "2012-04-11"
+  },
+  {
+    "place": "Bar42338280f964a5200d201fe3",
+    "time": "2012-04-11"
+  },
+  {
+    "place": "Laundry Service4f0dbbebe4b0a8783da3fc32",
+    "time": "2012-04-12"
+  },
+  {
+    "place": "Vietnamese Restaurant3fd66200f964a5209ee61ee3",
+    "time": "2012-04-12"
+  },
+  {
+    "place": "Ice Cream Shop3fd66200f964a52033eb1ee3",
+    "time": "2012-04-13"
+  },
+  {
+    "place": "Home (private)4f1a764be4b044fd34814e98",
+    "time": "2012-04-13"
+  },
+  {
+    "place": "Food & Drink Shop4b008389f964a520123f22e3",
+    "time": "2012-04-13"
+  },
+  {
+    "place": "Coffee Shop4ad3d174f964a5207be620e3",
+    "time": "2012-04-13"
+  },
+  {
+    "place": "Bar3fd66200f964a52074e51ee3",
+    "time": "2012-04-13"
+  },
+  {
+    "place": "Thai Restaurant4cb0d96a562d224b35281a88",
+    "time": "2012-04-14"
+  },
+  {
+    "place": "Coffee Shop4ad3d174f964a5207be620e3",
+    "time": "2012-04-14"
+  },
+  {
+    "place": "Bar3fd66200f964a52074e51ee3",
+    "time": "2012-04-14"
+  },
+  {
+    "place": "Pizza Place44ae8bc6f964a52027351fe3",
+    "time": "2012-04-14"
+  },
+  {
+    "place": "Ice Cream Shop4bfd7d1ef61dc9b6971a9fde",
+    "time": "2012-04-15"
+  },
+  {
+    "place": "Food & Drink Shop4b5cd89df964a520094729e3",
+    "time": "2012-04-15"
+  },
+  {
+    "place": "Bank4aef7ed6f964a520ded821e3",
+    "time": "2012-04-15"
+  },
+  {
+    "place": "Clothing Store3fd66200f964a520b7e51ee3",
+    "time": "2012-04-15"
+  },
+  {
+    "place": "Furniture / Home Store4a7dcf5cf964a520b5ef1fe3",
+    "time": "2012-04-15"
+  },
+  {
+    "place": "Seafood Restaurant3fd66200f964a52077e51ee3",
+    "time": "2012-04-15"
+  },
+  {
+    "place": "Seafood Restaurant423f6000f964a52060201fe3",
+    "time": "2012-04-15"
+  },
+  {
+    "place": "Bus Station4cc349cf42d1b60cd25f1613",
+    "time": "2012-04-16"
+  },
+  {
+    "place": "Bar3fd66200f964a52074e51ee3",
+    "time": "2012-04-17"
+  },
+  {
+    "place": "Bank4b0c60e6f964a520263c23e3",
+    "time": "2012-04-17"
+  },
+  {
+    "place": "Seafood Restaurant3fd66200f964a5206ce41ee3",
+    "time": "2012-04-17"
+  },
+  {
+    "place": "Food & Drink Shop4b008389f964a520123f22e3",
+    "time": "2012-04-18"
+  },
+  {
+    "place": "Deli / Bodega4b23d6d0f964a520e95a24e3",
+    "time": "2012-04-18"
+  },
+  {
+    "place": "Food & Drink Shop4b008389f964a520123f22e3",
+    "time": "2012-04-18"
+  },
+  {
+    "place": "Bar3fd66200f964a52015e51ee3",
+    "time": "2012-04-18"
+  },
+  {
+    "place": "Bar3fd66200f964a52074e51ee3",
+    "time": "2012-04-20"
+  },
+  {
+    "place": "Home (private)4f1a764be4b044fd34814e98",
+    "time": "2012-04-22"
+  },
+  {
+    "place": "Miscellaneous Shop4c659e9c7abde21e903a6168",
+    "time": "2012-04-23"
+  },
+  {
+    "place": "Dessert Shop4c4a6ccf712ac9286e606e6b",
+    "time": "2012-04-24"
+  },
+  {
+    "place": "Deli / Bodega4ce0b662f8a4a1430880e6bc",
+    "time": "2012-04-24"
+  },
+  {
+    "place": "Laundry Service4f0dbbebe4b0a8783da3fc32",
+    "time": "2012-04-24"
+  },
+  {
+    "place": "Dessert Shop4a257482f964a520557e1fe3",
+    "time": "2012-04-24"
+  },
+  {
+    "place": "Sushi Restaurant49ecf7f1f964a520ba671fe3",
+    "time": "2012-04-24"
+  },
+  {
+    "place": "Laundry Service4f0dbbebe4b0a8783da3fc32",
+    "time": "2012-04-25"
+  },
+  {
+    "place": "Convenience Store4d2276bae56f6ea82a9a851d",
+    "time": "2012-04-26"
+  },
+  {
+    "place": "Convenience Store4d2276bae56f6ea82a9a851d",
+    "time": "2012-04-27"
+  },
+  {
+    "place": "Bar3fd66200f964a52074e51ee3",
+    "time": "2012-04-27"
+  },
+  {
+    "place": "Scenic Lookout4c3694312c8020a10aad8700",
+    "time": "2012-04-27"
+  },
+  {
+    "place": "Drugstore / Pharmacy4b56032bf964a520e7fb27e3",
+    "time": "2012-04-28"
+  },
+  {
+    "place": "Coffee Shop4ad3d174f964a5207be620e3",
+    "time": "2012-04-28"
+  },
+  {
+    "place": "Drugstore / Pharmacy4b5b6bd4f964a520ccfc28e3",
+    "time": "2012-04-28"
+  },
+  {
+    "place": "Post Office4b310d1cf964a52017ff24e3",
+    "time": "2012-04-28"
+  },
+  {
+    "place": "Park40b68100f964a5207d001fe3",
+    "time": "2012-04-28"
+  },
+  {
+    "place": "Vietnamese Restaurant3fd66200f964a5209ee61ee3",
+    "time": "2012-04-28"
+  },
+  {
+    "place": "Department Store41102700f964a520d60b1fe3",
+    "time": "2012-04-28"
+  },
+  {
+    "place": "Sporting Goods Shop4b60d7bcf964a5200bfd29e3",
+    "time": "2012-04-29"
+  },
+  {
+    "place": "Subway4d8512acd5fab60c65eaef9b",
+    "time": "2012-04-29"
+  },
+  {
+    "place": "Pizza Place3fd66200f964a520d0e41ee3",
+    "time": "2012-04-29"
+  },
+  {
+    "place": "Sushi Restaurant4a9317e3f964a520c71e20e3",
+    "time": "2012-05-01"
+  },
+  {
+    "place": "Drugstore / Pharmacy4a831350f964a52008fa1fe3",
+    "time": "2012-05-02"
+  },
+  {
+    "place": "Ice Cream Shop4ba1078bf964a520a99037e3",
+    "time": "2012-05-02"
+  },
+  {
+    "place": "Food & Drink Shop4b008389f964a520123f22e3",
+    "time": "2012-05-03"
+  },
+  {
+    "place": "Deli / Bodega4c4d6728f53d0f47f7dde5a4",
+    "time": "2012-05-04"
+  },
+  {
+    "place": "Sushi Restaurant49ecf7f1f964a520ba671fe3",
+    "time": "2012-05-05"
+  },
+  {
+    "place": "Sushi Restaurant49ecf7f1f964a520ba671fe3",
+    "time": "2012-05-07"
+  },
+  {
+    "place": "Japanese Restaurant42e82000f964a52089261fe3",
+    "time": "2012-05-09"
+  },
+  {
+    "place": "Vietnamese Restaurant3fd66200f964a5209ee61ee3",
+    "time": "2012-05-10"
+  },
+  {
+    "place": "Bar3fd66200f964a52074e51ee3",
+    "time": "2012-05-11"
+  },
+  {
+    "place": "Sushi Restaurant49ecf7f1f964a520ba671fe3",
+    "time": "2012-05-12"
+  },
+  {
+    "place": "Spa / Massage4aeb718bf964a5201fc221e3",
+    "time": "2012-05-12"
+  },
+  {
+    "place": "Stadium3fd66200f964a520ddf01ee3",
+    "time": "2012-05-12"
+  },
+  {
+    "place": "Gastropub3fd66200f964a520dbea1ee3",
+    "time": "2012-05-12"
+  },
+  {
+    "place": "Bar3fd66200f964a52074e51ee3",
+    "time": "2012-05-13"
+  },
+  {
+    "place": "Sushi Restaurant49ecf7f1f964a520ba671fe3",
+    "time": "2012-05-13"
+  },
+  {
+    "place": "Deli / Bodega4ce0b662f8a4a1430880e6bc",
+    "time": "2012-05-13"
+  },
+  {
+    "place": "Hardware Store4f9c0992e4b0873b672c25fd",
+    "time": "2012-05-13"
+  },
+  {
+    "place": "Burrito Place49ccf50af964a520a0591fe3",
+    "time": "2012-05-13"
+  },
+  {
+    "place": "Bakery4c38e6e61e06d13ad5a7783e",
+    "time": "2012-05-13"
+  },
+  {
+    "place": "American Restaurant4758483af964a520cc4c1fe3",
+    "time": "2012-05-15"
+  },
+  {
+    "place": "Coffee Shop4989af90f964a5207f521fe3",
+    "time": "2012-05-15"
+  },
+  {
+    "place": "Food & Drink Shop4aabbb05f964a520df5920e3",
+    "time": "2012-05-15"
+  },
+  {
+    "place": "Food & Drink Shop4aabbb05f964a520df5920e3",
+    "time": "2012-05-17"
+  },
+  {
+    "place": "Indian Restaurant4ac130f0f964a5202b9620e3",
+    "time": "2012-05-19"
+  },
+  {
+    "place": "Building4b0d3928f964a520ca4423e3",
+    "time": "2012-05-19"
+  },
+  {
+    "place": "Deli / Bodega4ce0b662f8a4a1430880e6bc",
+    "time": "2012-05-19"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4c1836421436a593271a8d75",
+    "time": "2012-05-21"
+  },
+  {
+    "place": "Medical Center4a539ce0f964a52082b21fe3",
+    "time": "2012-05-21"
+  },
+  {
+    "place": "Sushi Restaurant4a9317e3f964a520c71e20e3",
+    "time": "2012-05-21"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4c1836421436a593271a8d75",
+    "time": "2012-05-22"
+  },
+  {
+    "place": "Ice Cream Shop4ba1078bf964a520a99037e3",
+    "time": "2012-05-22"
+  },
+  {
+    "place": "Thai Restaurant4cb0d96a562d224b35281a88",
+    "time": "2012-05-24"
+  },
+  {
+    "place": "Laundry Service4f0dbbebe4b0a8783da3fc32",
+    "time": "2012-05-25"
+  },
+  {
+    "place": "Spa / Massage4aeb718bf964a5201fc221e3",
+    "time": "2012-05-25"
+  },
+  {
+    "place": "Food & Drink Shop4b008389f964a520123f22e3",
+    "time": "2012-05-25"
+  },
+  {
+    "place": "Airport4bbc407551b89c74ad3b872a",
+    "time": "2012-05-25"
+  },
+  {
+    "place": "Airport43a52546f964a520532c1fe3",
+    "time": "2012-05-25"
+  },
+  {
+    "place": "Spanish Restaurant4ac7f50ef964a520d6ba20e3",
+    "time": "2012-05-25"
+  },
+  {
+    "place": "Airport43a52546f964a520532c1fe3",
+    "time": "2012-05-30"
+  },
+  {
+    "place": "Laundry Service4f0dbbebe4b0a8783da3fc32",
+    "time": "2012-05-31"
+  },
+  {
+    "place": "Coffee Shop4a704000f964a52040d71fe3",
+    "time": "2012-05-31"
+  },
+  {
+    "place": "Korean Restaurant3fd66200f964a520c5e91ee3",
+    "time": "2012-05-31"
+  },
+  {
+    "place": "Italian Restaurant4b0c8ce0f964a520243f23e3",
+    "time": "2012-05-31"
+  },
+  {
+    "place": "Convenience Store4d2276bae56f6ea82a9a851d",
+    "time": "2012-06-01"
+  },
+  {
+    "place": "Bar3fd66200f964a52074e51ee3",
+    "time": "2012-06-01"
+  },
+  {
+    "place": "Burger Joint3fd66200f964a520fbe71ee3",
+    "time": "2012-06-02"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4c1836421436a593271a8d75",
+    "time": "2012-06-03"
+  },
+  {
+    "place": "Bar41059b00f964a520800b1fe3",
+    "time": "2012-06-03"
+  },
+  {
+    "place": "Subway4a737bf8f964a52091dc1fe3",
+    "time": "2012-06-03"
+  },
+  {
+    "place": "Food & Drink Shop4ad0daa6f964a52070da20e3",
+    "time": "2012-06-03"
+  },
+  {
+    "place": "Park42893400f964a52052231fe3",
+    "time": "2012-06-03"
+  },
+  {
+    "place": "Bar3fd66200f964a5208beb1ee3",
+    "time": "2012-06-03"
+  },
+  {
+    "place": "Convenience Store4d2276bae56f6ea82a9a851d",
+    "time": "2012-06-06"
+  },
+  {
+    "place": "Bar3fd66200f964a52074e51ee3",
+    "time": "2012-06-06"
+  },
+  {
+    "place": "Sushi Restaurant49ecf7f1f964a520ba671fe3",
+    "time": "2012-06-07"
+  },
+  {
+    "place": "Convenience Store4d2276bae56f6ea82a9a851d",
+    "time": "2012-06-08"
+  },
+  {
+    "place": "Bar3fd66200f964a52074e51ee3",
+    "time": "2012-06-08"
+  },
+  {
+    "place": "American Restaurant4758483af964a520cc4c1fe3",
+    "time": "2012-06-09"
+  },
+  {
+    "place": "Food & Drink Shop4aa6d0a0f964a520154b20e3",
+    "time": "2012-06-09"
+  },
+  {
+    "place": "Movie Theater453cacc7f964a520153c1fe3",
+    "time": "2012-06-09"
+  },
+  {
+    "place": "Italian Restaurant47b3e18ff964a520a94d1fe3",
+    "time": "2012-06-09"
+  },
+  {
+    "place": "Mac & Cheese Joint4e1a41d3183880768f53f08c",
+    "time": "2012-06-10"
+  },
+  {
+    "place": "Market4c5ef77bfff99c74eda954d3",
+    "time": "2012-06-10"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4c1836421436a593271a8d75",
+    "time": "2012-06-10"
+  },
+  {
+    "place": "Ramen /  Noodle House4731be8af964a520244c1fe3",
+    "time": "2012-06-10"
+  },
+  {
+    "place": "Department Store4ce5a066023676ebb567ebb9",
+    "time": "2012-06-11"
+  },
+  {
+    "place": "Drugstore / Pharmacy4a831350f964a52008fa1fe3",
+    "time": "2012-06-12"
+  },
+  {
+    "place": "Home (private)4f1a764be4b044fd34814e98",
+    "time": "2012-06-12"
+  },
+  {
+    "place": "Convenience Store4d2276bae56f6ea82a9a851d",
+    "time": "2012-06-15"
+  },
+  {
+    "place": "Road4a4821f5f964a52095aa1fe3",
+    "time": "2012-06-17"
+  },
+  {
+    "place": "Home (private)4f1a764be4b044fd34814e98",
+    "time": "2012-06-17"
+  },
+  {
+    "place": "Cupcake Shop46102377f964a52025451fe3",
+    "time": "2012-06-17"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4c1836421436a593271a8d75",
+    "time": "2012-06-17"
+  },
+  {
+    "place": "Laundry Service4f0dbbebe4b0a8783da3fc32",
+    "time": "2012-06-18"
+  },
+  {
+    "place": "Donut Shop4e38a2cfbd415d9f63d711a6",
+    "time": "2012-06-18"
+  },
+  {
+    "place": "Deli / Bodega4c4d6728f53d0f47f7dde5a4",
+    "time": "2012-06-18"
+  },
+  {
+    "place": "Bar3fd66200f964a52074e51ee3",
+    "time": "2012-06-18"
+  },
+  {
+    "place": "Spa / Massage4aeb718bf964a5201fc221e3",
+    "time": "2012-06-20"
+  },
+  {
+    "place": "City4e6d062f483b1f5ebe55b4c4",
+    "time": "2012-06-30"
+  },
+  {
+    "place": "Garden4fef5736e4b0203e0a6fbc36",
+    "time": "2012-06-30"
+  },
+  {
+    "place": "Train Station4af18817f964a5203fe121e3",
+    "time": "2012-07-01"
+  },
+  {
+    "place": "Laundry Service4f0dbbebe4b0a8783da3fc32",
+    "time": "2012-07-02"
+  },
+  {
+    "place": "Coffee Shop4a704000f964a52040d71fe3",
+    "time": "2012-07-02"
+  },
+  {
+    "place": "Post Office4b3bc60bf964a520d67a25e3",
+    "time": "2012-07-02"
+  },
+  {
+    "place": "Seafood Restaurant4f29959ce4b0f07a96545695",
+    "time": "2012-07-03"
+  },
+  {
+    "place": "Coffee Shop4af3657bf964a5203ded21e3",
+    "time": "2012-07-03"
+  },
+  {
+    "place": "Bus Station4db961cbcda10f31e62a9fa8",
+    "time": "2012-07-03"
+  },
+  {
+    "place": "Residential Building (Apartment / Condo)4c1836421436a593271a8d75",
+    "time": "2012-07-03"
+  },
+  {
+    "place": "Japanese Restaurant4f9c81e0e4b0d8e622d7510b",
+    "time": "2012-07-04"
+  },
+  {
+    "place": "Convenience Store4d2276bae56f6ea82a9a851d",
+    "time": "2012-07-04"
+  },
+  {
+    "place": "Home (private)4f1a764be4b044fd34814e98",
+    "time": "2012-07-04"
+  },
+  {
+    "place": "Train Station42911d00f964a520f5231fe3",
+    "time": "2012-07-04"
+  },
+  {
+    "place": "Stadium49d60947f964a520a85c1fe3",
+    "time": "2012-07-04"
+  },
+  {
+    "place": "Seafood Restaurant3fd66200f964a5206ce41ee3",
+    "time": "2012-07-04"
+  },
+  {
+    "place": "Food & Drink Shop4b5cd89df964a520094729e3",
+    "time": "2012-07-04"
+  },
+  {
+    "place": "Deli / Bodega4c4d6728f53d0f47f7dde5a4",
+    "time": "2012-07-06"
+  },
+  {
+    "place": "Bar3fd66200f964a52074e51ee3",
+    "time": "2012-07-06"
+  },
+  {
+    "place": "Electronics Store3fd66200f964a5205fe41ee3",
+    "time": "2012-07-07"
+  },
+  {
+    "place": "Laundry Service4f0dbbebe4b0a8783da3fc32",
+    "time": "2012-07-07"
+  },
+  {
+    "place": "Post Office4b310d1cf964a52017ff24e3",
+    "time": "2012-07-07"
+  },
+  {
+    "place": "Subway4a4d10fbf964a52082ad1fe3",
+    "time": "2012-07-07"
+  },
+  {
+    "place": "Taco Place4a414e0ff964a5200fa51fe3",
+    "time": "2012-07-08"
+  },
+  {
+    "place": "Neighborhood4c1521a577cea593aaacd160",
+    "time": "2012-07-09"
+  },
+  {
+    "place": "Home (private)4f1a764be4b044fd34814e98",
+    "time": "2012-07-09"
+  },
+  {
+    "place": "Spa / Massage4aeb718bf964a5201fc221e3",
+    "time": "2012-07-11"
+  },
+  {
+    "place": "Dessert Shop4c4a6ccf712ac9286e606e6b",
+    "time": "2012-07-11"
+  },
+  {
+    "place": "Bar3fd66200f964a52074e51ee3",
+    "time": "2012-07-11"
+  },
+  {
+    "place": "Convenience Store4d2276bae56f6ea82a9a851d",
+    "time": "2012-07-11"
+  },
+  {
+    "place": "Bus Station4e177775d4c062b044de86a3",
+    "time": "2012-07-11"
+  },
+  {
+    "place": "Bar49c42b05f964a520a0561fe3",
+    "time": "2012-07-11"
+  },
+  {
+    "place": "Home (private)4f1a764be4b044fd34814e98",
+    "time": "2012-07-12"
+  },
+  {
+    "place": "Electronics Store3fd66200f964a5205fe41ee3",
+    "time": "2012-07-12"
+  },
+  {
+    "place": "Food & Drink Shop4a98599ef964a520a62b20e3",
+    "time": "2012-07-12"
+  },
+  {
+    "place": "Ice Cream Shop49ce965bf964a520605a1fe3",
+    "time": "2012-07-12"
+  },
+  {
+    "place": "Donut Shop4e38a2cfbd415d9f63d711a6",
+    "time": "2012-07-13"
+  },
+  {
+    "place": "Bar3fd66200f964a52074e51ee3",
+    "time": "2012-07-13"
+  },
+  {
+    "place": "Ferry4a5bab99f964a5209ebb1fe3",
+    "time": "2012-07-15"
+  },
+  {
+    "place": "Other Great Outdoors4c609e7a54ac0f47b21db621",
+    "time": "2012-07-15"
+  },
+  {
+    "place": "Seafood Restaurant4f107e84e5e852ca73ddd2fa",
+    "time": "2012-07-15"
+  },
+  {
+    "place": "Taxi4ad2bd27f964a5209de220e3",
+    "time": "2012-07-15"
+  },
+  {
+    "place": "Laundry Service4f0dbbebe4b0a8783da3fc32",
+    "time": "2012-07-18"
+  },
+  {
+    "place": "Bar3fd66200f964a52074e51ee3",
+    "time": "2012-07-18"
+  },
+  {
+    "place": "Bar3fd66200f964a52074e51ee3",
+    "time": "2012-11-02"
+  }
+]
