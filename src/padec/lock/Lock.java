@@ -93,4 +93,9 @@ public class Lock {
         }
         return null;
     }
+
+    public String getRegistryName() {
+        return endpoint.getClass().getName();
+    }
+
 }

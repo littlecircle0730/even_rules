@@ -29,6 +29,7 @@ consumerApp.destinationRange = 2,101
 consumerApp.consumer = true
 consumerApp.interval = 50
 consumerApp.reqprec = -50.0
+consumerApp.endpoint = padec.application.HistoryEndpoint
 
 ###################################
 #padecInterface.type = SimpleBroadcastInterface

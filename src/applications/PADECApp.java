@@ -2,6 +2,7 @@ package applications;
 
 import core.*;
 import padec.application.Endpoint;
+import padec.application.HistoryEndpoint;
 import padec.application.LocationEndpoint;
 import padec.attribute.Identity;
 import padec.attribute.Location;
@@ -14,6 +15,7 @@ import padec.lock.Keyhole;
 import padec.lock.Lock;
 import padec.parser.LockParser;
 import padec.perception.PrivacyPerception;
+import padec.registry.ServiceRegistry;
 import padec.util.Pair;
 
 import java.security.KeyPair;
@@ -47,15 +49,29 @@ public class PADECApp extends Application {
      * Maximum level of info to release by consumers
      **/
     public static final String PADEC_RELEASE_POLICY = "relpolicy";
+    /**
+     * Endpoint to consume.
+     */
+    public static final String PADEC_SERVICE_CONSUMED = "endpoint";
 
     /** Key that stores the message type **/
     public static final String MSG_TYPE = "type";
+
+    /**
+     * Key that stores the requested service in a keyhole request
+     **/
+    public static final String KH_REQ_SERVICE = "khr-service";
 
     /** Key that stores the keyhole in a keyhole answer **/
     public static final String KH_ANSW_KEYHOLE = "kha-keyhole";
 
     /** Key that stores the key in a key message **/
     public static final String KEY_KEY = "k-key";
+    /**
+     * Key that stores the requested service in a key message
+     **/
+    public static final String KEY_REQ_SERVICE = "k-service";
+
     /**
      * Key that stores the minimum precision required in a key message
      **/
@@ -95,6 +111,7 @@ public class PADECApp extends Application {
     private double interval = 500;
     private int releasePolicy = 3;
     private String perceptionFile = "padec_perceptions/PerceptA.yaml";
+    private String reqEndpoint = HistoryEndpoint.class.getName();
     private Random rng;
 
     //Static vars for managing PADEC-specific entities
@@ -103,7 +120,7 @@ public class PADECApp extends Application {
     /** Maps crypto-keypairs by address **/
     private static Map<Integer, KeyPair> cryptoKeys = null;
     /** Maps locks by address **/
-    private static Map<Integer, Lock> locks = null;
+    private static Map<Integer, ServiceRegistry> locks = null;
     /** Maps endpoints by address **/
     private static Map<Integer, Endpoint> endpoints = null;
     /**
@@ -142,6 +159,9 @@ public class PADECApp extends Application {
         }
         if (s.contains(PADEC_RELEASE_POLICY)) {
             this.releasePolicy = s.getInt(PADEC_RELEASE_POLICY);
+        }
+        if (s.contains(PADEC_SERVICE_CONSUMED)) {
+            this.reqEndpoint = s.getSetting(PADEC_SERVICE_CONSUMED);
         }
         if (s.contains(PADEC_SEED)){
             this.seed = s.getInt(PADEC_SEED);
@@ -214,6 +234,10 @@ public class PADECApp extends Application {
         return perceptionFile;
     }
 
+    public String getReqEndpoint() {
+        return reqEndpoint;
+    }
+
     /**
      * Copy-constructor
      *
@@ -231,6 +255,7 @@ public class PADECApp extends Application {
         this.requestedPrecision = a.getRequestedPrecision();
         this.perceptionFile = a.getPerceptionFile();
         this.releasePolicy = a.getReleasePolicy();
+        this.reqEndpoint = a.getReqEndpoint();
         this.interval = a.getInterval();
         this.rng = new Random(this.seed);
     }
@@ -252,33 +277,38 @@ public class PADECApp extends Application {
         switch (type){
             case MSG_TYPE_KEYHOLE:
                 byte[] encKh = (byte[]) msg.getProperty(KH_ANSW_KEYHOLE);
-                List<Keyhole> keyholes = (List<Keyhole>) sc.decrypt(encKh, cryptoKeys.get(host.getAddress()).getPrivate());
-                PrivacyPerception perception = perceptions.get(host.getAddress());
-                Keyhole kh = null;
-                for (int i = keyholes.size() - 1; i >= 0; i--) {
-                    Keyhole khEx = keyholes.get(i);
-                    if (khEx.getCategory(perception) <= releasePolicy) {
-                        kh = khEx;
-                        break;
+                if (encKh == null) {
+                    super.sendEventToListeners("DeniedKeyhole", null, host);
+                } else {
+                    List<Keyhole> keyholes = (List<Keyhole>) sc.decrypt(encKh, cryptoKeys.get(host.getAddress()).getPrivate());
+                    PrivacyPerception perception = perceptions.get(host.getAddress());
+                    Keyhole kh = null;
+                    for (int i = keyholes.size() - 1; i >= 0; i--) {
+                        Keyhole khEx = keyholes.get(i);
+                        if (khEx.getCategory(perception) <= releasePolicy) {
+                            kh = khEx;
+                            break;
+                        }
                     }
+                    if (kh == null) {
+                        kh = keyholes.get(0);
+                    }
+                    PADECContext cntxt = contexts.get(host.getAddress());
+                    cntxt.getAttribute(Location.class).setValue(
+                            new Pair<>(host.getLocation().getX(), host.getLocation().getY())); // Update location
+                    cntxt.getAttribute(Identity.class).setValue(host.getAddress()); // Update identity
+                    Key key = new Key(kh, cntxt);
+                    String id = "k-" + host.getAddress() + "-" + msg.getFrom().getAddress() + "@" + SimClock.getIntTime();
+                    Message m = new Message(host, msg.getFrom(), id, 1);
+                    m.addProperty(MSG_TYPE, MSG_TYPE_KEY);
+                    m.addProperty(KEY_KEY, sc.encrypt(key, cryptoKeys.get(msg.getFrom().getAddress()).getPublic()));
+                    m.addProperty(KEY_REQ_SERVICE, reqEndpoint);
+                    m.addProperty(KEY_ENDPOINT_PARAMS, new HashMap<>());
+                    m.addProperty(KEY_MIN_PRECISION, requestedPrecision);
+                    m.setAppID(APP_ID);
+                    super.sendEventToListeners("GotKeyhole", m, host);
+                    host.createNewMessage(m);
                 }
-                if (kh == null) {
-                    kh = keyholes.get(0);
-                }
-                PADECContext cntxt = contexts.get(host.getAddress());
-                cntxt.getAttribute(Location.class).setValue(
-                        new Pair<>(host.getLocation().getX(), host.getLocation().getY())); // Update location
-                cntxt.getAttribute(Identity.class).setValue(host.getAddress()); // Update identity
-                Key key = new Key(kh, cntxt);
-                String id = "k-"+host.getAddress()+"-"+msg.getFrom().getAddress()+"@"+SimClock.getIntTime();
-                Message m = new Message(host, msg.getFrom(), id, 1);
-                m.addProperty(MSG_TYPE, MSG_TYPE_KEY);
-                m.addProperty(KEY_KEY, sc.encrypt(key, cryptoKeys.get(msg.getFrom().getAddress()).getPublic()));
-                m.addProperty(KEY_ENDPOINT_PARAMS, new HashMap<>());
-                m.addProperty(KEY_MIN_PRECISION, requestedPrecision);
-                m.setAppID(APP_ID);
-                super.sendEventToListeners("GotKeyhole", m, host);
-                host.createNewMessage(m);
                 break;
             case MSG_TYPE_INFO:
                 byte[] dataEnc = (byte[]) msg.getProperty(INFO_DATA);
@@ -304,8 +334,10 @@ public class PADECApp extends Application {
                 cntxt.registerAttribute(Identity.class); // Register Sound Level
                 contexts.put(host.getAddress(), cntxt); // Save it
             }
-            Lock lock = LockParser.parse(lockFile, contexts.get(host.getAddress()));
-            locks.put(host.getAddress(), lock); // Save the access level
+            Lock lock = LockParser.parse(lockFile, contexts.get(host.getAddress())); // Get the lock
+            ServiceRegistry registry = new ServiceRegistry(); // Create a registry
+            registry.addService(lock); // Register the service
+            locks.put(host.getAddress(), registry); // Save the registry
             Endpoint innerEndpoint = lock.getEndpointOnlyForTheONE();
             endpoints.put(host.getAddress(), innerEndpoint);
         }
@@ -313,10 +345,17 @@ public class PADECApp extends Application {
         SimpleCrypto sc = SimpleCrypto.getInstance();
         switch (type){
             case MSG_TYPE_KEYHOLE_REQUEST:
-                List<Keyhole> keyholes = locks.get(host.getAddress()).getKeyholes();
-                String id = "kha-"+host.getAddress()+"-"+msg.getFrom().getAddress()+"@"+SimClock.getIntTime();
+                String requestedEndpoint = (String) msg.getProperty(KH_REQ_SERVICE);
+                ServiceRegistry registry = locks.get(host.getAddress());
+                byte[] encKh;
+                if (registry.exposesService(requestedEndpoint)) {
+                    List<Keyhole> keyholes = registry.getService(requestedEndpoint).getKeyholes();
+                    encKh = sc.encrypt(keyholes, cryptoKeys.get(msg.getFrom().getAddress()).getPublic());
+                } else {
+                    encKh = null;
+                }
+                String id = "kha-" + host.getAddress() + "-" + msg.getFrom().getAddress() + "@" + SimClock.getIntTime();
                 Message m = new Message(host, msg.getFrom(), id, 1);
-                byte[] encKh = sc.encrypt(keyholes, cryptoKeys.get(msg.getFrom().getAddress()).getPublic());
                 m.addProperty(MSG_TYPE, MSG_TYPE_KEYHOLE);
                 m.addProperty(KH_ANSW_KEYHOLE, encKh);
                 m.setAppID(APP_ID);
@@ -327,7 +366,7 @@ public class PADECApp extends Application {
                 byte[] encK = (byte[]) msg.getProperty(KEY_KEY);
                 Key k = (Key) sc.decrypt(encK, cryptoKeys.get(host.getAddress()).getPrivate());
                 Double minPrec = (Double) msg.getProperty(KEY_MIN_PRECISION);
-                Lock lock = locks.get(host.getAddress());
+                Lock lock = locks.get(host.getAddress()).getService((String) msg.getProperty(KEY_REQ_SERVICE));
                 Map<String, Object> params = (Map<String, Object>) msg.getProperty(KEY_ENDPOINT_PARAMS);
                 // Update location endpoint
                 Endpoint endpoint = endpoints.get(host.getAddress());
@@ -402,30 +441,33 @@ public class PADECApp extends Application {
             switch (type){
                 case MSG_TYPE_KEYHOLE:
                     byte[] encKh = (byte[]) msg.getProperty(KH_ANSW_KEYHOLE);
-                    List<Keyhole> keyholes = (List<Keyhole>) sc.decrypt(encKh, cryptoKeys.get(host.getAddress()).getPrivate());
-                    PrivacyPerception perception = perceptions.get(host.getAddress());
-                    Keyhole kh = null;
-                    for (int i = keyholes.size() - 1; i >= 0; i--) {
-                        Keyhole khEx = keyholes.get(i);
-                        if (khEx.getCategory(perception) <= releasePolicy) {
-                            kh = khEx;
-                            break;
+                    if (encKh != null) {
+                        List<Keyhole> keyholes = (List<Keyhole>) sc.decrypt(encKh, cryptoKeys.get(host.getAddress()).getPrivate());
+                        PrivacyPerception perception = perceptions.get(host.getAddress());
+                        Keyhole kh = null;
+                        for (int i = keyholes.size() - 1; i >= 0; i--) {
+                            Keyhole khEx = keyholes.get(i);
+                            if (khEx.getCategory(perception) <= releasePolicy) {
+                                kh = khEx;
+                                break;
+                            }
                         }
+                        if (kh == null) {
+                            kh = keyholes.get(0);
+                        }
+                        PADECContext cntxt = contexts.get(host.getAddress());
+                        Key key = new Key(kh, cntxt);
+                        String id = "k-" + host.getAddress() + "-" + msg.getFrom().getAddress() + "@" + SimClock.getIntTime();
+                        Message m = new Message(host, msg.getFrom(), id, 1);
+                        m.addProperty(MSG_TYPE, MSG_TYPE_KEY);
+                        m.addProperty(KEY_KEY, sc.encrypt(key, cryptoKeys.get(msg.getFrom().getAddress()).getPublic()));
+                        m.addProperty(KEY_REQ_SERVICE, reqEndpoint);
+                        m.addProperty(KEY_ENDPOINT_PARAMS, new HashMap<>());
+                        m.addProperty(KEY_MIN_PRECISION, requestedPrecision);
+                        m.setAppID(APP_ID);
+                        super.sendEventToListeners("AttackedKeyhole", m, host);
+                        host.createNewMessage(m);
                     }
-                    if (kh == null) {
-                        kh = keyholes.get(0);
-                    }
-                    PADECContext cntxt = contexts.get(host.getAddress());
-                    Key key = new Key(kh, cntxt);
-                    String id = "k-"+host.getAddress()+"-"+msg.getFrom().getAddress()+"@"+SimClock.getIntTime();
-                    Message m = new Message(host, msg.getFrom(), id, 1);
-                    m.addProperty(MSG_TYPE, MSG_TYPE_KEY);
-                    m.addProperty(KEY_KEY, sc.encrypt(key, cryptoKeys.get(msg.getFrom().getAddress()).getPublic()));
-                    m.addProperty(KEY_ENDPOINT_PARAMS, new HashMap<>());
-                    m.addProperty(KEY_MIN_PRECISION, requestedPrecision);
-                    m.setAppID(APP_ID);
-                    super.sendEventToListeners("AttackedKeyhole", m, host);
-                    host.createNewMessage(m);
                     break;
                 case MSG_TYPE_INFO:
                     byte[] dataEnc = (byte[]) msg.getProperty(INFO_DATA);
@@ -575,6 +617,7 @@ public class PADECApp extends Application {
             String id = "khr-"+host.getAddress()+"-"+destination.getAddress()+"@"+SimClock.getIntTime();
             Message m = new Message(host, destination, id, 1);
             m.addProperty(MSG_TYPE, MSG_TYPE_KEYHOLE_REQUEST);
+            m.addProperty(KH_REQ_SERVICE, reqEndpoint);
             m.setAppID(APP_ID);
             super.sendEventToListeners("PADECRequest", m, host);
             host.createNewMessage(m);
