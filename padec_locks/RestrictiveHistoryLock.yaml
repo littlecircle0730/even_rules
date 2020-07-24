@@ -2,7 +2,7 @@ lock:
   endpoint: 'padec.application.HistoryEndpoint'
   conparams:
     - type: 'java.lang.String'
-      value: 'padec_history/Histo1.json'
+      value: 'padec_history/Histo1_madeup.json'
   accesslevels:
     - accesslevel:
         position: 0

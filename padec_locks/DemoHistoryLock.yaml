@@ -1,8 +1,5 @@
 lock:
   endpoint: 'padec.application.HistoryEndpoint'
-  conparams:
-    - type: 'java.lang.String'
-      value: 'padec_history/Histo1_madeup.json'
   accesslevels:
     - accesslevel:
         position: 0
@@ -45,7 +42,7 @@ lock:
             type: 'Dual'
             attribute: 'padec.attribute.Location'
             values:
-              - 500.0
+              - 250.0
             combinator: 'padec.rule.operator.RangeOperator'
             operator: 'padec.rule.operator.LessThanOperator'
           ruleB:
@@ -53,11 +50,14 @@ lock:
             attribute: 'padec.attribute.Identity'
             values: # Chosen at random
               - 124
+              - 126
               - 118
+              - 120
               - 107
+              - 104
               - 106
               - 125
+              - 122
               - 123
-            combinator: 'padec.rule.operator.EqualOperator'
             operator: 'padec.rule.operator.EqualOperator'
-          operator: 'padec.rule.operator.AndOperator'
+          operator: 'padec.rule.operator.OrOperator'

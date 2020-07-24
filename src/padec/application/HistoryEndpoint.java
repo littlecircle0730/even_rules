@@ -17,9 +17,18 @@ public class HistoryEndpoint implements Endpoint<List<Pair<String, Date>>> {
      */
     private List<Pair<String, Date>> history;
 
-    public HistoryEndpoint(String histoFile) {
-        Gson gson = new Gson();
+    /**
+     * Flag to check load
+     */
+    private boolean loaded;
+
+    public HistoryEndpoint() {
+        loaded = false;
         history = new ArrayList<>();
+    }
+
+    public void load(String histoFile) {
+        Gson gson = new Gson();
         try {
             FileReader fr = new FileReader(histoFile);
             List<Map> mList = gson.fromJson(fr, List.class);
@@ -33,14 +42,25 @@ public class HistoryEndpoint implements Endpoint<List<Pair<String, Date>>> {
                 nTriple.setC((Double) m.getOrDefault("rating", -1.0));
                 history.add(nTriple);
             }
+            loaded = true;
             sort();
         } catch (IOException | ParseException e) {
             e.printStackTrace();
         }
     }
 
+    public HistoryEndpoint(String histoFile) {
+        loaded = false;
+        history = new ArrayList<>();
+        load(histoFile);
+    }
+
     private void sort() {
         history.sort(Comparator.comparing(Pair::getB));
+    }
+
+    public boolean isLoaded() {
+        return loaded;
     }
 
     @Override

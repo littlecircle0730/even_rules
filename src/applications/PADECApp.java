@@ -307,6 +307,8 @@ public class PADECApp extends Application {
                     m.addProperty(KEY_MIN_PRECISION, requestedPrecision);
                     m.setAppID(APP_ID);
                     super.sendEventToListeners("GotKeyhole", m, host);
+                    super.sendEventToListeners("KeyCategory", kh.getCategory(perception), host);
+                    super.sendEventToListeners("AttributesSent", kh.getAttributes().size(), host);
                     host.createNewMessage(m);
                 }
                 break;
@@ -316,6 +318,7 @@ public class PADECApp extends Application {
                 System.out.println("Host "+host.getAddress()+": Access granted. Info: " + data.getData() + ". Precision: " + data.getPrecision());
                 lastRequest.put(host.getAddress(), -1*lastRequest.get(host.getAddress()));
                 super.sendEventToListeners("AccessGranted", null, host);
+                super.sendEventToListeners("PrecisionGot", data.getPrecision(), host);
                 break;
             case MSG_TYPE_DENIED:
                 System.out.println("Host "+host.getAddress()+": Access denied.");
@@ -374,6 +377,13 @@ public class PADECApp extends Application {
                     ((LocationEndpoint) endpoints.get(host.getAddress())).updateLocation(
                             new Pair<>(host.getLocation().getX(), host.getLocation().getY()));
                 }
+                // Update history endpoint
+                if (endpoint instanceof HistoryEndpoint) {
+                    HistoryEndpoint he = (HistoryEndpoint) endpoints.get(host.getAddress());
+                    if (!he.isLoaded()) {
+                        he.load("padec_history/Histo" + host.getAddress() + ".json");
+                    }
+                }
 
                 // Update location context
                 contexts.get(host.getAddress()).getAttribute(Location.class).setValue(
@@ -410,6 +420,9 @@ public class PADECApp extends Application {
                 m = new Message(host, msg.getFrom(), id, 1);
                 if (result != null){ // Key accepted
                     m.addProperty(MSG_TYPE, MSG_TYPE_INFO);
+                    Double totalSize = (double) ((HistoryEndpoint) endpoints.get(host.getAddress())).execute(params).size();
+                    Double sentSize = (double) ((List) result.getData()).size();
+                    super.sendEventToListeners("InfSentMetric", sentSize / totalSize, host);
                     byte[] encRes = sc.encrypt(result, cryptoKeys.get(msg.getFrom().getAddress()).getPublic());
                     m.addProperty(INFO_DATA, encRes);
                 }
@@ -631,5 +644,9 @@ public class PADECApp extends Application {
 
     public void setSeed(int seed) {
         this.seed = seed;
+    }
+
+    public static Map<Integer, KeyPair> getCryptoKeys() {
+        return cryptoKeys;
     }
 }

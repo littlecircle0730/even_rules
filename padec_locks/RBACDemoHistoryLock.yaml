@@ -1,11 +1,18 @@
 lock:
   endpoint: 'padec.application.HistoryEndpoint'
-  conparams:
-    - type: 'java.lang.String'
-      value: 'padec_history/Histo1_madeup.json'
   accesslevels:
     - accesslevel:
         position: 0
+        filter:
+          technique: 'padec.filtering.techniques.NoFilter'
+        rule:
+          type: 'Dual'
+          attribute: 'padec.attribute.Identity'
+          values: []
+          combinator: 'padec.rule.operator.rbac.RoleOperator'
+          operator: 'padec.rule.operator.InOperator'
+    - accesslevel:
+        position: 1
         filter:
           technique: 'padec.filtering.techniques.NoFilter'
         rule:
