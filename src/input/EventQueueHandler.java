@@ -4,10 +4,10 @@
  */
 package input;
 
+import core.Settings;
+
 import java.util.ArrayList;
 import java.util.List;
-
-import core.Settings;
 
 /**
  * <p>
@@ -88,7 +88,8 @@ public class EventQueueHandler  {
 	 * @return all the loaded event queues
 	 */
 	public List<EventQueue> getEventQueues() {
-		return this.queues;
+        return new ArrayList<>();
+        //return this.queues;
 	}
 
 }

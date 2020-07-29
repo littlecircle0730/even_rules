@@ -7,11 +7,7 @@ lock:
     - accesslevel:
         position: 0
         filter:
-          technique: 'padec.filtering.techniques.HistoryFuzzy'
-          params:
-            times: 3
-            before: '2020-03-01'
-            after: '2020-01-01'
+          technique: 'padec.filtering.techniques.NoFilter'
         rule:
           type: 'Dual'
           attribute: 'padec.attribute.Location'
@@ -22,10 +18,7 @@ lock:
     - accesslevel:
         position: 1
         filter:
-          technique: 'padec.filtering.techniques.HistoryFuzzy'
-          params:
-            times: 3
-            after: '2020-01-01'
+          technique: 'padec.filtering.techniques.NoFilter'
         rule:
           type: 'Dual'
           attribute: 'padec.attribute.Location'
@@ -36,9 +29,7 @@ lock:
     - accesslevel:
         position: 2
         filter:
-          technique: 'padec.filtering.techniques.HistoryFuzzy'
-          params:
-            times: 1
+          technique: 'padec.filtering.techniques.NoFilter'
         rule:
           type: 'Consumer'
           attribute: 'padec.attribute.Identity'

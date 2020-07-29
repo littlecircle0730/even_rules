@@ -1,0 +1,74 @@
+PADEC party information statistics for scenario rbac_padec_demo
+sim_time: 700000.0000
+OP35: [padec.attribute.Identity from C121, padec.attribute.Identity from C122, padec.attribute.Identity from C123, padec.attribute.Identity from C124, padec.attribute.Identity from C125, padec.attribute.Identity from C126, padec.attribute.Identity from C104, padec.attribute.Identity from C127, padec.attribute.Identity from C105, padec.attribute.Identity from C128, padec.attribute.Identity from C106, padec.attribute.Identity from C107, padec.attribute.Identity from C108, padec.attribute.Identity from C109, padec.attribute.Identity from C120, padec.attribute.Identity from C110, padec.attribute.Identity from C111, padec.attribute.Identity from C112, padec.attribute.Identity from C113, padec.attribute.Identity from C114, padec.attribute.Identity from C115, padec.attribute.Identity from C116, padec.attribute.Identity from C117, padec.attribute.Identity from C118, padec.attribute.Identity from C119]
+
+C116: []
+
+C120: [History (precision -1.7976931348623157E308) from RP63, History (precision -1.7976931348623157E308) from OP19, History (precision -1.7976931348623157E308) from OP41, History (precision -1.7976931348623157E308) from RP87, History (precision -1.7976931348623157E308) from OP40, History (precision -1.7976931348623157E308) from OP35, History (precision -1.7976931348623157E308) from OP13, History (precision -1.7976931348623157E308) from OP4, History (precision -1.7976931348623157E308) from OP37, History (precision -1.7976931348623157E308) from OP26]
+
+RP63: [padec.attribute.Identity from C121, padec.attribute.Identity from C110, padec.attribute.Identity from C111, padec.attribute.Identity from C122, padec.attribute.Identity from C112, padec.attribute.Identity from C123, padec.attribute.Identity from C113, padec.attribute.Identity from C124, padec.attribute.Identity from C125, padec.attribute.Identity from C126, padec.attribute.Identity from C104, padec.attribute.Identity from C115, padec.attribute.Identity from C116, padec.attribute.Identity from C105, padec.attribute.Identity from C127, padec.attribute.Identity from C128, padec.attribute.Identity from C117, padec.attribute.Identity from C106, padec.attribute.Identity from C118, padec.attribute.Identity from C107, padec.attribute.Identity from C108, padec.attribute.Identity from C119, padec.attribute.Identity from C109, padec.attribute.Identity from C120]
+
+C111: []
+
+C127: []
+
+C119: []
+
+C128: []
+
+C106: [History (precision -1.7976931348623157E308) from RP63, History (precision -1.7976931348623157E308) from RP87, History (precision -1.7976931348623157E308) from OP40, History (precision -1.7976931348623157E308) from OP35]
+
+C126: [History (precision -1.7976931348623157E308) from RP63, History (precision -1.7976931348623157E308) from OP19, History (precision -1.7976931348623157E308) from OP41, History (precision -1.7976931348623157E308) from RP87, History (precision -1.7976931348623157E308) from OP40, History (precision -1.7976931348623157E308) from OP35, History (precision -1.7976931348623157E308) from OP13, History (precision -1.7976931348623157E308) from OP4, History (precision -1.7976931348623157E308) from OP37, History (precision -1.7976931348623157E308) from OP26]
+
+C125: [History (precision -1.7976931348623157E308) from RP63, History (precision -1.7976931348623157E308) from OP19, History (precision -1.7976931348623157E308) from OP41, History (precision -1.7976931348623157E308) from RP87, History (precision -1.7976931348623157E308) from OP40, History (precision -1.7976931348623157E308) from OP35, History (precision -1.7976931348623157E308) from OP13, History (precision -1.7976931348623157E308) from OP4, History (precision -1.7976931348623157E308) from OP37, History (precision -1.7976931348623157E308) from OP26]
+
+C123: [History (precision -1.7976931348623157E308) from RP63, History (precision -1.7976931348623157E308) from OP19, History (precision -1.7976931348623157E308) from OP41, History (precision -1.7976931348623157E308) from RP87, History (precision -1.7976931348623157E308) from OP40, History (precision -1.7976931348623157E308) from OP35, History (precision -1.7976931348623157E308) from OP13, History (precision -1.7976931348623157E308) from OP4, History (precision -1.7976931348623157E308) from OP37, History (precision -1.7976931348623157E308) from OP26]
+
+C110: []
+
+C108: []
+
+C105: []
+
+C122: [History (precision -1.7976931348623157E308) from RP63, History (precision -1.7976931348623157E308) from OP19, History (precision -1.7976931348623157E308) from OP41, History (precision -1.7976931348623157E308) from RP87, History (precision -1.7976931348623157E308) from OP40, History (precision -1.7976931348623157E308) from OP35, History (precision -1.7976931348623157E308) from OP4, History (precision -1.7976931348623157E308) from OP37, History (precision -1.7976931348623157E308) from OP26]
+
+C118: [History (precision -1.7976931348623157E308) from RP63, History (precision -1.7976931348623157E308) from OP19, History (precision -1.7976931348623157E308) from OP41, History (precision -1.7976931348623157E308) from RP87, History (precision -1.7976931348623157E308) from OP40, History (precision -1.7976931348623157E308) from OP35, History (precision -1.7976931348623157E308) from OP4, History (precision -1.7976931348623157E308) from OP37]
+
+C117: []
+
+C112: []
+
+C124: [History (precision -1.7976931348623157E308) from RP63, History (precision -1.7976931348623157E308) from OP19, History (precision -1.7976931348623157E308) from OP41, History (precision -1.7976931348623157E308) from RP87, History (precision -1.7976931348623157E308) from OP40, History (precision -1.7976931348623157E308) from OP35, History (precision -1.7976931348623157E308) from OP13, History (precision -1.7976931348623157E308) from OP4, History (precision -1.7976931348623157E308) from RP70, History (precision -1.7976931348623157E308) from OP37, History (precision -1.7976931348623157E308) from OP26]
+
+C113: []
+
+C121: []
+
+C109: []
+
+C104: [History (precision -1.7976931348623157E308) from RP63, History (precision -1.7976931348623157E308) from OP19, History (precision -1.7976931348623157E308) from OP41, History (precision -1.7976931348623157E308) from RP87, History (precision -1.7976931348623157E308) from OP40, History (precision -1.7976931348623157E308) from OP35, History (precision -1.7976931348623157E308) from OP4, History (precision -1.7976931348623157E308) from OP37]
+
+C107: [History (precision -1.7976931348623157E308) from RP63, History (precision -1.7976931348623157E308) from OP19, History (precision -1.7976931348623157E308) from OP41, History (precision -1.7976931348623157E308) from RP87, History (precision -1.7976931348623157E308) from OP40, History (precision -1.7976931348623157E308) from OP35, History (precision -1.7976931348623157E308) from OP13, History (precision -1.7976931348623157E308) from OP4, History (precision -1.7976931348623157E308) from OP37, History (precision -1.7976931348623157E308) from OP26]
+
+RP87: [padec.attribute.Identity from C121, padec.attribute.Identity from C110, padec.attribute.Identity from C111, padec.attribute.Identity from C122, padec.attribute.Identity from C112, padec.attribute.Identity from C123, padec.attribute.Identity from C113, padec.attribute.Identity from C124, padec.attribute.Identity from C125, padec.attribute.Identity from C126, padec.attribute.Identity from C104, padec.attribute.Identity from C115, padec.attribute.Identity from C116, padec.attribute.Identity from C105, padec.attribute.Identity from C127, padec.attribute.Identity from C117, padec.attribute.Identity from C128, padec.attribute.Identity from C106, padec.attribute.Identity from C118, padec.attribute.Identity from C107, padec.attribute.Identity from C119, padec.attribute.Identity from C108, padec.attribute.Identity from C109, padec.attribute.Identity from C120]
+
+C115: []
+
+C114: []
+
+OP40: [padec.attribute.Identity from C121, padec.attribute.Identity from C110, padec.attribute.Identity from C111, padec.attribute.Identity from C122, padec.attribute.Identity from C112, padec.attribute.Identity from C123, padec.attribute.Identity from C124, padec.attribute.Identity from C113, padec.attribute.Identity from C125, padec.attribute.Identity from C126, padec.attribute.Identity from C104, padec.attribute.Identity from C115, padec.attribute.Identity from C116, padec.attribute.Identity from C127, padec.attribute.Identity from C105, padec.attribute.Identity from C128, padec.attribute.Identity from C117, padec.attribute.Identity from C106, padec.attribute.Identity from C107, padec.attribute.Identity from C118, padec.attribute.Identity from C119, padec.attribute.Identity from C108, padec.attribute.Identity from C109, padec.attribute.Identity from C120]
+
+OP19: [padec.attribute.Identity from C121, padec.attribute.Identity from C110, padec.attribute.Identity from C111, padec.attribute.Identity from C122, padec.attribute.Identity from C112, padec.attribute.Identity from C123, padec.attribute.Identity from C113, padec.attribute.Identity from C124, padec.attribute.Identity from C125, padec.attribute.Identity from C126, padec.attribute.Identity from C115, padec.attribute.Identity from C104, padec.attribute.Identity from C116, padec.attribute.Identity from C105, padec.attribute.Identity from C127, padec.attribute.Identity from C128, padec.attribute.Identity from C117, padec.attribute.Identity from C107, padec.attribute.Identity from C118, padec.attribute.Identity from C119, padec.attribute.Identity from C108, padec.attribute.Identity from C109, padec.attribute.Identity from C120]
+
+OP4: [padec.attribute.Identity from C121, padec.attribute.Identity from C110, padec.attribute.Identity from C111, padec.attribute.Identity from C122, padec.attribute.Identity from C112, padec.attribute.Identity from C123, padec.attribute.Identity from C113, padec.attribute.Identity from C124, padec.attribute.Identity from C125, padec.attribute.Identity from C126, padec.attribute.Identity from C115, padec.attribute.Identity from C104, padec.attribute.Identity from C116, padec.attribute.Identity from C127, padec.attribute.Identity from C105, padec.attribute.Identity from C128, padec.attribute.Identity from C117, padec.attribute.Identity from C107, padec.attribute.Identity from C118, padec.attribute.Identity from C119, padec.attribute.Identity from C108, padec.attribute.Identity from C109, padec.attribute.Identity from C120]
+
+OP37: [padec.attribute.Identity from C121, padec.attribute.Identity from C110, padec.attribute.Identity from C111, padec.attribute.Identity from C122, padec.attribute.Identity from C112, padec.attribute.Identity from C123, padec.attribute.Identity from C124, padec.attribute.Identity from C113, padec.attribute.Identity from C125, padec.attribute.Identity from C126, padec.attribute.Identity from C115, padec.attribute.Identity from C104, padec.attribute.Identity from C116, padec.attribute.Identity from C105, padec.attribute.Identity from C127, padec.attribute.Identity from C128, padec.attribute.Identity from C117, padec.attribute.Identity from C107, padec.attribute.Identity from C118, padec.attribute.Identity from C119, padec.attribute.Identity from C108, padec.attribute.Identity from C109, padec.attribute.Identity from C120]
+
+OP41: [padec.attribute.Identity from C110, padec.attribute.Identity from C121, padec.attribute.Identity from C111, padec.attribute.Identity from C122, padec.attribute.Identity from C112, padec.attribute.Identity from C123, padec.attribute.Identity from C124, padec.attribute.Identity from C113, padec.attribute.Identity from C125, padec.attribute.Identity from C126, padec.attribute.Identity from C115, padec.attribute.Identity from C104, padec.attribute.Identity from C116, padec.attribute.Identity from C105, padec.attribute.Identity from C127, padec.attribute.Identity from C128, padec.attribute.Identity from C117, padec.attribute.Identity from C107, padec.attribute.Identity from C118, padec.attribute.Identity from C119, padec.attribute.Identity from C108, padec.attribute.Identity from C109, padec.attribute.Identity from C120]
+
+OP26: [padec.attribute.Identity from C110, padec.attribute.Identity from C121, padec.attribute.Identity from C111, padec.attribute.Identity from C122, padec.attribute.Identity from C112, padec.attribute.Identity from C123, padec.attribute.Identity from C124, padec.attribute.Identity from C113, padec.attribute.Identity from C125, padec.attribute.Identity from C126, padec.attribute.Identity from C115, padec.attribute.Identity from C116, padec.attribute.Identity from C105, padec.attribute.Identity from C127, padec.attribute.Identity from C128, padec.attribute.Identity from C107, padec.attribute.Identity from C118, padec.attribute.Identity from C119, padec.attribute.Identity from C108, padec.attribute.Identity from C109, padec.attribute.Identity from C120]
+
+OP13: [padec.attribute.Identity from C110, padec.attribute.Identity from C121, padec.attribute.Identity from C111, padec.attribute.Identity from C112, padec.attribute.Identity from C123, padec.attribute.Identity from C124, padec.attribute.Identity from C113, padec.attribute.Identity from C125, padec.attribute.Identity from C126, padec.attribute.Identity from C116, padec.attribute.Identity from C105, padec.attribute.Identity from C127, padec.attribute.Identity from C128, padec.attribute.Identity from C107, padec.attribute.Identity from C119, padec.attribute.Identity from C109, padec.attribute.Identity from C120]
+
+RP70: [padec.attribute.Identity from C121, padec.attribute.Identity from C110, padec.attribute.Identity from C112, padec.attribute.Identity from C124, padec.attribute.Identity from C125, padec.attribute.Identity from C116, padec.attribute.Identity from C105, padec.attribute.Identity from C128, padec.attribute.Identity from C119, padec.attribute.Identity from C109]
+

@@ -62,10 +62,10 @@ public class PADECMetricReport extends Report implements ApplicationListener {
             metrics.get(SENT_DATA).add((double) params);
         }
         if (event.equalsIgnoreCase("KeyCategory")) {
-            metrics.get(KEY_CATEGORY).add((double) params);
+            metrics.get(KEY_CATEGORY).add((double) (int) params);
         }
         if (event.equalsIgnoreCase("AttributesSent")) {
-            metrics.get(ATTR_SENT).add((double) params);
+            metrics.get(ATTR_SENT).add((double) (int) params);
         }
         if (event.equalsIgnoreCase("PrecisionGot")) {
             metrics.get(PRECISION).add((double) params);

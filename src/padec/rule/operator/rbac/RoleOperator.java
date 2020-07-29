@@ -11,6 +11,11 @@ public class RoleOperator implements CombineOperator {
         String[] roles = new String[]{};
         Integer consId = (Integer) b;
         Integer provId = (Integer) a;
+        if (SimRoleMap.getMapping(provId) == null) {
+            RoleMapping mapping = new RoleMapping();
+            mapping.loadFromYamlFile("rbac_roles/Roles.yaml");
+            SimRoleMap.updateMapping(provId, mapping);
+        }
         RoleMapping mapping = SimRoleMap.getMapping(provId);
         if (mapping != null) {
             roles = mapping.getRoles(consId).toArray(roles);

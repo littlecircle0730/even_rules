@@ -1,5 +1,5 @@
 
-Scenario.name = rbac_padec_demo
+Scenario.name = abac_padec_demo
 Scenario.simulateConnections = true
 Scenario.updateInterval = 1
 # 43k ~= 12h
@@ -16,12 +16,12 @@ Scenario.nrofHostGroups = 5
 # Open provider app, for providers open with their data
 openProvider.type = PADECApp
 openProvider.provider = true
-openProvider.lock = padec_locks/RBACHistoryLock.yaml
+openProvider.lock = padec_locks/ABACHistoryLock.yaml
 
 # Restrictive provider app
 restProvider.type = PADECApp
 restProvider.provider = true
-restProvider.lock = padec_locks/RBACHistoryLock.yaml
+restProvider.lock = padec_locks/ABACHistoryLock.yaml
 
 # Consumer app
 consumerApp.type = PADECApp
@@ -30,6 +30,7 @@ consumerApp.consumer = true
 consumerApp.interval = 50
 consumerApp.reqprec = -50.0
 consumerApp.endpoint = padec.application.HistoryEndpoint
+consumerApp.policy = 3
 
 ###################################
 #padecInterface.type = SimpleBroadcastInterface

@@ -1,0 +1,13 @@
+PADEC stats for scenario padec_demo
+sim_time: 700000.0000
+Requests sent: 489
+Requests received: 479
+Keyholes received: 463
+Keys received: 456
+Granted accesses: 310
+Denied accesses: 129
+Attacks performed: 0
+Successful attacks: 0
+Third-party info reveal attempts: 0
+Successful info reveals: 0
+Rejected attacks: 0

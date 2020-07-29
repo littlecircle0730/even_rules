@@ -59,19 +59,19 @@ Group4.movementModel = ShortestPathMapBasedMovement
 #Group5.movementModel = ShortestPathMapBasedMovement
 
 # Movement settings
+MovementModel.worldSize = 10000, 8000
 MapBasedMovement.nrofMapFiles = 1
-MapBasedMovement.mapFile1 = data/Campus.osm.wkt
+MapBasedMovement.mapFile1 = data/NYC.osm.wkt
 
 # POI Settings
-PointsOfInterest.poiFile1 = padec_movement/EPCCPOI.wkt
-PointsOfInterest.poiFile2 = padec_movement/FrontEPCCPOI.wkt
-PointsOfInterest.poiFile3 = padec_movement/UpperWestRoundaboutPOI.wkt
+PointsOfInterest.poiFile1 = padec_movement/NYCResidents.wkt
+PointsOfInterest.poiFile2 = padec_movement/NYCTourists.wkt
 
 # POI probabilities per group
 Group1.pois = 1,1.0
 Group2.pois = 2,1.0
 Group3.pois = 2,1.0
-Group4.pois = 3,1.0
+Group4.pois = 1,1.0
 #Group5.pois = 1,0.4, 2,0.3, 3,0.3
 
 # group1 (provider) specific settings

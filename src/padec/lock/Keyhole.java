@@ -5,7 +5,9 @@ import padec.key.Key;
 import padec.perception.PrivacyPerception;
 
 import java.io.Serializable;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 /**
  * Keyhole of a lock
@@ -52,4 +54,17 @@ public class Keyhole implements Serializable {
         }
         return fits;
     }
+
+    /**
+     * Adds all the attributes from one keyhole to another, to create a joint keyhole.
+     *
+     * @param kh Keyhole, only for key-creation purposes.
+     */
+    public void join(Keyhole kh) {
+        Set<Class<? extends Attribute>> allAttrs = new HashSet<>(attributes);
+        allAttrs.addAll(kh.getAttributes());
+        attributes.clear();
+        attributes.addAll(allAttrs);
+    }
+
 }

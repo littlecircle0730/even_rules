@@ -9,7 +9,7 @@ public class InOperator implements ComparisonOperator {
     @Override
     public boolean operate(Object a, Object[] b) {
         boolean result = b == null || b.length == 0;
-        if (!(a instanceof Collection) && !b.getClass().isArray()) {
+        if (!(a instanceof Collection) && !a.getClass().isArray()) {
             for (Object element : b) {
                 if (result) {
                     break;

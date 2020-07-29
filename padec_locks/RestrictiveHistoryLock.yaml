@@ -16,6 +16,6 @@ lock:
           type: 'Dual'
           attribute: 'padec.attribute.Location'
           values:
-            - 10000.0
+            - 20.0
           combinator: 'padec.rule.operator.RangeOperator'
           operator: 'padec.rule.operator.LessThanOperator'

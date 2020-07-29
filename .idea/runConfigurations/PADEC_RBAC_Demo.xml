@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="PADEC RBAC Demo" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="core.DTNSim" />
+    <module name="padec_theone" />
+    <option name="PROGRAM_PARAMETERS" value="example_settings/rbac_padec_demo.txt" />
+    <method v="2">
+      <option name="MakeProject" enabled="true" />
+    </method>
+  </configuration>
+</component>

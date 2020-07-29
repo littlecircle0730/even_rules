@@ -8,7 +8,7 @@ Scenario.endTime = 700k
 Report.warmup = 0
 Group.msgTtl = 1433
 
-Scenario.nrofHostGroups = 5
+Scenario.nrofHostGroups = 6
 
 ###################################
 ### application creation
@@ -23,13 +23,23 @@ restProvider.type = PADECApp
 restProvider.provider = true
 restProvider.deflock = padec_locks/RestrictiveHistoryLock.yaml
 
-# Consumer app
-consumerApp.type = PADECApp
-consumerApp.destinationRange = 2,101
-consumerApp.consumer = true
-consumerApp.interval = 50
-consumerApp.reqprec = -50.0
-consumerApp.endpoint = padec.application.HistoryEndpoint
+# Consumer A app
+consumerAppA.type = PADECApp
+consumerAppA.destinationRange = 2,101
+consumerAppA.consumer = true
+consumerAppA.interval = 50
+consumerAppA.reqprec = -50.0
+consumerAppA.endpoint = padec.application.HistoryEndpoint
+consumerAppA.policy = 3
+
+# Consumer B app
+consumerAppB.type = PADECApp
+consumerAppB.destinationRange = 2,101
+consumerAppB.consumer = true
+consumerAppB.interval = 50
+consumerAppB.reqprec = -1.0
+consumerAppB.endpoint = padec.application.HistoryEndpoint
+consumerAppB.policy = 2
 
 ###################################
 #padecInterface.type = SimpleBroadcastInterface
@@ -113,7 +123,7 @@ Group4.waitTime = 100, 300
 Group4.speed = 7, 10
 Group4.nrofHosts = 2
 
-Group5.groupID = C
+Group5.groupID = CA
 Group5.waitTime = 0, 0
 Group5.nrofHosts = 25
 Group5.movementModel = WorkingDayMovement
@@ -124,10 +134,23 @@ Group5.shoppingControlSystemNr = 8
 Group5.nrOfOffices = 20
 Group5.nrOfMeetingSpots = 2
 Group5.nrofApplications = 1
-Group5.application1 = consumerApp
+Group5.application1 = consumerAppA
+
+Group6.groupID = CB
+Group6.waitTime = 0, 0
+Group6.nrofHosts = 25
+Group6.movementModel = WorkingDayMovement
+Group6.busControlSystemNr = 8
+Group6.speed = 0.8, 1.4
+Group6.ownCarProb = 0.2
+Group6.shoppingControlSystemNr = 8
+Group6.nrOfOffices = 20
+Group6.nrOfMeetingSpots = 2
+Group6.nrofApplications = 1
+Group6.application1 = consumerAppB
 
 # max number of external events to preload (default = 500)
-ExternalEvents.nrofPreload = 500
+#ExternalEvents.nrofPreload = 1
 # path to external events file
 #ExternalEvents.filePath = ee/700_events_1000_nodes_700ks.txt
 
@@ -150,7 +173,7 @@ MapBasedMovement.mapFile2 = data/main_roads.wkt
 ## Reports - all report names have to be valid report classes
 
 # how many reports to load
-Report.nrofReports = 3
+Report.nrofReports = 4
 # default directory of reports (can be overriden per Report with output setting)
 Report.reportDir = reports/Demo
 #Report.reportDir = [reports/Demo/1; reports/Demo/2; reports/Demo/3; reports/Demo/4; reports/Demo/5]
@@ -161,7 +184,7 @@ Report.reportDir = reports/Demo
 Report.report1 = PADECDetailReporter
 Report.report2 = PADECAppReporter
 Report.report3 = PADECMetricReport
-#Report.report4 = TotalEncountersReport
+Report.report4 = PADECPartyReport
 #Report.report5 = EncountersVSUniqueEncountersReport
 #Report.report6 = ContactsDuringAnICTReport
 #Report.report7 = MessageStatsReport

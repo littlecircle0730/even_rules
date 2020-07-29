@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="POIBuilder" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="routebuilder.POIBuilder" />
+    <module name="padec_theone" />
+    <option name="PROGRAM_PARAMETERS" value="data/NYC.osm.wkt" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

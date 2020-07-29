@@ -48,10 +48,8 @@ public class PADECApp extends Application {
     /**
      * Maximum level of info to release by consumers
      **/
-    public static final String PADEC_RELEASE_POLICY = "relpolicy";
-    /**
-     * Endpoint to consume.
-     */
+    public static final String PADEC_RELEASE_POLICY = "policy";
+    /** Endpoint to consume. */
     public static final String PADEC_SERVICE_CONSUMED = "endpoint";
 
     /** Key that stores the message type **/
@@ -283,11 +281,13 @@ public class PADECApp extends Application {
                     List<Keyhole> keyholes = (List<Keyhole>) sc.decrypt(encKh, cryptoKeys.get(host.getAddress()).getPrivate());
                     PrivacyPerception perception = perceptions.get(host.getAddress());
                     Keyhole kh = null;
-                    for (int i = keyholes.size() - 1; i >= 0; i--) {
-                        Keyhole khEx = keyholes.get(i);
+                    for (Keyhole khEx : keyholes) {
                         if (khEx.getCategory(perception) <= releasePolicy) {
-                            kh = khEx;
-                            break;
+                            if (kh == null) {
+                                kh = khEx;
+                            } else {
+                                kh.join(khEx);
+                            }
                         }
                     }
                     if (kh == null) {
