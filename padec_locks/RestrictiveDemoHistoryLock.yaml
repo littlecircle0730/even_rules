@@ -7,8 +7,8 @@ lock:
           technique: 'padec.filtering.techniques.HistoryFuzzy'
           params:
             times: 3
-            before: '2020-03-01'
-            after: '2020-01-01'
+            before: '2013-01-01'
+            after: '2012-10-01'
         rule:
           type: 'Dual'
           attribute: 'padec.attribute.Location'
@@ -16,48 +16,3 @@ lock:
             - 10000.0
           combinator: 'padec.rule.operator.RangeOperator'
           operator: 'padec.rule.operator.LessThanOperator'
-    - accesslevel:
-        position: 1
-        filter:
-          technique: 'padec.filtering.techniques.HistoryFuzzy'
-          params:
-            times: 3
-            after: '2020-01-01'
-        rule:
-          type: 'Dual'
-          attribute: 'padec.attribute.Location'
-          values:
-            - 500.0
-          combinator: 'padec.rule.operator.RangeOperator'
-          operator: 'padec.rule.operator.LessThanOperator'
-    - accesslevel:
-        position: 2
-        filter:
-          technique: 'padec.filtering.techniques.HistoryFuzzy'
-          params:
-            times: 1
-        rule:
-          type: 'Composed'
-          ruleA:
-            type: 'Dual'
-            attribute: 'padec.attribute.Location'
-            values:
-              - 250.0
-            combinator: 'padec.rule.operator.RangeOperator'
-            operator: 'padec.rule.operator.LessThanOperator'
-          ruleB:
-            type: 'Consumer'
-            attribute: 'padec.attribute.Identity'
-            values: # Chosen at random
-              - 124
-              - 125
-              - 118
-              - 120
-              - 107
-              - 104
-              - 106
-              - 125
-              - 124
-              - 123
-            operator: 'padec.rule.operator.InOperator'
-          operator: 'padec.rule.operator.OrOperator'
