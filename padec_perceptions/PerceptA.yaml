@@ -1,4 +1,6 @@
 perceptions:
+  - attribute: 'padec.attribute.SoundLevel'
+    category: 1
   - attribute: 'padec.attribute.Location'
     category: 2
   - attribute: 'padec.attribute.Identity'

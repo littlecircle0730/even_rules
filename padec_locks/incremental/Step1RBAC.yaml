@@ -1,0 +1,15 @@
+lock:
+  endpoint: 'padec.application.HistoryEndpoint'
+  accesslevels:
+    - accesslevel:
+        position: 0
+        filter:
+          technique: 'padec.filtering.techniques.NoFilter'
+        rule:
+          type: 'Dual'
+          attribute: 'padec.attribute.Identity'
+          values:
+            - 'Friend'
+            - 'Family'
+          combinator: 'padec.rule.operator.rbac.RoleOperator'
+          operator: 'padec.rule.operator.InOperator'

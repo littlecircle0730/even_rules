@@ -7,6 +7,7 @@ import padec.application.LocationEndpoint;
 import padec.attribute.Identity;
 import padec.attribute.Location;
 import padec.attribute.PADECContext;
+import padec.attribute.SoundLevel;
 import padec.crypto.SimpleCrypto;
 import padec.filtering.FilteredData;
 import padec.key.Key;
@@ -262,7 +263,8 @@ public class PADECApp extends Application {
         if(!contexts.containsKey(host.getAddress())){ //If there is no context yet
             PADECContext cntxt = new PADECContext(); // Create it
             cntxt.registerAttribute(Location.class); // Register location
-            cntxt.registerAttribute(Identity.class); // Register Sound Level
+            cntxt.registerAttribute(Identity.class); // Register identity
+            cntxt.registerAttribute(SoundLevel.class); // Register sound level
             contexts.put(host.getAddress(), cntxt); // Save it
         }
         if (!perceptions.containsKey(host.getAddress())) { // If perceptions were not loaded
@@ -297,6 +299,7 @@ public class PADECApp extends Application {
                     cntxt.getAttribute(Location.class).setValue(
                             new Pair<>(host.getLocation().getX(), host.getLocation().getY())); // Update location
                     cntxt.getAttribute(Identity.class).setValue(host.getAddress()); // Update identity
+                    cntxt.getAttribute(SoundLevel.class).setValue(-15); // Update sound level
                     Key key = new Key(kh, cntxt);
                     String id = "k-" + host.getAddress() + "-" + msg.getFrom().getAddress() + "@" + SimClock.getIntTime();
                     Message m = new Message(host, msg.getFrom(), id, 1);
@@ -334,7 +337,8 @@ public class PADECApp extends Application {
             if(!contexts.containsKey(host.getAddress())){ //If there is no context yet
                 PADECContext cntxt = new PADECContext(); // Create it
                 cntxt.registerAttribute(Location.class); // Register location
-                cntxt.registerAttribute(Identity.class); // Register Sound Level
+                cntxt.registerAttribute(Identity.class); // Register identity
+                cntxt.registerAttribute(SoundLevel.class); // Register sound level
                 contexts.put(host.getAddress(), cntxt); // Save it
             }
             Lock lock = LockParser.parse(lockFile, contexts.get(host.getAddress())); // Get the lock
@@ -389,8 +393,11 @@ public class PADECApp extends Application {
                 contexts.get(host.getAddress()).getAttribute(Location.class).setValue(
                         new Pair<>(host.getLocation().getX(), host.getLocation().getY()));
 
-                // Update sound level context
+                // Update identity context
                 contexts.get(host.getAddress()).getAttribute(Identity.class).setValue(host.getAddress());
+
+                // Update sound level context
+                contexts.get(host.getAddress()).getAttribute(SoundLevel.class).setValue(-15);
 
                 // Keyhole lookup
                 List<Keyhole> khLookup = lock.getKeyholes();

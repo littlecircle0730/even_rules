@@ -1,22 +1,19 @@
 lock:
   endpoint: 'padec.application.HistoryEndpoint'
-  conparams:
-    - type: 'java.lang.String'
-      value: 'padec_history/Histo1_madeup.json'
   accesslevels:
     - accesslevel:
-        position: 0
-        filter:
-          technique: 'padec.filtering.techniques.PairFuzzy'
-          params:
-            precision: 10.0
-        rule:
-          type: 'Dual'
-          attribute: 'padec.attribute.Location'
-          values:
-            - 10000.0
-          combinator: 'padec.rule.operator.RangeOperator'
-          operator: 'padec.rule.operator.LessThanOperator'
+          position: 0
+          filter:
+            technique: 'padec.filtering.techniques.PairFuzzy'
+            params:
+              precision: 50.0
+          rule:
+            type: 'Dual'
+            attribute: 'padec.attribute.Location'
+            values:
+              - 10000.0
+            combinator: 'padec.rule.operator.RangeOperator'
+            operator: 'padec.rule.operator.LessThanOperator'
     - accesslevel:
         position: 1
         filter:
