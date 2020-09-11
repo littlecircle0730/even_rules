@@ -283,9 +283,11 @@ public class PADECApp extends Application {
                     List<Keyhole> keyholes = (List<Keyhole>) sc.decrypt(encKh, cryptoKeys.get(host.getAddress()).getPrivate());
                     PrivacyPerception perception = perceptions.get(host.getAddress());
                     Keyhole kh = null;
-                    List<Keyhole> reversedKh = new ArrayList<>(keyholes);
-                    Collections.reverse(reversedKh);
-                    for (Keyhole khEx : reversedKh) {
+                    // /!\ Only for steps 4 & 5!!!!
+                    //List<Keyhole> reversedKh = new ArrayList<>(keyholes);
+                    //Collections.reverse(reversedKh);
+                    //for (Keyhole khEx : reversedKh) {
+                    for (Keyhole khEx : keyholes) {
                         if (khEx.getCategory(perception) <= releasePolicy) {
                             if (kh == null) {
                                 kh = khEx;
