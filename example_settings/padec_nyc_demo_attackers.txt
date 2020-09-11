@@ -1,18 +1,18 @@
 ## General scenario setup
-Scenario.name = step5_no_filter_demo
+Scenario.name = padec_attackers_demo
 Scenario.simulateConnections = true
 Scenario.updateInterval = 1
 # 43k ~= 12h
 Scenario.endTime = 86k
 Report.warmup = 0
 Group.msgTtl = 1433
-Scenario.nrofHostGroups = 3
+Scenario.nrofHostGroups = 5
 
 ## Application setup
 # Open provider app. Provides information in 3 access level of precision.
 openProvider.type = PADECApp
 openProvider.provider = true
-openProvider.lock = padec_locks/incremental/Step5NoFilter.yaml
+openProvider.lock = padec_locks/incremental/Step6.yaml
 
 # Restrictive provider app. Provides information in a single access level of low precision.
 #restProvider.type = PADECApp
@@ -27,6 +27,17 @@ consumer.interval = 50
 consumer.reqprec = 0.0
 consumer.endpoint = padec.application.HistoryEndpoint
 consumer.policy = 4
+
+# Consumer-attacker
+
+attackerB.type = PADECApp
+attackerB.destinationRange = 0,99
+attackerB.consumer = true
+attackerB.attacker = true
+attackerB.interval = 50
+attackerB.reqprec = 0.0
+attackerB.endpoint = padec.application.HistoryEndpoint
+attackerB.policy = 4
 
 # Consumer type A app. Willing to reveal up to category 3 information. Needs precision -50 or lower.
 #consumerA.type = PADECApp
@@ -46,6 +57,12 @@ consumerB.reqprec = 0.0
 consumerB.endpoint = padec.application.HistoryEndpoint
 consumerB.policy = 2
 
+# Third-party attacker
+attackerC.type = PADECApp
+attackerC.destinationRange = 0,99
+attackerC.attacker = true
+attackerC.interval = 50
+
 ## Interface setup
 padecInterface.type = SimpleBroadcastInterface
 padecInterface.transmitSpeed = 1000M
@@ -56,7 +73,7 @@ padecInterface.bufferSize = 1000M
 Group1.groupID = OP
 Group1.waitTime = 0, 0
 #Group1.nrofHosts = 50
-Group1.nrofHosts = 100
+Group1.nrofHosts = 90
 Group1.speed = 0.8, 1.4
 Group1.nrofApplications = 1
 Group1.application1 = openProvider
@@ -65,19 +82,31 @@ Group1.router = EpidemicRouter
 Group1.nrofInterfaces = 1
 Group1.interface1 = padecInterface
 
-## Group 2 setup
-#Group2.groupID = RP
-Group2.groupID = C
+Group2.groupID = TPA
 Group2.waitTime = 0, 0
-Group2.nrofHosts = 25
+Group2.nrofHosts = 15
 Group2.speed = 0.8, 1.4
 Group2.nrofApplications = 1
-#Group2.application1 = restProvider
-Group2.application1 = consumer
+Group2.application1 = attackerC
 Group2.movementModel = ShortestPathMapBasedMovement
 Group2.router = EpidemicRouter
 Group2.nrofInterfaces = 1
 Group2.interface1 = padecInterface
+
+
+## Group 2 setup
+#Group2.groupID = RP
+Group3.groupID = C
+Group3.waitTime = 0, 0
+Group3.nrofHosts = 20
+Group3.speed = 0.8, 1.4
+Group3.nrofApplications = 1
+#Group2.application1 = restProvider
+Group3.application1 = consumer
+Group3.movementModel = ShortestPathMapBasedMovement
+Group3.router = EpidemicRouter
+Group3.nrofInterfaces = 1
+Group3.interface1 = padecInterface
 
 ## Group 3 setup
 #Group3.groupID = CA
@@ -92,16 +121,27 @@ Group2.interface1 = padecInterface
 #Group3.interface1 = padecInterface
 
 ## Group 4 setup
-Group3.groupID = CB
-Group3.waitTime = 0, 0
-Group3.nrofHosts = 25
-Group3.speed = 0.8, 1.4
-Group3.nrofApplications = 1
-Group3.application1 = consumerB
-Group3.movementModel = ShortestPathMapBasedMovement
-Group3.router = EpidemicRouter
-Group3.nrofInterfaces = 1
-Group3.interface1 = padecInterface
+Group4.groupID = CB
+Group4.waitTime = 0, 0
+Group4.nrofHosts = 20
+Group4.speed = 0.8, 1.4
+Group4.nrofApplications = 1
+Group4.application1 = consumerB
+Group4.movementModel = ShortestPathMapBasedMovement
+Group4.router = EpidemicRouter
+Group4.nrofInterfaces = 1
+Group4.interface1 = padecInterface
+
+Group5.groupID = CA
+Group5.waitTime = 0, 0
+Group5.nrofHosts = 5
+Group5.speed = 0.8, 1.4
+Group5.nrofApplications = 1
+Group5.application1 = attackerB
+Group5.movementModel = ShortestPathMapBasedMovement
+Group5.router = EpidemicRouter
+Group5.nrofInterfaces = 1
+Group5.interface1 = padecInterface
 
 ## Movement setup
 MovementModel.rngSeed = [2; 8372; 98092; 18293; 777]
@@ -115,14 +155,17 @@ PointsOfInterest.poiFile1 = padec_movement/NYCResidents.wkt
 PointsOfInterest.poiFile2 = padec_movement/NYCTourists.wkt
 # POI probabilities per group
 Group1.pois = 1,1.0
+Group2.pois = 1,1.0
+Group3.pois = 1,1.0
 #Group2.pois = 1,1.0
-Group2.pois = 2,1.0
-Group3.pois = 2,1.0
+Group4.pois = 2,1.0
+Group5.pois = 2,1.0
+Group6.pois = 2,1.0
 #Group4.pois = 2,1.0
 
 ## Report setup
 Report.nrofReports = 4
-Report.reportDir = reports/NYCDemoIncremental
+Report.reportDir = reports/NYCDemp
 # Report classes to load
 Report.report1 = PADECDetailReporter
 Report.report2 = PADECAppReporter

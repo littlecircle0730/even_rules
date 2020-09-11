@@ -283,10 +283,13 @@ public class PADECApp extends Application {
                     List<Keyhole> keyholes = (List<Keyhole>) sc.decrypt(encKh, cryptoKeys.get(host.getAddress()).getPrivate());
                     PrivacyPerception perception = perceptions.get(host.getAddress());
                     Keyhole kh = null;
-                    for (Keyhole khEx : keyholes) {
+                    List<Keyhole> reversedKh = new ArrayList<>(keyholes);
+                    Collections.reverse(reversedKh);
+                    for (Keyhole khEx : reversedKh) {
                         if (khEx.getCategory(perception) <= releasePolicy) {
                             if (kh == null) {
                                 kh = khEx;
+                                break;
                             } else {
                                 kh.join(khEx);
                             }
@@ -462,37 +465,48 @@ public class PADECApp extends Application {
                 case MSG_TYPE_KEYHOLE:
                     byte[] encKh = (byte[]) msg.getProperty(KH_ANSW_KEYHOLE);
                     if (encKh != null) {
-                        List<Keyhole> keyholes = (List<Keyhole>) sc.decrypt(encKh, cryptoKeys.get(host.getAddress()).getPrivate());
-                        PrivacyPerception perception = perceptions.get(host.getAddress());
-                        Keyhole kh = null;
-                        for (int i = keyholes.size() - 1; i >= 0; i--) {
-                            Keyhole khEx = keyholes.get(i);
-                            if (khEx.getCategory(perception) <= releasePolicy) {
-                                kh = khEx;
-                                break;
+                        try {
+                            List<Keyhole> keyholes = (List<Keyhole>) sc.decrypt(encKh, cryptoKeys.get(host.getAddress()).getPrivate());
+                            PrivacyPerception perception = perceptions.get(host.getAddress());
+                            Keyhole kh = null;
+                            for (int i = keyholes.size() - 1; i >= 0; i--) {
+                                Keyhole khEx = keyholes.get(i);
+                                if (khEx.getCategory(perception) <= releasePolicy) {
+                                    kh = khEx;
+                                    break;
+                                }
                             }
+                            if (kh == null) {
+                                kh = keyholes.get(0);
+                            }
+                            PADECContext cntxt = contexts.get(host.getAddress());
+                            Key key = new Key(kh, cntxt);
+                            String id = "k-" + host.getAddress() + "-" + msg.getFrom().getAddress() + "@" + SimClock.getIntTime();
+                            Message m = new Message(host, msg.getFrom(), id, 1);
+                            m.addProperty(MSG_TYPE, MSG_TYPE_KEY);
+                            m.addProperty(KEY_KEY, sc.encrypt(key, cryptoKeys.get(msg.getFrom().getAddress()).getPublic()));
+                            m.addProperty(KEY_REQ_SERVICE, reqEndpoint);
+                            m.addProperty(KEY_ENDPOINT_PARAMS, new HashMap<>());
+                            m.addProperty(KEY_MIN_PRECISION, requestedPrecision);
+                            m.setAppID(APP_ID);
+                            host.createNewMessage(m);
+                            super.sendEventToListeners("AttackedKeyhole", m, host);
+                        } catch (Exception ex) {
+                            String id = "k-" + host.getAddress() + "-" + msg.getFrom().getAddress() + "@" + SimClock.getIntTime();
+                            Message m = new Message(host, msg.getFrom(), id, 1);
+                            super.sendEventToListeners("AttackedKeyhole", m, host);
+                            super.sendEventToListeners("AttackRejected", null, host);
                         }
-                        if (kh == null) {
-                            kh = keyholes.get(0);
-                        }
-                        PADECContext cntxt = contexts.get(host.getAddress());
-                        Key key = new Key(kh, cntxt);
-                        String id = "k-" + host.getAddress() + "-" + msg.getFrom().getAddress() + "@" + SimClock.getIntTime();
-                        Message m = new Message(host, msg.getFrom(), id, 1);
-                        m.addProperty(MSG_TYPE, MSG_TYPE_KEY);
-                        m.addProperty(KEY_KEY, sc.encrypt(key, cryptoKeys.get(msg.getFrom().getAddress()).getPublic()));
-                        m.addProperty(KEY_REQ_SERVICE, reqEndpoint);
-                        m.addProperty(KEY_ENDPOINT_PARAMS, new HashMap<>());
-                        m.addProperty(KEY_MIN_PRECISION, requestedPrecision);
-                        m.setAppID(APP_ID);
-                        super.sendEventToListeners("AttackedKeyhole", m, host);
-                        host.createNewMessage(m);
                     }
                     break;
                 case MSG_TYPE_INFO:
                     byte[] dataEnc = (byte[]) msg.getProperty(INFO_DATA);
-                    FilteredData data = (FilteredData) sc.decrypt(dataEnc, cryptoKeys.get(host.getAddress()).getPrivate());
-                    super.sendEventToListeners("AttackSuccessful", null, host);
+                    try {
+                        FilteredData data = (FilteredData) sc.decrypt(dataEnc, cryptoKeys.get(host.getAddress()).getPrivate());
+                        super.sendEventToListeners("AttackSuccessful", null, host);
+                    } catch (Exception ex) {
+                        super.sendEventToListeners("AttackRejected", null, host);
+                    }
                     lastRequest.put(host.getAddress(), -1*lastRequest.get(host.getAddress()));
                     break;
                 case MSG_TYPE_DENIED:

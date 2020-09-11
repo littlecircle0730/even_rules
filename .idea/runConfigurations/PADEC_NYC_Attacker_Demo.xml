@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="PADEC NYC Attacker Demo" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="core.DTNSim" />
+    <module name="padec_theone" />
+    <option name="PROGRAM_PARAMETERS" value="-b 1 example_settings/padec_nyc_demo_attackers.txt" />
+    <method v="2">
+      <option name="MakeProject" enabled="true" />
+    </method>
+  </configuration>
+</component>

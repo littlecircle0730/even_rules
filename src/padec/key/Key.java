@@ -35,8 +35,9 @@ public class Key implements Serializable {
             //TODO Here, I think that we should filter the data. But, to do that we need information about the precision in the keyhole, right?
             //and a method to select the right filtering technique depending on the precision, the data to process, etc.
             //I think that we agreed that this will be done in the second version :-)
-
-            data.put(attr.getName(), provAttr.getValue());
+            if (provAttr != null) {
+                data.put(attr.getName(), provAttr.getValue());
+            }
         }
     }
 

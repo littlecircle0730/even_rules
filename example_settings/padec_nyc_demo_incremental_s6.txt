@@ -1,5 +1,5 @@
 ## General scenario setup
-Scenario.name = step5_no_filter_demo
+Scenario.name = step6_demo
 Scenario.simulateConnections = true
 Scenario.updateInterval = 1
 # 43k ~= 12h
@@ -12,7 +12,7 @@ Scenario.nrofHostGroups = 3
 # Open provider app. Provides information in 3 access level of precision.
 openProvider.type = PADECApp
 openProvider.provider = true
-openProvider.lock = padec_locks/incremental/Step5NoFilter.yaml
+openProvider.lock = padec_locks/incremental/Step6.yaml
 
 # Restrictive provider app. Provides information in a single access level of low precision.
 #restProvider.type = PADECApp

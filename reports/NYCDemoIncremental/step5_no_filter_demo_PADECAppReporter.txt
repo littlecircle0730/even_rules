@@ -1,0 +1,13 @@
+PADEC stats for scenario step5_no_filter_demo
+sim_time: 86000.0000
+Requests sent: 534
+Requests received: 520
+Keyholes received: 505
+Keys received: 495
+Granted accesses: 133
+Denied accesses: 351
+Attacks performed: 0
+Successful attacks: 0
+Third-party info reveal attempts: 0
+Successful info reveals: 0
+Rejected attacks: 0

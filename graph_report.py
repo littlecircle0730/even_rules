@@ -5,6 +5,7 @@ from matplotlib.colors import Normalize
 from math import nan, isnan
 import networkx as nx
 import re
+import statistics
 
 def get_info_category() -> dict:
     return {'padec.attribute.Identity': 3, 'padec.attribute.Location': 2}
@@ -42,10 +43,11 @@ def read_report(report_file: str):
                 for p_info in parsed_infos:
                     if p_info[0] == 'Category':
                         if not g.has_edge(party, p_info[3]):
-                            g.add_edge(party, p_info[3], category=p_info[2])
+                            g.add_edge(party, p_info[3], category=p_info[2], n_infos=1)
                         else:
                             if g.edges[party, p_info[3]]['category'] < p_info[2]:
                                 g.edges[party, p_info[3]]['category'] = p_info[2]
+                            g.edges[party, p_info[3]]['n_infos'] += 1
                     else:
                         if g.nodes[party].get('precision') is None:
                             g.nodes[party]['precision'] = p_info[2]
@@ -97,7 +99,51 @@ def draw_graph(g, limits: tuple = None, output: str = None):
             plt.savefig(output)
     plt.show()
 
+def draw_graph_2(reports: list, report_labels: list, limits: tuple = None, output: str = None):
+    data_dkt = {'Average precision': [], 
+                'Average category': [], 
+                'Denied accesses': [], 
+                'Average attributes per key': []}
+    for rep in reports:
+        g = read_report(rep)
+        node_vals = [-1*g.nodes[x].get('precision', def_val(x)) for x in g.nodes]
+        mv = get_max_val()
+        node_vals = [v if v <= mv else mv for v in node_vals]
+        node_vals = scale(node_vals)
+        denied_accesses = len(list(filter(lambda x: x < 0, node_vals)))*100/len(node_vals)
+        node_vals = list(filter(lambda x: x>=0 and x<=100, node_vals))
+        edge_vals = [g.edges[e]['category'] for e in g.edges]
+        categories = [x*100/3 for x in edge_vals]
+        infos = [g.edges[e]['n_infos'] for e in g.edges]
+        infos = [x*100/3 for x in infos]
+        data_dkt['Average precision'].append(statistics.mean(node_vals))
+        data_dkt['Average category'].append(statistics.mean(categories))
+        data_dkt['Denied accesses'].append(denied_accesses)
+        data_dkt['Average attributes per key'].append(statistics.mean(infos))
+    for key in data_dkt:
+        plt.plot(list(range(len(data_dkt[key]))), data_dkt[key], marker='o', linestyle='solid', label=key)
+    plt.xticks(ticks=list(range(len(data_dkt['Average precision']))), labels=report_labels)
+    plt.legend()
+    plt.tight_layout(pad=0)
+    plt.show()
+    
+
+
+
 if __name__ == "__main__":
-    draw_graph(read_report('reports/Demo/padec_demo_PADECPartyReport.txt'), output='HelsinkiPADEC.png')
-    draw_graph(read_report('reports/Demo/rbac_padec_demo_PADECPartyReport.txt'), output='HelsinkiRBAC.png')
-    draw_graph(read_report('reports/Demo/abac_padec_demo_PADECPartyReport.txt'), output='HelsinkiABAC.png')
+    draw_graph_2(
+        ['reports/NYCDemoIncremental/step4_onekh_demo_PADECPartyReport.txt',
+         'reports/NYCDemoIncremental/step4_twokh_demo_PADECPartyReport.txt',
+         'reports/NYCDemoIncremental/step4_twokh_demo_PADECPartyReport.txt',
+         'reports/NYCDemoIncremental/step5_filter_demo_PADECPartyReport.txt',
+         'reports/NYCDemoIncremental/step6_demo_PADECPartyReport.txt'],
+         ['S4 One KH',
+         'S4 Two KH',
+         'S5 No filter',
+         'S5 Filtered',
+         'S6'])
+    #draw_graph(read_report('reports/NYCDemoIncremental/step4_onekh_demo_PADECPartyReport.txt'), output='Step4OneKH.png')
+    #draw_graph(read_report('reports/NYCDemoIncremental/step4_twokh_demo_PADECPartyReport.txt'), output='Step4TwoKH.png')
+    #draw_graph(read_report('reports/NYCDemoIncremental/step5_no_filter_demo_PADECPartyReport.txt'), output='Step5NoFilter.png')
+    #draw_graph(read_report('reports/NYCDemoIncremental/step5_filter_demo_PADECPartyReport.txt'), output='Step5Filter.png')
+    #draw_graph(read_report('reports/NYCDemoIncremental/step6_demo_PADECPartyReport.txt'), output='Step6.png')
