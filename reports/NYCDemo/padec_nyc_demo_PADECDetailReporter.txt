@@ -1,0 +1,380 @@
+PADEC log for scenario padec_nyc_demo
+sim_time: 10265.0000
+Request khr-140-33@1. From: CB140, to: OP33.
+Request khr-145-33@1. From: CB145, to: OP33.
+Request khr-105-33@1. From: CA105, to: OP33.
+Request khr-132-33@1. From: CB132, to: OP33.
+Request khr-143-33@1. From: CB143, to: OP33.
+Request khr-126-33@1. From: CB126, to: OP33.
+Request khr-116-33@1. From: CA116, to: OP33.
+Request khr-102-33@1. From: CA102, to: OP33.
+Request khr-149-33@1. From: CB149, to: OP33.
+Request khr-125-33@1. From: CB125, to: OP33.
+Request khr-123-33@1. From: CA123, to: OP33.
+Request khr-118-33@1. From: CA118, to: OP33.
+Request khr-107-33@1. From: CA107, to: OP33.
+Request khr-127-33@1. From: CB127, to: OP33.
+Request khr-120-33@1. From: CA120, to: OP33.
+Request khr-101-33@1. From: CA101, to: OP33.
+Request khr-106-33@1. From: CA106, to: OP33.
+Request khr-121-33@1. From: CA121, to: OP33.
+Request khr-138-33@1. From: CB138, to: OP33.
+Request khr-142-33@1. From: CB142, to: OP33.
+Request khr-110-33@1. From: CA110, to: OP33.
+Request khr-144-33@1. From: CB144, to: OP33.
+Request khr-139-33@1. From: CB139, to: OP33.
+Request khr-108-33@1. From: CA108, to: OP33.
+Request khr-129-33@1. From: CB129, to: OP33.
+Request khr-122-33@1. From: CA122, to: OP33.
+Request khr-112-33@1. From: CA112, to: OP33.
+Request khr-146-33@1. From: CB146, to: OP33.
+Request khr-134-33@1. From: CB134, to: OP33.
+Request khr-109-33@1. From: CA109, to: OP33.
+Request khr-137-33@1. From: CB137, to: OP33.
+Request khr-117-33@1. From: CA117, to: OP33.
+Request khr-103-33@1. From: CA103, to: OP33.
+Request khr-130-33@1. From: CB130, to: OP33.
+Request khr-100-33@1. From: CA100, to: OP33.
+Request khr-115-33@1. From: CA115, to: OP33.
+Request khr-128-33@1. From: CB128, to: OP33.
+Request khr-119-33@1. From: CA119, to: OP33.
+Request khr-136-33@1. From: CB136, to: OP33.
+Request khr-148-33@1. From: CB148, to: OP33.
+Request khr-104-33@1. From: CA104, to: OP33.
+Request khr-147-33@1. From: CB147, to: OP33.
+Request khr-131-33@1. From: CB131, to: OP33.
+Request khr-141-33@1. From: CB141, to: OP33.
+Request khr-124-33@1. From: CA124, to: OP33.
+Request khr-133-33@1. From: CB133, to: OP33.
+Request khr-114-33@1. From: CA114, to: OP33.
+Request khr-113-33@1. From: CA113, to: OP33.
+Request khr-111-33@1. From: CA111, to: OP33.
+Request khr-135-33@1. From: CB135, to: OP33.
+Keyhole kha-33-140@2653. From: OP33, to: CB140.
+Keyhole kha-33-122@2654. From: OP33, to: CA122.
+Keyhole kha-33-108@2655. From: OP33, to: CA108.
+Keyhole kha-33-117@2848. From: OP33, to: CA117.
+Keyhole kha-33-132@2849. From: OP33, to: CB132.
+Keyhole kha-33-126@2850. From: OP33, to: CB126.
+Keyhole kha-33-116@2851. From: OP33, to: CA116.
+Keyhole kha-33-149@2852. From: OP33, to: CB149.
+Keyhole kha-33-112@2853. From: OP33, to: CA112.
+Keyhole kha-33-119@2854. From: OP33, to: CA119.
+Keyhole kha-33-115@2855. From: OP33, to: CA115.
+Keyhole kha-33-137@2856. From: OP33, to: CB137.
+Keyhole kha-33-145@3699. From: OP33, to: CB145.
+Keyhole kha-33-148@3700. From: OP33, to: CB148.
+Keyhole kha-33-133@3701. From: OP33, to: CB133.
+Keyhole kha-33-120@3702. From: OP33, to: CA120.
+Keyhole kha-33-144@3703. From: OP33, to: CB144.
+Keyhole kha-33-124@4386. From: OP33, to: CA124.
+Keyhole kha-33-127@4387. From: OP33, to: CB127.
+Keyhole kha-33-113@4388. From: OP33, to: CA113.
+Keyhole kha-33-103@4389. From: OP33, to: CA103.
+Keyhole kha-33-147@4390. From: OP33, to: CB147.
+Keyhole kha-33-102@4391. From: OP33, to: CA102.
+Keyhole kha-33-121@4392. From: OP33, to: CA121.
+Keyhole kha-33-107@4393. From: OP33, to: CA107.
+Keyhole kha-33-114@4394. From: OP33, to: CA114.
+Keyhole kha-33-128@4395. From: OP33, to: CB128.
+Keyhole kha-33-131@4396. From: OP33, to: CB131.
+Keyhole kha-33-101@4397. From: OP33, to: CA101.
+Keyhole kha-33-109@4398. From: OP33, to: CA109.
+Keyhole kha-33-136@4399. From: OP33, to: CB136.
+Keyhole kha-33-141@4400. From: OP33, to: CB141.
+Keyhole kha-33-105@4401. From: OP33, to: CA105.
+Keyhole kha-33-110@4402. From: OP33, to: CA110.
+Keyhole kha-33-135@4403. From: OP33, to: CB135.
+Keyhole kha-33-146@4404. From: OP33, to: CB146.
+Keyhole kha-33-139@4405. From: OP33, to: CB139.
+Keyhole kha-33-106@4406. From: OP33, to: CA106.
+Keyhole kha-33-129@4407. From: OP33, to: CB129.
+Keyhole kha-33-104@4408. From: OP33, to: CA104.
+Keyhole kha-33-125@4409. From: OP33, to: CB125.
+Keyhole kha-33-111@4410. From: OP33, to: CA111.
+Keyhole kha-33-100@4683. From: OP33, to: CA100.
+Keyhole kha-33-134@4684. From: OP33, to: CB134.
+Keyhole kha-33-143@4685. From: OP33, to: CB143.
+Keyhole kha-33-142@4686. From: OP33, to: CB142.
+Keyhole kha-33-118@4687. From: OP33, to: CA118.
+Keyhole kha-33-138@4688. From: OP33, to: CB138.
+Keyhole kha-33-130@4689. From: OP33, to: CB130.
+Keyhole kha-33-123@4690. From: OP33, to: CA123.
+Key k-141-33@5183. From: CB141, to: OP33. Minimum precision requested: 0.0, endpoint params: {}.
+
+
+Key k-140-33@5212. From: CB140, to: OP33. Minimum precision requested: 0.0, endpoint params: {}.
+
+
+Key k-130-33@5426. From: CB130, to: OP33. Minimum precision requested: 0.0, endpoint params: {}.
+
+
+Key k-134-33@5526. From: CB134, to: OP33. Minimum precision requested: 0.0, endpoint params: {}.
+
+
+Key k-146-33@5581. From: CB146, to: OP33. Minimum precision requested: 0.0, endpoint params: {}.
+
+
+Key k-104-33@5631. From: CA104, to: OP33. Minimum precision requested: -50.0, endpoint params: {}.
+
+
+Key k-123-33@5640. From: CA123, to: OP33. Minimum precision requested: -50.0, endpoint params: {}.
+
+
+Key k-132-33@5807. From: CB132, to: OP33. Minimum precision requested: 0.0, endpoint params: {}.
+
+
+Key k-136-33@6054. From: CB136, to: OP33. Minimum precision requested: 0.0, endpoint params: {}.
+
+
+Key k-120-33@6140. From: CA120, to: OP33. Minimum precision requested: -50.0, endpoint params: {}.
+
+
+Keyhole in level 1 in OP33 fits the key sent by 132
+Keyhole in level 0 in OP33 fits the key sent by 132
+
+Access granted. From: OP33, to: CB132.
+Keyhole in level 1 in OP33 fits the key sent by 140
+Keyhole in level 0 in OP33 fits the key sent by 140
+
+Access granted. From: OP33, to: CB140.
+Key k-142-33@6294. From: CB142, to: OP33. Minimum precision requested: 0.0, endpoint params: {}.
+
+
+Key k-100-33@6324. From: CA100, to: OP33. Minimum precision requested: -50.0, endpoint params: {}.
+
+
+Key k-121-33@6379. From: CA121, to: OP33. Minimum precision requested: -50.0, endpoint params: {}.
+
+
+Key k-106-33@6450. From: CA106, to: OP33. Minimum precision requested: -50.0, endpoint params: {}.
+
+
+Key k-135-33@6487. From: CB135, to: OP33. Minimum precision requested: 0.0, endpoint params: {}.
+
+
+Keyhole in level 1 in OP33 fits the key sent by 135
+Keyhole in level 0 in OP33 fits the key sent by 135
+
+Access granted. From: OP33, to: CB135.
+
+Request khr-135-61@6522. From: CB135, to: RP61.
+Key k-147-33@6537. From: CB147, to: OP33. Minimum precision requested: 0.0, endpoint params: {}.
+
+
+Key k-107-33@6590. From: CA107, to: OP33. Minimum precision requested: -50.0, endpoint params: {}.
+
+
+Key k-122-33@6615. From: CA122, to: OP33. Minimum precision requested: -50.0, endpoint params: {}.
+
+
+Key k-110-33@6822. From: CA110, to: OP33. Minimum precision requested: -50.0, endpoint params: {}.
+
+
+Keyhole kha-61-135@6825. From: RP61, to: CB135.
+Key k-111-33@6827. From: CA111, to: OP33. Minimum precision requested: -50.0, endpoint params: {}.
+
+
+Keyhole in level 1 in OP33 fits the key sent by 147
+Keyhole in level 0 in OP33 fits the key sent by 147
+
+Access granted. From: OP33, to: CB147.
+Key k-124-33@7028. From: CA124, to: OP33. Minimum precision requested: -50.0, endpoint params: {}.
+
+
+Key k-145-33@7103. From: CB145, to: OP33. Minimum precision requested: 0.0, endpoint params: {}.
+
+
+Key k-119-33@7130. From: CA119, to: OP33. Minimum precision requested: -50.0, endpoint params: {}.
+
+
+Key k-108-33@7186. From: CA108, to: OP33. Minimum precision requested: -50.0, endpoint params: {}.
+
+
+Key k-125-33@7220. From: CB125, to: OP33. Minimum precision requested: 0.0, endpoint params: {}.
+
+
+Key k-149-33@7286. From: CB149, to: OP33. Minimum precision requested: 0.0, endpoint params: {}.
+
+
+Key k-143-33@7355. From: CB143, to: OP33. Minimum precision requested: 0.0, endpoint params: {}.
+
+
+Key k-112-33@7364. From: CA112, to: OP33. Minimum precision requested: -50.0, endpoint params: {}.
+
+
+
+Request khr-132-61@7382. From: CB132, to: RP61.
+Key k-116-33@7447. From: CA116, to: OP33. Minimum precision requested: -50.0, endpoint params: {}.
+
+
+Key k-137-33@7546. From: CB137, to: OP33. Minimum precision requested: 0.0, endpoint params: {}.
+
+
+Key k-117-33@7593. From: CA117, to: OP33. Minimum precision requested: -50.0, endpoint params: {}.
+
+
+Keyhole in level 2 in OP33 fits the key sent by 107
+
+Access granted. From: OP33, to: CA107.
+Keyhole in level 1 in OP33 fits the key sent by 146
+Keyhole in level 0 in OP33 fits the key sent by 146
+
+Access granted. From: OP33, to: CB146.
+Keyhole in level 2 in OP33 fits the key sent by 100
+
+Access granted. From: OP33, to: CA100.
+Keyhole in level 1 in OP33 fits the key sent by 130
+Keyhole in level 0 in OP33 fits the key sent by 130
+
+Access granted. From: OP33, to: CB130.
+Keyhole in level 1 in OP33 fits the key sent by 134
+Keyhole in level 0 in OP33 fits the key sent by 134
+
+Access granted. From: OP33, to: CB134.
+Keyhole in level 1 in OP33 fits the key sent by 141
+Keyhole in level 0 in OP33 fits the key sent by 141
+
+Access granted. From: OP33, to: CB141.
+Keyhole in level 2 in OP33 fits the key sent by 123
+
+Access granted. From: OP33, to: CA123.
+Keyhole in level 2 in OP33 fits the key sent by 104
+
+Access granted. From: OP33, to: CA104.
+Keyhole in level 1 in OP33 fits the key sent by 142
+Keyhole in level 0 in OP33 fits the key sent by 142
+
+Access granted. From: OP33, to: CB142.
+Key k-126-33@7677. From: CB126, to: OP33. Minimum precision requested: 0.0, endpoint params: {}.
+
+
+Key k-139-33@7736. From: CB139, to: OP33. Minimum precision requested: 0.0, endpoint params: {}.
+
+
+Key k-115-33@7754. From: CA115, to: OP33. Minimum precision requested: -50.0, endpoint params: {}.
+
+
+Key k-113-33@7888. From: CA113, to: OP33. Minimum precision requested: -50.0, endpoint params: {}.
+
+
+Key k-128-33@7933. From: CB128, to: OP33. Minimum precision requested: 0.0, endpoint params: {}.
+
+
+Key k-127-33@8058. From: CB127, to: OP33. Minimum precision requested: 0.0, endpoint params: {}.
+
+
+Key k-114-33@8062. From: CA114, to: OP33. Minimum precision requested: -50.0, endpoint params: {}.
+
+
+Key k-103-33@8063. From: CA103, to: OP33. Minimum precision requested: -50.0, endpoint params: {}.
+
+
+Key k-133-33@8067. From: CB133, to: OP33. Minimum precision requested: 0.0, endpoint params: {}.
+
+
+Key k-131-33@8091. From: CB131, to: OP33. Minimum precision requested: 0.0, endpoint params: {}.
+
+
+Key k-129-33@8127. From: CB129, to: OP33. Minimum precision requested: 0.0, endpoint params: {}.
+
+
+Key k-105-33@8151. From: CA105, to: OP33. Minimum precision requested: -50.0, endpoint params: {}.
+
+
+Key k-118-33@8174. From: CA118, to: OP33. Minimum precision requested: -50.0, endpoint params: {}.
+
+
+
+Request khr-140-61@8218. From: CB140, to: RP61.
+Key k-101-33@8238. From: CA101, to: OP33. Minimum precision requested: -50.0, endpoint params: {}.
+
+
+Key k-138-33@8278. From: CB138, to: OP33. Minimum precision requested: 0.0, endpoint params: {}.
+
+
+Key k-144-33@8302. From: CB144, to: OP33. Minimum precision requested: 0.0, endpoint params: {}.
+
+
+Keyhole in level 2 in OP33 fits the key sent by 119
+Keyhole in level 1 in OP33 fits the key sent by 119
+Access rejected. From: OP33, to: CA119.
+Keyhole in level 2 in OP33 fits the key sent by 121
+Keyhole in level 1 in OP33 fits the key sent by 121
+Access rejected. From: OP33, to: CA121.
+Keyhole in level 2 in OP33 fits the key sent by 112
+Keyhole in level 1 in OP33 fits the key sent by 112
+Access rejected. From: OP33, to: CA112.
+Keyhole in level 2 in OP33 fits the key sent by 110
+Keyhole in level 1 in OP33 fits the key sent by 110
+Access rejected. From: OP33, to: CA110.
+Keyhole in level 2 in OP33 fits the key sent by 111
+Keyhole in level 1 in OP33 fits the key sent by 111
+Access rejected. From: OP33, to: CA111.
+Key k-148-33@8412. From: CB148, to: OP33. Minimum precision requested: 0.0, endpoint params: {}.
+
+
+Key k-102-33@8465. From: CA102, to: OP33. Minimum precision requested: -50.0, endpoint params: {}.
+
+
+Keyhole in level 1 in OP33 fits the key sent by 139
+Keyhole in level 0 in OP33 fits the key sent by 139
+
+Access granted. From: OP33, to: CB139.
+Key k-135-61@8619. From: CB135, to: RP61. Minimum precision requested: 0.0, endpoint params: {}.
+
+
+Keyhole in level 2 in OP33 fits the key sent by 116
+Keyhole in level 1 in OP33 fits the key sent by 116
+Access rejected. From: OP33, to: CA116.
+Keyhole in level 1 in OP33 fits the key sent by 149
+Keyhole in level 0 in OP33 fits the key sent by 149
+
+Access granted. From: OP33, to: CB149.
+Keyhole in level 2 in OP33 fits the key sent by 122
+
+Access granted. From: OP33, to: CA122.
+Keyhole kha-61-132@9205. From: RP61, to: CB132.
+
+Request khr-147-61@9389. From: CB147, to: RP61.
+Key k-109-33@9417. From: CA109, to: OP33. Minimum precision requested: -50.0, endpoint params: {}.
+
+
+
+Request khr-139-61@9544. From: CB139, to: RP61.
+
+Request khr-149-61@9765. From: CB149, to: RP61.
+
+Request khr-141-61@9779. From: CB141, to: RP61.
+
+Request khr-130-61@9889. From: CB130, to: RP61.
+
+Request khr-146-61@10066. From: CB146, to: RP61.
+Request khr-121-61@10070. From: CA121, to: RP61.
+
+Request khr-134-61@10105. From: CB134, to: RP61.
+Keyhole in level 1 in OP33 fits the key sent by 136
+Keyhole in level 0 in OP33 fits the key sent by 136
+
+Access granted. From: OP33, to: CB136.
+Keyhole in level 2 in OP33 fits the key sent by 120
+
+Access granted. From: OP33, to: CA120.
+Keyhole in level 1 in OP33 fits the key sent by 145
+Keyhole in level 0 in OP33 fits the key sent by 145
+
+Access granted. From: OP33, to: CB145.
+Keyhole in level 2 in OP33 fits the key sent by 124
+
+Access granted. From: OP33, to: CA124.
+Keyhole in level 1 in OP33 fits the key sent by 125
+Keyhole in level 0 in OP33 fits the key sent by 125
+
+Access granted. From: OP33, to: CB125.
+Keyhole in level 2 in OP33 fits the key sent by 106
+
+Access granted. From: OP33, to: CA106.
+Request khr-112-61@10167. From: CA112, to: RP61.
+
+Request khr-122-61@10253. From: CA122, to: RP61.
+

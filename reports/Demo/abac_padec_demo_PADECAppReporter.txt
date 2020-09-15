@@ -1,10 +1,10 @@
 PADEC stats for scenario abac_padec_demo
-sim_time: 700000.0000
-Requests sent: 515
-Requests received: 508
-Keyholes received: 487
-Keys received: 479
-Granted accesses: 465
+sim_time: 29514.0000
+Requests sent: 55
+Requests received: 45
+Keyholes received: 20
+Keys received: 5
+Granted accesses: 5
 Denied accesses: 0
 Attacks performed: 0
 Successful attacks: 0
