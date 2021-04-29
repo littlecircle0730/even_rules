@@ -1,0 +1,13 @@
+PADEC stats for scenario rainbow_demo
+sim_time: 172000.0000
+Requests sent: 1603
+Requests received: 1580
+Keyholes received: 1566
+Keys received: 1556
+Granted accesses: 1224
+Denied accesses: 304
+Attacks performed: 0
+Successful attacks: 0
+Third-party info reveal attempts: 0
+Successful info reveals: 0
+Rejected attacks: 0

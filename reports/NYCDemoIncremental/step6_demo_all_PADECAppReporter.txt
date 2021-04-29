@@ -1,0 +1,13 @@
+PADEC stats for scenario step6_demo_all
+sim_time: 15000.0000
+Requests sent: 2525
+Requests received: 2503
+Keyholes received: 2487
+Keys received: 2481
+Granted accesses: 456
+Denied accesses: 2021
+Attacks performed: 0
+Successful attacks: 0
+Third-party info reveal attempts: 0
+Successful info reveals: 0
+Rejected attacks: 0

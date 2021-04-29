@@ -1,0 +1,13 @@
+PADEC stats for scenario step4_onekh_demo_all
+sim_time: 29.0000
+Requests sent: 50
+Requests received: 21
+Keyholes received: 3
+Keys received: 2
+Granted accesses: 1
+Denied accesses: 1
+Attacks performed: 0
+Successful attacks: 0
+Third-party info reveal attempts: 0
+Successful info reveals: 0
+Rejected attacks: 0

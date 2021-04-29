@@ -28,9 +28,9 @@ lock:
               type: 'Consumer'
               attribute: 'padec.attribute.SoundLevel'
               values:
-                - 0
+                - 1000
               operator: 'padec.rule.operator.LessThanOperator'
-            operator: 'padec.rule.operator.OrOperator'
+            operator: 'padec.rule.operator.AndOperator'
           ruleB:
             type: 'Dual'
             attribute: 'padec.attribute.Location'

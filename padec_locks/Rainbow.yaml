@@ -1,0 +1,80 @@
+lock:
+  endpoint: 'padec.application.HistoryEndpoint'
+  accesslevels:
+    - accesslevel:
+        position: 0
+        filter:
+          technique: 'padec.filtering.techniques.HistoryFuzzy'
+          params:
+            times: 3
+            before: '2013-01-01'
+            after: '2012-10-01'
+        rule:
+          type: 'Consumer'
+          attribute: 'padec.attribute.SoundLevel'
+          values:
+            - 0
+          operator: 'padec.rule.operator.LessThanOperator'
+    - accesslevel:
+        position: 1
+        filter:
+          technique: 'padec.filtering.techniques.HistoryFuzzy'
+          params:
+            times: 2
+            before: '2013-01-01'
+            after: '2012-10-01'
+        rule:
+          type: 'Consumer'
+          attribute: 'padec.attribute.SoundLevel'
+          values:
+            - 0
+          operator: 'padec.rule.operator.GreaterThanOperator'
+    - accesslevel:
+        position: 2
+        filter:
+          technique: 'padec.filtering.techniques.HistoryFuzzy'
+          params:
+            before: '2013-01-01'
+            after: '2012-10-01'
+        rule:
+          type: 'Dual'
+          attribute: 'padec.attribute.Location'
+          values:
+            - 40.0
+          combinator: 'padec.rule.operator.RangeOperator'
+          operator: 'padec.rule.operator.LessThanOperator'
+    - accesslevel:
+        position: 3
+        filter:
+          technique: 'padec.filtering.techniques.HistoryFuzzy'
+          params:
+            times: 2
+            after: '2012-10-01'
+        rule:
+          type: 'Dual'
+          attribute: 'padec.attribute.Location'
+          values:
+            - 35.0
+          combinator: 'padec.rule.operator.RangeOperator'
+          operator: 'padec.rule.operator.LessThanOperator'
+    - accesslevel:
+        position: 4
+        filter:
+          technique: 'padec.filtering.techniques.HistoryFuzzy'
+          params:
+            times: 1
+        rule:
+          type: 'Consumer'
+          attribute: 'padec.attribute.Identity'
+          values: # Chosen at random
+            - 124
+            - 100
+            - 118
+            - 120
+            - 107
+            - 104
+            - 106
+            - 101
+            - 122
+            - 123
+          operator: 'padec.rule.operator.InOperator'

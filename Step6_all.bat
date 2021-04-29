@@ -1,0 +1,1 @@
+java -Xmx512M -cp out/production/padec_theone;lib/ECLA.jar;lib/DTNConsoleConnection.jar;lib/gson-2.8.6.jar;lib/snakeyaml-1.26.jar core.DTNSim -b 1 example_settings/padec_nyc_demo_incremental_s6_all.txt

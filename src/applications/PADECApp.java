@@ -283,15 +283,10 @@ public class PADECApp extends Application {
                     List<Keyhole> keyholes = (List<Keyhole>) sc.decrypt(encKh, cryptoKeys.get(host.getAddress()).getPrivate());
                     PrivacyPerception perception = perceptions.get(host.getAddress());
                     Keyhole kh = null;
-                    // /!\ Only for steps 4 & 5!!!!
-                    //List<Keyhole> reversedKh = new ArrayList<>(keyholes);
-                    //Collections.reverse(reversedKh);
-                    //for (Keyhole khEx : reversedKh) {
                     for (Keyhole khEx : keyholes) {
                         if (khEx.getCategory(perception) <= releasePolicy) {
                             if (kh == null) {
                                 kh = khEx;
-                                break;
                             } else {
                                 kh.join(khEx);
                             }
@@ -304,7 +299,17 @@ public class PADECApp extends Application {
                     cntxt.getAttribute(Location.class).setValue(
                             new Pair<>(host.getLocation().getX(), host.getLocation().getY())); // Update location
                     cntxt.getAttribute(Identity.class).setValue(host.getAddress()); // Update identity
-                    cntxt.getAttribute(SoundLevel.class).setValue(-15); // Update sound level
+                    if (host.getAddress() % 2 == 0) {
+                        if (host.getAddress() % 4 == 0){
+                            cntxt.getAttribute(SoundLevel.class).setValue(0);
+                        }
+                        else {
+                            cntxt.getAttribute(SoundLevel.class).setValue(-15); // Update sound level
+                        }
+                    }
+                    else{
+                        cntxt.getAttribute(SoundLevel.class).setValue(15); // Update sound level
+                    }
                     Key key = new Key(kh, cntxt);
                     String id = "k-" + host.getAddress() + "-" + msg.getFrom().getAddress() + "@" + SimClock.getIntTime();
                     Message m = new Message(host, msg.getFrom(), id, 1);

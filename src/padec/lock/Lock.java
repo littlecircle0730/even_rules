@@ -78,8 +78,9 @@ public class Lock {
     }
 
     /**
-     * Do not use this method outside of TheONE simulator. I'm making sure it breaks if you try to do so.
+     * Do not use this method outside of TheONE simulator. It will break if you try to do so.
      * This is only used for updating the endpoint in TheONE.
+     * In real scenarios, your endpoint should not need explicit calls to update.
      */
     @Deprecated
     public Endpoint getEndpointOnlyForTheONE() {
