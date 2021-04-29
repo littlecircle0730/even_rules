@@ -1,5 +1,5 @@
 PADEC log for scenario padec_nyc_demo
-sim_time: 9451.0000
+sim_time: 10265.0000
 Request khr-140-33@1. From: CB140, to: OP33.
 Request khr-145-33@1. From: CB145, to: OP33.
 Request khr-105-33@1. From: CA105, to: OP33.
@@ -340,4 +340,41 @@ Request khr-147-61@9389. From: CB147, to: RP61.
 Key k-109-33@9417. From: CA109, to: OP33. Minimum precision requested: -50.0, endpoint params: {}.
 
 
+
+Request khr-139-61@9544. From: CB139, to: RP61.
+
+Request khr-149-61@9765. From: CB149, to: RP61.
+
+Request khr-141-61@9779. From: CB141, to: RP61.
+
+Request khr-130-61@9889. From: CB130, to: RP61.
+
+Request khr-146-61@10066. From: CB146, to: RP61.
+Request khr-121-61@10070. From: CA121, to: RP61.
+
+Request khr-134-61@10105. From: CB134, to: RP61.
+Keyhole in level 1 in OP33 fits the key sent by 136
+Keyhole in level 0 in OP33 fits the key sent by 136
+
+Access granted. From: OP33, to: CB136.
+Keyhole in level 2 in OP33 fits the key sent by 120
+
+Access granted. From: OP33, to: CA120.
+Keyhole in level 1 in OP33 fits the key sent by 145
+Keyhole in level 0 in OP33 fits the key sent by 145
+
+Access granted. From: OP33, to: CB145.
+Keyhole in level 2 in OP33 fits the key sent by 124
+
+Access granted. From: OP33, to: CA124.
+Keyhole in level 1 in OP33 fits the key sent by 125
+Keyhole in level 0 in OP33 fits the key sent by 125
+
+Access granted. From: OP33, to: CB125.
+Keyhole in level 2 in OP33 fits the key sent by 106
+
+Access granted. From: OP33, to: CA106.
+Request khr-112-61@10167. From: CA112, to: RP61.
+
+Request khr-122-61@10253. From: CA122, to: RP61.
 

@@ -1,6 +1,7 @@
 PADEC metric statistics for scenario step2_abac_demo
 sim_time: 86000.0000
 Average request size: 121.0000
+<<<<<<< HEAD
 Average keyhole size: 620.0000
 Average key size: 954.0000
 Average data size: 18137.6404
@@ -8,4 +9,13 @@ Average percentage of full history sent: 100.0000
 Average category of data released as key: 3.0000
 Minimum category of data released as key: 3.0000
 Average number of attributes released as key: 3.0000
+=======
+Average keyhole size: 556.0000
+Average key size: 954.0000
+Average data size: 6489.3354
+Average percentage of full history sent: 100.0000
+Average category of data released as key: 3.0000
+Minimum category of data released as key: 3.0000
+Average number of attributes released as key: 2.0000
+>>>>>>> 1e561ad89e079bd78e71eecc589a01b1f16519f2
 Average precision of data obtained: -Infinity

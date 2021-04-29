@@ -1,11 +1,11 @@
 PADEC stats for scenario padec_nyc_demo
-sim_time: 9451.0000
-Requests sent: 54
+sim_time: 10265.0000
+Requests sent: 63
 Requests received: 52
 Keyholes received: 51
-Keys received: 22
-Granted accesses: 4
-Denied accesses: 0
+Keys received: 28
+Granted accesses: 11
+Denied accesses: 2
 Attacks performed: 0
 Successful attacks: 0
 Third-party info reveal attempts: 0

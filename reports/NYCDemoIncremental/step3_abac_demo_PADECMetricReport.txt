@@ -3,7 +3,11 @@ sim_time: 86000.0000
 Average request size: 121.0000
 Average keyhole size: 620.0000
 Average key size: 954.0000
+<<<<<<< HEAD
 Average data size: 6489.3354
+=======
+Average data size: 18137.6404
+>>>>>>> 1e561ad89e079bd78e71eecc589a01b1f16519f2
 Average percentage of full history sent: 100.0000
 Average category of data released as key: 3.0000
 Minimum category of data released as key: 3.0000
