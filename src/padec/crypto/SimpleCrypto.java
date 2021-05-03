@@ -68,6 +68,29 @@ public class SimpleCrypto {
         return objBytes != null ? new ByteArrayInputStream(objBytes) : null;
     }
 
+    private static byte[] objectToByteArray(Object obj) {
+        ByteArrayOutputStream baos = new ByteArrayOutputStream();
+        ObjectOutputStream out;
+        byte[] objBytes;
+        try {
+            out = new ObjectOutputStream(baos);
+            out.writeObject(obj);
+            out.flush();
+            objBytes = baos.toByteArray();
+        } catch (IOException e) {
+            e.printStackTrace();
+            throw new RuntimeException("Unexpected error during Object-to-Stream I/O");
+        } finally {
+            try {
+                baos.close();
+            } catch (IOException e) {
+                e.printStackTrace();
+                System.err.println("Unexpected error while closing Object-to-Stream intermediate I/O");
+            }
+        }
+        return objBytes;
+    }
+
     private Object byteArrayToObject(byte[] byteArray){
         ByteArrayInputStream bais = new ByteArrayInputStream(byteArray);
         ObjectInput in = null;
@@ -215,6 +238,32 @@ public class SimpleCrypto {
             //ex.printStackTrace();
             throw new RuntimeException("Illegal blocksize in encryption I/O");
         }
+    }
+
+    /**
+     * Returns the first 32 bits of an object's MD5 hash as an (unsigned) integer.
+     * @param object Object to integerify.
+     * @return Unsigned integer corresponding to the first 32 bits of the object's MD5 hash.
+     */
+    public static Integer integerify(Object object){
+        try {
+            MessageDigest hash = MessageDigest.getInstance("MD5");
+            byte[] input = objectToByteArray(object);
+            hash.update(input);
+            byte[] digest = hash.digest();
+            ByteArrayInputStream bais = new ByteArrayInputStream(digest);
+            DataInputStream dis = new DataInputStream(bais);
+            Integer retval = Integer.valueOf(dis.readInt());
+            dis.close();
+            return retval;
+        } catch (NoSuchAlgorithmException ex) {
+            System.err.println("Algorithm " + "MD5" + " not found!");
+            //ex.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+            System.err.println("Unexpected error on Byte-to-Int intermediate I/O");
+        }
+        return 0;
     }
 
 }
