@@ -63,4 +63,12 @@ public class AccessLevel {
         return new Keyhole(accessRule.getAttributes(), precision);
     }
 
+    /**
+     * Retrieve the kind of filter used by the access level.
+     * @return Class of the filtering technique used.
+     */
+    public Class<? extends FilterTechnique> getFilterKind(){
+        return filter.getClass();
+    }
+
 }

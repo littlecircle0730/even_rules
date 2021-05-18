@@ -10,6 +10,7 @@ import padec.attribute.PADECContext;
 import padec.attribute.SoundLevel;
 import padec.crypto.SimpleCrypto;
 import padec.filtering.FilteredData;
+import padec.filtering.techniques.NoFilter;
 import padec.key.Key;
 import padec.lock.AccessLevel;
 import padec.lock.Keyhole;
@@ -280,6 +281,13 @@ public class PADECApp extends Application {
                 if (encKh == null) {
                     super.sendEventToListeners("DeniedKeyhole", null, host);
                 } else {
+                    UUID transID = UUID.randomUUID(); // This UUID uniquely identifies the transaction for measurement
+                    super.sendEventToListeners("ChooseKHStart", new LinkedHashMap<String, Object>(){
+                        {{
+                            put("transID", transID.toString());
+                            put("time", System.currentTimeMillis());
+                        }}
+                    }, host);
                     List<Keyhole> keyholes = (List<Keyhole>) sc.decrypt(encKh, cryptoKeys.get(host.getAddress()).getPrivate());
                     PrivacyPerception perception = perceptions.get(host.getAddress());
                     Keyhole kh = null;
@@ -319,6 +327,14 @@ public class PADECApp extends Application {
                     m.addProperty(KEY_ENDPOINT_PARAMS, new HashMap<>());
                     m.addProperty(KEY_MIN_PRECISION, requestedPrecision);
                     m.setAppID(APP_ID);
+                    super.sendEventToListeners("ChooseKHEnd", new LinkedHashMap<String, Object>() {
+                        {
+                            {
+                                put("transID", transID.toString());
+                                put("time", System.currentTimeMillis());
+                            }
+                        }
+                    }, host);
                     super.sendEventToListeners("GotKeyhole", m, host);
                     super.sendEventToListeners("KeyCategory", kh.getCategory(perception), host);
                     super.sendEventToListeners("AttributesSent", kh.getAttributes().size(), host);
@@ -362,11 +378,21 @@ public class PADECApp extends Application {
         SimpleCrypto sc = SimpleCrypto.getInstance();
         switch (type){
             case MSG_TYPE_KEYHOLE_REQUEST:
+                UUID transID = UUID.randomUUID(); // This UUID uniquely identifies the transaction for measurement
+                super.sendEventToListeners("CalcKHStart", new LinkedHashMap<String, Object>() {
+                    {
+                        {
+                            put("transID", transID.toString());
+                            put("time", System.currentTimeMillis());
+                        }
+                    }
+                }, host);
                 String requestedEndpoint = (String) msg.getProperty(KH_REQ_SERVICE);
                 ServiceRegistry registry = locks.get(host.getAddress());
+                List<Keyhole> keyholes = new ArrayList<>();
                 byte[] encKh;
                 if (registry.exposesService(requestedEndpoint)) {
-                    List<Keyhole> keyholes = registry.getService(requestedEndpoint).getKeyholes();
+                    keyholes = registry.getService(requestedEndpoint).getKeyholes();
                     encKh = sc.encrypt(keyholes, cryptoKeys.get(msg.getFrom().getAddress()).getPublic());
                 } else {
                     encKh = null;
@@ -376,11 +402,37 @@ public class PADECApp extends Application {
                 m.addProperty(MSG_TYPE, MSG_TYPE_KEYHOLE);
                 m.addProperty(KH_ANSW_KEYHOLE, encKh);
                 m.setAppID(APP_ID);
+                super.sendEventToListeners("CalcKHEnd", new LinkedHashMap<String, Object>() {
+                    {
+                        {
+                            put("transID", transID.toString());
+                            put("time", System.currentTimeMillis());
+                        }
+                    }
+                }, host);
+                if (encKh != null){
+                    Keyhole unitedKh = keyholes.get(0);
+                    for (Keyhole kh : keyholes){
+                        unitedKh.join(kh);
+                    }
+                    if (unitedKh.getAttributes().size() == 1 && unitedKh.getAttributes().get(0).equals(Identity.class)){
+                        super.sendEventToListeners("CircumventingConstraintsAttack", null, host);
+                    }
+                }
                 host.createNewMessage(m);
                 super.sendEventToListeners("GotKeyholeRequest", m, host);
                 break;
             case MSG_TYPE_KEY:
                 byte[] encK = (byte[]) msg.getProperty(KEY_KEY);
+                transID = UUID.randomUUID(); // This UUID uniquely identifies the transaction for measurement
+                super.sendEventToListeners("RuleEvalStart", new LinkedHashMap<String, Object>() {
+                    {
+                        {
+                            put("transID", transID.toString());
+                            put("time", System.currentTimeMillis());
+                        }
+                    }
+                }, host);
                 Key k = (Key) sc.decrypt(encK, cryptoKeys.get(host.getAddress()).getPrivate());
                 Double minPrec = (Double) msg.getProperty(KEY_MIN_PRECISION);
                 Lock lock = locks.get(host.getAddress()).getService((String) msg.getProperty(KEY_REQ_SERVICE));
@@ -425,8 +477,12 @@ public class PADECApp extends Application {
                             fitting = true;
                             AccessLevel al = lock.getAccessLevel(i);
                             super.sendEventToListeners("FittingLevel", new int[]{i, msg.getFrom().getAddress()}, host);
+                            if(al.getFilterKind().equals(NoFilter.class)){
+                                super.sendEventToListeners("InsiderAttack", null, host);
+                            }
                             result = al.testAccess(params, k); // Test access
                             if (result != null) { // If access is granted
+                                super.sendEventToListeners("ReqProvPrec", new Pair<Double, Double>(minPrec, kh.getPrecision()), host); // Report
                                 break; // No need to keep on looking
                             }
                         }
@@ -447,6 +503,14 @@ public class PADECApp extends Application {
                     m.addProperty(MSG_TYPE, MSG_TYPE_DENIED);
                 }
                 m.setAppID(APP_ID);
+                super.sendEventToListeners("RuleEvalEnd", new LinkedHashMap<String, Object>() {
+                    {
+                        {
+                            put("transID", transID.toString());
+                            put("time", System.currentTimeMillis());
+                        }
+                    }
+                }, host);
                 host.createNewMessage(m);
                 super.sendEventToListeners("GotKey", m, host);
                 break;

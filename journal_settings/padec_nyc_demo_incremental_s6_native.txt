@@ -1,0 +1,148 @@
+## General scenario setup
+Scenario.name = step6_native_journal_demo
+Scenario.simulateConnections = true
+Scenario.updateInterval = 1
+# 43k ~= 12h
+Scenario.endTime = 86k
+Report.warmup = 0
+Group.msgTtl = 1433
+Scenario.nrofHostGroups = 3
+
+## Application setup
+# Open provider app. Provides information in 3 access level of precision.
+openProvider.type = PADECApp
+openProvider.provider = true
+openProvider.lock = padec_locks/incremental/Step6Native.yaml
+
+# Restrictive provider app. Provides information in a single access level of low precision.
+#restProvider.type = PADECApp
+#restProvider.provider = true
+#restProvider.lock = padec_locks/RestrictiveDemoHistoryNativeLock.yaml
+
+# Basic consumer type. Will reveal any information, any precision will do.
+consumer.type = PADECApp
+consumer.destinationRange = 0,99
+consumer.consumer = true
+consumer.interval = 50
+consumer.reqprec = 0.0
+consumer.endpoint = padec.application.HistoryEndpoint
+consumer.policy = 4
+
+# Consumer type A app. Willing to reveal up to category 3 information. Needs precision -50 or lower.
+#consumerA.type = PADECApp
+#consumerA.destinationRange = 0,99
+#consumerA.consumer = true
+#consumerA.interval = 50
+#consumerA.reqprec = -50.0
+#consumerA.endpoint = padec.application.HistoryEndpoint
+#consumerA.policy = 3
+
+# Consumer type B app. Willing to reveal up to category 2 information. Any precision will do.
+consumerB.type = PADECApp
+consumerB.destinationRange = 0,99
+consumerB.consumer = true
+consumerB.interval = 50
+consumerB.reqprec = 0.0
+consumerB.endpoint = padec.application.HistoryEndpoint
+consumerB.policy = 2
+
+## Interface setup
+padecInterface.type = SimpleBroadcastInterface
+padecInterface.transmitSpeed = 1000M
+padecInterface.transmitRange = 50
+padecInterface.bufferSize = 1000M
+
+## Group 1 setup
+Group1.groupID = OP
+Group1.waitTime = 0, 0
+#Group1.nrofHosts = 50
+Group1.nrofHosts = 100
+Group1.speed = 0.8, 1.4
+Group1.nrofApplications = 1
+Group1.application1 = openProvider
+Group1.movementModel = ShortestPathMapBasedMovement
+Group1.router = EpidemicRouter
+Group1.nrofInterfaces = 1
+Group1.interface1 = padecInterface
+
+## Group 2 setup
+#Group2.groupID = RP
+Group2.groupID = C
+Group2.waitTime = 0, 0
+Group2.nrofHosts = 25
+Group2.speed = 0.8, 1.4
+Group2.nrofApplications = 1
+#Group2.application1 = restProvider
+Group2.application1 = consumer
+Group2.movementModel = ShortestPathMapBasedMovement
+Group2.router = EpidemicRouter
+Group2.nrofInterfaces = 1
+Group2.interface1 = padecInterface
+
+## Group 3 setup
+#Group3.groupID = CA
+#Group3.waitTime = 0, 0
+#Group3.nrofHosts = 25
+#Group3.speed = 0.8, 1.4
+#Group3.nrofApplications = 1
+#Group3.application1 = consumerA
+#Group3.movementModel = ShortestPathMapBasedMovement
+#Group3.router = EpidemicRouter
+#Group3.nrofInterfaces = 1
+#Group3.interface1 = padecInterface
+
+## Group 4 setup
+Group3.groupID = CB
+Group3.waitTime = 0, 0
+Group3.nrofHosts = 25
+Group3.speed = 0.8, 1.4
+Group3.nrofApplications = 1
+Group3.application1 = consumerB
+Group3.movementModel = ShortestPathMapBasedMovement
+Group3.router = EpidemicRouter
+Group3.nrofInterfaces = 1
+Group3.interface1 = padecInterface
+
+## Movement setup
+MovementModel.rngSeed = [2; 8372; 98092; 18293; 777]
+MovementModel.worldSize = 10000, 8000
+MovementModel.warmup = 43000
+MapBasedMovement.nrofMapFiles = 1
+MapBasedMovement.mapFile1 = data/NYC.osm.wkt
+
+## POI setup
+PointsOfInterest.poiFile1 = padec_movement/NYCResidents.wkt
+PointsOfInterest.poiFile2 = padec_movement/NYCTourists.wkt
+# POI probabilities per group
+Group1.pois = 1,1.0
+#Group2.pois = 1,1.0
+Group2.pois = 2,1.0
+Group3.pois = 2,1.0
+#Group4.pois = 2,1.0
+
+## Report setup
+Report.nrofReports = 7
+Report.reportDir = reports/NYCDemoJournal
+# Report classes to load
+Report.report1 = PADECDetailReporter
+Report.report2 = PADECAppReporter
+Report.report3 = PADECMetricReport
+Report.report4 = PADECPartyReport
+Report.report5 = PADECAttackReport
+Report.report6 = PADECPrecisionReport
+Report.report7 = PADECTimeReport
+
+## Router setup
+ProphetRouter.secondsInTimeUnit = 30
+SprayAndWaitRouter.nrofCopies = 6
+SprayAndWaitRouter.binaryMode = true
+
+## Optimization settings -- these affect the speed of the simulation
+# see World class for details.
+# Copied verbatim from PADEC demo
+Optimization.connectionAlg = 2
+Optimization.cellSizeMult = 5
+Optimization.randomizeUpdateOrder = true
+
+## GUI setup
+GUI.EventLogPanel.nrofEvents = 200

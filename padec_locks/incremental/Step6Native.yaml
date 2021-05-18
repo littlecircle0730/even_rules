@@ -14,7 +14,7 @@ lock:
           attribute: 'padec.attribute.Location'
           values:
             - 500.0
-          combinator: 'padec.rule.operator.RangeOperator'
+          combinator: 'padec.rule.operator.RangeOperatorNative'
           operator: 'padec.rule.operator.LessThanOperator'
     - accesslevel:
         position: 1
@@ -35,7 +35,7 @@ lock:
               - 106
               - 125
               - 122
-            operator: 'padec.rule.operator.InOperator'
+            operator: 'padec.rule.operator.InOperatorNative'
           ruleB:
             type: 'Consumer'
             attribute: 'padec.attribute.Identity'
@@ -43,5 +43,5 @@ lock:
               - 118
               - 104
               - 123
-            operator: 'padec.rule.operator.InOperator'
+            operator: 'padec.rule.operator.InOperatorNative'
           operator: 'padec.rule.operator.OrOperator'

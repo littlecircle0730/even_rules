@@ -19,7 +19,9 @@ lock:
     - accesslevel:
         position: 1
         filter:
-          technique: 'padec.filtering.techniques.NoFilter'
+          technique: 'padec.filtering.techniques.HistoryFuzzy'
+          params:
+            times: 1
         rule:
           type: 'Composed'
           ruleA:

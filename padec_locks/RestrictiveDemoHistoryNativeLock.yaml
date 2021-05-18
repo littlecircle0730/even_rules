@@ -1,0 +1,18 @@
+lock:
+  endpoint: 'padec.application.HistoryEndpoint'
+  accesslevels:
+    - accesslevel:
+        position: 0
+        filter:
+          technique: 'padec.filtering.techniques.HistoryFuzzy'
+          params:
+            times: 3
+            before: '2013-01-01'
+            after: '2012-10-01'
+        rule:
+          type: 'Dual'
+          attribute: 'padec.attribute.Location'
+          values:
+            - 10000.0
+          combinator: 'padec.rule.operator.RangeOperatorNative'
+          operator: 'padec.rule.operator.LessThanOperator'
