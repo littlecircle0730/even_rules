@@ -6,12 +6,16 @@ import padec.filtering.FilteredData;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.time.LocalDate;
+import java.util.Comparator;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.NoSuchElementException;
 import java.util.concurrent.TimeUnit;
 import java.util.function.Function;
+import java.util.ArrayList;
 import java.util.stream.Collectors;
 
 public class HistoryFuzzy implements FilterTechnique<List<Pair<String, Date>>> {
@@ -111,6 +115,27 @@ public class HistoryFuzzy implements FilterTechnique<List<Pair<String, Date>>> {
         return precision * -1;
     }
 
+    private Double getActualPrecision(List<Pair<String, Date>> data, List<Pair<String, Date>> filtered){
+        Date maxDate = data.stream().map(Pair<String, Date>::getB).max(Comparator.comparing(Date::getDate)).get();
+        Date minDate = data.stream().map(Pair<String, Date>::getB).min(Comparator.comparing(Date::getDate)).get();
+        List<Double> partialPrecisions = new ArrayList<>();
+        LocalDate dt;
+        for (dt = new java.sql.Date(minDate.getTime()).toLocalDate(); dt.isBefore(new java.sql.Date(maxDate.getTime()).toLocalDate()); dt = dt.plusDays(1)){
+            Date dtVal = java.sql.Date.valueOf(dt);
+            List<Pair<String, Date>> eventsInDate = data.stream().filter(h -> h.getB().equals(dtVal)).collect(Collectors.toList());
+            List<Pair<String, Date>> filteredEventsInDate = filtered.stream().filter(h -> h.getB().equals(dtVal)).collect(Collectors.toList());
+            if (eventsInDate.size()>0){
+                Double prec = (eventsInDate.size()-(eventsInDate.size() - filteredEventsInDate.size()))/((double) eventsInDate.size());
+                partialPrecisions.add(1-prec);
+            }
+            else{
+                partialPrecisions.add((double) 0);
+            }
+        }
+        Double finalRes = partialPrecisions.stream().map((Double a) -> a*a).reduce(Double::sum).get();
+        return Math.pow(finalRes, 1.0/partialPrecisions.size());
+    }
+
     @Override
     public FilteredData<List<Pair<String, Date>>> filter(List<Pair<String, Date>> data, Map<String, Object> parameters) {
         FilteredData<List<Pair<String, Date>>> result = null;
@@ -123,7 +148,15 @@ public class HistoryFuzzy implements FilterTechnique<List<Pair<String, Date>>> {
             between.removeIf(h -> h.getB().compareTo(dates.getB()) > 0); // Remove those that happened after that date
             List<String> sPlaces = moreThanTimes(between, (Integer) parameters.get(AT_LEAST_TIMES_KEY));
             between.removeIf(h -> !sPlaces.contains(h.getA()));
-            result = new FilteredData<>(between, calcPrecision(dates, (Integer) parameters.get(AT_LEAST_TIMES_KEY)));
+            //result = new FilteredData<>(between, calcPrecision(dates, (Integer) parameters.get(AT_LEAST_TIMES_KEY)));
+            Double actualPrec;
+            try{
+                actualPrec = getActualPrecision(data, between);
+            }
+            catch (NoSuchElementException ex){
+                actualPrec = 1.0;
+            }
+            result = new FilteredData<>(between, actualPrec);
         }
         return result;
     }

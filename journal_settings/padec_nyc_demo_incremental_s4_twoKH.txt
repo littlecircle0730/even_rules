@@ -6,12 +6,13 @@ Scenario.updateInterval = 1
 Scenario.endTime = 86k
 Report.warmup = 0
 Group.msgTtl = 1433
-Scenario.nrofHostGroups = 3
+Scenario.nrofHostGroups = 2
 
 ## Application setup
 # Open provider app. Provides information in 3 access level of precision.
 openProvider.type = PADECApp
 openProvider.provider = true
+openProvider.step = 4
 openProvider.lock = padec_locks/incremental/Step4TwoKH.yaml
 
 # Restrictive provider app. Provides information in a single access level of low precision.
@@ -23,6 +24,7 @@ openProvider.lock = padec_locks/incremental/Step4TwoKH.yaml
 consumer.type = PADECApp
 consumer.destinationRange = 0,99
 consumer.consumer = true
+consumer.step = 4
 consumer.interval = 50
 consumer.reqprec = 0.0
 consumer.endpoint = padec.application.HistoryEndpoint
@@ -36,15 +38,6 @@ consumer.policy = 4
 #consumerA.reqprec = -50.0
 #consumerA.endpoint = padec.application.HistoryEndpoint
 #consumerA.policy = 3
-
-# Consumer type B app. Willing to reveal up to category 2 information. Any precision will do.
-consumerB.type = PADECApp
-consumerB.destinationRange = 0,99
-consumerB.consumer = true
-consumerB.interval = 50
-consumerB.reqprec = 0.0
-consumerB.endpoint = padec.application.HistoryEndpoint
-consumerB.policy = 2
 
 ## Interface setup
 padecInterface.type = SimpleBroadcastInterface
@@ -91,18 +84,6 @@ Group2.interface1 = padecInterface
 #Group3.nrofInterfaces = 1
 #Group3.interface1 = padecInterface
 
-## Group 4 setup
-Group3.groupID = CB
-Group3.waitTime = 0, 0
-Group3.nrofHosts = 25
-Group3.speed = 0.8, 1.4
-Group3.nrofApplications = 1
-Group3.application1 = consumerB
-Group3.movementModel = ShortestPathMapBasedMovement
-Group3.router = EpidemicRouter
-Group3.nrofInterfaces = 1
-Group3.interface1 = padecInterface
-
 ## Movement setup
 MovementModel.rngSeed = [2; 8372; 98092; 18293; 777]
 MovementModel.worldSize = 10000, 8000
@@ -117,7 +98,6 @@ PointsOfInterest.poiFile2 = padec_movement/NYCTourists.wkt
 Group1.pois = 1,1.0
 #Group2.pois = 1,1.0
 Group2.pois = 2,1.0
-Group3.pois = 2,1.0
 #Group4.pois = 2,1.0
 
 ## Report setup

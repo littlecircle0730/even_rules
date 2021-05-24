@@ -35,24 +35,20 @@ public class PADECApp extends Application {
     public static final String PADEC_CONSUMER = "consumer";
     /** Act as attacker **/
     public static final String PADEC_ATTACKER = "attacker";
-    /**
-     * Defines the lock file to read
-     **/
+    /** Defines the lock file to read **/
     public static final String PADEC_LOCK_FILE = "lock";
     /** (Minimum) interval between consumer requests **/
     public static final String PADEC_REQUEST_INTERVAL = "interval";
     /** Requested precision **/
     public static final String PADEC_REQUESTED_PRECISION = "reqprec";
-    /**
-     * Perception file to read
-     **/
+    /** Perception file to read **/
     public static final String PADEC_PERCEPTION_FILE = "perception";
-    /**
-     * Maximum level of info to release by consumers
-     **/
+    /** Maximum level of info to release by consumers **/
     public static final String PADEC_RELEASE_POLICY = "policy";
     /** Endpoint to consume. */
     public static final String PADEC_SERVICE_CONSUMED = "endpoint";
+    /** PADEC Step for implementation purposes */
+    public static final String PADEC_STEP = "step";
 
     /** Key that stores the message type **/
     public static final String MSG_TYPE = "type";
@@ -110,6 +106,7 @@ public class PADECApp extends Application {
     private boolean attacker = false;
     private double interval = 500;
     private int releasePolicy = 3;
+    private int step = 6;
     private String perceptionFile = "padec_perceptions/PerceptA.yaml";
     private String reqEndpoint = HistoryEndpoint.class.getName();
     private Random rng;
@@ -165,6 +162,9 @@ public class PADECApp extends Application {
         }
         if (s.contains(PADEC_SEED)){
             this.seed = s.getInt(PADEC_SEED);
+        }
+        if (s.contains(PADEC_STEP)){
+            this.step = s.getInt(PADEC_STEP);
         }
         if (s.contains(PADEC_DEST_RANGE)){
             int[] destination = s.getCsvInts(PADEC_DEST_RANGE,2);
@@ -291,12 +291,17 @@ public class PADECApp extends Application {
                     List<Keyhole> keyholes = (List<Keyhole>) sc.decrypt(encKh, cryptoKeys.get(host.getAddress()).getPrivate());
                     PrivacyPerception perception = perceptions.get(host.getAddress());
                     Keyhole kh = null;
-                    for (Keyhole khEx : keyholes) {
-                        if (khEx.getCategory(perception) <= releasePolicy) {
-                            if (kh == null) {
-                                kh = khEx;
-                            } else {
-                                kh.join(khEx);
+                    if (step<6) {
+                        kh = keyholes.get(new java.util.Random().nextInt(keyholes.size()));
+                    }
+                    else{
+                        for (Keyhole khEx : keyholes) {
+                            if (khEx.getCategory(perception) <= releasePolicy) {
+                                if (kh == null) {
+                                    kh = khEx;
+                                } else {
+                                    kh.join(khEx);
+                                }
                             }
                         }
                     }

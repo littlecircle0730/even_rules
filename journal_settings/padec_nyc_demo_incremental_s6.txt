@@ -12,6 +12,7 @@ Scenario.nrofHostGroups = 3
 # Open provider app. Provides information in 3 access level of precision.
 openProvider.type = PADECApp
 openProvider.provider = true
+openProvider.step = 6
 openProvider.lock = padec_locks/incremental/Step6.yaml
 
 # Restrictive provider app. Provides information in a single access level of low precision.
@@ -24,6 +25,7 @@ consumer.type = PADECApp
 consumer.destinationRange = 0,99
 consumer.consumer = true
 consumer.interval = 50
+consumer.step = 6
 consumer.reqprec = 0.0
 consumer.endpoint = padec.application.HistoryEndpoint
 consumer.policy = 4
@@ -43,6 +45,7 @@ consumerB.destinationRange = 0,99
 consumerB.consumer = true
 consumerB.interval = 50
 consumerB.reqprec = 0.0
+consumerB.step = 6
 consumerB.endpoint = padec.application.HistoryEndpoint
 consumerB.policy = 2
 
