@@ -1,0 +1,36 @@
+lock:
+  endpoint: 'padec.application.HistoryEndpoint'
+  accesslevels:
+    - accesslevel:
+        position: 0
+        filter:
+          technique: 'padec.filtering.techniques.HistoryFuzzy'
+          params:
+            before: '2013-01-01'
+            after: '2012-10-01'
+        rule:
+          type: 'Composed'
+          ruleA:
+            type: 'Consumer'
+              attribute: 'padec.attribute.Identity'
+              values:
+                - 124 # Friends
+                - 126
+                - 120
+                - 107
+                - 106
+                - 125
+                - 122
+                - 118 # Family
+                - 104
+                - 123
+                - 101 # Other acquaintances
+                - 105
+                - 108
+                - 115
+                - 110
+                - 109
+                - 102
+              operator: 'padec.rule.operator.InOperator'
+          ruleB: # Empty rule, needed to apply "Not". Exceptions may arise while parsing, but it works.
+          operator: 'padec.rule.operator.NotOperator'

@@ -1,0 +1,47 @@
+lock:
+  endpoint: 'padec.application.HistoryEndpoint'
+  accesslevels:
+    - accesslevel:
+        position: 0
+        filter:
+          technique: 'padec.filtering.techniques.HistoryFuzzy'
+          params:
+            times: 3
+            before: '2013-01-01'
+            after: '2012-10-01'
+        rule:
+          type: 'Dual'
+          attribute: 'padec.attribute.Location'
+          values:
+            - 500.0
+          combinator: 'padec.rule.operator.RangeOperator'
+          operator: 'padec.rule.operator.LessThanOperator'
+    - accesslevel:
+        position: 1
+        filter:
+          technique: 'padec.filtering.techniques.HistoryFuzzy'
+          params:
+            times: 1
+        rule:
+          type: 'Composed'
+          ruleA:
+            type: 'Consumer'
+            attribute: 'padec.attribute.Identity'
+            values: # Friends
+              - 124
+              - 126
+              - 120
+              - 107
+              - 106
+              - 125
+              - 122
+            operator: 'padec.rule.operator.InOperator'
+          ruleB:
+            type: 'Consumer'
+            attribute: 'padec.attribute.Identity'
+            values: # Family
+              - 118
+              - 104
+              - 123
+            operator: 'padec.rule.operator.InOperator'
+          operator: 'padec.rule.operator.OrOperator'
