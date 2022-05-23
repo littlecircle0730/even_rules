@@ -7,6 +7,7 @@ import padec.lock.Keyhole;
 import java.io.Serializable;
 import java.util.LinkedHashMap;
 import java.util.Map;
+import java.util.TreeSet;
 
 /**
  * Consumer key.
@@ -50,12 +51,32 @@ public class Key implements Serializable {
         return data.get(attributeName);
     }
 
+    @Override
+    public String toString() {
+        return new TreeSet<>(data.keySet()).toString(); //TreeSet sorts the keys
+    }
+
     public Map<String, Object> getData() {
         return data;
     }
 
     public String getPurpose() {
         return purpose;
+    }
+
+    public void update(PADECContext context) {
+        Map<String, Object> newData = new LinkedHashMap<>();
+        for (String attrName : data.keySet()) {
+            try {
+                Attribute provAttr = context.getAttribute((Class<? extends Attribute>) ClassLoader.getSystemClassLoader().loadClass(attrName));
+                if (provAttr != null) {
+                    newData.put(attrName, provAttr.getValue());
+                }
+            } catch (ClassNotFoundException ex) {
+                ex.printStackTrace();
+            }
+        }
+        data = newData;
     }
 
     //TODO The purpose should be provided by the application consuming the microservice. We have to implement an interface to provide this information

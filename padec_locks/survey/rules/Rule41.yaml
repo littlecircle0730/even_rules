@@ -1,0 +1,15 @@
+lock:
+  endpoint: 'padec.application.RunningRoutesEndpoint'
+  accesslevels:
+    - accesslevel:
+        position: 0
+        filter:
+          technique: 'padec.filtering.techniques.RouteFilter'
+          params:
+            kind: 0
+        rule:
+          type: 'Dual'
+          attribute: 'padec.attribute.RunningLevel'
+          values: true
+          operator: 'padec.rule.operator.EqualOperator'
+          combinator: 'padec.rule.operator.EqualOperator'

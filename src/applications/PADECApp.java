@@ -4,10 +4,7 @@ import core.*;
 import padec.application.Endpoint;
 import padec.application.HistoryEndpoint;
 import padec.application.LocationEndpoint;
-import padec.attribute.Identity;
-import padec.attribute.Location;
-import padec.attribute.PADECContext;
-import padec.attribute.SoundLevel;
+import padec.attribute.*;
 import padec.crypto.SimpleCrypto;
 import padec.filtering.FilteredData;
 import padec.filtering.techniques.NoFilter;
@@ -110,6 +107,7 @@ public class PADECApp extends Application {
     private String perceptionFile = "padec_perceptions/PerceptA.yaml";
     private String reqEndpoint = HistoryEndpoint.class.getName();
     private Random rng;
+    private List<DTNHost> hostCache;
 
     //Static vars for managing PADEC-specific entities
     /** Maps contexts by address. Lets the app get the context of a host, avoiding context collision between hosts **/
@@ -194,6 +192,10 @@ public class PADECApp extends Application {
         super.setAppID(APP_ID);
     }
 
+    public int getStep() {
+        return step;
+    }
+
     public int getDestMin() {
         return destMin;
     }
@@ -257,6 +259,7 @@ public class PADECApp extends Application {
         this.releasePolicy = a.getReleasePolicy();
         this.reqEndpoint = a.getReqEndpoint();
         this.interval = a.getInterval();
+        this.step = a.getStep();
         this.rng = new Random(this.seed);
     }
 
@@ -324,6 +327,9 @@ public class PADECApp extends Application {
                         cntxt.getAttribute(SoundLevel.class).setValue(15); // Update sound level
                     }
                     Key key = new Key(kh, cntxt);
+                    Pair<Integer, Double> identifiability = identifiability(key);
+                    super.sendEventToListeners("IdentifiabilityReport", identifiability, host);
+                    super.sendEventToListeners("KeyIdentifiabilityReport", new Pair<>(identifiability.getA(), key.toString()), host);
                     String id = "k-" + host.getAddress() + "-" + msg.getFrom().getAddress() + "@" + SimClock.getIntTime();
                     Message m = new Message(host, msg.getFrom(), id, 1);
                     m.addProperty(MSG_TYPE, MSG_TYPE_KEY);
@@ -361,6 +367,105 @@ public class PADECApp extends Application {
                 break;
         }
         return msg;
+    }
+
+    private List<DTNHost> getAllHosts() {
+        World w = SimScenario.getInstance().getWorld();
+        return w.getHosts();
+    }
+
+    private Pair<Integer, Double> identifiability(Key k) {
+        if (hostCache == null) {
+            hostCache = getAllHosts();
+        }
+        Integer identifiedHosts = 0;
+        for (DTNHost consumer : hostCache) {
+            if (!contexts.containsKey(consumer.getAddress())) { //If there is no context yet
+                PADECContext cntxt = new PADECContext(); // Create it
+                cntxt.registerAttribute(Location.class); // Register location
+                cntxt.registerAttribute(Identity.class); // Register identity
+                cntxt.registerAttribute(SoundLevel.class); // Register sound level
+                contexts.put(consumer.getAddress(), cntxt); // Save it
+            }
+            // Update location context
+            contexts.get(consumer.getAddress()).getAttribute(Location.class).setValue(
+                    new Pair<>(consumer.getLocation().getX(), consumer.getLocation().getY()));
+
+            // Update identity context
+            contexts.get(consumer.getAddress()).getAttribute(Identity.class).setValue(consumer.getAddress());
+
+            // Update sound level context
+            if (consumer.getAddress() % 2 == 0) {
+                if (consumer.getAddress() % 4 == 0) {
+                    contexts.get(consumer.getAddress()).getAttribute(SoundLevel.class).setValue(0);
+                } else {
+                    contexts.get(consumer.getAddress()).getAttribute(SoundLevel.class).setValue(-15); // Update sound level
+                }
+            } else {
+                contexts.get(consumer.getAddress()).getAttribute(SoundLevel.class).setValue(15); // Update sound level
+            }
+            PADECContext cntxtToCheck = contexts.get(consumer.getAddress());
+            Map<String, Object> data = k.getData();
+            int sameAttrs = 0;
+            for (String attrName : data.keySet()) {
+                try {
+                    Attribute conValue = cntxtToCheck.getAttribute((Class<? extends Attribute>) ClassLoader.getSystemClassLoader().loadClass(attrName));
+                    if (Objects.equals(conValue.getValue(), data.get(attrName))) {
+                        sameAttrs++;
+                    } else {
+                        break;
+                    }
+                } catch (ClassNotFoundException ex) {
+                    ex.printStackTrace();
+                }
+            }
+            if (sameAttrs == data.size()) {
+                identifiedHosts++;
+            }
+        }
+        return new Pair<>(identifiedHosts, new Double(identifiedHosts) * 100 / (double) hostCache.size());
+    }
+
+    private Integer assessErrorType(Boolean decision, DTNHost provider, DTNHost consumer, Lock lock, Key k, Double minPrec) {
+        // Update location context
+        contexts.get(provider.getAddress()).getAttribute(Location.class).setValue(
+                new Pair<>(provider.getLocation().getX(), provider.getLocation().getY()));
+        contexts.get(consumer.getAddress()).getAttribute(Location.class).setValue(
+                new Pair<>(consumer.getLocation().getX(), consumer.getLocation().getY()));
+
+        // Update identity context
+        contexts.get(provider.getAddress()).getAttribute(Identity.class).setValue(provider.getAddress());
+        contexts.get(consumer.getAddress()).getAttribute(Identity.class).setValue(consumer.getAddress());
+
+        // Update sound level context
+        contexts.get(provider.getAddress()).getAttribute(SoundLevel.class).setValue(-15);
+        if (consumer.getAddress() % 2 == 0) {
+            if (consumer.getAddress() % 4 == 0) {
+                contexts.get(consumer.getAddress()).getAttribute(SoundLevel.class).setValue(0);
+            } else {
+                contexts.get(consumer.getAddress()).getAttribute(SoundLevel.class).setValue(-15); // Update sound level
+            }
+        } else {
+            contexts.get(consumer.getAddress()).getAttribute(SoundLevel.class).setValue(15); // Update sound level
+        }
+        k.update(contexts.get(consumer.getAddress()));
+        List<Keyhole> khLookup = lock.getKeyholes();
+        Boolean realACDecision = false;
+        for (int i = khLookup.size() - 1; i >= 0; i--) {
+            Keyhole kh = khLookup.get(i);
+            if (kh.getPrecision() > minPrec) { // If this keyhole is too bad for the requestor
+                break; // No need to keep on looking
+            } else {
+                if (kh.fits(k)) { //If the key fits
+                    AccessLevel al = lock.getAccessLevel(i);
+                    if (al.testAccess(null, k) != null) { // If access is granted
+                        realACDecision = true;
+                        break; // No need to keep on looking
+                    }
+                }
+            }
+        }
+        return decision == realACDecision ? 0 : decision && !realACDecision ? 1 : 2;
     }
 
     private Message providerHandle(Message msg, DTNHost host){
@@ -493,7 +598,7 @@ public class PADECApp extends Application {
                         }
                     }
                 }
-
+                super.sendEventToListeners("ErrorReportMessage", (Object) assessErrorType(result != null, host, msg.getFrom(), lock, k, minPrec), host);
                 id = "resp-"+host.getAddress()+"-"+msg.getFrom().getAddress()+"@"+SimClock.getIntTime();
                 m = new Message(host, msg.getFrom(), id, 1);
                 if (result != null){ // Key accepted

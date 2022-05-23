@@ -1,10 +1,13 @@
 package padec.util;
 
+import padec.rule.operator.RangeOperator;
+
 import java.io.Serializable;
 
 public class Pair<T, U> implements Comparable, Serializable {
 
     private static final long serialVersionUID = 7659291834859850839L;
+    private static final double EPSILON = 50;
     private T a;
     private U b;
 
@@ -58,5 +61,20 @@ public class Pair<T, U> implements Comparable, Serializable {
             }
         }
         return result;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        boolean isEqual = false;
+        if (o instanceof Pair) {
+            Pair oPair = (Pair) o;
+            Double combinedRes = (Double) new RangeOperator().combine(this, o);
+            if (combinedRes == null) {
+                isEqual = (a != null && a.equals(oPair.getA())) && (b != null && b.equals(oPair.getB()));
+            } else {
+                isEqual = combinedRes <= EPSILON;
+            }
+        }
+        return isEqual;
     }
 }

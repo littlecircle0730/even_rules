@@ -12,25 +12,25 @@ lock:
           type: 'Composed'
           ruleA:
             type: 'Consumer'
-              attribute: 'padec.attribute.Identity'
-              values:
-                - 124 # Friends
-                - 126
-                - 120
-                - 107
-                - 106
-                - 125
-                - 122
-                - 118 # Family
-                - 104
-                - 123
-                - 101 # Other acquaintances
-                - 105
-                - 108
-                - 115
-                - 110
-                - 109
-                - 102
-              operator: 'padec.rule.operator.InOperator'
+            attribute: 'padec.attribute.Identity'
+            values:
+              - 124 # Friends
+              - 126
+              - 120
+              - 107
+              - 106
+              - 125
+              - 122
+              - 118 # Family
+              - 104
+              - 123
+              - 101 # Other acquaintances
+              - 105
+              - 108
+              - 115
+              - 110
+              - 109
+              - 102
+            operator: 'padec.rule.operator.InOperator'
           ruleB: # Empty rule, needed to apply "Not". Exceptions may arise while parsing, but it works.
-          operator: 'padec.rule.operator.NotOperator'
+            operator: 'padec.rule.operator.NotOperator'

@@ -1,0 +1,39 @@
+lock:
+  endpoint: 'padec.application.HistoryEndpoint'
+  accesslevels:
+    - accesslevel:
+        position: 0
+        filter:
+          technique: 'padec.filtering.techniques.NoFilter'
+        rule:
+          type: 'Composed'
+          ruleA:
+            type: 'Dual'
+            attribute: 'padec.attribute.Location'
+            values:
+              - 500.0
+            combinator: 'padec.rule.operator.RangeOperator'
+            operator: 'padec.rule.operator.LessThanOperator'
+          ruleB:
+            type: 'Consumer'
+              attribute: 'padec.attribute.Identity'
+              values:
+                - 124 # Friends
+                - 126
+                - 120
+                - 107
+                - 106
+                - 125
+                - 122
+                - 118 # Family
+                - 104
+                - 123
+                - 101 # Other acquaintances
+                - 105
+                - 108
+                - 115
+                - 110
+                - 109
+                - 102
+              operator: 'padec.rule.operator.InOperator'
+          operator: 'padec.rule.operator.OrOperator'

@@ -1,0 +1,15 @@
+lock:
+  endpoint: 'padec.application.HistoryEndpoint'
+  accesslevels:
+    - accesslevel:
+        position: 0
+        filter:
+          technique: 'padec.filtering.techniques.HistoryFuzzy'
+          params:
+            minor: 2
+            maxor: 4
+        rule:
+          type: 'Producer'
+          attribute: 'padec.attribute.Identity'
+          values: []
+          operator: 'padec.rule.operator.SkipOperator'

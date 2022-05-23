@@ -1,0 +1,32 @@
+lock:
+  endpoint: 'padec.application.RunningRoutesEndpoint'
+  accesslevels:
+    - accesslevel:
+        position: 0
+        filter:
+          technique: 'padec.filtering.techniques.NoFilter'
+        rule:
+          type: 'Composed'
+          ruleA:
+            type: 'Dual'
+            attribute: 'padec.attribute.Location'
+            values:
+              - 500.0
+            combinator: 'padec.rule.operator.RangeOperator'
+            operator: 'padec.rule.operator.LessThanOperator'
+          ruleB:
+            type: 'Consumer'
+              attribute: 'padec.attribute.Identity'
+              values:
+                - 124 # Training partners
+                - 126
+                - 120
+                - 107
+                - 122
+                - 118
+                - 101
+                - 109
+                - 102
+                - 130
+              operator: 'padec.rule.operator.InOperator'
+          operator: 'padec.rule.operator.OrOperator'

@@ -39,7 +39,7 @@ public class HistoryEndpoint implements Endpoint<List<Pair<String, Date>>> {
                 Triplet<String, Date, Double> nTriple = new Triplet<>();
                 nTriple.setA((String) m.get("place"));
                 nTriple.setB(parser.parse((String) m.get("time")));
-                nTriple.setC((Double) m.getOrDefault("rating", -1.0));
+                nTriple.setC((Double) m.getOrDefault("rating", ((String) m.get("place")).length() % 5));
                 history.add(nTriple);
             }
             loaded = true;

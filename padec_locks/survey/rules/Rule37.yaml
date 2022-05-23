@@ -1,0 +1,14 @@
+lock:
+  endpoint: 'padec.application.RunningRoutesEndpoint'
+  accesslevels:
+    - accesslevel:
+        position: 0
+        filter:
+          technique: 'padec.filtering.techniques.RouteFilter'
+          params:
+            kind: 0
+        rule:
+          type: 'Producer'
+          attribute: 'padec.attribute.Identity'
+          values: []
+          operator: 'padec.rule.operator.SkipOperator'
