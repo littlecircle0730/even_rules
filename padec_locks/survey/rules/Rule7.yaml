@@ -9,8 +9,8 @@ lock:
             min: 3.0
         rule:
           type: 'Dual'
-            attribute: 'padec.attribute.Location'
-            values:
-              - 500.0
-            combinator: 'padec.rule.operator.RangeOperator'
-            operator: 'padec.rule.operator.LessThanOperator'
+          attribute: 'padec.attribute.Location'
+          values:
+            - 500.0
+          combinator: 'padec.rule.operator.RangeOperator'
+          operator: 'padec.rule.operator.LessThanOperator'

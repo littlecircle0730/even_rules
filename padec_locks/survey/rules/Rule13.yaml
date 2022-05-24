@@ -1,5 +1,5 @@
 lock:
-  endpoint: 'padec.application.HistoryEndpoint'
+  endpoint: 'padec.application.PresenceEndpoint'
   accesslevels:
     - accesslevel:
         position: 0

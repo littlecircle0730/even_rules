@@ -16,17 +16,17 @@ lock:
             operator: 'padec.rule.operator.LessThanOperator'
           ruleB:
             type: 'Consumer'
-              attribute: 'padec.attribute.Identity'
-              values:
-                - 124 # Training partners
-                - 126
-                - 120
-                - 107
-                - 122
-                - 118
-                - 101
-                - 109
-                - 102
-                - 130
-              operator: 'padec.rule.operator.InOperator'
+            attribute: 'padec.attribute.Identity'
+            values:
+              - 124 # Training partners
+              - 126
+              - 120
+              - 107
+              - 122
+              - 118
+              - 101
+              - 109
+              - 102
+              - 130
+            operator: 'padec.rule.operator.InOperator'
           operator: 'padec.rule.operator.OrOperator'

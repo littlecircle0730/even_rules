@@ -1,5 +1,5 @@
 lock:
-  endpoint: 'padec.application.HistoryEndpoint'
+  endpoint: 'padec.application.PresenceEndpoint'
   accesslevels:
     - accesslevel:
         position: 0
@@ -9,21 +9,7 @@ lock:
           type: 'Consumer'
           attribute: 'padec.attribute.Identity'
           values:
-            - 124 # Friends
-            - 126
-            - 120
-            - 107
-            - 106
-            - 125
-            - 122
             - 118 # Family
             - 104
             - 123
-            - 101 # Other acquaintances
-            - 105
-            - 108
-            - 115
-            - 110
-            - 109
-            - 102
           operator: 'padec.rule.operator.InOperator'

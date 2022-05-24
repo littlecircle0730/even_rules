@@ -1,0 +1,16 @@
+lock:
+  endpoint: 'padec.application.PresenceEndpoint'
+  accesslevels:
+    - accesslevel:
+        position: 0
+        filter:
+          technique: 'padec.filtering.techniques.PresenceFilter'
+          params:
+            since: 300
+        rule:
+          type: 'Dual'
+          attribute: 'padec.attribute.Location'
+          values:
+            - 500.0
+          operator: 'padec.rule.operator.LessThanOperator'
+          combinator: 'padec.rule.operator.RangeOperator'

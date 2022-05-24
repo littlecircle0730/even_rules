@@ -1,5 +1,5 @@
 lock:
-  endpoint: 'padec.application.HistoryEndpoint'
+  endpoint: 'padec.application.PresenceEndpoint'
   accesslevels:
     - accesslevel:
         position: 0
@@ -19,11 +19,4 @@ lock:
             - 118 # Family
             - 104
             - 123
-            - 101 # Other acquaintances
-            - 105
-            - 108
-            - 115
-            - 110
-            - 109
-            - 102
           operator: 'padec.rule.operator.InOperator'

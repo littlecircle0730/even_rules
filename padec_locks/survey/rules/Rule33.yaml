@@ -1,0 +1,12 @@
+lock:
+  endpoint: 'padec.application.PresenceEndpoint'
+  accesslevels:
+    - accesslevel:
+        position: 0
+        filter:
+          technique: 'padec.filtering.techniques.NoFilter'
+        rule:
+          type: 'Producer'
+          attribute: 'padec.attribute.Identity'
+          values: []
+          operator: 'padec.rule.operator.SkipOperator'

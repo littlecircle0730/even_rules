@@ -1,0 +1,17 @@
+lock:
+  endpoint: 'padec.application.PresenceEndpoint'
+  accesslevels:
+    - accesslevel:
+        position: 0
+        filter:
+          technique: 'padec.filtering.techniques.PresenceFilter'
+          params:
+            kind: 1
+        rule:
+          type: 'Consumer'
+          attribute: 'padec.attribute.Identity'
+          values:
+            - 118 # Family
+            - 104
+            - 123
+          operator: 'padec.rule.operator.InOperator'
