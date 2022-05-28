@@ -1,0 +1,14 @@
+lock:
+  endpoint: 'padec.application.RunningRoutesEndpoint'
+  accesslevels:
+    - accesslevel:
+        position: 0
+        filter:
+          technique: 'padec.filtering.techniques.NoFilter'
+        rule:
+          type: 'Consumer'
+          attribute: 'padec.attribute.Identity'
+          values:
+            - 101 # Other acquaintances (also training partners)
+            - 105
+          operator: 'padec.rule.operator.InOperator'

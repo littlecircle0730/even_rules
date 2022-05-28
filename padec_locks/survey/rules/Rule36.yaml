@@ -1,0 +1,31 @@
+lock:
+  endpoint: 'padec.application.RunningRoutesEndpoint'
+  accesslevels:
+    - accesslevel:
+        position: 0
+        filter:
+          technique: 'padec.filtering.techniques.RouteFilter'
+          params:
+            kind: 1
+        rule:
+          type: 'Consumer'
+          attribute: 'padec.attribute.Identity'
+          values:
+              - 124 # Friends
+              - 126
+              - 120
+              - 107
+              - 106
+              - 125
+              - 122
+              - 118 # Family
+              - 104
+              - 123
+              - 101 # Other acquaintances
+              - 105
+              - 108
+              - 115
+              - 110
+              - 109
+              - 102
+          operator: 'padec.rule.operator.InOperator'

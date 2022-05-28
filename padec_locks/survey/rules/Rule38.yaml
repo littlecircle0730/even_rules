@@ -1,0 +1,14 @@
+lock:
+  endpoint: 'padec.application.PresenceEndpoint'
+  accesslevels:
+    - accesslevel:
+        position: 0
+        filter:
+          technique: 'padec.filtering.techniques.NoFilter'
+        rule:
+          type: 'Consumer'
+          attribute: 'padec.attribute.Identity'
+          values:
+            - 109 # runners from my social running club
+            - 102
+          operator: 'padec.rule.operator.InOperator'

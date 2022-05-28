@@ -1,0 +1,13 @@
+lock:
+  endpoint: 'padec.application.HistoryEndpoint'
+  accesslevels:
+    - accesslevel:
+        position: 0
+        filter:
+          technique: 'padec.filtering.techniques.NoFilter'
+        rule:
+          type: 'Dual'
+          attribute: 'padec.attribute.Interests'
+          values: true
+          operator: 'padec.rule.operator.EqualOperator'
+          combinator: 'padec.rule.operator.InOperator'

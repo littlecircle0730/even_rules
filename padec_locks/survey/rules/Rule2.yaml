@@ -1,0 +1,21 @@
+lock:
+  endpoint: 'padec.application.HistoryEndpoint'
+  accesslevels:
+    - accesslevel:
+        position: 0
+        filter:
+          technique: 'padec.filtering.techniques.HistoryFuzzy'
+          params:
+            after: '2013-01-01'
+        rule:
+          type: 'Consumer'
+          attribute: 'padec.attribute.Identity'
+            values:
+              - 124 # Friends
+              - 126
+              - 120
+              - 107
+              - 106
+              - 125
+              - 122
+          operator: 'padec.rule.operator.InOperator'

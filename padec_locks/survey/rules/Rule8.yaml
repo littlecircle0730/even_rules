@@ -1,0 +1,19 @@
+lock:
+  endpoint: 'padec.application.HistoryEndpoint'
+  accesslevels:
+    - accesslevel:
+        position: 0
+        filter:
+          technique: 'padec.filtering.techniques.NoFilter'
+        rule:
+          type: 'Consumer'
+          attribute: 'padec.attribute.Identity'
+            values:
+              - 101 # Other acquaintances
+              - 105
+              - 108
+              - 115
+              - 110
+              - 109
+              - 102
+          operator: 'padec.rule.operator.InOperator'
