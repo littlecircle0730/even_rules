@@ -6,9 +6,7 @@ lock:
         filter:
           technique: 'padec.filtering.techniques.NoFilter'
         rule:
-          type: 'Dual'
-          attribute: 'padec.attribute.Location'
-          values:
-            - 500.0
-          combinator: 'padec.rule.operator.RangeOperator'
-          operator: 'padec.rule.operator.LessThanOperator'
+          type: 'Producer'
+          attribute: 'padec.attribute.Identity'
+          values: []
+          operator: 'padec.rule.operator.SkipOperator'

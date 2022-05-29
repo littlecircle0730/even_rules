@@ -4,8 +4,7 @@ lock:
     - accesslevel:
         position: 0
         filter:
-          technique: 'padec.filtering.techniques.PresenceFilter'
-          params:
+          technique: 'padec.filtering.techniques.NoFilter'
         rule:
           type: 'Composed'
           ruleA:
@@ -15,25 +14,15 @@ lock:
             operator: 'padec.rule.operator.EqualOperator'
             combinator: 'padec.rule.operator.InOperator'
           ruleB:
-            type: 'Composed'
-            ruleA:
-              type: 'Dual'
-              attribute: 'padec.attribute.Interests'
-              values: true
-              operator: 'padec.rule.operator.EqualOperator'
-              combinator: 'padec.rule.operator.InOperator'
-            ruleB:
-              type: 'Consumer'
-              attribute: 'padec.attribute.Identity'
-              values:
-                - 124 # Friends
-                - 126
-                - 120
-                - 107
-                - 106
-                - 125
-                - 122
-              operator: 'padec.rule.operator.InOperator'
-            operator: 'padec.rule.operator.AndOperator'
-          operator: 'padec.rule.operator.AndOperator'
-
+            type: 'Consumer'
+            attribute: 'padec.attribute.Identity'
+            values:
+              - 124 # Friends
+              - 126
+              - 120
+              - 107
+              - 106
+              - 125
+              - 122
+            operator: 'padec.rule.operator.InOperator'
+        operator: 'padec.rule.operator.AndOperator'
